@@ -1,0 +1,799 @@
+❌ Incorrect or Invalid
+Q: Sarah, Mary, and Tuan decided to go to the restaurant for a meal. They decided to split the cost of the meal evenly. If the total price of the meal comes to $67 and they have a coupon for $4, how much does each person need to contribute to the bill?
+A_model:
+To find out how much each person needs to contribute to the bill, we first need to subtract the coupon amount from the total bill to get the actual amount they need to pay. 
+
+Total bill = $67
+Coupon amount = $4
+
+Actual amount to pay = Total bill - Coupon amount
+Actual amount to pay = $67 - $4
+Actual amount to pay = $63
+
+Since they decided to split the cost evenly among the three of them, we need to divide the actual amount to pay by 3 to find out how much each person needs to contribute.
+
+Each person's contribution = Actual amount to pay / Number of people
+Each person's contribution = $63 / 3
+Each person's contribution = $21
+
+Therefore, the answer is each person needs to contribute $21.
+Extracted:
+None
+A:
+21.0
+
+❌ Incorrect or Invalid
+Q: Jason has six fish in his aquarium. He realizes that every day the number of fish doubles. On the third day he takes out one-third of the fish. On the fifth day he takes out one-fourth of the fish. On the seventh day he adds 15 more fish. How many fish in total does he have?
+A_model:
+Let's break this down step by step:
+
+1. Jason starts with 6 fish.
+2. On the first day, the number of fish doubles to 6 * 2 = 12 fish.
+3. On the second day, the number of fish doubles again to 12 * 2 = 24 fish.
+4. On the third day, he takes out 1/3 of the fish, which is 24 / 3 = 8 fish remaining.
+5. On the fourth day, the number of fish doubles to 8 * 2 = 16 fish.
+6. On the fifth day, he takes out 1/4 of the fish, which is 16 / 4 = 4 fish remaining.
+7. On the sixth day, the number of fish doubles to 4 * 2 = 8 fish.
+8. On the seventh day, he adds 15 more fish, resulting in 8 + 15 = 23 fish.
+
+Therefore, the answer is 23.
+Extracted:
+23.0
+A:
+207.0
+
+❌ Incorrect or Invalid
+Q: The moon has a surface area that is 1/5 that of Earth. The surface area of the Earth is 200 square acres. The land on the moon is worth 6 times that of the land on the Earth. If the total value of all the land on the earth is 80 billion dollars, what is the total value in billions of all the land on the moon?
+A_model:
+First, we need to find the surface area of the moon. Since it is 1/5 of Earth's surface area, we can calculate it as 1/5 * 200 = 40 square acres.
+
+Next, we need to find the total value of all the land on the moon. We are given that the land on the moon is worth 6 times that of the land on Earth. So, the total value of the land on the moon is 6 * 80 = 480 billion dollars.
+
+Therefore, the answer is 480.
+Extracted:
+480.0
+A:
+96.0
+
+❌ Incorrect or Invalid
+Q: Hannah's AdBlock blocks all but 20% of ads, and 20% of the ads it doesn't block are actually interesting. What percentage of ads aren't interested and don't get blocked?
+A_model:
+To find the percentage of ads that aren't interesting and don't get blocked, we first need to find the percentage of ads that aren't blocked. Since Hannah's AdBlock blocks all but 20% of ads, the percentage of ads that aren't blocked is 100% - 20% = 80%. 
+
+Next, we need to find the percentage of ads that aren't interesting among the ads that aren't blocked. Since 20% of the ads that aren't blocked are interesting, the percentage of ads that aren't interesting among the ads that aren't blocked is 100% - 20% = 80%.
+
+Therefore, the percentage of ads that aren't interesting and don't get blocked is 80%. 
+
+The answer is 80.
+Extracted:
+80.0
+A:
+16.0
+
+❌ Incorrect or Invalid
+Q: Jeff committed to run for an hour a day during weekdays. On Thursday, he cut short his run by 20 minutes but was able to jog 10 minutes more on Friday. How many minutes was he able to run for that week?
+A_model:
+To find how many minutes Jeff ran for that week, we first calculate the total minutes he was supposed to run for the weekdays: 5 days * 1 hour/day = 5 hours = 5 * 60 minutes = 300 minutes.
+
+On Thursday, he ran for 60 minutes - 20 minutes = 40 minutes.
+On Friday, he ran for 60 minutes + 10 minutes = 70 minutes.
+
+Adding up the minutes he ran on Thursday and Friday: 40 minutes + 70 minutes = 110 minutes.
+
+Therefore, the answer is 110.
+Extracted:
+110.0
+A:
+290.0
+
+❌ Incorrect or Invalid
+Q: James spends 10 minutes downloading a game, half as long installing it, and triple that combined amount of time going through the tutorial. How long does it take before he can play the main game?
+A_model:
+First, we need to find out how long James spends installing the game. Since he spends half as long installing as he does downloading, he spends 10 / 2 = 5 minutes installing the game.
+Next, we need to find out how long James spends going through the tutorial. Since he spends triple the combined amount of time downloading and installing, he spends (10 + 5) * 3 = 45 minutes going through the tutorial.
+Finally, to find out how long it takes before he can play the main game, we need to add up the time spent downloading, installing, and going through the tutorial. So, the answer is 10 + 5 + 45 = 60 minutes.
+Extracted:
+10.0
+A:
+60.0
+
+❌ Incorrect or Invalid
+Q: After a trip, Mrs. Nalani took the students to the restaurant and told them they could order either a burger or a hot dog. If the number of students who ordered burgers was 30, twice the number of students who called for a hot dog, calculate the number of students at the restaurant.
+A_model:
+Let the number of students who ordered a hot dog be x. Since the number of students who ordered a burger was 30, we know that the number of students who ordered a hot dog is twice that, so 2x.
+
+The total number of students at the restaurant is the sum of students who ordered a burger and students who ordered a hot dog, so 30 + x + 2x = 30 + 3x.
+
+Therefore, the answer is 30 + 3x.
+Extracted:
+30.0
+A:
+45.0
+
+❌ Incorrect or Invalid
+Q: When Jayson is 10 his dad is four times his age and his mom is 2 years younger than his dad.  How old was Jayson's mom when he was born?
+A_model:
+Let's break it down step by step:
+
+1. When Jayson is 10, his dad is four times his age, so his dad is 10 x 4 = 40 years old.
+2. Jayson's mom is 2 years younger than his dad, so she is 40 - 2 = 38 years old.
+3. The age difference between Jayson's mom and dad is 40 - 38 = 2 years.
+4. When Jayson was born, his mom was 2 years younger, so she was 0 years old.
+
+Therefore, the answer is 0.
+Extracted:
+0.0
+A:
+28.0
+
+❌ Incorrect or Invalid
+Q: Chris wants to hold his breath underwater for 90 straight seconds so he starts training each day. On the first day, he holds it for 10 seconds. On the second day, he holds it for 20 seconds. On the third day, he holds it for 30 seconds. After realizing that he can hold it for ten extra seconds each day, he realizes he can calculate how many days it is until he reaches 90 if he keeps up the same pace. So how many days until he can hold his breath for 90 seconds?
+A_model:
+To find out how many days it will take for Chris to hold his breath for 90 seconds, we can set up an equation. Let's denote the number of days it will take as x.
+
+On the first day, he holds his breath for 10 seconds.
+On the second day, he holds his breath for 20 seconds.
+On the third day, he holds his breath for 30 seconds.
+
+This forms an arithmetic sequence with a common difference of 10. The formula for the nth term of an arithmetic sequence is given by: an = a1 + (n-1)d, where an is the nth term, a1 is the first term, n is the term number, and d is the common difference.
+
+We want to find the value of x when an = 90. So, we set up the equation:
+10 + (x-1) * 10 = 90
+
+Solving for x:
+10 + 10x - 10 = 90
+10x = 90
+x = 9
+
+Therefore, the answer is 9.
+Extracted:
+9.0
+A:
+6.0
+
+❌ Incorrect or Invalid
+Q: Uncle Jerry wants to reap ripe tomatoes from his garden. Yesterday, he was able to reap 120 tomatoes. Today, he was able to reap 50 more tomatoes than yesterday. How many tomatoes did Uncle Jerry reap?
+A_model:
+First, we need to find out how many tomatoes Uncle Jerry reaped today. Since he reaped 50 more tomatoes than yesterday, we add 120 (yesterday's harvest) + 50 = 170 tomatoes reaped today. Therefore, the answer is 170.
+Extracted:
+170.0
+A:
+290.0
+
+❌ Incorrect or Invalid
+Q: Faith is getting paid $13.50 per hour. She normally works 8 hours a day, 5 days a week, plus 2 hours of overtime per day. How much will she earn by the end of the week?
+A_model:
+Faith earns $13.50 per hour. She works 8 hours a day for 5 days a week, which totals 8 * 5 = 40 hours of regular work per week. She also works 2 hours of overtime per day, so that's 2 * 5 = 10 hours of overtime per week. In total, she works 40 + 10 = 50 hours per week.
+
+For her regular hours, she earns 40 hours * $13.50/hour = $540 per week.
+
+For her overtime hours, she earns 10 hours * $13.50/hour * 1.5 (overtime pay rate) = $202.50 per week.
+
+Therefore, the total amount she earns by the end of the week is $540 + $202.50 = $742.50. So, the answer is $742.50.
+Extracted:
+742.5
+A:
+675.0
+
+❌ Incorrect or Invalid
+Q: Cole wants to fence his backyard on three sides. His backyard is 9 feet along the sides and 18 feet along the back. The neighbor behind him agreed to pay for half of their shared side of his fence, and the neighbor on his left agreed to pay for a third of their shared side. Fencing costs $3 per foot. How much does Cole have to pay for the fence?
+A_model:
+To find out how much Cole has to pay for the fence, we need to calculate the total cost of fencing each side and then determine how much each neighbor will contribute.
+
+1. The total length of the three sides to be fenced is 9 feet (two sides) + 9 feet (one side) + 18 feet (one side) = 45 feet.
+
+2. The total cost of fencing all three sides is 45 feet * $3 per foot = $135.
+
+3. The neighbor behind him will pay for half of their shared side, which is 9 feet / 2 = 4.5 feet. So, the neighbor will contribute 4.5 feet * $3 per foot = $13.50.
+
+4. The neighbor on his left will pay for a third of their shared side, which is 9 feet / 3 = 3 feet. So, the neighbor will contribute 3 feet * $3 per foot = $9.
+
+5. Cole will pay the remaining cost, which is $135 - $13.50 - $9 = $112.50.
+
+Therefore, the answer is $112.50.
+Extracted:
+112.5
+A:
+72.0
+
+❌ Incorrect or Invalid
+Q: Bill's take-home salary is $40,000. He pays $2,000 in property taxes, $3,000 in sales taxes, and 10% of his gross salary in income taxes. What is Bill's gross salary?
+A_model:
+To find Bill's gross salary, we need to add up all the taxes he pays and then calculate the remaining percentage of his take-home salary.
+
+Total taxes paid = $2,000 (property taxes) + $3,000 (sales taxes) = $5,000
+
+Remaining after taxes = $40,000 (take-home salary) - $5,000 (total taxes paid) = $35,000
+
+Let x be Bill's gross salary.
+
+10% of x = 0.10x
+
+Equation: $35,000 = x - 0.10x
+$35,000 = 0.90x
+x = $35,000 / 0.90
+x = $38,888.89
+
+Therefore, the answer is $38,888.89.
+Extracted:
+38888.89
+A:
+50000.0
+
+❌ Incorrect or Invalid
+Q: Brad wanted to set up a lemonade stand to earn some money.  Every gallon of lemonade would yield 16 glasses.  He figured it would cost him $3.50 to make every gallon of lemonade.  He made 2 gallons to sell and decided he would sell each glass for $1.00  He drank 5 glasses while sitting in his stand.  He sold all but 6 glasses of lemonade.  How much net profit did Brad earn?
+A_model:
+To find Brad's net profit, we need to calculate his total revenue and total cost.
+
+1. Total cost:
+Brad made 2 gallons of lemonade, and each gallon cost $3.50 to make.
+Total cost = 2 gallons * $3.50/gallon = $7.00
+
+2. Total revenue:
+Each gallon yields 16 glasses, so 2 gallons yield 2 * 16 = 32 glasses.
+Brad sold all but 6 glasses, so he sold 32 - 6 = 26 glasses.
+Total revenue = 26 glasses * $1.00/glass = $26.00
+
+3. Net profit:
+Net profit = Total revenue - Total cost
+Net profit = $26.00 - $7.00 = $19.00
+
+Therefore, the answer is $19.00.
+Extracted:
+19.0
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: Lizzy had $30. She loaned out $15 to her friend. How much will Lizzy have if her friend returned the money with an interest of 20%?
+A_model:
+First, we need to calculate the interest Lizzy's friend will pay on the loan. The interest on $15 at a rate of 20% is 15 * 0.20 = $3.
+
+When her friend returns the money, Lizzy will receive the original $15 loaned plus the $3 interest, so she will have 15 + 3 = $18.
+
+Therefore, the answer is 18.
+Extracted:
+18.0
+A:
+33.0
+
+❌ Incorrect or Invalid
+Q: Joe sells ham and cheese sandwiches for $1.50. If a slice of bread costs $0.15, a slice of ham costs $0.25 and a slice of cheese costs $0.35, how many cents does a sandwich with one slice of each protein cost Joe to make?
+A_model:
+To find the cost of making a sandwich with one slice of each protein, we need to add up the cost of each ingredient. 
+
+The cost of one slice of bread is $0.15, one slice of ham is $0.25, and one slice of cheese is $0.35. 
+
+Adding these costs together gives us: $0.15 + $0.25 + $0.35 = $0.75.
+
+To convert this to cents, we multiply by 100: $0.75 * 100 = 75 cents.
+
+Therefore, the answer is 75.
+Extracted:
+75.0
+A:
+90.0
+
+❌ Incorrect or Invalid
+Q: Peter knows that the distance an airplane travels between Spain and Russia is 7019 km, while the distance between Spain and Germany is 1615 km. Peter took a flight from Spain, which made a stopover in Germany, while being there, he receives a call from his brother asking him how many kilometers he has to fly to get to Russia and then return to Spain.  What will Peter answer?
+A_model:
+To find the total distance Peter will fly to get to Russia and then return to Spain, we need to add the distance from Spain to Russia and back to Spain via Germany.
+
+Distance from Spain to Russia and back to Spain via Germany:
+= (Distance from Spain to Russia) + (Distance from Russia to Spain via Germany)
+= 7019 km + 1615 km
+= 8634 km
+
+Therefore, the answer is 8634 km.
+Extracted:
+8634.0
+A:
+12423.0
+
+❌ Incorrect or Invalid
+Q: John assembles computers and sells prebuilt computers as a business. The parts for the computer cost $800.  He sells the computers for 1.4 times the value of the components.  He manages to build 60 computers a month.  He has to pay $5000 a month in rent and another $3000 in non-rent extra expenses a month.  How much profit does he make a month?
+A_model:
+To find John's profit per month, we need to calculate his total revenue and subtract his total expenses.
+
+1. Total revenue:
+- John sells each computer for 1.4 times the cost of the components, which is 1.4 * $800 = $1120 per computer.
+- If he builds 60 computers a month, his total revenue from selling computers is 60 * $1120 = $67,200.
+
+2. Total expenses:
+- John's total monthly expenses are $5000 for rent + $3000 for non-rent expenses = $8000.
+
+3. Profit:
+- To find John's profit, we subtract his total expenses from his total revenue: $67,200 - $8000 = $59,200.
+
+Therefore, the answer is $59,200.
+Extracted:
+59200.0
+A:
+11200.0
+
+❌ Incorrect or Invalid
+Q: Valerie needs to put stamps on the envelopes she is about to mail. She has thank you cards for each of her grandmother, uncle and aunt for the birthday presents they sent. She also has to pay the water bill and the electric bill separately. She wants to send three more mail-in rebates than she does bills and she has twice as many job applications as rebates to mail. How many stamps does she need if everything needs 1 stamp except the electric bill, which needs 2?
+A_model:
+To find out how many stamps Valerie needs, we need to break down the items she needs to mail:
+
+1. Thank you cards for grandmother, uncle, and aunt: 3 cards
+2. Water bill: 1 bill
+3. Electric bill: 1 bill (but needs 2 stamps)
+4. Mail-in rebates: 3 more than bills, so 1 + 3 = 4 rebates
+5. Job applications: Twice as many as rebates, so 4 x 2 = 8 applications
+
+Adding all the items together:
+3 (thank you cards) + 1 (water bill) + 1 (electric bill) + 4 (rebates) + 8 (job applications) = 17 items
+
+Since each item needs 1 stamp, except the electric bill which needs 2 stamps, the total number of stamps needed is:
+17 (total items) - 1 (electric bill) + 2 (extra stamp for electric bill) = 18 stamps
+
+Therefore, the answer is 18.
+Extracted:
+18.0
+A:
+21.0
+
+❌ Incorrect or Invalid
+Q: Matthew asked his children how many hotdogs they wanted for dinner.  Both Ella and Emma agreed they wanted 2 hotdogs each.  Luke said he could eat twice the amount of hotdogs as his sisters while Hunter said he could only eat 1 and half times the total amount of his sisters.  How many hotdogs did Matthew need to cook?
+A_model:
+Let's break it down step by step:
+
+1. Ella and Emma each want 2 hotdogs, so that's 2 + 2 = 4 hotdogs.
+2. Luke wants twice the amount of hotdogs as his sisters, so he wants 2 * 2 = 4 hotdogs.
+3. Hunter wants 1.5 times the total amount of his sisters, so he wants 1.5 * 4 = 6 hotdogs.
+
+Adding up all the hotdogs, Matthew needs to cook 4 (Ella) + 4 (Emma) + 4 (Luke) + 6 (Hunter) = 18 hotdogs.
+
+Therefore, the answer is 18.
+Extracted:
+18.0
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: Layla and Nahima were playing a game where Layla won with 70 points. If The total number of points scored was 112, how many more points did Layla score than Nahima?
+A_model:
+We know that Layla won with 70 points and the total number of points scored was 112. To find out how many more points Layla scored than Nahima, we need to subtract Nahima's points from Layla's points. 
+
+70 (Layla's points) - x (Nahima's points) = 112 (total points)
+70 - x = 112
+x = 70 - 112
+x = -42
+
+Therefore, Layla scored 42 more points than Nahima. The answer is 42.
+Extracted:
+42.0
+A:
+28.0
+
+❌ Incorrect or Invalid
+Q: A club with 30 members ordered fruit juices. Two-fifths of them ordered lemon juice. One-third of the remaining members ordered mango juice, and the rest ordered orange juice. How many members ordered orange juice?
+A_model:
+Step 1: Calculate the number of members who ordered lemon juice.
+30 members * 2/5 = 12 members ordered lemon juice.
+
+Step 2: Calculate the number of remaining members.
+30 members - 12 members = 18 members remaining.
+
+Step 3: Calculate the number of members who ordered mango juice.
+18 members * 1/3 = 6 members ordered mango juice.
+
+Step 4: Calculate the number of members who ordered orange juice.
+18 members - 6 members = 12 members ordered orange juice.
+
+The answer is 12.
+Extracted:
+12.0
+A:
+6.0
+
+❌ Incorrect or Invalid
+Q: Dan owns an ice cream shop and every sixth customer gets a free ice cream cone. Cones cost $2 each. If he sold $100 worth of cones, how many free ones did he give away?
+A_model:
+To find the number of free ice cream cones Dan gave away, we first need to determine the total number of ice cream cones sold. Since each cone costs $2 and he sold $100 worth of cones, the total number of cones sold is $100 / $2 = 50 cones. 
+
+Next, we need to find how many of these 50 cones were given away for free. Every sixth customer gets a free cone, so we need to divide the total number of cones sold by 6 to find the number of free cones given away. 
+
+50 cones / 6 = 8.3333...
+
+Since Dan can't give away a fraction of a cone, we round down to the nearest whole number. Therefore, the answer is 8.
+Extracted:
+8.0
+A:
+10.0
+
+❌ Incorrect or Invalid
+Q: A garden is filled with 105 flowers of various colors. There are twice as many red flowers as orange. There are five fewer yellow flowers than red. If there are 10 orange flowers, how many pink and purple flowers are there if they have the same amount and there are no other colors?
+A_model:
+Step 1: We know there are 10 orange flowers. Since there are twice as many red flowers as orange, there are 2 * 10 = 20 red flowers.
+Step 2: There are five fewer yellow flowers than red, so there are 20 - 5 = 15 yellow flowers.
+Step 3: We add up the number of each color of flowers: 10 orange + 20 red + 15 yellow = 45 flowers.
+Step 4: Since there are 105 flowers in total, the remaining flowers must be pink and purple. So, 105 total flowers - 45 accounted for flowers = 60 pink and purple flowers.
+Therefore, the answer is 60.
+Extracted:
+60.0
+A:
+30.0
+
+❌ Incorrect or Invalid
+Q: A cleaning company produces two sanitizer sprays. One spray kills 50% of germs, and another spray kills 25% of germs. However, 5% of the germs they kill are the same ones. What percentage of germs would be left after using both sanitizer sprays together?
+A_model:
+To find the percentage of germs left after using both sanitizer sprays together, we need to consider the germs that are killed by both sprays. 
+
+Let's assume there are 100 germs initially. 
+- The first spray kills 50% of germs, leaving 50 germs.
+- The second spray kills 25% of germs, leaving 75% of germs, which is 25 germs.
+- However, 5% of the germs killed by the second spray are the same as the ones killed by the first spray. So, we need to subtract this overlap once from the total.
+
+Therefore, the total number of germs left after using both sanitizer sprays together is 50 + 25 - 5 = 70 germs.
+
+So, the answer is 70%.
+Extracted:
+70.0
+A:
+30.0
+
+❌ Incorrect or Invalid
+Q: Adam's father deposited $2000 in the bank. It receives 8% interest paid throughout the year, and he withdraws the interest as soon as it is deposited.  How much will Adam’s father have, including his deposit and the interest received after 2 and a half years?
+A_model:
+To calculate the total amount Adam's father will have after 2 and a half years, we need to consider the interest earned on the initial deposit.
+
+Step 1: Calculate the interest earned in the first year.
+Interest = Principal amount × Rate of interest
+Interest = $2000 × 8% = $2000 × 0.08 = $160
+
+Step 2: Calculate the total amount after the first year.
+Total amount after 1 year = Principal amount + Interest
+Total amount after 1 year = $2000 + $160 = $2160
+
+Step 3: Calculate the interest earned in the second year.
+Interest = Total amount after 1 year × Rate of interest
+Interest = $2160 × 8% = $2160 × 0.08 = $172.80
+
+Step 4: Calculate the total amount after the second year.
+Total amount after 2 years = Total amount after 1 year + Interest
+Total amount after 2 years = $2160 + $172.80 = $2332.80
+
+Step 5: Calculate the interest earned in the half year.
+Interest = Total amount after 2 years × Rate of interest
+Interest = $2332.80 × 8% = $2332.80 × 0.08 = $186.624
+
+Step 6: Calculate the total amount after 2 and a half years.
+Total amount after 2 and a half years = Total amount after 2 years + Interest
+Total amount after 2 and a half years = $2332.80 + $186.624 = $2519.424
+
+Therefore, the answer is $2519.42.
+Extracted:
+2519.42
+A:
+2400.0
+
+❌ Incorrect or Invalid
+Q: Will's mom gave him $74 to go shopping. He bought a sweater for $9, a T-shirt for $11 and a pair of shoes for $30. He then returned his shoes for a 90% refund.  How much money does Will have left?
+A_model:
+Step 1: Calculate the total amount spent.
+$9 (sweater) + $11 (T-shirt) + $30 (shoes) = $50
+
+Step 2: Calculate the refund amount for the shoes.
+90% of $30 = 0.90 * $30 = $27
+
+Step 3: Calculate the total amount spent after the refund.
+$50 (total spent) - $30 (refund) = $20
+
+Step 4: Calculate the total amount Will has left.
+$74 (initial amount) - $20 (total spent after refund) = $54
+
+The answer is $54.
+Extracted:
+54.0
+A:
+51.0
+
+❌ Incorrect or Invalid
+Q: Rachel is an artist. She posts a speed painting video each week on her Instagram account to promote her work. To save time, she paints and records 4 videos at a time. It takes her about 1 hour to set up her painting supplies and her camera. Then she records herself painting for 1 hour per painting. She takes another 1 hour to clean up. Each video takes 1.5 hours to edit and post. How long does it take Rachel to produce a speed painting video?
+A_model:
+To produce a speed painting video, Rachel goes through the following steps:
+1. Setting up painting supplies and camera: 1 hour
+2. Painting and recording for 1 hour per painting (4 paintings): 4 hours
+3. Cleaning up: 1 hour
+4. Editing and posting each video: 1.5 hours per video
+
+Adding up the time for each step:
+1 + 4 + 1 + (4 * 1.5) = 1 + 4 + 1 + 6 = 12
+
+Therefore, the answer is 12 hours.
+Extracted:
+12.0
+A:
+3.0
+
+❌ Incorrect or Invalid
+Q: A truck driver has to spend $2 per gallon of gas. She can drive 10 miles per gallon. She drives at a rate of 30 miles per hour. If she is paid $.50 per mile, how much money does she make if she drives for 10 hours?
+A_model:
+First, let's find out how many gallons of gas the truck driver will need for 10 hours of driving. Since she drives at a rate of 30 miles per hour, in 10 hours she will drive 30 miles/hour * 10 hours = 300 miles.
+
+Since she can drive 10 miles per gallon, she will need 300 miles / 10 miles per gallon = 30 gallons of gas.
+
+At $2 per gallon, she will spend 30 gallons * $2/gallon = $60 on gas.
+
+Now, let's calculate how much money she makes for driving for 10 hours. She is paid $0.50 per mile, and she drove 300 miles, so she makes 300 miles * $0.50/mile = $150.
+
+Therefore, the answer is $150 - $60 = $90.
+Extracted:
+150.0
+A:
+90.0
+
+❌ Incorrect or Invalid
+Q: A shop is offering a discount on pens. If you buy 10 pens at the regular price, you can get the next 10 for half off. A customer came in and bought 20 pens for $30. What's the regular price of one pen in dollars?
+A_model:
+To find the regular price of one pen, we first need to determine the total cost of the 20 pens at the discounted price. The customer bought 20 pens for $30, which means each pen cost $30/20 = $1.50. Since the second set of 10 pens were half off, the regular price of one pen is $1.50 x 2 = $3. Therefore, the answer is $3.
+Extracted:
+3.0
+A:
+2.0
+
+❌ Incorrect or Invalid
+Q: In 5 years, Nacho will be three times older than Divya. If Divya is currently 5 years old, what's the sum of their ages now?
+A_model:
+To find the sum of their ages now, we first need to determine Nacho's age in 5 years. Since in 5 years Nacho will be three times older than Divya, we can set up the equation: Nacho's age in 5 years = 3 * (Divya's age in 5 years). 
+
+If Divya is currently 5 years old, in 5 years she will be 5 + 5 = 10 years old. 
+
+Therefore, Nacho's age in 5 years = 3 * 10 = 30 years old. 
+
+To find Nacho's current age, we subtract 5 years from his age in 5 years: Nacho's current age = 30 - 5 = 25 years old. 
+
+The sum of their ages now is: 25 (Nacho's age) + 5 (Divya's age) = 30. 
+
+So, the answer is 30.
+Extracted:
+30.0
+A:
+40.0
+
+❌ Incorrect or Invalid
+Q: A small pizza has 6 slices, a medium pizza has 8 slices whereas a large pizza has 12 slices. How many slices of pizza will you have if you bought a total of 15 pizzas and you know you ordered 4 small pizzas and 5 medium pizzas?
+A_model:
+To find the total number of slices of pizza, we first need to calculate the number of slices from the small and medium pizzas. 
+
+4 small pizzas * 6 slices per small pizza = 24 slices from small pizzas
+5 medium pizzas * 8 slices per medium pizza = 40 slices from medium pizzas
+
+Now, we add the slices from the small and medium pizzas to find the total number of slices:
+24 slices from small pizzas + 40 slices from medium pizzas = 64 slices
+
+Therefore, if you bought a total of 15 pizzas, including 4 small pizzas and 5 medium pizzas, you will have 64 slices of pizza. The answer is 64.
+Extracted:
+64.0
+A:
+136.0
+
+❌ Incorrect or Invalid
+Q: A zoo has 16 pandas, paired into mates (in the same zoo). Only 25% of the panda couples get pregnant after mating. If they each have one baby, how many panda babies are born?
+A_model:
+Q: A zoo has 16 pandas, paired into mates. Only 25% of the panda couples get pregnant after mating. If they each have one baby, how many panda babies are born?
+A: First, we need to find how many panda couples get pregnant. 25% of 16 is (25/100) * 16 = 4. So, 4 panda couples get pregnant. Since each couple has one baby, the total number of panda babies born is 4 * 1 = 4. Therefore, the answer is 4.
+Extracted:
+4.0
+A:
+2.0
+
+❌ Incorrect or Invalid
+Q: A flagpole is 12 feet tall. It breaks, folding over in half, such that what was the tip of the flagpole is now dangling two feet above the ground. How far from the base, in feet, did the flagpole break?
+A_model:
+To find how far from the base the flagpole broke, we need to consider that the flagpole broke in half. This means that the top half of the flagpole, which was originally 12 feet tall, is now hanging 2 feet above the ground. 
+
+So, the length of the top half of the flagpole that is now hanging is 12 feet - 2 feet = 10 feet.
+
+Since the top half of the flagpole is now hanging from the break point, the break point is located halfway along the original height of the flagpole. Therefore, the break point is 10 feet / 2 = 5 feet from the base.
+
+The answer is 5.
+Extracted:
+5.0
+A:
+7.0
+
+❌ Incorrect or Invalid
+Q: While at Wizards Park, Kate buys 3 magic wands, one for herself and two for her friends. When she returns she sells the wands to her friends for $5 more than she paid. If she collected $130 after the sale, how much money did each wand cost?
+A_model:
+Let the cost of one wand be x dollars.
+
+Kate bought 3 wands, so she spent 3x dollars.
+
+She sold the wands for $5 more than she paid, so each wand was sold for x + 5 dollars.
+
+She collected $130 after the sale, so 3(x + 5) = 130.
+
+Expanding the left side of the equation, we get 3x + 15 = 130.
+
+Subtracting 15 from both sides, we get 3x = 115.
+
+Dividing by 3, we find x = 38.33.
+
+Therefore, the cost of each wand was $38.33. So, the answer is 38.33.
+Extracted:
+38.33
+A:
+60.0
+
+❌ Incorrect or Invalid
+Q: Mary brought 50 stickers to class. She gave 4 stickers to each of her 5 friends. She gave everyone else in class two stickers each. If she has 8 stickers left over, how many students are in the class, including Mary?
+A_model:
+First, we need to find out how many stickers Mary gave to her friends. She gave 4 stickers to each of her 5 friends, so she gave away 4 * 5 = 20 stickers in total. 
+
+Next, we need to find out how many stickers she gave to everyone else in the class. She gave 2 stickers to each student in the class, including herself, so she gave away 2 * (5 + 1) = 12 stickers in total.
+
+Now, we can find out how many stickers Mary had at the beginning. She brought 50 stickers to class, gave away 20 to her friends, 12 to everyone else, and has 8 left over. So, she had 50 - 20 - 12 - 8 = 10 stickers for herself.
+
+Since Mary is included in the count of students in the class, the total number of students in the class, including Mary, is 1 (Mary) + 5 (friends) + 10 (everyone else) = 16.
+
+Therefore, the answer is 16.
+Extracted:
+16.0
+A:
+17.0
+
+❌ Incorrect or Invalid
+Q: Scarlet saved $80 to spend on jewelry. She bought a pair of earrings that cost $23. Then, she bought a necklace that cost $48. How much of her savings have left?
+A_model:
+The answer is $80 - $23 - $48 = $9.
+Extracted:
+80.0
+A:
+9.0
+
+❌ Incorrect or Invalid
+Q: If you buy 2 packs of 500 mL milk, it will cost $2.50. If you buy them individually, they will cost $1.30 each. How much is your total savings from buying ten sets of 2 packs of 500 mL milk?
+A_model:
+To find the total savings from buying ten sets of 2 packs of 500 mL milk, we first need to calculate the cost of buying them in packs and individually.
+
+- Cost of 2 packs of 500 mL milk: $2.50
+- Cost of 1 pack of 500 mL milk when bought individually: $1.30
+
+Savings per 2 packs = Cost of 2 packs - 2 * Cost of 1 pack
+Savings per 2 packs = $2.50 - 2 * $1.30
+Savings per 2 packs = $2.50 - $2.60
+Savings per 2 packs = $0.20
+
+Total savings from buying ten sets of 2 packs:
+Total savings = 10 sets * 2 packs/set * $0.20/pack
+Total savings = 20 * $0.20
+Total savings = $4.00
+
+Therefore, the answer is $4.00.
+Extracted:
+4.0
+A:
+1.0
+
+❌ Incorrect or Invalid
+Q: Each week Carina puts 20 more seashells in a jar than she did the week before. If there are 50 seashells in the jar this week, how many will there be in a month?
+A_model:
+To find out how many seashells will be in the jar in a month, we need to calculate the number of seashells Carina puts in the jar each week.
+
+Let's denote the number of seashells Carina puts in the jar this week as x. According to the given information, she puts 20 more seashells in the jar each week. So, the number of seashells she puts in the jar next week will be x + 20.
+
+Given that there are 50 seashells in the jar this week, we can set up the following equation:
+x + (x + 20) + (x + 40) + (x + 60) = 50
+
+Solving this equation:
+4x + 120 = 50
+4x = 50 - 120
+4x = -70
+x = -70 / 4
+x = -17.5
+
+Since the number of seashells cannot be negative, there seems to be an error in the question or the calculations.
+Extracted:
+None
+A:
+130.0
+
+❌ Incorrect or Invalid
+Q: Justin needs to read at least 100 pages or more of his book in one week to pass his class. He has read 10 pages already on the first day. Assuming he reads twice the amount of pages as the first day each day in the remaining 6 days, how many pages will he have read after the week is over?
+A_model:
+To find out how many pages Justin will have read after the week is over, we need to calculate the total number of pages he will read each day for the remaining 6 days.
+
+On the first day, Justin read 10 pages.
+
+On the second day, he will read twice the amount of pages as the first day, which is 10 * 2 = 20 pages.
+
+On the third day, he will read 20 * 2 = 40 pages.
+
+On the fourth day, he will read 40 * 2 = 80 pages.
+
+On the fifth day, he will read 80 * 2 = 160 pages.
+
+On the sixth day, he will read 160 * 2 = 320 pages.
+
+Adding up the pages he read each day: 10 + 20 + 40 + 80 + 160 + 320 = 630 pages.
+
+Therefore, the answer is 630.
+Extracted:
+630.0
+A:
+130.0
+
+❌ Incorrect or Invalid
+Q: At peak hours, 11 am - 1 pm and 5 pm - 6 pm, the local fast-food restaurant serves 12 cars every 15 minutes.  Off-peak times, they serve 8 cars every 15 minutes.  From 4 pm - 6 pm, how many customers do they serve?
+A_model:
+To find the total number of customers served from 4 pm to 6 pm, we need to calculate the number of customers served during peak hours and off-peak hours separately and then add them together.
+
+During peak hours (11 am - 1 pm and 5 pm - 6 pm):
+- 2 hours = 120 minutes
+- 120 minutes / 15 minutes per car = 8 sets of 15 minutes
+- 8 sets * 12 cars per set = 96 cars served during peak hours
+
+During off-peak hours (4 pm - 5 pm):
+- 1 hour = 60 minutes
+- 60 minutes / 15 minutes per car = 4 sets of 15 minutes
+- 4 sets * 8 cars per set = 32 cars served during off-peak hours
+
+Total customers served from 4 pm to 6 pm:
+96 cars during peak hours + 32 cars during off-peak hours = 128 cars served from 4 pm to 6 pm
+
+Therefore, the answer is 128.
+Extracted:
+128.0
+A:
+80.0
+
+❌ Incorrect or Invalid
+Q: In the post-apocalyptic wasteland, 1 lizard is worth 8 bottle caps, 3 lizards are worth 5 gallons of water, and 1 horse is worth 80 gallons of water. Marla can scavenge for 20 bottle caps each day, but needs to pay 4 bottle caps per night for food and shelter. How many days does it take Marla to collect all the bottlecaps she needs to buy a horse?
+A_model:
+First, we need to find out how many bottle caps Marla needs to buy a horse. Since 1 horse is worth 80 gallons of water, and 3 lizards are worth 5 gallons of water, we can say that 1 horse is worth 3 * 8 = 24 lizards. Therefore, 1 horse is worth 24 * 8 = 192 bottle caps.
+
+Next, we need to find out how many bottle caps Marla can collect in a day. She can scavenge for 20 bottle caps each day, but she needs to pay 4 bottle caps per night for food and shelter. So, she can collect 20 - 4 = 16 bottle caps per day.
+
+To find out how many days it will take Marla to collect 192 bottle caps, we need to divide the total number of bottle caps needed by the number of bottle caps she can collect per day: 192 / 16 = 12.
+
+Therefore, the answer is 12.
+Extracted:
+12.0
+A:
+24.0
+
+❌ Incorrect or Invalid
+Q: One batch of cookies requires 4 cups of flour and 1.5 cups of sugar. How many cups of flour and sugar combined would be needed for 8 batches?
+A_model:
+To find the total cups of flour and sugar needed for 8 batches of cookies, we first calculate the total cups of flour and sugar needed for one batch:
+- Flour: 4 cups
+- Sugar: 1.5 cups
+
+For 8 batches:
+- Flour: 4 cups/batch * 8 batches = 32 cups
+- Sugar: 1.5 cups/batch * 8 batches = 12 cups
+
+Therefore, the total cups of flour and sugar combined needed for 8 batches is 32 cups of flour and 12 cups of sugar. The answer is 32 cups of flour and 12 cups of sugar.
+Extracted:
+32.0
+A:
+44.0
+
+❌ Incorrect or Invalid
+Q: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?
+A_model:
+First, let's calculate how much money Tobias saved up in total from his allowance over the past three months. He gets $5 allowance per month, so in three months, he saved up 3 * $5 = $15.
+
+Next, let's calculate how much Tobias earned from mowing lawns. He mowed 4 lawns at $15 each, so he earned 4 * $15 = $60.
+
+Now, let's calculate how much Tobias earned from shoveling driveways. Let the number of driveways he shoveled be x. He charges $7 per driveway, so he earned $7x.
+
+In total, Tobias earned $15 (allowance) + $60 (mowing lawns) + $7x (shoveling driveways) = $15 (change after buying shoes).
+
+Now, let's solve for x:
+$15 + $60 + $7x = $15
+$75 + $7x = $15
+$7x = $15 - $75
+$7x = -$60
+x = -$60 / $7
+x = -8.57
+
+Since the number of driveways shoveled cannot be a fraction, we can conclude that Tobias did not shovel any driveways. Therefore, the answer is 0.
+Extracted:
+0.0
+A:
+5.0
+

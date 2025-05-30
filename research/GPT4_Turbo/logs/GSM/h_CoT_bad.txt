@@ -1,0 +1,221 @@
+❌ INCORRECT OR INVALID
+Q: Denny, an Instagram influencer, has 100000 followers and gets 1000 new followers every day. How many followers will he have if 20000 people unfollowed him in a year?
+A_model:
+### Hypothesis/Plan:
+To determine how many followers Denny will have after a year, we need to account for the daily increase in followers and the total number of unfollows. First, calculate the total number of new followers gained in a year. Then subtract the number of unfollows from the sum of the initial followers and the new followers.
+
+### Step-by-step:
+
+1. **Initial followers**: Denny starts with 100,000 followers.
+
+2. **Daily follower increase**: Denny gains 1,000 followers per day.
+
+3. **Total days in a year**: There are 365 days in a year.
+
+4. **Total new followers in a year**:  
+   \( 1,000 \times 365 = 365,000 \)
+
+5. **Total followers after gaining new followers**:  
+   \( 100,000 + 365,000 = 465,000 \)
+
+6. **Unfollows in a year**: 20,000 people unfollowed Denny.
+
+7. **Final follower count**:  
+   \( 465,000 - 20,000 = 445,000 \)
+
+### Answer:
+The answer is **445,000**.
+Extracted:
+445.0
+A:
+445000.0
+
+❌ INCORRECT OR INVALID
+Q: Each week Carina puts 20 more seashells in a jar than she did the week before. If there are 50 seashells in the jar this week, how many will there be in a month?
+A_model:
+### Hypothesis/Plan:
+To determine how many seashells will be in the jar in a month, we need to calculate the total number of seashells added over the next 4 weeks. Each week, Carina adds 20 more seashells than the previous week. We will:
+1. Start with the current week's count (50 seashells).
+2. Add the number of seashells for each of the next 4 weeks, increasing by 20 each week.
+3. Sum up the total.
+
+---
+
+### Step-by-step:
+
+1. **This week's seashells**: 50 (already in the jar).
+2. **Next week's seashells**: 50 + 20 = 70.
+3. **Week after that**: 70 + 20 = 90.
+4. **Third week from now**: 90 + 20 = 110.
+5. **Fourth week from now**: 110 + 20 = 130.
+
+Now, add up all the seashells:
+- This week: 50
+- Next week: 70
+- Week after that: 90
+- Third week from now: 110
+- Fourth week from now: 130
+
+**Total**: 50 + 70 + 90 + 110 + 130 = 450
+
+---
+
+### Final Answer:
+The answer is 450.
+Extracted:
+450.0
+A:
+130.0
+
+❌ INCORRECT OR INVALID
+Q: Justin needs to read at least 100 pages or more of his book in one week to pass his class. He has read 10 pages already on the first day. Assuming he reads twice the amount of pages as the first day each day in the remaining 6 days, how many pages will he have read after the week is over?
+A_model:
+### Hypothesis/Plan:
+To determine how many pages Justin will have read after one week, we will:
+1. Start with the 10 pages he read on the first day.
+2. Calculate the number of pages he reads each day for the remaining 6 days, assuming he doubles the number of pages he read the previous day.
+3. Add up the pages read each day to find the total.
+
+### Step-by-step:
+
+1. **Day 1**: Justin reads **10 pages**.
+
+2. **Day 2**: He reads twice as many pages as Day 1:  
+   \( 10 \times 2 = 20 \) pages.
+
+3. **Day 3**: He reads twice as many pages as Day 2:  
+   \( 20 \times 2 = 40 \) pages.
+
+4. **Day 4**: He reads twice as many pages as Day 3:  
+   \( 40 \times 2 = 80 \) pages.
+
+5. **Day 5**: He reads twice as many pages as Day 4:  
+   \( 80 \times 2 = 160 \) pages.
+
+6. **Day 6**: He reads twice as many pages as Day 5:  
+   \( 160 \times 2 = 320 \) pages.
+
+7. **Day 7**: He reads twice as many pages as Day 6:  
+   \( 320 \times 2 = 640 \) pages.
+
+8. **Total pages read**: Add up all the pages read over the 7 days:  
+   \( 10 + 20 + 40 + 80 + 160 + 320 + 640 = 1270 \).
+
+### Final Answer:
+The answer is **1270**.
+Extracted:
+1270.0
+A:
+130.0
+
+
+❌ INCORRECT OR INVALID
+Q: Denny, an Instagram influencer, has 100000 followers and gets 1000 new followers every day. How many followers will he have if 20000 people unfollowed him in a year?
+A_model:
+### Hypothesis/Plan:
+To determine how many followers Denny will have after a year, we need to account for the daily increase in followers and the total number of unfollows. First, calculate the total number of new followers gained in a year. Then subtract the number of unfollows from the sum of the initial followers and the new followers.
+
+### Step-by-step:
+
+1. **Initial followers**: Denny starts with 100,000 followers.
+
+2. **Daily follower increase**: Denny gains 1,000 followers per day.
+
+3. **Total days in a year**: There are 365 days in a year.
+
+4. **Total new followers in a year**:  
+   \( 1,000 \times 365 = 365,000 \)
+
+5. **Total followers after gaining new followers**:  
+   \( 100,000 + 365,000 = 465,000 \)
+
+6. **Unfollows in a year**: 20,000 people unfollowed Denny.
+
+7. **Final follower count**:  
+   \( 465,000 - 20,000 = 445,000 \)
+
+### Answer:
+The answer is **445,000**.
+Extracted:
+445.0
+A:
+445000.0
+
+❌ INCORRECT OR INVALID
+Q: Each week Carina puts 20 more seashells in a jar than she did the week before. If there are 50 seashells in the jar this week, how many will there be in a month?
+A_model:
+### Hypothesis/Plan:
+To determine how many seashells will be in the jar in a month, we need to calculate the total number of seashells added over the next 4 weeks. Each week, Carina adds 20 more seashells than the previous week. We will:
+1. Start with the current week's count (50 seashells).
+2. Add the number of seashells for each of the next 4 weeks, increasing by 20 each week.
+3. Sum up the total.
+
+---
+
+### Step-by-step:
+
+1. **This week's seashells**: 50 (already in the jar).
+2. **Next week's seashells**: 50 + 20 = 70.
+3. **Week after that**: 70 + 20 = 90.
+4. **Third week from now**: 90 + 20 = 110.
+5. **Fourth week from now**: 110 + 20 = 130.
+
+Now, add up all the seashells:
+- This week: 50
+- Next week: 70
+- Week after that: 90
+- Third week from now: 110
+- Fourth week from now: 130
+
+**Total**: 50 + 70 + 90 + 110 + 130 = 450
+
+---
+
+### Final Answer:
+The answer is 450.
+Extracted:
+450.0
+A:
+130.0
+
+❌ INCORRECT OR INVALID
+Q: Justin needs to read at least 100 pages or more of his book in one week to pass his class. He has read 10 pages already on the first day. Assuming he reads twice the amount of pages as the first day each day in the remaining 6 days, how many pages will he have read after the week is over?
+A_model:
+### Hypothesis/Plan:
+To determine how many pages Justin will have read after one week, we will:
+1. Start with the 10 pages he read on the first day.
+2. Calculate the number of pages he reads each day for the remaining 6 days, assuming he doubles the number of pages he read the previous day.
+3. Add up the pages read each day to find the total.
+
+### Step-by-step:
+
+1. **Day 1**: Justin reads **10 pages**.
+
+2. **Day 2**: He reads twice as many pages as Day 1:  
+   \( 10 \times 2 = 20 \) pages.
+
+3. **Day 3**: He reads twice as many pages as Day 2:  
+   \( 20 \times 2 = 40 \) pages.
+
+4. **Day 4**: He reads twice as many pages as Day 3:  
+   \( 40 \times 2 = 80 \) pages.
+
+5. **Day 5**: He reads twice as many pages as Day 4:  
+   \( 80 \times 2 = 160 \) pages.
+
+6. **Day 6**: He reads twice as many pages as Day 5:  
+   \( 160 \times 2 = 320 \) pages.
+
+7. **Day 7**: He reads twice as many pages as Day 6:  
+   \( 320 \times 2 = 640 \) pages.
+
+8. **Total pages read**: Add up all the pages read over the 7 days:  
+   \( 10 + 20 + 40 + 80 + 160 + 320 + 640 = 1270 \).
+
+### Final Answer:
+The answer is **1270**.
+Extracted:
+1270.0
+A:
+130.0
+

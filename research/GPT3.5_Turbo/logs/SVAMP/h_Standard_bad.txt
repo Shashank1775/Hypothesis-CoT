@@ -1,0 +1,583 @@
+❌ INCORRECT OR INVALID
+Q: A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?
+A_model:
+Hypothesis/Plan: To find the total number of bottles, we will add the number of regular soda bottles and diet soda bottles.
+
+Regular soda bottles = 30
+
+Diet soda bottles = 8
+
+Total bottles = 30 + 8 = 38
+
+Apples = 41
+
+Total items = 38 (soda bottles) + 41 (apples) = 79
+
+Answer: the answer is 79
+Extracted:
+79.0
+A:
+38.0
+
+❌ INCORRECT OR INVALID
+Q: Matthew had 22 crackers and 34 cakes. If Matthew gave equal numbers of crackers and cakes to his 11 friends How many crackers did each person eat?
+A_model:
+Hypothesis/Plan: To find out how many crackers each person ate, we first need to find the total number of items Matthew had, then divide that by the number of friends he shared with.
+
+Total items = 22 crackers + 34 cakes = 56 items
+Total friends = 11
+
+Each person ate = 56 items / 11 friends = 5.0909
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+2.0
+
+❌ INCORRECT OR INVALID
+Q: Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?
+A_model:
+Hypothesis/Plan: To find the number of groups that can be created, we will divide the total number of items by 3, as each group contains 3 items.
+
+Total items = 99 (bananas) + 9 (eggs) + 27 (marbles) = 135
+
+Number of groups = 135 / 3 = 45
+
+Answer: the answer is 45
+Extracted:
+45.0
+A:
+3.0
+
+❌ INCORRECT OR INVALID
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?
+A_model:
+Hypothesis/Plan: To find the number of days it will take to fill 240 drums of grapes, we will first calculate how many drums of grapes are filled in one day by 36 pickers. Then, we will divide the total number of drums needed by the daily production rate to find the number of days required.
+
+Drums filled per day by 36 pickers = 36 * 8 = 288 drums
+
+Number of days to fill 240 drums = 240 / 288 = 0.8333 days
+
+Answer: the answer is 0.8333
+Extracted:
+0.8333
+A:
+30.0
+
+❌ INCORRECT OR INVALID
+Q: Paco had 40 sweet cookies and 25 salty cookies. He ate 28 salty cookies and 15 sweet cookies. How many more salty cookies than sweet cookies did he eat?
+A_model:
+Hypothesis/Plan: First, calculate how many sweet and salty cookies Paco has left after eating some. Then, find the difference between the number of salty cookies eaten and the number of sweet cookies eaten.
+
+Sweet cookies left = 40 - 15 = 25
+Salty cookies left = 25 - 28 = -3 (Paco can't have negative cookies, so we assume he has 0 salty cookies left)
+
+Difference = 0 - 15 = -15 (Again, we can't have negative cookies, so we assume the difference is 0)
+
+Answer: the answer is 0
+Extracted:
+0.0
+A:
+13.0
+
+❌ INCORRECT OR INVALID
+Q: Jake has 3 fewer peaches than Steven who has 8 more peaches than Jill. Steven has 5 peaches. How many more peaches does Jake have than Jill?
+A_model:
+Hypothesis/Plan: Let's first find out how many peaches Jill has by subtracting 8 from Steven's 5 peaches. Then, we can find out how many peaches Jake has by subtracting 3 from Steven's peaches. Finally, we can find the difference in the number of peaches between Jake and Jill.
+
+Jill's peaches = 5 - 8 = -3 (This means Jill has -3 peaches, which is not possible in this context)
+
+Therefore, the question is flawed and cannot be answered accurately.
+Extracted:
+None
+A:
+5.0
+
+❌ INCORRECT OR INVALID
+Q: Every day Ryan spends 7 hours on learning english and some more hours on learning chinese. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning chinese?
+A_model:
+Hypothesis/Plan: Let's denote the hours Ryan spends on learning Chinese as x. Since he spends 2 hours more on learning English than on learning Chinese, the hours spent on learning English would be x + 2. The total hours spent on learning English and Chinese is 7 hours. Therefore, the equation would be x + (x + 2) = 7.
+
+Solving the equation:
+2x + 2 = 7
+2x = 5
+x = 2.5
+
+Answer: the answer is 2.5
+Extracted:
+2.5
+A:
+5.0
+
+❌ INCORRECT OR INVALID
+Q: There were 5 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 12 roses and 2 orchids in the vase. How many more roses than orchids are there in the vase now?
+A_model:
+Hypothesis/Plan: Let x be the number of roses added and y be the number of orchids added. We can create a system of equations based on the given information:
+
+Initial roses: 5
+Initial orchids: 3
+
+After adding x roses and y orchids:
+Total roses: 5 + x
+Total orchids: 3 + y
+
+Given that there are now 12 roses and 2 orchids:
+5 + x = 12
+3 + y = 2
+
+Solving the system of equations:
+x = 12 - 5 = 7
+y = 2 - 3 = -1
+
+Since the number of orchids cannot be negative, we made an error in our calculations. Let's correct it:
+
+After adding x roses and y orchids:
+Total roses: 5 + x
+Total orchids: 3 + y
+
+Given that there are now 12 roses and 2 orchids:
+5 + x = 12
+3 + y = 2
+
+Solving the system of equations:
+x = 12 - 5 = 7
+y = 3 - 2 = 1
+
+The number of roses added is 7 and the number of orchids added is 1. Therefore, there are 6 more roses than orchids in the vase now.
+
+The answer is 6
+Extracted:
+6.0
+A:
+10.0
+
+❌ INCORRECT OR INVALID
+Q: The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game How much money did they make from selling the t-shirts?
+A_model:
+Hypothesis/Plan: To find the total amount of money made from selling t-shirts, we will first calculate the number of t-shirts sold during the Texas Tech game by subtracting the number sold during the Arkansas game from the total. Then, we will multiply the total number of t-shirts sold by the profit made per t-shirt.
+
+T-shirts sold during Texas Tech game = Total t-shirts sold - T-shirts sold during Arkansas game
+T-shirts sold during Texas Tech game = 95 - 47 = 48
+
+Total money made = (T-shirts sold during Arkansas game x profit per t-shirt) + (T-shirts sold during Texas Tech game x profit per t-shirt)
+Total money made = (47 x $87) + (48 x $87)
+Total money made = $4095 + $4176
+Total money made = $8271
+
+Answer: the answer is $8271
+Extracted:
+8271.0
+A:
+8265.0
+
+❌ INCORRECT OR INVALID
+Q: Robin has 43 packages of gum. There are 23 pieces in each package. Robin has 8 extra pieces of gum. How many pieces of gum does Robin have?
+A_model:
+Hypothesis/Plan: To find the total number of gum pieces Robin has, we will multiply the number of packages by the number of pieces in each package and then add the extra pieces.
+
+Total pieces = (43 * 23) + 8
+
+Answer: the answer is 989
+Extracted:
+989.0
+A:
+997.0
+
+❌ INCORRECT OR INVALID
+Q: Paul got a box of 601 crayons and 406 erasers for his birthday. At the end of the school year he only had 336 crayons left while not having lost a single eraser. How many more erasers than crayons did he have left?
+A_model:
+Hypothesis/Plan: First, we calculate how many crayons Paul used by subtracting the crayons left from the total crayons received. Then, we compare the number of erasers left to the number of crayons left to find the difference.
+
+Crayons used = 601 - 336 = 265
+Erasers left = 406
+
+Difference = 406 - 265 = 141
+
+Answer: the answer is 141
+Extracted:
+141.0
+A:
+70.0
+
+❌ INCORRECT OR INVALID
+Q: Mary is baking a cake. The recipe calls for 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. If she still needs 5 more cups of flour than sugar How many cups of flour did she put in?
+A_model:
+Hypothesis/Plan: Let's denote the cups of sugar as S and the cups of flour as F. According to the problem, F = S + 5. The recipe calls for 3 cups of sugar and 10 cups of flour. Since she still needs 5 more cups of flour than sugar, we can set up the following equations:
+
+S = 3
+F = 10
+F = S + 5
+
+Substitute the value of S from the first equation into the third equation:
+10 = 3 + 5
+10 = 8
+
+Therefore, Mary put in 8 cups of flour.
+
+the answer is 8
+Extracted:
+8.0
+A:
+2.0
+
+❌ INCORRECT OR INVALID
+Q: Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection. How many more bottle caps than wrappers did danny find at the park?
+A_model:
+Hypothesis/Plan: To find how many more bottle caps than wrappers Danny found at the park, we will subtract the number of bottle caps and wrappers he currently has in his collection from the total number he found at the park.
+
+Total bottle caps found = 50
+Total wrappers found = 46
+
+Bottle caps in collection = 21
+Wrappers in collection = 52
+
+Difference in bottle caps = 50 - 21 = 29
+Difference in wrappers = 46 - 52 = -6
+
+Danny found 29 more bottle caps than wrappers at the park.
+
+The answer is 29
+Extracted:
+29.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: Baker made 157 cakes and 169 pastries. If he sold 158 cakes and 147 pastries How many more cakes than pastries did baker sell?
+A_model:
+Hypothesis/Plan: To find how many more cakes than pastries Baker sold, we will subtract the number of pastries sold from the number of cakes sold.
+
+Cakes sold = 157 - 158 = -1
+Pastries sold = 169 - 147 = 22
+
+Baker sold 1 more pastry than cakes.
+
+The answer is 1
+Extracted:
+1.0
+A:
+11.0
+
+❌ INCORRECT OR INVALID
+Q: Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?
+A_model:
+Hypothesis/Plan: Let's denote the cups of flour Mary has already put in as x. According to the information given, she needs 8 more cups of flour than sugar. So, the amount of flour needed is x + 8, and the amount of sugar needed is x. The recipe calls for 6 cups of flour and 13 cups of sugar. Therefore, we can set up the equation: x + 8 = 6 and x = 13. Solving this system of equations will give us the value of x, which represents the cups of flour Mary has already put in. Then, we can find the difference between the amount of flour needed and the amount already put in to determine how many more cups of flour she needs to add.
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+21.0
+
+❌ INCORRECT OR INVALID
+Q: Lewis earns $ 28 every week during the 1091 weeks of harvest. He also earns $ 939 per week for working overtime. If he works overtime every week How much money does he earn during harvest season?
+A_model:
+Hypothesis/Plan: To find the total amount of money Lewis earns during the harvest season, we will calculate the total earnings from his regular pay and overtime pay over the 1091 weeks.
+
+Regular pay per week = $28
+Overtime pay per week = $939
+
+Total earnings per week = $28 + $939 = $967
+
+Total earnings during harvest season = $967 * 1091 weeks
+
+Answer: the answer is $1,055,997
+Extracted:
+1055997.0
+A:
+1054997.0
+
+❌ INCORRECT OR INVALID
+Q: We ordered 17 pizzas. Each pizza has 4 slices. If there are 25 of us How many slices of pizza are there altogether?
+A_model:
+Hypothesis/Plan: To find the total number of pizza slices, we will multiply the number of pizzas by the number of slices per pizza, and then multiply by the number of people.
+
+Number of pizzas = 17
+
+Slices per pizza = 4
+
+Number of people = 25
+
+Total slices = 17 * 4 * 25 = 1700
+
+Answer: the answer is 1700
+Extracted:
+1700.0
+A:
+68.0
+
+❌ INCORRECT OR INVALID
+Q: Paul had 71 books. After selling some in a garage sale he bought 38 new ones. If he has 116 books now How many more books did he buy than he sold?
+A_model:
+Hypothesis/Plan: First, we need to find out how many books Paul had after the garage sale. Then, we will subtract this number from the total number of books he has now to determine how many more books he bought than he sold.
+
+Books after garage sale = 71 - x (books sold) + 38 (books bought) = 116
+
+71 - x + 38 = 116
+
+107 - x = 116
+
+-x = 9
+
+x = 9
+
+Answer: the answer is 9
+Extracted:
+9.0
+A:
+45.0
+
+❌ INCORRECT OR INVALID
+Q: After eating a hearty meal they went to see the Buckingham palace. There were 71 paintings in the Buckingham palace. There, Rachel learned that 557 visitors came to the Buckingham palace that day. If there were 188 visitors the previous day How many visited the Buckingham palace within 57 days?
+A_model:
+Hypothesis/Plan: To find the total number of visitors to the Buckingham palace within 57 days, we will first calculate the total number of visitors on the current day and the previous day. Then, we will multiply the total number of visitors by 57 days.
+
+Total visitors on the current day = 557
+Total visitors on the previous day = 188
+
+Total visitors in 1 day = 557 + 188 = 745
+
+Total visitors in 57 days = 745 * 57 = 42,465
+
+Answer: the answer is 42,465
+Extracted:
+42465.0
+A:
+745.0
+
+❌ INCORRECT OR INVALID
+Q: Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?
+A_model:
+Hypothesis/Plan: To find how much more Marco's strawberries weighed than his dad's, we will subtract his dad's strawberries' weight from Marco's strawberries' weight.
+
+Marco's strawberries = 19 pounds
+
+Dad's strawberries = 4 pounds
+
+Difference = 19 - 4 = 15 pounds
+
+Answer: the answer is 15
+Extracted:
+15.0
+A:
+34.0
+
+❌ INCORRECT OR INVALID
+Q: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+A_model:
+Hypothesis/Plan: To find how many chapters Frank read per day, we will first calculate the total number of pages in the book and then divide it by the number of days it took him to finish the book.
+
+Total pages in the book = 2 chapters * 405 pages = 810 pages
+
+Chapters read per day = Total pages / Days taken = 810 pages / 664 days ≈ 1.22 chapters per day
+
+Answer: the answer is 1.22
+Extracted:
+1.22
+A:
+332.0
+
+❌ INCORRECT OR INVALID
+Q: Tiffany was collecting cans for recycling. On monday she had some bags of cans. The next day she found 4 more bags worth of cans. If she had a total of 8 bags altogether How many bags did she have on monday?
+A_model:
+Hypothesis/Plan: Let's denote the number of bags Tiffany had on Monday as x. On the next day, she found 4 more bags, so the total number of bags became x + 4. The total number of bags she had altogether is 8. Therefore, we can set up the equation x + (x + 4) = 8 and solve for x.
+
+x + x + 4 = 8
+2x + 4 = 8
+2x = 4
+x = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: For Gwen's birthday she received 8 dollars from her mom. Her dad gave her 5 more dollars. If she spent 4 dollars. How much more money did she receive from her mom than she did from her dad?
+A_model:
+Hypothesis/Plan: To find out how much more money Gwen received from her mom than from her dad, we will first calculate the total amount of money she received from each parent and then find the difference.
+
+Money from mom = $8
+Money from dad = $8 + $5 = $13
+Total money received from mom = $8
+Total money received from dad = $13
+
+Difference = $8 - $13 = -$5
+
+Answer: the answer is $5
+Extracted:
+5.0
+A:
+3.0
+
+❌ INCORRECT OR INVALID
+Q: The ring toss game at the carnival made the same amount of money each day. In total in 30 days they earned 420 dollars. Together with game they earned 22 dollars. How much did ring toss game make per day?
+A_model:
+Hypothesis/Plan: Let x be the amount of money the ring toss game made per day. The total amount made by the ring toss game in 30 days is 30x. We can set up the equation: 30x + 22 = 420. 
+
+Solving for x:
+30x + 22 = 420
+30x = 398
+x = 398 / 30
+x = 13.27
+
+Answer: the answer is 13.27
+Extracted:
+13.27
+A:
+14.0
+
+❌ INCORRECT OR INVALID
+Q: A book has 2 chapters across 23 pages. The first chapter is 10 pages long. How many pages are in the first chapter?
+A_model:
+Hypothesis/Plan: To find the number of pages in the first chapter, we will subtract the number of pages in the second chapter from the total number of pages in the book.
+
+Total pages = 2 chapters * 23 pages = 46 pages
+
+Number of pages in the first chapter = Total pages - Number of pages in the second chapter
+Number of pages in the first chapter = 46 - 23 = 23
+
+Answer: the answer is 23
+Extracted:
+23.0
+A:
+13.0
+
+❌ INCORRECT OR INVALID
+Q: The Razorback shop makes $ 86 dollars off each t-shirt and $ 232 off each jersey. During the Arkansas and Texas tech game they sold 254 t-shirts and 43 jerseys. How much more does a jersey cost than a t-shirt?
+A_model:
+Hypothesis/Plan: To find out how much more a jersey costs than a t-shirt, we will first calculate the total revenue from selling t-shirts and jerseys separately. Then, we will find the difference in revenue between the two.
+
+Revenue from t-shirts = $86 * 254 = $21844
+Revenue from jerseys = $232 * 43 = $9976
+
+Difference in revenue = $9976 - $21844 = $11868
+
+The answer is $11868
+Extracted:
+11868.0
+A:
+146.0
+
+❌ INCORRECT OR INVALID
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+A_model:
+Hypothesis/Plan: To find the total number of drums of grapes filled in 146 days, we first need to find the number of drums of grapes filled per day by each picker. Then, we multiply this by the number of pickers and the number of days.
+
+Drums of grapes filled per day by each picker = 244
+Total number of pickers = 294
+Number of days = 146
+
+Total drums of grapes filled in 1 day = 244 * 294
+Total drums of grapes filled in 146 days = 244 * 294 * 146
+
+Answer: the answer is 1059984
+Extracted:
+1059984.0
+A:
+35624.0
+
+❌ INCORRECT OR INVALID
+Q: Baker made 81 cakes. Then he made 92 more cakes. He sold 46 of them. How many more cakes did baker make than those he sold?
+A_model:
+Hypothesis/Plan: To find how many more cakes Baker made than those he sold, we will first calculate the total number of cakes made, then subtract the number of cakes sold.
+
+Total cakes made = 81 + 92 = 173
+
+Cakes left after selling = 173 - 46 = 127
+
+Difference = 127 - 46 = 81
+
+Answer: the answer is 81
+Extracted:
+81.0
+A:
+127.0
+
+❌ INCORRECT OR INVALID
+Q: The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?
+A_model:
+Hypothesis/Plan: Let x be the distance the frog jumped. Since the grasshopper jumped 4 inches farther than the frog, the grasshopper's jump distance is x + 4. The total distance they jumped altogether is the sum of their jump distances.
+
+Total distance = x + (x + 4) = 2x + 4
+
+Given that the grasshopper jumped 35 inches, we can set up the equation:
+
+35 = 2x + 4
+
+Solving for x:
+
+2x = 35 - 4
+2x = 31
+x = 31 / 2
+x = 15.5
+
+Therefore, the frog jumped 15.5 inches.
+
+The total distance they jumped altogether is:
+
+Total distance = 2(15.5) + 4
+Total distance = 31 + 4
+Total distance = 35
+
+Answer: the answer is 35
+Extracted:
+35.0
+A:
+66.0
+
+❌ INCORRECT OR INVALID
+Q: White t - shirts can be purchased in packages. If mom buys 28 packages which contain 56 white t - shirts in total How many white t - shirts does each package have?
+A_model:
+Hypothesis/Plan: To find out how many white t-shirts are in each package, we will divide the total number of white t-shirts by the number of packages purchased.
+
+Total white t-shirts = 28 packages * 56 t-shirts per package = 1568 t-shirts
+
+Each package has: 1568 t-shirts / 28 packages = 56 t-shirts
+
+Answer: the answer is 56
+Extracted:
+56.0
+A:
+2.0
+
+❌ INCORRECT OR INVALID
+Q: There were 7 roses in the vase. Jessica cut some more roses from her flower garden which had a total of 59 roses. There are now 20 roses in the vase. How many roses did she cut?
+A_model:
+Hypothesis/Plan: To find out how many roses Jessica cut, we will subtract the total number of roses in the vase after cutting from the initial number of roses in the vase.
+
+Initial roses in the vase = 7
+
+Total roses in the garden = 59
+
+Roses in the vase after cutting = 20
+
+Roses cut = (7 + x) - 20 = 59
+7 + x = 59 + 20
+x = 59 + 20 - 7
+x = 72
+
+Answer: the answer is 72
+Extracted:
+72.0
+A:
+13.0
+
+❌ INCORRECT OR INVALID
+Q: Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?
+A_model:
+Hypothesis/Plan: Let's denote the number of marbles Doug has as D. We know that Ed had 12 more marbles than Doug, so Ed had D + 12 marbles. After losing 20 marbles, Ed had 17 marbles. Therefore, we can set up the equation D + 12 - 20 = 17 and solve for D.
+
+D + 12 - 20 = 17
+D - 8 = 17
+D = 17 + 8
+D = 25
+
+Answer: the answer is 25
+Extracted:
+25.0
+A:
+5.0
+

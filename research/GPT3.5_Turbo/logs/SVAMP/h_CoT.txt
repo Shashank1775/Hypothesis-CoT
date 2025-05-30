@@ -1,0 +1,3115 @@
+Q: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 19 chocolate chip cookies yesterday and 231 raisin cookies and 237 chocolate chip cookies this morning. How many more chocolate chip cookies than raisin cakes did Helen bake?
+A_model:
+Hypothesis/Plan: To find the difference in the number of chocolate chip cookies and raisin cookies baked by Helen, we will subtract the number of raisin cookies from the number of chocolate chip cookies.
+
+Step-by-step:
+
+Chocolate chip cookies baked yesterday = 19
+Chocolate chip cookies baked this morning = 237
+Total chocolate chip cookies = 19 + 237 = 256
+
+Raisin cookies baked this morning = 231
+
+Difference = 256 - 231 = 25
+
+Answer: the answer is 25
+Extracted:
+25.0
+A:
+25.0
+
+Q: 3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?
+A_model:
+Hypothesis/Plan: To find out how many more storks than birds are sitting on the fence, we first calculate the total number of birds and storks, then find the difference between the number of storks and birds.
+
+Step-by-step:
+
+Initial birds = 3
+Additional birds = 2
+Total birds = 3 + 2 = 5
+
+Initial storks = 0
+Additional storks = 6
+Total storks = 0 + 6 = 6
+
+Difference = Total storks - Total birds = 6 - 5 = 1
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: Paco had 12 cookies. He ate 16 cookies and gave 21 of them to his friend. How many more cookies did he give to his friend than those he ate?
+A_model:
+Hypothesis/Plan: To find how many more cookies Paco gave to his friend than those he ate, we will first calculate the total number of cookies given away and then find the difference between the cookies given to his friend and those he ate.
+
+Step-by-step:
+
+Total cookies = 12 (initial)
+
+Cookies eaten = 16
+
+Cookies given to friend = 21
+
+Total given away = 16 + 21 = 37
+
+Difference = 21 - 16 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Julia played tag with some kids on monday. She played tag with 14 kids on tuesday. If she played with a total of 16 kids How many kids did she play with on monday?
+A_model:
+Hypothesis/Plan: To find out how many kids Julia played with on Monday, we will subtract the number of kids she played with on Tuesday from the total number of kids she played with.
+
+Step-by-step:
+
+Total kids played with = 16
+
+Kids played with on Tuesday = 14
+
+Kids played with on Monday = 16 - 14 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Allan brought 5 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many balloons did Allan bring to the park?
+A_model:
+Hypothesis/Plan: To find the total number of balloons Allan brought to the park, we will add the balloons he initially brought and the additional balloons he bought at the park.
+
+Step-by-step:
+
+Allan's initial balloons = 5
+
+Jake's balloons = 4
+
+Allan's additional balloons = 3
+
+Total balloons Allan brought = 5 + 3 = 8
+
+Answer: the answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q: At the arcade Dave had won 18 tickets. If he used 5 to buy some toys and 11 more to buy some clothes How many tickets did Dave have left?
+A_model:
+Hypothesis/Plan: To find the total number of tickets Dave has left, we will subtract the tickets used to buy toys and clothes from the initial number of tickets won.
+
+Step-by-step:
+
+Initial tickets won = 18
+
+Tickets used to buy toys = 5
+
+Tickets used to buy clothes = 11
+
+Total tickets left = 18 - 5 - 11 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices How many pizzas did we order?
+A_model:
+Hypothesis/Plan: To find the number of pizzas ordered, we will divide the total number of slices by the number of slices per pizza (2).
+
+Step-by-step:
+
+Total slices = 28
+
+Slices per pizza = 2
+
+Number of pizzas = 28 / 2 = 14
+
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: If you have 14 cookies in total and 7 bags having equal number of cookies How many cookies does each bag have?
+A_model:
+Hypothesis/Plan: To find out how many cookies are in each bag, we will divide the total number of cookies by the number of bags.
+
+Step-by-step:
+
+Total cookies = 14
+
+Number of bags = 7
+
+Cookies per bag = Total cookies / Number of bags = 14 / 7 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Bryan took a look at his books and magazines. If he has 27 books and 80 magazines in each of his 23 bookshelves How many books does he have in total?
+A_model:
+Hypothesis/Plan: To find the total number of books Bryan has, we will multiply the number of books in each bookshelf by the total number of bookshelves.
+Step-by-step:
+
+Books per bookshelf = 27
+
+Number of bookshelves = 23
+
+Total books = 27 * 23 = 621
+Answer: the answer is 621
+Extracted:
+621.0
+A:
+621.0
+
+Q: There are 141 pots. Each pot has 71 flowers and 91 sticks in it. How many flowers are there in all?
+A_model:
+Hypothesis/Plan: To find the total number of flowers, we will multiply the number of pots by the number of flowers in each pot.
+
+Step-by-step:
+
+Number of pots = 141
+
+Number of flowers in each pot = 71
+
+Total number of flowers = 141 * 71 = 10011
+
+Answer: the answer is 10011
+Extracted:
+10011.0
+A:
+10011.0
+
+Q: Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?
+A_model:
+Hypothesis/Plan: To find the cost of the candy bar, we will subtract the amount Dan had left from the amount he had at the start.
+
+Step-by-step:
+
+Amount Dan had at the start = $4
+
+Amount Dan had left after buying the candy bar = $3
+
+Cost of the candy bar = $4 - $3 = $1
+
+Answer: the answer is $1
+Extracted:
+1.0
+A:
+1.0
+
+Q: A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?
+A_model:
+Hypothesis/Plan: To find the total number of bottles the grocery store had, we will add the number of regular soda bottles and diet soda bottles.
+Step-by-step:
+
+Regular soda bottles = 30
+
+Diet soda bottles = 8
+
+Total bottles = 30 + 8 = 38
+Answer: the answer is 38
+Extracted:
+38.0
+A:
+38.0
+
+Q: Jessica cut some roses from her flower garden to put in her vase. There are now 19 roses in the vase. If there were 3 roses in the vase initially How many roses did she cut?
+A_model:
+Hypothesis/Plan: To find out how many roses Jessica cut, we will subtract the initial number of roses in the vase from the current number of roses in the vase.
+
+Step-by-step:
+
+Initial roses in the vase = 3
+
+Current roses in the vase = 19
+
+Roses cut = 19 - 3 = 16
+
+Answer: the answer is 16
+Extracted:
+16.0
+A:
+16.0
+
+Q: He then went to see the oranges being harvested. He found out that they harvest 41 sacks of unripe oranges and 86 sacks of ripe oranges per day. How many more sacks of ripe oranges than unripe oranges are harvested per day?
+A_model:
+Hypothesis/Plan: To find the difference in the number of ripe and unripe oranges harvested per day, we will subtract the number of unripe oranges from the number of ripe oranges.
+
+Step-by-step:
+
+Unripe oranges = 41 sacks
+
+Ripe oranges = 86 sacks
+
+Difference = 86 - 41 = 45
+
+Answer: the answer is 45
+Extracted:
+45.0
+A:
+45.0
+
+Q: Allan brought 2 balloons and Jake brought 3 balloons to the park. How many more balloons did Jake have than Allan in the park?
+A_model:
+Hypothesis/Plan: To find how many more balloons Jake had than Allan, we will subtract the number of balloons Allan brought from the number Jake brought.
+
+Step-by-step:
+
+Balloons Allan brought = 2
+
+Balloons Jake brought = 3
+
+Difference = 3 - 2 = 1
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: Baker made 61 pastries and 167 cakes. If he sold 108 cakes and 44 pastries How many cakes would baker still have?
+A_model:
+Hypothesis/Plan: To find the number of cakes Baker would still have, we will subtract the cakes and pastries he sold from the total number of cakes he made.
+
+Step-by-step:
+
+Total cakes = 167
+
+Total pastries = 61
+
+Cakes sold = 108
+
+Pastries sold = 44
+
+Remaining cakes = Total cakes - Cakes sold = 167 - 108 = 59
+
+Answer: the answer is 59
+Extracted:
+59.0
+A:
+59.0
+
+Q: Matthew had 8 crackers to give to friends. If Matthew gave 2 crackers to each his friends How many friends did he give crackers to?
+A_model:
+Hypothesis/Plan: To find the number of friends Matthew gave crackers to, we will divide the total number of crackers by the number of crackers given to each friend.
+
+Step-by-step:
+
+Total crackers = 8
+
+Crackers given to each friend = 2
+
+Number of friends = 8 / 2 = 4
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Matthew had 22 crackers and 34 cakes. If Matthew gave equal numbers of crackers and cakes to his 11 friends How many crackers did each person eat?
+A_model:
+Hypothesis/Plan: To find out how many crackers each person ate, we need to divide the total number of crackers by the number of friends Matthew has.
+
+Step-by-step:
+
+Total crackers = 22
+Total friends = 11
+
+Number of crackers each person ate = 22 / 11 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Josh lost 11 marbles. If he had 19 marbles in his collection earlier How many marbles does he have now?
+A_model:
+Hypothesis/Plan: To find the number of marbles Josh has now, we will subtract the marbles he lost from the marbles he had earlier.
+
+Step-by-step:
+
+Marbles earlier = 19
+
+Marbles lost = 11
+
+Marbles now = 19 - 11 = 8
+
+Answer: the answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q: At the zoo, a cage had snakes and alligators. The total number of animals in the cage was 79. If 24 snakes and 51 alligators were hiding How many animals were not hiding in all?
+A_model:
+Hypothesis/Plan: To find the number of animals not hiding, we will subtract the number of hiding snakes and alligators from the total number of animals in the cage.
+
+Step-by-step:
+
+Total animals = 79
+Hiding snakes = 24
+Hiding alligators = 51
+
+Animals not hiding = Total animals - Hiding snakes - Hiding alligators
+Animals not hiding = 79 - 24 - 51 = 4
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: After Jessie started to go jogging everyday she lost 126 kilograms. She currently weighs 66 kilograms. How much did she weigh before starting to jog?
+A_model:
+Hypothesis/Plan: To find out how much Jessie weighed before starting to jog, we will add the weight she lost to her current weight.
+
+Step-by-step:
+
+Weight lost = 126 kg
+
+Current weight = 66 kg
+
+Weight before jogging = Current weight + Weight lost = 66 + 126 = 192 kg
+
+Answer: the answer is 192 kg
+Extracted:
+192.0
+A:
+192.0
+
+Q: Josh had 19 marbles in his collection. He lost 11 marbles and found 5 new ones. How many marbles does he have now?
+A_model:
+Hypothesis/Plan: To find the total number of marbles Josh has now, we will first subtract the marbles he lost and then add the marbles he found.
+
+Step-by-step:
+
+Initial marbles = 19
+
+Marbles lost = 11
+
+Marbles found = 5
+
+Marbles after loss = 19 - 11 = 8
+
+Marbles after finding = 8 + 5 = 13
+
+Answer: the answer is 13
+Extracted:
+13.0
+A:
+13.0
+
+Q: Jesse's room is 19 feet wide and 20 feet long. How much longer is her room than it is wide?
+A_model:
+Hypothesis/Plan: To find how much longer Jesse's room is than it is wide, we will subtract the width from the length.
+
+Step-by-step:
+
+Width = 19 feet
+Length = 20 feet
+
+Difference = 20 - 19 = 1 foot
+
+Answer: the answer is 1 foot
+Extracted:
+1.0
+A:
+1.0
+
+Q: Rachel had to complete 11 pages of math homework, 2 pages of reading homework and 3 more pages of biology homework. How many more pages of math homework than biology homework did she have?
+A_model:
+Hypothesis/Plan: To find how many more pages of math homework Rachel had than biology homework, we will first calculate the total pages of math and biology homework, then find the difference between the two.
+
+Step-by-step:
+
+Math homework = 11 pages
+Reading homework = 2 pages
+Biology homework = 3 pages
+
+Total math homework = 11 pages
+Total biology homework = 3 pages
+
+Difference = 11 - 3 = 8
+
+Answer: the answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q: Dave had 17 apps and 21 files on his phone. After deleting some apps and files he had 3 apps and 7 files left. How many files did he delete?
+A_model:
+Hypothesis/Plan: To find out how many files Dave deleted, we will subtract the number of files he has left from the total number of files he had initially.
+
+Step-by-step:
+
+Total files = 21
+
+Remaining files = 7
+
+Deleted files = 21 - 7 = 14
+
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: Robin has 28 packages of gum and 13 packages of candy. There are 4 pieces in each package. How many pieces of gum does Robin have?
+A_model:
+Hypothesis/Plan: To find the total number of gum pieces Robin has, we will first calculate the total number of gum packages and then multiply it by the number of pieces in each package.
+
+Step-by-step:
+
+Total gum packages = 28
+
+Total gum pieces = 28 packages * 4 pieces per package = 112 pieces
+
+Answer: the answer is 112
+Extracted:
+112.0
+A:
+112.0
+
+Q: Randy has 37 blocks. He uses 33 blocks to build a tower and 13 blocks to build a house. How many more blocks did he use to build the tower than he did to build the house?
+A_model:
+Hypothesis/Plan: To find the difference in the number of blocks used to build the tower and the house, we will subtract the number of blocks used for the house from the number of blocks used for the tower.
+
+Step-by-step:
+
+Total blocks = 37
+
+Blocks used for the tower = 33
+
+Blocks used for the house = 13
+
+Blocks used for the tower - Blocks used for the house = 33 - 13 = 20
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+20.0
+
+Q: Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?
+A_model:
+Hypothesis/Plan: To find out how many Nintendo games Kelly needs to give away, we will subtract the desired number of Nintendo games from the total number of Nintendo games she currently has.
+
+Step-by-step:
+
+Total Nintendo games = 20
+Desired number of Nintendo games = 12
+
+Nintendo games to give away = 20 - 12 = 8
+
+Answer: the answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q: Zachary did 44 push-ups and 17 crunches in gym class today. David did 29 more push-ups but 13 less crunches than zachary. How many crunches did David do?
+A_model:
+Hypothesis/Plan: To find the number of crunches David did, we will first calculate the number of push-ups and crunches he did compared to Zachary, then adjust based on the given information.
+
+Step-by-step:
+
+Zachary's push-ups = 44
+David's push-ups = Zachary's push-ups + 29 = 44 + 29 = 73
+
+Zachary's crunches = 17
+David's crunches = Zachary's crunches - 13 = 17 - 13 = 4
+
+Therefore, the answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q: Mary is baking a cake. The recipe calls for 11 cups of sugar and some more cups of flour. She already put in 3 cups of flour. If she still needs to add 6 more cups of flour How many cups of flour did the recipe require?
+A_model:
+Hypothesis/Plan: To find the total cups of flour required by the recipe, we will add the cups of flour already added to the cups of flour still needed.
+
+Step-by-step:
+
+Cups of sugar = 11
+
+Cups of flour already added = 3
+
+Cups of flour still needed = 6
+
+Total cups of flour required = 3 + 6 = 9
+
+Answer: the answer is 9
+Extracted:
+9.0
+A:
+9.0
+
+Q: Jackie has 10 apples. Adam has 8 apples. How many more apples does Jackie have than Adam?
+A_model:
+Hypothesis/Plan: To find how many more apples Jackie has than Adam, subtract the number of apples Adam has from the number of apples Jackie has.
+
+Step-by-step:
+
+Jackie's apples = 10
+
+Adam's apples = 8
+
+Difference = 10 - 8 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?
+A_model:
+Hypothesis/Plan: To find the total number of cakes the baker still has, we will first subtract the cakes sold from the total made, then add the additional cakes made.
+Step-by-step:
+
+Total cakes made = 110
+
+Cakes sold = 75
+
+Cakes remaining after selling = 110 - 75 = 35
+
+Additional cakes made = 76
+
+Total cakes remaining = 35 + 76 = 111
+Answer: the answer is 111
+Extracted:
+111.0
+A:
+111.0
+
+Q: Julia played tag with a total of 18 kids. She played with 4 kids on monday and yet with some more kids on tuesday. How many kids did she play with on tuesday?
+A_model:
+Hypothesis/Plan: To find out how many kids Julia played with on Tuesday, we will subtract the number of kids she played with on Monday from the total number of kids she played with.
+
+Step-by-step:
+
+Total kids = 18
+
+Kids played with on Monday = 4
+
+Kids played with on Tuesday = Total kids - Kids played with on Monday
+Kids played with on Tuesday = 18 - 4 = 14
+
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?
+A_model:
+Hypothesis/Plan: First, find the number of cards Nell gave to Jeff by subtracting the number of cards she has now from the number she had initially. Then, add this number to Jeff's initial number of cards to find how many cards Jeff has now.
+
+Step-by-step:
+
+Nell's initial cards = 566
+Jeff's initial cards = 234
+Nell's remaining cards = 535
+
+Cards given to Jeff = 566 - 535 = 31
+Jeff's current cards = 234 + 31 = 265
+
+Answer: the answer is 265
+Extracted:
+265.0
+A:
+265.0
+
+Q: He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?
+A_model:
+Hypothesis/Plan: To find the total number of oranges harvested after 87 days, we will first find the total number of oranges harvested per day, then multiply it by the number of days.
+Step-by-step:
+
+Oranges per sack = 25
+Sacks harvested per day = 66
+
+Oranges harvested per day = 25 * 66 = 1650
+
+Total oranges after 87 days = 1650 * 87 = 143,550
+Answer: the answer is 143,550
+Extracted:
+143550.0
+A:
+143550.0
+
+Q: The ring toss game at the carnival made 325 dollars in the first 154 days and 114 dollars in the remaining 57 days. How much did they make per day in the remaining 57 days at the carnival?
+A_model:
+Hypothesis/Plan: To find the amount made per day in the remaining 57 days, we will divide the total amount made in the remaining days by the number of days.
+Step-by-step:
+
+Total amount made in the remaining 57 days = $114
+Number of remaining days = 57
+
+Amount made per day = $114 / 57 = $2
+Answer: the answer is $2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Emily is making bead necklaces for her 43 friends. She had 20 beads and she was able to make 5 necklaces. How many beads did each necklace need?
+A_model:
+Hypothesis/Plan: To find out how many beads each necklace needed, we will divide the total number of beads by the number of necklaces made.
+Step-by-step:
+
+Total beads = 20
+
+Number of necklaces = 5
+
+Beads per necklace = 20 / 5 = 4
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Every day Ryan spends 7 hours on learning english and some more hours on learning chinese. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning chinese?
+A_model:
+Hypothesis/Plan: Let the number of hours Ryan spends on learning Chinese be x. Then, the number of hours he spends on learning English is x + 2. The total time spent on both subjects is 7 hours for English and x hours for Chinese.
+
+Step-by-step:
+
+Let x be the number of hours Ryan spends on learning Chinese.
+Ryan spends 7 hours on learning English, so the number of hours spent on learning English is x + 2.
+
+The total time spent on both subjects is 7 hours for English and x hours for Chinese, so:
+7 + x = total hours spent on both subjects
+
+Since the total time spent on both subjects is the sum of the time spent on English and Chinese, we have:
+7 + x = x + 2
+
+Now, solve for x:
+7 + x = x + 2
+7 - 2 = x - x
+5 = 0
+x = 5
+
+Therefore, the number of hours Ryan spends on learning Chinese is 5 hours.
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 144 chocolate chip cookies and 397 raisin cookies yesterday. And she baked 85 raisin cookies and 403 chocolate chip cookies this morning. How many raisin cookies did Helen bake?
+A_model:
+Hypothesis/Plan: To find the total number of raisin cookies Helen baked, we will add the number of raisin cookies she baked yesterday and this morning.
+
+Step-by-step:
+
+Raisin cookies baked yesterday = 397
+
+Raisin cookies baked this morning = 85
+
+Total raisin cookies = 397 + 85 = 482
+
+Answer: the answer is 482
+Extracted:
+482.0
+A:
+482.0
+
+Q: Each pack of dvds costs 107 dollars. If there is a discount of 106 dollars on each pack How many packs of dvds can you buy with 93 dollars?
+A_model:
+Hypothesis/Plan: To find out how many packs of DVDs can be bought with $93, we need to first calculate the effective cost per pack after the discount and then divide the total amount by this cost.
+
+Step-by-step:
+
+Cost per pack = $107
+Discount per pack = $106
+Effective cost per pack = $107 - $106 = $1
+
+Number of packs that can be bought with $93 = $93 / $1 = 93
+
+Answer: the answer is 93
+Extracted:
+93.0
+A:
+93.0
+
+Q: At the zoo, a cage had 95 snakes and 61 alligators. If 64 snakes were hiding How many snakes were not hiding?
+A_model:
+Hypothesis/Plan: To find the number of snakes that were not hiding, we will subtract the number of hiding snakes from the total number of snakes in the cage.
+
+Step-by-step:
+
+Total snakes = 95
+
+Hiding snakes = 64
+
+Snakes not hiding = 95 - 64 = 31
+
+Answer: the answer is 31
+Extracted:
+31.0
+A:
+31.0
+
+Q: Emily is making bead necklaces for her friends. Each necklace takes 8 beads and she has 16 beads. How many necklaces can Emily make?
+A_model:
+Hypothesis/Plan: To find the number of necklaces Emily can make, we will divide the total number of beads by the number of beads needed for each necklace.
+
+Step-by-step:
+
+Total beads = 16
+
+Beads per necklace = 8
+
+Number of necklaces = 16 / 8 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?
+A_model:
+Hypothesis/Plan: To find out how much Olivia spent at the supermarket, we will first subtract the amount left in her wallet after visiting both places from the initial amount. Then we will subtract the amount she spent at the showroom to find the amount spent at the supermarket.
+
+Step-by-step:
+
+Initial amount = $106
+
+Amount left after visiting both places = $26
+
+Amount spent at the showroom = $49
+
+Amount spent at the supermarket = (Initial amount - Amount left) - Amount spent at the showroom
+Amount spent at the supermarket = ($106 - $26) - $49
+Amount spent at the supermarket = $80 - $49
+Amount spent at the supermarket = $31
+
+Answer: the answer is $31
+Extracted:
+31.0
+A:
+31.0
+
+Q: Last week Fred had 19 dollars and Jason had 16 dollars. They washed cars over the weekend and now Fred has 40 dollars and Jason has 69 dollars. How much money did Fred earn over the weekend?
+A_model:
+Hypothesis/Plan: To find how much money Fred earned over the weekend, we will subtract the amount he had last week from the amount he has now.
+Step-by-step:
+
+Fred's initial amount = $19
+Fred's current amount = $40
+
+Fred's earnings = $40 - $19 = $21
+Answer: the answer is $21
+Extracted:
+21.0
+A:
+21.0
+
+Q: Bobby had 32 pieces of candy. He ate some pieces of candy. If he has 20 pieces of candy left How many pieces of candy did Bobby eat?
+A_model:
+Hypothesis/Plan: To find out how many pieces of candy Bobby ate, we will subtract the number of pieces he has left from the original number of pieces he had.
+
+Step-by-step:
+
+Original pieces = 32
+
+Remaining pieces = 20
+
+Pieces eaten = 32 - 20 = 12
+
+Answer: the answer is 12
+Extracted:
+12.0
+A:
+12.0
+
+Q: Rachel had to complete 9 pages of math homework, 11 pages of reading homework and 29 more pages of biology homework. How many pages of math and reading homework did she have to complete?
+A_model:
+Hypothesis/Plan: To find the total pages of math and reading homework, we will add the number of pages for math and reading.
+
+Step-by-step:
+
+Math homework = 9 pages
+
+Reading homework = 11 pages
+
+Total pages of math and reading homework = 9 + 11 = 20
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+20.0
+
+Q: Baker made 170 cakes. He sold 78 of them and bought 31 new cakes. How many more cakes did baker sell than those he bought?
+A_model:
+Hypothesis/Plan: To find how many more cakes the baker sold than those he bought, we will first subtract the cakes he sold from the total cakes made, then add the cakes he bought and find the difference.
+
+Step-by-step:
+
+Total cakes made = 170
+
+Cakes sold = 78
+
+Cakes bought = 31
+
+Cakes remaining after selling = 170 - 78 = 92
+
+Total cakes after buying = 92 + 31 = 123
+
+Difference = Cakes sold - Cakes bought = 78 - 31 = 47
+
+Answer: the answer is 47
+Extracted:
+47.0
+A:
+47.0
+
+Q: There are many different books in the ' crazy silly school ' series. If you have read 13 of the books and are yet to read 8 books How many books are there in the ' crazy silly school ' series?
+A_model:
+Hypothesis/Plan: To find the total number of books in the "crazy silly school" series, we will add the number of books read and the number of books yet to be read.
+
+Step-by-step:
+
+Books read = 13
+
+Books yet to be read = 8
+
+Total books = 13 + 8 = 21
+
+Answer: the answer is 21
+Extracted:
+21.0
+A:
+21.0
+
+Q: Matthew had 23 crackers. He has 11 crackers left after he gave equal numbers of crackers to his 2 friends. How many crackers did each friend eat?
+A_model:
+Hypothesis/Plan: To find out how many crackers each friend ate, we will first subtract the crackers Matthew has left from the total he started with. Then, we will divide the remaining crackers equally between the two friends.
+
+Step-by-step:
+
+Total crackers = 23
+
+Crackers left = 11
+
+Crackers given away = 23 - 11 = 12
+
+Crackers each friend ate = 12 / 2 = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+6.0
+
+Q: Dan has $ 5. He bought a chocolate for $ 3 and a candy bar for $ 7. How much money did he spend to buy candy bar than he did to buy chocolate?
+A_model:
+Hypothesis/Plan: To find the difference in money spent on the candy bar and the chocolate, we will subtract the cost of the chocolate from the cost of the candy bar.
+
+Step-by-step:
+
+Dan's initial money = $5
+
+Cost of the chocolate = $3
+
+Cost of the candy bar = $7
+
+Money spent on the candy bar - Money spent on the chocolate = $7 - $3 = $4
+
+Answer: the answer is $4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Jerry had 9 action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If he also has 10 books on the shelf How many more action figures than books were on his shelf?
+A_model:
+Hypothesis/Plan: To find how many more action figures than books were on Jerry's shelf, we will first calculate the total number of action figures and books separately, then find the difference between the two.
+
+Step-by-step:
+
+Total action figures = 9 + 7 = 16
+Total books = 10
+
+Difference = Total action figures - Total books
+Difference = 16 - 10 = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+6.0
+
+Q: Edward spent $ 16 to buy 92 books each book costing him the same amount of money. Now he has $ 6. How much did Edward have before he spent his money?
+A_model:
+Hypothesis/Plan: Let x be the cost of each book. The total cost of buying 92 books is 92x. Edward spent $16, so we have the equation 92x = 16. After buying the books, Edward has $6 left, so we have the equation x = 6. To find out how much money Edward had before spending, we need to solve for x in the equation 92x = 16.
+
+Step-by-step:
+
+Given:
+Total cost of 92 books = $16
+Remaining money = $6
+
+Let x be the cost of each book.
+
+1. Write the equation for the total cost of buying 92 books:
+92x = 16
+
+2. Solve for x:
+x = 16 / 92
+x = 0.1739 (rounded to 4 decimal places)
+
+3. Calculate how much money Edward had before spending:
+Total money before spending = Total money after spending + Total spent
+Total money before spending = $6 + $16
+Total money before spending = $22
+
+Answer: the answer is $22
+Extracted:
+22.0
+A:
+22.0
+
+Q: Haley grew 14 trees in her backyard. After a typhoon 9 died. How many more trees died in the typhoon than those that survived?
+A_model:
+Hypothesis/Plan: To find how many more trees died in the typhoon than those that survived, we will first subtract the number of trees that survived from the total number of trees before the typhoon, and then subtract the number of trees that survived after the typhoon.
+
+Step-by-step:
+
+Total trees before typhoon = 14
+
+Trees that survived = 14 - 9 = 5
+
+Trees that died = 9
+
+Difference = 9 - 5 = 4
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Because of the decision Sofia asked the students to suggest specific types of food. If 218 students suggested adding mashed potatoes as well as bacon while 351 suggested adding only bacon to the menu How many students suggested adding bacon?
+A_model:
+Hypothesis/Plan: To find the number of students who suggested adding bacon to the menu, we will add the students who suggested adding both mashed potatoes and bacon to those who suggested adding only bacon.
+
+Step-by-step:
+
+Students suggesting mashed potatoes and bacon = 218
+Students suggesting only bacon = 351
+
+Total students suggesting bacon = 218 + 351 = 569
+
+Answer: the answer is 569
+Extracted:
+569.0
+A:
+569.0
+
+Q: In Haley's class some boys love to play marbles. Haley gives 2 marbles to each boy. If she had 28 marbles How many boys did she give the marbles to?
+A_model:
+Hypothesis/Plan: To find the number of boys Haley gave marbles to, we will divide the total number of marbles she had by the number of marbles given to each boy.
+Step-by-step:
+
+Total marbles = 28
+
+Marbles given to each boy = 2
+
+Number of boys = 28 / 2 = 14
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: Jake has 6 fewer peaches and 8 more apples than Steven. Steven has 17 peaches and 16 apples. How many more peaches than apples does Steven have?
+A_model:
+Hypothesis/Plan: To find how many more peaches than apples Steven has, we will first calculate the number of peaches and apples Jake has. Then, we will compare the difference between the number of peaches and apples Steven has.
+
+Step-by-step:
+
+Steven's peaches = 17
+Steven's apples = 16
+
+Jake's peaches = Steven's peaches - 6 = 17 - 6 = 11
+Jake's apples = Steven's apples + 8 = 16 + 8 = 24
+
+Steven has 17 peaches and 16 apples, so he has 17 - 16 = 1 more peach than apple.
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: 6 packs of dvds can be bought with 120 dollars. How much does each pack cost?
+A_model:
+Hypothesis/Plan: To find the cost of each pack of DVDs, we will divide the total cost by the number of packs bought.
+
+Step-by-step:
+
+Total cost = $120
+
+Number of packs = 6
+
+Cost per pack = 120 / 6 = $20
+
+Answer: the answer is $20
+Extracted:
+20.0
+A:
+20.0
+
+Q: Robin cut off 13 inches of his hair. If his hair was 14 inches long initially How long is his hair now?
+A_model:
+Hypothesis/Plan: To find the length of Robin's hair after cutting off 13 inches, we will subtract the length cut from the initial length.
+
+Step-by-step:
+
+Initial length = 14 inches
+
+Length cut = 13 inches
+
+Remaining length = 14 - 13 = 1 inch
+
+Answer: the answer is 1 inch
+Extracted:
+1.0
+A:
+1.0
+
+Q: Rachel had to complete 3 pages of math homework and 4 pages of reading homework. How many more pages of reading homework than math homework did she have?
+A_model:
+Hypothesis/Plan: To find how many more pages of reading homework Rachel had than math homework, we will subtract the number of math homework pages from the number of reading homework pages.
+
+Step-by-step:
+
+Math homework pages = 3
+
+Reading homework pages = 4
+
+Difference = 4 - 3 = 1
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: An industrial machine worked for 5 minutes. It can make 4 shirts a minute. How many shirts did machine make?
+A_model:
+Hypothesis/Plan: To find the total number of shirts the machine made in 5 minutes, we will multiply the number of shirts it can make in one minute by the total number of minutes it worked.
+
+Step-by-step:
+
+Shirts made per minute = 4
+
+Total minutes worked = 5
+
+Total shirts made = 4 shirts/minute * 5 minutes = 20 shirts
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+20.0
+
+Q: They decided to hold the party in their backyard. They have 12 sets of tables and each set has 14 chairs. There are also 6 chairs extra. How many chairs do they have for the guests?
+A_model:
+Hypothesis/Plan: To find the total number of chairs available for the guests, we will first calculate the total number of chairs from the sets of tables and then add the extra chairs.
+
+Step-by-step:
+
+Number of sets of tables = 12
+Chairs per set = 14
+Total chairs from sets = 12 * 14 = 168
+
+Extra chairs = 6
+
+Total chairs for guests = 168 + 6 = 174
+
+Answer: the answer is 174
+Extracted:
+174.0
+A:
+174.0
+
+Q: Robin has 43 packages of gum. There are 23 pieces in each package. Robin has 8 extra pieces of gum. How many pieces of gum does Robin have?
+A_model:
+Hypothesis/Plan: To find the total number of gum pieces Robin has, we will first calculate the total number of gum pieces in the packages and then add the extra pieces.
+
+Step-by-step:
+
+Number of packages = 43
+Number of pieces in each package = 23
+Extra pieces = 8
+
+Total pieces in packages = 43 * 23 = 989
+Total pieces of gum = 989 + 8 = 997
+
+Answer: the answer is 997
+Extracted:
+997.0
+A:
+997.0
+
+Q: Marco and his dad went strawberry picking. Together their strawberries weighed 20 pounds. His dad's strawberries weighed 17 pounds. How much did marco's strawberries weigh?
+A_model:
+Hypothesis/Plan: To find the weight of Marco's strawberries, we will subtract his dad's strawberries' weight from the total weight of both their strawberries.
+
+Step-by-step:
+
+Total weight = 20 pounds
+
+Dad's strawberries = 17 pounds
+
+Marco's strawberries = 20 - 17 = 3 pounds
+
+Answer: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: Paige was helping her mom plant flowers and together they planted 55 seeds. They put 15 seeds in each flower bed and only 60 seeds grew into flowers in each flower bed. How many flowers did they grow?
+A_model:
+Hypothesis/Plan: To find the total number of flowers grown, we need to divide the total number of seeds planted by the number of seeds that grew into flowers in each flower bed.
+
+Step-by-step:
+
+Total seeds planted = 55
+
+Seeds in each flower bed = 15
+
+Seeds that grew into flowers in each flower bed = 60
+
+Total flowers grown = (55 / 15) * 60 = 220
+Answer: the answer is 220
+Extracted:
+220.0
+A:
+220.0
+
+Q: Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?
+A_model:
+Hypothesis/Plan: To find how many more apples Jackie has than Adam, we will subtract the number of apples Adam has from the number of apples Jackie has.
+
+Step-by-step:
+
+Adam's apples = 9
+
+Jackie's apples = 10
+
+Difference = 10 - 9 = 1
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies How many more cookies did he eat than those he bought?
+A_model:
+Hypothesis/Plan: To find how many more cookies Paco ate than those he bought, we will first calculate the total number of cookies he has after eating and buying, then find the difference between the cookies he ate and the cookies he bought.
+
+Step-by-step:
+
+Initial cookies = 25
+
+Cookies eaten = 5
+
+Cookies bought = 3
+
+Total cookies after eating = 25 - 5 = 20
+
+Total cookies after buying = 20 + 3 = 23
+
+Cookies eaten more than bought = 5 - 3 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Paul got a box of 601 crayons and 406 erasers for his birthday. At the end of the school year he only had 336 crayons left while not having lost a single eraser. How many more erasers than crayons did he have left?
+A_model:
+Hypothesis/Plan: To find how many more erasers than crayons Paul had left, we will subtract the number of crayons left from the total number of erasers.
+
+Step-by-step:
+
+Total crayons = 601
+Total erasers = 406
+
+Crayons left = 336
+Erasers left = 406
+
+Difference = Erasers left - Crayons left
+Difference = 406 - 336 = 70
+
+Answer: the answer is 70
+Extracted:
+70.0
+A:
+70.0
+
+Q: Jessie currently weighs 9 kilograms. After she started to go jogging everyday she lost 62 kilograms in the first week and 140 kilograms in the second week. How much did she weigh before starting to jog?
+A_model:
+Hypothesis/Plan: To find Jessie's initial weight before starting to jog, we will add the weight she lost in the first and second weeks to her current weight.
+
+Step-by-step:
+
+Current weight = 9 kg
+
+Weight lost in the first week = 62 kg
+
+Weight lost in the second week = 140 kg
+
+Initial weight = Current weight + Weight lost in the first week + Weight lost in the second week
+Initial weight = 9 + 62 + 140
+Initial weight = 211 kg
+
+Answer: the answer is 211 kg
+Extracted:
+211.0
+A:
+211.0
+
+Q: Lucy went to the grocery store. She bought 2 packs of cookie and 12 packs of cake. In the end she had 56 amount of change remaining. How many packs of groceries did she buy in all?
+A_model:
+Hypothesis/Plan: To find the total number of packs of groceries Lucy bought, we will add the packs of cookies and cakes she bought.
+
+Step-by-step:
+
+Packs of cookies = 2
+
+Packs of cakes = 12
+
+Total packs = 2 + 12 = 14
+
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: 43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?
+A_model:
+Hypothesis/Plan: To find how many children got off the bus, we will subtract the number of children left on the bus from the initial number of children on the bus.
+
+Step-by-step:
+
+Initial number of children = 43
+
+Number of children left on the bus = 21
+
+Children who got off the bus = 43 - 21 = 22
+
+Answer: the answer is 22
+Extracted:
+22.0
+A:
+22.0
+
+Q: There are a total of 16 peaches in a basket. If there are 13 red peaches and some more green peaches in the basket. How many green peaches are in the basket?
+A_model:
+Hypothesis/Plan: To find the number of green peaches in the basket, we will subtract the number of red peaches from the total number of peaches in the basket.
+
+Step-by-step:
+
+Total peaches = 16
+Red peaches = 13
+
+Green peaches = Total peaches - Red peaches
+Green peaches = 16 - 13 = 3
+
+Answer: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: Stray cats loved eating goldfish in the pond leaving 6 goldfish. Paige had raised 8 goldfish in the pond initially. How many goldfish disappeared?
+A_model:
+Hypothesis/Plan: To find out how many goldfish disappeared, we will subtract the number of goldfish left from the initial number of goldfish Paige had.
+Step-by-step:
+
+Initial goldfish = 8
+
+Goldfish left = 6
+
+Disappeared goldfish = 8 - 6 = 2
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Kelly has 46 nintendo games and 132 sony games. How many sony games does she need to give away so that she will have 31 sony games left?
+A_model:
+Hypothesis/Plan: To find out how many Sony games Kelly needs to give away, we will subtract the desired number of Sony games from the total number of Sony games she currently has.
+
+Step-by-step:
+
+Total Sony games = 132
+
+Desired Sony games left = 31
+
+Sony games to give away = 132 - 31 = 101
+
+Answer: the answer is 101
+Extracted:
+101.0
+A:
+101.0
+
+Q: Last week Fred had 49 dollars and Jason had 3 dollars. Fred washed cars over the weekend and now has 112 dollars. Jason delivered newspapers and now has 63 dollars. How much money did Jason earn by delivering newspapers?
+A_model:
+Hypothesis/Plan: To find how much money Jason earned by delivering newspapers, we will subtract the amount he had last week from the amount he has now.
+Step-by-step:
+
+Jason's initial amount = $3
+
+Jason's current amount = $63
+
+Amount earned = $63 - $3 = $60
+Answer: the answer is $60
+Extracted:
+60.0
+A:
+60.0
+
+Q: Rebecca wants to split a collection of eggs into 3 groups. Rebecca has 4 marbles and 15 eggs. How many eggs will each group have?
+A_model:
+Hypothesis/Plan: To find out how many eggs each group will have, we will divide the total number of eggs by the number of groups.
+
+Step-by-step:
+
+Total eggs = 15
+
+Number of groups = 3
+
+Eggs per group = 15 / 3 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: He also had 56 aquariums for saltwater animals and 10 aquariums for freshwater animals. Each aquarium has 39 animals in it. How many saltwater animals does Tyler have?
+A_model:
+Hypothesis/Plan: To find the total number of saltwater animals Tyler has, we will first calculate the total number of animals in the saltwater aquariums and then multiply that by the number of saltwater animals in each aquarium.
+
+Step-by-step:
+
+Number of saltwater aquariums = 56
+
+Number of freshwater aquariums = 10
+
+Animals per aquarium = 39
+
+Total animals in saltwater aquariums = 56 * 39 = 2184
+
+Answer: the answer is 2184
+Extracted:
+2184.0
+A:
+2184.0
+
+Q: A waiter had 3 customers. After some more arrived he had 8 customers. How many new customers arrived?
+A_model:
+Hypothesis/Plan: To find the number of new customers that arrived, we will subtract the initial number of customers from the total number of customers after the new arrivals.
+
+Step-by-step:
+
+Initial customers = 3
+
+Total customers after new arrivals = 8
+
+New customers arrived = 8 - 3 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?
+A_model:
+Hypothesis/Plan: To find the total number of emails Jack received in the afternoon and evening, we will add the number of emails received in the afternoon to the number received in the evening.
+
+Step-by-step:
+
+Emails in the afternoon = 5
+
+Emails in the evening = 8
+
+Total emails in the afternoon and evening = 5 + 8 = 13
+
+Answer: the answer is 13
+Extracted:
+13.0
+A:
+13.0
+
+Q: In Haley's class 13 boys love to play marbles and 50 boys love to play cards. If Haley has 26 marbles How many will each of the boys receive?
+A_model:
+Hypothesis/Plan: To find out how many marbles each boy will receive, we will divide the total number of marbles by the number of boys who love to play marbles.
+Step-by-step:
+
+Total number of boys who love to play marbles = 13
+
+Total number of marbles = 26
+
+Each boy will receive = 26 / 13 = 2
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: A waiter had 14 customers. 5 customers left. How many customers does he still have?
+A_model:
+Hypothesis/Plan: To find the number of customers the waiter still has, we will subtract the customers who left from the total number of customers.
+Step-by-step:
+
+Total customers = 14
+
+Customers who left = 5
+
+Customers remaining = 14 - 5 = 9
+Answer: the answer is 9
+Extracted:
+9.0
+A:
+9.0
+
+Q: 36 campers went rowing in the morning 13 campers went rowing in the afternoon and 49 campers went rowing in the evening. How many campers went rowing in all?
+A_model:
+Hypothesis/Plan: To find the total number of campers who went rowing in all three sessions, we will add the number of campers in the morning, afternoon, and evening.
+
+Step-by-step:
+
+Morning campers = 36
+Afternoon campers = 13
+Evening campers = 49
+
+Total campers = 36 + 13 + 49 = 98
+
+Answer: the answer is 98
+Extracted:
+98.0
+A:
+98.0
+
+Q: Because of the decision Sofia asked 288 students to suggest specific types of food. 264 students suggested adding bacon while others suggested adding mashed potatoes to the menu. How many students suggested mashed potatoes?
+A_model:
+Hypothesis/Plan: To find the number of students who suggested mashed potatoes, we will subtract the number of students who suggested bacon from the total number of students who made suggestions.
+
+Step-by-step:
+
+Total students = 288
+
+Students who suggested bacon = 264
+
+Students who suggested mashed potatoes = 288 - 264 = 24
+
+Answer: the answer is 24
+Extracted:
+24.0
+A:
+24.0
+
+Q: A mailman has to give 38 pieces of junk mail to each of the 78 blocks. If there are 19 houses on a block How many pieces of junk mail should he give each house?
+A_model:
+Hypothesis/Plan: To find out how many pieces of junk mail each house should receive, we will first calculate the total number of pieces of junk mail the mailman has to deliver. Then, we will divide this total by the number of houses to find the number of pieces each house should receive.
+
+Step-by-step:
+
+Total pieces of junk mail = 38 pieces/block * 78 blocks = 2964 pieces
+
+Number of houses = 78 blocks * 19 houses/block = 1482 houses
+
+Pieces of junk mail per house = 2964 pieces / 1482 houses = 2 pieces
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Randy has some blocks. He uses 52 blocks to build a tower. If there are 38 blocks left How many blocks did he have at the start?
+A_model:
+Hypothesis/Plan: To find out how many blocks Randy had at the start, we will add the blocks used to build the tower and the blocks left after building the tower.
+
+Step-by-step:
+
+Blocks used to build the tower = 52
+
+Blocks left after building the tower = 38
+
+Total blocks at the start = 52 + 38 = 90
+
+Answer: the answer is 90
+Extracted:
+90.0
+A:
+90.0
+
+Q: Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?
+A_model:
+Hypothesis/Plan: To find the total number of items that Adam's shelves could hold, we will first calculate the total number of items that can fit on one shelf, then multiply that by the number of shelves in his room.
+
+Step-by-step:
+
+Items on one shelf = 8 action figures + 10 cabinets = 18 items
+
+Total items on all shelves = 18 items/shelf * 4 shelves = 72 items
+
+Answer: the answer is 72
+Extracted:
+72.0
+A:
+72.0
+
+Q: Lewis earns $ 368 every week during the 1359 weeks of harvest. If he has to pay $ 388 rent every week How much money does he pay as rent during the harvest season?
+A_model:
+Hypothesis/Plan: To find the total amount Lewis pays as rent during the harvest season, we will multiply the rent per week by the number of weeks in the harvest season.
+
+Step-by-step:
+
+Rent per week = $388
+
+Number of weeks = 1359
+
+Total rent = $388 * 1359 = $527,292
+
+Answer: the answer is $527,292
+Extracted:
+527292.0
+A:
+527292.0
+
+Q: 21 children were riding on the bus. At the bus stop 10 children got off the bus while some more got on the bus. Then there were 16 children altogether on the bus. How many children got on the bus at the bus stop?
+A_model:
+Hypothesis/Plan: Let x be the number of children who got on the bus at the bus stop. We will set up an equation based on the given information and solve for x.
+
+Step-by-step:
+
+Initial number of children on the bus = 21
+
+After 10 children got off = 21 - 10 = 11
+
+Let x be the number of children who got on the bus at the bus stop.
+
+After some more children got on the bus, there were 16 children in total.
+
+So, 11 + x = 16
+
+Solving for x:
+
+x = 16 - 11
+
+x = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: 41 campers went rowing and 4 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many campers went rowing and hiking in all?
+A_model:
+Hypothesis/Plan: To find the total number of campers who went rowing and hiking, we will add the number of campers who went rowing in the morning, the number of campers who went hiking in the morning, and the number of campers who went rowing in the afternoon.
+
+Step-by-step:
+
+Campers rowing in the morning = 41
+
+Campers hiking in the morning = 4
+
+Campers rowing in the afternoon = 26
+
+Total campers rowing and hiking = 41 + 4 + 26 = 71
+
+Answer: the answer is 71
+Extracted:
+71.0
+A:
+71.0
+
+Q: There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?
+A_model:
+Hypothesis/Plan: To find the total number of people on the bus after the new passengers got on, we will add the initial number of people to the new passengers. Then we will check if the total number exceeds the bus capacity of 36 people.
+
+Step-by-step:
+
+Initial number of people = 12
+
+New passengers = 4
+
+Total number of people = 12 + 4 = 16
+
+Since the total number of people (16) is less than the bus capacity of 36, the answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q: Jack received 10 emails in the morning, 7 emails in the afternoon and 17 emails in the evening. How many more emails did Jack receive in the morning than in the afternoon?
+A_model:
+Hypothesis/Plan: To find the difference in the number of emails Jack received in the morning and afternoon, we will subtract the number of emails received in the afternoon from the number received in the morning.
+
+Step-by-step:
+
+Emails received in the morning = 10
+Emails received in the afternoon = 7
+
+Difference = 10 - 7 = 3
+
+Answer: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase. How many orchids did she cut?
+A_model:
+Hypothesis/Plan: To find out how many orchids Jessica cut, we will first subtract the current number of orchids from the initial number of orchids in the vase.
+
+Step-by-step:
+
+Initial orchids = 2
+
+Current orchids = 21
+
+Orchids cut = 21 - 2 = 19
+
+Answer: the answer is 19
+Extracted:
+19.0
+A:
+19.0
+
+Q: A waiter had some customers. After 9 customers left he still had 12 customers. How many customers did he have at the start?
+A_model:
+Hypothesis/Plan: To find the number of customers the waiter had at the start, we will add the customers who left to the customers he had when they left.
+Step-by-step:
+
+Customers at the start = x
+
+Customers who left = 9
+
+Customers remaining = 12
+
+Equation: x - 9 = 12
+
+Solving for x: x = 12 + 9 = 21
+
+Answer: the answer is 21
+Extracted:
+21.0
+A:
+21.0
+
+Q: Julia played tag with 5 kids on monday. She played tag with some more kids on tuesday. If she played with a total of 15 kids How many kids did she play with on tuesday?
+A_model:
+Hypothesis/Plan: Let the number of kids Julia played with on Tuesday be x. We know that she played with 5 kids on Monday, so the total number of kids she played with is 5 + x = 15. We can solve for x using this equation.
+
+Step-by-step:
+
+Number of kids played with on Monday = 5
+Number of kids played with on Tuesday = x
+Total number of kids played with = 15
+
+5 + x = 15
+x = 15 - 5
+x = 10
+
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+10.0
+
+Q: The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?
+A_model:
+Hypothesis/Plan: To find the cost of each t-shirt, we will divide the total revenue by the number of t-shirts sold.
+
+Step-by-step:
+
+Total revenue = $51
+
+Number of t-shirts sold = 3
+
+Cost per t-shirt = Total revenue / Number of t-shirts sold
+Cost per t-shirt = $51 / 3
+Cost per t-shirt = $17
+
+Answer: the answer is $17
+Extracted:
+17.0
+A:
+17.0
+
+Q: Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?
+A_model:
+Hypothesis/Plan: To find the number of kids going to camp, we will subtract the number of kids staying home from the total number of kids in Lawrence county.
+
+Step-by-step:
+
+Total kids = 313473
+
+Kids staying home = 274865
+
+Kids going to camp = 313473 - 274865 = 38608
+
+Answer: the answer is 38608
+Extracted:
+38608.0
+A:
+38608.0
+
+Q: At the arcade Dave had won 13 tickets. If he used 8 to buy some toys and 18 more to buy some clothes How many more tickets did Dave use to buy clothes than he did to buy toys?
+A_model:
+Hypothesis/Plan: To find the difference in the number of tickets used to buy clothes and toys, we will subtract the tickets used for toys from the tickets used for clothes.
+
+Step-by-step:
+
+Tickets used for toys = 8
+
+Tickets used for clothes = 18
+
+Difference = 18 - 8 = 10
+
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+10.0
+
+Q: Jack received 3 emails in the afternoon, 5 emails in the morning and 16 emails in the evening. How many more emails did Jack receive in the morning than in the afternoon?
+A_model:
+Hypothesis/Plan: To find the difference in the number of emails Jack received in the morning and the afternoon, we will subtract the number of emails received in the afternoon from the number received in the morning.
+
+Step-by-step:
+
+Emails received in the afternoon = 3
+
+Emails received in the morning = 5
+
+Difference = 5 - 3 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?
+A_model:
+Hypothesis/Plan: To find the total number of oranges harvested per day, we will first find the number of oranges in the sacks harvested per day, then subtract the number of discarded sacks.
+
+Step-by-step:
+
+Sacks harvested per day = 76
+Sacks discarded per day = 64
+Oranges per sack = 50
+
+Total oranges harvested per day = (76 - 64) * 50
+Total oranges harvested per day = 12 * 50
+Total oranges harvested per day = 600
+
+Answer: the answer is 600
+Extracted:
+600.0
+A:
+600.0
+
+Q: A farmer had 160 tomatoes in his garden. If he picked 56 of them yesterday and 41 today. How many did he have left after yesterday's picking?
+A_model:
+Hypothesis/Plan: To find the number of tomatoes the farmer had left after picking yesterday, we will subtract the number of tomatoes picked yesterday from the total number of tomatoes.
+Step-by-step:
+
+Total tomatoes = 160
+
+Tomatoes picked yesterday = 56
+
+Tomatoes left after yesterday = 160 - 56 = 104
+Answer: the answer is 104
+Extracted:
+104.0
+A:
+104.0
+
+Q: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 519 chocolate chip cookies and 300 raisin cookies yesterday. And she baked 280 raisin cookies and 359 chocolate chip cookies this morning. How many more raisin cookies did Helen bake yesterday compared to today?
+A_model:
+Hypothesis/Plan: To find the difference in the number of raisin cookies baked yesterday compared to today, we will subtract the number of raisin cookies baked today from the number baked yesterday.
+
+Step-by-step:
+
+Raisin cookies baked yesterday = 300
+
+Raisin cookies baked today = 280
+
+Difference = 300 - 280 = 20
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+20.0
+
+Q: David did 30 more push-ups than Zachary in gym class today. If David did 37 push-ups How many push-ups did Zachary do?
+A_model:
+Hypothesis/Plan: To find how many push-ups Zachary did, we will subtract the additional push-ups David did from the total push-ups David did.
+
+Step-by-step:
+
+David's push-ups = 37
+
+Additional push-ups = 30
+
+Zachary's push-ups = 37 - 30 = 7
+
+Answer: the answer is 7
+Extracted:
+7.0
+A:
+7.0
+
+Q: Julia played tag with 16 kids on monday. If she played tag with 12 more kids on monday than on tuesday How many kids did she play with on tuesday?
+A_model:
+Hypothesis/Plan: Let the number of kids Julia played with on Tuesday be x. Since she played with 12 more kids on Monday than on Tuesday, the number of kids she played with on Monday is x + 12. We know that she played with 16 kids on Monday. So, we can set up the equation x + 12 = 16 to find the value of x.
+
+Step-by-step:
+
+Let x be the number of kids Julia played with on Tuesday.
+The number of kids she played with on Monday = x + 12.
+
+According to the given information, the number of kids she played with on Monday is 16.
+
+Therefore, x + 12 = 16.
+
+Subtracting 12 from both sides, we get x = 4.
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: A book has 3 chapters. The first chapter is 53 pages long the second chapter is 75 pages long and the third chapter is 21 pages long. How many more pages does the first chapter have than the third chapter?
+A_model:
+Hypothesis/Plan: To find the difference in the number of pages between the first and third chapters, subtract the number of pages in the third chapter from the number of pages in the first chapter.
+
+Step-by-step:
+
+Number of pages in the first chapter = 53 pages
+Number of pages in the third chapter = 21 pages
+
+Difference = 53 - 21 = 32
+
+Answer: the answer is 32
+Extracted:
+32.0
+A:
+32.0
+
+Q: Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?
+A_model:
+Hypothesis/Plan: To find out how many days the 12 water bottles will last Debby, we will divide the total number of bottles by the number of bottles she drinks per day.
+
+Step-by-step:
+
+Total bottles = 12
+
+Bottles drank per day = 6
+
+Days the bottles will last = 12 / 6 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?
+A_model:
+Hypothesis/Plan: Let's denote the number of peaches Jill has as J. We know that Steven has 19 peaches and Jake has 18 fewer peaches than Steven. Also, Steven has 13 more peaches than Jill. So, we can set up the following equations:
+
+Steven = 19
+Jake = Steven - 18
+Steven = Jill + 13
+
+Step-by-step:
+
+1. Substitute Steven's value into the equation for Jake: Jake = 19 - 18 = 1
+2. Substitute Steven's value into the equation relating Steven and Jill: 19 = J + 13
+3. Solve for J: J = 19 - 13 = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+6.0
+
+Q: Tiffany was collecting cans for recycling. On monday she had some bags of cans. The next day she found 4 more bags worth of cans. If she had a total of 8 bags altogether How many bags did she have on monday?
+A_model:
+Hypothesis/Plan: To find out how many bags of cans Tiffany had on Monday, we will subtract the 4 additional bags she found the next day from the total of 8 bags she had altogether.
+
+Step-by-step:
+
+Total bags = 8
+
+Additional bags found the next day = 4
+
+Bags on Monday = 8 - 4 = 4
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: You have 104 dollars. How many packs of dvds can you buy if each pack costs 26 dollars?
+A_model:
+Hypothesis/Plan: To find out how many packs of DVDs can be bought with $104, we will divide the total amount by the cost of each pack.
+Step-by-step:
+
+Total amount = $104
+
+Cost per pack = $26
+
+Number of packs = $104 / $26 = 4
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?
+A_model:
+Hypothesis/Plan: To find the total number of action figures that Adam's shelves could hold, we will multiply the number of shelves by the number of action figures each shelf can hold.
+Step-by-step:
+
+Number of action figures per shelf = 11
+
+Number of shelves = 4
+
+Total action figures = 11 * 4 = 44
+Answer: the answer is 44
+Extracted:
+44.0
+A:
+44.0
+
+Q: Last week Fred had 111 dollars and Jason had 40 dollars. Fred washed cars over the weekend and now has 115 dollars. Jason delivered newspapers and now has 44 dollars. How much money did they earn by washing cars?
+A_model:
+Hypothesis/Plan: To find out how much money Fred earned by washing cars, we will subtract his initial amount from his current amount. 
+
+Step-by-step:
+
+Fred's initial amount = $111
+Fred's current amount = $115
+
+Money earned by Fred = $115 - $111 = $4
+
+Answer: the answer is $4
+Extracted:
+4.0
+A:
+4.0
+
+Q: For 19 weeks of harvest Lewis earns a total of $ 133. How much money does he earn each week?
+A_model:
+Hypothesis/Plan: To find how much money Lewis earns each week, we will divide the total amount he earned by the number of weeks.
+Step-by-step:
+
+Total earnings = $133
+
+Number of weeks = 19
+
+Earnings per week = $133 / 19 = $7
+Answer: the answer is $7
+Extracted:
+7.0
+A:
+7.0
+
+Q: An industrial machine can make 6 shirts a minute. It worked for 5 minutes yesterday and for 12 minutes today. How many shirts did machine make today?
+A_model:
+Hypothesis/Plan: To find the total number of shirts made today, we will multiply the rate of production by the total time the machine worked today.
+
+Step-by-step:
+
+Rate of production = 6 shirts/minute
+
+Time worked yesterday = 5 minutes
+
+Shirts made yesterday = 6 shirts/minute * 5 minutes = 30 shirts
+
+Time worked today = 12 minutes
+
+Shirts made today = 6 shirts/minute * 12 minutes = 72 shirts
+
+Total shirts made today = 72 shirts
+
+Answer: the answer is 72
+Extracted:
+72.0
+A:
+72.0
+
+Q: Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?
+A_model:
+Hypothesis/Plan: To find Jessie's current weight, we will subtract the total weight she lost from her initial weight.
+
+Step-by-step:
+
+Initial weight = 114 kg
+
+Weight lost in the first week = 50 kg
+
+Weight lost in the second week = 60 kg
+
+Total weight lost = 50 + 60 = 110 kg
+
+Current weight = 114 - 110 = 4 kg
+
+Answer: the answer is 4 kg
+Extracted:
+4.0
+A:
+4.0
+
+Q: Josh had 20 marbles in his collection. He gave 2 marbles to Jack. How many marbles does Josh have now?
+A_model:
+Hypothesis/Plan: To find how many marbles Josh has now, we will subtract the marbles he gave to Jack from the total marbles he had initially.
+
+Step-by-step:
+
+Total marbles = 20
+
+Marbles given to Jack = 2
+
+Marbles remaining = 20 - 2 = 18
+
+Answer: the answer is 18
+Extracted:
+18.0
+A:
+18.0
+
+Q: Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?
+A_model:
+Hypothesis/Plan: To find out how many balloons Jake brought to the park, we will add the balloons he initially brought with the additional balloons he bought at the park.
+
+Step-by-step:
+
+Jake's initial balloons = 6
+
+Additional balloons bought at the park = 3
+
+Total balloons Jake brought to the park = 6 + 3 = 9
+
+Answer: the answer is 9
+Extracted:
+9.0
+A:
+9.0
+
+Q: Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?
+A_model:
+Hypothesis/Plan: To find out how many more salty cookies Paco ate compared to sweet cookies, we will first calculate the total number of each type of cookie he ate, then find the difference between the two.
+
+Step-by-step:
+
+Sweet cookies eaten = 20
+
+Salty cookies eaten = 34
+
+Difference = 34 - 20 = 14
+
+Answer: the answer is 14
+Extracted:
+14.0
+A:
+14.0
+
+Q: Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 10 invitations in it and she bought 7 packs. If she sends invitations to only 2 friends How many invitations will be left?
+A_model:
+Hypothesis/Plan: To find the number of invitations left after sending to 2 friends, we will first calculate the total number of invitations Carol bought and then subtract the invitations sent to her friends.
+
+Step-by-step:
+
+Invitations per pack = 10
+Number of packs bought = 7
+Total invitations bought = 10 * 7 = 70
+Invitations sent to friends = 2
+Invitations left = 70 - 2 = 68
+
+Answer: the answer is 68
+Extracted:
+68.0
+A:
+68.0
+
+Q: A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda. How many bottles of regular soda and diet soda did they have altogether?
+A_model:
+Hypothesis/Plan: To find the total number of regular soda and diet soda bottles, we will add the number of bottles of regular soda and diet soda together.
+
+Step-by-step:
+
+Regular soda bottles = 49
+
+Diet soda bottles = 40
+
+Total regular and diet soda bottles = 49 + 40 = 89
+
+Answer: the answer is 89
+Extracted:
+89.0
+A:
+89.0
+
+Q: There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?
+A_model:
+Hypothesis/Plan: To find out how many more movies you still have to watch, subtract the number of movies you have already watched from the total number of movies in the series.
+
+Step-by-step:
+
+Total number of movies = 17
+
+Number of movies watched = 7
+
+Number of movies left to watch = 17 - 7 = 10
+
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+10.0
+
+Q: Matthew had 15 crackers. If Matthew gave equal numbers of crackers to his 5 friends and still had 10 crackers left How many crackers did each friend eat?
+A_model:
+Hypothesis/Plan: To find out how many crackers each friend ate, we will first subtract the 10 crackers Matthew had left from the initial 15 crackers. Then, we will divide the remaining number of crackers by the number of friends (5) to find out how many crackers each friend ate.
+
+Step-by-step:
+
+Initial crackers = 15
+Crackers left after sharing = 10
+
+Crackers eaten by friends = 15 - 10 = 5
+
+Each friend ate = 5 / 5 = 1
+
+Answer: the answer is 1
+Extracted:
+1.0
+A:
+1.0
+
+Q: The ring toss game at the carnival made 382 dollars in the first 44 days and 374 dollars in the remaining 10 days. How much did they make in all?
+A_model:
+Hypothesis/Plan: To find the total amount made in all, we will add the amount made in the first 44 days to the amount made in the remaining 10 days.
+
+Step-by-step:
+
+Amount made in the first 44 days = $382
+
+Amount made in the remaining 10 days = $374
+
+Total amount made = $382 + $374 = $756
+
+Answer: the answer is $756
+Extracted:
+756.0
+A:
+756.0
+
+Q: The school is planning a field trip. The school has 24 classrooms. There are 120 students in the school with each classroom having the same number of students. There are 84 seats on each school bus. How many students are in each class?
+A_model:
+Hypothesis/Plan: To find out how many students are in each class, we will divide the total number of students by the number of classrooms.
+Step-by-step:
+
+Total students = 120
+Total classrooms = 24
+
+Number of students in each class = Total students / Total classrooms
+Number of students in each class = 120 / 24 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Frank was reading through his favorite book. He read 8 pages per day. If the book had 576 pages How many days did he take to finish the book?
+A_model:
+Hypothesis/Plan: To find the number of days Frank took to finish the book, we will divide the total number of pages by the number of pages he read per day.
+Step-by-step:
+
+Total pages = 576
+
+Pages read per day = 8
+
+Number of days = 576 / 8 = 72
+Answer: the answer is 72
+Extracted:
+72.0
+A:
+72.0
+
+Q: 29 campers went rowing and 66 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many more campers went rowing in the morning than in the afternoon?
+A_model:
+Hypothesis/Plan: To find the difference in the number of campers who went rowing in the morning and the afternoon, we will subtract the number of campers rowing in the afternoon from the number rowing in the morning.
+
+Step-by-step:
+
+Campers rowing in the morning = 29
+
+Campers rowing in the afternoon = 26
+
+Difference = 29 - 26 = 3
+
+Answer: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: For the walls of the house he would use 12 large planks of wood and 17 small planks. If each large plank of wood needs 14 pieces of nails to be secured and each small plank needs 25 nails. How many planks does John need for the house wall?
+A_model:
+Hypothesis/Plan: To find the total number of planks needed for the house wall, we will calculate the number of large planks and small planks separately and then add them together.
+
+Step-by-step:
+
+Number of large planks = 12
+Number of small planks = 17
+
+Total number of nails for large planks = 12 * 14 = 168 nails
+Total number of nails for small planks = 17 * 25 = 425 nails
+
+Total number of planks = 12 (large planks) + 17 (small planks) = 29 planks
+
+Answer: the answer is 29
+Extracted:
+29.0
+A:
+29.0
+
+Q: For the walls of the house John would use large planks of wood. Each plank needs 2 pieces of nails to be secured and he would use 16 planks. How many nails does John need for the house wall?
+A_model:
+Hypothesis/Plan: To find the total number of nails needed, we will multiply the number of planks by the number of nails needed for each plank.
+
+Step-by-step:
+
+Number of planks = 16
+
+Nails needed per plank = 2
+
+Total nails needed = 16 * 2 = 32
+
+Answer: the answer is 32
+Extracted:
+32.0
+A:
+32.0
+
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+A_model:
+Hypothesis/Plan: To find the total number of drums of grapes filled in 146 days, we will first calculate the number of drums filled per day and then multiply it by the number of days.
+Step-by-step:
+
+Drums of grapes filled per day = 244
+Number of days = 146
+
+Total drums of grapes filled = 244 drums/day * 146 days = 35624 drums
+Answer: the answer is 35624
+Extracted:
+35624.0
+A:
+35624.0
+
+Q: Each basket of peaches has 19 red peaches and 4 green peaches. If there are 15 such baskets How many peaches are in the baskets altogether?
+A_model:
+Hypothesis/Plan: To find the total number of peaches in all the baskets, we will first calculate the number of peaches in one basket and then multiply by the total number of baskets.
+Step-by-step:
+
+Red peaches in one basket = 19
+Green peaches in one basket = 4
+Total peaches in one basket = 19 + 4 = 23
+
+Total number of baskets = 15
+
+Total peaches in all baskets = 23 * 15 = 345
+Answer: the answer is 345
+Extracted:
+345.0
+A:
+345.0
+
+Q: There are 10 different books and 6 different movies in the ' crazy silly school ' series. If you read 14 of the movies and watched 19 of the books How many more books than movies have you read?
+A_model:
+Hypothesis/Plan: To find how many more books than movies have been read, we will subtract the number of movies watched from the number of books read.
+
+Step-by-step:
+
+Number of books = 10
+
+Number of movies = 6
+
+Books read = 19
+
+Movies watched = 14
+
+Books more than movies = 19 - 14 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Baker made 81 cakes. Then he made 92 more cakes. He sold 46 of them. How many more cakes did baker make than those he sold?
+A_model:
+Hypothesis/Plan: To find how many more cakes Baker made than those he sold, we will first calculate the total number of cakes made, then subtract the number of cakes sold.
+
+Step-by-step:
+
+Total cakes made = 81 + 92 = 173
+
+Cakes sold = 46
+
+Difference = 173 - 46 = 127
+
+Answer: the answer is 127
+Extracted:
+127.0
+A:
+127.0
+
+Q: The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?
+A_model:
+Hypothesis/Plan: To find the total distance they jumped together, we will add the grasshopper's jump distance to the frog's jump distance.
+
+Step-by-step:
+
+Grasshopper's jump = 35 inches
+
+Frog's jump = 35 - 4 = 31 inches
+
+Total distance = 35 + 31 = 66 inches
+
+Answer: the answer is 66 inches
+Extracted:
+66.0
+A:
+66.0
+
+Q: Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies. How many salty cookies did Paco have left?
+A_model:
+Hypothesis/Plan: To find how many salty cookies Paco has left, we will subtract the number of salty cookies he ate from the total number of salty cookies he had.
+
+Step-by-step:
+
+Total salty cookies = 26
+
+Total sweet cookies = 17
+
+Salty cookies eaten = 9
+
+Sweet cookies eaten = 14
+
+Salty cookies left = 26 - 9 = 17
+
+Answer: the answer is 17
+Extracted:
+17.0
+A:
+17.0
+
+Q: The Razorback t-shirt shop makes $ 106 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 242 t-shirts. If they sold 115 t-shirts during the Arkansas game How many t-shirts did they sell during the Texas tech game?
+A_model:
+Hypothesis/Plan: To find the number of t-shirts sold during the Texas Tech game, we will subtract the number of t-shirts sold during the Arkansas game from the total number of t-shirts sold.
+
+Step-by-step:
+
+Total t-shirts sold = 242
+
+T-shirts sold during Arkansas game = 115
+
+T-shirts sold during Texas Tech game = Total t-shirts sold - T-shirts sold during Arkansas game
+T-shirts sold during Texas Tech game = 242 - 115 = 127
+
+Answer: the answer is 127
+Extracted:
+127.0
+A:
+127.0
+
+Q: Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?
+A_model:
+Hypothesis/Plan: To find out how many more marbles Ed had than Doug after losing some marbles, we first need to determine the initial difference in the number of marbles between Ed and Doug. Then, we will subtract the marbles Ed lost to find the final difference.
+
+Step-by-step:
+
+Let the number of marbles Doug has be D.
+Ed had 29 more marbles than Doug, so the number of marbles Ed had initially = D + 29.
+
+After losing 17 marbles, the number of marbles Ed has = (D + 29) - 17 = D + 12.
+
+Therefore, the difference in the number of marbles Ed had compared to Doug after losing marbles = 29 - 17 = 12.
+
+Answer: the answer is 12
+Extracted:
+12.0
+A:
+12.0
+
+Q: Paul got a box of 267 crayons for his birthday. During the school year he lost 231 crayons while he gave away 308 crayons to his friends. How many more crayons did he give to his friends than those he lost?
+A_model:
+Hypothesis/Plan: To find how many more crayons Paul gave to his friends than those he lost, we will first calculate the total crayons he gave away and lost separately. Then, we will find the difference between the two.
+
+Step-by-step:
+
+Total crayons received = 267
+
+Crayons lost = 231
+
+Crayons given away = 308
+
+Total crayons given away and lost = 231 + 308 = 539
+
+Difference = 308 - 231 = 77
+
+Answer: the answer is 77
+Extracted:
+77.0
+A:
+77.0
+
+Q: Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?
+A_model:
+Hypothesis/Plan: To find the total number of cookies Paco has left, we will subtract the cookies he ate and add the cookies he bought.
+
+Step-by-step:
+
+Initial cookies = 40
+
+Cookies eaten = 2
+
+Cookies bought = 37
+
+Cookies left = (40 - 2) + 37 = 38 + 37 = 75
+
+Answer: the answer is 75
+Extracted:
+75.0
+A:
+75.0
+
+Q: Haley grew 9 trees in her backyard. After a typhoon 4 died. Then she grew 5 more trees. How many trees does she have left?
+A_model:
+Hypothesis/Plan: To find the total number of trees Haley has left, we will first subtract the trees that died from the initial number of trees, then add the new trees she grew.
+
+Step-by-step:
+
+Initial trees = 9
+
+Trees that died = 4
+
+Remaining after typhoon = 9 - 4 = 5
+
+New trees grown = 5
+
+Total trees left = 5 + 5 = 10
+
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+10.0
+
+Q: After resting they decided to go for a swim. The depth of the water is 15 times Dean's height. Dean is 4 feet taller than Ron. If Ron stands at 13 feet How deep was the water?
+A_model:
+Hypothesis/Plan: To find the depth of the water, we will first find Dean's height by adding 4 feet to Ron's height. Then, we will multiply Dean's height by 15 to get the depth of the water.
+
+Step-by-step:
+
+Ron's height = 13 feet
+
+Dean's height = Ron's height + 4 feet = 13 + 4 = 17 feet
+
+Depth of water = 15 * Dean's height = 15 * 17 = 255 feet
+
+Answer: the answer is 255
+Extracted:
+255.0
+A:
+255.0
+
+Q: There were 100 dollars in Olivia's wallet. She collected 148 more dollars from an atm. After she visited a supermarket there were 159 dollars left. How much did she spend?
+A_model:
+Hypothesis/Plan: To find out how much Olivia spent, we will subtract the total amount she had after collecting money from the ATM from the total amount she had before visiting the supermarket.
+
+Step-by-step:
+
+Total amount in the wallet = $100
+
+Amount collected from ATM = $148
+
+Total amount before visiting the supermarket = $100 + $148 = $248
+
+Amount left after visiting the supermarket = $159
+
+Amount spent = $248 - $159 = $89
+
+Answer: the answer is $89
+Extracted:
+89.0
+A:
+89.0
+
+Q: 4 birds and 6 storks were sitting on the fence. 2 more storks came to join them. How many storks are sitting on the fence?
+A_model:
+Hypothesis/Plan: To find the total number of storks sitting on the fence after 2 more storks joined, we will first determine the initial number of storks and then add the 2 additional storks.
+
+Step-by-step:
+
+Initial storks = 6
+
+Additional storks = 2
+
+Total storks = 6 + 2 = 8
+
+Answer: the answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q: Edward spent $ 6 to buy books and $ 16 to buy pens. Now he has $ 19. How much did Edward have before he spent his money?
+A_model:
+Hypothesis/Plan: To find out how much money Edward had before spending, we will add the amount he spent to the money he has left.
+
+Step-by-step:
+
+Money spent on books = $6
+
+Money spent on pens = $16
+
+Total money spent = $6 + $16 = $22
+
+Money left = $19
+
+Money Edward had before spending = Total money spent + Money left = $22 + $19 = $41
+
+Answer: the answer is $41
+Extracted:
+41.0
+A:
+41.0
+
+Q: Baker made 13 cakes. He sold 91 of them and bought 154 new cakes. How many more cakes did baker buy than those he sold?
+A_model:
+Hypothesis/Plan: To find how many more cakes the baker bought than those he sold, we will first calculate the total number of cakes after selling and buying, then find the difference between the number bought and the number sold.
+
+Step-by-step:
+
+Cakes made = 13
+
+Cakes sold = 91
+
+Cakes bought = 154
+
+Total cakes after selling = 13 - 91 = -78 (negative because more cakes were sold than made)
+
+Total cakes after buying = -78 + 154 = 76
+
+Difference = 154 - 91 = 63
+
+Answer: the answer is 63
+Extracted:
+63.0
+A:
+63.0
+
+Q: After resting they decided to go for a swim. The depth of the water is 16 times Ron's height. Dean is 9 feet taller than Ron. If Ron stands at 13 feet How deep was the water?
+A_model:
+Hypothesis/Plan: To find the depth of the water, we first need to calculate Dean's height by adding 9 feet to Ron's height. Then, we will multiply Ron's height by 16 to find the depth of the water.
+
+Step-by-step:
+
+Ron's height = 13 feet
+Dean's height = Ron's height + 9 = 13 + 9 = 22 feet
+Depth of the water = 16 * Ron's height = 16 * 13 = 208 feet
+
+Answer: the answer is 208 feet
+Extracted:
+208.0
+A:
+208.0
+
+Q: There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?
+A_model:
+Hypothesis/Plan: To find the size of each group of bananas, we will divide the total number of bananas by the number of groups they are organized into.
+
+Step-by-step:
+
+Total bananas = 290
+Number of groups = 2
+
+Size of each group of bananas = 290 / 2 = 145
+
+Answer: the answer is 145
+Extracted:
+145.0
+A:
+145.0
+
+Q: Steven has 14 peaches. Jake has 6 fewer peaches than Steven and 3 more peaches than Jill. How many peaches does Jill have?
+A_model:
+Hypothesis/Plan: Let's denote the number of peaches Jill has as J. We know that Jake has 6 fewer peaches than Steven, so Jake has 14 - 6 = 8 peaches. We also know that Jake has 3 more peaches than Jill, so Jake has J + 3 peaches. Setting these two expressions for Jake's peaches equal, we get 8 = J + 3. Solving for J, we find J = 5.
+
+Step-by-step:
+
+Steven's peaches = 14
+Jake's peaches = 8
+Jill's peaches = J
+
+Given: Jake's peaches = Jill's peaches + 3
+8 = J + 3
+J = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: Mom buys 51 white t - shirts. If white t - shirts can be purchased in packages of 3 How many packages will she have?
+A_model:
+Hypothesis/Plan: To find the number of packages of white t-shirts Mom will have, we will divide the total number of t-shirts by the number of t-shirts in each package.
+
+Step-by-step:
+
+Total white t-shirts = 51
+
+T-shirts in each package = 3
+
+Number of packages = 51 / 3 = 17
+
+Answer: the answer is 17
+Extracted:
+17.0
+A:
+17.0
+
+Q: Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?
+A_model:
+Hypothesis/Plan: To find the number of sweet cookies Paco has left, we will subtract the sweet cookies he ate from the total sweet cookies he had.
+
+Step-by-step:
+
+Total sweet cookies = 22
+
+Total salty cookies = 75
+
+Sweet cookies eaten = 15
+
+Salty cookies eaten = 54
+
+Sweet cookies left = 22 - 15 = 7
+
+Answer: the answer is 7
+Extracted:
+7.0
+A:
+7.0
+
+Q: He then went to see the oranges being harvested. He found out that they harvest 5 sacks of ripe oranges and 74 sacks of unripe oranges per day. How many more sacks of unripe oranges than ripe oranges are harvested per day?
+A_model:
+Hypothesis/Plan: To find the difference in the number of ripe and unripe oranges harvested per day, we will subtract the number of ripe oranges from the number of unripe oranges.
+
+Step-by-step:
+
+Ripe oranges harvested per day = 5 sacks
+
+Unripe oranges harvested per day = 74 sacks
+
+Difference = 74 - 5 = 69
+
+Answer: the answer is 69
+Extracted:
+69.0
+A:
+69.0
+
+Q: Nell collects baseball cards. She had 242 cards. She gave 136 of her cards to Jeff. How many cards does Nell have left?
+A_model:
+Hypothesis/Plan: To find how many cards Nell has left, we will subtract the number of cards she gave to Jeff from the total number of cards she had initially.
+
+Step-by-step:
+
+Total cards = 242
+
+Cards given to Jeff = 136
+
+Cards left = 242 - 136 = 106
+
+Answer: the answer is 106
+Extracted:
+106.0
+A:
+106.0
+
+Q: Bobby had 19 pieces of candy. He ate 2 pieces of candy. How many pieces of candy does he still have left?
+A_model:
+Hypothesis/Plan: To find how many pieces of candy Bobby has left, we will subtract the pieces he ate from the total he had initially.
+
+Step-by-step:
+
+Total pieces = 19
+
+Pieces eaten = 2
+
+Remaining pieces = 19 - 2 = 17
+
+Answer: the answer is 17
+Extracted:
+17.0
+A:
+17.0
+
+Q: Jack received a total of 9 emails in the day. If he received 7 emails in the morning and some more in the afternoon How many emails did Jack receive in the afternoon?
+A_model:
+Hypothesis/Plan: To find out how many emails Jack received in the afternoon, we will subtract the number of emails he received in the morning from the total number of emails he received in the day.
+
+Step-by-step:
+
+Total emails = 9
+
+Emails in the morning = 7
+
+Emails in the afternoon = Total emails - Emails in the morning
+Emails in the afternoon = 9 - 7 = 2
+
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q: For Gwen's birthday she received 2 dollars from her mom. Her dad gave her 4 more dollars. If she spent 3 dollars. How much money did she still have?
+A_model:
+Hypothesis/Plan: To find out how much money Gwen has left, we will add the money she received from her mom and dad, then subtract the amount she spent.
+
+Step-by-step:
+
+Money from mom = $2
+
+Money from dad = $4
+
+Total money received = 2 + 4 = $6
+
+Money spent = $3
+
+Money left = 6 - 3 = $3
+
+Answer: the answer is $3
+Extracted:
+3.0
+A:
+3.0
+
+Q: Last week Fred had 114 dollars and Jason had 22 dollars. They washed cars over the weekend and now Fred has 21 dollars and Jason has 78 dollars. How much money did Jason make over the weekend?
+A_model:
+Hypothesis/Plan: To find how much money Jason made over the weekend, we will calculate the difference in the amount of money Jason had before and after the weekend.
+Step-by-step:
+
+Fred's initial money = $114
+Jason's initial money = $22
+
+Fred's money after the weekend = $21
+Jason's money after the weekend = $78
+
+Jason's earnings = Jason's money after the weekend - Jason's initial money
+Jason's earnings = $78 - $22 = $56
+
+Answer: the answer is $56
+Extracted:
+56.0
+A:
+56.0
+
+Q: Lucy went to the grocery store. She bought 23 packs of cookie and some packs of cake. In total she had 27 packs of grocery How many packs of cake did she buy in all?
+A_model:
+Hypothesis/Plan: To find the number of packs of cake Lucy bought, we will subtract the number of packs of cookies from the total number of packs she bought.
+
+Step-by-step:
+
+Packs of cookies = 23
+
+Total packs = 27
+
+Packs of cake = Total packs - Packs of cookies = 27 - 23 = 4
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: Jerry had 4 action figures and 22 books on a shelf in his room. Later he added 6 more action figures to the shelf. How many action figures were on his shelf in all?
+A_model:
+Hypothesis/Plan: To find the total number of action figures on the shelf, we will add the initial number of action figures to the number added later.
+Step-by-step:
+
+Initial action figures = 4
+
+Books = 22
+
+Later added action figures = 6
+
+Total action figures = 4 + 6 = 10
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+10.0
+
+Q: Zachary did 59 push-ups and 44 crunches in gym class today. David did 19 more push-ups but 27 less crunches than zachary. How many push-ups did David do?
+A_model:
+Hypothesis/Plan: To find the number of push-ups David did, we will first calculate the total push-ups Zachary did. Then, we will find the difference in push-ups between David and Zachary, which is 19 more push-ups for David. Finally, we will calculate the number of push-ups David did by subtracting 19 from the total push-ups Zachary did.
+
+Step-by-step:
+
+Total push-ups by Zachary = 59
+
+Total push-ups by David = Total push-ups by Zachary + 19 = 59 + 19 = 78
+
+Answer: the answer is 78
+Extracted:
+78.0
+A:
+78.0
+
+Q: 6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?
+A_model:
+Hypothesis/Plan: To find the total number of red and green peaches in the basket, we will add the number of red and green peaches together.
+
+Step-by-step:
+
+Red peaches = 6
+Green peaches = 16
+
+Total red and green peaches = 6 + 16 = 22
+
+Answer: the answer is 22
+Extracted:
+22.0
+A:
+22.0
+
+Q: Dave had 16 apps and 77 files on his phone. After deleting some apps and files he had 5 apps and 23 files left. How many apps did he delete?
+A_model:
+Hypothesis/Plan: To find out how many apps Dave deleted, we will subtract the number of apps he has now from the number he had originally.
+
+Step-by-step:
+
+Original apps = 16
+
+Remaining apps = 5
+
+Deleted apps = 16 - 5 = 11
+
+Answer: the answer is 11
+Extracted:
+11.0
+A:
+11.0
+
+Q: Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 3 invitations in it and she bought 2 packs. If she wants to invite 9 friends How many extra invitations will she need to buy?
+A_model:
+Hypothesis/Plan: To find out how many extra invitations Carol needs to buy, we first calculate the total number of invitations she already has and then subtract this from the total number of friends she wants to invite.
+
+Step-by-step:
+
+Invitations per pack = 3
+Packs bought = 2
+Total invitations bought = 3 invitations/pack * 2 packs = 6 invitations
+
+Total friends to invite = 9
+
+Extra invitations needed = Total friends - Total invitations bought = 9 - 6 = 3
+
+Answer: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: The ring toss game at the carnival made 120 dollars in the first 20 days and 66 dollars in the remaining 16 days. How much did they make per day in the first 20 days at the carnival?
+A_model:
+Hypothesis/Plan: To find the amount made per day in the first 20 days, we will divide the total amount made in the first 20 days by the number of days.
+Step-by-step:
+
+Total amount made in the first 20 days = $120
+
+Number of days = 20
+
+Amount made per day in the first 20 days = 120 / 20 = $6
+Answer: the answer is $6
+Extracted:
+6.0
+A:
+6.0
+
+Q: Mary is baking a cake. The recipe calls for 6 cups of sugar and 14 cups of flour. She already put in 7 cups of flour and 60 cups of sugar. How many more cups of flour does she need to add?
+A_model:
+Hypothesis/Plan: To find out how many more cups of flour Mary needs to add, we will subtract the amount of flour she has already put in from the total amount required by the recipe.
+
+Step-by-step:
+
+Total cups of flour required = 14 cups
+Flour already added = 7 cups
+
+Flour needed to add = 14 - 7 = 7 cups
+
+Answer: the answer is 7
+Extracted:
+7.0
+A:
+7.0
+
+Q: Ed had 5 more marbles than Doug. Doug lost 3 of his marbles at the playground. If Ed had 27 marbles How many marbles did Doug have initially?
+A_model:
+Hypothesis/Plan: Let's denote the number of marbles Doug initially had as D. Since Ed had 5 more marbles than Doug, Ed had D + 5 marbles. After Doug lost 3 marbles, he had D - 3 marbles. Given that Ed had 27 marbles, we can set up the equation D + 5 = 27. We can then solve for D.
+
+Step-by-step:
+
+Let D be the number of marbles Doug initially had.
+Ed had 5 more marbles than Doug, so Ed had D + 5 marbles.
+After Doug lost 3 marbles, he had D - 3 marbles.
+Given that Ed had 27 marbles, we have the equation D + 5 = 27.
+Subtract 5 from both sides: D = 27 - 5 = 22.
+
+Answer: the answer is 22.
+Extracted:
+22.0
+A:
+22.0
+
+Q: Mom buys 70 white t - shirts in total. If white t - shirts can be purchased in packages and mom buys 14 packages How many white t - shirts does each package have?
+A_model:
+Hypothesis/Plan: To find out how many white t-shirts are in each package, we will divide the total number of white t-shirts by the number of packages purchased.
+
+Step-by-step:
+
+Total white t-shirts = 70
+Number of packages = 14
+
+White t-shirts per package = Total white t-shirts / Number of packages
+White t-shirts per package = 70 / 14 = 5
+
+Answer: the answer is 5
+Extracted:
+5.0
+A:
+5.0
+
+Q: There are 896 skittles in Steven's skittles collection. Steven also has 517 erasers and 90 scales. If the skittles are organized into 8 groups How big is each group?
+A_model:
+Hypothesis/Plan: To find the size of each group, we will divide the total number of skittles by the number of groups.
+Step-by-step:
+
+Total skittles = 896
+Number of groups = 8
+
+Size of each group = 896 / 8 = 112
+Answer: the answer is 112
+Extracted:
+112.0
+A:
+112.0
+
+Q: Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?
+A_model:
+Hypothesis/Plan: To find how many more bird families flew away for the winter than those that stayed behind, we will subtract the number of bird families that stayed behind from the number that flew away.
+
+Step-by-step:
+
+Total bird families = 89
+
+Bird families that flew away = 60
+
+Bird families that stayed behind = 89 - 60 = 29
+
+Difference = 60 - 29 = 31
+
+Answer: the answer is 31
+Extracted:
+31.0
+A:
+31.0
+
+Q: Paco had 36 cookies. He gave 14 cookies to his friend and ate 10 cookies. How many cookies did Paco have left?
+A_model:
+Hypothesis/Plan: To find how many cookies Paco has left, we will subtract the cookies he gave to his friend and the cookies he ate from the total number of cookies he had initially.
+
+Step-by-step:
+
+Initial cookies = 36
+
+Cookies given to friend = 14
+
+Cookies eaten = 10
+
+Cookies left = 36 - 14 - 10 = 12
+
+Answer: the answer is 12
+Extracted:
+12.0
+A:
+12.0
+
+Q: Josh had some marbles in his collection. He lost 21 marbles. If he has 12 marbles now How many marbles did he have in his collection?
+A_model:
+Hypothesis/Plan: To find out how many marbles Josh had in his collection originally, we will add the marbles he has now to the marbles he lost.
+
+Step-by-step:
+
+Marbles lost = 21
+
+Marbles now = 12
+
+Marbles originally = 12 + 21 = 33
+
+Answer: the answer is 33
+Extracted:
+33.0
+A:
+33.0
+

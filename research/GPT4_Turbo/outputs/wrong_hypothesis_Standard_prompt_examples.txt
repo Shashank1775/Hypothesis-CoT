@@ -1,0 +1,116 @@
+❌ INCORRECT OR INVALID
+Q: Mandy made an apple pie . She used 0.6666666666666666 tablespoon of cinnamon and 0.5 tablespoon of nutmeg . How much more cinnamon than nutmeg did Mandy use ? 
+A_model:
+Hypothesis/Plan: To find how much more cinnamon Mandy used than nutmeg, subtract the amount of nutmeg from the amount of cinnamon.
+
+Difference = 0.6666666666666666 - 0.5 = 0.1666666666666666
+
+The answer is 0.1666666666666666.
+Extracted:
+0.1666
+A:
+0.16666666666666666
+
+❌ INCORRECT OR INVALID
+Q: A dust storm sweeps across the prairie . It covers 64535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ? 
+A_model:
+Hypothesis/Plan: To find the total area of the prairie, we add the area covered in dust to the area left untouched.
+
+Area covered in dust = 64535 acres  
+Area left untouched = 522 acres  
+
+Total area = 64535 + 522 = 65057  
+
+The answer is 65057.
+Extracted:
+65057.0
+A:
+64013.0
+
+❌ INCORRECT OR INVALID
+Q: Mary had 33 Pokemon cards , and 6 were torn . Sam gave Mary 23 new Pokemon cards . How many Pokemon cards does Mary have now ? 
+A_model:
+Hypothesis/Plan: To find how many Pokémon cards Mary has now, first subtract the torn cards from her original total, then add the new cards Sam gave her.
+
+Step 1: Subtract the torn cards from the original total.  
+33 - 6 = 27  
+
+Step 2: Add the new cards Sam gave her.  
+27 + 23 = 50  
+
+The answer is 50.
+Extracted:
+50.0
+A:
+56.0
+
+❌ INCORRECT OR INVALID
+Q: Brandy made trail mix for a backpacking trip . She used 0.16666666666666666 pound of peanuts , 0.16666666666666666 pound of chocolate chips , and 0.08333333333333333 pound of raisins . How many pounds of trail mix did Brandy make ? 
+A_model:
+Hypothesis/Plan: To find the total weight of the trail mix Brandy made, we will add the weights of peanuts, chocolate chips, and raisins together.
+
+Weight of peanuts = 0.16666666666666666 pounds  
+Weight of chocolate chips = 0.16666666666666666 pounds  
+Weight of raisins = 0.08333333333333333 pounds  
+
+Total weight = 0.16666666666666666 + 0.16666666666666666 + 0.08333333333333333 = 0.41666666666666665  
+
+The answer is 0.41666666666666665.
+Extracted:
+0.4166
+A:
+0.4166666666666667
+
+❌ INCORRECT OR INVALID
+Q: Tom bought a skateboard for $ 9.46 , and spent $ 9.56 on marbles . Tom also spent $ 14.50 on shorts . In total , how much did Tom spend on toys ? 
+A_model:
+Hypothesis/Plan: To find the total amount Tom spent on toys, we will add the cost of the skateboard, marbles, and shorts together.
+
+Cost of skateboard = $9.46  
+Cost of marbles = $9.56  
+Cost of shorts = $14.50  
+
+Total = $9.46 + $9.56 + $14.50 = $33.52  
+
+The answer is 33.52.
+Extracted:
+33.52
+A:
+19.02
+
+❌ INCORRECT OR INVALID
+Q: Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ? 
+A_model:
+Hypothesis/Plan: First, subtract the torn cards from Sally's total baseball cards. Then, subtract the cards that were sold to Sara to find how many cards Sally has left.
+
+Step 1: Subtract the torn cards.  
+39 - 9 = 30  
+
+Step 2: Subtract the cards sold to Sara.  
+30 - 24 = 6  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+15.0
+
+❌ INCORRECT OR INVALID
+Q: In Shannon 's apartment complex , 0.16666666666666666 the apartments are one-bedroom apartments and 0.3333333333333333 are two-bedroom apartments . What fraction of the apartments are either 1 - or two-bedroom apartments ? 
+A_model:
+**Hypothesis/Plan:** To find the fraction of apartments that are either one-bedroom or two-bedroom, we will add the fractions representing the one-bedroom apartments and the two-bedroom apartments. Since the fractions are already in decimal form, we will add them directly and simplify if necessary.
+
+Fraction of one-bedroom apartments = 0.16666666666666666  
+Fraction of two-bedroom apartments = 0.3333333333333333  
+
+Total fraction = 0.16666666666666666 + 0.3333333333333333 = 0.5  
+
+Convert 0.5 to a fraction:  
+0.5 = 1/2  
+
+**The answer is 1/2.**
+Extracted:
+1.0
+A:
+0.5
+

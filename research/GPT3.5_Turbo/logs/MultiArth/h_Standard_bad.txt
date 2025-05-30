@@ -1,0 +1,140 @@
+❌ INCORRECT OR INVALID
+Q:  Bianca's team won their dodgeball game and scored 75 points total. If Bianca scored 45 of the points and everyone else scored 6 points each, how many players were on her team? 
+A_model:
+Hypothesis/Plan: Let the number of players on Bianca's team be represented by x. Bianca scored 45 points, and the rest of the team scored 6 points each. The total points scored by the team is 75.
+
+Equation: 45 + 6(x-1) = 75
+Solve for x:
+45 + 6x - 6 = 75
+6x + 39 = 75
+6x = 36
+x = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+5.0
+
+❌ INCORRECT OR INVALID
+Q:  There were 16 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total? 
+A_model:
+Hypothesis/Plan: To find the total number of lives the players had, we will multiply the number of players who left by the number of lives each player had.
+
+Number of players who left = 7
+Number of lives each player had = 8
+
+Total lives = 7 * 8 = 56
+Answer: the answer is 56
+Extracted:
+56.0
+A:
+72.0
+
+❌ INCORRECT OR INVALID
+Q:  Edward earned 4 dollars for each lawn he mowed. If he had 17 lawns to mow, but forgot to mow 9 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: First, calculate the total amount Edward could have earned by mowing all 17 lawns. Then, subtract the amount he missed out on by forgetting to mow 9 lawns.
+
+Total amount if all lawns mowed = 17 lawns * $4/lawn = $68
+
+Amount missed by forgetting 9 lawns = 9 lawns * $4/lawn = $36
+
+The answer is $68 - $36 = $32
+Extracted:
+68.0
+A:
+32.0
+
+❌ INCORRECT OR INVALID
+Q:  Sarah had 55 homework problems. She finished 6 of them but still had 7 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page? 
+A_model:
+Hypothesis/Plan: To find the number of problems on each page, we will first subtract the problems Sarah finished and the problems she still has to do from the total number of problems.
+
+Problems left to do = 55 - 6 - 7 = 42
+
+Number of problems on each page = 42 / 7 = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+7.0
+
+❌ INCORRECT OR INVALID
+Q:  A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? 
+A_model:
+Hypothesis/Plan: To find the total number of worksheets the teacher has to grade, we will add the number of worksheets she has already graded to the number of new worksheets turned in.
+
+Graded worksheets = 7
+
+New worksheets turned in = 36
+
+Total worksheets to grade = 7 + 36 = 43
+
+Answer: the answer is 43
+Extracted:
+43.0
+A:
+63.0
+
+❌ INCORRECT OR INVALID
+Q:  Will bought 7 boxes of chocolate candy and gave 3 to his little brother. If each box has 4 pieces inside it, how many pieces did Will still have? 
+A_model:
+Hypothesis/Plan: First, calculate the total number of chocolate pieces in the boxes Will bought. Then subtract the 3 boxes he gave to his little brother to find out how many pieces he still has.
+
+Total chocolate pieces = 7 boxes * 4 pieces per box = 28 pieces
+
+Pieces Will still has = 28 - 3 = 25
+
+Answer: the answer is 25
+Extracted:
+25.0
+A:
+16.0
+
+❌ INCORRECT OR INVALID
+Q:  Edward earned 9 dollars for each lawn he mowed. If he had 6 lawns to mow, but forgot to mow 2 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: To find the total amount of money Edward earned, we will first calculate the total amount he could have earned if he mowed all 6 lawns. Then we will subtract the amount he missed by not mowing 2 lawns.
+
+Total amount if all lawns mowed = 9 * 6 = 54 dollars
+
+Amount missed by not mowing 2 lawns = 9 * 2 = 18 dollars
+
+Answer: the answer is 54 - 18 = 36
+Extracted:
+54.0
+A:
+36.0
+
+❌ INCORRECT OR INVALID
+Q:  A worksheet had 2 problems on it. If a teacher had 14 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? 
+A_model:
+Hypothesis/Plan: To find the total number of problems left to grade, we will first find the total number of problems on all the worksheets and then subtract the problems already graded.
+
+Total number of problems on all worksheets = 2 problems/worksheet * 14 worksheets = 28 problems
+
+Problems left to grade = 28 - 7 = 21
+
+Answer: the answer is 21
+Extracted:
+21.0
+A:
+14.0
+
+❌ INCORRECT OR INVALID
+Q:  A worksheet had 3 problems on it. If a teacher had 15 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? 
+A_model:
+Hypothesis/Plan: To find the total number of problems left to grade, we will first find the total number of problems on all the worksheets and then subtract the problems already graded.
+
+Total number of problems on all worksheets = 3 problems/worksheet * 15 worksheets = 45 problems
+
+Problems left to grade = 45 problems - 7 problems graded = 38 problems
+
+Answer: the answer is 38
+Extracted:
+38.0
+A:
+24.0
+

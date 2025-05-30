@@ -1,0 +1,318 @@
+❌ Incorrect or Invalid
+Q: There are 141 pots. Each pot has 71 flowers and 91 sticks in it. How many flowers are there in all?
+A_model:
+To find the total number of flowers, multiply the number of pots by the number of flowers in each pot:
+
+\[
+141 \times 71 = 10,011
+\]
+
+The answer is 10,011.
+Extracted:
+10.0
+A:
+10011.0
+
+❌ Incorrect or Invalid
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?
+A_model:
+To solve this, we first calculate how many drums are filled per day by the 36 pickers:
+
+36 pickers × 8 drums/day = 288 drums/day.
+
+Next, we determine how many days it will take to fill 240 drums:
+
+240 drums ÷ 288 drums/day = 0.8333 days.
+
+Since the number of drums filled per day exceeds the target, it will take less than a full day to fill 240 drums.
+
+The answer is approximately **0.83 days**.
+Extracted:
+None
+A:
+30.0
+
+❌ Incorrect or Invalid
+Q: He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?
+A_model:
+To find the total number of oranges harvested after 87 days, we calculate:
+
+Number of oranges per day = 66 sacks × 25 oranges per sack = 1650 oranges per day  
+Total oranges after 87 days = 1650 oranges/day × 87 days = 143,550 oranges  
+
+The answer is 143,550.
+Extracted:
+143.0
+A:
+143550.0
+
+❌ Incorrect or Invalid
+Q: You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?
+A_model:
+To solve this, we first determine how many cookies are in total. Since there are 15 candies and 52 cookies in total, the number of cookies is:
+
+52 - 15 = 37 cookies.
+
+Now, if there are 26 bags with an equal number of cookies, we divide the total number of cookies by the number of bags:
+
+37 ÷ 26 = 1.423 (approximately).
+
+The answer is **1.423 cookies per bag**.
+Extracted:
+1.423
+A:
+2.0
+
+❌ Incorrect or Invalid
+Q: Haley grew 14 trees in her backyard. After a typhoon 9 died. How many more trees died in the typhoon than those that survived?
+A_model:
+The answer is 5.
+Extracted:
+5.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: Paige was helping her mom plant flowers and together they planted 55 seeds. They put 15 seeds in each flower bed and only 60 seeds grew into flowers in each flower bed. How many flowers did they grow?
+A_model:
+The question contains conflicting information. It states that Paige and her mom planted 55 seeds, but later mentions 60 seeds growing into flowers in each flower bed. Since the number of seeds planted (55) is less than the number of seeds growing into flowers (60 per bed), the scenario is not possible as written.
+
+If you meant to ask how many flowers grew based on the seeds planted, please clarify the details.
+Extracted:
+None
+A:
+220.0
+
+❌ Incorrect or Invalid
+Q: Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?
+A_model:
+The recipe calls for 6 cups of flour and 13 cups of sugar. Mary still needs 8 more cups of flour than sugar. 
+
+Let the number of cups of flour Mary still needs to add be \( x \). Since she needs 8 more cups of flour than sugar, the equation becomes:
+
+\[
+x = 13 + 8
+\]
+
+\[
+x = 21
+\]
+
+Mary needs to add 21 cups of flour in total. However, she already put in some cups of flour. To determine how many more cups of flour she needs to add, subtract the amount she already added from 21.
+
+The answer is dependent on how many cups of flour she already added, which is not specified in the problem. If you provide that information, I can calculate the exact answer.
+Extracted:
+None
+A:
+21.0
+
+❌ Incorrect or Invalid
+Q: Lewis earns $ 28 every week during the 1091 weeks of harvest. He also earns $ 939 per week for working overtime. If he works overtime every week How much money does he earn during harvest season?
+A_model:
+To calculate how much money Lewis earns during the harvest season, we need to account for both his regular earnings and his overtime earnings.
+
+1. Regular earnings per week: $28  
+2. Overtime earnings per week: $939  
+3. Total earnings per week: $28 + $939 = $967  
+4. Total weeks of harvest: 1091  
+
+Now, calculate the total earnings:  
+$967 × 1091 = $1,054,697  
+
+The answer is **1,054,697**.
+Extracted:
+1.0
+A:
+1054997.0
+
+❌ Incorrect or Invalid
+Q: Paul had 71 books. After selling some in a garage sale he bought 38 new ones. If he has 116 books now How many more books did he buy than he sold?
+A_model:
+Paul started with 71 books. After selling some, he bought 38 new ones and ended up with 116 books. To find out how many books he sold, we calculate:
+
+Books remaining after selling and buying:
+71 - books sold + 38 = 116  
+71 + 38 - books sold = 116  
+109 - books sold = 116  
+Books sold = 109 - 116 = -7 (negative value indicates error in calculation or problem setup).
+Extracted:
+None
+A:
+45.0
+
+❌ Incorrect or Invalid
+Q: Lewis earns $ 368 every week during the 1359 weeks of harvest. If he has to pay $ 388 rent every week How much money does he pay as rent during the harvest season?
+A_model:
+To calculate how much money Lewis pays as rent during the harvest season, we multiply the weekly rent by the number of weeks:
+
+Rent per week = $388  
+Number of weeks = 1359  
+
+Total rent = $388 × 1359 = $527,892  
+
+The answer is 527892.
+Extracted:
+527892.0
+A:
+527292.0
+
+❌ Incorrect or Invalid
+Q: After eating a hearty meal they went to see the Buckingham palace. There were 71 paintings in the Buckingham palace. There, Rachel learned that 557 visitors came to the Buckingham palace that day. If there were 188 visitors the previous day How many visited the Buckingham palace within 57 days?
+A_model:
+To calculate the total number of visitors to the Buckingham Palace within 57 days, we need to assume that the number of visitors per day remains consistent with the current day's count (557 visitors per day). 
+
+So, the total number of visitors in 57 days is:
+
+\[
+557 \times 57 = 31,749
+\]
+
+The answer is **31,749**.
+Extracted:
+31.0
+A:
+745.0
+
+❌ Incorrect or Invalid
+Q: He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?
+A_model:
+To find the total number of oranges harvested per day, we calculate:
+
+76 sacks × 50 oranges per sack = 3800 oranges.
+
+The answer is 3800.
+Extracted:
+3800.0
+A:
+600.0
+
+❌ Incorrect or Invalid
+Q: Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?
+A_model:
+The answer is 15.
+Extracted:
+15.0
+A:
+34.0
+
+❌ Incorrect or Invalid
+Q: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+A_model:
+The book has 2 chapters, each with 405 pages. That means the total number of pages in the book is:
+
+\[
+2 \times 405 = 810 \text{ pages.}
+\]
+
+Frank took 664 days to finish the book. To find how many chapters he read per day, we divide the total chapters (2) by the total days (664):
+
+\[
+\frac{2}{664} = 0.00301 \text{ chapters per day (approximately).}
+\]
+
+Thus, the answer is **0.00301**.
+Extracted:
+0.003
+A:
+332.0
+
+❌ Incorrect or Invalid
+Q: Last week Fred had 111 dollars and Jason had 40 dollars. Fred washed cars over the weekend and now has 115 dollars. Jason delivered newspapers and now has 44 dollars. How much money did they earn by washing cars?
+A_model:
+The answer is 8.
+Extracted:
+8.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: The ring toss game at the carnival made the same amount of money each day. In total in 30 days they earned 420 dollars. Together with game they earned 22 dollars. How much did ring toss game make per day?
+A_model:
+First, calculate how much money the ring toss game made in total by subtracting the earnings of the other game from the total earnings:
+
+420 - 22 = 398 dollars.
+
+Now, divide the total earnings of the ring toss game by the number of days (30) to find how much it made per day:
+
+398 ÷ 30 = 13.27.
+
+The answer is 13.27.
+Extracted:
+13.27
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: For the walls of the house he would use 12 large planks of wood and 17 small planks. If each large plank of wood needs 14 pieces of nails to be secured and each small plank needs 25 nails. How many planks does John need for the house wall?
+A_model:
+To calculate the total number of nails John needs:
+
+1. Each large plank requires 14 nails, and there are 12 large planks:
+   \( 12 \times 14 = 168 \) nails for the large planks.
+
+2. Each small plank requires 25 nails, and there are 17 small planks:
+   \( 17 \times 25 = 425 \) nails for the small planks.
+
+3. Add the nails needed for both types of planks:
+   \( 168 + 425 = 593 \).
+
+The answer is 593.
+Extracted:
+593.0
+A:
+29.0
+
+❌ Incorrect or Invalid
+Q: A book has 2 chapters across 23 pages. The first chapter is 10 pages long. How many pages are in the first chapter?
+A_model:
+the answer is 10
+Extracted:
+10.0
+A:
+13.0
+
+❌ Incorrect or Invalid
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+A_model:
+To find the total number of drums of grapes filled in 146 days, we multiply the daily number of drums of grapes by the number of days:
+
+244 drums/day × 146 days = 35,624 drums
+
+The answer is 35,624.
+Extracted:
+35.0
+A:
+35624.0
+
+❌ Incorrect or Invalid
+Q: There are 10 different books and 6 different movies in the ' crazy silly school ' series. If you read 14 of the movies and watched 19 of the books How many more books than movies have you read?
+A_model:
+The question contains a mix-up in terms of reading movies and watching books, which doesn't make sense. Let's clarify and solve it logically:
+
+If there are 10 books and 6 movies in the series, it is impossible to read 14 movies or watch 19 books because the total number of movies is only 6, and the total number of books is only 10.
+
+Thus, the question as stated is invalid. Please provide clarification or correct the question.
+Extracted:
+None
+A:
+5.0
+
+❌ Incorrect or Invalid
+Q: Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?
+A_model:
+If Ed had 17 marbles after losing 20, then he originally had:
+
+17 + 20 = 37 marbles.
+
+Since Ed had 12 more marbles than Doug, Doug originally had:
+
+37 - 12 = 25 marbles.
+
+Doug's marbles remain unchanged, so the answer is 25.
+
+The answer is 25.
+Extracted:
+25.0
+A:
+5.0
+

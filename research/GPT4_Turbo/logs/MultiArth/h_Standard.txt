@@ -1,0 +1,3030 @@
+Q:  In a video game, each enemy defeated gives you 8 points. If a level has 7 enemies total and you destroy all but 2 of them, how many points would you earn? 
+A_model:
+Hypothesis/Plan: To calculate the points earned, first determine how many enemies were defeated by subtracting the number of enemies left from the total number of enemies. Then multiply the number of defeated enemies by the points earned per enemy.
+
+Total enemies = 7  
+Enemies left = 2  
+Enemies defeated = 7 - 2 = 5  
+
+Points per enemy = 8  
+Total points earned = 5 × 8 = 40  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  For Halloween Emily received 54 pieces of candy. She ate 33 pieces then placed the rest into piles with 7 in each pile. How many piles could she make? 
+A_model:
+Hypothesis/Plan: To determine how many piles Emily could make, we first subtract the number of candies she ate from the total she received. Then, we divide the remaining candies by the number of candies in each pile (7).
+
+Step 1: Subtract the eaten candies.  
+Remaining candies = 54 - 33 = 21  
+
+Step 2: Divide the remaining candies by the number of candies per pile.  
+Number of piles = 21 ÷ 7 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  Adam earned 9 dollars for each lawn he mowed. If he had 12 lawns to mow, but forgot to mow 8 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: To calculate how much money Adam earned, first determine how many lawns he actually mowed by subtracting the lawns he forgot to mow from the total lawns. Then multiply the number of lawns he mowed by the amount he earned per lawn.
+
+Lawns mowed = 12 - 8 = 4  
+Earnings per lawn = $9  
+Total earnings = 4 × 9 = $36  
+
+The answer is 36.
+Extracted:
+36.0
+A:
+36.0
+
+Q:  Katie had 11 songs on her mp3 player. If she deleted 7 old songs from it and then added 24 new songs, how many songs does she have on her mp3 player? 
+A_model:
+Hypothesis/Plan: To find the total number of songs Katie has on her mp3 player, first subtract the 7 songs she deleted from the original 11 songs. Then, add the 24 new songs she added.
+
+Step 1: Subtract the deleted songs: 11 - 7 = 4  
+Step 2: Add the new songs: 4 + 24 = 28  
+
+The answer is 28.
+Extracted:
+28.0
+A:
+28.0
+
+Q:  For the school bake sale Carol made 30 cupcakes. If she sold 9 of them and then made 28 more, how many cupcakes would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of cupcakes Carol has, we first subtract the number of cupcakes she sold from the initial amount she made. Then, we add the number of cupcakes she made afterward.
+
+Initial cupcakes = 30  
+Sold cupcakes = 9  
+Remaining cupcakes = 30 - 9 = 21  
+
+Additional cupcakes made = 28  
+Total cupcakes = 21 + 28 = 49  
+
+The answer is 49.
+Extracted:
+49.0
+A:
+49.0
+
+Q:  For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? 
+A_model:
+Hypothesis/Plan: To find how many pieces of candy Debby and her sister have left, first add the total number of pieces they received, then subtract the number of pieces they ate.
+
+Total candy = Debby's candy + her sister's candy  
+Total candy = 32 + 42 = 74  
+
+Remaining candy = Total candy - candy eaten  
+Remaining candy = 74 - 35 = 39  
+
+The answer is 39.
+Extracted:
+39.0
+A:
+39.0
+
+Q:  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? 
+A_model:
+Hypothesis/Plan: To find the total amount Haley spent, we will multiply the price of each ticket by the total number of tickets she bought. 
+
+Price per ticket = $4  
+Number of tickets = 3 + 5 = 8  
+
+Total cost = 4 × 8 = 32  
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q:  Jerry had 60 pieces of clothing to wash. He put 40 of them in one load, but decided to split the rest into 5 equal loads. How many pieces of clothing could go in each of the small loads? 
+A_model:
+Hypothesis/Plan: To determine how many pieces of clothing go into each of the small loads, first subtract the 40 pieces from the total to find how many remain. Then divide the remaining pieces equally among the 5 small loads.
+
+Remaining clothing = 60 - 40 = 20  
+Clothing per small load = 20 ÷ 5 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? 
+A_model:
+Hypothesis/Plan: To determine how many baggies Robin can make, we first find the total number of cookies by adding the chocolate chip cookies and oatmeal cookies. Then, we divide the total number of cookies by the number of cookies per bag (6). If there is a remainder, it means some cookies will be left over, but we only count the full baggies.
+
+Total cookies = 23 + 25 = 48  
+Number of cookies per bag = 6  
+Number of baggies = 48 ÷ 6 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  A pet store had 19 siamese cats and 45 house cats. During a sale they sold 56 cats. How many cats do they have left? 
+A_model:
+Hypothesis/Plan: To find how many cats the pet store has left, first calculate the total number of cats they originally had by adding the siamese cats and house cats. Then subtract the number of cats sold during the sale.
+
+Total cats = 19 + 45 = 64  
+Cats left = 64 - 56 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  A new building needed 10 windows. The builder had already installed 6 of them. If it takes 5 hours to install each window, how long will it take him to install the rest? 
+A_model:
+**Hypothesis/Plan:**  
+To determine how long it will take to install the remaining windows, first calculate how many windows are left to install by subtracting the number of installed windows from the total number of windows. Then, multiply the number of remaining windows by the time it takes to install each window.
+
+**Steps:**  
+1. Total windows needed = 10  
+2. Windows already installed = 6  
+3. Remaining windows = 10 - 6 = 4  
+4. Time to install each window = 5 hours  
+5. Total time to install remaining windows = 4 × 5 = 20 hours  
+
+**Answer:** The answer is 20.
+Extracted:
+20.0
+A:
+20.0
+
+Q:  Vanessa had 13 music files and 30 video files on her flash drive. If she deleted 10 of the files, how many files were still on her flash drive? 
+A_model:
+Hypothesis/Plan: To find the total number of files Vanessa had initially, add the number of music files and video files. Then subtract the number of files she deleted to find how many files remain.
+
+Initial total files = 13 + 30 = 43  
+Files remaining = 43 - 10 = 33  
+
+The answer is 33.
+Extracted:
+33.0
+A:
+33.0
+
+Q:  Oliver had 35 dollars. For his birthday he got 50 more dollars but spent 84 on a new game. How much money does he have now? 
+A_model:
+Hypothesis/Plan: To find how much money Oliver has now, we will first add the birthday money to his initial amount, then subtract the amount he spent on the new game.
+
+Initial money = 35 dollars  
+Birthday money = 50 dollars  
+Total money after birthday = 35 + 50 = 85 dollars  
+
+Amount spent on the game = 84 dollars  
+Remaining money = 85 - 84 = 1 dollar  
+
+The answer is 1.
+Extracted:
+1.0
+A:
+1.0
+
+Q:  Amy had 4 music files and 21 video files on her flash drive. If she deleted 23 of the files, how many files were still on her flash drive? 
+A_model:
+Hypothesis/Plan: To find how many files are still on Amy's flash drive, we first calculate the total number of files she had initially by adding the music files and video files. Then, we subtract the number of files she deleted.
+
+Total files initially = 4 + 21 = 25  
+Files remaining = 25 - 23 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  Chloe was playing a video game where she scores 9 points for each treasure she finds. If she found 6 treasures on the first level and 3 on the second, what would her score be? 
+A_model:
+Hypothesis/Plan: To calculate Chloe's score, we first determine the total number of treasures she found by adding the treasures from the first and second levels. Then, we multiply the total number of treasures by the points per treasure.
+
+Treasures on the first level = 6  
+Treasures on the second level = 3  
+Total treasures = 6 + 3 = 9  
+
+Points per treasure = 9  
+Total score = 9 × 9 = 81  
+
+The answer is 81.
+Extracted:
+81.0
+A:
+81.0
+
+Q:  Luke was organizing his baseball cards in a binder with 3 on each page. If he had 3 new cards and 9 old cards to put in the binder, how many pages would he use? 
+A_model:
+Hypothesis/Plan: To determine how many pages Luke will use, we first calculate the total number of cards he has by adding the new cards and old cards together. Then, we divide the total number of cards by the number of cards that fit on each page (3 cards per page). If the result is not a whole number, we round up because partial pages are not possible.
+
+Total cards = 3 (new cards) + 9 (old cards) = 12 cards  
+Pages needed = 12 ÷ 3 = 4 pages  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Gwen was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 3 shelves of mystery books and 5 shelves of picture books, how many books did she have total? 
+A_model:
+Hypothesis/Plan: To find the total number of books, we will calculate the number of books on the mystery book shelves and the picture book shelves separately, then add them together. Each shelf has 9 books.
+
+Mystery books: 3 shelves × 9 books = 27 books  
+Picture books: 5 shelves × 9 books = 45 books  
+
+Total books = 27 + 45 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  At a restaurant each adult meal costs $3 and kids eat free. If a group of 12 people came in and 7 were kids, how much would it cost for the group to eat? 
+A_model:
+Hypothesis/Plan: To calculate the total cost for the group, we need to determine how many adult meals were purchased and multiply that number by the cost of each adult meal. Since kids eat free, their meals do not contribute to the total cost.
+
+Number of adults = Total people - Number of kids  
+Number of adults = 12 - 7 = 5  
+
+Cost per adult meal = $3  
+Total cost = Number of adults × Cost per adult meal  
+Total cost = 5 × 3 = $15  
+
+The answer is 15.
+Extracted:
+15.0
+A:
+15.0
+
+Q:  A store had 50 oranges in a bin. If they threw away 40 of the old ones and put 24 new ones in the bin how many would be in the bin? 
+A_model:
+Hypothesis/Plan: To find the total number of oranges in the bin, subtract the number of old oranges thrown away from the initial number of oranges, then add the number of new oranges added to the bin.
+
+Initial oranges = 50  
+Old oranges thrown away = 40  
+New oranges added = 24  
+
+Total oranges = (50 - 40) + 24 = 10 + 24 = 34  
+
+The answer is 34.
+Extracted:
+34.0
+A:
+34.0
+
+Q:  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? 
+A_model:
+Hypothesis/Plan: To find the total number of cans Kaleb collected, we first calculate the total number of bags he filled over the two days. Then, we multiply the total number of bags by the number of cans in each bag.
+
+Total bags = 5 (Saturday) + 5 (Sunday) = 10 bags  
+Cans per bag = 4  
+Total cans = 10 × 4 = 40  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? 
+A_model:
+Hypothesis/Plan: To find the total number of carrots Maria has, we first subtract the number of carrots she threw out from the initial amount, then add the number of carrots she picked the next day.
+
+Initial carrots = 48  
+Carrots thrown out = 11  
+Carrots picked the next day = 15  
+
+Remaining carrots after throwing out = 48 - 11 = 37  
+Total carrots = 37 + 15 = 52  
+
+The answer is 52.
+Extracted:
+52.0
+A:
+52.0
+
+Q:  A painter needed to paint 9 rooms in a building. Each room takes 8 hours to paint. If he already painted 5 rooms, how much longer will he take to paint the rest? 
+A_model:
+Hypothesis/Plan: To find how much longer the painter will take, first calculate the number of rooms left to paint. Then multiply the number of remaining rooms by the time it takes to paint each room.
+
+Rooms left to paint = Total rooms - Rooms already painted  
+Rooms left = 9 - 5 = 4  
+
+Time to paint remaining rooms = Rooms left × Time per room  
+Time = 4 × 8 = 32 hours  
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q:  Oliver was organizing his baseball cards in a binder with 3 on each page. If he had 2 new cards and 10 old cards to put in the binder, how many pages would he use? 
+A_model:
+Hypothesis/Plan: To determine how many pages Oliver will use, we first calculate the total number of cards he has by adding the new and old cards. Then, we divide the total number of cards by the number of cards that fit on each page (3). If there is a remainder, we round up to the next whole number because partial pages cannot be used.
+
+Total cards = 2 (new) + 10 (old) = 12  
+Pages needed = 12 ÷ 3 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Debby's class is going on a field trip to the zoo. If each van can hold 4 people and there are 2 students and 6 adults going, how many vans will they need? 
+A_model:
+Hypothesis/Plan: To determine how many vans are needed, we first calculate the total number of people going on the trip by adding the number of students and adults. Then, we divide the total number of people by the capacity of each van (4 people per van). If the result is not a whole number, we round up to the nearest whole number because partial vans are not possible.
+
+Total people = 2 students + 6 adults = 8 people  
+Vans needed = 8 ÷ 4 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  At a restaurant each adult meal costs $2 and kids eat free. If a group of 15 people came in and 9 were kids, how much would it cost for the group to eat? 
+A_model:
+Hypothesis/Plan: To calculate the total cost, we need to determine how many adults are in the group and multiply the number of adult meals by the cost per adult meal. Since kids eat free, their meals do not contribute to the total cost.
+
+Total people = 15  
+Number of kids = 9  
+Number of adults = 15 - 9 = 6  
+
+Cost per adult meal = $2  
+Total cost = 6 × $2 = $12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q:  Sam was collecting cans for recycling. On Saturday he filled 4 bags up and on Sunday he filled 3 more bags. If each bag had 6 cans in it, how many cans did he pick up total? 
+A_model:
+Hypothesis/Plan: To find the total number of cans Sam collected, we first calculate the number of cans in the bags he filled on Saturday and Sunday. Then, we add these two amounts together.
+
+Cans collected on Saturday = 4 bags × 6 cans = 24 cans  
+Cans collected on Sunday = 3 bags × 6 cans = 18 cans  
+
+Total cans = 24 + 18 = 42  
+
+The answer is 42.
+Extracted:
+42.0
+A:
+42.0
+
+Q:  The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? 
+A_model:
+Hypothesis/Plan: To determine how many groups of 9 can be formed, we first calculate the total number of students on the debate team by adding the number of boys and girls. Then, we divide the total number of students by 9 to find the number of groups. If there is a remainder, it means some students will not fit into a full group.
+
+Total students = 5 boys + 40 girls = 45  
+Number of groups = 45 ÷ 9 = 5  
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q:  A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use? 
+A_model:
+Hypothesis/Plan: To determine how many shelves were used, we first calculate the total number of bears by adding the initial stock and the shipment. Then, we divide the total number of bears by the number of bears per shelf to find the number of shelves needed.
+
+Initial bears = 4  
+Shipment bears = 10  
+Total bears = 4 + 10 = 14  
+
+Bears per shelf = 7  
+Number of shelves = Total bears ÷ Bears per shelf = 14 ÷ 7 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  At lunch a waiter had 9 customers and 5 of them didn't leave a tip. If he got $8 each from the ones who did tip, how much money did he earn? 
+A_model:
+Hypothesis/Plan: To find out how much money the waiter earned, we first determine how many customers left a tip by subtracting the number of customers who didn't tip from the total number of customers. Then, we multiply the number of customers who tipped by the amount each tipper gave.
+
+Customers who tipped = 9 - 5 = 4  
+Total earnings = 4 × $8 = $32  
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q:  A toy store had 5 giant stuffed bears in stock when they got another shipment with 7 bears in it. The put the bears onto shelves with 6 on each shelf. How many shelves did they use? 
+A_model:
+Hypothesis/Plan: To find the number of shelves used, first calculate the total number of bears by adding the bears already in stock to the bears in the shipment. Then divide the total number of bears by the number of bears that fit on each shelf. If there is a remainder, an additional shelf will be needed.
+
+Total bears = 5 + 7 = 12  
+Bears per shelf = 6  
+Number of shelves = 12 ÷ 6 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  April's discount flowers was having a sale where each flower was 6 dollars. If Maria bought 7 roses and 3 daisies, how much did she spend? 
+A_model:
+Hypothesis/Plan: To find the total amount Maria spent, we will calculate the cost of the roses and the daisies separately, then add them together. Each flower costs $6.
+
+Cost of roses = 7 × 6 = 42  
+Cost of daisies = 3 × 6 = 18  
+Total cost = 42 + 18 = 60  
+
+The answer is 60.
+Extracted:
+60.0
+A:
+60.0
+
+Q:  Nancy and her mom were picking carrots from their garden. Nancy picked 38 and her mother picked 47. If only 71 of the carrots were good, how many bad carrots did they have? 
+A_model:
+Hypothesis/Plan: To find the number of bad carrots, we first calculate the total number of carrots picked by adding Nancy's and her mother's carrots. Then, we subtract the number of good carrots from the total to find the number of bad carrots.
+
+Total carrots picked = 38 + 47 = 85  
+Bad carrots = Total carrots picked - Good carrots = 85 - 71 = 14  
+
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q:  Isabel picked 66 flowers for her friend’s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? 
+A_model:
+Hypothesis/Plan: To determine how many bouquets Isabel can make, we first subtract the wilted flowers from the total number of flowers she picked. Then, we divide the remaining flowers by the number of flowers needed for each bouquet.
+
+Step 1: Subtract the wilted flowers from the total flowers.
+Remaining flowers = 66 - 10 = 56
+
+Step 2: Divide the remaining flowers by the number of flowers per bouquet.
+Bouquets = 56 ÷ 8 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  A pet store has 9 bird cages. If each cage has 2 parrots and 6 parakeets in it, how many birds does the pet store have total? 
+A_model:
+Hypothesis/Plan: To find the total number of birds in the pet store, we first calculate the total number of birds in one cage by adding the number of parrots and parakeets. Then, we multiply this total by the number of cages.
+
+Birds in one cage = 2 parrots + 6 parakeets = 8 birds  
+Total birds = 8 birds per cage × 9 cages = 72 birds  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? 
+A_model:
+Hypothesis/Plan: To determine how much money Henry needs, first calculate how many more action figures he needs to complete his collection. Then multiply the number of additional action figures by the cost of each one.
+
+Number of additional action figures needed = 8 - 3 = 5  
+Cost per action figure = $6  
+Total cost = 5 × 6 = $30  
+
+The answer is 30.
+Extracted:
+30.0
+A:
+30.0
+
+Q:  While shopping, Maria bought 40 green towels and 44 white towels. If she gave her mother 65 of them, how many towels did Maria end up with? 
+A_model:
+Hypothesis/Plan: To find how many towels Maria ended up with, we first calculate the total number of towels she bought by adding the green and white towels. Then, we subtract the number of towels she gave to her mother.
+
+Total towels = 40 (green) + 44 (white) = 84  
+Towels remaining = 84 - 65 = 19  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q:  April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? 
+A_model:
+Hypothesis/Plan: To find the total amount Vanessa spent, we calculate the cost of the roses and daisies separately and then add them together. Each flower costs $8, and Vanessa bought 3 roses and 3 daisies. 
+
+Cost of roses = 3 × 8 = 24  
+Cost of daisies = 3 × 8 = 24  
+Total cost = 24 + 24 = 48  
+
+The answer is 48.
+Extracted:
+48.0
+A:
+48.0
+
+Q:  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? 
+A_model:
+Hypothesis/Plan: To find the total number of songs Janet bought, we calculate the total number of albums and multiply by the number of songs per album. Janet bought 6 country albums and 2 pop albums, which is a total of 6 + 2 = 8 albums. Each album has 9 songs, so the total number of songs is 8 × 9.
+
+Calculation:  
+Total albums = 6 + 2 = 8  
+Total songs = 8 × 9 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  Tom bought 12 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Tom still have? 
+A_model:
+Hypothesis/Plan: To find out how many pieces of chocolate Tom still has, we first calculate the total number of pieces in the 12 boxes. Then, we calculate how many pieces were in the 7 boxes he gave to his brother. Finally, we subtract the pieces given away from the total.
+
+1. Total pieces in 12 boxes = 12 × 6 = 72  
+2. Pieces in 7 boxes = 7 × 6 = 42  
+3. Pieces Tom still has = 72 - 42 = 30  
+
+The answer is 30.
+Extracted:
+30.0
+A:
+30.0
+
+Q:  A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? 
+A_model:
+Hypothesis/Plan: To find the total points scored, first determine how many members showed up by subtracting the number of members who didn't show up from the total number of members. Then multiply the number of members who showed up by the points each member scored.
+
+Members who showed up = 11 - 6 = 5  
+Total points scored = 5 × 9 = 45  
+
+The answer is 45.
+Extracted:
+45.0
+A:
+45.0
+
+Q:  Edward and his friend were buying trick decks from the magic shop for 9 dollars each. How much did they spend if Edward bought 4 decks and his friend bought 4 decks? 
+A_model:
+Hypothesis/Plan: To find the total amount spent, we calculate the cost of the decks Edward bought and the cost of the decks his friend bought, then add them together. Each deck costs $9, and both Edward and his friend bought 4 decks each.
+
+Cost of Edward's decks = 4 × 9 = 36  
+Cost of his friend's decks = 4 × 9 = 36  
+Total cost = 36 + 36 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be? 
+A_model:
+Hypothesis/Plan: To find the total number of groups, first calculate the total number of players by adding the new players and returning players. Then divide the total number of players by the number of players in each group (8).
+
+Total players = 12 + 44 = 56  
+Number of groups = 56 ÷ 8 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Tiffany uploaded 7 pictures from her phone and 13 from her camera to facebook. If she sorted the pics into 5 different albums with the same amount of pics in each album, how many pictures were in each of the albums? 
+A_model:
+Hypothesis/Plan: To find how many pictures were in each album, first calculate the total number of pictures uploaded by adding the pictures from Tiffany's phone and camera. Then divide the total number of pictures by the number of albums to determine how many pictures were in each album.
+
+Total pictures = 7 (from phone) + 13 (from camera) = 20  
+Pictures per album = 20 ÷ 5 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Megan had 93 files on her computer. She deleted 21 of them and put the rest into folders with 8 files in each one. How many folders did Megan end up with? 
+A_model:
+Hypothesis/Plan: To determine how many folders Megan ended up with, first subtract the number of files she deleted from the total number of files. Then divide the remaining files by the number of files per folder (8). If there is a remainder, it means an additional folder is needed for the leftover files.
+
+Step 1: Subtract the deleted files.  
+Remaining files = 93 - 21 = 72  
+
+Step 2: Divide the remaining files by the number of files per folder.  
+Number of folders = 72 ÷ 8 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  Each chocolate bar in a box cost $3. If a box had 7 bars total and Olivia sold all but 4 bars, how much money would she have made? 
+A_model:
+Hypothesis/Plan: To find how much money Olivia made, first determine how many bars she sold by subtracting the number of bars she kept (4) from the total number of bars in the box (7). Then multiply the number of bars sold by the cost per bar ($3).
+
+Bars sold = 7 - 4 = 3  
+Money made = 3 × $3 = $9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  A chef needs to cook 16 potatoes. He has already cooked 7. If each potato takes 5 minutes to cook, how long will it take him to cook the rest? 
+A_model:
+Hypothesis/Plan: To determine how long it will take the chef to cook the remaining potatoes, we first calculate how many potatoes are left to cook by subtracting the number already cooked from the total. Then, we multiply the number of remaining potatoes by the time it takes to cook each potato.
+
+Total potatoes = 16  
+Already cooked = 7  
+Remaining potatoes = 16 - 7 = 9  
+
+Time per potato = 5 minutes  
+Total time to cook remaining potatoes = 9 × 5 = 45 minutes  
+
+The answer is 45.
+Extracted:
+45.0
+A:
+45.0
+
+Q:  In a video game, each enemy defeated gives you 3 points. If a level has 6 enemies total and you destroy all but 2 of them, how many points would you earn? 
+A_model:
+Hypothesis/Plan: To calculate the points earned, first determine how many enemies were defeated by subtracting the number of enemies left from the total number of enemies. Then multiply the number of defeated enemies by the points earned per enemy.
+
+Total enemies = 6  
+Enemies left = 2  
+Enemies defeated = 6 - 2 = 4  
+
+Points per enemy = 3  
+Total points earned = 4 × 3 = 12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q:  Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? 
+A_model:
+Hypothesis/Plan: To find the number of bad carrots, we first calculate the total number of carrots picked by Vanessa and her mom. Then, subtract the number of good carrots from the total to determine the number of bad carrots.
+
+Total carrots picked = Vanessa's carrots + her mom's carrots  
+Total carrots picked = 17 + 14 = 31  
+
+Bad carrots = Total carrots picked - Good carrots  
+Bad carrots = 31 - 24 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  At the fair there were 10 people in line for the bumper cars. If 2 of them got tired of waiting and left and 2 more got in line, how many people would be in line? 
+A_model:
+Hypothesis/Plan: To find the number of people in line after the changes, subtract the 2 people who left the line and add the 2 people who joined the line.
+
+Initial number of people = 10  
+People who left = 2  
+People who joined = 2  
+
+Final number of people in line = 10 - 2 + 2 = 10  
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q:  Cody bought 7 boxes of chocolate candy and 3 boxes of caramel candy. If each box has 8 pieces inside it, how much candy did he have total? 
+A_model:
+Hypothesis/Plan: To find the total amount of candy Cody has, we calculate the total pieces of chocolate candy and caramel candy separately, then add them together. Each box contains 8 pieces.
+
+Chocolate candy: 7 boxes × 8 pieces = 56 pieces  
+Caramel candy: 3 boxes × 8 pieces = 24 pieces  
+Total candy: 56 + 24 = 80 pieces  
+
+The answer is 80.
+Extracted:
+80.0
+A:
+80.0
+
+Q:  A trivia team had 15 members total, but during a game 6 members didn't show up. If each member that did show up scored 3 points, how many points were scored total? 
+A_model:
+Hypothesis/Plan: To find the total points scored, first determine how many members showed up by subtracting the number of members who didn't show up from the total number of members. Then multiply the number of members who showed up by the points each member scored.
+
+Members who showed up = 15 - 6 = 9  
+Total points scored = 9 × 3 = 27  
+
+The answer is 27.
+Extracted:
+27.0
+A:
+27.0
+
+Q:  Frank had 11 dollars. At the store he spent $3 on a new game. If he got another 14 dollars for his allowance, how much money does he have now? 
+A_model:
+Hypothesis/Plan: To find out how much money Frank has now, we first subtract the amount he spent from his initial amount, then add the allowance he received.
+
+Initial amount = $11  
+Amount spent = $3  
+Allowance received = $14  
+
+Remaining money after spending = 11 - 3 = 8  
+Total money after receiving allowance = 8 + 14 = 22  
+
+The answer is 22.
+Extracted:
+22.0
+A:
+22.0
+
+Q:  Edward made 37 dollars mowing lawns over the summer. If he spent 21 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? 
+A_model:
+Hypothesis/Plan: To determine how many 2-dollar games Edward can buy, we first calculate how much money he has left after spending 21 dollars on mower blades. Then, we divide the remaining money by the cost of each game (2 dollars).
+
+Step 1: Calculate the remaining money.
+Remaining money = 37 - 21 = 16
+
+Step 2: Divide the remaining money by the cost of each game.
+Number of games = 16 ÷ 2 = 8
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  Oliver had 35 dollars. For his birthday he got 50 more dollars but spent 84 on a new game. How much money does he have now? 
+A_model:
+Hypothesis/Plan: To find how much money Oliver has now, we will first add the birthday money to his initial amount, then subtract the amount he spent on the new game.
+
+Initial money = 35 dollars  
+Birthday money = 50 dollars  
+Total money after birthday = 35 + 50 = 85 dollars  
+
+Amount spent on the game = 84 dollars  
+Remaining money = 85 - 84 = 1 dollar  
+
+The answer is 1.
+Extracted:
+1.0
+A:
+1.0
+
+Q:  The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find the number of extra apples, first calculate the total number of apples ordered by adding the red and green apples. Then subtract the number of apples needed for the 5 students from the total apples ordered.
+
+Total apples = 6 red apples + 15 green apples = 21 apples  
+Apples needed = 5 students × 1 apple each = 5 apples  
+Extra apples = Total apples - Apples needed = 21 - 5 = 16  
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q:  Isabel baked 39 cupcakes for her school's bake sale. If her brother, Todd, ate 21 of them how many packages could she make if she put 3 cupcake in each package? 
+A_model:
+Hypothesis/Plan: To determine how many packages Isabel can make, we first subtract the number of cupcakes Todd ate from the total number of cupcakes Isabel baked. Then, we divide the remaining cupcakes by the number of cupcakes per package (3).
+
+Step 1: Subtract the cupcakes Todd ate.  
+Remaining cupcakes = 39 - 21 = 18  
+
+Step 2: Divide the remaining cupcakes by the number of cupcakes per package.  
+Packages = 18 ÷ 3 = 6  
+
+Answer: The answer is 6
+Extracted:
+6.0
+A:
+6.0
+
+Q:  At Billy's Restaurant a group with 2 adults and 5 children came in to eat. If each meal cost 3 dollars, how much was the bill? 
+A_model:
+Hypothesis/Plan: To calculate the total bill, we need to find the total number of meals and multiply it by the cost of each meal. There are 2 adults and 5 children, so the total number of meals is 2 + 5 = 7. Each meal costs $3, so the total bill is 7 × 3.
+
+Calculation:  
+Total bill = 7 × 3 = 21  
+
+The answer is 21.
+Extracted:
+21.0
+A:
+21.0
+
+Q:  A waiter had 33 customers to wait on. If 31 customers left and he got another 26 customers, how many customers would he have? 
+A_model:
+Hypothesis/Plan: To find the total number of customers the waiter has now, we first subtract the number of customers who left from the initial number of customers. Then, we add the new customers who arrived.
+
+Initial customers = 33  
+Customers who left = 31  
+Remaining customers = 33 - 31 = 2  
+
+New customers = 26  
+Total customers = 2 + 26 = 28  
+
+The answer is 28.
+Extracted:
+28.0
+A:
+28.0
+
+Q:  Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? 
+A_model:
+Hypothesis/Plan: To find out how many books Tom has now, we first subtract the number of books he sold from the original number of books he had. Then, we add the number of new books he bought to the remaining books.
+
+Books remaining after selling = 5 - 4 = 1  
+Books after buying new ones = 1 + 38 = 39  
+
+The answer is 39.
+Extracted:
+39.0
+A:
+39.0
+
+Q:  Wendy picked 45 flowers for her friend’s wedding. She was making bouquets with 5 flowers in each one. If 35 of the flowers wilted before the wedding, how many bouquets could she still make? 
+A_model:
+Hypothesis/Plan: To determine how many bouquets Wendy can still make, we first subtract the wilted flowers from the total flowers to find how many flowers remain. Then, we divide the remaining flowers by the number of flowers needed for each bouquet.
+
+Remaining flowers = 45 - 35 = 10  
+Bouquets = 10 ÷ 5 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of lives Wendy has, first subtract the lives she lost from her initial lives, then add the lives she gained in the next level.
+
+Initial lives = 10  
+Lives lost = 6  
+Remaining lives = 10 - 6 = 4  
+
+Lives gained = 37  
+Total lives = 4 + 37 = 41  
+
+The answer is 41.
+Extracted:
+41.0
+A:
+41.0
+
+Q:  A pet store had 41 siamese cats and 28 house cats. During a sale they sold 15 cats. How many cats do they have left? 
+A_model:
+Hypothesis/Plan: To find the number of cats left, first calculate the total number of cats by adding the siamese cats and house cats. Then subtract the number of cats sold during the sale.
+
+Total cats = 41 + 28 = 69  
+Cats left after sale = 69 - 15 = 54  
+
+The answer is 54.
+Extracted:
+54.0
+A:
+54.0
+
+Q:  For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? 
+A_model:
+Hypothesis/Plan: To find how many pieces of candy Katie and her sister have left, first add the number of pieces they received together. Then subtract the number of pieces they ate the first night.
+
+Total candy = Katie's candy + her sister's candy = 8 + 23 = 31  
+Candy left after eating = Total candy - candy eaten = 31 - 8 = 23  
+
+The answer is 23.
+Extracted:
+23.0
+A:
+23.0
+
+Q:  Wendy earned 5 points for each bag of cans she recycled. If she had 11 bags, but didn't recycle 2 of them, how many points would she have earned? 
+A_model:
+Hypothesis/Plan: To find the total points Wendy earned, first determine how many bags she actually recycled by subtracting the 2 bags she didn't recycle from the total number of bags. Then multiply the number of recycled bags by 5 points per bag.
+
+Recycled bags = 11 - 2 = 9  
+Points earned = 9 × 5 = 45  
+
+The answer is 45.
+Extracted:
+45.0
+A:
+45.0
+
+Q:  Tiffany was playing a video game where she scores 6 points for each treasure she finds. If she found 3 treasures on the first level and 5 on the second, what would her score be? 
+A_model:
+Hypothesis/Plan: To calculate Tiffany's score, we multiply the number of treasures she found on each level by the points per treasure, then add the scores from both levels.
+
+Points per treasure = 6  
+Treasures on the first level = 3  
+Treasures on the second level = 5  
+
+Score from the first level = 6 × 3 = 18  
+Score from the second level = 6 × 5 = 30  
+
+Total score = 18 + 30 = 48  
+
+The answer is 48.
+Extracted:
+48.0
+A:
+48.0
+
+Q:  At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? 
+A_model:
+Hypothesis/Plan: To find how much money the waiter earned, we first determine how many customers left a tip. Then, we multiply the number of tipping customers by the amount they tipped.
+
+Number of customers who left a tip = 7 - 5 = 2  
+Amount earned from tips = 2 × $3 = $6  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q:  A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? 
+A_model:
+Hypothesis/Plan: To determine how many cages were used, first find out how many puppies are left after selling 7. Then divide the remaining puppies by 2 (since each cage holds 2 puppies). If there is a remainder, an additional cage will be needed.
+
+Step 1: Puppies left = 13 - 7 = 6  
+Step 2: Number of cages = 6 ÷ 2 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  Adam had 5 dollars. At the store he spent $2 on a new game. If he got another 5 dollars for his allowance, how much money does he have now? 
+A_model:
+Hypothesis/Plan: To find how much money Adam has now, we first subtract the amount he spent from his initial amount, then add the allowance he received.
+
+Initial amount = $5  
+Amount spent = $2  
+Remaining after spending = $5 - $2 = $3  
+
+Allowance received = $5  
+Total money now = $3 + $5 = $8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  Katie picked 3 tulips and 9 roses to make flower bouquets. If she only used 10 of the flowers though, how many extra flowers did Katie pick? 
+A_model:
+Hypothesis/Plan: To find how many extra flowers Katie picked, we first calculate the total number of flowers she picked and then subtract the number of flowers she used for the bouquets.
+
+Total flowers picked = 3 tulips + 9 roses = 12 flowers  
+Flowers used = 10 flowers  
+Extra flowers = Total flowers picked - Flowers used = 12 - 10 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total? 
+A_model:
+Hypothesis/Plan: To find the total number of coloring books Bianca has, first subtract the number she gave away from her initial amount, then add the number of books she bought.
+
+Initial coloring books = 45  
+Books given away = 6  
+Books bought = 20  
+
+Remaining after giving away = 45 - 6 = 39  
+Total after buying more = 39 + 20 = 59  
+
+The answer is 59.
+Extracted:
+59.0
+A:
+59.0
+
+Q:  For the school bake sale Katie made 26 cupcakes. If she sold 20 of them and then made 20 more, how many cupcakes would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of cupcakes Katie has, we first subtract the number of cupcakes she sold from the initial amount she made. Then, we add the number of cupcakes she made afterward.
+
+Initial cupcakes = 26  
+Sold cupcakes = 20  
+Remaining cupcakes = 26 - 20 = 6  
+
+Newly made cupcakes = 20  
+Total cupcakes = 6 + 20 = 26  
+
+The answer is 26.
+Extracted:
+26.0
+A:
+26.0
+
+Q:  Katie was selling her necklaces at a garage sale. She sold 4 bead necklaces and 3 gem stone necklaces. If each necklace cost 3 dollars, how much money did she earn? 
+A_model:
+Hypothesis/Plan: To find the total money Katie earned, we will calculate the total number of necklaces sold and multiply it by the cost of each necklace.
+
+Total necklaces sold = 4 bead necklaces + 3 gem stone necklaces = 7 necklaces  
+Cost per necklace = $3  
+Total earnings = 7 × 3 = $21  
+
+The answer is 21.
+Extracted:
+21.0
+A:
+21.0
+
+Q:  The school cafeteria ordered 37 red apples and 45 green apples for students lunches. But, if only 51 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find the number of extra apples, we first calculate the total number of apples ordered by adding the red and green apples. Then, we subtract the number of students who wanted fruit from the total number of apples to determine the extras.
+
+Total apples = 37 + 45 = 82  
+Extra apples = 82 - 51 = 31  
+
+The answer is 31.
+Extracted:
+31.0
+A:
+31.0
+
+Q:  There were 16 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total? 
+A_model:
+Hypothesis/Plan: To find the total number of lives remaining, first determine how many players are left after 7 players quit. Then multiply the number of remaining players by the number of lives each player has.
+
+Step 1: Calculate the number of players left.  
+Total players = 16  
+Players who quit = 7  
+Remaining players = 16 - 7 = 9  
+
+Step 2: Multiply the remaining players by the number of lives each player has.  
+Lives per player = 8  
+Total lives = 9 × 8 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  Each chocolate bar in a box cost $4. If a box had 8 bars total and Emily sold all but 3 bars, how much money would she have made? 
+A_model:
+Hypothesis/Plan: To find how much money Emily made, we first determine how many bars she sold by subtracting the number of bars she kept from the total number of bars in the box. Then, we multiply the number of bars sold by the cost per bar.
+
+Total bars = 8  
+Bars kept = 3  
+Bars sold = 8 - 3 = 5  
+
+Cost per bar = $4  
+Money made = 5 × 4 = $20  
+
+The answer is 20.
+Extracted:
+20.0
+A:
+20.0
+
+Q:  Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? 
+A_model:
+Hypothesis/Plan: To determine how many pieces of clothing could go in each of the small loads, first subtract the number of clothing pieces in the first load from the total. Then divide the remaining pieces of clothing by the number of small loads.
+
+Step 1: Subtract the clothing in the first load from the total.
+Remaining clothing = 59 - 32 = 27
+
+Step 2: Divide the remaining clothing by the number of small loads.
+Clothing per small load = 27 ÷ 9 = 3
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  Chloe baked 7 brownies, but needed 16 total for her party. If she used 6 cups of flour on each one, how much cups of flour does she still need? 
+A_model:
+Hypothesis/Plan: To determine how many cups of flour Chloe still needs, we first calculate the total cups of flour required for 16 brownies, then subtract the cups of flour already used for the 7 brownies she baked.
+
+1. Total cups of flour needed for 16 brownies = 16 × 6 = 96 cups.
+2. Cups of flour already used for 7 brownies = 7 × 6 = 42 cups.
+3. Cups of flour still needed = 96 - 42 = 54 cups.
+
+The answer is 54.
+Extracted:
+54.0
+A:
+54.0
+
+Q:  Janet picked 4 tulips and 11 roses to make flower bouquets. If she only used 11 of the flowers though, how many extra flowers did Janet pick? 
+A_model:
+Hypothesis/Plan: To find how many extra flowers Janet picked, we first calculate the total number of flowers she picked by adding the tulips and roses. Then, we subtract the number of flowers she used from the total number of flowers she picked.
+
+Total flowers picked = 4 tulips + 11 roses = 15  
+Extra flowers = Total flowers picked - Flowers used = 15 - 11 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  For the school bake sale Bianca made 14 cupcakes. If she sold 6 of them and then made 17 more, how many cupcakes would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of cupcakes Bianca has, we first subtract the number of cupcakes she sold from the initial amount she made. Then, we add the number of cupcakes she made afterward.
+
+Initial cupcakes = 14  
+Sold cupcakes = 6  
+Remaining cupcakes = 14 - 6 = 8  
+
+Additional cupcakes made = 17  
+Total cupcakes = 8 + 17 = 25  
+
+The answer is 25.
+Extracted:
+25.0
+A:
+25.0
+
+Q:  Edward earned 4 dollars for each lawn he mowed. If he had 17 lawns to mow, but forgot to mow 9 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: To calculate how much money Edward earned, first determine how many lawns he actually mowed by subtracting the lawns he forgot to mow from the total lawns. Then multiply the number of lawns he mowed by the amount he earned per lawn.
+
+Lawns mowed = 17 - 9 = 8  
+Money earned = 8 × 4 = 32  
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q:  For Halloween Sarah received 66 pieces of candy from neighbors and 15 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? 
+A_model:
+Hypothesis/Plan: To determine how long the candy will last, first calculate the total number of pieces of candy Sarah received by adding the candy from neighbors and her sister. Then divide the total candy by the number of pieces she eats per day.
+
+Total candy = 66 + 15 = 81  
+Daily consumption = 9 pieces/day  
+Number of days the candy will last = Total candy ÷ Daily consumption = 81 ÷ 9 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? 
+A_model:
+Hypothesis/Plan: To determine how many 8-dollar toys Frank can buy, we first calculate the total amount of money he has by adding his savings and allowance. Then, we divide the total money by the cost of one toy and take the integer part of the result (since he cannot buy a fraction of a toy).
+
+Total money = 3 + 37 = 40 dollars  
+Number of toys = 40 ÷ 8 = 5  
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q:  There were 10 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total? 
+A_model:
+Hypothesis/Plan: To find the total number of lives remaining, first determine how many players are left after 7 players quit. Then multiply the number of remaining players by the number of lives each player has.
+
+Number of players left = 10 - 7 = 3  
+Total lives = 3 × 8 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? 
+A_model:
+**Hypothesis/Plan:**  
+To determine how many $9 games Will can buy, we first calculate how much money he has left after spending $41 on mower blades. Then, we divide the remaining amount by the cost of one game ($9) and take the whole number part of the result, as he cannot buy a fraction of a game.
+
+1. Calculate the remaining money:  
+   Remaining money = 104 - 41 = 63  
+
+2. Divide the remaining money by the cost of one game:  
+   Number of games = 63 ÷ 9 = 7  
+
+**Answer:** The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  A new building needed 11 windows. The builder had already installed 4 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? 
+A_model:
+Hypothesis/Plan: To determine how long it will take to install the remaining windows, we first calculate how many windows are left to install by subtracting the number of installed windows from the total number of windows. Then, we multiply the number of remaining windows by the time it takes to install each window.
+
+Total windows = 11  
+Installed windows = 4  
+Remaining windows = 11 - 4 = 7  
+
+Time to install each window = 8 hours  
+Total time to install remaining windows = 7 × 8 = 56 hours  
+
+The answer is 56.
+Extracted:
+56.0
+A:
+56.0
+
+Q:  Frank was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 3 more bags. If each bag had 5 cans in it, how many cans did he pick up total? 
+A_model:
+Hypothesis/Plan: To find the total number of cans Frank collected, we first calculate the number of cans in each day's bags and then add them together. Each bag contains 5 cans.
+
+Cans collected on Saturday = 5 bags × 5 cans = 25 cans  
+Cans collected on Sunday = 3 bags × 5 cans = 15 cans  
+
+Total cans = 25 + 15 = 40  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  A store had 40 oranges in a bin. If they threw away 37 of the old ones and put 7 new ones in the bin how many would be in the bin? 
+A_model:
+Hypothesis/Plan: To find the total number of oranges in the bin, first subtract the number of old oranges thrown away from the initial amount, then add the number of new oranges added to the bin.
+
+Initial oranges = 40  
+Old oranges thrown away = 37  
+New oranges added = 7  
+
+Remaining oranges = 40 - 37 = 3  
+Total oranges in the bin = 3 + 7 = 10  
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q:  A trivia team had 9 members total, but during a game 3 members didn't show up. If each member that did show up scored 2 points, how many points were scored total? 
+A_model:
+Hypothesis/Plan: To find the total points scored, first determine how many members showed up by subtracting the number of absent members from the total number of members. Then multiply the number of members who showed up by the points each member scored.
+
+Members who showed up = 9 - 3 = 6  
+Total points scored = 6 × 2 = 12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q:  Paige had 27 files on her computer. She deleted 9 of them and put the rest into folders with 6 files in each one. How many folders did Paige end up with? 
+A_model:
+Hypothesis/Plan: To determine how many folders Paige ended up with, first subtract the number of files she deleted from the total number of files. Then divide the remaining files by the number of files per folder.
+
+Remaining files = 27 - 9 = 18  
+Number of folders = 18 ÷ 6 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  While shopping for music online, Nancy bought 3 country albums and 5 pop albums. Each album came with a lyric sheet and had 8 songs. How many songs did Nancy buy total? 
+A_model:
+Hypothesis/Plan: To find the total number of songs Nancy bought, we first calculate the total number of albums she purchased by adding the country and pop albums. Then, we multiply the total number of albums by the number of songs per album.
+
+Total albums = 3 country albums + 5 pop albums = 8 albums  
+Total songs = 8 albums × 8 songs per album = 64 songs  
+
+The answer is 64.
+Extracted:
+64.0
+A:
+64.0
+
+Q:  While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? 
+A_model:
+Hypothesis/Plan: To find how many pictures Nancy still has, we first add the pictures she took at the zoo and the museum, then subtract the pictures she deleted.
+
+Pictures taken = 49 (zoo) + 8 (museum) = 57  
+Pictures remaining = 57 - 38 = 19  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q:  There were 17 girls and 32 boys trying out for the schools basketball team. If only 10 of them got called back, how many students didn't make the cut? 
+A_model:
+Hypothesis/Plan: To find how many students didn't make the cut, first calculate the total number of students trying out by adding the number of girls and boys. Then subtract the number of students who got called back from the total number of students trying out.
+
+Total students trying out = 17 + 32 = 49  
+Students who didn't make the cut = Total students trying out - Students called back = 49 - 10 = 39  
+
+The answer is 39.
+Extracted:
+39.0
+A:
+39.0
+
+Q:  There are 17 students trying out for the school's trivia teams. If 5 of them didn't get picked for the team and the rest were put into 3 groups, how many students would be in each group? 
+A_model:
+Hypothesis/Plan: To determine how many students are in each group, first subtract the number of students who didn't get picked from the total number of students. Then divide the remaining students equally into 3 groups.
+
+Total students = 17  
+Students not picked = 5  
+Students picked = 17 - 5 = 12  
+
+Number of students in each group = 12 ÷ 3 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Debby had 30 coloring books. If she gave away 7 of them, but then bought 35 more, how many would she have total? 
+A_model:
+Hypothesis/Plan: To find the total number of coloring books Debby has, we first subtract the number she gave away from her initial amount, then add the number of coloring books she bought.
+
+Initial coloring books = 30  
+Given away = 7  
+Remaining after giving away = 30 - 7 = 23  
+
+Books bought = 35  
+Total coloring books = 23 + 35 = 58  
+
+The answer is 58.
+Extracted:
+58.0
+A:
+58.0
+
+Q:  John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: To calculate how much money John earned, first determine how many lawns he actually mowed by subtracting the lawns he forgot to mow from the total lawns. Then multiply the number of lawns he mowed by the amount he earned per lawn.
+
+Total lawns = 15  
+Lawns mowed = 15 - 7 = 8  
+Earnings per lawn = $8  
+
+Total earnings = 8 × 8 = $64  
+
+The answer is 64.
+Extracted:
+64.0
+A:
+64.0
+
+Q:  Sarah had 55 homework problems. She finished 6 of them but still had 7 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page? 
+A_model:
+Hypothesis/Plan: To find the number of problems on each page, we first determine how many problems Sarah still has to complete. Then, we divide the remaining problems by the number of pages.
+
+Step 1: Calculate the remaining problems.  
+Total problems = 55  
+Finished problems = 6  
+Remaining problems = 55 - 6 = 49  
+
+Step 2: Divide the remaining problems by the number of pages.  
+Remaining problems = 49  
+Number of pages = 7  
+Problems per page = 49 ÷ 7 = 7  
+
+Answer: The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now? 
+A_model:
+Hypothesis/Plan: To find out how much money Roger has now, we will first add the money he received for his birthday to the amount he originally had. Then, we will subtract the amount he spent on the new game.
+
+Initial amount = 16  
+Birthday money = 28  
+Total after receiving birthday money = 16 + 28 = 44  
+Amount spent on the game = 25  
+Remaining money = 44 - 25 = 19  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q:  While playing a trivia game, Mike answered 3 questions correct in the first half and 5 questions correct in the second half. If each question was worth 3 points, what was his final score? 
+A_model:
+Hypothesis/Plan: To find Mike's final score, we first calculate the total number of questions he answered correctly by adding the correct answers from the first and second halves. Then, we multiply the total number of correct answers by the points each question is worth.
+
+Correct answers in the first half = 3  
+Correct answers in the second half = 5  
+Total correct answers = 3 + 5 = 8  
+
+Each question is worth 3 points, so:  
+Final score = 8 × 3 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. How many cages did they use? 
+A_model:
+Hypothesis/Plan: To determine how many cages were used, first subtract the number of puppies sold from the total number of puppies to find how many remain. Then divide the remaining puppies by the number of puppies per cage.
+
+Step 1: Subtract the sold puppies from the total puppies.  
+Remaining puppies = 56 - 24 = 32  
+
+Step 2: Divide the remaining puppies by the number of puppies per cage.  
+Number of cages = 32 ÷ 4 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? 
+A_model:
+Hypothesis/Plan: To find the total time Wendy spent assembling the furniture, we first calculate the total number of pieces of furniture (chairs + tables). Then, we multiply the total number of pieces by the time spent on each piece.
+
+Total pieces of furniture = 4 chairs + 4 tables = 8 pieces  
+Time per piece = 6 minutes  
+Total time = 8 × 6 = 48 minutes  
+
+The answer is 48.
+Extracted:
+48.0
+A:
+48.0
+
+Q:  Maria was making baggies of cookies with 5 cookies in each bag. If she had 33 chocolate chip cookies and 2 oatmeal cookies, how many baggies could she make? 
+A_model:
+Hypothesis/Plan: To determine how many baggies Maria can make, we first calculate the total number of cookies she has by adding the chocolate chip cookies and oatmeal cookies. Then, we divide the total number of cookies by the number of cookies per bag (5). Since the number of baggies must be a whole number, we will use integer division.
+
+Total cookies = 33 + 2 = 35  
+Cookies per bag = 5  
+Number of baggies = 35 ÷ 5 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? 
+A_model:
+Hypothesis/Plan: To find the total number of pieces of winter clothing, we calculate the total number of scarves and mittens in one box, then multiply by the number of boxes. Each box contains 5 scarves and 5 mittens, so there are 5 + 5 = 10 pieces of clothing per box. Multiply this by the 6 boxes to find the total.
+
+Total clothing = 10 × 6 = 60
+
+The answer is 60.
+Extracted:
+60.0
+A:
+60.0
+
+Q:  For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of cupcakes Maria has, we first subtract the number of cupcakes she sold from the number she initially made. Then, we add the additional cupcakes she made afterward.
+
+Initial cupcakes = 19  
+Sold cupcakes = 5  
+Remaining cupcakes = 19 - 5 = 14  
+
+Additional cupcakes made = 10  
+Total cupcakes = 14 + 10 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  Nancy's old washing machine could only wash 9 pieces of clothing at a time. If she had to wash 19 shirts and 8 sweaters how many loads would she have to do? 
+A_model:
+Hypothesis/Plan: To determine how many loads Nancy needs to do, we will calculate the total number of clothing items and divide it by the washing machine's capacity (9 pieces per load). If the result is not a whole number, we will round up to the nearest whole number because partial loads are not possible.
+
+Total clothing items = 19 shirts + 8 sweaters = 27 items  
+Washing machine capacity = 9 items per load  
+
+Number of loads = 27 ÷ 9 = 3  
+
+Answer: The answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q:  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? 
+A_model:
+Hypothesis/Plan: To find the total number of lives, first calculate the total number of players by adding the original 2 friends and the 2 players who joined. Then multiply the total number of players by the number of lives each player has.
+
+Total players = 2 + 2 = 4  
+Total lives = 4 × 6 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  For Halloween Katie and her sister combined the candy they received. Katie had 10 pieces of candy while her sister had 6. If they ate 9 pieces the first night, how many pieces do they have left? 
+A_model:
+Hypothesis/Plan: To find how many pieces of candy Katie and her sister have left, first add the total number of candy they received together. Then subtract the number of pieces they ate the first night.
+
+Total candy = Katie's candy + her sister's candy = 10 + 6 = 16  
+Candy left = Total candy - candy eaten = 16 - 9 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  The school cafeteria ordered 8 red apples and 43 green apples for students lunches. But, if only 42 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find the number of extra apples, first calculate the total number of apples ordered by adding the red and green apples. Then subtract the number of students who wanted fruit from the total number of apples.
+
+Total apples = 8 + 43 = 51  
+Extra apples = 51 - 42 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? 
+A_model:
+Hypothesis/Plan: To find the total number of worksheets the teacher has to grade, we first subtract the number of worksheets she graded from the initial amount. Then, we add the additional worksheets that were turned in.
+
+Initial worksheets = 34  
+Graded worksheets = 7  
+Remaining worksheets = 34 - 7 = 27  
+
+Additional worksheets turned in = 36  
+Total worksheets to grade = 27 + 36 = 63  
+
+The answer is 63.
+Extracted:
+63.0
+A:
+63.0
+
+Q:  Tiffany had 6 pages of math homework and 4 pages of reading homework. If each page had 3 problems on it, how many problems did she have to complete total? 
+A_model:
+Hypothesis/Plan: To find the total number of problems Tiffany had to complete, we first calculate the total number of pages of homework (math + reading). Then, we multiply the total number of pages by the number of problems per page.
+
+Total pages = 6 (math) + 4 (reading) = 10 pages  
+Problems per page = 3  
+Total problems = 10 × 3 = 30  
+
+The answer is 30.
+Extracted:
+30.0
+A:
+30.0
+
+Q:  Amy had 26 music files and 36 video files on her flash drive. If she deleted 48 of the files, how many files were still on her flash drive? 
+A_model:
+Hypothesis/Plan: To find how many files are still on Amy's flash drive, first calculate the total number of files she had initially by adding the music files and video files. Then subtract the number of files she deleted.
+
+Total files = 26 + 36 = 62  
+Files remaining = 62 - 48 = 14  
+
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q:  Edward bought 79 tickets at the state fair. He spent 23 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on? 
+A_model:
+Hypothesis/Plan: To determine how many rides Edward can go on, we first subtract the tickets he spent at the 'dunk a clown' booth from the total tickets he bought. Then, we divide the remaining tickets by the number of tickets required for each ride.
+
+Step 1: Subtract the tickets spent at the booth from the total tickets.  
+Remaining tickets = 79 - 23 = 56  
+
+Step 2: Divide the remaining tickets by the number of tickets per ride.  
+Number of rides = 56 ÷ 7 = 8  
+
+Answer: The answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q:  Roger was putting his spare change into piles. He had 3 piles of quarters and 3 piles of dimes. If each pile had 7 coins in it, how many coins did he have total? 
+A_model:
+Hypothesis/Plan: To find the total number of coins Roger had, we calculate the total number of coins in the piles of quarters and dimes separately, then add them together. Each pile contains 7 coins, and there are 3 piles of quarters and 3 piles of dimes.
+
+Total coins in quarters = 3 × 7 = 21  
+Total coins in dimes = 3 × 7 = 21  
+
+Total coins = 21 + 21 = 42  
+
+The answer is 42.
+Extracted:
+42.0
+A:
+42.0
+
+Q:  A chef needs to cook 15 potatoes. He has already cooked 8. If each potato takes 9 minutes to cook, how long will it take him to cook the rest? 
+A_model:
+Hypothesis/Plan: To find the total time it will take to cook the remaining potatoes, first determine how many potatoes are left to cook by subtracting the number already cooked from the total. Then multiply the number of remaining potatoes by the time it takes to cook each potato.
+
+Total potatoes = 15  
+Already cooked = 8  
+Remaining potatoes = 15 - 8 = 7  
+
+Time per potato = 9 minutes  
+Total time to cook remaining potatoes = 7 × 9 = 63 minutes  
+
+The answer is 63.
+Extracted:
+63.0
+A:
+63.0
+
+Q:  Zoe and her friends were recycling paper for their class. For every 8 pounds they recycled they earned one point. If Zoe recycled 25 pounds and her friends recycled 23 pounds, how many points did they earn? 
+A_model:
+**Hypothesis/Plan:**  
+To determine how many points Zoe and her friends earned, we first calculate the total amount of paper they recycled by adding Zoe's and her friends' contributions. Then, we divide the total pounds recycled by 8 (since 1 point is earned for every 8 pounds). Finally, we round down to the nearest whole number because partial points are not awarded.
+
+**Step 1:** Total pounds recycled = Zoe's contribution + her friends' contribution  
+Total = 25 + 23 = 48 pounds  
+
+**Step 2:** Points earned = Total pounds recycled ÷ 8  
+Points = 48 ÷ 8 = 6  
+
+**Answer:** The answer is 6
+Extracted:
+6.0
+A:
+6.0
+
+Q:  Rachel bought two coloring books. One had 24 pictures and the other had 39. After one week she had already colored 4 of the pictures. How many pictures does she still have to color? 
+A_model:
+Hypothesis/Plan: To find how many pictures Rachel still has to color, first add the total number of pictures in both coloring books. Then subtract the number of pictures she has already colored.
+
+Total pictures = 24 + 39 = 63  
+Pictures already colored = 4  
+Pictures left to color = 63 - 4 = 59  
+
+The answer is 59.
+Extracted:
+59.0
+A:
+59.0
+
+Q:  Lana picked 36 tulips and 37 roses to make flower bouquets. If she only used 70 of the flowers though, how many extra flowers did Lana pick? 
+A_model:
+Hypothesis/Plan: To find how many extra flowers Lana picked, we first calculate the total number of flowers she picked by adding the tulips and roses. Then, we subtract the number of flowers she used from the total number of flowers picked.
+
+Total flowers picked = 36 + 37 = 73  
+Extra flowers = Total flowers picked - Flowers used = 73 - 70 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  For the school bake sale Katie made pastries. She baked 7 cupcakes and 5 cookies. After the sale she had 8 to take back home. How many pastries did she sell? 
+A_model:
+Hypothesis/Plan: To find out how many pastries Katie sold, we first calculate the total number of pastries she baked by adding the cupcakes and cookies. Then, we subtract the number of pastries she took back home from the total number of pastries she baked.
+
+Total pastries baked = 7 cupcakes + 5 cookies = 12 pastries  
+Pastries sold = Total pastries baked - Pastries taken back home = 12 - 8 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  At the fair Kaleb bought 6 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Kaleb spend riding the ferris wheel? 
+A_model:
+Hypothesis/Plan: To find out how much money Kaleb spent riding the ferris wheel, we first determine how many tickets he used. Then, we multiply the number of tickets used by the cost per ticket.
+
+Tickets used = Total tickets - Tickets left = 6 - 3 = 3  
+Cost per ticket = $9  
+Total cost = Tickets used × Cost per ticket = 3 × 9 = 27  
+
+The answer is 27.
+Extracted:
+27.0
+A:
+27.0
+
+Q:  A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? 
+A_model:
+Hypothesis/Plan: To find the total number of books in the bargain bin, we first subtract the number of books sold from the initial number of books in the bin. Then, we add the number of books added to the bin afterward.
+
+Initial books = 4  
+Books sold = 3  
+Books added = 10  
+
+Remaining books after selling = 4 - 3 = 1  
+Total books after adding = 1 + 10 = 11  
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q:  While shopping for music online, Isabel bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Isabel buy total? 
+A_model:
+Hypothesis/Plan: To find the total number of songs Isabel bought, we will calculate the total number of albums and multiply it by the number of songs per album.
+
+Step 1: Total albums = 6 country albums + 2 pop albums = 8 albums  
+Step 2: Total songs = 8 albums × 9 songs per album = 72 songs  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? 
+A_model:
+Hypothesis/Plan: To determine how many 8-dollar toys Frank can buy, we first calculate the total amount of money he has by adding his savings and allowance. Then, we divide the total money by the cost of one toy to find the number of toys he can afford. Since he cannot buy a fraction of a toy, we will round down to the nearest whole number.
+
+Total money = 3 + 37 = 40 dollars  
+Number of toys = 40 ÷ 8 = 5
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q:  Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? 
+A_model:
+Hypothesis/Plan: To find how many problems Paige still has to do for homework, we first calculate the total number of problems she had by adding the math and science problems. Then, we subtract the number of problems she finished at school.
+
+Total problems = 43 (math) + 12 (science) = 55  
+Remaining problems = 55 - 44 = 11  
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q:  Sarah baked 38 cupcakes for her school's bake sale. If her brother, Todd, ate 14 of them how many packages could she make if she put 8 cupcake in each package? 
+A_model:
+Hypothesis/Plan: To determine how many packages Sarah can make, we first subtract the cupcakes Todd ate from the total number Sarah baked. Then, divide the remaining cupcakes by the number of cupcakes per package (8). If there is a remainder, it means there are leftover cupcakes that cannot form a full package.
+
+Step 1: Subtract the cupcakes Todd ate.  
+Remaining cupcakes = 38 - 14 = 24  
+
+Step 2: Divide the remaining cupcakes by the number of cupcakes per package.  
+Packages = 24 ÷ 8 = 3  
+
+Answer: The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? 
+A_model:
+Hypothesis/Plan: To determine how many shelves Oliver will need, first calculate how many books he has left after the librarian takes 10. Then divide the remaining books by the number of books that can fit on a shelf (4). If the result is not a whole number, round up because partial shelves are not possible.
+
+Books left with Oliver = 46 - 10 = 36  
+Shelves needed = 36 ÷ 4 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  Debby bought two coloring books. One had 16 pictures and the other had 40. After one week she had already colored 33 of the pictures. How many pictures does she still have to color? 
+A_model:
+Hypothesis/Plan: To find how many pictures Debby still has to color, first calculate the total number of pictures in both coloring books by adding the pictures in each book. Then subtract the number of pictures she has already colored from the total.
+
+Total pictures = 16 + 40 = 56  
+Pictures already colored = 33  
+Pictures left to color = 56 - 33 = 23  
+
+The answer is 23.
+Extracted:
+23.0
+A:
+23.0
+
+Q:  Wendy was playing a video game where she scores 5 points for each treasure she finds. If she found 4 treasures on the first level and 3 on the second, what would her score be? 
+A_model:
+Hypothesis/Plan: To calculate Wendy's score, we multiply the number of treasures found on each level by the points per treasure and then add the scores from both levels.
+
+Points per treasure = 5  
+Treasures on the first level = 4  
+Treasures on the second level = 3  
+
+Score from the first level = 4 × 5 = 20  
+Score from the second level = 3 × 5 = 15  
+
+Total score = 20 + 15 = 35  
+
+The answer is 35.
+Extracted:
+35.0
+A:
+35.0
+
+Q:  Lana's favorite band was holding a concert where tickets were 6 dollars each. Lana bought 8 tickets for herself and her friends and 2 extra tickets in case anyone else wanted to go. How much did she spend? 
+A_model:
+Hypothesis/Plan: To find the total amount Lana spent, we will first calculate the total number of tickets she bought by adding the 8 tickets for herself and her friends to the 2 extra tickets. Then, we will multiply the total number of tickets by the price per ticket.
+
+Total tickets = 8 + 2 = 10  
+Total cost = 10 × 6 = 60  
+
+The answer is 60.
+Extracted:
+60.0
+A:
+60.0
+
+Q:  A painter needed to paint 12 rooms in a building. Each room takes 3 hours to paint. If he already painted 4 rooms, how much longer will he take to paint the rest? 
+A_model:
+Hypothesis/Plan: To find how much longer the painter will take, we first calculate the number of rooms left to paint by subtracting the rooms already painted from the total number of rooms. Then, we multiply the remaining rooms by the time it takes to paint each room.
+
+Total rooms = 12  
+Rooms already painted = 4  
+Rooms left to paint = 12 - 4 = 8  
+
+Time to paint each room = 3 hours  
+Time to paint remaining rooms = 8 × 3 = 24 hours  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  While on vacation, Debby took 24 pictures at the zoo and 12 at the museum. If she later deleted 14 of the pictures, how many pictures from her vacation did she still have? 
+A_model:
+Hypothesis/Plan: To find how many pictures Debby still has, first add the pictures she took at the zoo and the museum. Then subtract the number of pictures she deleted.
+
+Pictures taken = 24 (zoo) + 12 (museum) = 36  
+Pictures remaining = 36 - 14 = 22  
+
+The answer is 22.
+Extracted:
+22.0
+A:
+22.0
+
+Q:  Gwen bought two coloring books. One had 10 pictures and the other had 39. After one week she had already colored 13 of the pictures. How many pictures does she still have to color? 
+A_model:
+Hypothesis/Plan: To find how many pictures Gwen still has to color, first calculate the total number of pictures in both coloring books by adding them together. Then subtract the number of pictures she has already colored.
+
+Total pictures = 10 + 39 = 49  
+Pictures already colored = 13  
+Pictures left to color = 49 - 13 = 36  
+
+The answer is 36.
+Extracted:
+36.0
+A:
+36.0
+
+Q:  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? 
+A_model:
+Hypothesis/Plan: To find out how many shirts Sam did not wash, we first calculate the total number of shirts he had to wash by adding the short sleeve and long sleeve shirts. Then, we subtract the number of shirts he washed from the total.
+
+Total shirts = 40 + 23 = 63  
+Shirts not washed = 63 - 29 = 34  
+
+The answer is 34.
+Extracted:
+34.0
+A:
+34.0
+
+Q:  While shopping, Emily bought 5 green towels and 30 white towels. If she gave her mother 26 of them, how many towels did Emily end up with? 
+A_model:
+Hypothesis/Plan: To find out how many towels Emily ended up with, first calculate the total number of towels she bought by adding the green and white towels. Then subtract the number of towels she gave to her mother.
+
+Total towels = 5 (green) + 30 (white) = 35  
+Towels left after giving to her mother = 35 - 26 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  Will bought 7 boxes of chocolate candy and gave 3 to his little brother. If each box has 4 pieces inside it, how many pieces did Will still have? 
+A_model:
+Hypothesis/Plan: To find how many pieces of chocolate Will still has, first calculate the total number of pieces in all 7 boxes. Then calculate the number of pieces in the 3 boxes he gave to his brother. Finally, subtract the pieces given away from the total.
+
+Step 1: Total pieces in 7 boxes = 7 × 4 = 28  
+Step 2: Pieces in 3 boxes = 3 × 4 = 12  
+Step 3: Pieces Will still has = 28 - 12 = 16  
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q:  Dave had to wash 29 short sleeve shirts and 11 long sleeve shirts before school. If he had only washed 35 of them by the time school started, how many did he not wash? 
+A_model:
+Hypothesis/Plan: To find out how many shirts Dave did not wash, first calculate the total number of shirts he had to wash by adding the short sleeve and long sleeve shirts. Then subtract the number of shirts he washed before school from the total.
+
+Total shirts = 29 + 11 = 40  
+Shirts not washed = 40 - 35 = 5  
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q:  The school cafeteria ordered 33 red apples and 23 green apples for students lunches. But, if only 21 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find the number of extra apples, we first calculate the total number of apples ordered by adding the red and green apples together. Then, subtract the number of students who wanted fruit from the total number of apples.
+
+Total apples = 33 + 23 = 56  
+Extra apples = 56 - 21 = 35  
+
+The answer is 35.
+Extracted:
+35.0
+A:
+35.0
+
+Q:  Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? 
+A_model:
+Hypothesis/Plan: To calculate Rachel's score, we multiply the number of treasures found on each level by the points per treasure and then add the scores from both levels.
+
+Points per treasure = 9  
+Treasures found on the first level = 5  
+Treasures found on the second level = 2  
+
+Score from the first level = 5 × 9 = 45  
+Score from the second level = 2 × 9 = 18  
+
+Total score = 45 + 18 = 63  
+
+The answer is 63.
+Extracted:
+63.0
+A:
+63.0
+
+Q:  A painter needed to paint 11 rooms in a building. Each room takes 7 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? 
+A_model:
+Hypothesis/Plan: To find how much longer the painter will take, first calculate the number of rooms left to paint by subtracting the rooms already painted from the total number of rooms. Then, multiply the remaining rooms by the time it takes to paint each room.
+
+Rooms left to paint = 11 - 2 = 9  
+Time to paint remaining rooms = 9 × 7 = 63 hours  
+
+The answer is 63.
+Extracted:
+63.0
+A:
+63.0
+
+Q:  The school cafeteria ordered 42 red apples and 7 green apples for students lunches. But, if only 9 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find how many extra apples the cafeteria ended up with, we first calculate the total number of apples ordered by adding the red and green apples. Then, subtract the number of apples needed for the 9 students from the total apples ordered.
+
+Total apples ordered = 42 + 7 = 49  
+Apples needed for 9 students = 9  
+Extra apples = Total apples ordered - Apples needed = 49 - 9 = 40  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  A store had 48 coloring books in stock. They ended up putting them on sale and getting rid of 38 of them. The put the ones they still had onto shelves with 5 on each shelf. How many shelves did they use? 
+A_model:
+Hypothesis/Plan: To determine how many shelves were used, first find out how many coloring books remain after the sale by subtracting the number sold from the initial stock. Then divide the remaining coloring books by the number of books per shelf (5). 
+
+Remaining coloring books = 48 - 38 = 10  
+Number of shelves = 10 ÷ 5 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  Ned bought 14 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Ned still have? 
+A_model:
+Hypothesis/Plan: To find out how many pieces of chocolate candy Ned still has, we first calculate the total number of pieces in the 14 boxes. Then, we calculate the number of pieces in the 7 boxes he gave to his little brother. Finally, we subtract the pieces he gave away from the total.
+
+1. Total pieces in 14 boxes = 14 × 6 = 84  
+2. Pieces in 7 boxes = 7 × 6 = 42  
+3. Pieces Ned still has = 84 - 42 = 42  
+
+The answer is 42.
+Extracted:
+42.0
+A:
+42.0
+
+Q:  A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of roses the florist has, we first subtract the roses she sold from the initial amount, then add the roses she picked later.
+
+Initial roses = 50  
+Roses sold = 15  
+Remaining roses = 50 - 15 = 35  
+
+Roses picked = 21  
+Total roses = 35 + 21 = 56  
+
+The answer is 56.
+Extracted:
+56.0
+A:
+56.0
+
+Q:  Edward was trying to expand his game collection. He bought 41 games from a friend and bought 14 more at a garage sale. If 31 of the games didn't work, how many good games did he end up with? 
+A_model:
+Hypothesis/Plan: To find the number of good games Edward ended up with, we first add the games he bought from his friend and the garage sale. Then, we subtract the number of games that didn't work.
+
+Games bought from a friend = 41  
+Games bought at a garage sale = 14  
+Total games = 41 + 14 = 55  
+
+Games that didn't work = 31  
+Good games = Total games - Games that didn't work = 55 - 31 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? 
+A_model:
+Hypothesis/Plan: To determine how many pieces of candy Frank can buy, we first calculate the total number of tickets he won by adding the tickets from 'whack a mole' and 'skee ball'. Then, we divide the total tickets by the cost of one piece of candy (6 tickets) to find how many pieces he can afford.
+
+Total tickets = 33 + 9 = 42  
+Number of candies = 42 ÷ 6 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? 
+A_model:
+Hypothesis/Plan: To calculate the total points earned, we first find the total pounds of paper recycled by Gwen and her friends. Then, divide the total pounds by 3 (since 1 point is earned for every 3 pounds recycled). 
+
+Step 1: Total pounds recycled = Gwen's pounds + friends' pounds  
+Total pounds = 5 + 13 = 18  
+
+Step 2: Points earned = Total pounds ÷ 3  
+Points earned = 18 ÷ 3 = 6  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q:  For a birthday party George bought 10 regular sodas and 22 diet sodas. If his fridge would only hold 4 on each shelf, how many shelves would he fill up? 
+A_model:
+Hypothesis/Plan: To determine how many shelves George would fill, we first calculate the total number of sodas and then divide that number by the capacity of each shelf. If the result is not a whole number, we round up because partial shelves cannot exist.
+
+Total sodas = 10 regular sodas + 22 diet sodas = 32 sodas  
+Shelf capacity = 4 sodas per shelf  
+
+Number of shelves needed = 32 ÷ 4 = 8  
+
+Answer: The answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q:  Dave was helping the cafeteria workers pick up lunch trays, but he could only carry 9 trays at a time. If he had to pick up 17 trays from one table and 55 trays from another, how many trips will he make? 
+A_model:
+Hypothesis/Plan: To determine how many trips Dave will make, we first calculate the total number of trays he needs to pick up. Then, divide the total trays by the number of trays he can carry per trip (9 trays). If the result is not a whole number, round up to the nearest whole number because Dave cannot make a partial trip.
+
+Total trays = 17 + 55 = 72  
+Trays per trip = 9  
+Number of trips = 72 ÷ 9 = 8  
+
+Answer: The answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q:  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? 
+A_model:
+Hypothesis/Plan: To find the total number of lives, first calculate the total number of players by adding the original 2 friends and the 2 players who joined. Then multiply the total number of players by the number of lives each player has.
+
+Total players = 2 + 2 = 4  
+Lives per player = 8  
+Total lives = 4 × 8 = 32  
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q:  A company invited 18 people to a luncheon, but 12 of them didn't show up. If the tables they had held 3 people each, how many tables do they need? 
+A_model:
+Hypothesis/Plan: To determine how many tables are needed, we first calculate how many people attended the luncheon. Then, we divide the number of attendees by the seating capacity of each table (3 people per table). If the result is not a whole number, we round up to ensure there are enough tables.
+
+Step 1: Calculate the number of attendees.  
+Total invited = 18  
+Didn't show up = 12  
+Attendees = 18 - 12 = 6  
+
+Step 2: Divide the number of attendees by the seating capacity of each table.  
+Attendees = 6  
+Seating capacity per table = 3  
+Tables needed = 6 ÷ 3 = 2  
+
+Answer: The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  Wendy picked 103 flowers for her friend’s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? 
+A_model:
+Hypothesis/Plan: To determine how many bouquets Wendy can make, we first subtract the wilted flowers from the total number of flowers she picked. Then, we divide the remaining flowers by the number of flowers needed for each bouquet.
+
+Step 1: Subtract the wilted flowers from the total flowers.
+Remaining flowers = 103 - 47 = 56
+
+Step 2: Divide the remaining flowers by the number of flowers per bouquet.
+Bouquets = 56 ÷ 8 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Rachel bought 7 new chairs and 3 new tables for her house. If she spent 4 minutes on each piece furniture putting it together, how many minutes did it take her to finish? 
+A_model:
+Hypothesis/Plan: To find the total time Rachel spent assembling the furniture, we first calculate the total number of furniture pieces by adding the chairs and tables. Then, we multiply the total number of pieces by the time spent on each piece.
+
+Total furniture pieces = 7 chairs + 3 tables = 10 pieces  
+Time per piece = 4 minutes  
+Total time = 10 × 4 = 40 minutes  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  A magician was selling magic card decks for 7 dollars each. If he started with 16 decks and by the end of the day he had 8 left, how much money did he earn? 
+A_model:
+Hypothesis/Plan: To find out how much money the magician earned, we first calculate how many decks he sold by subtracting the number of decks he had left from the number he started with. Then, we multiply the number of decks sold by the price per deck.
+
+Decks sold = Starting decks - Decks left = 16 - 8 = 8  
+Earnings = Decks sold × Price per deck = 8 × 7 = 56  
+
+The answer is 56.
+Extracted:
+56.0
+A:
+56.0
+
+Q:  Maria had 14 bottles of water in her fridge. If she drank 8 of them and then bought 45 more, how many bottles would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of bottles Maria has, first subtract the number of bottles she drank from the initial amount, then add the number of bottles she bought.
+
+Initial bottles = 14  
+Bottles after drinking = 14 - 8 = 6  
+Total bottles after buying more = 6 + 45 = 51  
+
+The answer is 51.
+Extracted:
+51.0
+A:
+51.0
+
+Q:  Kaleb had 34 books. If he sold 17 of them and used the money he earned to buy 7 new books, how many books would Kaleb have? 
+A_model:
+Hypothesis/Plan: To find out how many books Kaleb has now, first subtract the number of books he sold from the total he originally had. Then, add the number of new books he bought.
+
+Books after selling = 34 - 17 = 17  
+Books after buying = 17 + 7 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  Olivia was making baggies of cookies with 9 cookies in each bag. If she had 13 chocolate chip cookies and 41 oatmeal cookies, how many baggies could she make? 
+A_model:
+Hypothesis/Plan: To determine how many baggies Olivia can make, we first calculate the total number of cookies by adding the chocolate chip cookies and oatmeal cookies. Then, we divide the total number of cookies by the number of cookies per bag (9) and find the whole number of baggies she can make.
+
+Total cookies = 13 + 41 = 54  
+Number of cookies per bag = 9  
+Number of baggies = 54 ÷ 9 = 6  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q:  In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end? 
+A_model:
+Hypothesis/Plan: To find the total number of students in fourth grade at the end of the year, we start with the initial number of students, subtract the number of students who left, and then add the number of new students who joined.
+
+Initial students = 4  
+Students who left = 3  
+New students = 42  
+
+Total students = (Initial students - Students who left) + New students  
+Total students = (4 - 3) + 42 = 1 + 42 = 43  
+
+The answer is 43.
+Extracted:
+43.0
+A:
+43.0
+
+Q:  Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? 
+A_model:
+Hypothesis/Plan: To determine how many pieces of clothing go into each of the 9 small loads, we first subtract the 48 pieces from the total number of clothing to find the remaining pieces. Then, we divide the remaining pieces by 9 to find the number of pieces per load.
+
+Step 1: Subtract the clothing in the first load from the total.
+Remaining clothing = 120 - 48 = 72
+
+Step 2: Divide the remaining clothing by the number of small loads.
+Pieces per load = 72 ÷ 9 = 8
+
+Answer: The answer is 8
+Extracted:
+8.0
+A:
+8.0
+
+Q:  At the fair there were 9 people in line for the bumper cars. If 6 of them got tired of waiting and left and 3 more got in line, how many people would be in line? 
+A_model:
+Hypothesis/Plan: To find the number of people in line after some leave and others join, we subtract the number of people who left and then add the number of people who joined.
+
+Initial number of people in line = 9  
+People who left = 6  
+People who joined = 3  
+
+Remaining people in line = 9 - 6 = 3  
+New total in line = 3 + 3 = 6  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q:  George was working as a sacker at a grocery store where he made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. How much money did George make in those two days? 
+A_model:
+Hypothesis/Plan: To find out how much money George made, we will calculate his earnings for each day by multiplying the hours worked by his hourly wage, then add the amounts together.
+
+Earnings on Monday = 5 × 7 = 35  
+Earnings on Tuesday = 5 × 2 = 10  
+Total earnings = 35 + 10 = 45  
+
+The answer is 45.
+Extracted:
+45.0
+A:
+45.0
+
+Q:  A pet store has 8 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? 
+A_model:
+Hypothesis/Plan: To find the total number of birds in the pet store, we first calculate the total number of parrots and parakeets in one cage. Then, we multiply that total by the number of cages.
+
+Number of parrots per cage = 2  
+Number of parakeets per cage = 7  
+Total birds per cage = 2 + 7 = 9  
+
+Number of cages = 8  
+Total birds = 9 × 8 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? 
+A_model:
+Hypothesis/Plan: To determine how many folders Katie ended up with, first subtract the number of files she deleted from the total number of files. Then divide the remaining files by the number of files per folder (5).
+
+Remaining files = 85 - 40 = 45  
+Number of folders = 45 ÷ 5 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? 
+A_model:
+Hypothesis/Plan: To determine how many packages Megan can make, we first subtract the cupcakes Todd ate from the total number of cupcakes Megan baked. Then, we divide the remaining cupcakes by the number of cupcakes per package (7) to find the number of packages.
+
+Step 1: Subtract the cupcakes Todd ate.  
+Remaining cupcakes = 71 - 43 = 28  
+
+Step 2: Divide the remaining cupcakes by the number of cupcakes per package.  
+Number of packages = 28 ÷ 7 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  In fourth grade there were 40 students at the start of the year. During the year 14 students left and 26 new students came to school. How many students were in fourth grade at the end? 
+A_model:
+Hypothesis/Plan: To find the number of students in fourth grade at the end of the year, we will first subtract the number of students who left from the initial number of students. Then, we will add the number of new students who joined.
+
+Initial students = 40  
+Students who left = 14  
+Students who joined = 26  
+
+Remaining students after some left = 40 - 14 = 26  
+Total students after new students joined = 26 + 26 = 52  
+
+The answer is 52.
+Extracted:
+52.0
+A:
+52.0
+
+Q:  A pet store had 12 siamese cats and 20 house cats. During a sale they sold 20 cats. How many cats do they have left? 
+A_model:
+Hypothesis/Plan: To find how many cats are left, we first calculate the total number of cats the pet store had initially by adding the number of Siamese cats and house cats. Then, we subtract the number of cats sold during the sale.
+
+Initial total cats = 12 + 20 = 32  
+Cats sold = 20  
+Cats remaining = 32 - 20 = 12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q:  Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? 
+A_model:
+Hypothesis/Plan: To find how many lives Wendy has now, we first subtract the lives she lost from her initial lives, then add the lives she gained in the next level.
+
+Initial lives = 43  
+Lives lost = 8  
+Lives gained = 39  
+
+Remaining lives = (43 - 8) + 39 = 35 + 39 = 74  
+
+The answer is 74.
+Extracted:
+74.0
+A:
+74.0
+
+Q:  Zoe had 42 bottles of water in her fridge. If she drank 25 of them and then bought 30 more, how many bottles would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of bottles Zoe has, first subtract the number of bottles she drank from the initial amount, then add the number of bottles she bought.
+
+Initial bottles = 42  
+Bottles drank = 25  
+Remaining bottles = 42 - 25 = 17  
+
+Bottles bought = 30  
+Total bottles = 17 + 30 = 47  
+
+The answer is 47.
+Extracted:
+47.0
+A:
+47.0
+
+Q:  Megan was organizing her book case making sure each of the shelves had exactly 7 books on it. If she had 8 shelves of mystery books and 2 shelves of picture books, how many books did she have total? 
+A_model:
+Hypothesis/Plan: To find the total number of books Megan has, we will calculate the number of books on each type of shelf and then add them together. Each shelf has 7 books.
+
+Mystery books: 8 shelves × 7 books = 56 books  
+Picture books: 2 shelves × 7 books = 14 books  
+
+Total books = 56 + 14 = 70  
+
+The answer is 70.
+Extracted:
+70.0
+A:
+70.0
+
+Q:  Gwen earned 8 points for each bag of cans she recycled. If she had 4 bags, but didn't recycle 2 of them, how many points would she have earned? 
+A_model:
+Hypothesis/Plan: To calculate the points Gwen earned, we first determine how many bags she actually recycled. She had 4 bags but didn't recycle 2 of them, so she recycled \( 4 - 2 = 2 \) bags. Since she earns 8 points per bag, we multiply the number of bags recycled by the points per bag.
+
+Points earned = \( 2 \times 8 = 16 \)
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q:  At the schools book fair Sam bought 13 adventure books and 17 mystery books. If 15 of the books were used, how many new books did he buy? 
+A_model:
+Hypothesis/Plan: To find how many new books Sam bought, we first calculate the total number of books he purchased by adding the adventure books and mystery books. Then, we subtract the number of used books from the total to determine the number of new books.
+
+Total books = 13 (adventure) + 17 (mystery) = 30  
+New books = Total books - Used books = 30 - 15 = 15  
+
+The answer is 15.
+Extracted:
+15.0
+A:
+15.0
+
+Q:  At a restaurant each adult meal costs $5 and kids eat free. If a group of 15 people came in and 8 were kids, how much would it cost for the group to eat? 
+A_model:
+Hypothesis/Plan: To calculate the total cost, we need to determine how many adults are in the group and multiply that number by the cost of an adult meal. Since kids eat free, their cost is $0.
+
+Total people = 15  
+Kids = 8  
+Adults = 15 - 8 = 7  
+
+Cost per adult meal = $5  
+Total cost = 7 × 5 = $35  
+
+The answer is 35.
+Extracted:
+35.0
+A:
+35.0
+
+Q:  Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? 
+A_model:
+Hypothesis/Plan: To find how many pictures were in each album, first calculate the total number of pictures by adding the pictures from Robin's phone and camera. Then divide the total number of pictures by the number of albums to determine how many pictures were in each album.
+
+Total pictures = 31 (from phone) + 5 (from camera) = 36  
+Pictures per album = 36 ÷ 9 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? 
+A_model:
+Hypothesis/Plan: To determine how many folders Nancy ended up with, first subtract the number of files she deleted from the total number of files. Then divide the remaining files by the number of files per folder.
+
+Step 1: Subtract the deleted files from the total files.  
+Remaining files = 80 - 31 = 49  
+
+Step 2: Divide the remaining files by the number of files per folder.  
+Number of folders = 49 ÷ 7 = 7  
+
+Answer: The answer is 7
+Extracted:
+7.0
+A:
+7.0
+
+Q:  A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? 
+A_model:
+Hypothesis/Plan: To find the total points scored, first determine how many members showed up by subtracting the number of members who didn't show up from the total number of members. Then multiply the number of members who showed up by the points each member scored.
+
+Members who showed up = 14 - 7 = 7  
+Total points scored = 7 × 5 = 35  
+
+The answer is 35.
+Extracted:
+35.0
+A:
+35.0
+
+Q:  Sarah had 4 pages of math homework and 6 pages of reading homework. If each page had 4 problems on it, how many problems did she have to complete total? 
+A_model:
+Hypothesis/Plan: To find the total number of problems Sarah had to complete, we first calculate the total number of pages of homework by adding the math and reading pages. Then, we multiply the total number of pages by the number of problems per page.
+
+Total pages = 4 (math) + 6 (reading) = 10 pages  
+Total problems = 10 pages × 4 problems per page = 40 problems  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q:  Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? 
+A_model:
+Hypothesis/Plan: To find the total number of problems Katie had to complete, we first calculate the total number of pages of homework by adding the math and reading pages. Then, we multiply the total pages by the number of problems per page.
+
+Total pages = 7 (math) + 3 (reading) = 10 pages  
+Total problems = 10 pages × 9 problems per page = 90 problems  
+
+The answer is 90.
+Extracted:
+90.0
+A:
+90.0
+
+Q:  Kaleb had 39 pieces of clothing to wash. He put 19 of them in one load, but decided to split the rest into 5 equal loads. How many pieces of clothing could go in each of the small loads? 
+A_model:
+Hypothesis/Plan: To determine how many pieces of clothing could go in each of the small loads, we first subtract the 19 pieces from the total number of clothing to find the remaining pieces. Then, we divide the remaining pieces by 5 to find how many pieces go into each of the small loads.
+
+Step 1: Subtract the clothing in the first load from the total.  
+Remaining clothing = 39 - 19 = 20  
+
+Step 2: Divide the remaining clothing into 5 equal loads.  
+Clothing per load = 20 ÷ 5 = 4  
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q:  Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? 
+A_model:
+Hypothesis/Plan: To calculate the total points Megan earned, first determine how many bags she actually recycled by subtracting the bags she didn't recycle from the total number of bags. Then multiply the number of recycled bags by the points earned per bag.
+
+Total bags = 14  
+Bags not recycled = 5  
+Bags recycled = 14 - 5 = 9  
+
+Points per bag = 8  
+Total points earned = 9 × 8 = 72  
+
+The answer is 72.
+Extracted:
+72.0
+A:
+72.0
+
+Q:  At the town carnival Billy rode the ferris wheel 7 times and the bumper cars 3 times. If each ride cost 5 tickets, how many tickets did he use? 
+A_model:
+Hypothesis/Plan: To find the total number of tickets Billy used, we calculate the tickets used for the ferris wheel and the bumper cars separately, then add them together. Each ride costs 5 tickets, so we multiply the number of rides by 5 for each activity.
+
+Tickets for ferris wheel = 7 × 5 = 35  
+Tickets for bumper cars = 3 × 5 = 15  
+Total tickets used = 35 + 15 = 50  
+
+The answer is 50.
+Extracted:
+50.0
+A:
+50.0
+
+Q:  Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? 
+A_model:
+Hypothesis/Plan: To find how many pictures were in each of the 5 albums, first subtract the 44 pictures in the first album from the total number of pictures. Then divide the remaining pictures equally among the 5 albums.
+
+Total pictures = 79  
+Pictures in the first album = 44  
+Remaining pictures = 79 - 44 = 35  
+Pictures in each of the 5 albums = 35 ÷ 5 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? 
+A_model:
+Hypothesis/Plan: To find how many cats are left, first calculate the total number of cats by adding the siamese cats and house cats. Then subtract the number of cats sold during the sale.
+
+Total cats = 38 + 25 = 63  
+Cats sold = 45  
+Cats left = 63 - 45 = 18  
+
+The answer is 18.
+Extracted:
+18.0
+A:
+18.0
+
+Q:  Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? 
+A_model:
+Hypothesis/Plan: To find how many pieces of chocolate Kaleb still has, we first calculate the total number of pieces in all 14 boxes. Then, we calculate the number of pieces in the 5 boxes he gave to his brother and subtract that from the total.
+
+Step 1: Total pieces in 14 boxes = 14 × 6 = 84  
+Step 2: Pieces in 5 boxes = 5 × 6 = 30  
+Step 3: Remaining pieces = 84 - 30 = 54  
+
+The answer is 54.
+Extracted:
+54.0
+A:
+54.0
+
+Q:  Edward earned 9 dollars for each lawn he mowed. If he had 6 lawns to mow, but forgot to mow 2 of them, how much money did he actually earn? 
+A_model:
+Hypothesis/Plan: To calculate how much money Edward earned, first determine how many lawns he actually mowed by subtracting the lawns he forgot to mow from the total lawns. Then multiply the number of lawns he mowed by the amount he earned per lawn.
+
+Total lawns = 6  
+Lawns not mowed = 2  
+Lawns mowed = 6 - 2 = 4  
+
+Earnings per lawn = $9  
+Total earnings = 4 × 9 = 36  
+
+The answer is 36.
+Extracted:
+36.0
+A:
+36.0
+
+Q:  Oliver made 35 dollars mowing lawns over the summer. If he spent 7 dollars buying new mower blades, how many 4 dollar games could he buy with the money he had left? 
+A_model:
+Hypothesis/Plan: To determine how many 4-dollar games Oliver can buy, we first subtract the amount he spent on mower blades from the total money he earned. Then, we divide the remaining money by the cost of each game.
+
+Total money earned = 35 dollars  
+Money spent on mower blades = 7 dollars  
+Remaining money = 35 - 7 = 28 dollars  
+
+Cost of each game = 4 dollars  
+Number of games Oliver can buy = 28 ÷ 4 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? 
+A_model:
+Hypothesis/Plan: To determine how many folders Wendy ended up with, first subtract the number of files she deleted from the total number of files. Then divide the remaining files by the number of files per folder to find the number of folders.
+
+Step 1: Subtract the deleted files from the total files.  
+Remaining files = 82 - 37 = 45  
+
+Step 2: Divide the remaining files by the number of files per folder.  
+Number of folders = 45 ÷ 5 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  A waiter had 21 customers in his section. If 12 of them left and the rest of his tables had 3 people at each table, how many tables did he have? 
+A_model:
+Hypothesis/Plan: To determine how many tables the waiter had, we first calculate how many customers remained after 12 left. Then, we divide the remaining number of customers by the number of people per table (3) to find the number of tables.
+
+Step 1: Subtract the customers who left from the total number of customers.  
+Remaining customers = 21 - 12 = 9  
+
+Step 2: Divide the remaining customers by the number of people per table.  
+Number of tables = 9 ÷ 3 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  Zoe bought two coloring books. One had 44 pictures and the other had 44. After one week she had already colored 20 of the pictures. How many pictures does she still have to color? 
+A_model:
+Hypothesis/Plan: To find how many pictures Zoe still has to color, first calculate the total number of pictures in both coloring books by adding the number of pictures in each book. Then subtract the number of pictures she has already colored.
+
+Total pictures = 44 + 44 = 88  
+Pictures already colored = 20  
+Pictures left to color = 88 - 20 = 68  
+
+The answer is 68.
+Extracted:
+68.0
+A:
+68.0
+
+Q:  For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? 
+A_model:
+Hypothesis/Plan: To determine how many shelves Jerry would fill, we first calculate the total number of sodas by adding the regular and diet sodas. Then, we divide the total number of sodas by the number of sodas each shelf can hold (9). If there is a remainder, we round up to the next whole number because even a partial shelf requires a full shelf.
+
+Total sodas = 41 + 22 = 63  
+Shelves needed = 63 ÷ 9 = 7  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q:  There school's baseball team had 4 new players and 6 returning players. If the coach put them into groups with 5 players in each group, how many groups would there be? 
+A_model:
+Hypothesis/Plan: To find the number of groups, we first calculate the total number of players by adding the new players and returning players. Then, we divide the total number of players by the number of players in each group.
+
+Total players = 4 (new players) + 6 (returning players) = 10 players  
+Number of players per group = 5  
+
+Number of groups = 10 ÷ 5 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  A worksheet had 2 problems on it. If a teacher had 14 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? 
+A_model:
+Hypothesis/Plan: To find the number of problems the teacher still has to grade, we first calculate the total number of problems on all worksheets, then subtract the number of problems already graded.
+
+1. Total problems on all worksheets = 14 worksheets × 2 problems per worksheet = 28 problems.
+2. Problems already graded = 7 worksheets × 2 problems per worksheet = 14 problems.
+3. Remaining problems to grade = Total problems - Problems already graded = 28 - 14 = 14.
+
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q:  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? 
+A_model:
+Hypothesis/Plan: To determine how long Jerry's money will last, first calculate the total amount of money he earned by adding the amounts from mowing lawns and weed eating. Then divide the total money by the amount he spends per week.
+
+Total money earned = 14 + 31 = 45 dollars  
+Weekly spending = 5 dollars  
+Number of weeks the money will last = 45 ÷ 5 = 9  
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q:  The school cafeteria had 17 apples. If they used 2 to make lunch for the students and then bought 23 more, how many apples would they have? 
+A_model:
+Hypothesis/Plan: To find the total number of apples the cafeteria has, subtract the apples used for lunch from the initial number of apples, then add the apples they bought.
+
+Initial apples = 17  
+Apples used = 2  
+Apples bought = 23  
+
+Remaining apples after lunch = 17 - 2 = 15  
+Total apples after buying more = 15 + 23 = 38  
+
+The answer is 38.
+Extracted:
+38.0
+A:
+38.0
+
+Q:  Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? 
+A_model:
+Hypothesis/Plan: To determine how many trips Jerry will make, we first calculate the total number of trays he needs to pick up. Then, divide the total trays by the number of trays he can carry per trip (8 trays). If the result is not a whole number, round up to the nearest whole number because Jerry cannot make a partial trip.
+
+Total trays = 9 + 7 = 16  
+Trays per trip = 8  
+
+Number of trips = 16 ÷ 8 = 2  
+
+Answer: The answer is 2
+Extracted:
+2.0
+A:
+2.0
+
+Q:  A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? 
+A_model:
+Hypothesis/Plan: To find the total number of roses the florist has, we first subtract the roses she sold from the initial amount, then add the roses she picked later.
+
+Initial roses = 5  
+Roses sold = 3  
+Roses left after selling = 5 - 3 = 2  
+
+Roses picked later = 34  
+Total roses = 2 + 34 = 36  
+
+The answer is 36.
+Extracted:
+36.0
+A:
+36.0
+
+Q:  For homework Faye had 13 math problems and 2 spelling problems. If she can finish 3 problems in an hour how long will it take her to finish all the problems? 
+A_model:
+Hypothesis/Plan: To find how long it will take Faye to finish all her homework problems, we first calculate the total number of problems she has. Then, divide the total number of problems by the number of problems she can complete in an hour.
+
+Total problems = 13 math problems + 2 spelling problems = 15 problems  
+Problems completed per hour = 3  
+
+Time required = Total problems ÷ Problems completed per hour  
+Time required = 15 ÷ 3 = 5 hours  
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q:  Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? 
+A_model:
+Hypothesis/Plan: To find the number of bad carrots, we first calculate the total number of carrots picked by Faye and her mom. Then, subtract the number of good carrots from the total to determine the number of bad carrots.
+
+Total carrots picked = Faye's carrots + Mom's carrots = 23 + 5 = 28  
+Bad carrots = Total carrots - Good carrots = 28 - 12 = 16  
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q:  In a video game, each enemy defeated gives you 5 points. If a level has 8 enemies total and you destroy all but 6 of them, how many points would you earn? 
+A_model:
+Hypothesis/Plan: To calculate the points earned, first determine how many enemies were defeated. Then multiply the number of defeated enemies by the points earned per enemy.
+
+Enemies defeated = Total enemies - Enemies left = 8 - 6 = 2  
+Points earned per enemy = 5  
+Total points earned = 2 × 5 = 10  
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q:  Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? 
+A_model:
+Hypothesis/Plan: To determine how many 5-dollar toys Paul can buy, we first calculate the total amount of money he has by adding his savings and allowance. Then, we divide the total amount by the cost of one toy (5 dollars) and take the whole number part of the result, as he cannot buy a fraction of a toy.
+
+Total money = 3 + 7 = 10 dollars  
+Number of toys = 10 ÷ 5 = 2  
+
+The answer is 2.
+Extracted:
+2.0
+A:
+2.0
+
+Q:  For the school bake sale Chloe made 28 cupcakes. If she sold 25 of them and then made 8 more, how many cupcakes would she have? 
+A_model:
+Hypothesis/Plan: To find out how many cupcakes Chloe has, we first subtract the number of cupcakes she sold from the number she initially made. Then, we add the number of cupcakes she made afterward.
+
+Initial cupcakes = 28  
+Sold cupcakes = 25  
+Remaining cupcakes = 28 - 25 = 3  
+
+Newly made cupcakes = 8  
+Total cupcakes = 3 + 8 = 11  
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q:  A worksheet had 3 problems on it. If a teacher had 15 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade? 
+A_model:
+Hypothesis/Plan: To find how many more problems the teacher has to grade, we first calculate the total number of problems on all worksheets. Then, we subtract the number of problems already graded.
+
+1. Total problems on one worksheet = 3  
+2. Total worksheets = 15  
+   Total problems = 15 × 3 = 45  
+
+3. Worksheets already graded = 7  
+   Problems already graded = 7 × 3 = 21  
+
+4. Remaining problems = Total problems - Problems already graded  
+   Remaining problems = 45 - 21 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q:  Robin's class is going on a field trip to the zoo. If each van can hold 8 people and there are 22 students and 2 adults going, how many vans will they need? 
+A_model:
+Hypothesis/Plan: To determine how many vans are needed, we first calculate the total number of people going on the trip by adding the number of students and adults. Then, we divide the total number of people by the capacity of each van (8 people per van). If the result is not a whole number, we round up to the nearest whole number because partial vans are not possible.
+
+Total people = 22 students + 2 adults = 24 people  
+Vans needed = 24 ÷ 8 = 3  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q:  The school cafeteria ordered 33 red apples and 23 green apples for students lunches. But, if only 21 students wanted fruit, how many extra did the cafeteria end up with? 
+A_model:
+Hypothesis/Plan: To find the number of extra apples, we first calculate the total number of apples ordered by adding the red and green apples together. Then, subtract the number of students who wanted fruit from the total number of apples.
+
+Total apples = 33 + 23 = 56  
+Extra apples = 56 - 21 = 35  
+
+The answer is 35.
+Extracted:
+35.0
+A:
+35.0
+
+Q:  The schools debate team had 28 boys and 4 girls on it. If they were split into groups of 4 how many groups could they make? 
+A_model:
+Hypothesis/Plan: To determine how many groups of 4 can be made, we first find the total number of students on the debate team by adding the number of boys and girls. Then, we divide the total number of students by 4 to find the number of groups.
+
+Total students = 28 boys + 4 girls = 32 students  
+Number of groups = 32 ÷ 4 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q:  The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? 
+A_model:
+Hypothesis/Plan: To find the total number of apples the cafeteria has, first subtract the apples used for lunch from the initial amount. Then, add the apples they bought afterward.
+
+Initial apples = 14  
+Apples used = 13  
+Apples remaining = 14 - 13 = 1  
+
+Apples bought = 49  
+Total apples = 1 + 49 = 50  
+
+The answer is 50.
+Extracted:
+50.0
+A:
+50.0
+
+Q:  John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? 
+A_model:
+Hypothesis/Plan: To find the total number of socks John has, first subtract the old socks he threw away from the original number, then add the new socks he bought.
+
+Initial socks = 33  
+Old socks thrown away = 19  
+New socks bought = 13  
+
+Remaining socks = 33 - 19 = 14  
+Total socks = 14 + 13 = 27  
+
+The answer is 27.
+Extracted:
+27.0
+A:
+27.0
+
+Q:  The cafeteria had 47 apples. For lunch they handed out 27 to students and decided to use the rest to make pies. If each pie takes 4 apples, how many pies could they make? 
+A_model:
+Hypothesis/Plan: To determine how many pies the cafeteria can make, we first subtract the number of apples handed out to students from the total number of apples. Then, we divide the remaining apples by the number of apples required for each pie.
+
+Step 1: Subtract the apples handed out to students.  
+Remaining apples = 47 - 27 = 20  
+
+Step 2: Divide the remaining apples by the number of apples per pie.  
+Number of pies = 20 ÷ 4 = 5  
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+

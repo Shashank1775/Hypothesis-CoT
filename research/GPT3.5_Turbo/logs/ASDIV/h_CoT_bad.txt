@@ -1,0 +1,627 @@
+❌ INCORRECT OR INVALID
+Q: The Book Nook sold 27 computer books last week. The sold 15 more cook books than computer books. How many cook books did the Book Nook sell?
+A_model:
+Hypothesis/Plan: Let's denote the number of computer books sold as x. Then the number of cookbooks sold would be x + 15. We know that the total number of computer books sold is 27. We can set up an equation to solve for x.
+
+Step-by-step:
+
+Let x be the number of computer books sold.
+The number of cookbooks sold = x + 15
+
+Total computer books sold = 27
+
+So, x + (x + 15) = 27
+2x + 15 = 27
+2x = 12
+x = 6
+
+Therefore, the number of cookbooks sold = 6 + 15 = 21
+
+Answer: the answer is 21
+Extracted:
+21.0
+A:
+42.0
+
+❌ INCORRECT OR INVALID
+Q: Tony packs a bag of fruits every 10 min, Sam packs a bag of fruits every 8 min and Sarah packs a bag of fruits every 12 min. If they start packing three bags of fruits at the same time at 12:55, at what time will they start packing at the same time again?
+A_model:
+Hypothesis/Plan: To find the time when they will start packing at the same time again, we need to find the least common multiple (LCM) of 10, 8, and 12.
+
+Step-by-step:
+
+Prime factorization:
+10 = 2 * 5
+8 = 2^3
+12 = 2^2 * 3
+
+LCM = 2^3 * 3 * 5 = 120
+
+Since they started at 12:55, they will start packing at the same time again in 120 minutes.
+
+12:55 + 120 minutes = 2:55
+Answer: the answer is 2:55
+Extracted:
+2.0
+A:
+14.0
+
+❌ INCORRECT OR INVALID
+Q: Alec has a garden and likes to put flowers from his garden into pretty vases. Alec put 5 flowers in the first vase, 7 flowers in the second vase, 10 flowers in the third vase, and 14 flowers in the fourth vase. If this pattern continues, how many flowers will Alec put in the fifth vase?
+A_model:
+Hypothesis/Plan: Alec is increasing the number of flowers by 2 each time he moves to the next vase. To find out how many flowers will be in the fifth vase, we will continue this pattern and add 2 more flowers to the previous vase.
+
+Step-by-step:
+
+First vase = 5 flowers
+
+Second vase = 5 + 2 = 7 flowers
+
+Third vase = 7 + 2 = 9 flowers
+
+Fourth vase = 9 + 2 = 11 flowers
+
+Fifth vase = 11 + 2 = 13 flowers
+
+Answer: the answer is 13
+Extracted:
+13.0
+A:
+19.0
+
+❌ INCORRECT OR INVALID
+Q: Fred bought five new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only twenty-six cards left. How many cards did Fred start with ?
+A_model:
+Hypothesis/Plan: To find out how many cards Fred started with, we will first find the number of cards his dog ate by subtracting the number of cards left from the number of cards after buying new ones. Then, we will add the remaining cards to the cards eaten to get the total number of cards Fred started with.
+
+Step-by-step:
+
+Number of new cards bought = 5
+
+Number of cards left after the dog ate half = 26
+
+Number of cards eaten by the dog = (26 - 5) / 2 = 10.5 (Since we can't have half a card, we will round up to the nearest whole number)
+
+Total cards Fred started with = 26 + 11 = 37
+
+Answer: the answer is 37
+Extracted:
+37.0
+A:
+47.0
+
+❌ INCORRECT OR INVALID
+Q: The sum total of the ages of father and the son is 55 years. If the father was to live till his son's age equals his present age. The total of their ages would be 93 years. Find their present ages.
+A_model:
+Hypothesis/Plan: Let the father's age be F and the son's age be S. We are given that F + S = 55 and F + (S + S) = 93. We will solve these two equations simultaneously to find the present ages of the father and son.
+
+Step-by-step:
+
+1. F + S = 55
+2. F + 2S = 93
+
+From equation 1, we have F = 55 - S
+
+Substitute F in equation 2:
+
+55 - S + 2S = 93
+55 + S = 93
+S = 93 - 55
+S = 38
+
+Now, substitute S back into F = 55 - S:
+
+F = 55 - 38
+F = 17
+
+Therefore, the father's present age is 17 years and the son's present age is 38 years.
+
+Answer: the answer is Father's age is 17 and son's age is 38.
+Extracted:
+None
+A:
+37.0
+
+❌ INCORRECT OR INVALID
+Q: Each house a carpenter builds needs six sinks. If he bought two hundred sixty-six sinks, how many houses would that cover?
+A_model:
+Hypothesis/Plan: To find the number of houses the carpenter can build with 266 sinks, we will divide the total number of sinks by the number of sinks needed for one house.
+
+Step-by-step:
+
+Number of sinks = 266
+Sinks needed for one house = 6
+
+Number of houses = 266 / 6 = 44.33
+
+Answer: the answer is 44.33
+
+Since the number of houses must be a whole number, the carpenter can build 44 houses with 266 sinks.
+Extracted:
+44.33
+A:
+44.0
+
+❌ INCORRECT OR INVALID
+Q: With flu season coming up, Lexi decides to make get-well-soon kits. She has 10 cans of chicken soup and 15 boxes of tissue, which she wants to use to make identical kits with no materials left over. What is the greatest number of get-well-soon kits Lexi can make?
+A_model:
+Hypothesis/Plan: To find the greatest number of kits Lexi can make with the given cans of soup and boxes of tissue, we need to determine the limiting factor between the two items. We will divide the total number of each item by the number required for one kit and choose the smaller result as the maximum number of kits.
+
+Step-by-step:
+
+Cans of chicken soup = 10
+Boxes of tissue = 15
+
+Number of cans needed for one kit = 1
+Number of boxes of tissue needed for one kit = 1
+
+Number of kits based on cans of soup = 10 kits (10 cans / 1 can per kit)
+Number of kits based on boxes of tissue = 15 kits (15 boxes / 1 box per kit)
+
+The limiting factor is the cans of chicken soup, so the greatest number of get-well-soon kits Lexi can make is 10.
+
+Answer: the answer is 10
+Extracted:
+10.0
+A:
+5.0
+
+❌ INCORRECT OR INVALID
+Q: The teacher gave 42 pencils to 12 students equally. How many pencils did each student get?
+A_model:
+Hypothesis/Plan: To find out how many pencils each student received, we will divide the total number of pencils by the number of students.
+Step-by-step:
+
+Total pencils = 42
+
+Number of students = 12
+
+Pencils per student = 42 / 12 = 3.5
+Answer: the answer is 3.5
+Extracted:
+3.5
+A:
+3.0
+
+❌ INCORRECT OR INVALID
+Q: The school bought 54 basketballs and distribute them into 7 classes equally. How many basketballs are left?
+A_model:
+Hypothesis/Plan: To find the number of basketballs left after distributing them equally to 7 classes, we will divide the total number of basketballs by the number of classes and find the remainder.
+
+Step-by-step:
+
+Total basketballs = 54
+
+Number of classes = 7
+
+Number of basketballs distributed to each class = 54 / 7 = 7 with a remainder of 5
+
+Therefore, the number of basketballs left is 5. 
+
+Answer: 5
+Extracted:
+None
+A:
+5.0
+
+❌ INCORRECT OR INVALID
+Q: Ed had 22 more marbles than Doug. Doug lost 8 of his marbles at the playground. How many more marble did Ed have than Doug then?
+A_model:
+Hypothesis/Plan: Let's first find out how many marbles Doug had, then calculate how many marbles Ed had, and finally determine the difference in the number of marbles between Ed and Doug.
+
+Step-by-step:
+
+Let the number of marbles Doug had be D.
+Ed had 22 more marbles than Doug, so Ed had D + 22 marbles.
+After Doug lost 8 marbles, he had D - 8 marbles.
+Now, we can set up an equation: D + 22 = D - 8
+Solving the equation: D - D = -8 - 22
+0 = -30
+This equation has no solution, which means there is an error in the initial setup. Let's correct the setup.
+
+Corrected Plan:
+Let's correct the setup by considering that Ed had 22 more marbles than Doug after Doug lost 8 marbles.
+
+Step-by-step:
+
+Let the number of marbles Doug had be D.
+Ed had 22 more marbles than Doug, so Ed had D + 22 marbles.
+After Doug lost 8 marbles, he had D - 8 marbles.
+Now, we can set up an equation: D + 22 = (D - 8) + 22
+Solving the equation: D + 22 = D + 14
+22 = 14
+This equation has no solution, which indicates an error in the initial setup. Let's reassess the problem.
+
+Revised Plan:
+Let's reassess the problem to find the correct approach.
+
+Step-by-step:
+
+Let the number of marbles Doug had be D.
+Ed had 22 more marbles than Doug, so Ed had D + 22 marbles.
+After Doug lost 8 marbles, he had D - 8 marbles.
+Now, we can set up an equation: D + 22 = (D - 8) + 22
+Solving the equation: D + 22 = D + 14
+22 = 14
+This equation has no solution, which indicates an error in the initial setup. Let's reassess the problem.
+
+Revised Plan:
+Let's reassess the problem to find the correct approach.
+
+Step-by-step:
+
+Let the number of marbles Doug had be D.
+Ed had 22 more marbles than Doug, so Ed had D + 22 marbles.
+After Doug lost 8 marbles, he had D - 8 marbles.
+Now, we can set up
+Extracted:
+None
+A:
+30.0
+
+❌ INCORRECT OR INVALID
+Q: I have 28 cents in my pocket. How coins could I have on minimization?
+A_model:
+Hypothesis/Plan: To minimize the number of coins, we will use the largest denomination first and then move to smaller denominations until we reach the total amount of 28 cents.
+
+Step-by-step:
+
+1. Start with quarters (25 cents): 28 cents ÷ 25 cents = 1 quarter
+2. Remainder after using 1 quarter: 28 cents - 25 cents = 3 cents
+3. Use pennies (1 cent) for the remaining amount: 3 cents = 3 pennies
+
+Answer: the answer is 1 quarter and 3 pennies
+Extracted:
+1.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: 86 students are going hiking. Each school- bus can take 9 students. How many school-buses are needed?
+A_model:
+Hypothesis/Plan: To find the number of school buses needed, we will divide the total number of students by the capacity of each bus and round up to the nearest whole number.
+
+Step-by-step:
+
+Total students = 86
+Bus capacity = 9
+
+Number of buses needed = 86 / 9 = 9.5555
+
+Rounding up to the nearest whole number, 10 buses are needed.
+
+Answer: 10
+Extracted:
+None
+A:
+9.0
+
+❌ INCORRECT OR INVALID
+Q: Lisa is making activity baskets to donate to charity. She has 12 coloring books, 28 markers, and 36 crayons. What is the greatest number of baskets she can make if each type of toy is equally distributed among the baskets?
+A_model:
+Hypothesis/Plan: To find the greatest number of baskets Lisa can make, we need to determine the least common multiple (LCM) of the quantities of each type of toy.
+
+Step-by-step:
+
+Number of coloring books = 12
+Number of markers = 28
+Number of crayons = 36
+
+Find the LCM of 12, 28, and 36:
+LCM(12, 28, 36) = 504
+
+Therefore, the greatest number of baskets Lisa can make is 504.
+Answer: the answer is 504
+Extracted:
+504.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: Jessica wants of make a garland out of 8 roses, 12 daisies and 48 marigolds. How many arrangements can she make with those flowers so that, there is no flower left.
+A_model:
+Hypothesis/Plan: To find the number of arrangements Jessica can make with the flowers without leaving any flower behind, we need to find the common factor of the number of each type of flower.
+
+Step-by-step:
+
+Common factor of 8, 12, and 48 is 4.
+
+Divide each number by 4:
+- Roses: 8 ÷ 4 = 2
+- Daisies: 12 ÷ 4 = 3
+- Marigolds: 48 ÷ 4 = 12
+
+The number of arrangements Jessica can make without leaving any flower behind is the minimum of the quotients: 2 arrangements.
+Answer: the answer is 2
+Extracted:
+2.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: If the second angle is 32 degree less than thrice the first angle and the third angle is 28 degree less than twice the first angle. Find the angles of the triangle.
+A_model:
+Hypothesis/Plan: Let the first angle be x degrees. According to the given conditions:
+- The second angle is 3x - 32 degrees
+- The third angle is 2x - 28 degrees
+Since the sum of the angles in a triangle is 180 degrees, we can set up the equation: x + 3x - 32 + 2x - 28 = 180
+
+Step-by-step:
+1. Combine like terms: 6x - 60 = 180
+2. Add 60 to both sides: 6x = 240
+3. Divide by 6: x = 40
+
+Now, substitute x back into the expressions for the angles:
+- First angle: x = 40 degrees
+- Second angle: 3(40) - 32 = 120 - 32 = 88 degrees
+- Third angle: 2(40) - 28 = 80 - 28 = 52 degrees
+
+Answer: The angles of the triangle are 40 degrees, 88 degrees, and 52 degrees.
+Extracted:
+None
+A:
+40.0
+
+❌ INCORRECT OR INVALID
+Q: An electrician cuts a 30 ft piece of wire into two pieces. One piece is 2 ft longer than the other. How long are the pieces?
+A_model:
+Hypothesis/Plan: Let x be the length of the shorter piece. Then the longer piece is x + 2. The sum of the lengths of the two pieces is 30 ft. We can set up an equation to solve for the lengths of the two pieces.
+
+Step-by-step:
+
+Let x be the length of the shorter piece.
+Then the length of the longer piece is x + 2.
+The sum of the lengths of the two pieces is 30 ft: x + (x + 2) = 30.
+Combining like terms: 2x + 2 = 30.
+Subtracting 2 from both sides: 2x = 28.
+Dividing by 2: x = 14.
+The length of the shorter piece is 14 ft.
+The length of the longer piece is 14 + 2 = 16 ft.
+
+Answer: the answer is the shorter piece is 14 ft and the longer piece is 16 ft.
+Extracted:
+None
+A:
+14.0
+
+❌ INCORRECT OR INVALID
+Q: There are 40 girls and 32 boys who want to participate in 6th grade intramurals. If each team must have the same number of girls and the same number of boys, what is the greatest number of teams that can participate in intramurals?
+A_model:
+Hypothesis/Plan: To find the greatest number of teams that can participate in intramurals, we need to determine the maximum number of teams that can be formed with an equal number of girls and boys on each team.
+
+Step-by-step:
+
+1. Determine the maximum number of teams that can be formed with an equal number of girls and boys on each team.
+2. Since each team must have the same number of girls and boys, we need to find the greatest common divisor (GCD) of 40 (number of girls) and 32 (number of boys).
+3. The GCD of 40 and 32 is 8.
+4. Divide the number of girls and boys by the GCD to find the number of teams that can be formed: 40/8 = 5 teams and 32/8 = 4 teams.
+5. The maximum number of teams that can participate in intramurals is the smaller of the two numbers, which is 4 teams.
+
+Answer: the answer is 4
+Extracted:
+4.0
+A:
+8.0
+
+❌ INCORRECT OR INVALID
+Q: The ages of Ashley and Mary are in the ratio 4:7. The sum of their ages is 22. Find the ages of Ashley and Mary.
+A_model:
+Hypothesis/Plan: Let the ages of Ashley and Mary be 4x and 7x respectively. The sum of their ages is 22, so we can write the equation 4x + 7x = 22. Solve for x, then find the ages of Ashley and Mary.
+
+Step-by-step:
+
+Let Ashley's age be 4x and Mary's age be 7x.
+The sum of their ages is 22, so we have the equation: 4x + 7x = 22.
+Combining like terms, we get: 11x = 22.
+Divide by 11 on both sides to solve for x: x = 2.
+Now, substitute x back into the expressions for Ashley and Mary's ages:
+Ashley's age = 4x = 4(2) = 8.
+Mary's age = 7x = 7(2) = 14.
+
+Answer: Ashley is 8 years old and Mary is 14 years old.
+Extracted:
+None
+A:
+8.0
+
+❌ INCORRECT OR INVALID
+Q: The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.
+A_model:
+Hypothesis/Plan: Let the smaller number be x and the larger number be 3x. The difference between the two numbers is 26, so we can set up the equation 3x - x = 26 and solve for x.
+
+Step-by-step:
+
+Let x be the smaller number.
+The larger number is 3x.
+The difference between the two numbers is 3x - x = 26.
+Solving the equation:
+2x = 26
+x = 13
+
+The smaller number is 13.
+The larger number is 3 * 13 = 39.
+
+Answer: the numbers are 13 and 39.
+Extracted:
+None
+A:
+13.0
+
+Error processing entry: {'question': 'Who has the taller dog?', 'answer': 'Sara', 'formula': '24 cm(Tommy) < 24+12=36 cm(Sara)', 'solution_type': 'Comparison', 'body': "Tommy's dog is 24 cm tall. Sara's pet dog is 12 cm taller than Tommy's.", 'id': 'nluds-0825', 'grade': '3'}
+Exception: 'NoneType' object has no attribute 'group'
+
+❌ INCORRECT OR INVALID
+Q: If Lizzie's group is composed of 54 people and they have 17 more members than the other group, how many people are working together to clean the city?
+A_model:
+Hypothesis/Plan: Let the number of people in the other group be x. Since Lizzie's group has 17 more members, we can represent the number of people in Lizzie's group as x + 17. The total number of people working together is the sum of both groups, which is x + (x + 17) = 54.
+
+Step-by-step:
+
+Let x be the number of people in the other group.
+Number of people in Lizzie's group = x + 17
+Total number of people = x + (x + 17) = 54
+
+Solving the equation:
+2x + 17 = 54
+2x = 54 - 17
+2x = 37
+x = 37 / 2
+x = 18.5
+
+Since the number of people must be a whole number, x = 18.
+
+Number of people in Lizzie's group = x + 17 = 18 + 17 = 35
+
+Total number of people working together = 18 + 35 = 53
+
+Answer: the answer is 53
+Extracted:
+53.0
+A:
+91.0
+
+❌ INCORRECT OR INVALID
+Q: Sara bought decorations for her party. She paid $5 for balloons and $18 for tablecloths. She also spent $9 for streamers. She paid the cashier and got $8 back. How much money did Sara give to the cashier?
+A_model:
+Hypothesis/Plan: To find out how much money Sara gave to the cashier, we will add up the total cost of the decorations and subtract the amount she received back.
+
+Step-by-step:
+
+Balloons = $5
+
+Tablecloths = $18
+
+Streamers = $9
+
+Total cost = 5 + 18 + 9 = $32
+
+Amount received back = $8
+
+Money given to the cashier = Total cost - Amount received back = $32 - $8 = $24
+
+Answer: the answer is $24
+Extracted:
+24.0
+A:
+40.0
+
+❌ INCORRECT OR INVALID
+Q: A sofa and a love seat together costs $444. The sofa costs double the love seat. How much do they each cost?
+A_model:
+Hypothesis/Plan: Let the cost of the love seat be x. Then, the cost of the sofa is 2x. The total cost of both is $444. We can set up an equation to solve for x and then find the cost of each item.
+
+Step-by-step:
+
+Let x be the cost of the love seat.
+The cost of the sofa is 2x.
+The total cost is x + 2x = $444.
+Combining like terms, we get 3x = $444.
+Divide both sides by 3 to solve for x: x = $148.
+The cost of the love seat is $148.
+The cost of the sofa is 2 * $148 = $296.
+
+Answer: the love seat costs $148 and the sofa costs $296.
+Extracted:
+None
+A:
+148.0
+
+❌ INCORRECT OR INVALID
+Q: Mrs. Smith is 8 years more than twice the age of her son. The ages of son is 12. Find the age of mother and find the difference between their ages.
+A_model:
+Hypothesis/Plan: Let the age of Mrs. Smith be represented by S and the age of her son be represented by N. We are given that S = 2N + 8 and N = 12. We will substitute the value of N into the equation for S to find the age of Mrs. Smith. Then, we will find the difference between their ages.
+
+Step-by-step:
+
+Given: N = 12
+
+S = 2N + 8
+S = 2(12) + 8
+S = 24 + 8
+S = 32
+
+The age of Mrs. Smith is 32.
+
+Difference in ages = S - N
+Difference = 32 - 12
+Difference = 20
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+32.0
+
+❌ INCORRECT OR INVALID
+Q: A washing machine can wash 28 pounds of clothes per day. If there are 200 pounds of clothes to be washed per day, how many pounds of clothes does the washing machine that isn't fully loaded wash per day?
+A_model:
+Hypothesis/Plan: To find the number of pounds of clothes the washing machine washes when not fully loaded, we will subtract the fully loaded capacity from the total clothes to be washed per day.
+
+Step-by-step:
+
+Fully loaded capacity = 28 pounds
+
+Total clothes to be washed = 200 pounds
+
+Clothes not fully loaded = 200 - 28 = 172 pounds
+
+Answer: the answer is 172
+Extracted:
+172.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: Mona is having a party at her house to celebrate her birthday. She invited some friends and family. Mona prepared rainbow colored cupcakes for dessert. If she made 7 sets for each of the 7 colors of the rainbow and each set has 6 cupcakes, how many cupcakes did Mona prepare in total?
+A_model:
+Hypothesis/Plan: To find the total number of cupcakes Mona prepared, we will multiply the number of sets for each color by the number of cupcakes in each set and then sum them up.
+
+Step-by-step:
+
+Number of colors in the rainbow = 7
+Number of sets for each color = 7
+Number of cupcakes in each set = 6
+
+Total cupcakes = 7 colors * 7 sets * 6 cupcakes = 294 cupcakes
+
+Answer: the answer is 294
+Extracted:
+294.0
+A:
+42.0
+
+❌ INCORRECT OR INVALID
+Q: If twice the son's age is added to the father's, the sum is 70. But if twice the father's age is added to the son's age, the sum is 95. Find the ages of father and son.
+A_model:
+Hypothesis/Plan: Let the father's age be represented by F and the son's age by S. We will set up a system of equations based on the given information and solve for the ages of the father and son.
+
+Step-by-step:
+
+1. From the first statement: 2S + F = 70
+2. From the second statement: 2F + S = 95
+
+To solve this system of equations, we can use the substitution method:
+
+From the first equation, we can express F in terms of S:
+F = 70 - 2S
+
+Substitute this into the second equation:
+2(70 - 2S) + S = 95
+140 - 4S + S = 95
+140 - 3S = 95
+-3S = -45
+S = 15
+
+Now, substitute S back into the first equation to find F:
+2(15) + F = 70
+30 + F = 70
+F = 40
+
+Therefore, the father is 40 years old and the son is 15 years old.
+
+Answer: the answer is the father is 40 years old and the son is 15 years old.
+Extracted:
+None
+A:
+40.0
+

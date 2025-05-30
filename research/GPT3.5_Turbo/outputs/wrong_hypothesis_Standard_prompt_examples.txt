@@ -1,0 +1,318 @@
+❌ INCORRECT OR INVALID
+Q: 0.5 the students in the band are in the trumpet section . 0.125 the students in the band are in the trombone section . What fraction of the students in the band are in either the trumpet section or the trombone section ? 
+A_model:
+Hypothesis/Plan: To find the fraction of students in either the trumpet section or the trombone section, we will add the fractions representing each section and then simplify the result.
+
+Step-by-step:
+
+Fraction in trumpet section = 0.5
+Fraction in trombone section = 0.125
+
+Total fraction = 0.5 + 0.125 = 0.625
+
+Simplify the fraction: 0.625 = 5/8
+
+Answer: the answer is 5/8
+Extracted:
+5.0
+A:
+0.625
+
+❌ INCORRECT OR INVALID
+Q: Melanie has 41 books and 31 magazines in her library . She bought several books at a yard sale over the weekend . She now has 87 books in her library . How many books did she buy at the yard sale ? 
+A_model:
+Hypothesis/Plan: To find out how many books Melanie bought at the yard sale, we will subtract the original number of books and magazines from the current total number of books in her library.
+
+Step-by-step:
+
+Original total = 41 books + 31 magazines = 72 items
+Current total = 87 books
+
+Books bought at the yard sale = 87 - 72 = 15
+
+Answer: the answer is 15
+Extracted:
+15.0
+A:
+46.0
+
+❌ INCORRECT OR INVALID
+Q: Mandy made an apple pie . She used 0.6666666666666666 tablespoon of cinnamon and 0.5 tablespoon of nutmeg . How much more cinnamon than nutmeg did Mandy use ? 
+A_model:
+Hypothesis/Plan: To find how much more cinnamon than nutmeg Mandy used, we will subtract the amount of nutmeg used from the amount of cinnamon used.
+
+Step-by-step:
+
+Cinnamon used = 0.6666666666666666 tablespoons
+Nutmeg used = 0.5 tablespoons
+
+Difference = 0.6666666666666666 - 0.5 = 0.1666666666666666
+
+Answer: the answer is 0.1666666666666666
+Extracted:
+0.1666
+A:
+0.16666666666666666
+
+❌ INCORRECT OR INVALID
+Q: A dust storm sweeps across the prairie . It covers 64535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ? 
+A_model:
+Hypothesis/Plan: To find the total acres of the prairie, we will add the acres covered in dust to the acres left untouched.
+
+Step-by-step:
+
+Acres covered in dust = 64535 acres
+
+Acres left untouched = 522 acres
+
+Total acres = 64535 + 522 = 65057
+
+Answer: the answer is 65057
+Extracted:
+65057.0
+A:
+64013.0
+
+❌ INCORRECT OR INVALID
+Q: Tim found 37 seashells and Sally found 13 seashells on the beach . When they cleaned them , they discovered that 25 were cracked . How many seashells did they find together ? 
+A_model:
+Hypothesis/Plan: To find the total number of seashells Tim and Sally found together, we will add the number of seashells each found and then subtract the number of cracked seashells.
+
+Step-by-step:
+
+Tim found = 37 seashells
+Sally found = 13 seashells
+Cracked seashells = 25
+
+Total seashells found = (37 + 13) - 25 = 25
+
+Answer: the answer is 25
+Extracted:
+25.0
+A:
+50.0
+
+❌ INCORRECT OR INVALID
+Q: Mary had 33 Pokemon cards , and 6 were torn . Sam gave Mary 23 new Pokemon cards . How many Pokemon cards does Mary have now ? 
+A_model:
+Hypothesis/Plan: First, subtract the torn cards from the total number of cards Mary had. Then, add the new cards given by Sam to find the total number of cards Mary has now.
+
+Step-by-step:
+
+Initial cards = 33
+Torn cards = 6
+New cards from Sam = 23
+
+After removing torn cards = 33 - 6 = 27
+After adding new cards = 27 + 23 = 50
+
+Answer: the answer is 50
+Extracted:
+50.0
+A:
+56.0
+
+❌ INCORRECT OR INVALID
+Q: Dan 's cat had kittens and 5 had spots . He gave 7 to Tim and 4 to Jason . He now has 5 kittens . How many kittens did he have to start with ? 
+A_model:
+Hypothesis/Plan: To find out how many kittens Dan had to start with, we will add the kittens he has now to the ones he gave away.
+
+Step-by-step:
+
+Kittens with spots = 5
+
+Kittens given to Tim = 7
+
+Kittens given to Jason = 4
+
+Kittens remaining = 5
+
+Total kittens = 5 + 7 + 4 + 5 = 21
+
+Answer: the answer is 21
+Extracted:
+21.0
+A:
+16.0
+
+❌ INCORRECT OR INVALID
+Q: Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ? 
+A_model:
+Hypothesis/Plan: To find the total amount Joan spent at the music store, we will add the prices of the trumpet, music tool, and song book, and then subtract the amount she found in her pocket.
+
+Total spent = 149.16 + 9.98 + 4.14 = 163.28
+
+Amount found in pocket = 8.65
+
+Total spent at the music store = 163.28 - 8.65 = 154.63
+
+Answer: the answer is 154.63
+Extracted:
+154.63
+A:
+163.28
+
+❌ INCORRECT OR INVALID
+Q: At Lindsey 's Vacation Wear , 0.375 the garments are bikinis and 0.25 are trunks . What fraction of the garments are either bikinis or trunks ? 
+A_model:
+Hypothesis/Plan: To find the fraction of garments that are either bikinis or trunks, we need to add the fractions of bikinis and trunks together, then subtract the overlap (both bikinis and trunks).
+
+Fraction of bikinis = 0.375
+Fraction of trunks = 0.25
+
+Fraction of bikinis or trunks = Fraction of bikinis + Fraction of trunks - Fraction of both
+Fraction of bikinis or trunks = 0.375 + 0.25 - (0.375 * 0.25)
+Fraction of bikinis or trunks = 0.375 + 0.25 - 0.09375
+Fraction of bikinis or trunks = 0.53125
+
+Answer: the answer is 0.53125
+Extracted:
+0.5312
+A:
+0.625
+
+❌ INCORRECT OR INVALID
+Q: Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ? 
+A_model:
+Hypothesis/Plan: To find the total number of basketball games Fred went to, we will add the games he went to this year and the games he went to last year, then subtract the games he missed this year.
+
+Step-by-step:
+
+Games attended this year = 36
+Games missed this year = 35
+Games attended last year = 11
+
+Total games attended = 36 + 11 - 35 = 12
+
+Answer: the answer is 12
+Extracted:
+12.0
+A:
+47.0
+
+❌ INCORRECT OR INVALID
+Q: Brandy made trail mix for a backpacking trip . She used 0.16666666666666666 pound of peanuts , 0.16666666666666666 pound of chocolate chips , and 0.08333333333333333 pound of raisins . How many pounds of trail mix did Brandy make ? 
+A_model:
+Hypothesis/Plan: To find the total weight of the trail mix, we will add the weights of peanuts, chocolate chips, and raisins.
+
+Total weight = 0.16666666666666666 + 0.16666666666666666 + 0.08333333333333333 = 0.41666666666666665
+
+Answer: the answer is 0.41666666666666665
+Extracted:
+0.4166
+A:
+0.4166666666666667
+
+❌ INCORRECT OR INVALID
+Q: Keith found 6 seashells , Jessica found 8 seashells , and Tim found 7 seashells on the beach . When they cleaned them , they discovered that 3 were cracked . How many seashells did they find together ? 
+A_model:
+Hypothesis/Plan: To find the total number of seashells they found together, we will add the number of seashells each person found and then subtract the cracked seashells.
+
+Step-by-step:
+
+Keith found 6 seashells
+Jessica found 8 seashells
+Tim found 7 seashells
+
+Total seashells found = 6 + 8 + 7 = 21
+
+Cracked seashells = 3
+
+Total seashells after removing cracked ones = 21 - 3 = 18
+
+Answer: the answer is 18
+Extracted:
+18.0
+A:
+21.0
+
+❌ INCORRECT OR INVALID
+Q: Alyssa went to 11 soccer games this year , but missed 12 . She went to 13 games last year and plans to go to 15 games next year . How many soccer games will Alyssa go to in all ? 
+A_model:
+Hypothesis/Plan: To find the total number of soccer games Alyssa will go to in all, we will add the games she went to this year, the games she plans to go to next year, and subtract the games she missed.
+
+Step-by-step:
+
+Games attended this year = 11
+Games missed this year = 12
+Games attended last year = 13
+Games planned for next year = 15
+
+Total games = 11 + 13 + 15 - 12 = 27
+
+Answer: the answer is 27
+Extracted:
+27.0
+A:
+39.0
+
+❌ INCORRECT OR INVALID
+Q: Mary found 2 seashells and Keith found 5 seashells on the beach . When they cleaned them , they discovered that 9 were cracked . How many seashells did they find together ? 
+A_model:
+Hypothesis/Plan: To find the total number of seashells they found together, we will add the number of seashells Mary found to the number Keith found, and then subtract the cracked seashells.
+
+Step-by-step:
+
+Mary found = 2 seashells
+Keith found = 5 seashells
+Cracked seashells = 9
+
+Total seashells found = (2 + 5) - 9 = 7 - 9 = -2
+
+Answer: the answer is -2
+Extracted:
+-2.0
+A:
+7.0
+
+❌ INCORRECT OR INVALID
+Q: Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ? 
+A_model:
+Hypothesis/Plan: First, subtract the torn cards from the total number of cards Sally had. Then, subtract the cards that were sold to Sara.
+
+After removing torn cards = 39 - 9 = 30
+
+After selling = 30 - 24 = 6
+
+Answer: the answer is 6
+Extracted:
+6.0
+A:
+15.0
+
+❌ INCORRECT OR INVALID
+Q: A restaurant served 7 slices of pie during lunch and 5 during dinner today . It served 8 of them yesterday . How many slices of pie were served today ? 
+A_model:
+Hypothesis/Plan: To find the total number of slices of pie served today, we will add the slices served during lunch and dinner today, and then add the slices served yesterday.
+
+Step-by-step:
+
+Slices served during lunch = 7
+Slices served during dinner = 5
+Slices served yesterday = 8
+
+Total slices served today = 7 + 5 + 8 = 20
+
+Answer: the answer is 20
+Extracted:
+20.0
+A:
+12.0
+
+❌ INCORRECT OR INVALID
+Q: Sally paid $ 12.32 total for peaches , after a 3 dollar coupon , and $ 11.54 for cherries . In total , how much money did Sally spend ? 
+A_model:
+Hypothesis/Plan: To find the total amount Sally spent, we will add the amount she paid for peaches after the coupon and the amount she paid for cherries.
+
+Step-by-step:
+
+Amount paid for peaches after coupon = $12.32 - $3 = $9.32
+
+Total amount spent = $9.32 + $11.54 = $20.86
+
+Answer: the answer is $20.86
+Extracted:
+20.86
+A:
+23.86
+

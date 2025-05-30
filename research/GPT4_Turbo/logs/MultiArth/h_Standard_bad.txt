@@ -1,0 +1,17 @@
+❌ INCORRECT OR INVALID
+Q:  Bianca's team won their dodgeball game and scored 75 points total. If Bianca scored 45 of the points and everyone else scored 6 points each, how many players were on her team? 
+A_model:
+**Hypothesis/Plan:**  
+To find the total number of players on Bianca's team, we first calculate the total points scored by the other players. Subtract Bianca's points from the team's total points. Then, divide the remaining points by the points scored by each other player (6 points each). Add 1 to account for Bianca herself.
+
+**Steps:**  
+1. Total points scored by others = Total team points - Bianca's points = 75 - 45 = 30.  
+2. Number of other players = Total points scored by others ÷ Points per player = 30 ÷ 6 = 5.  
+3. Total players on the team = Number of other players + 1 (Bianca) = 5 + 1 = 6.  
+
+**Answer:** The answer is 6.
+Extracted:
+6.0
+A:
+5.0
+

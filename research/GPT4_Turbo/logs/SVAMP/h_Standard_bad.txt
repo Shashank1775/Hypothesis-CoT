@@ -1,0 +1,310 @@
+❌ INCORRECT OR INVALID
+Q: Bryan took a look at his books and magazines. If he has 27 books and 80 magazines in each of his 23 bookshelves How many books does he have in total?
+A_model:
+Hypothesis/Plan: To find the total number of books Bryan has, we multiply the number of books per bookshelf by the total number of bookshelves. Similarly, to find the total number of magazines, we multiply the number of magazines per bookshelf by the total number of bookshelves. Then, we add the two totals together.
+
+Books per bookshelf = 27  
+Magazines per bookshelf = 80  
+Number of bookshelves = 23  
+
+Total books = 27 × 23 = 621  
+Total magazines = 80 × 23 = 1840  
+
+Total items = 621 + 1840 = 2461  
+
+The answer is 2461.
+Extracted:
+2461.0
+A:
+621.0
+
+❌ INCORRECT OR INVALID
+Q: There are 141 pots. Each pot has 71 flowers and 91 sticks in it. How many flowers are there in all?
+A_model:
+Hypothesis/Plan: To find the total number of flowers, we multiply the number of pots by the number of flowers in each pot. The number of sticks is irrelevant to this calculation.
+
+Number of pots = 141  
+Flowers per pot = 71  
+
+Total flowers = 141 × 71 = 10,011  
+
+The answer is 10,011.
+Extracted:
+10.0
+A:
+10011.0
+
+❌ INCORRECT OR INVALID
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?
+A_model:
+Hypothesis/Plan: To determine how many days it will take to fill 240 drums of grapes, we first calculate how many drums are filled per day by the 36 pickers. Then, we divide the total number of drums (240) by the number of drums filled per day.
+
+Drums filled per day = 36 pickers × 8 drums = 288 drums per day.
+
+Since 288 drums can be filled in one day, and the goal is to fill 240 drums, it will take less than one full day to complete the task.
+
+The answer is **less than 1 day**.
+Extracted:
+None
+A:
+30.0
+
+❌ INCORRECT OR INVALID
+Q: He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?
+A_model:
+Hypothesis/Plan: To find the total number of oranges harvested after 87 days, we first calculate how many oranges are in one day's harvest by multiplying the number of sacks per day by the number of oranges per sack. Then, we multiply the result by the number of days (87).
+
+Oranges per day = 66 sacks × 25 oranges = 1650 oranges  
+Total oranges after 87 days = 1650 × 87 = 143,550  
+
+The answer is 143,550.
+Extracted:
+143.0
+A:
+143550.0
+
+❌ INCORRECT OR INVALID
+Q: You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?
+A_model:
+Hypothesis/Plan: To find how many cookies are in each bag, we first subtract the number of candies from the total number of items to determine the total number of cookies. Then, we divide the total number of cookies by the number of bags to find the number of cookies per bag.
+
+Step 1: Total cookies = Total items - Candies  
+Total cookies = 52 - 15 = 37  
+
+Step 2: Cookies per bag = Total cookies ÷ Number of bags  
+Cookies per bag = 37 ÷ 26  
+
+Cookies per bag = 1.423 (rounded to three decimal places)
+
+The answer is 1.423.
+Extracted:
+1.423
+A:
+2.0
+
+❌ INCORRECT OR INVALID
+Q: Paige was helping her mom plant flowers and together they planted 55 seeds. They put 15 seeds in each flower bed and only 60 seeds grew into flowers in each flower bed. How many flowers did they grow?
+A_model:
+Hypothesis/Plan: First, we need to determine how many seeds Paige and her mom planted in total. They planted 55 seeds. However, the problem states that 60 seeds grew into flowers in each flower bed, which seems inconsistent because they only planted 55 seeds. This suggests there may be an error in the problem's setup. Assuming the question is asking how many flowers grew from the seeds they planted, we can conclude that the maximum number of flowers that could grow is equal to the number of seeds planted.
+
+Answer: The answer is 55.
+Extracted:
+55.0
+A:
+220.0
+
+❌ INCORRECT OR INVALID
+Q: Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?
+A_model:
+**Hypothesis/Plan:**  
+To determine how many more cups of flour Mary needs to add, we need to calculate the total amount of flour she still needs. The problem states that she still needs 8 more cups of flour than sugar. Since the recipe calls for 13 cups of sugar, the total amount of flour she needs is:  
+13 (cups of sugar) + 8 = 21 cups of flour.  
+
+Next, we subtract the amount of flour she has already added from the total amount of flour required (21 cups). However, the problem does not specify how many cups of flour she has already added. Assuming she has added **some** cups of flour, we denote this amount as \( x \).  
+
+The amount of flour Mary still needs to add is:  
+\( 21 - x \).  
+
+If the value of \( x \) is provided, we can calculate the exact answer. Otherwise, the answer depends on \( x \).  
+
+**Answer:** The answer is \( 21 - x \), where \( x \) is the number of cups of flour Mary has already added.
+Extracted:
+None
+A:
+21.0
+
+❌ INCORRECT OR INVALID
+Q: Lewis earns $ 28 every week during the 1091 weeks of harvest. He also earns $ 939 per week for working overtime. If he works overtime every week How much money does he earn during harvest season?
+A_model:
+**Hypothesis/Plan:**  
+To calculate Lewis's total earnings during the harvest season, we need to account for both his regular weekly earnings and his overtime earnings. We will first calculate his total regular earnings by multiplying his regular weekly pay by the number of weeks. Then, we will calculate his total overtime earnings by multiplying his overtime pay by the number of weeks. Finally, we will add the two amounts together to find the total earnings.
+
+**Step 1:** Calculate regular earnings:  
+Regular earnings = $28 × 1091 weeks = $30,548  
+
+**Step 2:** Calculate overtime earnings:  
+Overtime earnings = $939 × 1091 weeks = $1,023,549  
+
+**Step 3:** Add regular and overtime earnings:  
+Total earnings = $30,548 + $1,023,549 = $1,054,097  
+
+**Answer:** The answer is 1,054,097
+Extracted:
+1.0
+A:
+1054997.0
+
+❌ INCORRECT OR INVALID
+Q: Lewis earns $ 368 every week during the 1359 weeks of harvest. If he has to pay $ 388 rent every week How much money does he pay as rent during the harvest season?
+A_model:
+Hypothesis/Plan: To calculate the total rent Lewis pays during the harvest season, we multiply the weekly rent amount by the number of weeks in the harvest season.
+
+Weekly rent = $388  
+Number of weeks = 1359  
+
+Total rent = 388 × 1359 = 527,892  
+
+The answer is 527,892.
+Extracted:
+527.0
+A:
+527292.0
+
+❌ INCORRECT OR INVALID
+Q: After eating a hearty meal they went to see the Buckingham palace. There were 71 paintings in the Buckingham palace. There, Rachel learned that 557 visitors came to the Buckingham palace that day. If there were 188 visitors the previous day How many visited the Buckingham palace within 57 days?
+A_model:
+Hypothesis/Plan: To calculate the total number of visitors to Buckingham Palace within 57 days, we need to determine the average number of visitors per day based on the given data and multiply it by 57 days. However, the problem does not provide the average number of visitors per day or any indication that the number of visitors remains constant. Therefore, we cannot accurately calculate the total number of visitors for 57 days based solely on the information provided.
+
+Answer: The problem lacks sufficient information to calculate the total number of visitors within 57 days.
+Extracted:
+None
+A:
+745.0
+
+❌ INCORRECT OR INVALID
+Q: He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?
+A_model:
+Hypothesis/Plan: To find the total number of oranges harvested per day, we first calculate the total number of oranges in the 76 sacks by multiplying the number of sacks by the number of oranges per sack. Since the discarded sacks do not affect the total harvested, we do not subtract them.
+
+Total oranges harvested = 76 sacks × 50 oranges per sack = 3800 oranges.
+
+The answer is 3800.
+Extracted:
+3800.0
+A:
+600.0
+
+❌ INCORRECT OR INVALID
+Q: Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?
+A_model:
+Hypothesis/Plan: To find how much more Marco's strawberries weighed than his dad's, we first calculate the weight of his dad's strawberries by subtracting Marco's weight from the total weight. Then, we find the difference between Marco's weight and his dad's weight.
+
+Total weight = 4 pounds  
+Marco's weight = 19 pounds  
+
+Dad's weight = Total weight - Marco's weight = 4 - 19 = -15 (This result is not possible, as weights cannot be negative. There seems to be an error in the problem's data. Please verify the numbers provided.)  
+
+Answer: The problem contains an error. Please check the data.
+Extracted:
+None
+A:
+34.0
+
+❌ INCORRECT OR INVALID
+Q: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?
+A_model:
+Hypothesis/Plan: To find how many chapters Frank read per day, we first calculate the total number of chapters in the book. Since the book has 2 chapters, we divide the total number of chapters by the number of days it took Frank to finish the book.
+
+Total chapters = 2  
+Days to finish = 664  
+
+Chapters read per day = Total chapters ÷ Days to finish  
+Chapters read per day = 2 ÷ 664  
+
+The answer is approximately **0.00301** chapters per day.
+Extracted:
+None
+A:
+332.0
+
+❌ INCORRECT OR INVALID
+Q: Last week Fred had 111 dollars and Jason had 40 dollars. Fred washed cars over the weekend and now has 115 dollars. Jason delivered newspapers and now has 44 dollars. How much money did they earn by washing cars?
+A_model:
+Hypothesis/Plan: To find out how much money Fred and Jason earned, we subtract the amount of money they had last week from the amount of money they have now. 
+
+Fred's earnings = 115 - 111 = 4  
+Jason's earnings = 44 - 40 = 4  
+
+Total earnings = 4 + 4 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+4.0
+
+❌ INCORRECT OR INVALID
+Q: The ring toss game at the carnival made the same amount of money each day. In total in 30 days they earned 420 dollars. Together with game they earned 22 dollars. How much did ring toss game make per day?
+A_model:
+Hypothesis/Plan: To find how much the ring toss game made per day, we first determine how much the ring toss game earned in total by subtracting the earnings of the other game from the total earnings. Then, we divide the total earnings of the ring toss game by the number of days (30).
+
+Step 1: Total earnings from the ring toss game = Total earnings - Earnings from the other game  
+420 - 22 = 398  
+
+Step 2: Daily earnings of the ring toss game = Total earnings from the ring toss game ÷ Number of days  
+398 ÷ 30 = 13.27  
+
+The answer is 13.27.
+Extracted:
+13.27
+A:
+14.0
+
+❌ INCORRECT OR INVALID
+Q: For the walls of the house he would use 12 large planks of wood and 17 small planks. If each large plank of wood needs 14 pieces of nails to be secured and each small plank needs 25 nails. How many planks does John need for the house wall?
+A_model:
+Hypothesis/Plan: To find the total number of nails John needs for the house wall, we will calculate the nails required for the large planks and the small planks separately, then add them together.
+
+1. Calculate the nails needed for the large planks:
+   Number of large planks = 12  
+   Nails per large plank = 14  
+   Total nails for large planks = 12 × 14 = 168  
+
+2. Calculate the nails needed for the small planks:
+   Number of small planks = 17  
+   Nails per small plank = 25  
+   Total nails for small planks = 17 × 25 = 425  
+
+3. Add the nails for the large and small planks:
+   Total nails = 168 + 425 = 593  
+
+The answer is 593.
+Extracted:
+593.0
+A:
+29.0
+
+❌ INCORRECT OR INVALID
+Q: A book has 2 chapters across 23 pages. The first chapter is 10 pages long. How many pages are in the first chapter?
+A_model:
+Hypothesis/Plan: The problem states that the first chapter is 10 pages long. Since no calculations are required, we can directly state the number of pages in the first chapter.
+
+Answer: The answer is 10.
+Extracted:
+10.0
+A:
+13.0
+
+❌ INCORRECT OR INVALID
+Q: Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?
+A_model:
+**Hypothesis/Plan:**  
+To find the total number of drums of grapes filled in 146 days, we multiply the number of drums of grapes filled per day by the number of days.  
+
+**Calculation:**  
+Drums of grapes filled per day = 244  
+Number of days = 146  
+
+Total drums of grapes = 244 × 146 = 35,624  
+
+**Answer:** The answer is 35,624
+Extracted:
+35.0
+A:
+35624.0
+
+❌ INCORRECT OR INVALID
+Q: Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?
+A_model:
+**Hypothesis/Plan:**  
+To determine how many marbles Doug has, we first need to find out how many marbles Ed originally had before losing 20 marbles. Since Ed had 17 marbles after losing 20, we add 20 to 17 to find Ed's original number of marbles. Then, we subtract 12 (because Ed had 12 more marbles than Doug) to find Doug's number of marbles.
+
+**Step 1:** Ed's original marbles = 17 + 20 = 37  
+**Step 2:** Doug's marbles = 37 - 12 = 25  
+
+**Answer:** The answer is 25.
+Extracted:
+25.0
+A:
+5.0
+

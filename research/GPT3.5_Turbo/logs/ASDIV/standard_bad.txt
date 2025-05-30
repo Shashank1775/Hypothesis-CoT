@@ -1,0 +1,348 @@
+❌ Incorrect or Invalid
+Q: Tony packs a bag of fruits every 10 min, Sam packs a bag of fruits every 8 min and Sarah packs a bag of fruits every 12 min. If they start packing three bags of fruits at the same time at 12:55, at what time will they start packing at the same time again?
+A_model:
+the answer is 24:20
+Extracted:
+24.0
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: Fred bought five new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only twenty-six cards left. How many cards did Fred start with ?
+A_model:
+the answer is 104
+Extracted:
+104.0
+A:
+47.0
+
+❌ Incorrect or Invalid
+Q: The sum total of the ages of father and the son is 55 years. If the father was to live till his son's age equals his present age. The total of their ages would be 93 years. Find their present ages.
+A_model:
+Let the father's age be F and the son's age be S.
+
+Given:
+1. F + S = 55
+2. (F + S) + S = 93
+
+From equation 1:
+F = 55 - S
+
+Substitute F = 55 - S into equation 2:
+(55 - S) + S = 93
+55 - S + S = 93
+55 = 93
+S = 93 - 55
+S = 38
+
+Substitute S = 38 into F = 55 - S:
+F = 55 - 38
+F = 17
+
+Therefore, the father's present age is 17 years and the son's present age is 38 years. The answer is the answer is 17 and 38.
+Extracted:
+17.0
+A:
+37.0
+
+❌ Incorrect or Invalid
+Q: The Wholesome Bakery baked 5 loaves of bread on Wednesday, 7 loaves of bread on Thursday, 10 loaves of bread on Friday, 14 loaves of bread on Saturday, and 19 loaves of bread on Sunday. If this pattern continues, how many loaves of bread will they bake on Monday?
+A_model:
+The answer is 24.
+Extracted:
+24.0
+A:
+25.0
+
+❌ Incorrect or Invalid
+Q: The area of right angled triangle is 32 sq. cm. If the base is 8 cm, find its height.
+A_model:
+The area of a right-angled triangle is given by the formula: Area = 0.5 * base * height
+
+Given that the area is 32 sq. cm and the base is 8 cm, we can rearrange the formula to solve for the height:
+
+32 = 0.5 * 8 * height
+32 = 4 * height
+height = 32 / 4
+height = 8
+
+Therefore, the height of the right-angled triangle is 8 cm. 
+
+The answer is: 8
+Extracted:
+None
+A:
+8.0
+
+❌ Incorrect or Invalid
+Q: By coincidence, Monica's Obedience School trained the same number of dogs and cats last week. The school teaches dogs in groups of 18 and cats in groups of 3. What is the smallest number of cats the school could have had?
+A_model:
+the answer is 6
+Extracted:
+6.0
+A:
+18.0
+
+❌ Incorrect or Invalid
+Q: Rachel bought seven new chairs and three new tables for her house. If she spent four minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+A_model:
+the answer is 49
+Extracted:
+49.0
+A:
+40.0
+
+❌ Incorrect or Invalid
+Q: A report said that each day the average Youtube viewer watches 2 videos with each video lasting 7 minutes. Additionally they also watch 3 minutes of ads. According to the report, how many minutes total do people spend on Youtube?
+A_model:
+the answer is 20.
+Extracted:
+20.0
+A:
+17.0
+
+❌ Incorrect or Invalid
+Q: Greg's mom made some cookies for the family. The cookies were so huge that she decided to cut them in half. Greg ate 4 halves and his brother, Brad, had 6 halves. There were 18 halves left. How many whole cookies did Greg's mom make?
+A_model:
+The answer is 28.
+Extracted:
+28.0
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: Because of an upcoming exam, Robyn will not be able to sell cookies on Tuesday. To make up for it, Lucy decided to do double the work to catch up. She sold 34 cookies on her first round and 27 on her second round. How many cookies were sold by Lucy?
+A_model:
+the answer is 122
+Extracted:
+122.0
+A:
+61.0
+
+❌ Incorrect or Invalid
+Q: I have 28 cents in my pocket. How coins could I have on minimization?
+A_model:
+the answer is 3
+Extracted:
+3.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: Susan started her homework at 1:59 p.m. and finished her homework 96 minutes later. Susan had volleyball practice at 4:00 p.m. How much time did Susan have between finishing her homework and the beginning of volleyball practice?
+A_model:
+the answer is 5:05
+Extracted:
+5.0
+A:
+25.0
+
+❌ Incorrect or Invalid
+Q: 86 students are going hiking. Each school- bus can take 9 students. How many school-buses are needed?
+A_model:
+the answer is 10
+Extracted:
+10.0
+A:
+9.0
+
+❌ Incorrect or Invalid
+Q: Three workers, A, B, and C are working in a bicycle factory. A finishes assembling a bike every 1 h 30 min. B finishes assembling a bike every 2 h. C finishes assembling a bike every 1 h. If they started assembling three bikes at the same time at 8:10, at what time would they start assembling at the same time again?
+A_model:
+the answer is 12:20
+Extracted:
+12.0
+A:
+14.0
+
+❌ Incorrect or Invalid
+Q: Lisa is making activity baskets to donate to charity. She has 12 coloring books, 28 markers, and 36 crayons. What is the greatest number of baskets she can make if each type of toy is equally distributed among the baskets?
+A_model:
+the answer is 12
+Extracted:
+12.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: In preparation for a party, Brant is putting desserts onto platters. The chocolate cake is cut into 15 pieces and the cheesecake is cut into 6 pieces. If he wants to prepare identical platters without having any cake left over, what is the greatest number of platters he can prepare?
+A_model:
+the answer is 30
+Extracted:
+30.0
+A:
+3.0
+
+❌ Incorrect or Invalid
+Q: Jessica wants of make a garland out of 8 roses, 12 daisies and 48 marigolds. How many arrangements can she make with those flowers so that, there is no flower left.
+A_model:
+the answer is 1
+Extracted:
+1.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: If the second angle is 32 degree less than thrice the first angle and the third angle is 28 degree less than twice the first angle. Find the angles of the triangle.
+A_model:
+the answer is 28, 76, 76
+Extracted:
+28.0
+A:
+40.0
+
+❌ Incorrect or Invalid
+Q: In one week, an airplane pilot flew 1,134 miles on Tuesday and 1,475 miles on Thursday. If the pilot flies the same number of miles 3 weeks in a row, how many miles does he fly in all?
+A_model:
+the answer is 16,218
+Extracted:
+16218.0
+A:
+7827.0
+
+❌ Incorrect or Invalid
+Q: At a school event, adults are seated in groups of exactly 17 and children are seated in groups of exactly 15. If there are the same number of adults as children, what is the minimum number of adults attending?
+A_model:
+the answer is 15
+Extracted:
+15.0
+A:
+255.0
+
+❌ Incorrect or Invalid
+Q: Being concerned with the ecology of lakes, Hazel and her dad returned the youngling fishes they caught. If they took 23 fishes from Lake Ontario and Erie, 30 fishes from Lake Huron and Michigan and 44 from Lake Superior, how many fishes will they bring home with them?
+A_model:
+The answer is 0.
+Extracted:
+0.0
+A:
+97.0
+
+❌ Incorrect or Invalid
+Q: The ages of Ashley and Mary are in the ratio 4:7. The sum of their ages is 22. Find the ages of Ashley and Mary.
+A_model:
+The ages of Ashley and Mary are in the ratio 4:7. Let the common ratio be x. So, the ages of Ashley and Mary are 4x and 7x respectively. 
+
+Given that the sum of their ages is 22:
+4x + 7x = 22
+11x = 22
+x = 2
+
+Therefore, the ages of Ashley and Mary are:
+Ashley: 4x = 4 * 2 = 8
+Mary: 7x = 7 * 2 = 14
+
+So, the answer is: the ages of Ashley and Mary are 8 and 14.
+Extracted:
+None
+A:
+8.0
+
+❌ Incorrect or Invalid
+Q: The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.
+A_model:
+the answer is 39, 13
+Extracted:
+39.0
+A:
+13.0
+
+❌ Incorrect or Invalid
+Q: A comic book costs 37 cents. The store owner reversed the digits by mistake. He wrote that number on the comic book. How much did the store owner overcharge his customer?
+A_model:
+the answer is 63
+Extracted:
+63.0
+A:
+36.0
+
+❌ Incorrect or Invalid
+Q: If Lizzie's group is composed of 54 people and they have 17 more members than the other group, how many people are working together to clean the city?
+A_model:
+the answer is 107
+Extracted:
+107.0
+A:
+91.0
+
+❌ Incorrect or Invalid
+Q: Sara bought decorations for her party. She paid $5 for balloons and $18 for tablecloths. She also spent $9 for streamers. She paid the cashier and got $8 back. How much money did Sara give to the cashier?
+A_model:
+the answer is 24
+Extracted:
+24.0
+A:
+40.0
+
+❌ Incorrect or Invalid
+Q: Jake bought a book of tickets for the rides at Fun Land. 8 of the tickets were red. There were twice as many blue tickets as red tickets. Jake used all 6 of his yellow tickets first. How many tickets did Jake buy in all?
+A_model:
+the answer is 22
+Extracted:
+22.0
+A:
+30.0
+
+❌ Incorrect or Invalid
+Q: A ballet class wants to divide its 90 members into some large groups at 7 members each and some small groups at 3 members each. In order to make the least number of groups, how many large groups should be made?
+A_model:
+the answer is 9
+Extracted:
+9.0
+A:
+12.0
+
+❌ Incorrect or Invalid
+Q: A number equals 5 times the difference between the number and 4. Find the number.
+A_model:
+the answer is 10
+Extracted:
+10.0
+A:
+5.0
+
+❌ Incorrect or Invalid
+Q: The taxi charges in a city comprise of a fixed charge together with the charge for the distance covered. For a journey of 10 km, the charge paid is $75 and for a journey of 15 km, the charge paid is $110. What will a person have to pay for traveling a distance of 25 km?
+A_model:
+the answer is $160
+Extracted:
+160.0
+A:
+180.0
+
+❌ Incorrect or Invalid
+Q: Cory made 4500 g of candy. He saved 1 kg to eat later. He divided the rest of the candy over 7 bowls to serve at his party. How many grams of candy did Cory serve in each bowl?
+A_model:
+the answer is 542.857
+Extracted:
+542.857
+A:
+500.0
+
+❌ Incorrect or Invalid
+Q: A washing machine can wash 28 pounds of clothes per day. If there are 200 pounds of clothes to be washed per day, how many pounds of clothes does the washing machine that isn't fully loaded wash per day?
+A_model:
+the answer is 28
+Extracted:
+28.0
+A:
+4.0
+
+❌ Incorrect or Invalid
+Q: Mona is having a party at her house to celebrate her birthday. She invited some friends and family. Mona prepared rainbow colored cupcakes for dessert. If she made 7 sets for each of the 7 colors of the rainbow and each set has 6 cupcakes, how many cupcakes did Mona prepare in total?
+A_model:
+The answer is 294.
+Extracted:
+294.0
+A:
+42.0
+
+❌ Incorrect or Invalid
+Q: If twice the son's age is added to the father's, the sum is 70. But if twice the father's age is added to the son's age, the sum is 95. Find the ages of father and son.
+A_model:
+the answer is Father: 50, Son: 20
+Extracted:
+None
+A:
+40.0
+

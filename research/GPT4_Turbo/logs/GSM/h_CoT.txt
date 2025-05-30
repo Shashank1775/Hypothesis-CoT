@@ -1,0 +1,1373 @@
+Q: Davida worked 35 hours on each of Weeks 1 and 2. She worked 48 hours each of Weeks 3 and 4. How many more hours did Davida work on Weeks 3 and 4 than on Weeks 1 and 2?
+A_model:
+**Hypothesis/Plan:** To find how many more hours Davida worked on Weeks 3 and 4 than on Weeks 1 and 2, we will first calculate the total hours worked in Weeks 1 and 2, then calculate the total hours worked in Weeks 3 and 4. Finally, we will subtract the total hours of Weeks 1 and 2 from the total hours of Weeks 3 and 4.
+
+**Step-by-step:**
+
+1. **Calculate total hours for Weeks 1 and 2:**
+   - Hours worked in Week 1 = 35
+   - Hours worked in Week 2 = 35
+   - Total for Weeks 1 and 2 = 35 + 35 = 70
+
+2. **Calculate total hours for Weeks 3 and 4:**
+   - Hours worked in Week 3 = 48
+   - Hours worked in Week 4 = 48
+   - Total for Weeks 3 and 4 = 48 + 48 = 96
+
+3. **Find the difference:**
+   - Difference = Total for Weeks 3 and 4 - Total for Weeks 1 and 2
+   - Difference = 96 - 70 = 26
+
+**Answer:** The answer is 26.
+Extracted:
+26.0
+A:
+26.0
+
+Q: John adopts a dog from a shelter.  The dog ends up having health problems and this requires 3 vet appointments,  which cost $400 each.  After the first appointment, John paid $100 for pet insurance that covers 80% of the subsequent visits.  How much did he pay in total?
+A_model:
+### Hypothesis/Plan:
+To calculate the total amount John paid, we need to:
+1. Account for the cost of the first vet appointment, which is $400.
+2. Add the cost of the pet insurance, which is $100.
+3. Calculate the cost of the remaining two vet appointments after applying the 80% insurance coverage. John will pay 20% of the cost for each of these two appointments.
+4. Add all these amounts together to find the total.
+
+### Step-by-step:
+1. **Cost of the first vet appointment**:  
+   The first appointment costs $400.  
+
+2. **Cost of pet insurance**:  
+   John paid $100 for pet insurance.  
+
+3. **Cost of the remaining two vet appointments with insurance**:  
+   Each appointment costs $400, but the insurance covers 80%, so John pays 20% of $400 for each appointment:  
+   \[
+   20\% \text{ of } 400 = 0.2 \times 400 = 80
+   \]  
+   For two appointments, John pays:  
+   \[
+   80 \times 2 = 160
+   \]
+
+4. **Total cost**:  
+   Add the costs together:  
+   \[
+   400 + 100 + 160 = 660
+   \]
+
+### Final Answer:
+The answer is **660**.
+Extracted:
+660.0
+A:
+660.0
+
+Q: Bob buys 50 feet of rope.  He uses a 5th of it to make a small piece of art.  He takes the rest and gives half of it to the friend.  After that, he cuts 2-foot sections.  How many sections does he get?
+A_model:
+### Hypothesis/Plan:
+1. **Step 1:** Calculate how much rope Bob uses for the art by finding 1/5 of the total rope.
+2. **Step 2:** Subtract the rope used for the art from the total rope to find the remaining rope.
+3. **Step 3:** Divide the remaining rope in half to determine how much rope Bob gives to his friend.
+4. **Step 4:** Subtract the rope given to his friend from the remaining rope to find how much rope Bob keeps.
+5. **Step 5:** Divide the rope Bob keeps into 2-foot sections to determine how many sections he gets.
+
+---
+
+### Step-by-step:
+
+1. **Total rope:** 50 feet  
+   **Rope used for art:** \( \frac{1}{5} \times 50 = 10 \) feet  
+
+2. **Remaining rope after art:**  
+   \( 50 - 10 = 40 \) feet  
+
+3. **Rope given to friend:**  
+   \( \frac{1}{2} \times 40 = 20 \) feet  
+
+4. **Rope Bob keeps:**  
+   \( 40 - 20 = 20 \) feet  
+
+5. **Number of 2-foot sections:**  
+   \( \frac{20}{2} = 10 \) sections  
+
+---
+
+### Final Answer:
+The answer is **10**.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Loris needs three more books to have the same number as Lamont, who has twice the number of books Darryl has. If Darryl has 20 books, calculate the total number of books the three have.
+A_model:
+### Hypothesis/Plan:
+1. Determine how many books Lamont has, given that he has twice the number of books Darryl has.
+2. Calculate how many books Loris has, given that she needs three more books to match Lamont's total.
+3. Add the number of books for Darryl, Lamont, and Loris to find the total number of books the three have.
+
+### Step-by-step:
+
+1. **Darryl's books**: Darryl has 20 books.
+   - Darryl = 20
+
+2. **Lamont's books**: Lamont has twice the number of books Darryl has.
+   - Lamont = 2 × Darryl = 2 × 20 = 40
+
+3. **Loris's books**: Loris needs three more books to have the same number as Lamont.
+   - Loris = Lamont - 3 = 40 - 3 = 37
+
+4. **Total books**: Add the books of Darryl, Lamont, and Loris.
+   - Total = Darryl + Lamont + Loris = 20 + 40 + 37 = 97
+
+### Final Answer:
+The answer is **97**.
+Extracted:
+97.0
+A:
+97.0
+
+Q: James binges on Cheezits and eats 3 bags that are 2 ounces each.  There are 150 calories in an ounce of Cheezits.  He then goes for a 40-minute run and burns 12 calories per minute.  How many excess calories did he eat?
+A_model:
+### Hypothesis/Plan:
+To determine the excess calories James consumed, we need to:
+1. Calculate the total calories James consumed from the Cheezits.
+2. Calculate the total calories James burned during his run.
+3. Subtract the calories burned from the calories consumed to find the excess calories.
+
+### Step-by-step:
+1. **Calories consumed from Cheezits:**
+   - Each bag is 2 ounces, and James eats 3 bags.
+   - Total ounces = 3 × 2 = 6 ounces.
+   - Calories per ounce = 150.
+   - Total calories consumed = 6 × 150 = 900 calories.
+
+2. **Calories burned during the run:**
+   - James runs for 40 minutes and burns 12 calories per minute.
+   - Total calories burned = 40 × 12 = 480 calories.
+
+3. **Excess calories:**
+   - Excess calories = Calories consumed - Calories burned.
+   - Excess calories = 900 - 480 = 420 calories.
+
+### Final Answer:
+The answer is **420**.
+Extracted:
+420.0
+A:
+420.0
+
+Q: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+A_model:
+### Hypothesis/Plan:
+To determine how many songs the singer performed, we will:
+1. Subtract the 10-minute intermission from the total concert time to find the time spent singing.
+2. Identify how many 5-minute songs fit into the remaining time, accounting for the one 10-minute song.
+3. Add the number of 5-minute songs to the one 10-minute song to get the total number of songs.
+
+### Step-by-step:
+1. **Total concert time** = 1 hour 20 minutes = 80 minutes.
+2. **Time spent singing** = 80 minutes - 10 minutes (intermission) = 70 minutes.
+3. **One 10-minute song** = 10 minutes.
+   - Remaining time for 5-minute songs = 70 minutes - 10 minutes = 60 minutes.
+4. **Number of 5-minute songs** = 60 minutes ÷ 5 minutes/song = 12 songs.
+5. **Total number of songs** = 12 (5-minute songs) + 1 (10-minute song) = 13 songs.
+
+### Final Answer:
+The answer is **13**.
+Extracted:
+13.0
+A:
+13.0
+
+Q: At a CD store, 40% of the CDs cost $10 each, and the rest cost $5 each. Prince bought half the CDs sold at $10 each, and all of the CDs sold at $5 each. If the total number of CDs was 200, how much money did Prince spend on buying the CDs?
+A_model:
+### Hypothesis/Plan:
+To calculate how much money Prince spent, we need to:
+1. Determine how many CDs cost $10 each and how many cost $5 each.
+2. Calculate how many $10 CDs Prince bought (half of them).
+3. Calculate the total cost of the $10 CDs Prince bought.
+4. Calculate the total cost of the $5 CDs Prince bought.
+5. Add the costs from steps 3 and 4 to find the total amount Prince spent.
+
+---
+
+### Step-by-step:
+
+1. **Determine the number of $10 CDs and $5 CDs:**
+   - Total CDs = 200
+   - 40% of the CDs cost $10 each:
+     \[
+     40\% \times 200 = 0.4 \times 200 = 80 \text{ CDs at $10 each.}
+     \]
+   - The rest of the CDs cost $5 each:
+     \[
+     200 - 80 = 120 \text{ CDs at $5 each.}
+     \]
+
+2. **Calculate how many $10 CDs Prince bought:**
+   - Prince bought half of the $10 CDs:
+     \[
+     \frac{80}{2} = 40 \text{ CDs at $10 each.}
+     \]
+
+3. **Calculate the total cost of the $10 CDs Prince bought:**
+   - Cost of $10 CDs:
+     \[
+     40 \times 10 = 400 \text{ dollars.}
+     \]
+
+4. **Calculate the total cost of the $5 CDs Prince bought:**
+   - Prince bought all of the $5 CDs:
+     \[
+     120 \times 5 = 600 \text{ dollars.}
+     \]
+
+5. **Add the costs from steps 3 and 4:**
+   - Total cost:
+     \[
+     400 + 600 = 1000 \text{ dollars.}
+     \]
+
+---
+
+### Final Answer:
+The answer is **1000**.
+Extracted:
+1000.0
+A:
+1000.0
+
+Q: A chef needs to make french fries.  He can get 25 fries out of 1 potato.  He has 15 potatoes and he needs 200 fries.  How many potatoes will he have leftover?
+A_model:
+### Hypothesis/Plan:
+To determine how many potatoes the chef will have leftover, we will:
+1. Calculate how many fries the chef can make with 15 potatoes.
+2. Determine how many potatoes are needed to make 200 fries.
+3. Subtract the number of potatoes used from the total number of potatoes to find how many are leftover.
+
+### Step-by-step:
+1. **Fries per potato**: 1 potato = 25 fries.
+2. **Total fries from 15 potatoes**:  
+   \( 15 \times 25 = 375 \) fries.
+3. **Potatoes needed for 200 fries**:  
+   \( 200 \div 25 = 8 \) potatoes.
+4. **Potatoes leftover**:  
+   \( 15 - 8 = 7 \) potatoes.
+
+### Final Answer:
+The answer is **7**.
+Extracted:
+7.0
+A:
+7.0
+
+Q: We the People has 17 cows. Happy Good Healthy Family has two more than three times the number of cows We the People has. If their cows are taken to a ranch to graze together, how many cows will be in the ranch altogether?
+A_model:
+### Hypothesis/Plan:
+To find the total number of cows at the ranch, we need to:
+1. Determine how many cows Happy Good Healthy Family has.
+2. Add the number of cows from We the People and Happy Good Healthy Family together.
+
+### Step-by-step:
+1. **Number of cows We the People has**: 17 cows.
+2. **Number of cows Happy Good Healthy Family has**: 
+   - "Two more than three times the number of cows We the People has" means:
+     \( 3 \times 17 + 2 \).
+   - Calculate \( 3 \times 17 = 51 \).
+   - Add 2: \( 51 + 2 = 53 \).
+   - Happy Good Healthy Family has 53 cows.
+3. **Total number of cows at the ranch**:
+   - Add the cows from both groups: \( 17 + 53 = 70 \).
+
+### Final Answer:
+The answer is **70**.
+Extracted:
+70.0
+A:
+70.0
+
+Q: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+A_model:
+### Hypothesis/Plan:
+1. Start by determining how many belts Clinton has. Since he has 2 more belts than hats and currently has 5 hats, calculate the number of belts.
+2. Next, calculate how many shoes Clinton has. Since he has twice as many shoes as belts, multiply the number of belts by 2.
+3. Write the final answer.
+
+### Step-by-step:
+1. Clinton has 5 hats. He has 2 more belts than hats:
+   \[
+   \text{Belts} = 5 + 2 = 7
+   \]
+
+2. Clinton has twice as many shoes as belts:
+   \[
+   \text{Shoes} = 2 \times 7 = 14
+   \]
+
+### Final Answer:
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q: At peak hours, 11 am - 1 pm and 5 pm - 6 pm, the local fast-food restaurant serves 12 cars every 15 minutes.  Off-peak times, they serve 8 cars every 15 minutes.  From 4 pm - 6 pm, how many customers do they serve?
+A_model:
+### Hypothesis/Plan:
+To determine how many customers the fast-food restaurant serves from 4 pm to 6 pm, we need to break the time into two parts:  
+1. From 4 pm to 5 pm (off-peak hours).  
+2. From 5 pm to 6 pm (peak hours).  
+
+We will calculate the number of cars served during each time period separately and then add the results together.  
+
+### Step-by-step:
+
+#### 1. From 4 pm to 5 pm (off-peak hours):
+- During off-peak hours, the restaurant serves **8 cars every 15 minutes**.  
+- There are **4 intervals of 15 minutes** in 1 hour.  
+- Total cars served = \( 8 \times 4 = 32 \).
+
+#### 2. From 5 pm to 6 pm (peak hours):
+- During peak hours, the restaurant serves **12 cars every 15 minutes**.  
+- There are **4 intervals of 15 minutes** in 1 hour.  
+- Total cars served = \( 12 \times 4 = 48 \).
+
+#### 3. Total cars served from 4 pm to 6 pm:
+- Add the cars served during both time periods:  
+  \( 32 + 48 = 80 \).
+
+### Final Answer:
+The answer is **80**.
+Extracted:
+80.0
+A:
+80.0
+
+Q: There are 10 6-ounces of glasses that are only 4/5 full of water. How many ounces of water are needed to fill to the brim all those 10 glasses?
+A_model:
+**Hypothesis/Plan:**  
+To determine how many ounces of water are needed to fill all 10 glasses to the brim, we will:  
+1. Calculate how much water is currently in each glass (4/5 of 6 ounces).  
+2. Find out how much water is needed to fill one glass to the brim (subtract the current amount from 6 ounces).  
+3. Multiply the amount of water needed for one glass by 10 to find the total amount of water needed for all 10 glasses.  
+
+**Step-by-step:**  
+1. Each glass holds 6 ounces, but they are only 4/5 full.  
+   Current water in each glass = \( \frac{4}{5} \times 6 = 4.8 \) ounces.  
+
+2. Water needed to fill one glass to the brim = Total capacity - Current water.  
+   Water needed for one glass = \( 6 - 4.8 = 1.2 \) ounces.  
+
+3. Total water needed for 10 glasses = Water needed for one glass × 10.  
+   Total water needed = \( 1.2 \times 10 = 12 \) ounces.  
+
+**Answer:** The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Ali had a stock of 800 books in his Room. He sold 60 on Monday, 10 on Tuesday, 20 on Wednesday, 44 on Thursday and 66 on Friday. How many books were not sold?
+A_model:
+### Hypothesis/Plan:
+To find how many books were not sold, we first calculate the total number of books sold during the week by adding the books sold each day. Then, subtract the total books sold from the initial stock of books.
+
+### Step-by-step:
+
+1. **Initial stock of books**: 800  
+2. **Books sold on Monday**: 60  
+3. **Books sold on Tuesday**: 10  
+4. **Books sold on Wednesday**: 20  
+5. **Books sold on Thursday**: 44  
+6. **Books sold on Friday**: 66  
+
+**Total books sold**:  
+60 + 10 + 20 + 44 + 66 = 200  
+
+**Books not sold**:  
+Initial stock - Total books sold = 800 - 200 = 600  
+
+### Final Answer:
+The answer is **600**.
+Extracted:
+600.0
+A:
+600.0
+
+Q: In the post-apocalyptic wasteland, 1 lizard is worth 8 bottle caps, 3 lizards are worth 5 gallons of water, and 1 horse is worth 80 gallons of water. Marla can scavenge for 20 bottle caps each day, but needs to pay 4 bottle caps per night for food and shelter. How many days does it take Marla to collect all the bottlecaps she needs to buy a horse?
+A_model:
+### Hypothesis/Plan:
+To determine how many days it takes Marla to collect enough bottle caps to buy a horse, we need to:
+1. Convert the value of the horse (in gallons of water) into bottle caps.
+2. Calculate how many bottle caps Marla can save per day after paying for food and shelter.
+3. Divide the total bottle caps needed for the horse by the daily savings to find the number of days required.
+
+### Step-by-step:
+
+1. **Convert the horse's value into bottle caps:**
+   - 1 lizard = 8 bottle caps.
+   - 3 lizards = 5 gallons of water.
+   - Therefore, 1 gallon of water = \( \frac{3 \times 8}{5} = \frac{24}{5} = 4.8 \) bottle caps.
+   - 1 horse = 80 gallons of water.
+   - Total bottle caps needed for the horse = \( 80 \times 4.8 = 384 \) bottle caps.
+
+2. **Calculate Marla's daily savings:**
+   - Marla earns 20 bottle caps per day.
+   - She spends 4 bottle caps per night for food and shelter.
+   - Daily savings = \( 20 - 4 = 16 \) bottle caps.
+
+3. **Determine the number of days required:**
+   - Total bottle caps needed = 384.
+   - Daily savings = 16 bottle caps.
+   - Days required = \( \frac{384}{16} = 24 \).
+
+### Final Answer:
+The answer is **24**.
+Extracted:
+24.0
+A:
+24.0
+
+Q: Mark constructed a deck that was 30 feet by 40 feet.  It cost $3 per square foot.  He then paid an extra $1 per square foot for sealant.  How much did he pay?
+A_model:
+### Hypothesis/Plan:
+To calculate the total cost, we need to:
+1. Find the area of the deck by multiplying its length and width.
+2. Calculate the cost of construction by multiplying the area by $3 per square foot.
+3. Calculate the cost of sealant by multiplying the area by $1 per square foot.
+4. Add the construction cost and the sealant cost to find the total amount Mark paid.
+
+### Step-by-step:
+1. **Find the area of the deck:**
+   \[
+   \text{Area} = \text{Length} \times \text{Width} = 30 \, \text{ft} \times 40 \, \text{ft} = 1200 \, \text{square feet}
+   \]
+
+2. **Calculate the cost of construction:**
+   \[
+   \text{Construction cost} = \text{Area} \times 3 = 1200 \times 3 = 3600 \, \text{dollars}
+   \]
+
+3. **Calculate the cost of sealant:**
+   \[
+   \text{Sealant cost} = \text{Area} \times 1 = 1200 \times 1 = 1200 \, \text{dollars}
+   \]
+
+4. **Add the construction cost and sealant cost:**
+   \[
+   \text{Total cost} = \text{Construction cost} + \text{Sealant cost} = 3600 + 1200 = 4800 \, \text{dollars}
+   \]
+
+### Final Answer:
+The answer is **4800**.
+Extracted:
+4800.0
+A:
+4800.0
+
+Q: Each yogurt is topped with 8 banana slices.  One banana will yield 10 slices.  If Vivian needs to make 5 yogurts, how many bananas does she need to buy?
+A_model:
+### Hypothesis/Plan:
+To determine how many bananas Vivian needs to buy, we will:
+1. Calculate the total number of banana slices needed for 5 yogurts.
+2. Determine how many bananas are required to produce that number of slices, knowing that each banana yields 10 slices.
+3. Since bananas cannot be purchased in fractions, round up to the nearest whole number if necessary.
+
+### Step-by-step:
+1. Each yogurt requires 8 banana slices. For 5 yogurts:
+   \[
+   8 \times 5 = 40 \text{ banana slices needed.}
+   \]
+
+2. Each banana yields 10 slices. To find the number of bananas needed:
+   \[
+   \frac{40}{10} = 4 \text{ bananas.}
+   \]
+
+3. Since 4 is a whole number, Vivian needs exactly 4 bananas.
+
+### Final Answer:
+The answer is **4**.
+Extracted:
+4.0
+A:
+4.0
+
+Q: One batch of cookies requires 4 cups of flour and 1.5 cups of sugar. How many cups of flour and sugar combined would be needed for 8 batches?
+A_model:
+**Hypothesis/Plan:** To find the total amount of flour and sugar combined for 8 batches, we will first calculate the total flour needed and the total sugar needed by multiplying the amounts required for one batch by 8. Then, we will add the total flour and sugar together.
+
+**Step-by-step:**
+
+1. Flour needed for 1 batch = 4 cups  
+   Flour needed for 8 batches = 4 × 8 = 32 cups  
+
+2. Sugar needed for 1 batch = 1.5 cups  
+   Sugar needed for 8 batches = 1.5 × 8 = 12 cups  
+
+3. Total flour and sugar combined = 32 + 12 = 44 cups  
+
+**The answer is 44.**
+Extracted:
+44.0
+A:
+44.0
+
+Q: George went to a movie theater to see a movie. He paid $16 for the ticket and decided to buy some nachos. The nachos were half the price of the ticket. How much did George pay in total for the visit to the movie theater?
+A_model:
+**Hypothesis/Plan:** To find the total amount George paid, we need to calculate the cost of the nachos (which is half the price of the ticket) and then add it to the ticket price.
+
+**Step-by-step:**
+
+1. Ticket price = $16  
+2. Nachos price = Half the ticket price = $16 ÷ 2 = $8  
+3. Total cost = Ticket price + Nachos price = $16 + $8 = $24  
+
+**The answer is 24.**
+Extracted:
+24.0
+A:
+24.0
+
+Q: In a car racing competition, Skye drove a 6-kilometer track. For the first 3 kilometers, his speed was 150 kilometers per hour. For the next 2 kilometers, his speed was 50 kilometers per hour more. For the remaining 1 kilometer, his speed was twice as fast as his speed on the first 3 kilometers. What is Skye's average speed for the entire race?
+A_model:
+### Hypothesis/Plan:
+To calculate Skye's average speed for the entire race, we need to:
+1. Determine the time taken for each segment of the race using the formula:  
+   \[
+   \text{Time} = \frac{\text{Distance}}{\text{Speed}}
+   \]
+2. Add up the total time for all segments.
+3. Divide the total distance (6 kilometers) by the total time to find the average speed.
+
+---
+
+### Step-by-step:
+
+#### Step 1: Calculate the speed for each segment.
+- **First 3 kilometers:** Speed = 150 km/h  
+- **Next 2 kilometers:** Speed = 150 + 50 = 200 km/h  
+- **Last 1 kilometer:** Speed = 2 × 150 = 300 km/h  
+
+---
+
+#### Step 2: Calculate the time for each segment.
+- **First 3 kilometers:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{3}{150} = 0.02 \, \text{hours}
+  \]
+
+- **Next 2 kilometers:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{2}{200} = 0.01 \, \text{hours}
+  \]
+
+- **Last 1 kilometer:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{1}{300} = 0.00333 \, \text{hours}
+  \]
+
+---
+
+#### Step 3: Add up the total time.
+\[
+\text{Total Time} = 0.02 + 0.01 + 0.00333 = 0.03333 \, \text{hours}
+\]
+
+---
+
+#### Step 4: Calculate the average speed.
+\[
+\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}} = \frac{6}{0.03333} \approx 180 \, \text{km/h}
+\]
+
+---
+
+### Final Answer:
+The answer is **180 km/h**.
+Extracted:
+180.0
+A:
+180.0
+
+Q: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?
+A_model:
+### Hypothesis/Plan:
+1. Determine how much money Tobias had before buying the shoes by adding the cost of the shoes ($95) to the change he had left ($15).
+2. Calculate how much money Tobias earned from his allowance over the past three months.
+3. Subtract the allowance earnings from the total money Tobias had to find how much he earned from mowing lawns and shoveling driveways.
+4. Calculate how much Tobias earned from mowing 4 lawns.
+5. Subtract the earnings from mowing lawns from the remaining amount to find how much he earned from shoveling driveways.
+6. Divide the amount earned from shoveling driveways by the price Tobias charges per driveway ($7) to find the number of driveways he shoveled.
+
+---
+
+### Step-by-Step Solution:
+
+1. **Total money Tobias had:**
+   - Cost of shoes = $95
+   - Change left = $15
+   - Total money = $95 + $15 = **$110**
+
+2. **Allowance earnings:**
+   - Monthly allowance = $5
+   - Number of months = 3
+   - Total allowance = $5 × 3 = **$15**
+
+3. **Money earned from mowing and shoveling:**
+   - Total money = $110
+   - Allowance = $15
+   - Money from mowing and shoveling = $110 - $15 = **$95**
+
+4. **Money earned from mowing lawns:**
+   - Charge per lawn = $15
+   - Number of lawns mowed = 4
+   - Total from mowing = $15 × 4 = **$60**
+
+5. **Money earned from shoveling driveways:**
+   - Total from mowing and shoveling = $95
+   - Money from mowing = $60
+   - Money from shoveling = $95 - $60 = **$35**
+
+6. **Number of driveways shoveled:**
+   - Charge per driveway = $7
+   - Total from shoveling = $35
+   - Number of driveways = $35 ÷ $7 = **5**
+
+---
+
+### Final Answer:
+The answer is **5**.
+Extracted:
+5.0
+A:
+5.0
+
+Q: Mustafa buys a fridge, a TV and a computer with a total budget of $1600. The TV costs $600 and the fridge costs $500 more than the computer. How much does the computer cost?
+A_model:
+### Hypothesis/Plan:
+To determine the cost of the computer, we will:
+1. Represent the cost of the computer as \( x \).
+2. Express the cost of the fridge as \( x + 500 \) (since the fridge costs $500 more than the computer).
+3. Add the costs of the TV, fridge, and computer, and set the total equal to $1600.
+4. Solve for \( x \), which represents the cost of the computer.
+
+### Step-by-step:
+1. Let the cost of the computer be \( x \).
+2. The cost of the fridge is \( x + 500 \).
+3. The cost of the TV is $600.
+4. The total cost is given as:
+   \[
+   x + (x + 500) + 600 = 1600
+   \]
+5. Simplify the equation:
+   \[
+   2x + 500 + 600 = 1600
+   \]
+   \[
+   2x + 1100 = 1600
+   \]
+6. Subtract 1100 from both sides:
+   \[
+   2x = 500
+   \]
+7. Divide both sides by 2:
+   \[
+   x = 250
+   \]
+
+### Final Answer:
+The answer is **250**.
+Extracted:
+250.0
+A:
+250.0
+Q: Davida worked 35 hours on each of Weeks 1 and 2. She worked 48 hours each of Weeks 3 and 4. How many more hours did Davida work on Weeks 3 and 4 than on Weeks 1 and 2?
+A_model:
+**Hypothesis/Plan:** To find how many more hours Davida worked on Weeks 3 and 4 than on Weeks 1 and 2, we will first calculate the total hours worked in Weeks 1 and 2, then calculate the total hours worked in Weeks 3 and 4. Finally, we will subtract the total hours of Weeks 1 and 2 from the total hours of Weeks 3 and 4.
+
+**Step-by-step:**
+
+1. **Calculate total hours for Weeks 1 and 2:**
+   - Hours worked in Week 1 = 35
+   - Hours worked in Week 2 = 35
+   - Total for Weeks 1 and 2 = 35 + 35 = 70
+
+2. **Calculate total hours for Weeks 3 and 4:**
+   - Hours worked in Week 3 = 48
+   - Hours worked in Week 4 = 48
+   - Total for Weeks 3 and 4 = 48 + 48 = 96
+
+3. **Find the difference:**
+   - Difference = Total for Weeks 3 and 4 - Total for Weeks 1 and 2
+   - Difference = 96 - 70 = 26
+
+**Answer:** The answer is 26.
+Extracted:
+26.0
+A:
+26.0
+
+Q: John adopts a dog from a shelter.  The dog ends up having health problems and this requires 3 vet appointments,  which cost $400 each.  After the first appointment, John paid $100 for pet insurance that covers 80% of the subsequent visits.  How much did he pay in total?
+A_model:
+### Hypothesis/Plan:
+To calculate the total amount John paid, we need to:
+1. Account for the cost of the first vet appointment, which is $400.
+2. Add the cost of the pet insurance, which is $100.
+3. Calculate the cost of the remaining two vet appointments after applying the 80% insurance coverage. John will pay 20% of the cost for each of these two appointments.
+4. Add all these amounts together to find the total.
+
+### Step-by-step:
+1. **Cost of the first vet appointment**:  
+   The first appointment costs $400.  
+
+2. **Cost of pet insurance**:  
+   John paid $100 for pet insurance.  
+
+3. **Cost of the remaining two vet appointments with insurance**:  
+   Each appointment costs $400, but the insurance covers 80%, so John pays 20% of $400 for each appointment:  
+   \[
+   20\% \text{ of } 400 = 0.2 \times 400 = 80
+   \]  
+   For two appointments, John pays:  
+   \[
+   80 \times 2 = 160
+   \]
+
+4. **Total cost**:  
+   Add the costs together:  
+   \[
+   400 + 100 + 160 = 660
+   \]
+
+### Final Answer:
+The answer is **660**.
+Extracted:
+660.0
+A:
+660.0
+
+Q: Bob buys 50 feet of rope.  He uses a 5th of it to make a small piece of art.  He takes the rest and gives half of it to the friend.  After that, he cuts 2-foot sections.  How many sections does he get?
+A_model:
+### Hypothesis/Plan:
+1. **Step 1:** Calculate how much rope Bob uses for the art by finding 1/5 of the total rope.
+2. **Step 2:** Subtract the rope used for the art from the total rope to find the remaining rope.
+3. **Step 3:** Divide the remaining rope in half to determine how much rope Bob gives to his friend.
+4. **Step 4:** Subtract the rope given to his friend from the remaining rope to find how much rope Bob keeps.
+5. **Step 5:** Divide the rope Bob keeps into 2-foot sections to determine how many sections he gets.
+
+---
+
+### Step-by-step:
+
+1. **Total rope:** 50 feet  
+   **Rope used for art:** \( \frac{1}{5} \times 50 = 10 \) feet  
+
+2. **Remaining rope after art:**  
+   \( 50 - 10 = 40 \) feet  
+
+3. **Rope given to friend:**  
+   \( \frac{1}{2} \times 40 = 20 \) feet  
+
+4. **Rope Bob keeps:**  
+   \( 40 - 20 = 20 \) feet  
+
+5. **Number of 2-foot sections:**  
+   \( \frac{20}{2} = 10 \) sections  
+
+---
+
+### Final Answer:
+The answer is **10**.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Loris needs three more books to have the same number as Lamont, who has twice the number of books Darryl has. If Darryl has 20 books, calculate the total number of books the three have.
+A_model:
+### Hypothesis/Plan:
+1. Determine how many books Lamont has, given that he has twice the number of books Darryl has.
+2. Calculate how many books Loris has, given that she needs three more books to match Lamont's total.
+3. Add the number of books for Darryl, Lamont, and Loris to find the total number of books the three have.
+
+### Step-by-step:
+
+1. **Darryl's books**: Darryl has 20 books.
+   - Darryl = 20
+
+2. **Lamont's books**: Lamont has twice the number of books Darryl has.
+   - Lamont = 2 × Darryl = 2 × 20 = 40
+
+3. **Loris's books**: Loris needs three more books to have the same number as Lamont.
+   - Loris = Lamont - 3 = 40 - 3 = 37
+
+4. **Total books**: Add the books of Darryl, Lamont, and Loris.
+   - Total = Darryl + Lamont + Loris = 20 + 40 + 37 = 97
+
+### Final Answer:
+The answer is **97**.
+Extracted:
+97.0
+A:
+97.0
+
+Q: James binges on Cheezits and eats 3 bags that are 2 ounces each.  There are 150 calories in an ounce of Cheezits.  He then goes for a 40-minute run and burns 12 calories per minute.  How many excess calories did he eat?
+A_model:
+### Hypothesis/Plan:
+To determine the excess calories James consumed, we need to:
+1. Calculate the total calories James consumed from the Cheezits.
+2. Calculate the total calories James burned during his run.
+3. Subtract the calories burned from the calories consumed to find the excess calories.
+
+### Step-by-step:
+1. **Calories consumed from Cheezits:**
+   - Each bag is 2 ounces, and James eats 3 bags.
+   - Total ounces = 3 × 2 = 6 ounces.
+   - Calories per ounce = 150.
+   - Total calories consumed = 6 × 150 = 900 calories.
+
+2. **Calories burned during the run:**
+   - James runs for 40 minutes and burns 12 calories per minute.
+   - Total calories burned = 40 × 12 = 480 calories.
+
+3. **Excess calories:**
+   - Excess calories = Calories consumed - Calories burned.
+   - Excess calories = 900 - 480 = 420 calories.
+
+### Final Answer:
+The answer is **420**.
+Extracted:
+420.0
+A:
+420.0
+
+Q: Jay went to watch a singer in a one hour 20 minutes concert.  If there was a 10-minute intermission, and all the songs were 5 minutes except for one song that lasted 10 minutes, how many songs did she sing?
+A_model:
+### Hypothesis/Plan:
+To determine how many songs the singer performed, we will:
+1. Subtract the 10-minute intermission from the total concert time to find the time spent singing.
+2. Identify how many 5-minute songs fit into the remaining time, accounting for the one 10-minute song.
+3. Add the number of 5-minute songs to the one 10-minute song to get the total number of songs.
+
+### Step-by-step:
+1. **Total concert time** = 1 hour 20 minutes = 80 minutes.
+2. **Time spent singing** = 80 minutes - 10 minutes (intermission) = 70 minutes.
+3. **One 10-minute song** = 10 minutes.
+   - Remaining time for 5-minute songs = 70 minutes - 10 minutes = 60 minutes.
+4. **Number of 5-minute songs** = 60 minutes ÷ 5 minutes/song = 12 songs.
+5. **Total number of songs** = 12 (5-minute songs) + 1 (10-minute song) = 13 songs.
+
+### Final Answer:
+The answer is **13**.
+Extracted:
+13.0
+A:
+13.0
+
+Q: At a CD store, 40% of the CDs cost $10 each, and the rest cost $5 each. Prince bought half the CDs sold at $10 each, and all of the CDs sold at $5 each. If the total number of CDs was 200, how much money did Prince spend on buying the CDs?
+A_model:
+### Hypothesis/Plan:
+To calculate how much money Prince spent, we need to:
+1. Determine how many CDs cost $10 each and how many cost $5 each.
+2. Calculate how many $10 CDs Prince bought (half of them).
+3. Calculate the total cost of the $10 CDs Prince bought.
+4. Calculate the total cost of the $5 CDs Prince bought.
+5. Add the costs from steps 3 and 4 to find the total amount Prince spent.
+
+---
+
+### Step-by-step:
+
+1. **Determine the number of $10 CDs and $5 CDs:**
+   - Total CDs = 200
+   - 40% of the CDs cost $10 each:
+     \[
+     40\% \times 200 = 0.4 \times 200 = 80 \text{ CDs at $10 each.}
+     \]
+   - The rest of the CDs cost $5 each:
+     \[
+     200 - 80 = 120 \text{ CDs at $5 each.}
+     \]
+
+2. **Calculate how many $10 CDs Prince bought:**
+   - Prince bought half of the $10 CDs:
+     \[
+     \frac{80}{2} = 40 \text{ CDs at $10 each.}
+     \]
+
+3. **Calculate the total cost of the $10 CDs Prince bought:**
+   - Cost of $10 CDs:
+     \[
+     40 \times 10 = 400 \text{ dollars.}
+     \]
+
+4. **Calculate the total cost of the $5 CDs Prince bought:**
+   - Prince bought all of the $5 CDs:
+     \[
+     120 \times 5 = 600 \text{ dollars.}
+     \]
+
+5. **Add the costs from steps 3 and 4:**
+   - Total cost:
+     \[
+     400 + 600 = 1000 \text{ dollars.}
+     \]
+
+---
+
+### Final Answer:
+The answer is **1000**.
+Extracted:
+1000.0
+A:
+1000.0
+
+Q: A chef needs to make french fries.  He can get 25 fries out of 1 potato.  He has 15 potatoes and he needs 200 fries.  How many potatoes will he have leftover?
+A_model:
+### Hypothesis/Plan:
+To determine how many potatoes the chef will have leftover, we will:
+1. Calculate how many fries the chef can make with 15 potatoes.
+2. Determine how many potatoes are needed to make 200 fries.
+3. Subtract the number of potatoes used from the total number of potatoes to find how many are leftover.
+
+### Step-by-step:
+1. **Fries per potato**: 1 potato = 25 fries.
+2. **Total fries from 15 potatoes**:  
+   \( 15 \times 25 = 375 \) fries.
+3. **Potatoes needed for 200 fries**:  
+   \( 200 \div 25 = 8 \) potatoes.
+4. **Potatoes leftover**:  
+   \( 15 - 8 = 7 \) potatoes.
+
+### Final Answer:
+The answer is **7**.
+Extracted:
+7.0
+A:
+7.0
+
+Q: We the People has 17 cows. Happy Good Healthy Family has two more than three times the number of cows We the People has. If their cows are taken to a ranch to graze together, how many cows will be in the ranch altogether?
+A_model:
+### Hypothesis/Plan:
+To find the total number of cows at the ranch, we need to:
+1. Determine how many cows Happy Good Healthy Family has.
+2. Add the number of cows from We the People and Happy Good Healthy Family together.
+
+### Step-by-step:
+1. **Number of cows We the People has**: 17 cows.
+2. **Number of cows Happy Good Healthy Family has**: 
+   - "Two more than three times the number of cows We the People has" means:
+     \( 3 \times 17 + 2 \).
+   - Calculate \( 3 \times 17 = 51 \).
+   - Add 2: \( 51 + 2 = 53 \).
+   - Happy Good Healthy Family has 53 cows.
+3. **Total number of cows at the ranch**:
+   - Add the cows from both groups: \( 17 + 53 = 70 \).
+
+### Final Answer:
+The answer is **70**.
+Extracted:
+70.0
+A:
+70.0
+
+Q: Clinton has twice as many shoes in his wardrobe as belts.  He has 2 more belts than hats and currently has 5 hats.  How many shoes does Clinton have?
+A_model:
+### Hypothesis/Plan:
+1. Start by determining how many belts Clinton has. Since he has 2 more belts than hats and currently has 5 hats, calculate the number of belts.
+2. Next, calculate how many shoes Clinton has. Since he has twice as many shoes as belts, multiply the number of belts by 2.
+3. Write the final answer.
+
+### Step-by-step:
+1. Clinton has 5 hats. He has 2 more belts than hats:
+   \[
+   \text{Belts} = 5 + 2 = 7
+   \]
+
+2. Clinton has twice as many shoes as belts:
+   \[
+   \text{Shoes} = 2 \times 7 = 14
+   \]
+
+### Final Answer:
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q: At peak hours, 11 am - 1 pm and 5 pm - 6 pm, the local fast-food restaurant serves 12 cars every 15 minutes.  Off-peak times, they serve 8 cars every 15 minutes.  From 4 pm - 6 pm, how many customers do they serve?
+A_model:
+### Hypothesis/Plan:
+To determine how many customers the fast-food restaurant serves from 4 pm to 6 pm, we need to break the time into two parts:  
+1. From 4 pm to 5 pm (off-peak hours).  
+2. From 5 pm to 6 pm (peak hours).  
+
+We will calculate the number of cars served during each time period separately and then add the results together.  
+
+### Step-by-step:
+
+#### 1. From 4 pm to 5 pm (off-peak hours):
+- During off-peak hours, the restaurant serves **8 cars every 15 minutes**.  
+- There are **4 intervals of 15 minutes** in 1 hour.  
+- Total cars served = \( 8 \times 4 = 32 \).
+
+#### 2. From 5 pm to 6 pm (peak hours):
+- During peak hours, the restaurant serves **12 cars every 15 minutes**.  
+- There are **4 intervals of 15 minutes** in 1 hour.  
+- Total cars served = \( 12 \times 4 = 48 \).
+
+#### 3. Total cars served from 4 pm to 6 pm:
+- Add the cars served during both time periods:  
+  \( 32 + 48 = 80 \).
+
+### Final Answer:
+The answer is **80**.
+Extracted:
+80.0
+A:
+80.0
+
+Q: There are 10 6-ounces of glasses that are only 4/5 full of water. How many ounces of water are needed to fill to the brim all those 10 glasses?
+A_model:
+**Hypothesis/Plan:**  
+To determine how many ounces of water are needed to fill all 10 glasses to the brim, we will:  
+1. Calculate how much water is currently in each glass (4/5 of 6 ounces).  
+2. Find out how much water is needed to fill one glass to the brim (subtract the current amount from 6 ounces).  
+3. Multiply the amount of water needed for one glass by 10 to find the total amount of water needed for all 10 glasses.  
+
+**Step-by-step:**  
+1. Each glass holds 6 ounces, but they are only 4/5 full.  
+   Current water in each glass = \( \frac{4}{5} \times 6 = 4.8 \) ounces.  
+
+2. Water needed to fill one glass to the brim = Total capacity - Current water.  
+   Water needed for one glass = \( 6 - 4.8 = 1.2 \) ounces.  
+
+3. Total water needed for 10 glasses = Water needed for one glass × 10.  
+   Total water needed = \( 1.2 \times 10 = 12 \) ounces.  
+
+**Answer:** The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Ali had a stock of 800 books in his Room. He sold 60 on Monday, 10 on Tuesday, 20 on Wednesday, 44 on Thursday and 66 on Friday. How many books were not sold?
+A_model:
+### Hypothesis/Plan:
+To find how many books were not sold, we first calculate the total number of books sold during the week by adding the books sold each day. Then, subtract the total books sold from the initial stock of books.
+
+### Step-by-step:
+
+1. **Initial stock of books**: 800  
+2. **Books sold on Monday**: 60  
+3. **Books sold on Tuesday**: 10  
+4. **Books sold on Wednesday**: 20  
+5. **Books sold on Thursday**: 44  
+6. **Books sold on Friday**: 66  
+
+**Total books sold**:  
+60 + 10 + 20 + 44 + 66 = 200  
+
+**Books not sold**:  
+Initial stock - Total books sold = 800 - 200 = 600  
+
+### Final Answer:
+The answer is **600**.
+Extracted:
+600.0
+A:
+600.0
+
+Q: In the post-apocalyptic wasteland, 1 lizard is worth 8 bottle caps, 3 lizards are worth 5 gallons of water, and 1 horse is worth 80 gallons of water. Marla can scavenge for 20 bottle caps each day, but needs to pay 4 bottle caps per night for food and shelter. How many days does it take Marla to collect all the bottlecaps she needs to buy a horse?
+A_model:
+### Hypothesis/Plan:
+To determine how many days it takes Marla to collect enough bottle caps to buy a horse, we need to:
+1. Convert the value of the horse (in gallons of water) into bottle caps.
+2. Calculate how many bottle caps Marla can save per day after paying for food and shelter.
+3. Divide the total bottle caps needed for the horse by the daily savings to find the number of days required.
+
+### Step-by-step:
+
+1. **Convert the horse's value into bottle caps:**
+   - 1 lizard = 8 bottle caps.
+   - 3 lizards = 5 gallons of water.
+   - Therefore, 1 gallon of water = \( \frac{3 \times 8}{5} = \frac{24}{5} = 4.8 \) bottle caps.
+   - 1 horse = 80 gallons of water.
+   - Total bottle caps needed for the horse = \( 80 \times 4.8 = 384 \) bottle caps.
+
+2. **Calculate Marla's daily savings:**
+   - Marla earns 20 bottle caps per day.
+   - She spends 4 bottle caps per night for food and shelter.
+   - Daily savings = \( 20 - 4 = 16 \) bottle caps.
+
+3. **Determine the number of days required:**
+   - Total bottle caps needed = 384.
+   - Daily savings = 16 bottle caps.
+   - Days required = \( \frac{384}{16} = 24 \).
+
+### Final Answer:
+The answer is **24**.
+Extracted:
+24.0
+A:
+24.0
+
+Q: Mark constructed a deck that was 30 feet by 40 feet.  It cost $3 per square foot.  He then paid an extra $1 per square foot for sealant.  How much did he pay?
+A_model:
+### Hypothesis/Plan:
+To calculate the total cost, we need to:
+1. Find the area of the deck by multiplying its length and width.
+2. Calculate the cost of construction by multiplying the area by $3 per square foot.
+3. Calculate the cost of sealant by multiplying the area by $1 per square foot.
+4. Add the construction cost and the sealant cost to find the total amount Mark paid.
+
+### Step-by-step:
+1. **Find the area of the deck:**
+   \[
+   \text{Area} = \text{Length} \times \text{Width} = 30 \, \text{ft} \times 40 \, \text{ft} = 1200 \, \text{square feet}
+   \]
+
+2. **Calculate the cost of construction:**
+   \[
+   \text{Construction cost} = \text{Area} \times 3 = 1200 \times 3 = 3600 \, \text{dollars}
+   \]
+
+3. **Calculate the cost of sealant:**
+   \[
+   \text{Sealant cost} = \text{Area} \times 1 = 1200 \times 1 = 1200 \, \text{dollars}
+   \]
+
+4. **Add the construction cost and sealant cost:**
+   \[
+   \text{Total cost} = \text{Construction cost} + \text{Sealant cost} = 3600 + 1200 = 4800 \, \text{dollars}
+   \]
+
+### Final Answer:
+The answer is **4800**.
+Extracted:
+4800.0
+A:
+4800.0
+
+Q: Each yogurt is topped with 8 banana slices.  One banana will yield 10 slices.  If Vivian needs to make 5 yogurts, how many bananas does she need to buy?
+A_model:
+### Hypothesis/Plan:
+To determine how many bananas Vivian needs to buy, we will:
+1. Calculate the total number of banana slices needed for 5 yogurts.
+2. Determine how many bananas are required to produce that number of slices, knowing that each banana yields 10 slices.
+3. Since bananas cannot be purchased in fractions, round up to the nearest whole number if necessary.
+
+### Step-by-step:
+1. Each yogurt requires 8 banana slices. For 5 yogurts:
+   \[
+   8 \times 5 = 40 \text{ banana slices needed.}
+   \]
+
+2. Each banana yields 10 slices. To find the number of bananas needed:
+   \[
+   \frac{40}{10} = 4 \text{ bananas.}
+   \]
+
+3. Since 4 is a whole number, Vivian needs exactly 4 bananas.
+
+### Final Answer:
+The answer is **4**.
+Extracted:
+4.0
+A:
+4.0
+
+Q: One batch of cookies requires 4 cups of flour and 1.5 cups of sugar. How many cups of flour and sugar combined would be needed for 8 batches?
+A_model:
+**Hypothesis/Plan:** To find the total amount of flour and sugar combined for 8 batches, we will first calculate the total flour needed and the total sugar needed by multiplying the amounts required for one batch by 8. Then, we will add the total flour and sugar together.
+
+**Step-by-step:**
+
+1. Flour needed for 1 batch = 4 cups  
+   Flour needed for 8 batches = 4 × 8 = 32 cups  
+
+2. Sugar needed for 1 batch = 1.5 cups  
+   Sugar needed for 8 batches = 1.5 × 8 = 12 cups  
+
+3. Total flour and sugar combined = 32 + 12 = 44 cups  
+
+**The answer is 44.**
+Extracted:
+44.0
+A:
+44.0
+
+Q: George went to a movie theater to see a movie. He paid $16 for the ticket and decided to buy some nachos. The nachos were half the price of the ticket. How much did George pay in total for the visit to the movie theater?
+A_model:
+**Hypothesis/Plan:** To find the total amount George paid, we need to calculate the cost of the nachos (which is half the price of the ticket) and then add it to the ticket price.
+
+**Step-by-step:**
+
+1. Ticket price = $16  
+2. Nachos price = Half the ticket price = $16 ÷ 2 = $8  
+3. Total cost = Ticket price + Nachos price = $16 + $8 = $24  
+
+**The answer is 24.**
+Extracted:
+24.0
+A:
+24.0
+
+Q: In a car racing competition, Skye drove a 6-kilometer track. For the first 3 kilometers, his speed was 150 kilometers per hour. For the next 2 kilometers, his speed was 50 kilometers per hour more. For the remaining 1 kilometer, his speed was twice as fast as his speed on the first 3 kilometers. What is Skye's average speed for the entire race?
+A_model:
+### Hypothesis/Plan:
+To calculate Skye's average speed for the entire race, we need to:
+1. Determine the time taken for each segment of the race using the formula:  
+   \[
+   \text{Time} = \frac{\text{Distance}}{\text{Speed}}
+   \]
+2. Add up the total time for all segments.
+3. Divide the total distance (6 kilometers) by the total time to find the average speed.
+
+---
+
+### Step-by-step:
+
+#### Step 1: Calculate the speed for each segment.
+- **First 3 kilometers:** Speed = 150 km/h  
+- **Next 2 kilometers:** Speed = 150 + 50 = 200 km/h  
+- **Last 1 kilometer:** Speed = 2 × 150 = 300 km/h  
+
+---
+
+#### Step 2: Calculate the time for each segment.
+- **First 3 kilometers:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{3}{150} = 0.02 \, \text{hours}
+  \]
+
+- **Next 2 kilometers:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{2}{200} = 0.01 \, \text{hours}
+  \]
+
+- **Last 1 kilometer:**  
+  \[
+  \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{1}{300} = 0.00333 \, \text{hours}
+  \]
+
+---
+
+#### Step 3: Add up the total time.
+\[
+\text{Total Time} = 0.02 + 0.01 + 0.00333 = 0.03333 \, \text{hours}
+\]
+
+---
+
+#### Step 4: Calculate the average speed.
+\[
+\text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}} = \frac{6}{0.03333} \approx 180 \, \text{km/h}
+\]
+
+---
+
+### Final Answer:
+The answer is **180 km/h**.
+Extracted:
+180.0
+A:
+180.0
+
+Q: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?
+A_model:
+### Hypothesis/Plan:
+1. Determine how much money Tobias had before buying the shoes by adding the cost of the shoes ($95) to the change he had left ($15).
+2. Calculate how much money Tobias earned from his allowance over the past three months.
+3. Subtract the allowance earnings from the total money Tobias had to find how much he earned from mowing lawns and shoveling driveways.
+4. Calculate how much Tobias earned from mowing 4 lawns.
+5. Subtract the earnings from mowing lawns from the remaining amount to find how much he earned from shoveling driveways.
+6. Divide the amount earned from shoveling driveways by the price Tobias charges per driveway ($7) to find the number of driveways he shoveled.
+
+---
+
+### Step-by-Step Solution:
+
+1. **Total money Tobias had:**
+   - Cost of shoes = $95
+   - Change left = $15
+   - Total money = $95 + $15 = **$110**
+
+2. **Allowance earnings:**
+   - Monthly allowance = $5
+   - Number of months = 3
+   - Total allowance = $5 × 3 = **$15**
+
+3. **Money earned from mowing and shoveling:**
+   - Total money = $110
+   - Allowance = $15
+   - Money from mowing and shoveling = $110 - $15 = **$95**
+
+4. **Money earned from mowing lawns:**
+   - Charge per lawn = $15
+   - Number of lawns mowed = 4
+   - Total from mowing = $15 × 4 = **$60**
+
+5. **Money earned from shoveling driveways:**
+   - Total from mowing and shoveling = $95
+   - Money from mowing = $60
+   - Money from shoveling = $95 - $60 = **$35**
+
+6. **Number of driveways shoveled:**
+   - Charge per driveway = $7
+   - Total from shoveling = $35
+   - Number of driveways = $35 ÷ $7 = **5**
+
+---
+
+### Final Answer:
+The answer is **5**.
+Extracted:
+5.0
+A:
+5.0
+
+Q: Mustafa buys a fridge, a TV and a computer with a total budget of $1600. The TV costs $600 and the fridge costs $500 more than the computer. How much does the computer cost?
+A_model:
+### Hypothesis/Plan:
+To determine the cost of the computer, we will:
+1. Represent the cost of the computer as \( x \).
+2. Express the cost of the fridge as \( x + 500 \) (since the fridge costs $500 more than the computer).
+3. Add the costs of the TV, fridge, and computer, and set the total equal to $1600.
+4. Solve for \( x \), which represents the cost of the computer.
+
+### Step-by-step:
+1. Let the cost of the computer be \( x \).
+2. The cost of the fridge is \( x + 500 \).
+3. The cost of the TV is $600.
+4. The total cost is given as:
+   \[
+   x + (x + 500) + 600 = 1600
+   \]
+5. Simplify the equation:
+   \[
+   2x + 500 + 600 = 1600
+   \]
+   \[
+   2x + 1100 = 1600
+   \]
+6. Subtract 1100 from both sides:
+   \[
+   2x = 500
+   \]
+7. Divide both sides by 2:
+   \[
+   x = 250
+   \]
+
+### Final Answer:
+The answer is **250**.
+Extracted:
+250.0
+A:
+250.0
+

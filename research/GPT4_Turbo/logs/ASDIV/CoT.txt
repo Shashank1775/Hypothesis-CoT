@@ -1,0 +1,3673 @@
+Q: While sorting some buttons, Malia put 1 button in the first box, 3 buttons in the second box, 9 buttons in the third box, 27 buttons in the fourth box, and 81 buttons in the fifth box. If this pattern continues, how many buttons will Malia put in the sixth box?
+A_model:
+To solve this problem, we need to identify the pattern in the number of buttons Malia is placing in each box.
+
+The sequence of buttons is:  
+1, 3, 9, 27, 81.
+
+Looking at the pattern, each number is obtained by multiplying the previous number by 3:  
+1 × 3 = 3,  
+3 × 3 = 9,  
+9 × 3 = 27,  
+27 × 3 = 81.
+
+To find the number of buttons in the sixth box, we multiply the number of buttons in the fifth box (81) by 3:  
+81 × 3 = 243.
+
+The answer is **243**.
+Extracted:
+243.0
+A:
+243.0
+
+Q: Emily owned 6 songs by her favorite artists. Later on she bought 7 more songs. How many songs did she have totaled?
+A_model:
+Emily started with 6 songs. Later, she bought 7 more songs. To find the total number of songs she has now, we add the two amounts together:
+
+6 + 7 = 13
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: On a track for remote-controlled racing cars, racing car A completes the track in 28 seconds, while racing car B completes it in 24 seconds. If they both start at the same time, after how many seconds will they be side by side again?
+A_model:
+To determine when the two cars will be side by side again, we need to find the least common multiple (LCM) of the times it takes for each car to complete the track. This is because the LCM represents the smallest amount of time after which both cars will have completed a whole number of laps and meet at the starting point.
+
+### Step 1: Write the times for each car
+- Car A completes the track in 28 seconds.
+- Car B completes the track in 24 seconds.
+
+### Step 2: Find the prime factorization of each number
+- Prime factorization of 28: \( 28 = 2^2 \times 7 \)
+- Prime factorization of 24: \( 24 = 2^3 \times 3 \)
+
+### Step 3: Find the LCM
+To find the LCM, take the highest power of each prime factor that appears in the factorizations:
+- For \( 2 \), the highest power is \( 2^3 \) (from 24).
+- For \( 3 \), the highest power is \( 3^1 \) (from 24).
+- For \( 7 \), the highest power is \( 7^1 \) (from 28).
+
+Multiply these together:
+\[
+LCM = 2^3 \times 3^1 \times 7^1 = 8 \times 3 \times 7 = 168
+\]
+
+### Step 4: Conclusion
+The two cars will be side by side again after 168 seconds.
+
+**The answer is 168.**
+Extracted:
+168.0
+A:
+168.0
+
+Q: The Book Nook sold 27 computer books last week. The sold 15 more cook books than computer books. How many cook books did the Book Nook sell?
+A_model:
+To find how many cookbooks the Book Nook sold, we need to follow these steps:
+
+1. The Book Nook sold 27 computer books last week.
+2. They sold 15 more cookbooks than computer books.
+3. To find the number of cookbooks sold, we add 15 to the number of computer books:  
+   27 + 15 = 42.
+
+The answer is 42.
+Extracted:
+42.0
+A:
+42.0
+
+Q: One stamp costs $0.34. Two stamps cost $0.68. Three stamps cost $1.02. If the cost of each stamp remains the same, how much would 4 stamps cost?
+A_model:
+To find the cost of 4 stamps, we need to determine the cost of one stamp and multiply it by 4.
+
+1. The cost of one stamp is $0.34.
+2. Multiply the cost of one stamp by 4:  
+   \( 0.34 \times 4 = 1.36 \).
+
+The answer is **1.36**.
+Extracted:
+1.36
+A:
+1.36
+
+Q: Uncle Dave bought 143 ice cream sandwiches. If he wants to give them to his 11 hungry nieces, how many can each niece get?
+A_model:
+To determine how many ice cream sandwiches each niece can get, we need to divide the total number of ice cream sandwiches by the number of nieces.
+
+Step 1: Total number of ice cream sandwiches = 143  
+Step 2: Total number of nieces = 11  
+Step 3: Divide 143 by 11:  
+143 ÷ 11 = 13 (remainder 0)
+
+Each niece can get 13 ice cream sandwiches.
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: There are 270 seats in a movie theater. If the movie theater has 9 sections with the same number of seats in each section, how many seats are in each section?
+A_model:
+To find how many seats are in each section, we need to divide the total number of seats by the number of sections.
+
+Step 1: Total seats = 270  
+Step 2: Number of sections = 9  
+Step 3: Divide the total seats by the number of sections:  
+270 ÷ 9 = 30  
+
+The answer is 30.
+Extracted:
+30.0
+A:
+30.0
+
+Q: A club has 16 girls and 8 boys as members. The president wants to break the club into groups, with each group containing the same combination of girls and boys. The president also wants to make sure that no one is left out. What is the greatest number of groups the president can make?
+A_model:
+To solve this problem, we need to find the greatest number of groups the president can make, where each group contains the same combination of girls and boys, and no one is left out. This means we need to find the greatest common divisor (GCD) of the number of girls (16) and boys (8).
+
+### Step 1: Find the GCD of 16 and 8
+The factors of 16 are:  
+1, 2, 4, 8, 16  
+
+The factors of 8 are:  
+1, 2, 4, 8  
+
+The greatest common factor shared by both 16 and 8 is **8**.
+
+### Step 2: Divide the total number of girls and boys by the GCD
+- If we divide the 16 girls into 8 groups, each group will have \( 16 \div 8 = 2 \) girls.  
+- If we divide the 8 boys into 8 groups, each group will have \( 8 \div 8 = 1 \) boy.
+
+### Step 3: Verify
+Each group will have 2 girls and 1 boy, and there will be 8 groups in total. No one is left out.
+
+### Final Answer:
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Mr. Guzman bought 48 doughnuts packed equally into 4 boxes. How many doughnuts were in each box?
+A_model:
+To find out how many doughnuts were in each box, we need to divide the total number of doughnuts by the number of boxes.
+
+Step 1: Total doughnuts = 48  
+Step 2: Number of boxes = 4  
+Step 3: Divide the total doughnuts by the number of boxes:  
+48 ÷ 4 = 12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Maggi had 3 packages of cupcakes. There are 4 cupcakes in each package. She ate 5 cupcakes. How many are left?
+A_model:
+To find how many cupcakes Maggi has left, we need to follow these steps:
+
+1. Maggi has 3 packages of cupcakes, and each package contains 4 cupcakes. To find the total number of cupcakes, multiply the number of packages by the number of cupcakes in each package:  
+   \( 3 \times 4 = 12 \) cupcakes.
+
+2. Maggi ate 5 cupcakes. To find how many are left, subtract the number of cupcakes she ate from the total number of cupcakes:  
+   \( 12 - 5 = 7 \).
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: Dave bought a new flat screen TV. The screen was 2 feet wide and 4 feet tall. What is the area of the screen?
+A_model:
+To find the area of the screen, we use the formula for the area of a rectangle: 
+
+**Area = width × height**
+
+The width of the screen is 2 feet, and the height is 4 feet. Substituting these values into the formula:
+
+**Area = 2 × 4 = 8**
+
+The area of the screen is **8 square feet**.
+
+The answer is **8**.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Mrs. Snyder made 86 heart cookies. She made 36 red cookies and the rest are pink. How many pink cookies did she make?
+A_model:
+To find out how many pink cookies Mrs. Snyder made, we need to subtract the number of red cookies from the total number of cookies.
+
+1. Mrs. Snyder made a total of 86 cookies.
+2. She made 36 red cookies.
+3. To find the number of pink cookies, subtract the number of red cookies from the total:  
+   \( 86 - 36 = 50 \).
+
+The answer is 50.
+Extracted:
+50.0
+A:
+50.0
+
+Q: A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin?
+A_model:
+We need to find how many books are in the bargain bin at the end. Let's break it down step by step:
+
+1. The bookstore starts with 4 books in the bargain bin.
+2. They sell 3 books, so we subtract 3 from the original 4:  
+   4 - 3 = 1 book left in the bin.
+3. Then, they add 10 more books to the bin, so we add 10 to the remaining 1:  
+   1 + 10 = 11 books.
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q: Tiffany was collecting cans for recycling. On Monday she had four bags of cans. The next day she found eight more bags worth. How many bags did she have totaled?
+A_model:
+To find the total number of bags Tiffany had, we need to add the number of bags she had on Monday to the number of bags she found the next day.
+
+- On Monday, Tiffany had 4 bags of cans.
+- The next day, she found 8 more bags.
+
+Adding these together:  
+4 + 8 = 12  
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Jerry had 8 action figures on a shelf in his room. Later he added 2 more figures to the shelf. How many action figures were on his shelf total?
+A_model:
+Jerry started with 8 action figures on his shelf. Later, he added 2 more figures. To find the total number of action figures, we add the two amounts together:
+
+8 + 2 = 10
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: 15 students split 122 portfolios of paintings. Each student should get the same number of portfolios. How many portfolios of paintings will each of them get?
+A_model:
+To solve this, we need to divide the total number of portfolios (122) equally among the 15 students.
+
+Step 1: Perform the division.  
+122 ÷ 15 = 8 remainder 2.
+
+Step 2: Each student will get 8 portfolios, and there will be 2 portfolios left over.
+
+The answer is **8**.
+Extracted:
+8.0
+A:
+8.0
+
+Q: A shoe store was having a back to school sale where you could buy 2 pairs of shoes for $23.10. If a large family decided to buy 7 pairs of shoes, how much would it cost them?
+A_model:
+To solve this problem step by step:
+
+1. The cost of 2 pairs of shoes is $23.10. To find the cost of 1 pair of shoes, divide $23.10 by 2:
+   \[
+   23.10 \div 2 = 11.55
+   \]
+   So, 1 pair of shoes costs $11.55.
+
+2. The family wants to buy 7 pairs of shoes. To find the total cost, multiply the cost of 1 pair of shoes by 7:
+   \[
+   11.55 \times 7 = 80.85
+   \]
+
+The answer is **80.85**.
+Extracted:
+80.85
+A:
+80.85
+
+Q: The map led them through the forest and into a cave. To open the cave doors, they need to put weights on the switch. If the switch already has 234 lbs. of weights and the total needed is 712 lbs., how much more weight to they need to add?
+A_model:
+To find how much more weight they need to add, we subtract the weight already on the switch from the total weight needed.
+
+Step 1: Total weight needed = 712 lbs.  
+Step 2: Weight already on the switch = 234 lbs.  
+Step 3: Subtract the weight already on the switch from the total weight needed:  
+712 - 234 = 478  
+
+The answer is 478.
+Extracted:
+478.0
+A:
+478.0
+
+Q: A group of nine friends went into a restaurant. The chef already had two chicken wings cooked but cooked twenty-five more for the group. If they each got the same amount, how many would each person get?
+A_model:
+To find out how many chicken wings each person gets, let's break it down step by step:
+
+1. The chef already had 2 chicken wings cooked and then cooked 25 more. So, the total number of chicken wings is:  
+   \( 2 + 25 = 27 \).
+
+2. There are 9 friends in the group, and the chicken wings are divided equally among them. To find how many each person gets, divide the total number of chicken wings by the number of friends:  
+   \( 27 \div 9 = 3 \).
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q: Amy had twelve pencils. If she used four of them, how many would she have left?
+A_model:
+To find out how many pencils Amy has left, we need to subtract the number of pencils she used from the total number of pencils she started with. 
+
+Amy started with 12 pencils. She used 4 of them. 
+
+12 - 4 = 8
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Lastly, he went to a music store and bought a new set of speakers for his dad's entertainment system. If the initial price of the speakers is $475.00 he got it for $199.00, how much money was he able to save from having a discount?
+A_model:
+To find out how much money he was able to save, we need to calculate the difference between the initial price of the speakers and the discounted price.
+
+1. The initial price of the speakers is $475.00.  
+2. The discounted price he paid is $199.00.  
+3. To find the savings, subtract the discounted price from the initial price:  
+   $475.00 - $199.00 = $276.00.  
+
+The answer is 276.
+Extracted:
+276.0
+A:
+276.0
+
+Q: At the arcade Debby spent 2 tickets on a hat, 10 on a stuffed animal and 2 on a yoyo. How many tickets did she spend total?
+A_model:
+To find the total number of tickets Debby spent, we need to add the tickets she spent on each item together.
+
+1. Debby spent 2 tickets on a hat.  
+2. She spent 10 tickets on a stuffed animal.  
+3. She spent 2 tickets on a yoyo.  
+
+Now, add these together:  
+2 + 10 + 2 = 14  
+
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q: The weight of 4 cakes is 800 g. The total weight of 3 cakes and 5 pieces of bread is 1 kg 100 g. How much heavier is a cake than a piece of bread?
+A_model:
+To solve this problem, we need to determine how much heavier a cake is than a piece of bread. Let's break it down step by step:
+
+### Step 1: Convert all weights to grams
+1 kg = 1000 g, so 1 kg 100 g = 1100 g.
+
+### Step 2: Find the weight of one cake
+The weight of 4 cakes is 800 g. Therefore, the weight of one cake is:
+\[
+\frac{800}{4} = 200 \, \text{g}.
+\]
+
+### Step 3: Find the total weight of 3 cakes
+The weight of 3 cakes is:
+\[
+3 \times 200 = 600 \, \text{g}.
+\]
+
+### Step 4: Find the total weight of 5 pieces of bread
+The total weight of 3 cakes and 5 pieces of bread is 1100 g. Since the weight of 3 cakes is 600 g, the weight of 5 pieces of bread is:
+\[
+1100 - 600 = 500 \, \text{g}.
+\]
+
+### Step 5: Find the weight of one piece of bread
+The weight of 5 pieces of bread is 500 g. Therefore, the weight of one piece of bread is:
+\[
+\frac{500}{5} = 100 \, \text{g}.
+\]
+
+### Step 6: Find how much heavier a cake is than a piece of bread
+The weight of one cake is 200 g, and the weight of one piece of bread is 100 g. The difference is:
+\[
+200 - 100 = 100 \, \text{g}.
+\]
+
+### Final Answer:
+The answer is 100.
+Extracted:
+100.0
+A:
+100.0
+
+Q: Alec has a garden and likes to put flowers from his garden into pretty vases. Alec put 5 flowers in the first vase, 7 flowers in the second vase, 10 flowers in the third vase, and 14 flowers in the fourth vase. If this pattern continues, how many flowers will Alec put in the fifth vase?
+A_model:
+To solve this, we need to identify the pattern in the number of flowers Alec puts in each vase.
+
+1. The first vase has 5 flowers.  
+2. The second vase has 7 flowers.  
+3. The third vase has 10 flowers.  
+4. The fourth vase has 14 flowers.  
+
+Now, let's find the difference between the number of flowers in consecutive vases:  
+- From the first to the second vase: 7 - 5 = 2  
+- From the second to the third vase: 10 - 7 = 3  
+- From the third to the fourth vase: 14 - 10 = 4  
+
+The differences are increasing by 1 each time (2, 3, 4). This means the next difference will be 5.  
+
+To find the number of flowers in the fifth vase, we add this next difference (5) to the number of flowers in the fourth vase (14):  
+14 + 5 = 19  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q: Fred bought five new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only twenty-six cards left. How many cards did Fred start with ?
+A_model:
+Let's solve this step by step:
+
+1. Fred's dog ate half of his collection, and there are now 26 cards left. This means the 26 cards represent the other half of his collection. So, the total number of cards Fred had after buying the five new cards is:
+   \( 26 \times 2 = 52 \).
+
+2. Fred bought five new cards to add to his collection. To find how many cards he started with before buying the new cards, we subtract the five new cards from the total:
+   \( 52 - 5 = 47 \).
+
+The answer is 47.
+Extracted:
+47.0
+A:
+47.0
+
+Q: Mrs. Hilt has 15 friends. She can only take 8 of her friends to the movies. How many friends can't go to the movies?
+A_model:
+To find out how many friends can't go to the movies, we need to subtract the number of friends Mrs. Hilt can take (8) from her total number of friends (15). 
+
+15 - 8 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: After the aviary was the zoo's swamp area. Penny counted a total of 55 tree frogs, 10 poison frogs and 13 wood frogs. How many frogs was Penny able to count?
+A_model:
+To find the total number of frogs Penny counted, we need to add the number of tree frogs, poison frogs, and wood frogs together.
+
+Step 1: Add the number of tree frogs and poison frogs:  
+55 + 10 = 65  
+
+Step 2: Add the wood frogs to the total:  
+65 + 13 = 78  
+
+The answer is 78.
+Extracted:
+78.0
+A:
+78.0
+
+Q: The sum total of the ages of father and the son is 55 years. If the father was to live till his son's age equals his present age. The total of their ages would be 93 years. Find their present ages.
+A_model:
+Let's solve this step by step:
+
+### Step 1: Define the variables
+Let the father's current age be **F** and the son's current age be **S**.
+
+### Step 2: Write the given information as equations
+1. The sum of their current ages is 55:
+   \[
+   F + S = 55
+   \]
+
+2. If the son reaches the father's current age, the total of their ages will be 93. This means the son will take **F - S** years to reach the father's current age. At that time:
+   - The father's age will be \( F + (F - S) \).
+   - The son's age will be \( S + (F - S) = F \).
+   - The total of their ages will be 93:
+     \[
+     \big(F + (F - S)\big) + F = 93
+     \]
+
+### Step 3: Simplify the second equation
+\[
+F + (F - S) + F = 93
+\]
+\[
+3F - S = 93
+\]
+
+### Step 4: Solve the system of equations
+We now have two equations:
+1. \( F + S = 55 \)
+2. \( 3F - S = 93 \)
+
+Add the two equations together to eliminate \( S \):
+\[
+(F + S) + (3F - S) = 55 + 93
+\]
+\[
+4F = 148
+\]
+\[
+F = 37
+\]
+
+Substitute \( F = 37 \) into the first equation \( F + S = 55 \):
+\[
+37 + S = 55
+\]
+\[
+S = 18
+\]
+
+### Step 5: Verify the solution
+- The father's current age is \( F = 37 \), and the son's current age is \( S = 18 \).
+- Their current age sum is \( 37 + 18 = 55 \) (correct).
+- When the son reaches the father's current age (in \( 37 - 18 = 19 \) years):
+  - The father's age will be \( 37 + 19 = 56 \).
+  - The son's age will be \( 18 + 19 = 37 \).
+  - The total of their ages will be \( 56 + 37 = 93 \) (correct).
+
+### Final Answer:
+The answer is **37 and 18**.
+Extracted:
+37.0
+A:
+37.0
+
+Q: A restaurant has 94 pieces of cutlery. 38 are forks, 27 are knives, and the rest are spoons. How many spoons are there?
+A_model:
+To find how many spoons there are, we need to subtract the number of forks and knives from the total number of cutlery.
+
+Step 1: Add the number of forks and knives together.  
+38 (forks) + 27 (knives) = 65  
+
+Step 2: Subtract the total number of forks and knives from the total number of cutlery.  
+94 (total cutlery) - 65 (forks and knives) = 29  
+
+The answer is 29.
+Extracted:
+29.0
+A:
+29.0
+
+Q: For Halloween Will got fifteen pounds of candy. After giving some to Haley, he had nine pounds left. How many pounds did he give to Haley?
+A_model:
+We need to find how many pounds of candy Will gave to Haley. 
+
+1. Will started with 15 pounds of candy.  
+2. After giving some to Haley, he had 9 pounds left.  
+3. To find how much he gave to Haley, subtract the amount he had left from the original amount:  
+   \( 15 - 9 = 6 \).  
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q: Dave had 10 video games but 2 of them weren't working. If he wanted to sell the working games for $4 each, how much money could he earn?
+A_model:
+First, we need to determine how many of Dave's video games are working. He has 10 video games, but 2 of them aren't working. Subtract the non-working games from the total:
+
+10 - 2 = 8 working games.
+
+Next, Dave wants to sell each working game for $4. To find the total amount of money he could earn, multiply the number of working games by the price per game:
+
+8 × 4 = 32.
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q: A large bag of balls was kept under Haley's bed. Her mom placed the balls in bags for children in foster homes. If every bag can contain 4 balls and Haley has 36 balls, how many bags will be used?
+A_model:
+To determine how many bags will be used, we need to divide the total number of balls by the number of balls each bag can hold.
+
+1. Haley has 36 balls.
+2. Each bag can hold 4 balls.
+3. To find the number of bags needed, divide 36 by 4:  
+   \( 36 \div 4 = 9 \).
+
+The answer is 9.
+Extracted:
+9.0
+A:
+9.0
+
+Q: Mrs. Hilt has 40 markers. They are divided equally into 7 packages. Mrs. Hilt wants to know how many markers are leftover?
+A_model:
+To determine how many markers are leftover, we need to divide the total number of markers (40) by the number of packages (7) and find the remainder.
+
+1. Divide 40 by 7:  
+   \( 40 \div 7 = 5 \) remainder \( 5 \).  
+
+This means each package gets 5 markers, and there are 5 markers leftover.
+
+**The answer is 5.**
+Extracted:
+5.0
+A:
+5.0
+
+Q: Garrett went shopping for snack supplies and bought 6 oatmeal raisin granola bars and 8 peanut granola bars. How many granola bars did he buy in all?
+A_model:
+To find the total number of granola bars Garrett bought, we need to add the number of oatmeal raisin granola bars and peanut granola bars together. 
+
+Garrett bought 6 oatmeal raisin granola bars and 8 peanut granola bars. Adding these together:
+
+6 + 8 = 14
+
+The answer is 14.
+Extracted:
+14.0
+A:
+14.0
+
+Q: A box of cupcakes cost $six. If you had eight hundred twenty-one dollars and bought as many boxes as you could, how much money would you have left?
+A_model:
+To solve this problem step by step:
+
+1. **Determine the cost of one box of cupcakes:** The cost of one box is $6.
+
+2. **Find out how many boxes you can buy with $821:** Divide $821 by $6 to calculate the maximum number of boxes you can buy:
+   \[
+   821 \div 6 = 136 \text{ remainder } 5
+   \]
+   This means you can buy 136 boxes, and there will be $5 left over.
+
+3. **Calculate the leftover money:** The remainder from the division is the amount of money left after buying as many boxes as possible. This is $5.
+
+**Final Answer:** The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: The Wholesome Bakery baked 5 loaves of bread on Wednesday, 7 loaves of bread on Thursday, 10 loaves of bread on Friday, 14 loaves of bread on Saturday, and 19 loaves of bread on Sunday. If this pattern continues, how many loaves of bread will they bake on Monday?
+A_model:
+To solve this problem, we need to identify the pattern in the number of loaves baked each day.
+
+The number of loaves baked each day is as follows:
+- Wednesday: 5
+- Thursday: 7
+- Friday: 10
+- Saturday: 14
+- Sunday: 19
+
+Step 1: Find the differences between consecutive days.
+- Thursday - Wednesday = 7 - 5 = 2
+- Friday - Thursday = 10 - 7 = 3
+- Saturday - Friday = 14 - 10 = 4
+- Sunday - Saturday = 19 - 14 = 5
+
+The differences are increasing by 1 each day: 2, 3, 4, 5.
+
+Step 2: Predict the difference for Monday.
+The next difference in the pattern will be 6.
+
+Step 3: Add this difference to the number of loaves baked on Sunday.
+19 + 6 = 25
+
+The Wholesome Bakery will bake **25 loaves of bread** on Monday.
+
+The answer is 25.
+Extracted:
+25.0
+A:
+25.0
+
+Q: At the fair there were 10 people in line for the bumper cars. If 2 of them got tired of waiting and left and 2 more got in line, how many people would be in line?
+A_model:
+We need to calculate how many people are in line for the bumper cars after some leave and others join.
+
+1. Start with the initial number of people in line: 10.
+2. Subtract the 2 people who got tired of waiting and left:  
+   10 - 2 = 8.
+3. Add the 2 more people who got in line:  
+   8 + 2 = 10.
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Each house a carpenter builds needs six sinks. If he bought two hundred sixty-six sinks, how many houses would that cover?
+A_model:
+To determine how many houses the carpenter can build with 266 sinks, we need to divide the total number of sinks by the number of sinks required per house.
+
+1. Each house requires 6 sinks.
+2. The carpenter has 266 sinks.
+3. To find the number of houses, divide 266 by 6:  
+   \( 266 \div 6 = 44 \) remainder \( 2 \).
+
+This means the carpenter can fully build 44 houses, and there will be 2 sinks left over.
+
+The answer is **44**.
+Extracted:
+44.0
+A:
+44.0
+
+Q: Two marbles are in the basket. Two marbles are taken out of the basket. How many marbles are in the basket now?
+A_model:
+We need to determine how many marbles are left in the basket after two marbles are taken out.
+
+1. Initially, there are 2 marbles in the basket.
+2. Then, 2 marbles are taken out of the basket.
+
+If all the marbles are removed, there are no marbles left in the basket. 
+
+The answer is 0.
+Extracted:
+0.0
+A:
+0.0
+
+Q: Jerry was playing the ring toss at the carnival. All together he used forty-eight rings. If each game you get six rings, how many games did he play?
+A_model:
+To find out how many games Jerry played, we need to divide the total number of rings he used by the number of rings per game.
+
+1. Jerry used a total of 48 rings.
+2. Each game gives him 6 rings.
+3. To find the number of games, divide 48 by 6:  
+   \( 48 \div 6 = 8 \).
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Oliver is organizing his books and putting them on shelves. He put 2 books on the first shelf, 6 books on the second shelf, 18 books on the third shelf, and 54 books on the fourth shelf. If this pattern continues, how many books will Oliver put on the fifth shelf?
+A_model:
+To determine how many books Oliver will put on the fifth shelf, we need to identify the pattern in the number of books on each shelf.
+
+1. The number of books on the shelves so far is:  
+   - First shelf: 2  
+   - Second shelf: 6  
+   - Third shelf: 18  
+   - Fourth shelf: 54  
+
+2. Let's find the pattern. Notice that each number is multiplied by 3 to get the next number:  
+   - \( 2 \times 3 = 6 \)  
+   - \( 6 \times 3 = 18 \)  
+   - \( 18 \times 3 = 54 \)  
+
+3. To find the number of books on the fifth shelf, multiply the number of books on the fourth shelf by 3:  
+   - \( 54 \times 3 = 162 \)  
+
+The answer is 162.
+Extracted:
+162.0
+A:
+162.0
+
+Q: For a birthday party Cody bought thirty regular sodas and five diet sodas. If his fridge would only hold seven on each shelf, how many shelves would he fill up?
+A_model:
+To determine how many shelves Cody would fill up, we need to calculate the total number of sodas and divide that by the number of sodas each shelf can hold.
+
+1. Cody bought 30 regular sodas and 5 diet sodas. The total number of sodas is:
+   \( 30 + 5 = 35 \).
+
+2. Each shelf can hold 7 sodas. To find how many shelves are needed, divide the total number of sodas by the number of sodas per shelf:
+   \( 35 \div 7 = 5 \).
+
+3. Since the division is exact, Cody will fill up exactly 5 shelves.
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: The area of right angled triangle is 32 sq. cm. If the base is 8 cm, find its height.
+A_model:
+To find the height of the right-angled triangle, we use the formula for the area of a triangle:
+
+\[
+\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+
+We are given:
+- Area = 32 sq. cm
+- Base = 8 cm
+- Height = ?
+
+Step 1: Substitute the known values into the formula:
+\[
+32 = \frac{1}{2} \times 8 \times \text{height}
+\]
+
+Step 2: Simplify the equation:
+\[
+32 = 4 \times \text{height}
+\]
+
+Step 3: Solve for the height:
+\[
+\text{height} = \frac{32}{4} = 8
+\]
+
+The height of the triangle is 8 cm.
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Peter has 18 oranges, 27 pears and 12 bananas. He wants to make fruit baskets with the same number of each fruit in each basket. What is the greatest number of fruit baskets he can make?
+A_model:
+To solve this problem, we need to find the greatest number of fruit baskets Peter can make such that each basket contains the same number of oranges, pears, and bananas. This requires finding the greatest common divisor (GCD) of the quantities of each fruit: 18 oranges, 27 pears, and 12 bananas.
+
+### Step 1: Find the prime factorization of each number
+- **18**: \( 18 = 2 \times 3^2 \)
+- **27**: \( 27 = 3^3 \)
+- **12**: \( 12 = 2^2 \times 3 \)
+
+### Step 2: Identify the common prime factors
+The common prime factor among 18, 27, and 12 is \( 3 \).
+
+### Step 3: Find the lowest power of the common prime factor
+- For \( 3 \), the lowest power is \( 3^1 \).
+
+### Step 4: Calculate the GCD
+The GCD of 18, 27, and 12 is \( 3 \).
+
+### Step 5: Divide each fruit quantity by the GCD
+- Number of oranges per basket: \( 18 \div 3 = 6 \)
+- Number of pears per basket: \( 27 \div 3 = 9 \)
+- Number of bananas per basket: \( 12 \div 3 = 4 \)
+
+### Final Answer:
+The greatest number of fruit baskets Peter can make is \( \mathbf{3} \).
+
+**The answer is 3.**
+Extracted:
+3.0
+A:
+3.0
+
+Q: A car dealer sold 14 cars on the first day, 16 cars on the second day, and 27 cars on the third day. How many cars did the car dealer sell on the 3 days?
+A_model:
+To find the total number of cars sold over the 3 days, we need to add the number of cars sold each day:
+
+- On the first day, the dealer sold 14 cars.
+- On the second day, the dealer sold 16 cars.
+- On the third day, the dealer sold 27 cars.
+
+Now, add these together step by step:
+
+14 + 16 = 30  
+30 + 27 = 57  
+
+The answer is 57.
+Extracted:
+57.0
+A:
+57.0
+
+Q: Mrs. Hilt met 15 friends. Nine of the friends were carrying pears. The rest were carrying oranges. How many friends were carrying oranges?
+A_model:
+We need to find how many friends were carrying oranges. Mrs. Hilt met 15 friends in total, and 9 of them were carrying pears. To find the number of friends carrying oranges, we subtract the number of friends carrying pears from the total number of friends:
+
+15 - 9 = 6
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q: Ryan collected 89 leaves. He lost 24 leaves and threw away 43 leaves. How many leaves did Ryan have left?
+A_model:
+We need to find how many leaves Ryan has left after losing and throwing away some of them. 
+
+1. Ryan started with 89 leaves. 
+2. He lost 24 leaves, so we subtract 24 from 89:  
+   89 - 24 = 65 leaves.  
+3. Then, he threw away 43 leaves, so we subtract 43 from 65:  
+   65 - 43 = 22 leaves.  
+
+The answer is 22.
+Extracted:
+22.0
+A:
+22.0
+
+Q: Winnie completed eighty-six consecutive repetitions for rope jumping yesterday. Today she completed only seventy-three. How many repetitions did she fell behind?
+A_model:
+To find how many repetitions Winnie fell behind, we need to calculate the difference between the number of repetitions she completed yesterday and today.
+
+1. Yesterday, Winnie completed 86 repetitions.
+2. Today, she completed 73 repetitions.
+3. To find how many repetitions she fell behind, subtract today's repetitions from yesterday's repetitions:  
+   \( 86 - 73 = 13 \).
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: A store has fifty-six shirts. Later they got in eleven more shirts. How many shirts does the store have now?
+A_model:
+We need to find how many shirts the store has now.  
+
+1. The store starts with 56 shirts.  
+2. Later, they receive 11 more shirts.  
+3. To find the total number of shirts, we add the two amounts together:  
+   \( 56 + 11 = 67 \).  
+
+The answer is 67.
+Extracted:
+67.0
+A:
+67.0
+
+Q: By coincidence, Monica's Obedience School trained the same number of dogs and cats last week. The school teaches dogs in groups of 18 and cats in groups of 3. What is the smallest number of cats the school could have had?
+A_model:
+To solve this problem, we need to find the smallest number of cats the school could have trained, given that the number of dogs and cats trained is the same. 
+
+### Step 1: Represent the problem mathematically
+- The school trains dogs in groups of 18, so the total number of dogs trained must be a multiple of 18.
+- The school trains cats in groups of 3, so the total number of cats trained must be a multiple of 3.
+- Since the number of dogs and cats trained is the same, we are looking for the smallest number that is a multiple of both 18 and 3.
+
+### Step 2: Find the least common multiple (LCM)
+- The multiples of 18 are: 18, 36, 54, 72, ...
+- The multiples of 3 are: 3, 6, 9, 12, 15, 18, ...
+- The smallest number that is a multiple of both 18 and 3 is **18**.
+
+### Step 3: Verify the solution
+- If the school trained 18 dogs, it would be in 1 group of 18.
+- If the school trained 18 cats, it would be in 6 groups of 3.
+- Both numbers match, so the solution is correct.
+
+### Final Answer:
+The answer is 18.
+Extracted:
+18.0
+A:
+18.0
+
+Q: With flu season coming up, Lexi decides to make get-well-soon kits. She has 10 cans of chicken soup and 15 boxes of tissue, which she wants to use to make identical kits with no materials left over. What is the greatest number of get-well-soon kits Lexi can make?
+A_model:
+To determine the greatest number of identical get-well-soon kits Lexi can make, we need to find the greatest common divisor (GCD) of the two quantities: 10 cans of chicken soup and 15 boxes of tissue. The GCD will tell us the largest number of kits she can make such that no materials are left over.
+
+### Step 1: Find the factors of each number.
+- Factors of 10: 1, 2, 5, 10
+- Factors of 15: 1, 3, 5, 15
+
+### Step 2: Identify the greatest common factor.
+The common factors of 10 and 15 are: 1 and 5.  
+The greatest common factor is **5**.
+
+### Step 3: Verify.
+If Lexi makes 5 kits:
+- She will use \( 10 \div 5 = 2 \) cans of chicken soup per kit.
+- She will use \( 15 \div 5 = 3 \) boxes of tissue per kit.
+This ensures no materials are left over.
+
+### Final Answer:
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: Beth has 4 packs of crayons. Each pack has 10 crayons in it. She also has 6 extra crayons. How many crayons does Beth have altogether?
+A_model:
+To find out how many crayons Beth has altogether, we need to calculate step by step:
+
+1. Beth has 4 packs of crayons, and each pack contains 10 crayons. So, the total number of crayons in the packs is:  
+   \( 4 \times 10 = 40 \).
+
+2. Beth also has 6 extra crayons. Adding these to the crayons in the packs gives:  
+   \( 40 + 6 = 46 \).
+
+The answer is 46.
+Extracted:
+46.0
+A:
+46.0
+
+Q: Three pieces of timber 42 m, 49 m and 63 m long have to be divided into planks of the same length. What is the greatest possible length of each plank?
+A_model:
+To solve this problem, we need to find the greatest possible length of each plank that can evenly divide the lengths of all three pieces of timber. This means we are looking for the greatest common divisor (GCD) of 42, 49, and 63.
+
+### Step 1: Find the prime factorization of each number.
+- **42**:  
+  \( 42 = 2 \times 3 \times 7 \)
+- **49**:  
+  \( 49 = 7 \times 7 \)
+- **63**:  
+  \( 63 = 3 \times 3 \times 7 \)
+
+### Step 2: Identify the common factors.
+The only common factor among all three numbers is \( 7 \).
+
+### Step 3: Verify the GCD.
+The greatest common divisor (GCD) of 42, 49, and 63 is \( 7 \), as it is the largest number that divides all three lengths evenly.
+
+### Final Answer:
+The greatest possible length of each plank is **7 meters**.  
+**The answer is 7.**
+Extracted:
+7.0
+A:
+7.0
+
+Q: Five red peaches and 14 green peaches are in the basket. How many peaches are in the basket?
+A_model:
+To find the total number of peaches in the basket, we need to add the number of red peaches and green peaches together. 
+
+Step 1: There are 5 red peaches.  
+Step 2: There are 14 green peaches.  
+Step 3: Add the two numbers: 5 + 14 = 19.  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q: If one pack costs 11 dollars, how many packs of DVD's can you buy with 110 dollars?
+A_model:
+To find out how many packs of DVDs you can buy with $110 when each pack costs $11, we need to divide the total amount of money by the cost per pack.
+
+Step 1: Total money = $110  
+Step 2: Cost per pack = $11  
+Step 3: Divide the total money by the cost per pack:  
+\[
+110 \div 11 = 10
+\]
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: For Halloween Frank got fifteen pounds of candy. If he gave eight pounds to Nancy, what's the difference between the pounds of Frank's candy before he gave Nancy and he gave to?
+A_model:
+To find the difference between the pounds of Frank's candy before he gave Nancy and the amount he gave to Nancy, we need to subtract the amount he gave to Nancy from the amount he originally had.
+
+Frank originally had 15 pounds of candy. He gave 8 pounds to Nancy. The difference is:
+
+15 - 8 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: Maria stored ninety-three cloves of garlic in the kitchen. She used eighty-six for roast chicken for dinner. How many cloves of garlic does she have left?
+A_model:
+To find out how many cloves of garlic Maria has left, we need to subtract the number of cloves she used from the total number she originally stored.
+
+1. Maria started with 93 cloves of garlic.
+2. She used 86 cloves for roast chicken.
+
+Now, subtract 86 from 93:
+
+93 - 86 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: Adam had to wash fourteen loads of clothes. By noon he had only washed eight loads. How many does he still need to wash?
+A_model:
+To find out how many loads of clothes Adam still needs to wash, we subtract the number of loads he has already washed from the total number of loads he needs to wash.
+
+1. Adam needs to wash a total of 14 loads.
+2. By noon, he has already washed 8 loads.
+3. Subtract the loads he has washed from the total:  
+   14 - 8 = 6.
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q: Scott and Sam decided to sell their old comic books. They had 90 comic books altogether. After the sale, they only had 25 comic books. How many comic books did Scott and Sam sell?
+A_model:
+To find how many comic books Scott and Sam sold, we need to subtract the number of comic books they had after the sale from the number of comic books they originally had.
+
+1. Scott and Sam originally had 90 comic books.
+2. After the sale, they had 25 comic books left.
+3. Subtract the remaining comic books from the original number:  
+   \( 90 - 25 = 65 \)
+
+The answer is 65.
+Extracted:
+65.0
+A:
+65.0
+
+Q: For the frosting and final touches, Willie will need to have 300 lbs. of whipped cream. If he got 149 lbs. of cream from his farm, how much more cream is needed to be bought?
+A_model:
+We need to find out how much more whipped cream Willie needs to buy. 
+
+1. Willie needs a total of 300 lbs. of whipped cream.  
+2. He already has 149 lbs. of cream from his farm.  
+3. To find out how much more he needs, subtract the amount he already has from the total amount required:  
+   \( 300 - 149 = 151 \).  
+
+The answer is 151.
+Extracted:
+151.0
+A:
+151.0
+
+Q: Isabel had some candy. She gave her friend twenty-seven pieces and had sixty-one left. How many pieces did she have to start with?
+A_model:
+To find how many pieces of candy Isabel had to start with, we need to add the number of pieces she gave away to the number of pieces she had left.
+
+1. Isabel gave her friend 27 pieces of candy.
+2. Isabel had 61 pieces left.
+3. To find the total she started with, we add:  
+   \( 27 + 61 = 88 \).
+
+The answer is 88.
+Extracted:
+88.0
+A:
+88.0
+
+Q: The perimeter of a rectangular cutting board is 50 inches. It is 10 inches wide. How long is it?
+A_model:
+To find the length of the rectangular cutting board, we need to use the formula for the perimeter of a rectangle:
+
+**Perimeter = 2 × (Length + Width)**
+
+We are given:
+- Perimeter = 50 inches
+- Width = 10 inches
+
+Step 1: Substitute the values into the formula:
+50 = 2 × (Length + 10)
+
+Step 2: Divide both sides of the equation by 2 to simplify:
+50 ÷ 2 = Length + 10  
+25 = Length + 10
+
+Step 3: Subtract 10 from both sides to solve for Length:
+25 - 10 = Length  
+Length = 15
+
+The answer is **15**.
+Extracted:
+15.0
+A:
+15.0
+
+Q: Rachel bought seven new chairs and three new tables for her house. If she spent four minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+A_model:
+To find how many minutes Rachel spent putting together the furniture, we need to calculate the total number of pieces of furniture and then multiply that by the time spent on each piece.
+
+1. Rachel bought 7 chairs and 3 tables. The total number of pieces of furniture is:
+   7 + 3 = 10 pieces.
+
+2. She spent 4 minutes on each piece of furniture. The total time spent is:
+   10 × 4 = 40 minutes.
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q: Alvin is trying to build a small house in the forest so that he has a place to stay whenever he goes hunting. He started by gathering some wood. According to his blueprint, he will need 376 pieces of wood. If his friend gave him 123 pieces and his brother gave him 136 pieces, how many more wood does he need to gather?
+A_model:
+To find out how many more pieces of wood Alvin needs to gather, we need to follow these steps:
+
+1. Alvin needs a total of 376 pieces of wood.
+2. His friend gave him 123 pieces, and his brother gave him 136 pieces. Together, they gave him:
+   123 + 136 = 259 pieces of wood.
+
+3. To find out how many more pieces Alvin needs, subtract the total he already has (259) from the total he needs (376):
+   376 - 259 = 117.
+
+The answer is 117.
+Extracted:
+117.0
+A:
+117.0
+
+Q: Mike and his brother Joe found a map leading to a buried treasure in an unknown island so they decided to go on a treasure hunt. After decoding the clues on the map, they found out that they need to go to the Island of Mysteries. To get there, they could either take a plane for $600.00 or a boat for $254.00. How much money can they save if they took a boat to the island?
+A_model:
+To find out how much money Mike and Joe can save by taking a boat instead of a plane, we need to calculate the difference between the cost of the plane and the cost of the boat.
+
+1. The cost of the plane is $600.00.
+2. The cost of the boat is $254.00.
+3. Subtract the cost of the boat from the cost of the plane:  
+   $600.00 - $254.00 = $346.00.
+
+The answer is 346.
+Extracted:
+346.0
+A:
+346.0
+
+Q: For Halloween Frank got ten pounds of candy and Gwen got seven pounds of candy. What is the combined weight they received?
+A_model:
+To find the combined weight of candy Frank and Gwen received, we need to add the weight of Frank's candy and Gwen's candy together.
+
+Frank got 10 pounds of candy.  
+Gwen got 7 pounds of candy.  
+
+Adding these together:  
+10 + 7 = 17  
+
+The answer is 17.
+Extracted:
+17.0
+A:
+17.0
+
+Q: For a party Janet bought some cupcakes. She bought 2 chocolate, 13 vanilla and 2 strawberry. How many cupcakes did she buy?
+A_model:
+To find the total number of cupcakes Janet bought, we need to add the number of chocolate, vanilla, and strawberry cupcakes together.
+
+- Chocolate: 2  
+- Vanilla: 13  
+- Strawberry: 2  
+
+Now, add them together:  
+2 + 13 + 2 = 17  
+
+The answer is 17.
+Extracted:
+17.0
+A:
+17.0
+
+Q: A report said that each day the average Youtube viewer watches 2 videos with each video lasting 7 minutes. Additionally they also watch 3 minutes of ads. According to the report, how many minutes total do people spend on Youtube?
+A_model:
+To find the total time the average YouTube viewer spends on YouTube each day, we need to calculate the time spent watching videos and ads step by step:
+
+1. **Time spent watching videos**:  
+   Each viewer watches 2 videos per day, and each video lasts 7 minutes.  
+   Total time spent on videos = 2 × 7 = 14 minutes.
+
+2. **Time spent watching ads**:  
+   Each viewer also watches 3 minutes of ads per day.  
+
+3. **Total time spent on YouTube**:  
+   Add the time spent on videos and ads:  
+   Total time = 14 + 3 = 17 minutes.
+
+The answer is **17**.
+Extracted:
+17.0
+A:
+17.0
+
+Q: The school cafeteria had 17 apples. If they used 2 to make lunch for the students and then bought 23 more, how many apples would they have?
+A_model:
+First, the cafeteria starts with 17 apples. They use 2 apples to make lunch, so we subtract 2 from 17:  
+17 - 2 = 15 apples.  
+
+Next, they buy 23 more apples, so we add 23 to the remaining 15 apples:  
+15 + 23 = 38 apples.  
+
+The answer is 38.
+Extracted:
+38.0
+A:
+38.0
+
+Q: The school bought 54 basketballs and distribute them into 7 classes equally. How many basketballs are left?
+A_model:
+To determine how many basketballs are left after distributing them equally among 7 classes, we need to divide 54 basketballs by 7 and find the remainder.
+
+1. Perform the division:  
+   \( 54 \div 7 = 7 \) remainder \( 5 \).  
+   This means each class gets 7 basketballs, and 5 basketballs are left over.
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: Greg's mom made some cookies for the family. The cookies were so huge that she decided to cut them in half. Greg ate 4 halves and his brother, Brad, had 6 halves. There were 18 halves left. How many whole cookies did Greg's mom make?
+A_model:
+To solve this problem step by step:
+
+1. **Understand the problem**: Greg's mom made some cookies, but she cut them in half. Greg ate 4 halves, Brad ate 6 halves, and there were 18 halves left. We need to find out how many whole cookies she originally made.
+
+2. **Add up the total halves**: Greg ate 4 halves, Brad ate 6 halves, and there were 18 halves left. The total number of halves is:
+   \[
+   4 + 6 + 18 = 28 \text{ halves}.
+   \]
+
+3. **Convert halves to whole cookies**: Since each cookie is cut into 2 halves, the total number of whole cookies is:
+   \[
+   \frac{28}{2} = 14 \text{ whole cookies}.
+   \]
+
+The answer is **14**.
+Extracted:
+14.0
+A:
+14.0
+
+Q: Mrs. Hilt had 43 cents. She bought a pencil for 20 cents and a piece of candy for 5 cents. How much money did she have left?
+A_model:
+To find how much money Mrs. Hilt had left, we need to subtract the total cost of the items she bought from the amount of money she started with.
+
+1. Mrs. Hilt started with 43 cents.
+2. She bought a pencil for 20 cents and a piece of candy for 5 cents. The total cost of these items is:  
+   20 + 5 = 25 cents.
+3. Subtract the total cost from the amount she started with:  
+   43 - 25 = 18 cents.
+
+The answer is 18.
+Extracted:
+18.0
+A:
+18.0
+
+Q: Stanley, a car enthusiast, loves to drive across different places as a hobby. So for his vacation, he decided to go around his favorite places. His first destination is the famous Sky Falls, one of the tallest waterfalls in his country. It is said to be 20 times as tall as the tallest building in their city. If the building is 9 feet tall, how tall is Sky Falls?
+A_model:
+To find the height of Sky Falls, we need to multiply the height of the tallest building in the city by 20, as Sky Falls is 20 times taller.
+
+The tallest building is 9 feet tall. So:
+
+Height of Sky Falls = 20 × 9 = 180 feet.
+
+The answer is 180.
+Extracted:
+180.0
+A:
+180.0
+
+Q: 58 children are taking a bus to the zoo. They sit 2 children in every seat. How many seats will the children need in all?
+A_model:
+To find how many seats the children will need, we divide the total number of children by the number of children per seat.
+
+Step 1: Total number of children = 58  
+Step 2: Number of children per seat = 2  
+Step 3: Divide 58 by 2:  
+58 ÷ 2 = 29  
+
+The answer is 29.
+Extracted:
+29.0
+A:
+29.0
+
+Q: A farmer had seventeen tomatoes from his garden. If he picked nine of them, what's the difference between the number of tomatoes before picking and he picked?
+A_model:
+To find the difference between the number of tomatoes the farmer had before picking and the number he picked, we subtract the number he picked from the total number he had initially.
+
+The farmer initially had 17 tomatoes. He picked 9 of them.  
+So, the difference is:  
+17 - 9 = 8  
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Morgan has 65 red pens, 45 blue pens, and 58 black pens. How many pens does she have?
+A_model:
+To find the total number of pens Morgan has, we need to add the number of red pens, blue pens, and black pens together.
+
+1. Morgan has 65 red pens.  
+2. Morgan has 45 blue pens.  
+3. Morgan has 58 black pens.  
+
+Now, add them together:  
+65 + 45 = 110  
+110 + 58 = 168  
+
+The total number of pens Morgan has is 168.  
+
+The answer is 168.
+Extracted:
+168.0
+A:
+168.0
+
+Q: At the town carnival Billy rode the ferris wheel seven times and the bumper cars three times. If each ride cost five tickets, how many tickets did he use?
+A_model:
+To find how many tickets Billy used, we need to calculate the total number of tickets for the ferris wheel rides and the bumper car rides separately, then add them together.
+
+1. Billy rode the ferris wheel 7 times, and each ride costs 5 tickets. So, the tickets used for the ferris wheel are:  
+   \( 7 \times 5 = 35 \) tickets.
+
+2. Billy rode the bumper cars 3 times, and each ride costs 5 tickets. So, the tickets used for the bumper cars are:  
+   \( 3 \times 5 = 15 \) tickets.
+
+3. Adding the tickets used for both rides:  
+   \( 35 + 15 = 50 \).
+
+The answer is 50.
+Extracted:
+50.0
+A:
+50.0
+
+Q: Chloe was making baggies of cookies with seven cookies in each bag. If she had thirty-four chocolate chip cookies and twenty-nine oatmeal cookies, how many baggies could she make?
+A_model:
+To determine how many baggies Chloe can make, we need to follow these steps:
+
+1. **Find the total number of cookies Chloe has:**
+   Chloe has 34 chocolate chip cookies and 29 oatmeal cookies. Adding these together:
+   \[
+   34 + 29 = 63
+   \]
+   So, Chloe has 63 cookies in total.
+
+2. **Determine how many baggies can be made:**
+   Each baggie contains 7 cookies. To find how many full baggies Chloe can make, divide the total number of cookies by 7:
+   \[
+   63 \div 7 = 9
+   \]
+   Chloe can make 9 full baggies.
+
+3. **Conclusion:**
+   The answer is **9**.
+Extracted:
+9.0
+A:
+9.0
+
+Q: Molly had 14 candles on her birthday cake. She grew older and got 6 more on her birthday cake. How old is Molly now?
+A_model:
+We need to find Molly's current age. She started with 14 candles on her birthday cake, which represents her age at that time. Then, she grew older and got 6 more candles on her cake. To find her current age, we add the original number of candles (14) to the additional candles (6):
+
+14 + 6 = 20
+
+The answer is 20.
+Extracted:
+20.0
+A:
+20.0
+
+Q: Frank had $16. After buying some new toys he had $8 left. How much did he spend on toys?
+A_model:
+Frank started with $16. After buying toys, he had $8 left. To find out how much he spent, we subtract the amount he had left from the amount he started with:
+
+$16 - $8 = $8
+
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Because of an upcoming exam, Robyn will not be able to sell cookies on Tuesday. To make up for it, Lucy decided to do double the work to catch up. She sold 34 cookies on her first round and 27 on her second round. How many cookies were sold by Lucy?
+A_model:
+To find how many cookies Lucy sold, we need to add the number of cookies she sold in her first round and her second round.
+
+1. Lucy sold 34 cookies in her first round.
+2. Lucy sold 27 cookies in her second round.
+
+Now, add these two amounts together:
+34 + 27 = 61
+
+The answer is 61.
+Extracted:
+61.0
+A:
+61.0
+
+Q: After buying a dress, he went to a gardening store and bought his mom some ornamental plants. If the plants originally cost $467.00 and he was able to get a $399.00 discount, how much did he actually spend on buying the plants?
+A_model:
+To find out how much he actually spent on buying the plants, we need to subtract the discount from the original cost of the plants.
+
+1. The original cost of the plants is $467.00.
+2. The discount he received is $399.00.
+3. Subtract the discount from the original cost:  
+   $467.00 - $399.00 = $68.00.
+
+The answer is 68.
+Extracted:
+68.0
+A:
+68.0
+
+Q: Ed had 22 more marbles than Doug. Doug lost 8 of his marbles at the playground. How many more marble did Ed have than Doug then?
+A_model:
+To solve this step by step:
+
+1. Let’s assume Doug originally had **x** marbles.  
+   Since Ed had 22 more marbles than Doug, Ed had **x + 22** marbles.
+
+2. Doug lost 8 marbles at the playground.  
+   Now Doug has **x - 8** marbles.
+
+3. To find how many more marbles Ed has than Doug now, subtract Doug's current number of marbles (**x - 8**) from Ed's total number of marbles (**x + 22**):  
+   \[
+   (x + 22) - (x - 8) = x + 22 - x + 8 = 30
+   \]
+
+The answer is **30**.
+Extracted:
+30.0
+A:
+30.0
+
+Q: Roger was packing up his old toys. He filled eleven boxes with action figures and two boxes with old games. How many boxes did he pack total?
+A_model:
+To find the total number of boxes Roger packed, we need to add the number of boxes filled with action figures and the number of boxes filled with old games.
+
+Roger filled:
+- 11 boxes with action figures
+- 2 boxes with old games
+
+Adding these together:
+11 + 2 = 13
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: I have 28 cents in my pocket. How coins could I have on minimization?
+A_model:
+To minimize the number of coins, we need to use the largest denominations possible. Let's break it down step by step:
+
+1. The largest coin in U.S. currency is the quarter (25 cents). Use one quarter:
+   - 28 - 25 = 3 cents remaining.
+
+2. The next largest coin is the penny (1 cent). Use three pennies:
+   - 3 - 1 - 1 - 1 = 0 cents remaining.
+
+Thus, the minimum number of coins is:
+- 1 quarter + 3 pennies = 4 coins.
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q: Carmen is creating lollipop bouquets using 4 cherry lollipops and 6 orange lollipops. She wants each bouquet to be identical, with no lollipops left over. What is the greatest number of lollipop bouquets Carmen can create?
+A_model:
+To solve this problem, we need to determine the greatest number of identical lollipop bouquets Carmen can create without leaving any lollipops left over. This means we need to find the greatest common divisor (GCD) of the number of cherry lollipops (4) and orange lollipops (6).
+
+### Step 1: List the factors of each number
+- Factors of 4: 1, 2, 4
+- Factors of 6: 1, 2, 3, 6
+
+### Step 2: Identify the greatest common factor
+The common factors of 4 and 6 are 1 and 2. The greatest common factor is **2**.
+
+### Step 3: Divide the lollipops into bouquets
+- Cherry lollipops: 4 ÷ 2 = 2 lollipops per bouquet
+- Orange lollipops: 6 ÷ 2 = 3 lollipops per bouquet
+
+### Step 4: Determine the number of bouquets
+Since the GCD is 2, Carmen can create **2 identical bouquets**.
+
+The answer is **2**.
+Extracted:
+2.0
+A:
+2.0
+
+Q: Susan started her homework at 1:59 p.m. and finished her homework 96 minutes later. Susan had volleyball practice at 4:00 p.m. How much time did Susan have between finishing her homework and the beginning of volleyball practice?
+A_model:
+To solve this problem step by step:
+
+1. **Determine when Susan finished her homework**:  
+   Susan started her homework at 1:59 p.m. and worked for 96 minutes.  
+   - 96 minutes is equivalent to 1 hour and 36 minutes.  
+   - Adding 1 hour to 1:59 p.m. gives 2:59 p.m.  
+   - Adding the remaining 36 minutes to 2:59 p.m. gives 3:35 p.m.  
+
+   So, Susan finished her homework at **3:35 p.m.**.
+
+2. **Calculate the time between finishing homework and volleyball practice**:  
+   Volleyball practice starts at 4:00 p.m.  
+   - The time between 3:35 p.m. and 4:00 p.m. is **25 minutes**.  
+
+The answer is **25 minutes**.
+Extracted:
+25.0
+A:
+25.0
+
+Q: Dennis has 4028 pencils stored in boxes. If the are 53 boxes, how many pencils must go in each box?
+A_model:
+To find out how many pencils must go in each box, we need to divide the total number of pencils by the number of boxes.
+
+1. Dennis has 4028 pencils.
+2. There are 53 boxes.
+3. To find how many pencils go in each box, divide 4028 by 53:
+
+   \( 4028 \div 53 = 76 \)
+
+So, each box must contain 76 pencils.
+
+The answer is 76.
+Extracted:
+76.0
+A:
+76.0
+
+Q: Maria was buying DVDs of her old favorite TV series. She bought eight DVDs at the store and she bought two online. How many DVDs did she buy total?
+A_model:
+To find the total number of DVDs Maria bought, we need to add the number of DVDs she bought at the store and the number she bought online. 
+
+Maria bought 8 DVDs at the store and 2 DVDs online. Adding these together:
+
+8 + 2 = 10
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: The first act included 5 clown mobiles, each stuffed with 28 clowns. How many clowns are inside all the clown mobiles combined?
+A_model:
+To find the total number of clowns inside all the clown mobiles, we need to multiply the number of clown mobiles by the number of clowns in each mobile.
+
+1. There are 5 clown mobiles.
+2. Each clown mobile contains 28 clowns.
+3. Multiply the two numbers:  
+   \( 5 \times 28 = 140 \).
+
+The answer is 140.
+Extracted:
+140.0
+A:
+140.0
+
+Q: Andrew's 4 friends decided to bring food as well. If each of them brought 4 slices of pizza, how many slices of pizza do they have in total?
+A_model:
+To find the total number of pizza slices Andrew's 4 friends brought, we need to multiply the number of friends by the number of slices each friend brought.
+
+Each friend brought 4 slices of pizza, and there are 4 friends. So:
+
+4 × 4 = 16
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q: Annie takes trick or treating seriously. So, days before Halloween, she makes sure that the details of her trick or treating are well planned. First, she wanted to find out the number of houses in her village. If the village has 5 houses per block and has a total of 9 blocks, how many houses are there in her village?
+A_model:
+To find the total number of houses in Annie's village, we need to multiply the number of houses per block by the total number of blocks.
+
+1. The village has 5 houses per block.
+2. The village has a total of 9 blocks.
+3. Multiply the two values:  
+   \( 5 \times 9 = 45 \).
+
+The answer is 45.
+Extracted:
+45.0
+A:
+45.0
+
+Q: There are 96 trees in a park. 15 of them are huge ancient oaks and another 23 of them are medium-sized fir trees. The rest are saplings. How many saplings are in the park?
+A_model:
+To find how many saplings are in the park, we need to subtract the number of huge ancient oaks and medium-sized fir trees from the total number of trees.
+
+1. Start with the total number of trees: 96.
+2. Subtract the number of huge ancient oaks: 96 - 15 = 81.
+3. Subtract the number of medium-sized fir trees: 81 - 23 = 58.
+
+The number of saplings in the park is 58.
+
+The answer is 58.
+Extracted:
+58.0
+A:
+58.0
+
+Q: Paige had eleven pencils. After using some she had four left. How many did she use?
+A_model:
+To find out how many pencils Paige used, we subtract the number of pencils she has left from the number of pencils she started with. 
+
+Paige started with 11 pencils and has 4 left. 
+
+11 - 4 = 7
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: Jane can arrange 16 vases of flowers in a day. If there are 248 vases of flowers to be arranged, how many vases of flowers will she arrange on the last day?
+A_model:
+To solve this problem step by step:
+
+1. Jane can arrange 16 vases of flowers in a day. There are 248 vases of flowers to be arranged.
+2. First, divide the total number of vases (248) by the number of vases Jane can arrange in a day (16) to determine how many full days she will work:
+   \[
+   248 \div 16 = 15 \text{ remainder } 8
+   \]
+   This means Jane will work for 15 full days, arranging 16 vases each day, and there will be 8 vases left to arrange on the last day.
+
+3. On the last day, Jane will arrange the remaining 8 vases.
+
+The answer is **8**.
+Extracted:
+8.0
+A:
+8.0
+
+Q: A group was sitting at a lunch table. After finishing, six people left and there were five left at the table. How many people were at the table to start with?
+A_model:
+We need to find how many people were at the table initially.  
+
+1. After six people left, there were five people remaining at the table.  
+2. This means the total number of people at the start was the sum of those who left and those who stayed.  
+3. Adding the two groups together: 6 (who left) + 5 (who stayed) = 11.  
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q: On a table there were 2 green apples, 3 red apples and 14 yellow apples. How many apples were on the table?
+A_model:
+To find the total number of apples on the table, we need to add the number of green apples, red apples, and yellow apples together.
+
+- Green apples: 2  
+- Red apples: 3  
+- Yellow apples: 14  
+
+Now, add them step by step:  
+2 + 3 = 5  
+5 + 14 = 19  
+
+The answer is 19.
+Extracted:
+19.0
+A:
+19.0
+
+Q: An architect was building a hotel downtown. He bought 147 lamps to put in the rooms. If each room gets 7 lamps, how many rooms does the hotel have?
+A_model:
+To determine how many rooms the hotel has, we need to divide the total number of lamps by the number of lamps per room.
+
+1. The architect bought 147 lamps.
+2. Each room gets 7 lamps.
+3. To find the number of rooms, divide 147 by 7:  
+   \( 147 \div 7 = 21 \).
+
+The answer is 21.
+Extracted:
+21.0
+A:
+21.0
+
+Q: Lisa is making activity baskets to donate to charity. She has 12 coloring books, 28 markers, and 36 crayons. What is the greatest number of baskets she can make if each type of toy is equally distributed among the baskets?
+A_model:
+To determine the greatest number of baskets Lisa can make, we need to find the greatest common divisor (GCD) of the quantities of coloring books (12), markers (28), and crayons (36). The GCD will tell us the largest number of baskets she can make while equally distributing each type of item.
+
+### Step 1: Find the prime factorization of each number.
+- **12**: \( 12 = 2^2 \times 3 \)
+- **28**: \( 28 = 2^2 \times 7 \)
+- **36**: \( 36 = 2^2 \times 3^2 \)
+
+### Step 2: Identify the common prime factors.
+The common prime factor among 12, 28, and 36 is \( 2^2 \).
+
+### Step 3: Multiply the common prime factors.
+The GCD is \( 2^2 = 4 \).
+
+### Step 4: Verify the result.
+If Lisa makes 4 baskets:
+- Coloring books: \( 12 \div 4 = 3 \) books per basket.
+- Markers: \( 28 \div 4 = 7 \) markers per basket.
+- Crayons: \( 36 \div 4 = 9 \) crayons per basket.
+
+This distribution works, so the greatest number of baskets Lisa can make is **4**.
+
+### Final Answer:
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q: In preparation for a party, Brant is putting desserts onto platters. The chocolate cake is cut into 15 pieces and the cheesecake is cut into 6 pieces. If he wants to prepare identical platters without having any cake left over, what is the greatest number of platters he can prepare?
+A_model:
+To solve this problem, we need to find the greatest number of identical platters Brant can prepare without leaving any cake pieces left over. This means we need to find the greatest common divisor (GCD) of the number of chocolate cake pieces (15) and cheesecake pieces (6).
+
+### Step 1: Find the factors of each number
+- Factors of 15: 1, 3, 5, 15
+- Factors of 6: 1, 2, 3, 6
+
+### Step 2: Identify the greatest common factor
+The common factors of 15 and 6 are: 1 and 3. The greatest common factor is **3**.
+
+### Step 3: Divide the cake pieces by the GCD
+- Chocolate cake: \( 15 \div 3 = 5 \) pieces per platter
+- Cheesecake: \( 6 \div 3 = 2 \) pieces per platter
+
+### Final Answer:
+The greatest number of platters Brant can prepare is **3**.
+
+Write the answer as: the answer is 3
+Extracted:
+3.0
+A:
+3.0
+
+Q: Jessica wants of make a garland out of 8 roses, 12 daisies and 48 marigolds. How many arrangements can she make with those flowers so that, there is no flower left.
+A_model:
+To solve this problem, we need to determine how many arrangements Jessica can make with the flowers such that no flower is left over. This means we need to find the greatest common divisor (GCD) of the number of roses (8), daisies (12), and marigolds (48). The GCD will tell us the largest group size that can evenly divide all the flowers.
+
+### Step 1: Find the GCD of 8, 12, and 48
+- The factors of 8 are: 1, 2, 4, 8  
+- The factors of 12 are: 1, 2, 3, 4, 6, 12  
+- The factors of 48 are: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48  
+
+The common factors of 8, 12, and 48 are: 1, 2, 4.  
+The greatest common factor is **4**.
+
+### Step 2: Divide the number of each type of flower by the GCD
+- Number of roses per arrangement: \( 8 \div 4 = 2 \)  
+- Number of daisies per arrangement: \( 12 \div 4 = 3 \)  
+- Number of marigolds per arrangement: \( 48 \div 4 = 12 \)  
+
+### Step 3: Calculate the total number of arrangements
+Since the GCD is 4, Jessica can make **4 arrangements** with no flowers left over.
+
+### Final Answer:
+The answer is 4
+Extracted:
+4.0
+A:
+4.0
+
+Q: If the second angle is 32 degree less than thrice the first angle and the third angle is 28 degree less than twice the first angle. Find the angles of the triangle.
+A_model:
+To solve this problem, we need to find the three angles of the triangle. Let's break it down step by step.
+
+### Step 1: Define the variables
+Let the first angle be \( x \) (in degrees).  
+The second angle is 32 degrees less than three times the first angle, so it can be written as \( 3x - 32 \).  
+The third angle is 28 degrees less than twice the first angle, so it can be written as \( 2x - 28 \).
+
+### Step 2: Use the triangle angle sum property
+The sum of the angles in a triangle is always 180 degrees. Therefore, we can write the equation:
+\[
+x + (3x - 32) + (2x - 28) = 180
+\]
+
+### Step 3: Simplify the equation
+Combine like terms:
+\[
+x + 3x - 32 + 2x - 28 = 180
+\]
+\[
+6x - 60 = 180
+\]
+
+### Step 4: Solve for \( x \)
+Add 60 to both sides:
+\[
+6x = 240
+\]
+Divide by 6:
+\[
+x = 40
+\]
+
+### Step 5: Find the other angles
+Now that we know \( x = 40 \), we can calculate the other two angles:
+- The second angle is \( 3x - 32 = 3(40) - 32 = 120 - 32 = 88 \).
+- The third angle is \( 2x - 28 = 2(40) - 28 = 80 - 28 = 52 \).
+
+### Step 6: Verify the solution
+The three angles are \( 40 \), \( 88 \), and \( 52 \). Their sum is:
+\[
+40 + 88 + 52 = 180
+\]
+This satisfies the triangle angle sum property.
+
+### Final Answer:
+The angles of the triangle are **40 degrees, 88 degrees, and 52 degrees**.  
+The answer is **40, 88, 52**.
+Extracted:
+40.0
+A:
+40.0
+
+Q: An electrician cuts a 30 ft piece of wire into two pieces. One piece is 2 ft longer than the other. How long are the pieces?
+A_model:
+We are tasked with finding the lengths of two pieces of wire when a 30 ft piece is cut into two parts, and one piece is 2 ft longer than the other.
+
+### Step 1: Define the variables
+Let the length of the shorter piece be **x**.  
+Then, the longer piece will be **x + 2** (since it is 2 ft longer than the shorter piece).
+
+### Step 2: Write an equation
+The total length of the wire is 30 ft. Therefore, the sum of the two pieces must equal 30:
+\[
+x + (x + 2) = 30
+\]
+
+### Step 3: Solve the equation
+Simplify the equation:
+\[
+2x + 2 = 30
+\]
+
+Subtract 2 from both sides:
+\[
+2x = 28
+\]
+
+Divide both sides by 2:
+\[
+x = 14
+\]
+
+### Step 4: Find the lengths of the two pieces
+The shorter piece is **x = 14 ft**.  
+The longer piece is **x + 2 = 14 + 2 = 16 ft**.
+
+### Final Answer:
+The answer is 14 ft and 16 ft.
+Extracted:
+14.0
+A:
+14.0
+
+Q: Penny's class is going to Animaland, the largest zoo on earth, for their science field trip. The zoo has a variety of wild animals in captivity. Their first destination was the aviary. The aviary has 3 species of eagles on show that day. They have 20 Bald Eagles, 15 Harpy Eagles, and 30 Crowned Eagles. How many eagles are on display that day?
+A_model:
+To find the total number of eagles on display, we need to add the number of each species of eagle together.
+
+1. The aviary has 20 Bald Eagles.  
+2. The aviary has 15 Harpy Eagles.  
+3. The aviary has 30 Crowned Eagles.  
+
+Now, add them together:  
+20 + 15 + 30 = 65  
+
+The answer is 65.
+Extracted:
+65.0
+A:
+65.0
+
+Q: Janet picked 4 tulips and 11 roses to make flower bouquets. If she only used 11 of the flowers though, how many extra flowers did Janet pick?
+A_model:
+Janet picked a total of 4 tulips and 11 roses. To find the total number of flowers she picked, we add:
+
+4 + 11 = 15 flowers.
+
+Janet only used 11 of the flowers, so to find how many extra flowers she picked, we subtract the number of flowers she used from the total number she picked:
+
+15 - 11 = 4.
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q: An English teacher would like to divide 10 boys and 15 girls into groups, each with the same combination of boys and girls and nobody left out. What is the greatest number of groups that can be formed?
+A_model:
+To solve this problem, we need to find the greatest number of groups that can be formed such that each group has the same combination of boys and girls, and no one is left out. This means we need to find the greatest common divisor (GCD) of the number of boys (10) and the number of girls (15).
+
+### Step 1: Find the GCD of 10 and 15
+The factors of 10 are:  
+1, 2, 5, 10  
+
+The factors of 15 are:  
+1, 3, 5, 15  
+
+The greatest common factor shared by both 10 and 15 is **5**.
+
+### Step 2: Divide the boys and girls into groups
+If we divide the boys and girls into 5 groups:  
+- Each group will have \( \frac{10}{5} = 2 \) boys.  
+- Each group will have \( \frac{15}{5} = 3 \) girls.  
+
+### Final Answer:
+The greatest number of groups that can be formed is **5**.  
+
+**The answer is 5.**
+Extracted:
+5.0
+A:
+5.0
+
+Q: Connie has 41 red markers and 64 blue markers. How many markers does she have altogether?
+A_model:
+To find out how many markers Connie has altogether, we need to add the number of red markers and blue markers she has.
+
+Connie has 41 red markers and 64 blue markers. Adding these together:
+
+41 + 64 = 105
+
+The answer is 105.
+Extracted:
+105.0
+A:
+105.0
+
+Q: Doug built a tent in the shape of a regular pentagon. Its perimeter is 60 feet. What is the length of each side of the tent?
+A_model:
+To find the length of each side of the tent, we need to divide the perimeter of the pentagon by the number of sides. A regular pentagon has 5 equal sides.
+
+The perimeter of the tent is 60 feet, and there are 5 sides. So, we calculate:
+
+\[
+\text{Length of each side} = \frac{\text{Perimeter}}{\text{Number of sides}} = \frac{60}{5} = 12
+\]
+
+The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Luke was played 5 rounds of a trivia game and scored 300 points. If he gained the same number of points each round, how many points did he score per round?
+A_model:
+To find out how many points Luke scored per round, we need to divide the total points he scored by the number of rounds he played.
+
+1. Luke scored a total of 300 points.
+2. He played 5 rounds.
+3. To find the points per round, divide 300 by 5:  
+   \( 300 \div 5 = 60 \).
+
+The answer is 60.
+Extracted:
+60.0
+A:
+60.0
+
+Q: There are 40 girls and 32 boys who want to participate in 6th grade intramurals. If each team must have the same number of girls and the same number of boys, what is the greatest number of teams that can participate in intramurals?
+A_model:
+To solve this problem, we need to determine the greatest number of teams that can be formed such that each team has the same number of girls and the same number of boys. This means we need to find the greatest common divisor (GCD) of the number of girls (40) and the number of boys (32).
+
+### Step 1: Find the GCD of 40 and 32
+We use the Euclidean algorithm to find the GCD:
+1. Divide 40 by 32 and find the remainder:  
+   \( 40 \div 32 = 1 \) remainder \( 8 \).
+2. Replace 40 with 32 and 32 with 8, then repeat:  
+   \( 32 \div 8 = 4 \) remainder \( 0 \).
+
+When the remainder is 0, the divisor at that step is the GCD. Here, the GCD is \( 8 \).
+
+### Step 2: Determine the number of teams
+The greatest number of teams that can be formed is equal to the GCD, which is \( 8 \).
+
+### Final Answer:
+The answer is 8.
+Extracted:
+8.0
+A:
+8.0
+
+Q: Simon, Mark, Kevin, and Carl love collecting stamps. They meet up every month to compare and share their collections with each other. During the previous month, Kevin was able to collect 45 stamps while Simon was only able to collect 27. How many more stamps does Kevin have more than Simon?
+A_model:
+To find how many more stamps Kevin has compared to Simon, we need to calculate the difference between the number of stamps Kevin collected and the number Simon collected.
+
+1. Kevin collected 45 stamps.
+2. Simon collected 27 stamps.
+3. To find the difference, subtract Simon's stamps from Kevin's stamps:  
+   \( 45 - 27 = 18 \).
+
+The answer is 18.
+Extracted:
+18.0
+A:
+18.0
+
+Q: There are thirty-eight dogwood trees currently in the park. Park workers will plant more dogwood trees today. When the workers are finished there will be fifty-six dogwood trees in the park. How many dogwood trees did the workers plant today ?
+A_model:
+We need to find how many dogwood trees the workers planted today. 
+
+1. The park currently has 38 dogwood trees. 
+2. After the workers finish planting, there will be 56 dogwood trees in total. 
+3. To find how many trees were planted, subtract the original number of trees from the total number of trees after planting:  
+   \( 56 - 38 = 18 \).
+
+The answer is 18.
+Extracted:
+18.0
+A:
+18.0
+
+Q: Mrs. Hilt gave 2 pieces of candy to each student in the group. The group had a total of 9 students in it. How many pieces of candy did Mrs. Hilt give away?
+A_model:
+To find out how many pieces of candy Mrs. Hilt gave away, we need to multiply the number of students in the group by the number of pieces of candy each student received.
+
+- There are 9 students in the group.
+- Each student received 2 pieces of candy.
+
+So, we calculate:  
+**9 × 2 = 18**
+
+The answer is **18**.
+Extracted:
+18.0
+A:
+18.0
+
+Q: Victor had nineteen apps on his phone. He deleted eight of them. How many apps does Victor have left?
+A_model:
+Victor started with 19 apps on his phone. He deleted 8 of them. To find how many apps Victor has left, we subtract the number of apps he deleted from the total number he started with:
+
+19 - 8 = 11
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q: Alex had some candles for his Jack O'Lanterns. He used 32 of them. Now he has 12 left. How many candles did Alex have to start with?
+A_model:
+To find how many candles Alex had to start with, we need to add the number of candles he used to the number of candles he has left.
+
+Alex used 32 candles, and he has 12 candles left. Adding these together:
+
+32 + 12 = 44
+
+The answer is 44.
+Extracted:
+44.0
+A:
+44.0
+
+Q: Zoe picked five apples from her tree. Now the tree has six apples still on it. What's the difference between the number of apples Zoe picked and now the tree has?
+A_model:
+To find the difference between the number of apples Zoe picked and the number of apples still on the tree, we subtract the smaller number from the larger number.
+
+Zoe picked 5 apples, and the tree still has 6 apples.  
+The difference is:  
+6 - 5 = 1  
+
+The answer is 1.
+Extracted:
+1.0
+A:
+1.0
+
+Q: Nick saved $68.50. If Nick saved $25.43 more than Lee, how much did Lee save?
+A_model:
+We need to find how much Lee saved. Nick saved $68.50, and we know that Nick saved $25.43 more than Lee. To find how much Lee saved, we subtract $25.43 from $68.50:
+
+$68.50 - $25.43 = $43.07
+
+The answer is 43.07.
+Extracted:
+43.07
+A:
+43.07
+
+Q: At a school event, adults are seated in groups of exactly 17 and children are seated in groups of exactly 15. If there are the same number of adults as children, what is the minimum number of adults attending?
+A_model:
+To solve this problem, we need to find the smallest number that is divisible by both 17 (the group size for adults) and 15 (the group size for children). This is known as the least common multiple (LCM) of 17 and 15.
+
+### Step 1: Prime factorization
+- 17 is a prime number, so its prime factorization is just 17.
+- 15 can be factored into \( 3 \times 5 \).
+
+### Step 2: LCM formula
+The LCM is found by multiplying the highest powers of all prime factors:
+- The prime factors are \( 17, 3, \) and \( 5 \).
+- LCM = \( 17 \times 3 \times 5 = 255 \).
+
+### Step 3: Verify
+- 255 is divisible by 17: \( 255 \div 17 = 15 \) (an integer).
+- 255 is divisible by 15: \( 255 \div 15 = 17 \) (an integer).
+
+Thus, the minimum number of adults attending is **255**.
+
+### Final Answer:
+The answer is 255.
+Extracted:
+255.0
+A:
+255.0
+
+Q: Denver the Dog is a famous architect in the city of Animapolis. Together with his engineer friend Wally the Wolf, they decided to build the tallest building ever, the Animus Tower. To make sure the framework of the tower is strongly built, they hired the best builders in town. If they hired 318 beavers and 544 spiders, how many workers in total did they hire to make the framework?
+A_model:
+To find the total number of workers hired to make the framework, we need to add the number of beavers and spiders together.
+
+Step 1: Write down the number of beavers hired: 318.  
+Step 2: Write down the number of spiders hired: 544.  
+Step 3: Add these two numbers together:  
+318 + 544 = 862.
+
+The answer is 862.
+Extracted:
+862.0
+A:
+862.0
+
+Q: When she was finished sorting all her savings, she counted the number of her $10 bills. If she counted a total of 9 pieces of $10 bills, what is the total value of all her $10 bills combined?
+A_model:
+To find the total value of all her $10 bills combined, we need to multiply the number of $10 bills by the value of each bill.
+
+1. She has 9 pieces of $10 bills.
+2. Each $10 bill is worth $10.
+3. Multiply the number of bills by the value of each bill:  
+   \( 9 \times 10 = 90 \).
+
+The total value of all her $10 bills combined is **$90**.  
+
+The answer is 90.
+Extracted:
+90.0
+A:
+90.0
+
+Q: At a candy store you could get 2 giant lollipops for $2.40. How much would it cost to buy 6 lollipops?
+A_model:
+To find the cost of 6 lollipops, we can break it into steps:
+
+1. The cost of 2 lollipops is $2.40.  
+2. To find the cost of 1 lollipop, divide $2.40 by 2:  
+   $2.40 ÷ 2 = $1.20 per lollipop.  
+3. Now, to find the cost of 6 lollipops, multiply the cost of 1 lollipop by 6:  
+   $1.20 × 6 = $7.20.  
+
+The answer is **7.20**.
+Extracted:
+7.2
+A:
+7.2
+
+Q: The kids from Oakwood Elementary School are visiting a bird zoo for their field trip. To get to the bird zoo from the school, the kids have to ride some buses. If there are 7 buses and each bus has 3 adult supervisors to guide the children, how many supervisors are there in total?
+A_model:
+To find the total number of supervisors, we need to calculate how many supervisors are on all 7 buses. Each bus has 3 adult supervisors, so we multiply the number of buses by the number of supervisors per bus:
+
+\[
+7 \times 3 = 21
+\]
+
+The answer is 21.
+Extracted:
+21.0
+A:
+21.0
+
+Q: Kendra learns 12 new spelling words each week. Her goal is to learn 60 new words before her eighth birthday. She has already learned 36 new words. How many more words does Kendra need to learn?
+A_model:
+To find out how many more words Kendra needs to learn, we can follow these steps:
+
+1. Kendra's goal is to learn 60 new words.
+2. She has already learned 36 new words.
+3. To find how many more words she needs to learn, subtract the number of words she has already learned from her goal:  
+   \( 60 - 36 = 24 \).
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q: At the zoo Zoe took sixty-seven pictures. If her sister took another seventeen pictures, how many did they take total?
+A_model:
+To find the total number of pictures Zoe and her sister took, we need to add the number of pictures Zoe took to the number her sister took.
+
+Zoe took 67 pictures.  
+Her sister took 17 pictures.  
+
+Now, add them together:  
+67 + 17 = 84  
+
+The answer is 84.
+Extracted:
+84.0
+A:
+84.0
+
+Q: A mailman has to give twenty-eight pieces of junk mail to each block. If there are four houses on a block, how many pieces of junk mail should he give each house?
+A_model:
+To determine how many pieces of junk mail the mailman should give each house, we need to divide the total number of pieces of junk mail for the block by the number of houses on the block.
+
+1. The mailman has 28 pieces of junk mail for the block.
+2. There are 4 houses on the block.
+3. To find how many pieces of junk mail each house gets, divide 28 by 4:  
+   \( 28 \div 4 = 7 \).
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: A pet store had seven Siamese cats. If they sold four of them, how many cats did they still have?
+A_model:
+We need to find how many Siamese cats the pet store still has after selling some. 
+
+1. The pet store started with 7 Siamese cats.  
+2. They sold 4 of them.  
+3. To find how many are left, subtract the number sold from the original number:  
+   7 - 4 = 3.  
+
+The answer is 3.
+Extracted:
+3.0
+A:
+3.0
+
+Q: Lastly, she baked 53 lemon cupcakes for the children living in the city orphanage. If two lemon cupcakes were left at home, how many boxes with 3 lemon cupcakes each were given away?
+A_model:
+To solve this step by step:
+
+1. **Total cupcakes baked**: Joan baked 53 lemon cupcakes.
+2. **Cupcakes left at home**: 2 cupcakes were left at home. This means the number of cupcakes given away is:
+   \[
+   53 - 2 = 51
+   \]
+3. **Cupcakes per box**: Each box contains 3 lemon cupcakes. To find how many boxes were given away, divide the total cupcakes given away by the number of cupcakes per box:
+   \[
+   51 \div 3 = 17
+   \]
+
+Thus, the answer is **17**.
+Extracted:
+17.0
+A:
+17.0
+
+Q: Christmas is near. Mr. Anderson, president of Nice People Inc. organized a charity event to share happiness to the less fortunate people. The first thing that he did is to visit an orphanage. There he dressed up as Santa and gave toys to the children. If he gave 134 toy cars to the boys and 269 dolls to the girls, how many toys did he give to all?
+A_model:
+To find the total number of toys Mr. Anderson gave, we need to add the number of toy cars given to the boys and the number of dolls given to the girls.
+
+Step 1: Number of toy cars given to boys = 134  
+Step 2: Number of dolls given to girls = 269  
+Step 3: Add these two numbers:  
+134 + 269 = 403  
+
+The answer is 403.
+Extracted:
+403.0
+A:
+403.0
+
+Q: To have a more stable treehouse, Charlie's father decided to tie the corner posts of the house to the tree itself. He used 24 inches of rope for the first post, 20 inches on the second, 14 inches on the third and 12 inches on the fourth. How many inches of rope were used?
+A_model:
+To find the total amount of rope used, we need to add the lengths of rope used for each post step by step:
+
+1. Rope for the first post: 24 inches  
+2. Rope for the second post: 20 inches  
+3. Rope for the third post: 14 inches  
+4. Rope for the fourth post: 12 inches  
+
+Now, add them together:  
+24 + 20 = 44  
+44 + 14 = 58  
+58 + 12 = 70  
+
+The total amount of rope used is 70 inches.  
+The answer is 70.
+Extracted:
+70.0
+A:
+70.0
+
+Q: The school cafeteria ordered 25 red apples and 17 green apples for students lunches. But, if only 10 students wanted fruit, how many extra did the cafeteria end up with?
+A_model:
+To find how many extra apples the cafeteria ended up with, let's break it down step by step:
+
+1. The cafeteria ordered 25 red apples and 17 green apples. To find the total number of apples, we add them together:  
+   \( 25 + 17 = 42 \).  
+   So, the cafeteria has 42 apples in total.
+
+2. Only 10 students wanted fruit. This means 10 apples were used.
+
+3. To find how many extra apples the cafeteria has, subtract the number of apples used from the total number of apples:  
+   \( 42 - 10 = 32 \).
+
+The answer is 32.
+Extracted:
+32.0
+A:
+32.0
+
+Q: Jose has 28 chickens and 18 ducks. How many fowls does he have?
+A_model:
+To find the total number of fowls Jose has, we need to add the number of chickens and ducks together. 
+
+Jose has 28 chickens and 18 ducks. Adding these together:  
+28 + 18 = 46  
+
+The answer is 46.
+Extracted:
+46.0
+A:
+46.0
+
+Q: A pet store had sixty-four birds that talked and thirteen that didn't. How many birds did the pet store have total?
+A_model:
+To find the total number of birds in the pet store, we need to add the number of birds that talked and the number of birds that didn't talk. 
+
+The pet store had:
+- 64 birds that talked
+- 13 birds that didn't talk
+
+Adding these together:
+64 + 13 = 77
+
+The answer is 77.
+Extracted:
+77.0
+A:
+77.0
+
+Q: Kate has 223 pennies. John has 388 pennies. How many more pennies does John have?
+A_model:
+To find how many more pennies John has than Kate, we need to subtract the number of pennies Kate has from the number of pennies John has.
+
+John has 388 pennies.  
+Kate has 223 pennies.  
+
+Now subtract:  
+388 - 223 = 165  
+
+The answer is 165.
+Extracted:
+165.0
+A:
+165.0
+
+Q: The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.
+A_model:
+We are tasked with finding two numbers where the difference between them is 26, and the greater number is three times the smaller number. Let’s solve this step by step.
+
+### Step 1: Define the variables
+Let the smaller number be \( x \).  
+Then the greater number is \( 3x \) (since it is three times the smaller number).
+
+### Step 2: Write the equation for the difference
+The difference between the greater number and the smaller number is 26.  
+This gives us the equation:  
+\[
+3x - x = 26
+\]
+
+### Step 3: Simplify the equation
+\[
+2x = 26
+\]
+
+### Step 4: Solve for \( x \)
+\[
+x = \frac{26}{2} = 13
+\]
+
+### Step 5: Find the greater number
+The greater number is \( 3x \), so:  
+\[
+3x = 3 \times 13 = 39
+\]
+
+### Final Answer:
+The smaller number is 13, and the greater number is 39.  
+The answer is **13 and 39**.
+Extracted:
+13.0
+A:
+13.0
+
+Q: Tim has 39 pairs of headphones and 13 music players. Tim wants to sell all of the headphones and music players in identical packages. What is the greatest number of packages Tim can make?
+A_model:
+To solve this problem, we need to find the greatest number of identical packages Tim can make, where each package contains the same number of headphones and music players. This means we need to find the greatest common divisor (GCD) of the two numbers: 39 (headphones) and 13 (music players).
+
+### Step 1: Find the factors of 39 and 13
+- Factors of 39: 1, 3, 13, 39
+- Factors of 13: 1, 13
+
+### Step 2: Identify the greatest common factor
+The common factors of 39 and 13 are 1 and 13. The greatest common factor is **13**.
+
+### Step 3: Divide the items into packages
+- For headphones: 39 ÷ 13 = 3 headphones per package
+- For music players: 13 ÷ 13 = 1 music player per package
+
+### Final Answer:
+The greatest number of identical packages Tim can make is **13**.
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: Cindy's mom baked 1215 cookies. Paul's dad baked 1112 cookies. They both brought them to school for a party. How many cookies did they have altogether?
+A_model:
+To find the total number of cookies Cindy's mom and Paul's dad baked, we need to add the number of cookies they each baked.
+
+Cindy's mom baked 1215 cookies.  
+Paul's dad baked 1112 cookies.  
+
+Adding these together:  
+1215 + 1112 = 2327  
+
+The answer is 2327.
+Extracted:
+2327.0
+A:
+2327.0
+
+Q: A comic book costs 37 cents. The store owner reversed the digits by mistake. He wrote that number on the comic book. How much did the store owner overcharge his customer?
+A_model:
+To solve this problem step by step:
+
+1. The original cost of the comic book is **37 cents**.
+2. The store owner reversed the digits, so instead of 37, he wrote **73 cents**.
+3. To find how much the store owner overcharged, subtract the original cost from the reversed cost:  
+   **73 - 37 = 36**.
+
+The store owner overcharged the customer by **36 cents**.
+
+The answer is **36**.
+Extracted:
+36.0
+A:
+36.0
+
+Q: A rectangular piece of metal is 16 centimeters wide and 19 centimeters long. What is its perimeter?
+A_model:
+To find the perimeter of a rectangle, we use the formula:
+
+**Perimeter = 2 × (Length + Width)**
+
+Here, the length of the rectangle is 19 cm, and the width is 16 cm. Substituting these values into the formula:
+
+**Perimeter = 2 × (19 + 16)**  
+**Perimeter = 2 × 35**  
+**Perimeter = 70**
+
+The answer is **70**.
+Extracted:
+70.0
+A:
+70.0
+
+Q: Janet had eighty-five paper clips on the desk when she woke up in the morning. Before going to bed, she found there were twenty-six left. How many paper clips did she use today?
+A_model:
+To find how many paper clips Janet used today, we need to subtract the number of paper clips left at the end of the day from the number she started with in the morning.
+
+Janet started with 85 paper clips.  
+At the end of the day, she had 26 paper clips left.  
+
+The number of paper clips she used is:  
+85 - 26 = 59  
+
+The answer is 59.
+Extracted:
+59.0
+A:
+59.0
+
+Q: Angela won a contest. She gets $90 to spend at Puzzle Palace. She bought many wonderful puzzles. She had $12 left. How much did she spend?
+A_model:
+To find out how much Angela spent, we need to subtract the amount of money she had left from the total amount she started with.
+
+1. Angela started with $90.
+2. She had $12 left after buying puzzles.
+3. Subtract the amount left from the total:  
+   $90 - $12 = $78.
+
+The answer is 78.
+Extracted:
+78.0
+A:
+78.0
+
+Q: Ned was helping the cafeteria workers pick up lunch trays, but he could only carry eight trays at a time. If he had to pick up twenty-seven trays from one table and five trays from another, how many trips will he make?
+A_model:
+To solve this step by step:
+
+1. **Find the total number of trays Ned needs to pick up:**  
+   Ned needs to pick up 27 trays from one table and 5 trays from another.  
+   Total trays = 27 + 5 = 32 trays.
+
+2. **Determine how many trays Ned can carry per trip:**  
+   Ned can carry 8 trays at a time.
+
+3. **Calculate the number of trips Ned will make:**  
+   To find the number of trips, divide the total trays by the number of trays Ned can carry per trip:  
+   \( 32 \div 8 = 4 \).  
+
+Thus, Ned will make **4 trips**.
+
+**The answer is 4.**
+Extracted:
+4.0
+A:
+4.0
+
+Q: If Lizzie's group is composed of 54 people and they have 17 more members than the other group, how many people are working together to clean the city?
+A_model:
+To find the total number of people working together to clean the city, we need to determine the size of the other group and then add the two groups together.
+
+1. Lizzie's group has 54 people.
+2. Lizzie's group has 17 more members than the other group. This means the other group has \( 54 - 17 = 37 \) people.
+3. To find the total number of people working together, we add the two groups: \( 54 + 37 = 91 \).
+
+The answer is 91.
+Extracted:
+91.0
+A:
+91.0
+
+Q: Next on her list are the homeless people where she spent a total of $900.00. If she gave $325.00 to the first set of homeless families and $260.00 to the second set of families, how much did she give to the last set of homeless families?
+A_model:
+We need to find how much money was given to the last set of homeless families. The total amount spent was $900.00. She gave $325.00 to the first set of families and $260.00 to the second set of families. 
+
+Step 1: Add the amounts given to the first and second sets of families:  
+$325.00 + $260.00 = $585.00  
+
+Step 2: Subtract this total from the overall amount spent to find how much was given to the last set of families:  
+$900.00 - $585.00 = $315.00  
+
+The answer is 315.
+Extracted:
+315.0
+A:
+315.0
+
+Q: Sara bought decorations for her party. She paid $5 for balloons and $18 for tablecloths. She also spent $9 for streamers. She paid the cashier and got $8 back. How much money did Sara give to the cashier?
+A_model:
+To find out how much money Sara gave to the cashier, we need to calculate the total cost of the items she bought and then add the $8 she got back as change.
+
+1. Sara spent $5 on balloons, $18 on tablecloths, and $9 on streamers. Adding these together:
+   \[
+   5 + 18 + 9 = 32
+   \]
+   So, the total cost of the items is $32.
+
+2. Sara received $8 back as change. This means she gave the cashier more than $32. To find out how much she gave, we add the $8 change to the total cost:
+   \[
+   32 + 8 = 40
+   \]
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q: The weight of 5 single beds is 50 kg. The total weight of 2 single beds and 4 double beds is 100 kg. How much heavier is a double bed than a single bed?
+A_model:
+We are tasked with finding how much heavier a double bed is than a single bed. Let's solve this step by step.
+
+### Step 1: Define variables
+Let the weight of a single bed be \( S \) (in kg) and the weight of a double bed be \( D \) (in kg).
+
+### Step 2: Write equations based on the problem
+- The weight of 5 single beds is 50 kg:
+  \[
+  5S = 50
+  \]
+- The total weight of 2 single beds and 4 double beds is 100 kg:
+  \[
+  2S + 4D = 100
+  \]
+
+### Step 3: Solve for \( S \) from the first equation
+From \( 5S = 50 \), divide both sides by 5:
+\[
+S = 10
+\]
+So, the weight of a single bed is 10 kg.
+
+### Step 4: Substitute \( S = 10 \) into the second equation
+Substitute \( S = 10 \) into \( 2S + 4D = 100 \):
+\[
+2(10) + 4D = 100
+\]
+Simplify:
+\[
+20 + 4D = 100
+\]
+Subtract 20 from both sides:
+\[
+4D = 80
+\]
+Divide both sides by 4:
+\[
+D = 20
+\]
+So, the weight of a double bed is 20 kg.
+
+### Step 5: Find how much heavier a double bed is than a single bed
+The difference in weight is:
+\[
+D - S = 20 - 10 = 10
+\]
+
+### Final Answer:
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Martin works at the Hungry Hippo. He sells 48 hamburgers before 6 o'clock. He sells 28 more hamburgers than that after 6 o'clock. He works 24 hours each week. How many hamburgers does Martin sell after 6 o'clock?
+A_model:
+To find how many hamburgers Martin sells after 6 o'clock, we need to follow these steps:
+
+1. Martin sells 48 hamburgers before 6 o'clock.
+2. After 6 o'clock, he sells 28 more hamburgers than he sold before 6 o'clock. This means we need to add 28 to the number of hamburgers he sold before 6 o'clock.
+
+So, the calculation is:
+48 + 28 = 76
+
+The answer is 76.
+Extracted:
+76.0
+A:
+76.0
+
+Q: There were 10 students riding on the school bus. At the first stop, 3 students got off of the bus. How many students are left on the bus?
+A_model:
+We need to find how many students are left on the bus after the first stop. 
+
+1. The bus started with 10 students.  
+2. At the first stop, 3 students got off the bus.  
+3. To find how many students are left, we subtract the number of students who got off from the total number of students:  
+   10 - 3 = 7.  
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: A baker already had seventy-eight cakes but made nine extra. How many cakes did the baker have total?
+A_model:
+To find the total number of cakes the baker had, we need to add the cakes the baker already had to the extra cakes made.
+
+The baker already had 78 cakes. Then, the baker made 9 more cakes. Adding these together:
+
+78 + 9 = 87
+
+The answer is 87.
+Extracted:
+87.0
+A:
+87.0
+
+Q: At band practice there were 4 rows of students with 8 students in each row and then another 9 students in the back. How many students were there total?
+A_model:
+To find the total number of students at band practice, we need to calculate step by step:
+
+1. There are 4 rows of students, with 8 students in each row. To find the total number of students in the rows, multiply:
+   \( 4 \times 8 = 32 \)
+
+2. There are an additional 9 students in the back. Add this to the total number of students in the rows:
+   \( 32 + 9 = 41 \)
+
+The answer is **41**.
+Extracted:
+41.0
+A:
+41.0
+
+Q: Bryan took a look at his books as well. If he has 56 books in each of his 9 bookshelves, how many books does he have in total?
+A_model:
+To find the total number of books Bryan has, we need to multiply the number of books per bookshelf by the number of bookshelves.
+
+Bryan has 56 books in each bookshelf, and there are 9 bookshelves. So, we calculate:
+
+56 × 9 = 504
+
+The answer is 504.
+Extracted:
+504.0
+A:
+504.0
+
+Q: Jake bought a book of tickets for the rides at Fun Land. 8 of the tickets were red. There were twice as many blue tickets as red tickets. Jake used all 6 of his yellow tickets first. How many tickets did Jake buy in all?
+A_model:
+To find the total number of tickets Jake bought, let's break it down step by step:
+
+1. **Red tickets**: Jake had 8 red tickets.
+
+2. **Blue tickets**: There were twice as many blue tickets as red tickets. Since there are 8 red tickets, the number of blue tickets is:
+   \[
+   2 \times 8 = 16
+   \]
+
+3. **Yellow tickets**: Jake had 6 yellow tickets.
+
+4. **Total tickets**: To find the total number of tickets Jake bought, we add the red, blue, and yellow tickets together:
+   \[
+   8 + 16 + 6 = 30
+   \]
+
+The answer is **30**.
+Extracted:
+30.0
+A:
+30.0
+
+Q: 46 apples were in the basket. 22 are red and the rest are green. How many apples are green?
+A_model:
+We need to find how many apples are green. 
+
+Step 1: Start with the total number of apples in the basket, which is 46.  
+Step 2: Subtract the number of red apples (22) from the total number of apples to find the number of green apples.  
+
+46 - 22 = 24  
+
+The answer is 24.
+Extracted:
+24.0
+A:
+24.0
+
+Q: A ballet class wants to divide its 90 members into some large groups at 7 members each and some small groups at 3 members each. In order to make the least number of groups, how many large groups should be made?
+A_model:
+To solve this problem step by step:
+
+1. **Understand the goal**: We want to divide 90 members into groups of 7 members (large groups) and 3 members (small groups) in such a way that the total number of groups is minimized.
+
+2. **Start with large groups**: To minimize the number of groups, we should maximize the number of large groups (7 members each).
+
+3. **Divide 90 by 7**:  
+   \( 90 \div 7 = 12 \) remainder \( 6 \).  
+   This means we can form 12 large groups of 7 members each, using \( 12 \times 7 = 84 \) members.
+
+4. **Check the remaining members**:  
+   After forming 12 large groups, there are \( 90 - 84 = 6 \) members left.
+
+5. **Form small groups**:  
+   The remaining 6 members can be divided into \( 2 \) small groups of 3 members each.
+
+6. **Count the total number of groups**:  
+   The total number of groups is \( 12 \) large groups + \( 2 \) small groups = \( 14 \) groups.
+
+7. **Verify if fewer groups are possible**:  
+   If we reduce the number of large groups, we would need more small groups to accommodate the remaining members, which would increase the total number of groups. Therefore, 12 large groups is optimal.
+
+**Final Answer**: The answer is 12.
+Extracted:
+12.0
+A:
+12.0
+
+Q: Vanessa uploaded twenty-three pictures from her phone and seven from her camera to Facebook. If she sorted the pics into five different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+A_model:
+To find how many pictures were in each album, we need to follow these steps:
+
+1. **Find the total number of pictures Vanessa uploaded**:  
+   She uploaded 23 pictures from her phone and 7 from her camera.  
+   Total pictures = 23 + 7 = 30.
+
+2. **Divide the total pictures equally into 5 albums**:  
+   To find how many pictures are in each album, divide the total number of pictures by the number of albums.  
+   30 ÷ 5 = 6.
+
+The answer is 6.
+Extracted:
+6.0
+A:
+6.0
+
+Q: There are 10 stickers on a page. If you have 22 pages of stickers, how many stickers do you have?
+A_model:
+To find the total number of stickers, we need to multiply the number of stickers per page by the number of pages.
+
+Step 1: There are 10 stickers on each page.  
+Step 2: You have 22 pages of stickers.  
+Step 3: Multiply the number of stickers per page by the number of pages:  
+10 × 22 = 220.
+
+The answer is 220.
+Extracted:
+220.0
+A:
+220.0
+
+Q: Jae bought 12 cartons of ice cream and 3 cartons of yogurt. Each carton of ice cream cost $9 and each carton of yogurt cost $2. How much more did Jae spend on ice cream than on yogurt?
+A_model:
+To find how much more Jae spent on ice cream than on yogurt, we need to calculate the total cost of the ice cream and the total cost of the yogurt, then find the difference.
+
+1. **Calculate the total cost of ice cream:**
+   Jae bought 12 cartons of ice cream, and each carton costs $9.
+   Total cost of ice cream = 12 × 9 = $108.
+
+2. **Calculate the total cost of yogurt:**
+   Jae bought 3 cartons of yogurt, and each carton costs $2.
+   Total cost of yogurt = 3 × 2 = $6.
+
+3. **Find the difference:**
+   The difference between the cost of ice cream and yogurt is:
+   $108 - $6 = $102.
+
+The answer is **102**.
+Extracted:
+102.0
+A:
+102.0
+
+Q: A group of 8 friends were dressing as pirates for Halloween. If each costume cost 5 dollars, how much did they spend?
+A_model:
+To find how much the group of 8 friends spent on pirate costumes, we need to multiply the cost of each costume by the number of friends.
+
+Step 1: Each costume costs $5.  
+Step 2: There are 8 friends, so we multiply 5 × 8.  
+Step 3: 5 × 8 = 40.  
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+
+Q: There are 42 boys in the computer club. There are 9 fewer girls than boys in the club. How many children are in the computer club altogether?
+A_model:
+We need to find the total number of children in the computer club. Here's the step-by-step solution:
+
+1. There are 42 boys in the club.
+2. There are 9 fewer girls than boys. This means the number of girls is:  
+   \( 42 - 9 = 33 \).
+3. To find the total number of children in the club, we add the number of boys and girls:  
+   \( 42 + 33 = 75 \).
+
+The answer is 75.
+Extracted:
+75.0
+A:
+75.0
+
+Q: A number equals 5 times the difference between the number and 4. Find the number.
+A_model:
+Let the number be \( x \). The problem states that the number equals 5 times the difference between the number and 4. This can be written as:
+
+\[
+x = 5(x - 4)
+\]
+
+### Step 1: Expand the equation
+Distribute the \( 5 \) on the right-hand side:
+
+\[
+x = 5x - 20
+\]
+
+### Step 2: Rearrange the equation
+Move all terms involving \( x \) to one side by subtracting \( 5x \) from both sides:
+
+\[
+x - 5x = -20
+\]
+
+\[
+-4x = -20
+\]
+
+### Step 3: Solve for \( x \)
+Divide both sides by \( -4 \):
+
+\[
+x = \frac{-20}{-4}
+\]
+
+\[
+x = 5
+\]
+
+### Final Answer:
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: Henry bought 2 new fireworks and his friend bought 3. If they already had 6 saved from last year, how many do they have now?
+A_model:
+To find how many fireworks Henry and his friend have now, we need to add the fireworks they bought and the ones they already had saved.
+
+1. Henry bought 2 fireworks, and his friend bought 3 fireworks. Together, they bought:  
+   2 + 3 = 5 fireworks.
+
+2. They already had 6 fireworks saved from last year. Adding this to the fireworks they bought:  
+   5 + 6 = 11 fireworks.
+
+The answer is 11.
+Extracted:
+11.0
+A:
+11.0
+
+Q: Gabe and Steven make money by walking neighborhood pets. During a conversation about their work, they realize that they are both walking the same total number of pets, even though Gabe walks pets in groups of 2 and Steven walks pets in groups of 10. What is the smallest total number of pets each could be walking?
+A_model:
+To solve this problem, we need to find the smallest total number of pets that both Gabe and Steven could be walking. Since Gabe walks pets in groups of 2 and Steven walks pets in groups of 10, we are looking for the least common multiple (LCM) of 2 and 10.
+
+### Step 1: Prime factorization
+- The prime factorization of 2 is \( 2 \).
+- The prime factorization of 10 is \( 2 \times 5 \).
+
+### Step 2: Find the LCM
+To find the LCM, take the highest power of each prime factor:
+- The highest power of \( 2 \) is \( 2^1 \).
+- The highest power of \( 5 \) is \( 5^1 \).
+
+Multiply these together:
+\[
+LCM = 2^1 \times 5^1 = 10
+\]
+
+### Step 3: Verify
+- Gabe walks pets in groups of 2, so 10 is divisible by 2.
+- Steven walks pets in groups of 10, so 10 is divisible by 10.
+
+Thus, the smallest total number of pets each could be walking is **10**.
+
+### Final Answer:
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Each bag contains 23 pounds of oranges. How many pounds of oranges are in 45 bags?
+A_model:
+To find the total pounds of oranges in 45 bags, we need to multiply the number of pounds in each bag by the number of bags.
+
+Each bag contains 23 pounds of oranges, and there are 45 bags. So:
+
+23 × 45 = 1035
+
+The answer is 1035.
+Extracted:
+1035.0
+A:
+1035.0
+
+Q: There are some rooms in a building. 35 of them are classrooms, 10 of them are office and the remaining 6 are reading rooms. How many rooms are in the building?
+A_model:
+To find the total number of rooms in the building, we need to add the number of classrooms, offices, and reading rooms together.
+
+- The number of classrooms is 35.
+- The number of offices is 10.
+- The number of reading rooms is 6.
+
+Now, add them together:  
+35 + 10 + 6 = 51.
+
+The answer is 51.
+Extracted:
+51.0
+A:
+51.0
+
+Q: Peter wants to split a collection of pencils into groups of 11. Peter has 154 pencils. How many groups will be created?
+A_model:
+To determine how many groups of 11 pencils Peter can create from his collection of 154 pencils, we need to divide 154 by 11.
+
+Step 1: Perform the division.  
+154 ÷ 11 = 14 (with a remainder of 0).
+
+Step 2: Interpret the result.  
+Peter can create 14 groups of 11 pencils, and there are no pencils left over.
+
+The answer is **14**.
+Extracted:
+14.0
+A:
+14.0
+
+Q: A sofa and a love seat together costs $444. The sofa costs double the love seat. How much do they each cost?
+A_model:
+We are tasked with finding the cost of the sofa and the love seat. Let's break this down step by step:
+
+1. Let the cost of the love seat be **x**.
+2. The sofa costs double the love seat, so the cost of the sofa is **2x**.
+3. Together, the sofa and the love seat cost $444. This gives us the equation:
+   \[
+   x + 2x = 444
+   \]
+4. Combine like terms:
+   \[
+   3x = 444
+   \]
+5. Solve for **x**:
+   \[
+   x = \frac{444}{3} = 148
+   \]
+6. The cost of the love seat is **$148**, and the cost of the sofa is **2x = 2(148) = 296**.
+
+Final answer: the answer is 148 for the love seat and 296 for the sofa.
+Extracted:
+148.0
+A:
+148.0
+
+Q: Chloe and her friends were recycling paper for their class. For every six pounds they recycled they earned 1 point. If Chloe recycled twenty-eight pounds and her friends recycled two pounds, how many points did they earn?
+A_model:
+To find the total points Chloe and her friends earned, we need to calculate the total pounds recycled and divide by 6 (since 1 point is earned for every 6 pounds).
+
+Step 1: Add the pounds recycled by Chloe and her friends.  
+Chloe recycled 28 pounds, and her friends recycled 2 pounds.  
+28 + 2 = 30 pounds.
+
+Step 2: Divide the total pounds by 6 to find the points earned.  
+30 ÷ 6 = 5 points.
+
+The answer is 5.
+Extracted:
+5.0
+A:
+5.0
+
+Q: A chef served 3 different foods for a banquet: 25 plates lobster rolls, 14 plates of spicy hot noodles and 16 plates of seafood noodles. How many plates of food did the chef make altogether?
+A_model:
+To find the total number of plates of food the chef made, we need to add the number of plates for each type of food together.
+
+1. The chef served 25 plates of lobster rolls.  
+2. The chef served 14 plates of spicy hot noodles.  
+3. The chef served 16 plates of seafood noodles.  
+
+Now, add these together:  
+25 + 14 + 16 = 55  
+
+The answer is 55.
+Extracted:
+55.0
+A:
+55.0
+
+Q: Every day, Ryan spends 4 hours on learning English and 3 hours on learning Chinese. How many hours does he spend on learning English and Chinese in all?
+A_model:
+To find the total number of hours Ryan spends on learning English and Chinese, we need to add the hours he spends on each subject.
+
+1. Ryan spends 4 hours on learning English every day.  
+2. Ryan spends 3 hours on learning Chinese every day.  
+3. Adding these together: 4 + 3 = 7.
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: Tiffany was buying sodas for her and her friends. They needed nine sodas, but Tiffany bought seven extra. How many did she buy?
+A_model:
+To find how many sodas Tiffany bought, we need to add the number of sodas she needed and the extra sodas she bought. 
+
+She needed 9 sodas, and she bought 7 extra sodas. Adding these together:  
+9 + 7 = 16  
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q: Jack received 8 emails in the morning and 2 emails in the afternoon. How many emails did Jack receive in the day?
+A_model:
+To find the total number of emails Jack received in the day, we need to add the emails he received in the morning and the afternoon.
+
+- In the morning, Jack received 8 emails.
+- In the afternoon, Jack received 2 emails.
+
+Adding these together:  
+8 + 2 = 10  
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: For the final act, the circus brought out dancing animals wearing crowns. If each crown is made with 7 different colored feathers, how many feathers are needed for 934 crowns?
+A_model:
+To find the total number of feathers needed for 934 crowns, we need to multiply the number of crowns by the number of feathers per crown.
+
+1. Each crown has 7 feathers.
+2. There are 934 crowns.
+3. Multiply the number of crowns by the number of feathers per crown:  
+   \( 934 \times 7 = 6538 \).
+
+The answer is 6538.
+Extracted:
+6538.0
+A:
+6538.0
+
+Q: Jake has six fewer peaches than Steven. Steven has 13 peaches. How many peaches does Jake have?
+A_model:
+We need to find how many peaches Jake has. 
+
+1. Steven has 13 peaches. Jake has six fewer peaches than Steven. 
+2. To find how many peaches Jake has, subtract 6 from Steven's total: 13 - 6 = 7.
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: A pet supply store has 600 bags of dog food and 327 bags of cat food. How many more bags of dog food are there than cat food?
+A_model:
+To find how many more bags of dog food there are than cat food, we need to subtract the number of cat food bags from the number of dog food bags.
+
+The store has 600 bags of dog food and 327 bags of cat food. Subtracting these:
+
+600 - 327 = 273
+
+The answer is 273.
+Extracted:
+273.0
+A:
+273.0
+
+Q: A cafeteria offered two types of milk, regular or chocolate. If they sold 24 cartons total and 3 of them were regular flavor, what is the ratio of chocolate milk sold to regular milk sold?
+A_model:
+To find the ratio of chocolate milk sold to regular milk sold, we need to follow these steps:
+
+1. **Determine the number of chocolate milk cartons sold**:  
+   The cafeteria sold 24 cartons total, and 3 of them were regular milk. Therefore, the number of chocolate milk cartons sold is:  
+   \( 24 - 3 = 21 \).
+
+2. **Write the ratio of chocolate milk to regular milk**:  
+   The number of chocolate milk cartons sold is 21, and the number of regular milk cartons sold is 3. The ratio is:  
+   \( 21 : 3 \).
+
+3. **Simplify the ratio**:  
+   Divide both numbers in the ratio by their greatest common divisor (GCD), which is 3:  
+   \( \frac{21}{3} : \frac{3}{3} = 7 : 1 \).
+
+The answer is **7:1**.
+Extracted:
+7.0
+A:
+7.0
+
+Q: There were ten people on the bus. At the next stop three more people got on the bus. How many people are there on the bus now?
+A_model:
+We need to find how many people are on the bus now.  
+
+1. The bus started with 10 people.  
+2. At the next stop, 3 more people got on the bus.  
+
+To find the total number of people on the bus, we add the two numbers together:  
+10 + 3 = 13  
+
+The answer is 13.
+Extracted:
+13.0
+A:
+13.0
+
+Q: At a bus stop forty-seven people got off the bus. Now there were forty-three people on the bus. How many people were on the bus before?
+A_model:
+We need to find how many people were on the bus before forty-seven people got off. 
+
+1. After forty-seven people got off, there were forty-three people left on the bus.  
+2. To find the original number of people on the bus, we add the forty-seven people who got off to the forty-three people who remained.  
+
+So, \( 47 + 43 = 90 \).  
+
+The answer is 90.
+Extracted:
+90.0
+A:
+90.0
+
+Q: There are 22 dogs in the farm. They live in 5 dog-houses equally. How many dogs are there in each dog-house?
+A_model:
+To find out how many dogs are in each dog-house, we need to divide the total number of dogs by the number of dog-houses.
+
+1. There are 22 dogs in total.
+2. There are 5 dog-houses.
+3. Dividing the total number of dogs by the number of dog-houses:  
+   \( 22 \div 5 = 4 \) remainder \( 2 \).
+
+This means there are 4 dogs in each dog-house, and 2 dogs are left over.
+
+The answer is **4**.
+Extracted:
+4.0
+A:
+4.0
+
+Q: The taxi charges in a city comprise of a fixed charge together with the charge for the distance covered. For a journey of 10 km, the charge paid is $75 and for a journey of 15 km, the charge paid is $110. What will a person have to pay for traveling a distance of 25 km?
+A_model:
+To solve this problem, we need to determine the fixed charge and the per-kilometer charge, then calculate the total cost for a 25 km journey.
+
+### Step 1: Define the variables
+Let:
+- \( F \) = fixed charge
+- \( R \) = per-kilometer charge
+
+The total cost for a journey is given by:
+\[
+\text{Total cost} = F + R \times \text{distance}
+\]
+
+### Step 2: Write equations for the given data
+For a 10 km journey, the total cost is $75:
+\[
+F + 10R = 75 \tag{1}
+\]
+
+For a 15 km journey, the total cost is $110:
+\[
+F + 15R = 110 \tag{2}
+\]
+
+### Step 3: Subtract the equations to eliminate \( F \)
+Subtract equation (1) from equation (2):
+\[
+(F + 15R) - (F + 10R) = 110 - 75
+\]
+\[
+5R = 35
+\]
+\[
+R = 7
+\]
+
+### Step 4: Solve for \( F \)
+Substitute \( R = 7 \) into equation (1):
+\[
+F + 10(7) = 75
+\]
+\[
+F + 70 = 75
+\]
+\[
+F = 5
+\]
+
+### Step 5: Calculate the cost for a 25 km journey
+Using the formula \( \text{Total cost} = F + R \times \text{distance} \), substitute \( F = 5 \), \( R = 7 \), and \( \text{distance} = 25 \):
+\[
+\text{Total cost} = 5 + 7 \times 25
+\]
+\[
+\text{Total cost} = 5 + 175
+\]
+\[
+\text{Total cost} = 180
+\]
+
+### Final Answer:
+The answer is 180.
+Extracted:
+180.0
+A:
+180.0
+
+Q: A pet store had 2 dogs. On Sunday they got 5 more. On Monday they got 3 more. How many dogs does the pet store have now?
+A_model:
+We need to find how many dogs the pet store has now. 
+
+1. The pet store started with 2 dogs.  
+2. On Sunday, they got 5 more dogs. Adding these together:  
+   2 + 5 = 7 dogs.  
+3. On Monday, they got 3 more dogs. Adding these to the total:  
+   7 + 3 = 10 dogs.  
+
+The answer is 10.
+Extracted:
+10.0
+A:
+10.0
+
+Q: Mrs. Hilt's favorite first grade classes are baking muffins. Mrs. Brier's class bakes 18 muffins, Mrs. MacAdams's class bakes 20 muffins, and Mrs. Flannery's class bakes 17 muffins. How many muffins does first grade bake in all?
+A_model:
+To find the total number of muffins baked by the first-grade classes, we need to add the number of muffins baked by each class together.
+
+1. Mrs. Brier's class bakes 18 muffins.  
+2. Mrs. MacAdams's class bakes 20 muffins.  
+3. Mrs. Flannery's class bakes 17 muffins.  
+
+Now, add them step by step:  
+18 + 20 = 38  
+38 + 17 = 55  
+
+The total number of muffins baked by the first-grade classes is 55.  
+
+The answer is 55.
+Extracted:
+55.0
+A:
+55.0
+
+Q: Isabel had sixty-eight pieces of candy. Her friend gave her twenty-five more pieces. How many pieces of candy did Isabel have total?
+A_model:
+To find the total number of pieces of candy Isabel had, we need to add the number of pieces she started with to the number of pieces her friend gave her.
+
+1. Isabel started with 68 pieces of candy.
+2. Her friend gave her 25 more pieces.
+
+Now, add these together:  
+68 + 25 = 93  
+
+The answer is 93.
+Extracted:
+93.0
+A:
+93.0
+
+Q: Mrs. Smith is 8 years more than twice the age of her son. The ages of son is 12. Find the age of mother and find the difference between their ages.
+A_model:
+To solve this step by step:
+
+1. Mrs. Smith's age is described as 8 years more than twice the age of her son. The son's age is given as 12.
+2. First, calculate twice the son's age:  
+   \( 2 \times 12 = 24 \).
+3. Add 8 to this value to find Mrs. Smith's age:  
+   \( 24 + 8 = 32 \).
+4. Mrs. Smith is 32 years old.
+5. To find the difference between their ages, subtract the son's age from Mrs. Smith's age:  
+   \( 32 - 12 = 20 \).
+
+**The answer is 32 and 20.**
+Extracted:
+32.0
+A:
+32.0
+
+Q: Cory made 4500 g of candy. He saved 1 kg to eat later. He divided the rest of the candy over 7 bowls to serve at his party. How many grams of candy did Cory serve in each bowl?
+A_model:
+To solve this step by step:
+
+1. **Convert kilograms to grams**: Cory saved 1 kg of candy, and since 1 kg = 1000 g, he saved 1000 g.
+
+2. **Subtract the saved candy from the total candy**: Cory made 4500 g of candy, and he saved 1000 g. The remaining candy is:
+   \[
+   4500 - 1000 = 3500 \, \text{g}.
+   \]
+
+3. **Divide the remaining candy among the 7 bowls**: Cory divided the remaining 3500 g of candy equally into 7 bowls. To find how much candy is in each bowl, divide:
+   \[
+   3500 \div 7 = 500 \, \text{g}.
+   \]
+
+The answer is **500**.
+Extracted:
+500.0
+A:
+500.0
+
+Q: A washing machine can wash 28 pounds of clothes per day. If there are 200 pounds of clothes to be washed per day, how many pounds of clothes does the washing machine that isn't fully loaded wash per day?
+A_model:
+To solve this problem step by step:
+
+1. **Determine how many full loads the washing machine can handle per day:**
+   - Each washing machine can wash 28 pounds of clothes per day.
+   - There are 200 pounds of clothes to be washed per day.
+   - Divide the total pounds of clothes by the capacity of one washing machine:  
+     \( 200 \div 28 = 7 \) full loads with a remainder.
+
+2. **Calculate the total weight of clothes washed in 7 full loads:**
+   - Each load is 28 pounds, so:  
+     \( 7 \times 28 = 196 \) pounds.
+
+3. **Find the remaining pounds of clothes that aren't part of a full load:**
+   - Subtract the total weight of the 7 full loads from the total weight of clothes:  
+     \( 200 - 196 = 4 \) pounds.
+
+The washing machine that isn't fully loaded washes **4 pounds** of clothes per day.
+
+The answer is 4.
+Extracted:
+4.0
+A:
+4.0
+
+Q: The area of square photo is 25 square inches. Angie decided to enlarge the photo by doubling the sides. What will the new area be?
+A_model:
+To solve this, we need to calculate the new area of the square photo after doubling its sides.
+
+1. **Find the side length of the original square photo**:  
+   The area of a square is given by the formula:  
+   \[
+   \text{Area} = \text{side}^2
+   \]  
+   The original area is 25 square inches. So, the side length of the original square is:  
+   \[
+   \text{side} = \sqrt{25} = 5 \, \text{inches}.
+   \]
+
+2. **Double the side length**:  
+   If the side length is doubled, the new side length becomes:  
+   \[
+   2 \times 5 = 10 \, \text{inches}.
+   \]
+
+3. **Calculate the new area**:  
+   The area of a square is still given by the formula:  
+   \[
+   \text{Area} = \text{side}^2
+   \]  
+   Substituting the new side length:  
+   \[
+   \text{New Area} = 10^2 = 100 \, \text{square inches}.
+   \]
+
+The answer is **100**.
+Extracted:
+100.0
+A:
+100.0
+
+Q: Victor was playing checkers with a friend. The ratio of games Victor won was 9:5. If Victor won 36 games, how many games did his friend win?
+A_model:
+We are given the ratio of games Victor won to the games his friend won as 9:5. This means for every 9 games Victor won, his friend won 5 games. Victor won 36 games, and we need to find how many games his friend won.
+
+### Step 1: Set up the ratio
+The ratio of Victor's wins to his friend's wins is 9:5. Let the number of games Victor's friend won be \( x \). The ratio can be written as:
+\[
+\frac{\text{Victor's wins}}{\text{Friend's wins}} = \frac{9}{5}
+\]
+Substitute Victor's wins (36) into the equation:
+\[
+\frac{36}{x} = \frac{9}{5}
+\]
+
+### Step 2: Solve for \( x \)
+Cross-multiply to eliminate the fractions:
+\[
+9x = 36 \cdot 5
+\]
+\[
+9x = 180
+\]
+Divide both sides by 9:
+\[
+x = \frac{180}{9} = 20
+\]
+
+### Step 3: Final Answer
+Victor's friend won 20 games.  
+The answer is **20**.
+Extracted:
+20.0
+A:
+20.0
+
+Q: While playing a game Kaleb had ninety-eight lives. After losing some lives he had seventy-three left. How many lives did Kaleb lose?
+A_model:
+To find out how many lives Kaleb lost, we need to subtract the number of lives he has left from the number of lives he started with.
+
+Kaleb started with 98 lives. After losing some, he had 73 lives left. The difference is:
+
+98 - 73 = 25
+
+The answer is 25.
+Extracted:
+25.0
+A:
+25.0
+
+Q: There are 45 questions on the math test. 17 questions are word problems. 28 questions are addition and subtraction problems. Steve can only answer 38 questions. How many questions did Steve leave blank?
+A_model:
+To find how many questions Steve left blank, we need to subtract the number of questions he answered from the total number of questions on the test.
+
+1. The total number of questions on the test is 45.
+2. Steve answered 38 questions.
+3. To find how many questions he left blank, subtract the number of questions he answered from the total number of questions:  
+   \( 45 - 38 = 7 \).
+
+The answer is 7.
+Extracted:
+7.0
+A:
+7.0
+
+Q: At the arcade Dave won 11 tickets. If he spent 5 tickets on a beanie and later won 10 more tickets, how many would he have?
+A_model:
+Step 1: Dave starts with 11 tickets.  
+Step 2: He spends 5 tickets on a beanie, so we subtract 5 from 11:  
+11 - 5 = 6 tickets.  
+
+Step 3: Later, Dave wins 10 more tickets, so we add 10 to the remaining 6 tickets:  
+6 + 10 = 16 tickets.  
+
+The answer is 16.
+Extracted:
+16.0
+A:
+16.0
+
+Q: A waiter had nineteen customers. After some left he still had four customers. What's the difference between the number of customers before leaving and after leaving?
+A_model:
+To find the difference between the number of customers before leaving and after leaving, we subtract the number of customers remaining from the original number of customers.
+
+The waiter originally had 19 customers. After some left, he still had 4 customers. 
+
+The difference is:  
+19 - 4 = 15  
+
+The answer is 15.
+Extracted:
+15.0
+A:
+15.0
+
+Q: Josh had $1.80. He paid 45 cents for a candy car. How much change will he get?
+A_model:
+To find out how much change Josh will get, we need to subtract the cost of the candy bar from the amount of money he had.
+
+1. Josh started with $1.80.
+2. The candy bar costs 45 cents, which is $0.45.
+3. Subtract $0.45 from $1.80:  
+   $1.80 - $0.45 = $1.35.
+
+The answer is $1.35.
+Extracted:
+1.35
+A:
+1.35
+
+Q: Kaleb was collecting cans for recycling. On Saturday he filled five bags up and on Sunday he filled five more bags. If each bag had four cans in it, how many cans did he pick up total?
+A_model:
+To find the total number of cans Kaleb picked up, we need to calculate step by step:
+
+1. Kaleb filled 5 bags on Saturday and 5 bags on Sunday. This means he filled a total of \( 5 + 5 = 10 \) bags.
+
+2. Each bag contains 4 cans. To find the total number of cans, we multiply the number of bags by the number of cans per bag:  
+   \( 10 \times 4 = 40 \).
+
+The answer is 40.
+Extracted:
+40.0
+A:
+40.0
+

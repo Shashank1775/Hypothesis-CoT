@@ -1,0 +1,186 @@
+Q: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?
+RESPONSE:
+### Hypothesis:
+We need to determine how many driveways Tobias shoveled. Tobias saved money from his allowance, mowing lawns, and shoveling driveways. After buying shoes for $95, he had $15 left. This means his total savings before buying the shoes was $95 + $15 = $110. We know he mowed 4 lawns, and we need to calculate how many driveways he shoveled to reach the total savings.
+
+### Step 1: Known quantities and assumptions:
+- Cost of shoes: $95
+- Remaining money after purchase: $15
+- Total savings: $95 + $15 = $110
+- Allowance per month: $5
+- Number of months: 3
+- Money earned per lawn mowed: $15
+- Number of lawns mowed: 4
+- Money earned per driveway shoveled: $7
+- All savings come from allowance, mowing lawns, and shoveling driveways.
+
+### Step 2: Propose two distinct solution methods:
+#### Method 1: Subtract known earnings (allowance and lawn mowing) from the total savings to find the amount earned from shoveling driveways. Divide this amount by the rate per driveway.
+#### Method 2: Use a trial-and-error approach to test different numbers of driveways shoveled until the total savings matches $110.
+
+### Step 3: Carry out both methods step-by-step:
+#### Method 1:
+1. Calculate allowance earnings:  
+   $5 × 3 months = $15
+2. Calculate earnings from mowing lawns:  
+   $15 × 4 lawns = $60
+3. Subtract allowance and lawn mowing earnings from total savings:  
+   $110 - ($15 + $60) = $110 - $75 = $35
+4. Divide the remaining amount by the rate per driveway shoveled:  
+   $35 ÷ $7 = 5 driveways
+
+#### Method 2:
+1. Start with known earnings from allowance and lawn mowing:  
+   $15 (allowance) + $60 (lawn mowing) = $75
+2. Test different numbers of driveways shoveled:  
+   - 4 driveways: $75 + (4 × $7) = $75 + $28 = $103 (too low)  
+   - 5 driveways: $75 + (5 × $7) = $75 + $35 = $110 (correct)
+
+### Step 4: Compare both methods and justify the preferred one:
+Method 1 is more direct and efficient, as it uses subtraction and division to find the answer without unnecessary iterations. Method 2 is valid but less efficient due to trial-and-error.
+
+### Step 5: Solve the problem again using only the preferred method:
+1. Allowance earnings: $5 × 3 = $15  
+2. Lawn mowing earnings: $15 × 4 = $60  
+3. Remaining savings after allowance and lawn mowing: $110 - $75 = $35  
+4. Driveways shoveled: $35 ÷ $7 = 5
+
+### Step 6: Double-check the result for consistency and accuracy:
+- Total earnings: $15 (allowance) + $60 (lawn mowing) + $35 (driveways) = $110  
+- Subtract shoe cost: $110 - $95 = $15 (matches remaining money). ✅
+
+### Final Answer:
+The answer is **5 driveways**.
+EXTRACTED:
+5.0
+GROUND_TRUTH:
+5.0
+
+Q: Mustafa buys a fridge, a TV and a computer with a total budget of $1600. The TV costs $600 and the fridge costs $500 more than the computer. How much does the computer cost?
+RESPONSE:
+### Hypothesis:
+We are tasked with determining the cost of the computer. The total budget is $1600, the TV costs $600, and the fridge costs $500 more than the computer. The strategy involves setting up an equation to represent the relationships between the costs and solving for the computer's cost.
+
+---
+
+### Step 1: Known quantities and assumptions
+- Total budget: $1600
+- TV cost: $600
+- Fridge cost: $500 more than the computer
+- Let the computer's cost be \( x \) (in dollars).
+- The fridge's cost is \( x + 500 \).
+- The sum of the costs of the TV, fridge, and computer equals the total budget.
+
+---
+
+### Step 2: Propose two distinct solution methods
+**Method 1: Direct equation solving**  
+Set up an equation for the total cost:  
+\[
+\text{TV cost} + \text{Fridge cost} + \text{Computer cost} = \text{Total budget}
+\]  
+Substitute the known values and solve for \( x \).
+
+**Method 2: Subtract known costs first**  
+First, subtract the TV cost from the total budget. Then, express the remaining budget as the sum of the fridge and computer costs. Use this to solve for \( x \).
+
+---
+
+### Step 3: Execute both methods
+
+#### **Method 1: Direct equation solving**
+The total cost equation is:  
+\[
+600 + (x + 500) + x = 1600
+\]  
+Simplify:  
+\[
+600 + x + 500 + x = 1600
+\]  
+\[
+2x + 1100 = 1600
+\]  
+Subtract 1100 from both sides:  
+\[
+2x = 500
+\]  
+Divide by 2:  
+\[
+x = 250
+\]  
+Thus, the computer costs **$250**.
+
+---
+
+#### **Method 2: Subtract known costs first**
+1. Subtract the TV cost from the total budget:  
+\[
+1600 - 600 = 1000
+\]  
+This leaves $1000 for the fridge and computer.
+
+2. Express the fridge's cost in terms of the computer's cost:  
+\[
+\text{Fridge cost} = x + 500
+\]  
+The total for the fridge and computer is:  
+\[
+x + (x + 500) = 1000
+\]  
+Simplify:  
+\[
+2x + 500 = 1000
+\]  
+Subtract 500 from both sides:  
+\[
+2x = 500
+\]  
+Divide by 2:  
+\[
+x = 250
+\]  
+Thus, the computer costs **$250**.
+
+---
+
+### Step 4: Compare both methods
+Both methods yield the same result. Method 1 is more direct and efficient because it sets up the total cost equation immediately. Method 2 involves an extra step of subtracting the TV cost first, but it is equally valid.
+
+---
+
+### Step 5: Solve using the preferred method (Method 1)
+Set up the equation:  
+\[
+600 + (x + 500) + x = 1600
+\]  
+Simplify:  
+\[
+2x + 1100 = 1600
+\]  
+Solve for \( x \):  
+\[
+2x = 500 \quad \Rightarrow \quad x = 250
+\]  
+The computer costs **$250**.
+
+---
+
+### Step 6: Double-check the result
+1. Computer cost: \( x = 250 \)  
+2. Fridge cost: \( x + 500 = 250 + 500 = 750 \)  
+3. TV cost: $600  
+4. Total cost: \( 250 + 750 + 600 = 1600 \) ✅
+
+---
+
+The answer is **250**.
+EXTRACTED:
+250.0
+GROUND_TRUTH:
+250.0
+
+
+=== FINAL RESULTS ===
+
+✅ Accuracy: 2 / 3 = 66.67%
+❌ Errors: 0

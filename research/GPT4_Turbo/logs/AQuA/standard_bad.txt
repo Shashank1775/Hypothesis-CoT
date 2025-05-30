@@ -1,0 +1,1306 @@
+❌ INCORRECT OR INVALID
+Q: If it is 6:27 in the evening on a certain day, what time in the morning was it exactly 2,880,713 minutes earlier? (Assume standard time in one location.)
+Options:
+A)6:22
+B)6:24
+C)6:27
+D)6:30
+E)6:32
+A_model:
+To solve this, we need to determine the time 2,880,713 minutes earlier than 6:27 PM (evening). 
+
+### Step 1: Convert minutes into days, hours, and minutes
+There are 60 minutes in an hour and 24 hours in a day, so:
+- Minutes in a day = 24 × 60 = 1,440 minutes.
+
+Now, divide 2,880,713 minutes by 1,440 to find how many full days are in this time span:
+- \( 2,880,713 \div 1,440 = 2,000 \) days and \( 713 \) minutes remaining.
+
+### Step 2: Convert the remaining 713 minutes into hours and minutes
+- \( 713 \div 60 = 11 \) hours and \( 53 \) minutes remaining.
+
+### Step 3: Subtract the time from 6:27 PM
+We are going back 2,000 days, 11 hours, and 53 minutes from 6:27 PM. Subtracting 11 hours and 53 minutes from 6:27 PM:
+- Subtract 11 hours: 6:27 PM → 7:27 AM (the same day).
+- Subtract 53 minutes: 7:27 AM → 6:34 AM.
+
+Thus, the time 2,880,713 minutes earlier was **6:34 AM**.
+
+### Step 4: Match the closest option
+The closest option to 6:34 AM is **6:32 AM**.
+
+The answer is E.
+Extracted Option:
+E
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Mr. John used to purchase certain number of mangoes for $360 Since the price of mangoes is reduced by 10% he got 12 more mangoes today. Find the original price of 115 mangoes.
+Options:
+A)360
+B)383
+C)400
+D)406
+E)412
+A_model:
+Let the original price of one mango be \( x \). Then, the number of mangoes Mr. John could buy for $360 is:
+
+\[
+\text{Number of mangoes} = \frac{360}{x}
+\]
+
+When the price is reduced by 10%, the new price of one mango becomes \( 0.9x \). The number of mangoes he can now buy for $360 is:
+
+\[
+\text{Number of mangoes} = \frac{360}{0.9x}
+\]
+
+The difference in the number of mangoes is 12:
+
+\[
+\frac{360}{0.9x} - \frac{360}{x} = 12
+\]
+
+Simplify the equation:
+
+\[
+\frac{360}{0.9x} - \frac{360}{x} = 12
+\]
+
+\[
+360 \left( \frac{1}{0.9x} - \frac{1}{x} \right) = 12
+\]
+
+\[
+360 \left( \frac{x - 0.9x}{0.9x^2} \right) = 12
+\]
+
+\[
+360 \left( \frac{0.1x}{0.9x^2} \right) = 12
+\]
+
+\[
+\frac{360 \cdot 0.1}{0.9x} = 12
+\]
+
+\[
+\frac{36}{0.9x} = 12
+\]
+
+\[
+0.9x = \frac{36}{12}
+\]
+
+\[
+0.9x = 3
+\]
+
+\[
+x = \frac{3}{0.9} = 10/3
+\]
+Extracted Option:
+None
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: The average (arithmetic mean) of all scores on a certain algebra test was 90. If the average of the 8 male students’ grades was 83, and the average of the female students’ grades was 92, how many female students took the test?
+Options:
+A)8
+B)9
+C)10
+D)21
+E)28
+A_model:
+Let the total number of students be \( n \), and let the number of female students be \( f \). Then the number of male students is \( n - f \).
+
+The total score for all students is:
+\[
+90n
+\]
+
+The total score for the male students is:
+\[
+83 \times (n - f)
+\]
+
+The total score for the female students is:
+\[
+92f
+\]
+
+Since the total score for all students is the sum of the scores for the male and female students, we have:
+\[
+90n = 83(n - f) + 92f
+\]
+
+Expanding and simplifying:
+\[
+90n = 83n - 83f + 92f
+\]
+\[
+90n = 83n + 9f
+\]
+\[
+90n - 83n = 9f
+\]
+\[
+7n = 9f
+\]
+
+Rearranging for \( f \):
+\[
+f = \frac{7n}{9}
+\]
+
+Since \( f \) must be an integer, \( n \) must be a multiple of 9. Testing values, if \( n = 9 \):
+\[
+f = \frac{7 \times 9}{9} = 7
+\]
+
+If \( n = 18 \):
+\[
+f = \frac{7 \times 18}{9} = 14
+\]
+
+The answer is C
+Extracted Option:
+C
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: In the xy-coordinate system, if (m, n) and (m + 3, n + k) are two points on the line with the equation x = 2y + 5, then k =
+Options:
+A)1/2
+B)1
+C)2
+D)3/2
+E)4
+A_model:
+The equation of the line is \( x = 2y + 5 \). 
+
+For the point \((m, n)\), substituting into the equation gives:
+\[
+m = 2n + 5.
+\]
+
+For the point \((m + 3, n + k)\), substituting into the equation gives:
+\[
+m + 3 = 2(n + k) + 5.
+\]
+
+Expanding and simplifying:
+\[
+m + 3 = 2n + 2k + 5.
+\]
+
+Using \( m = 2n + 5 \) from the first equation:
+\[
+2n + 5 + 3 = 2n + 2k + 5.
+\]
+
+Simplify:
+\[
+8 = 2k.
+\]
+
+Solve for \( k \):
+\[
+k = 4.
+\]
+
+Thus, the value of \( k \) is \( 4 \). 
+
+The answer is E.
+Extracted Option:
+E
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: Missing number in the series
+4 9 20 43 90 185 376?
+Options:
+A)175
+B)185
+C)759
+D)195
+E)180
+A_model:
+To find the missing number in the series, let's analyze the pattern:
+
+The given series is: 4, 9, 20, 43, 90, 185, 376, ?
+
+1. Find the differences between consecutive terms:
+   - 9 - 4 = 5
+   - 20 - 9 = 11
+   - 43 - 20 = 23
+   - 90 - 43 = 47
+   - 185 - 90 = 95
+   - 376 - 185 = 191
+
+2. Observe the pattern in the differences:
+   - 5, 11, 23, 47, 95, 191
+   - Each difference is approximately doubling the previous one.
+
+3. Predict the next difference:
+   - The next difference should be 191 × 2 = 382.
+
+4. Add this difference to the last term in the series:
+   - 376 + 382 = 758.
+
+Thus, the missing number is **758**.
+
+The answer is not listed in the options provided. Please verify the options or the question.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: In how many different number of ways the letters of the word 'ENGINEERING' can be arranged
+Options:
+A)276800
+B)277000
+C)277200
+D)277400
+E)278400
+A_model:
+The word "ENGINEERING" has 11 letters in total. The frequency of each letter is as follows:
+
+- E appears 3 times.
+- N appears 3 times.
+- G appears 2 times.
+- I appears 1 time.
+- R appears 1 time.
+
+The formula for the number of arrangements of letters in a word with repeated letters is:
+
+\[
+\text{Number of arrangements} = \frac{n!}{p_1! \cdot p_2! \cdot \dots \cdot p_k!}
+\]
+
+Where:
+- \(n\) is the total number of letters.
+- \(p_1, p_2, \dots, p_k\) are the frequencies of the repeated letters.
+
+For "ENGINEERING":
+
+\[
+\text{Number of arrangements} = \frac{11!}{3! \cdot 3! \cdot 2! \cdot 1! \cdot 1!}
+\]
+
+First, calculate \(11!\):
+
+\[
+11! = 11 \cdot 10 \cdot 9 \cdot 8 \cdot 7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 39916800
+\]
+
+Now calculate the factorials of the repeated letters:
+
+\[
+3! = 3 \cdot 2 \cdot 1 = 6, \quad 2! = 2 \cdot 1 = 2, \quad 1! = 1
+\]
+
+Substitute into the formula:
+
+\[
+\text{Number of arrangements} = \frac{39916800}{6 \cdot 6 \cdot 2 \cdot 1 \cdot 1} = \frac{39916800}{72} = 554400
+\]
+
+Thus, the number of arrangements is **554400**.
+
+The answer is <option letter>
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: I am five letter word. if you remove one, only two letters remain.
+What word am I
+Options:
+A)I am phone
+B)I am table
+C)I am Water
+D)I am Stone
+E)None
+A_model:
+The answer is E) None
+Extracted Option:
+E
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: A shopkeeper cheats both his supplier and customer by using faulty weights. When he buys from the supplier, he takes 20% more than the indicated weight. When he sells to his customer, he gives the customer a weight such that 10% of that is added to the weight, the weight claimed by the trader is obtained. If he charges the cost price of the weight that he claims, find his profit percentage.
+Options:
+A)20%
+B)32%
+C)23.365%
+D)22.109%
+E)2%
+A_model:
+To solve this problem, let's break it down step by step:
+
+1. **When the shopkeeper buys from the supplier:**
+   - He takes 20% more than the indicated weight.
+   - Let the indicated weight be 1 unit.
+   - The actual weight he receives is \( 1 + 0.2 = 1.2 \) units.
+
+2. **When the shopkeeper sells to the customer:**
+   - He gives the customer a weight such that 10% of that weight is added to get the claimed weight.
+   - Let the actual weight he gives to the customer be \( x \).
+   - The claimed weight is \( x + 0.1x = 1.1x \).
+   - Therefore, \( x = \frac{\text{claimed weight}}{1.1} \).
+
+3. **Cost price of 1 unit of weight:**
+   - The shopkeeper pays for 1 unit of weight but actually receives 1.2 units.
+   - The cost price per unit of actual weight is \( \frac{\text{cost of 1 unit}}{1.2} \).
+
+4. **Selling price of 1 unit of claimed weight:**
+   - The shopkeeper charges the cost price of the claimed weight.
+   - For 1 unit of claimed weight, the actual weight given is \( \frac{1}{1.1} \).
+   - The selling price per unit of actual weight is \( \text{cost of 1 unit} \times \frac{1}{1.1} \).
+
+5. **Profit percentage:**
+   - Profit percentage is calculated as:
+     \[
+     \text{Profit percentage} = \left( \frac{\text{Selling price per unit} - \text{Cost price per unit}}{\text{Cost price per unit}} \right) \times 100
+     \]
+   - Substituting the values:
+     \[
+     \text{Profit percentage} = \left( \frac{\frac{\text{cost of 1 unit}}{1.1} - \frac{\text{cost of 1 unit}}{1.2}}{\frac{\text{cost of 1 unit}}{1.2}} \right) \times 100
+     \]
+   - Simplify:
+     \[
+     \text{Profit percentage} = \left( \frac{\frac{1}{1.1} - \frac{1}{1.2}}{\frac{1}{1.2}} \right) \times 100
+     \]
+     \[
+     \text{Profit percentage} = \left( \frac{\frac{1.2 - 1.1}{1.1 \times 1.2}}{\frac{1}{1.2}} \right) \times 100
+     \]
+     \[
+     \text{Profit percentage} = \left( \frac{1.2 - 1.1}{1.1} \right) \times 100
+     \]
+     \[
+     \text{Profit percentage} = \frac{0.1}{1.1} \times 100
+     \]
+     \[
+     \text{Profit percentage} \approx 9.09\%
+     \]
+
+The answer is <option letter>.
+Extracted Option:
+None
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: The digit in unit's place of the product (459 ×46×28×484) is 2, the digit in place of * is
+Options:
+A)3
+B)5
+C)7
+D)9
+E)11
+A_model:
+To find the digit in the unit's place of the product \( 459 \times 46 \times 28 \times 484 \), we only need to consider the unit's digits of each number:
+
+- Unit's digit of \( 459 \) is \( 9 \).
+- Unit's digit of \( 46 \) is \( 6 \).
+- Unit's digit of \( 28 \) is \( 8 \).
+- Unit's digit of \( 484 \) is \( 4 \).
+
+Now, calculate the unit's digit step by step:
+
+1. \( 9 \times 6 = 54 \), unit's digit is \( 4 \).
+2. \( 4 \times 8 = 32 \), unit's digit is \( 2 \).
+3. \( 2 \times 4 = 8 \), unit's digit is \( 8 \).
+
+The unit's digit of the product is \( 8 \), not \( 2 \). Therefore, there seems to be an inconsistency in the question. Please clarify or provide additional details.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: In a apartment, 30% of the people speak English, 20% speak Hindi and 10% speak both. If a people is selected at random, what is the probability that he has speak English or Hindi?
+Options:
+A)1/3
+B)2/3
+C)2/5
+D)2/7
+E)3/7
+A_model:
+To solve this, we use the formula for the union of two events in probability:
+
+P(English or Hindi) = P(English) + P(Hindi) - P(English and Hindi)
+
+Given:
+P(English) = 30% = 0.3  
+P(Hindi) = 20% = 0.2  
+P(English and Hindi) = 10% = 0.1  
+
+Substitute the values:
+P(English or Hindi) = 0.3 + 0.2 - 0.1 = 0.4  
+
+The probability is 0.4, which is equivalent to **2/5**.
+
+The answer is B.
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A worker is paid x rupees for painting every 30 metres of a wall and y rupees for painting every extra metre. During one week, he painted 30 metres on Monday, 30 metres on Tuesday, 32 metres on Wednesday, 32 metres on Thursday and 31 metres on Friday. What is his average daily earning rupees for the five day week?
+Options:
+A)x + (8/5)y
+B)(5x + 9y)/5
+C)10x + (8/5)y
+D)None of these
+E)x+y
+A_model:
+To calculate the worker's average daily earnings, we first determine his total earnings for the week and then divide by 5 (the number of days).
+
+### Step 1: Calculate total earnings for the week
+- On Monday, he painted 30 meters: earnings = **x**.
+- On Tuesday, he painted 30 meters: earnings = **x**.
+- On Wednesday, he painted 32 meters: earnings = **x + 2y** (30 meters + 2 extra meters).
+- On Thursday, he painted 32 meters: earnings = **x + 2y**.
+- On Friday, he painted 31 meters: earnings = **x + y** (30 meters + 1 extra meter).
+
+Total earnings for the week:
+**x + x + (x + 2y) + (x + 2y) + (x + y) = 5x + 5y + 4y = 5x + 9y**
+
+### Step 2: Calculate average daily earnings
+Average daily earnings = Total earnings ÷ 5:
+**(5x + 9y) / 5**
+
+### Final Answer:
+The answer is **B**.
+Extracted Option:
+B
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A fair sided die labeled 1 to 6 is tossed two times. What is the probability the product of the two value is 1
+Options:
+A)1/6
+B)7/36
+C)1/36
+D)9/36
+E)11/36
+A_model:
+To determine the probability that the product of the two values is 1, we need to consider the following:
+
+1. A fair die has six sides labeled 1, 2, 3, 4, 5, and 6.
+2. The product of two numbers will be 1 only if both numbers are 1. This is because 1 × 1 = 1, and no other combination of numbers on the die will result in a product of 1.
+
+The probability of rolling a 1 on the first toss is \( \frac{1}{6} \), and the probability of rolling a 1 on the second toss is also \( \frac{1}{6} \). Since the two tosses are independent, the probability of both events happening is:
+
+\[
+\frac{1}{6} \times \frac{1}{6} = \frac{1}{36}.
+\]
+
+Thus, the probability that the product of the two values is 1 is \( \frac{1}{36} \).
+
+The answer is C.
+Extracted Option:
+C
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: Commodious means ‘spacious’, large, voluminous and extensive.
+Options:
+A)22
+B)28
+C)277
+D)199
+E)11
+A_model:
+The question does not relate to the definition of "commodious" or provide any context for selecting a numerical option. Therefore, it is unclear how to determine the correct answer. However, based on the format of the task:
+
+The answer is E.
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: How many boxes do you need if you have to pack 240 pairs ornamental bangles into boxes that each hold 2 dozens of bangles?
+Options:
+A)40
+B)35
+C)20
+D)25
+E)30
+A_model:
+First, calculate how many bangles are in one box. Since each box holds 2 dozens of bangles, and 1 dozen equals 12, we have:
+
+2 × 12 = 24 bangles per box.
+
+Next, divide the total number of bangles (240) by the number of bangles per box (24):
+
+240 ÷ 24 = 10 boxes.
+
+Thus, you need 10 boxes to pack 240 pairs of ornamental bangles.
+
+The answer is not listed in the options provided.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: The length of the bridge, which a train 130 m long and traveling at 45 km/hr can cross in 30 sec is?
+Options:
+A)25/5
+B)25/3
+C)25/2
+D)25/1
+E)25/9
+A_model:
+To solve this, we need to calculate the length of the bridge.
+
+1. First, convert the train's speed from km/hr to m/s:
+   \[
+   \text{Speed in m/s} = \frac{\text{Speed in km/hr} \times 1000}{3600} = \frac{45 \times 1000}{3600} = 12.5 \, \text{m/s}.
+   \]
+
+2. The total distance covered by the train in 30 seconds is:
+   \[
+   \text{Distance} = \text{Speed} \times \text{Time} = 12.5 \, \text{m/s} \times 30 \, \text{s} = 375 \, \text{m}.
+   \]
+
+3. The total distance includes the length of the train (130 m) and the length of the bridge. Let the length of the bridge be \( L \). Then:
+   \[
+   375 = 130 + L.
+   \]
+
+4. Solve for \( L \):
+   \[
+   L = 375 - 130 = 245 \, \text{m}.
+   \]
+
+5. Convert \( L \) into the form of the options provided:
+   \[
+   L = \frac{245}{1} = 25/1.
+   \]
+
+Thus, the correct option is:
+The answer is D.
+Extracted Option:
+D
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: From a Group of 10 People, Including George and Nina, 3 people are to be selected at random to work on a certain project. What is the probability that 3 people selected will include George but not Nina
+Options:
+A)5/56
+B)9/56
+C)28/120
+D)21/56
+E)25/56
+A_model:
+To solve this problem, we need to calculate the probability of selecting 3 people from a group of 10 such that George is included but Nina is not.
+
+### Step 1: Total number of ways to select 3 people from 10
+The total number of ways to select 3 people from 10 is given by the combination formula:
+\[
+\binom{10}{3} = \frac{10 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1} = 120
+\]
+
+### Step 2: Favorable outcomes (George is included, Nina is not)
+If George is included, we are left with 9 people (excluding George). Since Nina cannot be included, we are left with 8 people to choose from. We need to select 2 additional people from these 8.
+
+The number of ways to select 2 people from 8 is:
+\[
+\binom{8}{2} = \frac{8 \cdot 7}{2 \cdot 1} = 28
+\]
+
+Thus, there are 28 favorable outcomes.
+
+### Step 3: Probability
+The probability is the ratio of favorable outcomes to total outcomes:
+\[
+\text{Probability} = \frac{\text{Favorable outcomes}}{\text{Total outcomes}} = \frac{28}{120}
+\]
+
+Simplify the fraction:
+\[
+\frac{28}{120} = \frac{7}{30}
+\]
+
+### Step 4: Match with options
+The correct option is not listed in the provided choices. Please verify the options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: When 15% is lost in grinding wheat, a country can export 30 lakh tons of wheat. On the other hand, if 10% is lost in grinding, it can export 40 lakh tons of wheat. The production of wheat in the country is
+Options:
+A)20 lakh tons
+B)80 lakh tons
+C)200 lakh tons
+D)800 lakh tons
+E)None
+A_model:
+Let the total production of wheat in the country be \( x \) lakh tons.
+
+### Case 1: 15% loss in grinding
+The wheat available for export is \( 85\% \) of the total production:
+\[
+0.85x = 30 \quad \text{(lakh tons)}
+\]
+\[
+x = \frac{30}{0.85} = 35.29 \quad \text{(lakh tons)}
+\]
+
+### Case 2: 10% loss in grinding
+The wheat available for export is \( 90\% \) of the total production:
+\[
+0.90x = 40 \quad \text{(lakh tons)}
+\]
+\[
+x = \frac{40}{0.90} = 44.44 \quad \text{(lakh tons)}
+\]
+
+The two cases give inconsistent results, so the problem may have a typo or missing information. Based on the options provided, none of the calculations match the given options.
+
+The answer is E) None.
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: . A boy has four trousers and 7 shirts. In how many different ways can he select a trouser and a shirt?
+Options:
+A)18
+B)20
+C)26
+D)28
+E)30
+A_model:
+To determine the number of different ways the boy can select a trouser and a shirt, we multiply the number of trousers by the number of shirts:
+
+4 trousers × 7 shirts = 28 ways.
+
+The answer is D.
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The area of a circle is added to its diameter, and the circumference is then subtracted from this total, the result is 10. What is the radius of the circle?
+Options:
+A)2*pi
+B)pi
+C)2
+D)4*pi
+E)4
+A_model:
+To solve this, let's use the formulas for the area, circumference, and diameter of a circle:
+
+1. **Area of a circle**: \( A = \pi r^2 \)
+2. **Circumference of a circle**: \( C = 2\pi r \)
+3. **Diameter of a circle**: \( D = 2r \)
+
+The problem states:
+\[
+\text{Area} + \text{Diameter} - \text{Circumference} = 10
+\]
+
+Substitute the formulas:
+\[
+\pi r^2 + 2r - 2\pi r = 10
+\]
+
+Simplify:
+\[
+\pi r^2 - 2\pi r + 2r = 10
+\]
+
+Factor out \( r \) from the linear terms:
+\[
+\pi r^2 + r(2 - 2\pi) = 10
+\]
+
+Now, test the options to find the radius \( r \) that satisfies this equation.
+
+### Option A: \( r = 2\pi \)
+Substitute \( r = 2\pi \) into the equation:
+\[
+\pi (2\pi)^2 + (2\pi)(2 - 2\pi) = 10
+\]
+\[
+\pi (4\pi^2) + (2\pi)(2 - 2\pi) = 10
+\]
+\[
+4\pi^3 + 4\pi - 4\pi^2 = 10
+\]
+This does not simplify to 10. So, \( r = 2\pi \) is incorrect.
+
+### Option B: \( r = \pi \)
+Substitute \( r = \pi \) into the equation:
+\[
+\pi (\pi)^2 + (\pi)(2 - 2\pi) = 10
+\]
+\[
+\pi (\pi^2) + 2\pi - 2\pi^2 = 10
+\]
+\[
+\pi^3 + 2\pi - 2\pi^2 = 10
+\]
+This does not simplify to 10. So, \( r = \pi \) is incorrect.
+
+### Option C: \( r = 2 \)
+Substitute \( r = 2 \) into the equation:
+\[
+\pi (2)^2 + (2)(2 - 2\pi) = 10
+\]
+\[
+\pi (4) + 2(2 - 2\pi) = 10
+\]
+\[
+4\pi + 4 - 4\pi = 10
+\]
+\[
+4 = 10
+\]
+This does not simplify to 10. So, \( r = 2 \) is incorrect.
+
+### Option D: \( r = 4\pi \)
+Substituting
+Extracted Option:
+None
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: During the break of a football match, the coach will make 3 substitutions. If the team consists of 15 players among which there are 2 forwards, what is the probability that none of the forwards will be substituted?
+Options:
+A) 21/55
+B) 18/44
+C) 12/65
+D) 28/44
+E) 36/55
+A_model:
+To solve this, we calculate the probability that none of the forwards are substituted.
+
+### Step 1: Total number of players and substitutions
+The team consists of 15 players, and the coach will make 3 substitutions. Out of these 15 players, 2 are forwards, and the remaining 13 are non-forwards.
+
+### Step 2: Favorable outcomes
+For none of the forwards to be substituted, all 3 substitutions must be chosen from the 13 non-forwards. The number of ways to choose 3 players from the 13 non-forwards is:
+\[
+\binom{13}{3} = \frac{13 \cdot 12 \cdot 11}{3 \cdot 2 \cdot 1} = 286
+\]
+
+### Step 3: Total outcomes
+The total number of ways to choose 3 players from the entire team of 15 players is:
+\[
+\binom{15}{3} = \frac{15 \cdot 14 \cdot 13}{3 \cdot 2 \cdot 1} = 455
+\]
+
+### Step 4: Probability
+The probability that none of the forwards are substituted is the ratio of favorable outcomes to total outcomes:
+\[
+P = \frac{\binom{13}{3}}{\binom{15}{3}} = \frac{286}{455}
+\]
+
+Simplify the fraction:
+\[
+\frac{286}{455} = \frac{22}{35}
+\]
+
+### Step 5: Match the options
+The simplified probability corresponds to **option E (36/55)**.
+
+### Final Answer:
+The answer is E.
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A person bought an article and sold it at a loss of 10%. If he had bought it for 20% less and sold it for $75 less, he could have gained 25%. What is the cost price?
+Options:
+A)220
+B)274
+C)250
+D)280
+E)222
+A_model:
+Let the cost price of the article be \( x \).
+
+1. **First Scenario**:  
+   The person sells the article at a loss of 10%.  
+   Selling price = \( 0.9x \).
+
+2. **Second Scenario**:  
+   If the person had bought the article for 20% less, the new cost price would be \( 0.8x \).  
+   If he sold it for $75 less, the new selling price would be \( 0.9x - 75 \).  
+   In this case, he would have gained 25%.  
+   Selling price = \( 1.25 \times 0.8x = 1.0x \).
+
+   Equating the selling prices:  
+   \( 0.9x - 75 = 1.0x \).  
+   Solving for \( x \):  
+   \( 1.0x - 0.9x = 75 \).  
+   \( 0.1x = 75 \).  
+   \( x = 750 \).
+
+Thus, the cost price of the article is **$750**.
+
+Now, check the options provided. None of the options match the calculated cost price. Please verify the question or options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If 8^z is a factor of 256!, which of the following could be the value of z?
+Options:
+A)32
+B)42
+C)30
+D)52
+E)36
+A_model:
+To determine the value of \( z \), we need to find the largest power of \( 8 \) that divides \( 256! \). Since \( 8 = 2^3 \), this is equivalent to finding the largest power of \( 2^3 \) that divides \( 256! \).
+
+### Step 1: Find the largest power of \( 2 \) that divides \( 256! \)
+The formula to find the largest power of a prime \( p \) dividing \( n! \) is:
+\[
+\text{Power of } p = \left\lfloor \frac{n}{p} \right\rfloor + \left\lfloor \frac{n}{p^2} \right\rfloor + \left\lfloor \frac{n}{p^3} \right\rfloor + \cdots
+\]
+Here, \( n = 256 \) and \( p = 2 \). We calculate:
+\[
+\left\lfloor \frac{256}{2} \right\rfloor = 128, \quad
+\left\lfloor \frac{256}{4} \right\rfloor = 64, \quad
+\left\lfloor \frac{256}{8} \right\rfloor = 32, \quad
+\left\lfloor \frac{256}{16} \right\rfloor = 16,
+\]
+\[
+\left\lfloor \frac{256}{32} \right\rfloor = 8, \quad
+\left\lfloor \frac{256}{64} \right\rfloor = 4, \quad
+\left\lfloor \frac{256}{128} \right\rfloor = 2, \quad
+\left\lfloor \frac{256}{256} \right\rfloor = 1.
+\]
+Adding these together:
+\[
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255.
+\]
+Thus, the largest power of \( 2 \) dividing \( 256! \) is \( 255 \).
+
+### Step 2: Find the largest power of \( 8 = 2^3 \) dividing \( 256! \)
+Since \( 8 = 2^3 \), we divide \( 255 \) by \( 3 \):
+\[
+z = \left\lfloor \frac{255}{3} \right\rfloor = 85.
+\]
+
+### Step 3: Check the options
+The value of \( z \) must be \( 85 \), but none of the options match this. Therefore, there is an issue with the problem setup or the options provided.
+Extracted Option:
+None
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: David and Rachel are getting married. The extended family wants to have its picture taken, but David's father is unwilling to stand next to Rachel's mother. How many options does the photographer have to arrange the 7 family members in a row for the picture?
+Options:
+A)9!
+B)9×8!
+C)8×9!
+D)10!/2!
+E)5x6!
+A_model:
+To solve this problem, we need to calculate the number of arrangements of the 7 family members such that David's father and Rachel's mother are not standing next to each other.
+
+### Step 1: Total arrangements
+The total number of arrangements of 7 people in a row is:
+\[
+7! = 5040
+\]
+
+### Step 2: Arrangements where David's father and Rachel's mother are next to each other
+If David's father and Rachel's mother are treated as a single "block," then we have 6 "blocks" to arrange (the block + the other 5 family members). The number of arrangements of these 6 blocks is:
+\[
+6! = 720
+\]
+Within the "block," David's father and Rachel's mother can switch places, so there are 2 arrangements for the block:
+\[
+2 \times 720 = 1440
+\]
+
+### Step 3: Subtract restricted arrangements
+The number of arrangements where David's father and Rachel's mother are not next to each other is:
+\[
+7! - 1440 = 5040 - 1440 = 3600
+\]
+
+### Step 4: Match the correct option
+The correct option is **9 × 8!**, which simplifies to 3600.
+
+The answer is **B**.
+Extracted Option:
+B
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A man has Rs. 288 in the denominations of one-rupee notes, five-rupee notes and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has ?
+Options:
+A)45
+B)60
+C)75
+D)18
+E)95
+A_model:
+Let the number of notes of each denomination be \( x \).  
+The total value of the notes is given as:  
+\[
+1x + 5x + 10x = 288
+\]  
+Simplify:  
+\[
+16x = 288
+\]  
+Solve for \( x \):  
+\[
+x = \frac{288}{16} = 18
+\]  
+
+The total number of notes is:  
+\[
+x + x + x = 3x = 3 \times 18 = 54
+\]  
+
+The answer is not listed in the options. Please verify the question.
+Extracted Option:
+None
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: What is the tenth digit of (4!*3! + 4!*2!)/3?
+Options:
+A)5
+B)7
+C)9
+D)1
+E)0
+A_model:
+To solve the problem, let's calculate step by step:
+
+1. **Factorials**:
+   - \( 4! = 4 \times 3 \times 2 \times 1 = 24 \)
+   - \( 3! = 3 \times 2 \times 1 = 6 \)
+   - \( 2! = 2 \times 1 = 2 \)
+
+2. **Substitute into the expression**:
+   \[
+   (4! \times 3! + 4! \times 2!) / 3
+   \]
+
+   Substitute the factorial values:
+   \[
+   (24 \times 6 + 24 \times 2) / 3
+   \]
+
+3. **Simplify the terms**:
+   - \( 24 \times 6 = 144 \)
+   - \( 24 \times 2 = 48 \)
+   - Add these together: \( 144 + 48 = 192 \)
+
+4. **Divide by 3**:
+   \[
+   192 / 3 = 64
+   \]
+
+5. **Find the tenth digit**:
+   The number \( 64 \) has no tenth digit (it is a two-digit number). Therefore, the tenth digit is \( 0 \).
+
+**Final Answer**: The answer is **E**.
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If a,b, and c are consecutive positive integers and a>b>c, what can be the value of (a^2-b^2)(b^2-c^2)?
+Options:
+A)35
+B)45
+C)55
+D)65
+E)75
+A_model:
+To solve the problem, let's analyze the given expression \((a^2 - b^2)(b^2 - c^2)\) where \(a\), \(b\), and \(c\) are consecutive positive integers such that \(a > b > c\).
+
+### Step 1: Simplify the differences of squares
+Using the difference of squares formula, we can rewrite:
+\[
+a^2 - b^2 = (a - b)(a + b)
+\]
+\[
+b^2 - c^2 = (b - c)(b + c)
+\]
+
+Thus, the expression becomes:
+\[
+(a^2 - b^2)(b^2 - c^2) = [(a - b)(a + b)] \cdot [(b - c)(b + c)]
+\]
+
+### Step 2: Substitute values for \(a\), \(b\), and \(c\)
+Since \(a\), \(b\), and \(c\) are consecutive integers, we can write:
+\[
+a = c + 2, \quad b = c + 1, \quad c = c
+\]
+
+Now calculate each term:
+- \(a - b = (c + 2) - (c + 1) = 1\)
+- \(a + b = (c + 2) + (c + 1) = 2c + 3\)
+- \(b - c = (c + 1) - c = 1\)
+- \(b + c = (c + 1) + c = 2c + 1\)
+
+Substitute these into the expression:
+\[
+(a^2 - b^2)(b^2 - c^2) = [(1)(2c + 3)] \cdot [(1)(2c + 1)]
+\]
+\[
+= (2c + 3)(2c + 1)
+\]
+
+### Step 3: Expand the product
+Expand \((2c + 3)(2c + 1)\):
+\[
+(2c + 3)(2c + 1) = 4c^2 + 2c + 6c + 3 = 4c^2 + 8c + 3
+\]
+
+### Step 4: Test values of \(c\)
+Since \(a\), \(b\), and \(c\) are positive integers, test small values of \(c\) to find a match with the options.
+
+#### Case \(c = 3\):
+\[
+4c^2 + 8c + 3 = 4(3^2) + 8(3) + 3 = 4(9) + 24 + 3 = 36 + 24 + 3 = 63
+\]
+
+#### Case \(c = 4\):
+\[
+4
+Extracted Option:
+None
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A man bought 40 shares of Rs. 60 at 5 discount, the rate of dividend being 12%The rate of interest obtained is
+Options:
+A)13.09%
+B)15.5%
+C)14%
+D)14.25%
+E)14.95%
+A_model:
+To solve this, we calculate the yield (rate of interest obtained) using the formula:
+
+**Yield = (Nominal Value × Dividend Rate) / Market Price × 100**
+
+1. **Nominal Value**: Rs. 100 (standard nominal value of shares unless stated otherwise).
+2. **Dividend Rate**: 12%.
+3. **Market Price**: Rs. 60 - Rs. 5 (discount) = Rs. 55.
+
+Substitute the values into the formula:
+
+**Yield = (100 × 12) / 55 × 100 = 1200 / 55 ≈ 21.82%**
+
+This calculation seems incorrect. Let me recheck.
+Extracted Option:
+None
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: If f(2, 3) = 17 and f(2, 4) = 24, what is the value of f(2, 5)?
+Options:
+A)107
+B)127
+C)147
+D)33
+E)Cannot be determined
+A_model:
+The given function values are:
+
+- \( f(2, 3) = 17 \)
+- \( f(2, 4) = 24 \)
+
+We are tasked with finding \( f(2, 5) \). However, the problem does not provide a clear rule or formula for the function \( f(x, y) \). Without additional information or a pattern, it is impossible to determine the value of \( f(2, 5) \).
+
+The answer is E.
+Extracted Option:
+E
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: How much water must be added to 60 litres of milk at 1 1⁄2 litres for 20 so as to have a mixture worth 10 2⁄3 a litre?
+Options:
+A)10 litres
+B)12 litres
+C)15 litres
+D)18 litres
+E)None of these
+A_model:
+To solve this, we use the concept of alligation.
+
+The cost price of milk is 1 1/2 = 3/2 = 1.5 per litre.  
+The cost price of water is 0 (since water is free).  
+The cost price of the mixture is 10 2/3 = 32/3 ≈ 10.67 per litre.
+
+Using the alligation rule:
+
+\[
+\text{Difference between milk and mixture price: } 1.5 - 10.67 = -9.17
+\]
+\[
+\text{Difference between water and mixture price: } 10.67
+\]
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: eleven family members: 5 grandchildren (3 brothers and 2 sisters) and their 6 grandparents are to be seated around a circular table. How many different seating arrangements are possible so that 2 sisters are seated between any two of the three brothers?
+Options:
+A)120
+B)60480
+C)1440
+D)2880
+E)8640
+A_model:
+To solve this problem, we need to calculate the number of seating arrangements for the family members around a circular table, with the condition that the two sisters are seated between any two of the three brothers.
+
+### Step 1: Fix the arrangement of the brothers and sisters
+- Since the table is circular, we can fix one brother's position to eliminate rotational symmetry. This leaves 2 brothers to arrange.
+- The 2 brothers can be arranged in **2! = 2** ways.
+
+### Step 2: Arrange the sisters between the brothers
+- The two sisters must be seated between the brothers. There are **2 positions** between the brothers, and the sisters can be arranged in these positions in **2! = 2** ways.
+
+### Step 3: Arrange the grandparents
+- The 6 grandparents can be seated in the remaining 6 positions. They can be arranged in **6! = 720** ways.
+
+### Step 4: Combine the arrangements
+- Total arrangements = (Ways to arrange brothers) × (Ways to arrange sisters) × (Ways to arrange grandparents)
+- Total arrangements = **2 × 2 × 720 = 2880**
+
+### Final Answer:
+The answer is D.
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Jackson invested $600,000, dividing it all unequally between Account P and Account Q. At the end of the year, it turned out that Account P had earned 12% interest and Account Q had earned 25% interest. If Jackson earned a total of $60,000 in interest between the two accounts, which of the following is approximately the amount he put in account P?
+Options:
+A)$115,384
+B)$120,000
+C)$121,072
+D)$124,129
+E)$130,000
+A_model:
+Let the amount Jackson invested in Account P be \( x \). Then the amount he invested in Account Q is \( 600,000 - x \).
+
+The interest earned from Account P is \( 0.12x \), and the interest earned from Account Q is \( 0.25(600,000 - x) \). The total interest earned is $60,000, so:
+
+\[
+0.12x + 0.25(600,000 - x) = 60,000
+\]
+
+Simplify the equation:
+
+\[
+0.12x + 150,000 - 0.25x = 60,000
+\]
+
+\[
+-0.13x + 150,000 = 60,000
+\]
+
+\[
+-0.13x = -90,000
+\]
+
+\[
+x = \frac{-90,000}{-0.13} = 692,307.69
+\]
+
+So, the amount Jackson invested in Account P is approximately $115,384.
+Extracted Option:
+None
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: An bus covers a certain distance at aspeed of 240 kmph in 5 hours. To cover the same distance in 1hr, it must travel at a speed of?
+Options:
+A)560 km/h
+B)567 km/h
+C)779 km/h
+D)723 km/h
+E)720 km/h
+A_model:
+To find the speed required to cover the same distance in 1 hour, we first calculate the total distance covered by the bus in 5 hours:
+
+Distance = Speed × Time  
+Distance = 240 km/h × 5 hours = 1200 km  
+
+Now, to cover 1200 km in 1 hour, the required speed is:  
+Speed = Distance ÷ Time  
+Speed = 1200 km ÷ 1 hour = 1200 km/h  
+
+It seems none of the options match this calculation. Please verify the question or options provided.
+Extracted Option:
+None
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A man buys an article for rs.27.50 and sells it for rs.28.50. find his gain percentage.
+Options:
+A)4
+B)2
+C)1
+D)3
+E)None of them
+A_model:
+To calculate the gain percentage:
+
+1. Gain = Selling Price - Cost Price  
+   Gain = 28.50 - 27.50 = 1.00
+
+2. Gain Percentage = (Gain / Cost Price) × 100  
+   Gain Percentage = (1.00 / 27.50) × 100 ≈ 3.64%
+
+Since none of the options exactly match 3.64%, the closest option is **3**.
+
+The answer is D.
+Extracted Option:
+D
+Correct:
+A
+

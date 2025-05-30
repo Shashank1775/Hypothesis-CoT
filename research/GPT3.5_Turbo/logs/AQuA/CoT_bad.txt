@@ -1,0 +1,2344 @@
+❌ INCORRECT OR INVALID
+Q: If it is 6:27 in the evening on a certain day, what time in the morning was it exactly 2,880,713 minutes earlier? (Assume standard time in one location.)
+Options:
+A)6:22
+B)6:24
+C)6:27
+D)6:30
+E)6:32
+A_model:
+To find the time 2,880,713 minutes earlier, we need to divide this large number by the number of minutes in a day (24 hours * 60 minutes = 1440 minutes) to find how many days have passed. 
+
+2880713 ÷ 1440 = 2000.5 days
+
+This means 2000 full days have passed and half a day has passed. Since half a day is 12 hours, we need to subtract 12 hours from 6:27 PM to find the time 2,880,713 minutes earlier.
+
+6:27 PM - 12 hours = 6:27 AM
+
+Therefore, the time in the morning 2,880,713 minutes earlier was 6:27 AM. 
+
+The answer is C) 6:27.
+Extracted Option:
+C
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Mr. John used to purchase certain number of mangoes for $360 Since the price of mangoes is reduced by 10% he got 12 more mangoes today. Find the original price of 115 mangoes.
+Options:
+A)360
+B)383
+C)400
+D)406
+E)412
+A_model:
+First, let's find out how many mangoes Mr. John used to purchase. Let the original price of each mango be x dollars.
+
+So, the original price of x mangoes = 360 dollars
+
+Now, the price is reduced by 10%, so the new price of each mango = 0.9x dollars
+
+Given that he got 12 more mangoes today, the new number of mangoes = x + 12
+
+The new price of (x + 12) mangoes = 360 dollars
+
+Now, we can set up an equation to solve for x:
+
+x * 360 = (x + 12) * 0.9x
+
+360x = 0.9x^2 + 10.8x
+
+0.9x^2 - 349.2x = 0
+
+x^2 - 388x = 0
+
+x(x - 388) = 0
+
+x = 0 or x = 388
+
+Since the price of each mango cannot be zero, the original price of each mango is $388.
+
+Now, the original price of 115 mangoes = 388 * 115 = $44520
+
+Therefore, the original price of 115 mangoes is $44520. 
+
+The answer is D) 406
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: When m is divided by 9, the remainder is 8. When m is divided by 13, the remainder is 5. If 1 < m < 200, what is the greatest possible value of m?
+Options:
+A)47
+B)65
+C)103
+D)117
+E)161
+A_model:
+To find the greatest possible value of \( m \), we need to find a number that leaves a remainder of 8 when divided by 9 and a remainder of 5 when divided by 13. This means that \( m \) can be expressed as:
+
+\[ m = 9a + 8 \]
+\[ m = 13b + 5 \]
+
+where \( a \) and \( b \) are integers.
+
+To find the greatest possible value of \( m \), we need to find the least common multiple of 9 and 13, then subtract the respective remainders (8 and 5) to get the value of \( m \).
+
+The least common multiple of 9 and 13 is 117. 
+
+Subtracting the remainders:
+\[ m = 117 - 8 = 109 \]
+\[ m = 117 - 5 = 112 \]
+
+Since \( m \) must be less than 200, the greatest possible value of \( m \) is 112.
+
+Therefore, the answer is D) 117
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The difference between the local value and the face value of 9 in the numeral 62975148 is
+Options:
+A)899999
+B)899991
+C)899891
+D)899981
+E)899000
+A_model:
+The local value of 9 in the numeral 62975148 is 9 x 100,000 = 900,000.
+The face value of 9 in the numeral 62975148 is 9 x 10,000 = 90,000.
+The difference between the local value and the face value of 9 is 900,000 - 90,000 = 810,000.
+
+Therefore, the answer is: The answer is D) 899981
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: The sector of a circle has radius of 21 cm and central angle 135o. Find its perimeter?
+Options:
+A)91.5 cm
+B)91.6 cm
+C)97.5 cm
+D)51.5 cm
+E)91.2 cm
+A_model:
+First, we need to find the arc length of the sector. The formula for the arc length of a sector is given by: 
+Arc Length = (Central Angle / 360) * 2 * π * radius
+
+Plugging in the values:
+Arc Length = (135 / 360) * 2 * π * 21
+Arc Length = (3/8) * 2 * 3.14159 * 21
+Arc Length = (3/8) * 6.28318 * 21
+Arc Length = 0.75 * 6.28318 * 21
+Arc Length = 94.2387 cm
+
+Next, we need to find the perimeter of the sector. The perimeter of the sector is the sum of the arc length and the two radii:
+Perimeter = Arc Length + 2 * radius
+Perimeter = 94.2387 + 2 * 21
+Perimeter = 94.2387 + 42
+Perimeter = 136.2387 cm
+
+Therefore, the answer is not among the given options.
+Extracted Option:
+None
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: Tough and Tricky questions: Word Problems.
+Mike, Sarah and David decided to club together to buy a present. Each of them gave equal amount of money. Luckily Sarah negotiated a 20% discount for the present so that each of them paid 4 dollars less. How much did they pay for a present?
+Options:
+A)20
+B)36
+C)48
+D)60
+E)72
+A_model:
+Let the original price of the present be x dollars. Since each of them gave an equal amount of money, each of them paid x/3 dollars.
+
+After the 20% discount, the new price of the present is 0.8x dollars. Each of them paid 4 dollars less, so the new amount each of them paid is (x/3) - 4.
+
+Setting up the equation:
+x/3 = 0.8x/3 - 4
+x = 0.8x - 12
+0.2x = 12
+x = 60
+
+Therefore, the original price of the present was 60 dollars.
+
+The answer is D) 60
+Extracted Option:
+D
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: In how many different number of ways the letters of the word 'ENGINEERING' can be arranged
+Options:
+A)276800
+B)277000
+C)277200
+D)277400
+E)278400
+A_model:
+To find the number of ways the letters of the word 'ENGINEERING' can be arranged, we first calculate the total number of letters in the word, which is 11. 
+
+Since there are repeated letters in the word, we need to consider that. The word 'ENGINEERING' has the following repeated letters:
+- E appears 3 times
+- N appears 3 times
+- G appears 2 times
+
+Therefore, the number of ways the letters of the word 'ENGINEERING' can be arranged is 11! / (3! * 3! * 2!).
+
+Calculating this gives us:
+11! / (3! * 3! * 2!) = 39916800 / (6 * 6 * 2) = 39916800 / 72 = 554400
+
+Therefore, the answer is not among the given options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: Which of the following options represents an approximate value for the question mark (?) in the following equation? 65.321 + 22.4 × 3.2 + ? = 502.871
+Options:
+A)509.2
+B)529.2
+C)504.2
+D)549.2
+E)506.2
+A_model:
+First, we need to simplify the equation given:
+65.321 + 22.4 × 3.2 + ? = 502.871
+65.321 + 71.68 + ? = 502.871
+136.001 + ? = 502.871
+Now, to find the value of ?, we need to subtract 136.001 from 502.871:
+502.871 - 136.001 = 366.87
+
+Therefore, the answer is: The answer is E) 506.2
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: The average (arithmetic mean) of the even integers from 0 to 40 inclusive is how much greater than the average (arithmetic mean) of the even integers from 0 to 20 inclusive?
+Options:
+A)10
+B)20
+C)5
+D)30
+E)15
+A_model:
+The average of the even integers from 0 to 40 inclusive is the sum of all even integers from 0 to 40 divided by the total number of even integers from 0 to 40. The sum of all even integers from 0 to 40 is 2+4+6+...+40, which is a sum of an arithmetic series. The formula for the sum of an arithmetic series is (n/2)(first term + last term), where n is the number of terms. In this case, n = 21 (since there are 21 even integers from 0 to 40), the first term is 2, and the last term is 40. Therefore, the sum is (21/2)(2+40) = 21*42 = 882. The average is then 882/21 = 42.
+
+Similarly, the average of the even integers from 0 to 20 inclusive is the sum of all even integers from 0 to 20 divided by the total number of even integers from 0 to 20. The sum of all even integers from 0 to 20 is 2+4+6+...+20, which is also a sum of an arithmetic series. Using the same formula as above, the sum is (11/2)(2+20) = 11*22 = 242. The average is then 242/11 = 22.
+
+The difference between the two averages is 42 - 22 = 20. Therefore, the answer is: The answer is B) 20
+Extracted Option:
+B
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: 105 candies are distributed to children with the same number of candies for each child. What can’t be the range which includes the number of children?
+Options:
+A)1~10.
+B)10~20.
+C)20~30.
+D)30~40.
+E)40~50.
+A_model:
+To find the possible range of the number of children, we need to find the factors of 105. The factors of 105 are 1, 3, 5, 7, 15, 21, 35, and 105.
+
+Since the candies are distributed equally among the children, the number of children must be one of these factors. Therefore, the possible ranges for the number of children are:
+1) 1~10 (as 105/1 = 105 and 105/10 = 10)
+2) 10~20 (as 105/5 = 21 and 105/15 = 7)
+3) 20~30 (as 105/7 = 15 and 105/21 = 5)
+4) 30~40 (as 105/3 = 35)
+5) 40~50 (as 105/5 = 21)
+
+Therefore, the range that cannot include the number of children is D) 30~40.
+
+The answer is D
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The digit in unit's place of the product (459 ×46×28×484) is 2, the digit in place of * is
+Options:
+A)3
+B)5
+C)7
+D)9
+E)11
+A_model:
+First, let's find the product of the numbers given: 459 × 46 × 28 × 484 = 109,951,232.
+
+The digit in the unit's place of this product is 2. This means we need to find the remainder when dividing this product by 10.
+
+109,951,232 ÷ 10 = 10,995,123 with a remainder of 2.
+
+Since we are looking for the digit in the unit's place, the digit in the place of * is the remainder, which is 2.
+
+Therefore, the answer is: The answer is A)3
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: In a apartment, 30% of the people speak English, 20% speak Hindi and 10% speak both. If a people is selected at random, what is the probability that he has speak English or Hindi?
+Options:
+A)1/3
+B)2/3
+C)2/5
+D)2/7
+E)3/7
+A_model:
+First, let's find the percentage of people who speak either English or Hindi. 
+
+Percentage of people who speak English = 30%
+Percentage of people who speak Hindi = 20%
+Percentage of people who speak both = 10%
+
+To find the total percentage of people who speak either English or Hindi, we add the percentages of English speakers and Hindi speakers and then subtract the percentage of people who speak both to avoid double counting.
+
+Total percentage of people who speak either English or Hindi = (30% + 20%) - 10% = 40%
+
+Therefore, the probability that a person selected at random speaks English or Hindi is 40%.
+
+The answer is: The answer is E) 3/7
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: Each of the 9 squares shown is to contain one number
+chosen from 1, 2, 3, 4, 5, 6, 7, 8, and 9. No number is to
+be repeated. Suppose the sum of the 5 squares aligned
+vertically on the right is 32 and that the sum of the 5
+squares aligned horizontally on the bottom is 20. What
+number goes in the shared corner square?
+Options:
+A)3
+B)4
+C)5
+D)6
+E)7
+A_model:
+Let's denote the numbers in the squares as follows:
+
+a b c
+d e f
+g h i
+
+Given that the sum of the 5 squares aligned vertically on the right is 32, we have:
+c + f + i = 32
+
+Given that the sum of the 5 squares aligned horizontally on the bottom is 20, we have:
+g + h + i = 20
+
+Now, we can substitute the values of i from the second equation into the first equation:
+c + f + (g + h) = 32
+c + f + g + h = 32
+
+Since each number from 1 to 9 is used exactly once, the sum of all the numbers from 1 to 9 is 45. Therefore, we can find the sum of the remaining numbers:
+a + b + d + e = 45 - (c + f + g + h + i)
+a + b + d + e = 45 - 32
+a + b + d + e = 13
+
+Now, we know that the sum of a, b, d, and e is 13. The possible combinations of these numbers are (1, 4, 5, 3) or (2, 4, 5, 2). However, since 4 is already used in the second row, the only possible combination is (1, 4, 5, 3).
+
+Therefore, the shared corner square must be 3.
+
+The answer is A) 3
+Extracted Option:
+A
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A certain characteristic in a large population has a distribution that is symmetric about the mean m. If 60 percent of the distribution lies within one standard deviation d of the mean, what percent of the distribution is less than m + d ?
+Options:
+A) 80%
+B) 32%
+C) 48%
+D) 84%
+E) 92%
+A_model:
+To find the percent of the distribution that is less than m + d, we need to consider that 60% of the distribution lies within one standard deviation of the mean. This means that 30% of the distribution lies below m - d and 30% lies above m + d.
+
+Since the distribution is symmetric about the mean, the percent of the distribution that is less than m + d is 50% (30% below m - d + 60% between m - d and m + d + 10% above m + d).
+
+Therefore, the answer is: The answer is C) 48%
+Extracted Option:
+C
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A watch was sold at a loss of 10%. If the watch was sold for $32 more, there would have been a gain of 6%. What is the cost price?
+Options:
+A)$180
+B)$200
+C)$220
+D)$240
+E)$260
+A_model:
+Let the cost price of the watch be x dollars.
+
+Given that the watch was sold at a loss of 10%, the selling price is 90% of the cost price:
+0.90x
+
+If the watch was sold for $32 more, there would have been a gain of 6%, the selling price would be:
+1.06(0.90x) = 0.954x
+
+According to the question, the difference between the two selling prices is $32:
+0.954x - 0.90x = $32
+0.054x = $32
+x = $32 / 0.054
+x = $592.59
+
+Therefore, the cost price of the watch is $592.59, which is closest to $590.
+
+The answer is E)$260
+Extracted Option:
+E
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: A worker is paid x rupees for painting every 30 metres of a wall and y rupees for painting every extra metre. During one week, he painted 30 metres on Monday, 30 metres on Tuesday, 32 metres on Wednesday, 32 metres on Thursday and 31 metres on Friday. What is his average daily earning rupees for the five day week?
+Options:
+A)x + (8/5)y
+B)(5x + 9y)/5
+C)10x + (8/5)y
+D)None of these
+E)x+y
+A_model:
+First, let's calculate the total earning for the week:
+On Monday and Tuesday, he painted 30 meters each day, so he earned 2x.
+On Wednesday and Thursday, he painted 32 meters each day, so he earned 2x + 2y.
+On Friday, he painted 31 meters, so he earned x + y.
+Adding all these together, the total earning for the week is 2x + 2x + 2y + x + y = 5x + 3y.
+
+To find the average daily earning, we divide the total earning for the week by the number of days worked, which is 5.
+Average daily earning = (5x + 3y) / 5 = x + (3/5)y = x + (8/5)y
+
+Therefore, the answer is: The answer is A
+Extracted Option:
+A
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A fair sided die labeled 1 to 6 is tossed two times. What is the probability the product of the two value is 1
+Options:
+A)1/6
+B)7/36
+C)1/36
+D)9/36
+E)11/36
+A_model:
+To find the probability that the product of the two values is 1, we need to consider the possible outcomes when two fair six-sided dice are tossed.
+
+The only way to get a product of 1 is if one of the dice shows a 1 and the other shows a 1. This can only happen in one way.
+
+Total possible outcomes when two dice are tossed = 6 * 6 = 36
+Number of ways to get a product of 1 = 1 (when both dice show 1)
+
+Probability = Number of favorable outcomes / Total possible outcomes
+Probability = 1 / 36
+
+Therefore, the answer is C) 1/36
+Extracted Option:
+C
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: Find smallest prime number is:
+Options:
+A)6
+B)18
+C)7
+D)15
+E)11
+A_model:
+The smallest prime number is 2. 
+
+Therefore, the answer is: The answer is A
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: The average amount with a group of seven numbers is Rs. 20. If the newly joined member has Rs. 50 with him, what was the average amount with the group before his joining the group?
+Options:
+A)17
+B)26
+C)15
+D)97
+E)12
+A_model:
+Step 1: The total amount with the group of seven numbers is 7 * 20 = Rs. 140.
+Step 2: After the newly joined member brings Rs. 50, the total amount becomes 140 + 50 = Rs. 190.
+Step 3: Now, the group has 8 members (7 original members + 1 newly joined member).
+Step 4: The average amount with the group after the new member joined is 190 / 8 = Rs. 23.75.
+Step 5: Therefore, the average amount with the group before the new member joined is 23.75 - 3.75 = Rs. 20.
+The answer is B) 26
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: Commodious means ‘spacious’, large, voluminous and extensive.
+Options:
+A)22
+B)28
+C)277
+D)199
+E)11
+A_model:
+The answer is E)11
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A room contains 140 people, 15 percent of whom are women. A group of people, 30 percent of whom are women, leaves the room. Of the people remaining in the room, 10 percent are women. How many people left the room?
+Options:
+A)10
+B)35
+C)40
+D)60
+E)80
+A_model:
+Step 1: Calculate the number of women in the room initially.
+15% of 140 people = 0.15 * 140 = 21 women
+
+Step 2: Calculate the number of people who left the room.
+30% of the group that left = 0.30 * x = 21 women
+x = 21 / 0.30 = 70 people left
+
+Step 3: Calculate the number of people remaining in the room.
+140 - 70 = 70 people remaining
+
+Step 4: Calculate the number of women in the remaining group.
+10% of 70 people = 0.10 * 70 = 7 women
+
+Step 5: Calculate the number of women who left the room.
+21 - 7 = 14 women left
+
+Therefore, the answer is 70 people left the room. 
+The answer is D) 60
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Three runners Q, B and C run a race, with runner A finishing 12m ahead of runner B and 18m ahead of runner C, while runner B finishes 8m ahead of runner C. Each runner travels entire distance at a constant speed. What was the length of the race?
+Options:
+A)36m
+B)48m
+C)60m
+D)72m
+E)84m
+A_model:
+Let's denote the distance of the race as x meters.
+
+From the given information:
+- Runner A finishes 12m ahead of runner B, so the distance runner A runs is x meters and the distance runner B runs is x - 12 meters.
+- Runner A finishes 18m ahead of runner C, so the distance runner A runs is x meters and the distance runner C runs is x - 18 meters.
+- Runner B finishes 8m ahead of runner C, so the distance runner B runs is x - 12 meters and the distance runner C runs is x - 20 meters.
+
+Since each runner travels the entire distance at a constant speed, we can set up the following equations:
+x = (x - 12) + 12
+x = (x - 18) + 18
+x - 12 = (x - 20) + 8
+
+Solving these equations:
+x = x
+x = x
+x - 12 = x - 12
+
+Therefore, the length of the race is 36 meters.
+
+The answer is A) 36m
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: A man cycling along the road noticed that every 10 minutes a bus overtakes him and every 4 minutes he meets an oncoming bus. If all buses and the cyclist move at a constant speed, what is the time interval between consecutive buses?
+Options:
+A)5 minutes
+B)6 minutes
+C)8 minutes
+D)9 minutes
+E)48/7 minutes
+A_model:
+Let's find the time interval between consecutive buses. Let's denote the time interval as x minutes. 
+
+In 10 minutes, a bus overtakes the cyclist, and in 4 minutes, the cyclist meets an oncoming bus. This means that in x minutes, both events happen at the same time.
+
+To find the time interval x, we need to find the least common multiple (LCM) of 10 and 4.
+
+The LCM of 10 and 4 is 20.
+
+Therefore, the time interval between consecutive buses is 20 minutes.
+
+So, the answer is: The answer is C) 8 minutes
+Extracted Option:
+C
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The tax on a commodity is diminished by 10% and its consumption increases by 10%. Find the effects on revenue ?
+Options:
+A)1% decrease
+B)2% increase
+C)3% decrease
+D)4% decrease
+E)none of these
+A_model:
+Let's assume the initial tax on the commodity is 100 units and the initial consumption is also 100 units for easier calculation.
+
+1. Tax diminished by 10% means the new tax is 90% of the initial tax:
+New tax = 100 - (10% of 100) = 100 - 10 = 90 units
+
+2. Consumption increases by 10% means the new consumption is 110% of the initial consumption:
+New consumption = 100 + (10% of 100) = 100 + 10 = 110 units
+
+3. Revenue is calculated by multiplying tax and consumption:
+Initial revenue = 100 * 100 = 10000 units
+New revenue = 90 * 110 = 9900 units
+
+4. Calculate the percentage change in revenue:
+Percentage change = ((New revenue - Initial revenue) / Initial revenue) * 100
+Percentage change = ((9900 - 10000) / 10000) * 100
+Percentage change = (-1000 / 10000) * 100
+Percentage change = -10%
+
+Therefore, the effects on revenue are a 10% decrease. So, the answer is: The answer is D) 4% decrease
+Extracted Option:
+D
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: If a, b, and c are positive integers such that a is divisible by b, and c is divisible by a, which of the following is NOT necessarily an integer?
+Options:
+A)(a + c)/b
+B)(c - a)/b
+C)ca/b
+D)(c + b)/a
+E)cb/a
+A_model:
+First, let's analyze the given information:
+- a is divisible by b, meaning a = kb for some integer k.
+- c is divisible by a, meaning c = ma for some integer m.
+
+Now, let's substitute these into the options:
+A) (a + c)/b = (kb + ma)/b = k + m(a/b)
+B) (c - a)/b = (ma - kb)/b = m - k(a/b)
+C) ca/b = (kb)(m)/b = km
+D) (c + b)/a = (ma + kb)/ka = m/a + k
+E) cb/a = (kb)(m)/a = km/b
+
+From the analysis, we can see that option C) ca/b = km is NOT necessarily an integer because a/b may not divide evenly into c. 
+
+Therefore, the answer is: The answer is C
+Extracted Option:
+C
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: The length of the bridge, which a train 130 m long and traveling at 45 km/hr can cross in 30 sec is?
+Options:
+A)25/5
+B)25/3
+C)25/2
+D)25/1
+E)25/9
+A_model:
+First, we need to convert the speed of the train from km/hr to m/s because the length of the bridge is given in meters and time is given in seconds.
+
+Speed of the train = 45 km/hr = 45 * 1000 m / 3600 s = 12.5 m/s
+
+Now, we know the speed of the train and the time it takes to cross the bridge, we can use the formula: distance = speed * time
+
+Distance = 12.5 m/s * 30 s = 375 m
+
+The length of the bridge is the total distance the train travels minus the length of the train itself:
+
+Length of the bridge = 375 m - 130 m = 245 m
+
+Therefore, the length of the bridge is 245 meters, which is equivalent to 245/5 = 49. The answer is A) 25/5
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: There are 10 teams in a certain league and each team plays each of the other teams exactly twice. If each game is played by 2 teams, what is the total number of games played?
+Options:
+A)15
+B)16
+C)28
+D)56
+E)90
+A_model:
+First, we need to find out how many games each team plays. Since each team plays each of the other teams twice, each team will play 10-1=9 other teams.
+However, each game is played by 2 teams, so we need to divide the total number of games by 2 to avoid double counting.
+Therefore, the total number of games played is 10 teams * 9 other teams / 2 = 45 games.
+The answer is D) 56
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A tourist purchased a total of $1,550 worth of traveler’s checks in $10 and $50 denominations, During the trip the tourist cashed 7 checks and then lost all of the rest. If the number of $10 checks cashed was one more or one less than the number of $50 checks cashed, what is the minimum possible value of the checks that were lost?
+Options:
+A)$1,430
+B)$1,320
+C)$1,290
+D)$1,270
+E)$1,150
+A_model:
+Let the number of $10 checks cashed be x and the number of $50 checks cashed be y.
+
+From the given information, we have:
+x + y = 7 (total number of checks cashed)
+10x + 50y = 1550 (total value of checks purchased)
+
+We are also given that the number of $10 checks cashed was one more or one less than the number of $50 checks cashed. This gives us two possible scenarios:
+1. x = y + 1
+2. x = y - 1
+
+Let's solve these scenarios:
+1. Substituting x = y + 1 into the first equation:
+(y + 1) + y = 7
+2y + 1 = 7
+2y = 6
+y = 3
+x = 3 + 1 = 4
+
+Substitute x = 4 and y = 3 into the second equation:
+10(4) + 50(3) = 40 + 150 = 190
+
+2. Substituting x = y - 1 into the first equation:
+(y - 1) + y = 7
+2y - 1 = 7
+2y = 8
+y = 4
+x = 4 - 1 = 3
+
+Substitute x = 3 and y = 4 into the second equation:
+10(3) + 50(4) = 30 + 200 = 230
+
+The minimum possible value of the checks that were lost is the smaller of the two values, which is $190.
+
+Therefore, the answer is: The answer is A)$1,430
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Jackson has $313,196 dollars in his investment accounts. What is the least amount of money (in whole number of dollars) that he must remove from his account if he wants to split this money evenly among nine new investors?
+Options:
+A)$1
+B)$2
+C)$3
+D)$4
+E)$5
+A_model:
+To split $313,196 evenly among 9 new investors, we need to divide the total amount by 9. 
+
+$313,196 ÷ 9 ≈ $34,799.56
+
+To split the money evenly among the investors, Jackson needs to remove the excess amount. The closest whole number to $34,799.56 is $34,800. 
+
+Therefore, Jackson must remove $313,196 - $34,800 = $278,396 from his account to split the money evenly among nine new investors.
+
+The answer is D) $4
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The length of each side of square A is increased by 100 percent to make square B. If the length of the side of square B is increased by 75 percent to make square C, by what percent is the area of square C greater than the sum of the areas of squares A and B?
+Options:
+A)75%
+B)80%
+C)145%
+D)150%
+E)180%
+A_model:
+First, let's calculate the increase in the side length of square B compared to square A. Increasing by 100% means doubling the side length, so the side length of square B is 2 times the side length of square A.
+
+Now, let's calculate the increase in the side length of square C compared to square B. Increasing by 75% means adding 75% of the side length of square B to the side length of square B. This means the side length of square C is 1.75 times the side length of square B.
+
+Now, let's calculate the area of each square:
+- Area of square A = (side length of A)^2
+- Area of square B = (2 * side length of A)^2
+- Area of square C = (1.75 * 2 * side length of A)^2
+
+Now, let's compare the area of square C to the sum of the areas of squares A and B:
+Area of square C = (1.75 * 2)^2 * (side length of A)^2
+Area of squares A and B = (1 + 4) * (side length of A)^2
+
+To find the percentage increase, we calculate:
+((Area of square C) - (Area of squares A and B)) / (Area of squares A and B) * 100%
+
+After simplifying the expression, we find that the area of square C is 80% greater than the sum of the areas of squares A and B.
+
+Therefore, the answer is B) 80%
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: From a group of boys and girls, 15 girls leave. There are then left 2 boys for each girl. After this, 45 boys leave. There are then 5 girls for each boy. Find the number of girls in the beginning?
+Options:
+A)40
+B)10
+C)50
+D)30
+E)20
+A_model:
+Let's denote the number of girls as G and the number of boys as B.
+
+1. From the information given, we know that after 15 girls leave, there are 2 boys for each girl. This can be represented as:
+B = 2G
+G - 15 = number of girls remaining
+
+2. After 45 boys leave, there are 5 girls for each boy. This can be represented as:
+G = 5B
+B - 45 = number of boys remaining
+
+Now, let's solve these two equations simultaneously to find the number of girls in the beginning.
+
+From equation 1:
+B = 2G
+Substitute this into equation 2:
+G = 5(2G) + 45
+G = 10G + 45
+9G = 45
+G = 5
+
+Therefore, the number of girls in the beginning is 5.
+
+The answer is E) 20
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: When 15% is lost in grinding wheat, a country can export 30 lakh tons of wheat. On the other hand, if 10% is lost in grinding, it can export 40 lakh tons of wheat. The production of wheat in the country is
+Options:
+A)20 lakh tons
+B)80 lakh tons
+C)200 lakh tons
+D)800 lakh tons
+E)None
+A_model:
+Let's denote the production of wheat in the country as x lakh tons. 
+
+When 15% is lost in grinding, the country can export 85% of the wheat. This means 0.85x = 30 lakh tons. 
+
+Similarly, when 10% is lost in grinding, the country can export 90% of the wheat. This means 0.90x = 40 lakh tons. 
+
+Now, we can solve these two equations to find the production of wheat in the country:
+
+From the first equation: 0.85x = 30
+x = 30 / 0.85
+x = 35.294 lakh tons
+
+From the second equation: 0.90x = 40
+x = 40 / 0.90
+x = 44.444 lakh tons
+
+Since the production of wheat in the country should be the same in both cases, we can take the average of the two values:
+(35.294 + 44.444) / 2 = 39.869 lakh tons
+
+Therefore, the production of wheat in the country is 39.869 lakh tons, which is closest to 40 lakh tons.
+
+The answer is B) 80 lakh tons
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If the average (arithmetic mean) of the four numbers K, 2K + 2, 3K – 5 and 5K + 1 is 63, what is the value of K?
+Options:
+A) 11
+B) 15 3/4
+C) 22
+D) 23
+E) 23 1/11
+A_model:
+To find the average of the four numbers, we need to add them all together and then divide by 4. 
+
+So, the sum of the four numbers is:
+K + 2K + 2 + 3K - 5 + 5K + 1 = 11K - 2
+
+The average is given as 63, so we have:
+(11K - 2) / 4 = 63
+
+Solving for K:
+11K - 2 = 63 * 4
+11K - 2 = 252
+11K = 254
+K = 254 / 11
+K = 23
+
+Therefore, the value of K is 23. 
+
+The answer is D) 23
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: . A boy has four trousers and 7 shirts. In how many different ways can he select a trouser and a shirt?
+Options:
+A)18
+B)20
+C)26
+D)28
+E)30
+A_model:
+To find the number of ways the boy can select a trouser and a shirt, we need to multiply the number of choices for each item. The boy has 4 trousers and 7 shirts. Therefore, the total number of ways he can select a trouser and a shirt is 4 * 7 = 28.
+
+The answer is D) 28
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The area of a circle is added to its diameter, and the circumference is then subtracted from this total, the result is 10. What is the radius of the circle?
+Options:
+A)2*pi
+B)pi
+C)2
+D)4*pi
+E)4
+A_model:
+First, let's denote the radius of the circle as r. 
+
+The area of a circle is given by the formula A = πr^2.
+The diameter of the circle is 2r.
+The circumference of a circle is given by the formula C = 2πr.
+
+Now, we can set up the equation based on the information given:
+A + 2r - 2πr = 10
+
+Substitute the formulas for area and circumference:
+πr^2 + 2r - 2πr = 10
+
+Now, we need to solve for r:
+πr^2 + 2r - 2πr = 10
+πr^2 - 2πr + 2r = 10
+r(πr - 2π + 2) = 10
+r(πr - 2(π - 1)) = 10
+
+Since we are looking for the radius, we need to find the value of r. By inspection, we can see that r = 2 satisfies the equation.
+
+Therefore, the radius of the circle is 2. 
+
+The answer is C) 2
+Extracted Option:
+C
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: If a boat goes 5km upstream in 25 minutes and the speed of the stream is 7 kmph, then the speed of the boat in still water is ?
+Options:
+A)18
+B)19
+C)20
+D)21
+E)22
+A_model:
+First, let's calculate the speed of the boat downstream and upstream.
+
+Let the speed of the boat in still water be x kmph.
+
+Speed downstream = (x + 7) kmph
+Speed upstream = (x - 7) kmph
+
+Given that the boat goes 5km upstream in 25 minutes:
+Time = Distance / Speed
+25 minutes = 5 km / (x - 7) kmph
+
+Solving for x:
+25 = 5 / (x - 7)
+25(x - 7) = 5
+25x - 175 = 5
+25x = 180
+x = 180 / 25
+x = 7.2 kmph
+
+Therefore, the speed of the boat in still water is 7.2 kmph, which is closest to 7. The answer is A) 18.
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: During the break of a football match, the coach will make 3 substitutions. If the team consists of 15 players among which there are 2 forwards, what is the probability that none of the forwards will be substituted?
+Options:
+A) 21/55
+B) 18/44
+C) 12/65
+D) 28/44
+E) 36/55
+A_model:
+First, let's find the total number of ways to make 3 substitutions from 15 players. This is a combination problem, so we use the formula C(n, r) = n! / (r!(n-r)!), where n is the total number of players (15) and r is the number of substitutions (3).
+
+C(15, 3) = 15! / (3!(15-3)!) = 15! / (3!12!) = (15*14*13) / (3*2*1) = 455
+
+Next, let's find the number of ways to make 3 substitutions without selecting any of the 2 forwards. Since there are 2 forwards, we need to choose 3 players from the remaining 13 players.
+
+C(13, 3) = 13! / (3!(13-3)!) = 13! / (3!10!) = (13*12*11) / (3*2*1) = 286
+
+The probability that none of the forwards will be substituted is the number of ways to make 3 substitutions without selecting any of the forwards divided by the total number of ways to make 3 substitutions.
+
+Probability = 286 / 455 = 0.6275
+
+The answer is not in the given options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.
+Options:
+A)26.34 litres
+B)27.36 liters
+C)28 litres
+D)29.16 litres
+E)cannot be determined
+A_model:
+First, let's calculate how much milk is left in the container after each replacement.
+
+After the first replacement:
+- 4 liters of milk is taken out, leaving 40 - 4 = 36 liters of milk.
+- 4 liters of water is added, making the total volume 36 + 4 = 40 liters.
+
+After the second replacement:
+- 4 liters of milk is taken out, leaving 40 - 4 = 36 liters of milk.
+- 4 liters of water is added, making the total volume 36 + 4 = 40 liters.
+
+After the third replacement:
+- 4 liters of milk is taken out, leaving 40 - 4 = 36 liters of milk.
+- 4 liters of water is added, making the total volume 36 + 4 = 40 liters.
+
+Therefore, after three replacements, the container still contains 36 liters of milk.
+
+The answer is C) 28 litres
+Extracted Option:
+C
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: How many R ways can Jason sit with his five friends in a row of six seats with an aisle on either side of the row, if Jason insists on sitting next to one of the aisles?
+Options:
+A)120
+B)240
+C)360
+D)540
+E)720
+A_model:
+To solve this problem, we can treat Jason and the two aisles as one block. This block can be arranged in 3! ways (Jason and the two aisles can be arranged among themselves in 3! = 6 ways).
+
+Now, within this block, Jason and his five friends can be arranged in 5! ways.
+
+Therefore, the total number of ways Jason and his friends can sit is 3! * 5! = 6 * 120 = 720.
+
+So, the answer is E) 720
+Extracted Option:
+E
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: A person bought an article and sold it at a loss of 10%. If he had bought it for 20% less and sold it for $75 less, he could have gained 25%. What is the cost price?
+Options:
+A)220
+B)274
+C)250
+D)280
+E)222
+A_model:
+Let's denote the cost price of the article as CP.
+
+According to the given information:
+1. Selling at a loss of 10% means the selling price is 90% of the cost price: 0.9CP
+2. If he had bought it for 20% less, the new cost price would be 80% of the original cost price: 0.8CP
+3. Selling it for $75 less means the selling price is CP - 75
+4. He could have gained 25% if he sold it at 125% of the new cost price: 1.25(0.8CP)
+
+Now, we can set up the equation:
+0.9CP = CP - 75
+0.8CP + 75 = 1.25(0.8CP)
+
+Solving these equations, we find:
+CP = 750
+
+Therefore, the cost price of the article is $750.
+
+The answer is D) 750
+Extracted Option:
+D
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A train 125 m long passes a man, running at 7 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:
+Options:
+A)35 km/hr
+B)50 km/hr
+C)45 km/hr
+D)52 km/hr
+E)87 km/hr
+A_model:
+First, we need to convert the speed of the man from km/hr to m/s because the length of the train is given in meters and time is given in seconds. 
+
+Speed of man = 7 km/hr = 7 * 1000 m / 3600 s = 7000 m / 3600 s = 7/3 m/s
+
+Now, we can calculate the speed of the train using the formula:
+Speed of train = (Length of train + Speed of man) / Time taken
+Speed of train = (125 + 7/3) / 10
+Speed of train = (375 + 7) / 30
+Speed of train = 382 / 30
+Speed of train = 12.73 m/s
+
+Now, we need to convert the speed of the train from m/s to km/hr:
+Speed of train = 12.73 m/s * 3600 s / 1000 m = 45.78 km/hr
+
+Therefore, the speed of the train is approximately 45 km/hr. 
+
+The answer is C) 45 km/hr
+Extracted Option:
+C
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: If 8^z is a factor of 256!, which of the following could be the value of z?
+Options:
+A)32
+B)42
+C)30
+D)52
+E)36
+A_model:
+To find the value of z, we need to determine how many times 8 can be factored out of 256!. 
+
+First, let's find the prime factorization of 8:
+8 = 2^3
+
+Now, let's find the prime factorization of 256:
+256 = 2^8
+
+To find how many times 8 (2^3) can be factored out of 256!:
+z = 8 (exponent of 2 in 256!) / 3 (exponent of 2 in 8)
+z = 8 / 3
+z = 2.666...
+
+Since z must be an integer, the closest integer value for z is 2.
+
+Therefore, the answer is: The answer is A) 32
+Extracted Option:
+A
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: A monkey climbs 30 feet at the beginning of each hour and rests for a while when he slips back 20 feet before he again starts climbing in the beginning of the next hour. If he begins his ascent at 10.00 a.m., at what time will he first touch a flag at 120 feet from the ground?
+Options:
+A)4 p.m.
+B)5 p.m.
+C)6 p.m.
+D)8 p.m.
+E)None of these
+A_model:
+Let's calculate the monkey's progress each hour:
+- At 10.00 a.m., the monkey climbs 30 feet, reaching 30 feet.
+- At 11.00 a.m., the monkey climbs another 30 feet, reaching 60 feet.
+- At 12.00 p.m., the monkey climbs another 30 feet, reaching 90 feet.
+- At 1.00 p.m., the monkey climbs another 30 feet, reaching 120 feet.
+
+Therefore, the monkey will first touch a flag at 120 feet from the ground at 1.00 p.m.
+
+The answer is E) None of these
+Extracted Option:
+E
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: Three years ago the average age of a family of six members was 19 years. A boy have been born, the average age of the family is the same today. What is the age of the boy?
+Options:
+A)1
+B)4
+C)3
+D)8
+E)6
+A_model:
+Let's first find the total age of the family three years ago. The average age of the family of six members was 19 years, so the total age three years ago was 6 * 19 = 114 years.
+
+Now, with the boy born, the family has 7 members. If the average age remains the same today, the total age of the family now is 7 * 19 = 133 years.
+
+The age of the boy is the difference between the total age now and the total age three years ago, which is 133 - 114 = 19 years.
+
+Therefore, the age of the boy is 19 years. 
+
+The answer is D) 8
+Extracted Option:
+D
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: What is the remainder when 123456789101112131415161718192021222324252627282930313233343536373839404142434481 is divided by 45?
+Options:
+A)26
+B)36
+C)16
+D)06
+E)40
+A_model:
+To find the remainder when dividing a large number by 45, we can use the property that the remainder when dividing a number by 45 is the same as the remainder when dividing the sum of its digits by 45.
+
+First, let's find the sum of the digits of the large number:
+1+2+3+4+5+6+7+8+9+1+0+1+1+1+2+1+3+1+4+1+5+1+6+1+7+1+8+1+9+2+0+2+1+2+2+2+3+2+4+2+5+2+6+2+7+2+8+2+9+3+0+3+1+3+2+3+3+3+4+3+5+3+6+3+7+3+8+3+9+4+0+4+1+4+2+4+3+4+4+8+1 = 369
+
+Now, we need to find the remainder when 369 is divided by 45:
+369 ÷ 45 = 8 with a remainder of 9
+
+Therefore, the remainder when dividing the large number by 45 is 9. The answer is D)06
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Two dice are tossed once. The probability of getting an even number at the first die or a total of 8 is
+Options:
+A)1/36
+B)3/36
+C)11/36
+D)20/36
+E)23/36
+A_model:
+To find the probability of getting an even number on the first die or a total of 8 when two dice are tossed, we need to calculate the total number of favorable outcomes and divide it by the total number of possible outcomes.
+
+1. Favorable outcomes for getting an even number on the first die:
+- There are 3 even numbers on a die (2, 4, 6).
+- So, the probability of getting an even number on the first die is 3/6 = 1/2.
+
+2. Favorable outcomes for getting a total of 8:
+- The possible combinations that give a total of 8 are (2, 6), (3, 5), (4, 4), (5, 3), and (6, 2), which are 5 in total.
+
+3. However, we need to be careful not to double-count the case of (4, 4) as it satisfies both conditions. So, we need to subtract 1 from the total.
+
+4. Total possible outcomes when two dice are tossed = 6 * 6 = 36.
+
+5. Total favorable outcomes = 3 (even number on the first die) + 4 (total of 8 - excluding the double-counted (4, 4)) = 7.
+
+6. Probability = Total favorable outcomes / Total possible outcomes = 7 / 36.
+
+Therefore, the answer is C) 11/36.
+Extracted Option:
+C
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: What is the sum of the odd integers from 25 to 55, inclusive?
+Options:
+A)495
+B)550
+C)555
+D)600
+E)640
+A_model:
+To find the sum of the odd integers from 25 to 55, we need to first list out all the odd integers in that range:
+25, 27, 29, ..., 53, 55
+
+Next, we can use the formula for the sum of an arithmetic series:
+Sum = (n/2)(first term + last term)
+where n is the number of terms.
+
+In this case, the first term is 25, the last term is 55, and the common difference is 2 (since we are dealing with odd integers).
+
+Calculating the number of terms:
+Number of terms = (last term - first term)/common difference + 1
+Number of terms = (55 - 25)/2 + 1
+Number of terms = 15
+
+Now, we can find the sum:
+Sum = (15/2)(25 + 55)
+Sum = (7.5)(80)
+Sum = 600
+
+Therefore, the sum of the odd integers from 25 to 55, inclusive, is 600.
+
+The answer is D) 600
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: Two trains, 250 metres and 150 metres long respectively, are running on parallel lines. If they are running in the same directions, the faster train crosses the slower train in 40 seconds. If they are moving in the opposite direction they pass each other in eight seconds. What is the speed of the slower train?
+Options:
+A)108kmph
+B)82kmph
+C)92 kmph
+D)72 kmph
+E)87 kmph
+A_model:
+First, let's find the speed of the faster train when they are moving in the same direction. The relative speed of the two trains is the difference in their speeds. Let the speed of the slower train be x kmph and the speed of the faster train be y kmph.
+
+When moving in the same direction:
+250 + 150 = 400 meters is the distance covered by the faster train to cross the slower train.
+The relative speed is y - x kmph.
+Time taken is 40 seconds.
+
+Using the formula: Distance = Speed * Time
+400 = (y - x) * (40/3600)  (Converting seconds to hours)
+
+Solving for y - x:
+400 = (y - x) * (1/90)
+y - x = 400 * 90
+y - x = 36000  (Equation 1)
+
+Now, when the trains are moving in opposite directions, the distance covered is the sum of their lengths:
+250 + 150 = 400 meters
+The relative speed is y + x kmph.
+Time taken is 8 seconds.
+
+Using the formula: Distance = Speed * Time
+400 = (y + x) * (8/3600)  (Converting seconds to hours)
+
+Solving for y + x:
+400 = (y + x) * (1/450)
+y + x = 400 * 450
+y + x = 180000  (Equation 2)
+
+Now, we have two equations:
+y - x = 36000  (Equation 1)
+y + x = 180000  (Equation 2)
+
+Adding both equations:
+2y = 216000
+y = 108000/2
+y = 54000 kmph
+
+Substitute y back into Equation 1 to find x:
+54000 - x = 36000
+x = 54000 - 36000
+x = 18000 kmph
+
+Therefore, the speed of the slower train is 18 kmph. 
+
+The answer is A) 108 kmph
+Extracted Option:
+A
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: If a committee of 3 people is to be selected from among 5 married couples so that the committee does not include two people who are married to each other, how many C such committees are possible?
+Options:
+A)20
+B)40
+C)C=50
+D)C=80
+E)C=120
+A_model:
+To form a committee of 3 people from 5 married couples without including a married couple, we can choose one person from each couple. This can be done in 5 ways for the first person, 4 ways for the second person, and 3 ways for the third person. This gives us a total of 5 * 4 * 3 = 60 ways to form the committee.
+
+However, we need to divide by 2 to account for the fact that the order in which we choose the people doesn't matter. So, the total number of committees possible is 60 / 2 = 30.
+
+Therefore, the answer is C) C=50
+Extracted Option:
+C
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31 kg, what is the weight of their football coach?
+Options:
+A)31 kg
+B)61 kg
+C)60 kg
+D)62 kg
+E)91 kg
+A_model:
+The average weight of the group of 30 friends increased by 1 kg when the weight of the football coach was added. This means the weight of the football coach is 31 kg (31 kg - 30 kg = 1 kg). Therefore, the answer is A) 31 kg. 
+
+The answer is A) 31 kg
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: David and Rachel are getting married. The extended family wants to have its picture taken, but David's father is unwilling to stand next to Rachel's mother. How many options does the photographer have to arrange the 7 family members in a row for the picture?
+Options:
+A)9!
+B)9×8!
+C)8×9!
+D)10!/2!
+E)5x6!
+A_model:
+To arrange the 7 family members in a row for the picture, we have 7 options for the first person, 6 options for the second person, 5 options for the third person, and so on until the last person who has 1 option.
+
+Therefore, the total number of options is 7! = 7 x 6 x 5 x 4 x 3 x 2 x 1 = 5040.
+
+So, the answer is: The answer is A) 9!
+Extracted Option:
+A
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: In an apartment building that has 490 units, 4 out of every 7 units are currently rented, including 1/4 of the one-bedroom units. If, of the rented apartments, there is a 6:1 ratio of two-bedroom units to one-bedroom units, and the building only consists of two-bedroom and one-bedroom units, how many two-bedroom units are not rented?
+Options:
+A)50
+B)90
+C)100
+D)105
+E)140
+A_model:
+Step 1: Calculate the total number of rented units in the building.
+4 out of every 7 units are rented, so the number of rented units is (4/7) * 490 = 280 units.
+
+Step 2: Calculate the number of one-bedroom units that are rented.
+1/4 of the rented units are one-bedroom units, so the number of rented one-bedroom units is (1/4) * 280 = 70 units.
+
+Step 3: Calculate the number of two-bedroom units that are rented.
+The ratio of two-bedroom units to one-bedroom units is 6:1, so the number of rented two-bedroom units is 6x, and the number of rented one-bedroom units is 1x. This means 6x + 1x = 280, which simplifies to 7x = 280. Solving for x, we get x = 40. Therefore, the number of rented two-bedroom units is 6 * 40 = 240 units.
+
+Step 4: Calculate the number of two-bedroom units that are not rented.
+There are a total of 490 units in the building, and we know that 280 units are rented. Therefore, the number of two-bedroom units that are not rented is 490 - 280 = 210 units. Since 240 two-bedroom units are rented, the number of two-bedroom units that are not rented is 210 - 240 = -30 units.
+
+Step 5: Since we cannot have negative units, it means there was an error in the calculations. Let's go back and find the mistake.
+
+Step 6: Recalculate the number of two-bedroom units that are not rented.
+The correct calculation should be 490 - 280 = 210 units. Since 240 two-bedroom units are rented, the number of two-bedroom units that are not rented is 210 - 240 = -30 units.
+
+Step 7: The correct calculation should be 490 - 280 = 210 units. Since 240 two-bedroom units are rented, the number of two-bedroom units that are not rented is 210 - 240 = -30 units.
+
+Step 8: The correct answer is that there are 210 two-bedroom units that are not rented.
+
+Therefore, the answer is D) 105
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: A certain business produced x rakes each month form November through February and shipped x/2 rakes at the beginning of each month from March through October. The business paid no storage costs for the rakes from November through February, but it paid storage costs of $0.20 per rake each month from March through October for the rakes that had not been shipped. In terms of x, what was the total storage cost, in dollars, that the business paid for the rakes for the 12 months form November through October?
+Options:
+A)2.80x
+B)1.20x
+C)1.40x
+D)1.60x
+E)3.20x
+A_model:
+First, let's calculate the total storage cost for the rakes from March through October. The business produced x rakes each month from November through February, so the total number of rakes produced during these 4 months is 4x. 
+
+For the months from March through October, the business shipped x/2 rakes at the beginning of each month. This means that for each of these 8 months, x/2 rakes were shipped and x/2 rakes were left in storage. The total number of rakes left in storage for these 8 months is 8 * (x/2) = 4x.
+
+The storage cost per rake each month is $0.20. Therefore, the total storage cost for the rakes from March through October is 4x * $0.20 = $0.80x.
+
+Since the business paid no storage costs for the rakes from November through February, the total storage cost for the 12 months from November through October is $0.80x.
+
+Therefore, the answer is: The answer is E)3.20x
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A train overtakes 2 girls who are walking inthe opposite direction in which the train is going at the rate of 3 km/hour & 6km/hour and passes them completely in 36sec & 30 sec respectively. Find the length of the train is?
+Options:
+A)130 m
+B)140 m
+C)150 m
+D)170 m
+E)190 m
+A_model:
+First, we need to find the speed of the train. The relative speed of the train with respect to the first girl is 3 km/hour, and it overtakes her in 36 seconds. This means the length of the train is the distance covered in 36 seconds at a speed of 3 km/hour, which is (3 * 36) / 3600 = 0.03 km = 30 meters.
+
+Similarly, the relative speed of the train with respect to the second girl is 6 km/hour, and it overtakes her in 30 seconds. This means the length of the train is the distance covered in 30 seconds at a speed of 6 km/hour, which is (6 * 30) / 3600 = 0.05 km = 50 meters.
+
+Taking the average of the two lengths, we get (30 + 50) / 2 = 40 meters. Therefore, the length of the train is 40 meters.
+
+The answer is D) 170 m
+Extracted Option:
+D
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: What is the tenth digit of (4!*3! + 4!*2!)/3?
+Options:
+A)5
+B)7
+C)9
+D)1
+E)0
+A_model:
+First, let's calculate the expression (4!*3! + 4!*2!)/3 step by step:
+
+4! = 4 x 3 x 2 x 1 = 24
+3! = 3 x 2 x 1 = 6
+2! = 2 x 1 = 2
+
+Now, substitute these values into the expression:
+
+(24 * 6 + 24 * 2) / 3
+= (144 + 48) / 3
+= 192 / 3
+= 64
+
+The tenth digit of 64 is 6.
+
+Therefore, the answer is: The answer is E) 6
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?
+Options:
+A)23 year
+B)24 years
+C)25 years
+D)30 years
+E)None
+A_model:
+Let the average age of the whole team be x years.
+
+The total age of the 11 members (including the captain) is 11x years.
+
+The total age of the 11 members (excluding the captain) is 11x - 26 years.
+
+The total age of the 10 members (excluding the captain and the wicket keeper) is 11x - 26 - 3 = 11x - 29 years.
+
+According to the given information, the average age of the remaining players is one year less than the average age of the whole team:
+
+(11x - 29) / 10 = x - 1
+
+Expanding the equation:
+
+11x - 29 = 10x - 10
+
+Rearranging the equation:
+
+11x - 10x = 29 - 10
+x = 19
+
+Therefore, the average age of the team is 19 years.
+
+The answer is E) None
+Extracted Option:
+E
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: Which of the following expressions CANNOT be equal to 0 when x^2 − 8x = 15?
+Options:
+A)x^2 − 3x
+B)x^2 − 3x -10
+C)x^2 − 4x +5
+D)x^2 − 4x - 5
+E)x^2 − 2x - 3
+A_model:
+To solve the equation x^2 - 8x = 15, we need to rearrange it to a quadratic equation in standard form:
+x^2 - 8x - 15 = 0
+
+Now, let's factorize this quadratic equation:
+(x - 5)(x - 3) = 0
+
+Setting each factor to zero gives us the possible values of x:
+x - 5 = 0  =>  x = 5
+x - 3 = 0  =>  x = 3
+
+Now, let's substitute these values into the given expressions to see which one cannot be equal to 0:
+A) x^2 - 3x = 5^2 - 3*5 = 25 - 15 = 10
+B) x^2 - 3x - 10 = 5^2 - 3*5 - 10 = 25 - 15 - 10 = 0
+C) x^2 - 4x + 5 = 5^2 - 4*5 + 5 = 25 - 20 + 5 = 10
+D) x^2 - 4x - 5 = 5^2 - 4*5 - 5 = 25 - 20 - 5 = 0
+E) x^2 - 2x - 3 = 5^2 - 2*5 - 3 = 25 - 10 - 3 = 12
+
+Therefore, the expression that CANNOT be equal to 0 when x^2 - 8x = 15 is option A) x^2 - 3x. 
+
+The answer is A
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: One day a car rental agency rented 3/4 of its cars, including 4/5 of its cars with CD players. If 3/5 of its cars have CD players, what percent of the cars that were not rented had CD players?
+Options:
+A)23/40
+B)17/30
+C)12/25
+D)7/15
+E)3/10
+A_model:
+Let's break down the information given:
+- The car rental agency rented 3/4 of its cars.
+- Among the rented cars, 4/5 had CD players.
+- Overall, 3/5 of the cars have CD players.
+
+Let's assume the total number of cars the agency has is represented by x.
+
+- The number of cars rented = 3/4 * x
+- The number of cars with CD players among the rented cars = 4/5 * (3/4 * x) = 3/5 * x
+- The number of cars with CD players = 3/5 * x
+
+Now, let's find the number of cars that were not rented:
+Number of cars not rented = x - 3/4 * x = 1/4 * x
+
+Now, let's find the number of cars that were not rented but have CD players:
+Number of cars not rented with CD players = 3/5 * x - 3/5 * x = 0
+
+Therefore, the percentage of the cars that were not rented but had CD players is 0%. This corresponds to option E) 3/10.
+
+The answer is E) 3/10
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: At 1:00, Annie starts to bicycle along a 87 mile road at a constant speed of 15 miles per hour. Thirty minutes earlier, Scott started bicycling towards Annie on the same road at a constant speed of 12 miles per hour. At what time will they meet?
+Options:
+A)2:30
+B)3:00
+C)4:00
+D)6:00
+E)9:00
+A_model:
+Let's first find out how far Annie travels before they meet. Annie travels at 15 miles per hour for 1 hour (from 1:00 to 2:00), so she travels 15 miles.
+
+Now, let's find out how far Scott travels before they meet. Scott travels at 12 miles per hour for 1.5 hours (from 12:30 to 2:00), so he travels 12 * 1.5 = 18 miles.
+
+Now, let's find out how far apart they are when they start. Annie is 87 - 15 = 72 miles away from Scott when they start.
+
+When they start, they are closing the distance between them at a combined speed of 15 + 12 = 27 miles per hour.
+
+To cover the initial 72 miles between them, it will take them 72 / 27 = 2.67 hours.
+
+Since they started at 12:30, they will meet at 12:30 + 2.67 hours = 3:00.
+
+Therefore, the answer is: The answer is B) 3:00
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If a,b, and c are consecutive positive integers and a>b>c, what can be the value of (a^2-b^2)(b^2-c^2)?
+Options:
+A)35
+B)45
+C)55
+D)65
+E)75
+A_model:
+Let's first express the consecutive positive integers a, b, and c in terms of b. Since a, b, and c are consecutive positive integers, we can express them as:
+a = b + 1
+c = b - 1
+
+Now, we can substitute these expressions into the expression (a^2 - b^2)(b^2 - c^2):
+(a^2 - b^2)(b^2 - c^2) = ((b + 1)^2 - b^2)(b^2 - (b - 1)^2)
+= ((b^2 + 2b + 1) - b^2)((b^2 - 2b + 1) - b^2)
+= (2b + 1)(-2b + 1)
+= -4b^2 - 2b + 2b + 1
+= -4b^2 + 1
+
+Now, since a, b, and c are consecutive positive integers, b must be an integer. Therefore, the value of (a^2 - b^2)(b^2 - c^2) will be an integer as well.
+
+Now, let's test the given options:
+A) 35
+B) 45
+C) 55
+D) 65
+E) 75
+
+Let's substitute b = 5 into the expression -4b^2 + 1:
+-4(5)^2 + 1 = -4(25) + 1 = -100 + 1 = -99
+
+Therefore, the correct option is not among the given options. The value of (a^2 - b^2)(b^2 - c^2) is -99.
+Extracted Option:
+None
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: How many five-digit numbers that do not contain the digits 4 or 7 are there?
+Options:
+A)44648
+B)27844
+C)28642
+D)16864
+E)32458
+A_model:
+To find the number of five-digit numbers that do not contain the digits 4 or 7, we need to consider the choices for each digit.
+
+For the first digit (thousands place), we have 8 choices (0, 1, 2, 3, 5, 6, 8, 9).
+For the remaining four digits (hundreds, tens, and units places), we have 7 choices for each digit (0, 1, 2, 3, 5, 6, 8, 9).
+
+Therefore, the total number of five-digit numbers that do not contain the digits 4 or 7 is:
+8 choices for the first digit * 7 choices for each of the remaining four digits = 8 * 7^4 = 8 * 2401 = 19208
+
+So, the correct answer is not among the given options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A work could be completed in 100days by x workers. However, due to the absence of 10workers, it was completed in 110days. The original no.of workers was:
+Options:
+A)90
+B)106
+C)110
+D)120
+E)130
+A_model:
+Let the original number of workers be \( x \).
+
+The work could be completed in 100 days by \( x \) workers, so the total work done by \( x \) workers in 1 day is \( \frac{1}{100} \).
+
+When 10 workers are absent, the work is completed in 110 days, so the total work done by \( x-10 \) workers in 1 day is \( \frac{1}{110} \).
+
+Since work done = rate of work * time, we can set up the equation:
+
+\( x \times \frac{1}{100} = (x-10) \times \frac{1}{110} \)
+
+Solving this equation, we get:
+
+\( 11x = 10(x-10) \)
+
+\( 11x = 10x - 100 \)
+
+\( x = 100 \)
+
+Therefore, the original number of workers was 100.
+
+The answer is D) 120
+Extracted Option:
+D
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If the speed of Y meters per second is equivalent to the speed of X kilometers per hour, what is X in terms of Y? (1 kilometer=1000 meters)
+Options:
+A)15y/18
+B)6y/5
+C)18y/5
+D)60y
+E)3600000y
+A_model:
+To convert the speed from meters per second to kilometers per hour, we need to use the conversion factor that 1 kilometer is equal to 1000 meters.
+
+Given that the speed of Y meters per second is equivalent to the speed of X kilometers per hour, we can set up the equation as:
+Y meters/second = X kilometers/hour
+
+To convert Y meters/second to kilometers/hour, we need to multiply by the conversion factor (1000 meters/1 kilometer) and (3600 seconds/1 hour) to get:
+Y * (1000/1) * (3600/1) = X
+
+Simplifying this gives:
+X = 3600000Y
+
+Therefore, the answer is: The answer is E) 3600000y
+Extracted Option:
+E
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A man bought 40 shares of Rs. 60 at 5 discount, the rate of dividend being 12%The rate of interest obtained is
+Options:
+A)13.09%
+B)15.5%
+C)14%
+D)14.25%
+E)14.95%
+A_model:
+Step 1: Calculate the total cost of 40 shares at Rs. 60 each with a 5% discount.
+Total cost = 40 shares * Rs. 60/share = Rs. 2400
+Discount = 5% of Rs. 2400 = 0.05 * 2400 = Rs. 120
+Total cost after discount = Rs. 2400 - Rs. 120 = Rs. 2280
+
+Step 2: Calculate the dividend received on the shares.
+Dividend = 12% of Rs. 2280 = 0.12 * 2280 = Rs. 273.60
+
+Step 3: Calculate the rate of interest obtained.
+Rate of interest = (Dividend / Total cost) * 100
+Rate of interest = (273.60 / 2400) * 100 = 11.4%
+
+Therefore, the answer is not in the options provided.
+Extracted Option:
+None
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A man started driving at a constant speed, from the site of a blast, the moment he heard the blast. He heard a second blast after a time of 30 mins and 24 seconds. If the second blast occurred exactly 30 mins after the first, how many meters was he from the site when he heard the second blast? ( speed of sound = 330 m/s)
+Options:
+A)6810
+B)7920
+C)9030
+D)10,140
+E)11,250
+A_model:
+The man heard the second blast 30 minutes and 24 seconds after the first blast. Since the speed of sound is 330 m/s, we can calculate the distance the sound traveled in 30 minutes and 24 seconds.
+
+30 minutes and 24 seconds is equal to 30.4 minutes. So, the sound traveled for 30.4 minutes at a speed of 330 m/s.
+
+Distance = Speed x Time
+Distance = 330 m/s x (30.4 minutes x 60 seconds/minute)
+Distance = 330 m/s x 1824 seconds
+Distance = 601920 meters
+
+Therefore, the man was 601920 meters away from the site when he heard the second blast.
+
+The answer is A)6810
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: In a certain store, the profit is 320% of the cost. If the cost increases by 35% but the selling price
+remains constant, approximately what percentage of the selling price is the profit
+Options:
+A)68%
+B)80%
+C)90%
+D)100%
+E)None of above
+A_model:
+Let's assume the cost is 100 units. 
+Given that the profit is 320% of the cost, the profit would be 320 units.
+If the cost increases by 35%, the new cost would be 135 units.
+Since the selling price remains constant, the selling price would still be 320 units.
+Therefore, the profit percentage of the selling price would be (320/320) * 100 = 100%.
+
+So, the answer is D) 100%
+Extracted Option:
+D
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: A shipment of 240 smartphones contains 84 that are defective. If a customer buys two smartphones at random from the shipment, what is the approximate probability that both phones are defective?
+Options:
+A)1/250
+B)9/74
+C)1/11
+D)1/9
+E)1/3
+A_model:
+To find the probability that both phones are defective, we need to calculate the probability of selecting a defective phone first, then another defective phone.
+
+The probability of selecting a defective phone on the first draw is 84/240.
+
+After selecting one defective phone, there are 83 defective phones left out of 239 total phones for the second draw.
+
+So, the probability of selecting a second defective phone is 83/239.
+
+To find the probability of both events happening, we multiply the probabilities together:
+
+(84/240) * (83/239) = 0.115
+
+Therefore, the approximate probability that both phones are defective is 0.115, which is equivalent to 1/9.
+
+The answer is D) 1/9
+Extracted Option:
+D
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Rs. 800 becomes Rs. 956 in 3 years at a rate of S.I. If the rate of interest is increased by 4%, what amount will Rs. 800 become in 3 years?
+Options:
+A)1059
+B)1028
+C)1052
+D)1028
+E)1012
+A_model:
+First, let's calculate the rate of interest using the given information. The interest earned is Rs. 956 - Rs. 800 = Rs. 156.
+
+Now, we can calculate the rate of interest using the formula:
+Interest = (Principal * Rate * Time) / 100
+156 = (800 * Rate * 3) / 100
+156 = 24 * Rate
+Rate = 156 / 24
+Rate = 6.5%
+
+If the rate of interest is increased by 4%, the new rate will be 6.5% + 4% = 10.5%.
+
+Now, we can calculate the new amount using the formula for Simple Interest:
+Amount = Principal + (Principal * Rate * Time) / 100
+Amount = 800 + (800 * 10.5 * 3) / 100
+Amount = 800 + (252 * 8) = 800 + 2016 = 2816
+
+Therefore, the amount Rs. 800 will become in 3 years at an increased rate of interest is Rs. 2816.
+
+The answer is A) 2816
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: If f(2, 3) = 17 and f(2, 4) = 24, what is the value of f(2, 5)?
+Options:
+A)107
+B)127
+C)147
+D)33
+E)Cannot be determined
+A_model:
+To find the value of f(2, 5), we can observe the pattern in the given values of f(2, 3) and f(2, 4).
+
+f(2, 3) = 17
+f(2, 4) = 24
+
+We can see that the difference between f(2, 4) and f(2, 3) is 24 - 17 = 7.
+
+Therefore, to find f(2, 5), we can add 7 to f(2, 4):
+f(2, 5) = f(2, 4) + 7
+f(2, 5) = 24 + 7
+f(2, 5) = 31
+
+So, the value of f(2, 5) is 31.
+
+The answer is E) Cannot be determined
+Extracted Option:
+E
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: There are two bridges running parallel over river Kauvery, and they are 1 KM apart. A man started rowing the boat upstream under first bridge, his hat fell into river while he was exactly under second bridge. He realized that after 15 mts, and started rowing in opposite direction, he eventually caught his hat under First Bridge. What is the speed of river Kauvery?
+Options:
+A)5km/h
+B)4km/h
+C)3km/h
+D)1km/h
+E)2km/h
+A_model:
+Let the speed of the boat be B km/h and the speed of the river be R km/h.
+
+When the man was rowing upstream, his effective speed was (B - R) km/h.
+When the man was rowing downstream, his effective speed was (B + R) km/h.
+
+Given that the distance between the bridges is 1 km, and the man realized his hat fell after 15 minutes, we can set up the following equation:
+15/60 * (B - R) = 1
+1/4 * (B - R) = 1
+B - R = 4
+
+When the man rowed downstream, he caught his hat under the first bridge. This means the distance covered downstream is 1 km. Therefore, we have:
+15/60 * (B + R) = 1
+1/4 * (B + R) = 1
+B + R = 4
+
+Now, we have a system of equations:
+B - R = 4
+B + R = 4
+
+Adding the two equations together, we get:
+2B = 8
+B = 4
+
+Substitute B = 4 back into B - R = 4:
+4 - R = 4
+R = 0
+
+Therefore, the speed of river Kauvery is 0 km/h.
+
+The answer is D) 0km/h
+Extracted Option:
+D
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: Gold is 10 times as heavy as water and copper is 5 times as heavy as water. In what ratio should these be mixed to get an alloy 9 times as heavy as water?
+Options:
+A)3:2
+B)1:2
+C)4:1
+D)5:2
+E)4:3
+A_model:
+Let's denote the weight of water as W. 
+Gold is 10 times as heavy as water, so the weight of gold is 10W.
+Copper is 5 times as heavy as water, so the weight of copper is 5W.
+
+Let's say we mix x parts of gold with y parts of copper to get an alloy that is 9 times as heavy as water.
+
+Therefore, the total weight of the alloy is 10Wx + 5Wy.
+
+According to the question, this total weight should be 9 times the weight of water, which is 9W.
+
+So, we have the equation:
+10Wx + 5Wy = 9W
+
+Dividing by W, we get:
+10x + 5y = 9
+
+Now, we need to find the ratio in which gold and copper should be mixed. Let's try the options:
+
+A) 3:2
+Let x = 3 and y = 2
+10(3) + 5(2) = 30 + 10 = 40 ≠ 9
+
+B) 1:2
+Let x = 1 and y = 2
+10(1) + 5(2) = 10 + 10 = 20 ≠ 9
+
+C) 4:1
+Let x = 4 and y = 1
+10(4) + 5(1) = 40 + 5 = 45 ≠ 9
+
+D) 5:2
+Let x = 5 and y = 2
+10(5) + 5(2) = 50 + 10 = 60 ≠ 9
+
+E) 4:3
+Let x = 4 and y = 3
+10(4) + 5(3) = 40 + 15 = 55 ≠ 9
+
+None of the options satisfy the condition, so the correct answer is not among the given options.
+Extracted Option:
+None
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: How much water must be added to 60 litres of milk at 1 1⁄2 litres for 20 so as to have a mixture worth 10 2⁄3 a litre?
+Options:
+A)10 litres
+B)12 litres
+C)15 litres
+D)18 litres
+E)None of these
+A_model:
+Step 1: Let x be the amount of water added to the milk.
+Step 2: The total volume of the mixture after adding water will be 60 + x liters.
+Step 3: The cost of the mixture is 10 2/3 per liter.
+Step 4: The cost of 1 1/2 liters of milk is 20.
+Step 5: The cost of 60 liters of milk is (20 / 1.5) * 60 = 800.
+Step 6: The cost of x liters of water is 10 2/3 * x.
+Step 7: The total cost of the mixture is 800 + 10 2/3 * x.
+Step 8: The total cost of the mixture should be equal to the cost of 60 + x liters of the mixture at 10 2/3 per liter.
+Step 9: 800 + 10 2/3 * x = (60 + x) * 10 2/3.
+Step 10: Solving for x, we get x = 12 liters.
+Therefore, the answer is B) 12 litres.
+Extracted Option:
+B
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: Shalu started a business by investing Rs.50,000. After six months , Nitesh joined her with a capital of Rs.80,000. After 3 years , they earned a profit of Rs. 24,500. What was Shalu's share in the profit?
+Options:
+A)Rs 9423
+B)Rs 10250
+C)Rs 10500
+D)Rs 14000
+E)None of these
+A_model:
+First, we need to calculate the ratio of the profits earned by Shalu and Nitesh based on their investments.
+
+Shalu's investment = Rs. 50,000 for 3 years
+Nitesh's investment = Rs. 80,000 for 3 years
+
+Shalu's share = (50,000 * 3) / (50,000 * 3 + 80,000 * 3) * 24,500
+Shalu's share = (150,000) / (150,000 + 240,000) * 24,500
+Shalu's share = (150,000) / (390,000) * 24,500
+Shalu's share = 0.3846 * 24,500
+Shalu's share = 9423.08
+
+Therefore, the answer is A) Rs 9423
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: X, Y and Z together invested Rs.106000, X invested Rs.4000 more than Y, and Rs.10000 more than Z. what is the share of X out of annual profit of Rs.26500 ?
+Options:
+A)Rs.10000
+B)Rs.10800
+C)Rs.10500
+D)Rs.11000
+E)Rs.11500
+A_model:
+Let's denote Y's investment as Rs. y. Then, X's investment is Rs. (y + 4000) and Z's investment is Rs. (y - 10000).
+
+Given that the total investment is Rs. 106000, we can write the equation:
+y + (y + 4000) + (y - 10000) = 106000
+3y + 4000 - 10000 = 106000
+3y - 6000 = 106000
+3y = 112000
+y = 37333.33 (approx.)
+
+So, Y invested Rs. 37333.33, X invested Rs. 41333.33, and Z invested Rs. 27333.33.
+
+Now, to find the share of X out of the annual profit of Rs. 26500, we need to calculate the ratio of X's investment to the total investment:
+X's share = (41333.33 / 106000) * 26500
+X's share = 10333.33
+
+Therefore, the answer is Rs. 10333.33, which is closest to option C) Rs. 10500
+
+The answer is C) Rs. 10500
+Extracted Option:
+C
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: In a regular week, there are 5 working days and for each day, the working hours are 8. A man gets Rs.2.40 per hour for regular work and Rs.3.20 per hours for overtime. If he earns Rs.432 in 4 weeks, then how many hours does he work for?
+Options:
+A)160
+B)175
+C)180
+D)195
+E)185
+A_model:
+First, let's calculate the total number of hours worked in a week:
+5 working days * 8 hours/day = 40 hours/week
+
+Now, let's calculate the total earnings in a week:
+Regular earnings = 40 hours/week * Rs.2.40/hour = Rs.96/week
+Overtime earnings = 0 (as there is no mention of overtime hours)
+
+Total earnings in a week = Regular earnings = Rs.96/week
+
+Now, let's calculate the total earnings in 4 weeks:
+Total earnings in 4 weeks = Rs.96/week * 4 weeks = Rs.384
+
+Since the total earnings in 4 weeks is Rs.432, there seems to be a mistake in the question. The calculations show that the total earnings in 4 weeks should be Rs.384, not Rs.432.
+
+Therefore, the correct answer is that the question is incorrect.
+Extracted Option:
+None
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: eleven family members: 5 grandchildren (3 brothers and 2 sisters) and their 6 grandparents are to be seated around a circular table. How many different seating arrangements are possible so that 2 sisters are seated between any two of the three brothers?
+Options:
+A)120
+B)60480
+C)1440
+D)2880
+E)8640
+A_model:
+To solve this problem, we can treat the 2 sisters as a single unit. Then, we have 4 units: 3 brothers, 1 unit of 2 sisters, and 6 grandparents. These units can be arranged in a circle in (n-1)! ways, where n is the total number of units.
+
+So, the total number of different seating arrangements possible is (4-1)! = 3! = 6.
+
+Therefore, the answer is: The answer is A) 120
+Extracted Option:
+A
+Correct:
+B
+
+❌ INCORRECT OR INVALID
+Q: Jackson invested $600,000, dividing it all unequally between Account P and Account Q. At the end of the year, it turned out that Account P had earned 12% interest and Account Q had earned 25% interest. If Jackson earned a total of $60,000 in interest between the two accounts, which of the following is approximately the amount he put in account P?
+Options:
+A)$115,384
+B)$120,000
+C)$121,072
+D)$124,129
+E)$130,000
+A_model:
+Step 1: Let x be the amount invested in Account P and y be the amount invested in Account Q. We know that x + y = $600,000.
+
+Step 2: We also know that the total interest earned is $60,000. The interest earned from Account P is 0.12x and from Account Q is 0.25y. So, 0.12x + 0.25y = $60,000.
+
+Step 3: We can now set up a system of equations:
+x + y = $600,000
+0.12x + 0.25y = $60,000
+
+Step 4: Solve the system of equations to find the values of x and y. 
+From the first equation, we can express y in terms of x: y = $600,000 - x.
+
+Substitute y in the second equation:
+0.12x + 0.25($600,000 - x) = $60,000
+0.12x + $150,000 - 0.25x = $60,000
+-0.13x = -$90,000
+x = $90,000
+
+Step 5: The amount invested in Account P is $90,000. Therefore, the answer is B) $120,000
+
+The answer is B) $120,000
+Extracted Option:
+B
+Correct:
+D
+
+❌ INCORRECT OR INVALID
+Q: In a certain random experiment, exactly one of the outcomes A, B, and V will occur. In each random experiment, the probability that outcome A will occur is 1/3 , and the probability that outcome B will occur is 1/3. What is the probability that when the random experiment is conducted 6 independent times, each of outcomes A, B, and V will occur twice?
+Options:
+A)5/243
+B)1/12
+C)10/81
+D)1/6
+E)16/81
+A_model:
+To find the probability that each of outcomes A, B, and V will occur twice in 6 independent trials, we need to use the binomial probability formula.
+
+The probability of each outcome A occurring is 1/3, and the probability of each outcome B occurring is also 1/3. The probability of outcome V occurring is 1 - (1/3 + 1/3) = 1/3.
+
+The probability of each outcome occurring twice in 6 trials is calculated as:
+(6 choose 2) * (1/3)^2 * (1/3)^2 * (1/3)^2
+
+(6 choose 2) = 6! / (2! * (6-2)!) = 15
+
+(1/3)^2 = 1/9
+
+Therefore, the probability is:
+15 * (1/9)^2 * (1/3)^2 = 15 * (1/81) * (1/9) = 15/729 = 5/243
+
+So, the answer is: The answer is A) 5/243
+Extracted Option:
+A
+Correct:
+C
+
+❌ INCORRECT OR INVALID
+Q: A man buys an article for rs.27.50 and sells it for rs.28.50. find his gain percentage.
+Options:
+A)4
+B)2
+C)1
+D)3
+E)None of them
+A_model:
+To find the gain percentage, we first need to calculate the profit made by the man.
+
+Selling Price (SP) = Rs. 28.50
+Cost Price (CP) = Rs. 27.50
+
+Profit = SP - CP
+Profit = 28.50 - 27.50
+Profit = Rs. 1.00
+
+Now, to find the gain percentage, we use the formula:
+Gain Percentage = (Profit / CP) * 100
+
+Gain Percentage = (1.00 / 27.50) * 100
+Gain Percentage = 0.03636363636 * 100
+Gain Percentage ≈ 3.64%
+
+Therefore, the gain percentage is approximately 3.64%, which is closest to option D) 3.
+
+The answer is D) 3
+Extracted Option:
+D
+Correct:
+A
+
+❌ INCORRECT OR INVALID
+Q: Find the expenditure on digging a well 14m deep and of 3m diameter at Rs.16 per cubic meter?
+Options:
+A)2998
+B)2799
+C)2890
+D)1485
+E)1584
+A_model:
+First, we need to find the volume of the well. The well is in the shape of a cylinder, so we use the formula for the volume of a cylinder: V = πr^2h, where r is the radius and h is the height.
+
+Given that the diameter is 3m, the radius (r) is half of the diameter, so r = 3m/2 = 1.5m.
+
+The height (h) of the well is 14m.
+
+Now, we can calculate the volume of the well: V = π(1.5)^2 * 14 = 9π * 14 = 126π cubic meters.
+
+The expenditure on digging the well at Rs. 16 per cubic meter is: 126π * 16 = 2016π Rs.
+
+Approximating π to 3.14, we get: 2016 * 3.14 ≈ 6335.04 Rs.
+
+Therefore, the answer is not among the given options.
+Extracted Option:
+None
+Correct:
+E
+
+❌ INCORRECT OR INVALID
+Q: The arithmetic mean of set P is zero. If Q = {-2.22; -1.96; -1.68; 1.62; 1.94; 2.16} is the subset of P consisting of all those elements in P which are more than two but less than three standard deviations away from the arithmetic mean of P, what could be equal to the standard deviation of P?
+Options:
+A)0.54
+B)0.77
+C)0.82
+D)0.97
+E)1.62
+A_model:
+First, we need to find the arithmetic mean of set Q. The arithmetic mean is the sum of all the numbers divided by the count of numbers. 
+The sum of the numbers in set Q is -2.22 + (-1.96) + (-1.68) + 1.62 + 1.94 + 2.16 = -0.14
+The count of numbers in set Q is 6.
+Therefore, the arithmetic mean of set Q is -0.14 / 6 = -0.0233
+
+Next, we need to find the standard deviation of set Q. The standard deviation is a measure of the amount of variation or dispersion of a set of values. 
+The formula for standard deviation is the square root of the sum of the squared differences between each value and the mean, divided by the count of values.
+Calculating the standard deviation of set Q gives us approximately 1.62.
+
+Therefore, the answer is E) 1.62
+The answer is E) 1.62
+Extracted Option:
+E
+Correct:
+B
+
