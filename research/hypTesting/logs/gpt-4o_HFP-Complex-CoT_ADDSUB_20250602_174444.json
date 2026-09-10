@@ -1,0 +1,1402 @@
+[
+    {
+        "question": "Joan grew 29 carrots and 14 watermelons . Jessica grew 11 carrots . How many carrots did they grow in all ? ",
+        "ground_truth": 40.0,
+        "response": "Hypothesis: To find the total number of carrots grown by Joan and Jessica, we need to add the number of carrots each of them grew.\n\nGiven values:\n\nJoan grew 29 carrots\nJessica grew 11 carrots\n\nStep 1: Add the number of carrots grown by Joan and Jessica.\n\nStep 2: Calculate the total number of carrots grown.\n\nStep 3: Execute the addition.\n\nStep 4: The answer is the total number of carrots grown by Joan and Jessica.\n\nThe answer is 40",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa picked 25 limes and Mike picked 32 limes . Tom picked 12 plums . How many limes were picked in all ? ",
+        "ground_truth": 57.0,
+        "response": "Hypothesis: To find the total number of limes picked by Alyssa and Mike, we need to add the number of limes each of them picked.\n\nGiven values:\n\nAlyssa picked 25 limes\n\nMike picked 32 limes\n\nStep 1: Add the number of limes picked by Alyssa and Mike.\n\nStep 2: Calculate the total number of limes picked.\n\nStep 3: Execute the addition.\n\n25 (limes picked by Alyssa) + 32 (limes picked by Mike) = 57\n\nThe answer is 57",
+        "parsed_answer": 57.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary had 21 dimes and 38 pennies in her bank . Her dad borrowed 18 pennies from Mary . How many pennies does she have now ? ",
+        "ground_truth": 20.0,
+        "response": "Hypothesis: To find the total number of pennies Mary has after her dad borrowed 18 pennies, we need to subtract the borrowed pennies from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial number of pennies = 38\n\nPennies borrowed by dad = 18\n\nStep 2: Calculation\n\nSubtract the number of pennies borrowed from the initial total:\n38 - 18 = 20\n\nStep 3: Final answer\n\nThe answer is 20",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "0.5 the students in the band are in the trumpet section . 0.125 the students in the band are in the trombone section . What fraction of the students in the band are in either the trumpet section or the trombone section ? ",
+        "ground_truth": 0.625,
+        "response": "Hypothesis: To find the fraction of students in either the trumpet section or the trombone section, we need to add the fractions of students in each section.\n\nStep 1: Define the fractions for each section:\nFraction of students in the trumpet section = 0.5\nFraction of students in the trombone section = 0.125\n\nStep 2: Add the fractions to find the total fraction in either section:\nTotal fraction = Fraction in trumpet section + Fraction in trombone section\n\nStep 3: Calculate the total fraction:\nTotal fraction = 0.5 + 0.125\nTotal fraction = 0.625\n\nThe answer is 0.625",
+        "parsed_answer": 0.625,
+        "is_correct": true
+    },
+    {
+        "question": "Melanie had 10 quarters and 17 pennies in her bank . Her dad gave her 27 pennies and her mother gave her 19 pennies . How many pennies does Melanie have now ? ",
+        "ground_truth": 63.0,
+        "response": "Hypothesis: To find the total number of pennies Melanie has after receiving additional pennies from her dad and mom, we need to add up all the pennies.\n\nStep 1: Known values and assumptions:\n\nInitial pennies = 17\n\nPennies from dad = 27\n\nPennies from mom = 19\n\nStep 2: Calculate the total number of pennies:\n\nTotal pennies = 17 (initial) + 27 (from dad) + 19 (from mom)\n\nStep 3: Perform the addition:\n\nTotal pennies = 17 + 27 + 19 = 63\n\nThe answer is 63",
+        "parsed_answer": 63.0,
+        "is_correct": true
+    },
+    {
+        "question": "Fred picked 36 limes , Alyssa picked 32 limes , and Nancy picked 35 limes and 18 pears , at the farm . How many limes were picked in total ? ",
+        "ground_truth": 103.0,
+        "response": "Hypothesis: To find the total number of limes picked, we need to add the number of limes picked by Fred, Alyssa, and Nancy.\n\nStep 1: Known values and assumptions:\n\nLimes picked by Fred = 36 limes\n\nLimes picked by Alyssa = 32 limes\n\nLimes picked by Nancy = 35 limes\n\nStep 2: Calculation\n\nTotal limes picked = 36 + 32 + 35 = 103\n\nThe answer is 103",
+        "parsed_answer": 103.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam went to 14 football games this year . He went to 29 games last year . How many football games did Sam go to in all ? ",
+        "ground_truth": 43.0,
+        "response": "Hypothesis: To find the total number of football games Sam went to in both years, we need to add the number of games he attended this year to the number of games he attended last year.\n\nGiven:\nNumber of football games this year = 14\nNumber of football games last year = 29\n\nStep 1: Add the number of games Sam attended this year to the number of games he attended last year.\n14 + 29 = 43\n\nThe answer is 43",
+        "parsed_answer": 43.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam has 16 blue and 25 green balloons . Alyssa has 21 blue balloons . How many blue balloons do they have in all ? ",
+        "ground_truth": 37.0,
+        "response": "Hypothesis: To find the total number of blue balloons Sam and Alyssa have, we need to add the number of blue balloons each person has.\n\nGiven values:\nSam's blue balloons = 16\nAlyssa's blue balloons = 21\n\nStep 1: Add the number of blue balloons Sam and Alyssa have.\n16 (Sam's blue balloons) + 21 (Alyssa's blue balloons) = 37\n\nThe answer is 37",
+        "parsed_answer": 37.0,
+        "is_correct": true
+    },
+    {
+        "question": "Some insects called aphids attack a large farm . In response , the farmer releases ladybugs onto the fields . There are 12170 ladybugs with spots and 54912 ladybugs without spots . How many ladybugs are there in all ? ",
+        "ground_truth": 67082.0,
+        "response": "Hypothesis: To find the total number of ladybugs, we need to add the ladybugs with spots to the ladybugs without spots.\n\nGiven values:\n\nLadybugs with spots = 12170\n\nLadybugs without spots = 54912\n\nStep 1: Add the ladybugs with spots to the ladybugs without spots.\n\nStep 2: Calculate the total number of ladybugs.\n\nStep 3: Execute the addition.\n\n12170 + 54912 = 67082\n\nTherefore, the answer is 67082.",
+        "parsed_answer": 67082.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 115 pencils in the drawer . Sara placed 100 pencils in the drawer . How many pencils are now there in all ? ",
+        "ground_truth": 215.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Sara adds more pencils, we need to add the initial number of pencils to the number Sara added.\n\nStep 1: Known values and assumptions:\n\nInitial pencils = 115\n\nPencils added by Sara = 100\n\nNo pencils are removed\n\nStep 2: Calculation:\n\nTotal pencils = Initial pencils + Pencils added by Sara\n\nStep 3: Substitute the values and compute:\n\nTotal pencils = 115 + 100 = 215\n\nStep 4: Final answer:\n\nThe answer is 215",
+        "parsed_answer": 215.0,
+        "is_correct": true
+    },
+    {
+        "question": "A restaurant served 4 pies during lunch and 9 during dinner today . The restaurant served 7 pies and 2 pizzas yesterday . How many pies were served in total ? ",
+        "ground_truth": 20.0,
+        "response": "Hypothesis: To find the total number of pies served, we need to sum the pies served during lunch, dinner, and the previous day.\n\nStep 1: Known values and assumptions:\n\nPies served during lunch = 4\n\nPies served during dinner = 9\n\nPies served yesterday = 7\n\nNo pies were served as pizzas\n\nStep 2: Calculate the total number of pies served:\n\nTotal pies served = Pies served during lunch + Pies served during dinner + Pies served yesterday\n\nStep 3: Substitute the known values into the formula:\n\nTotal pies served = 4 + 9 + 7\n\nStep 4: Perform the addition:\n\nTotal pies served = 20\n\nThe answer is 20",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tom found 7 seashells but 4 were broken . How many unbroken seashells did Tom find ? ",
+        "ground_truth": 3.0,
+        "response": "Hypothesis: To find the number of unbroken seashells Tom found, we need to subtract the number of broken seashells from the total number of seashells he found.\n\nStep 1: Known values and assumptions:\n\nTotal seashells found = 7\n\nBroken seashells = 4\n\nStep 2: Calculation\n\nNumber of unbroken seashells = Total seashells found - Broken seashells\n\nStep 3: Substitute the values into the formula\n\nNumber of unbroken seashells = 7 - 4\n\nNumber of unbroken seashells = 3\n\nThe answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Before starting her shift , a waitress checks to make sure there is enough mustard for her customers . She finds 0.25 bottle at the first table , 0.25 bottle at the second table , and 0.375 bottle at the third table . Altogether , how many bottles of mustard does the waitress find ? ",
+        "ground_truth": 0.875,
+        "response": "Hypothesis: To find the total number of mustard bottles the waitress finds, we need to add the amounts found at each table.\n\nStep 1: Known values and assumptions:\n\nMustard found at first table = 0.25 bottle\n\nMustard found at second table = 0.25 bottle\n\nMustard found at third table = 0.375 bottle\n\nStep 2: Add the mustard bottles found at each table:\n\n0.25 + 0.25 + 0.375 = 0.875\n\nThe answer is 0.875",
+        "parsed_answer": 0.875,
+        "is_correct": true
+    },
+    {
+        "question": "There are 1986 books in Oak Grove 's public library . In addition , there are 5106 books in its school libraries . How many books do the libraries in Oak Grove have overall ? ",
+        "ground_truth": 7092.0,
+        "response": "Hypothesis: To find the total number of books in Oak Grove's libraries, we need to add the number of books in the public library to the number of books in the school libraries.\n\nStep 1: Known values and assumptions:\n\nNumber of books in the public library = 1986 books\n\nNumber of books in the school libraries = 5106 books\n\nStep 2: Calculation\n\nTotal number of books = Number of books in the public library + Number of books in the school libraries\n\nStep 3: Substitute the known values into the formula and calculate:\n\nTotal number of books = 1986 + 5106\n\nTotal number of books = 7092\n\nThe answer is 7092",
+        "parsed_answer": 7092.0,
+        "is_correct": true
+    },
+    {
+        "question": "Melanie has 41 books and 31 magazines in her library . She bought several books at a yard sale over the weekend . She now has 87 books in her library . How many books did she buy at the yard sale ? ",
+        "ground_truth": 46.0,
+        "response": "Hypothesis: To find the number of books Melanie bought at the yard sale, we need to subtract the initial number of books and magazines from the total number of books she now has.\n\nStep 1: Known values and assumptions:\n\nInitial books = 41\n\nInitial magazines = 31\n\nTotal books now = 87\n\nNo books were lost or removed\n\nStep 2: Calculate the number of books Melanie bought at the yard sale:\n\nTotal initial items = 41 (books) + 31 (magazines) = 72 items\n\nBooks bought at the yard sale = Total books now - Total initial items\n\nStep 3: Execute the calculation:\n\nBooks bought at the yard sale = 87 - 72 = 15\n\nStep 4: Final answer:\nThe answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": false
+    },
+    {
+        "question": "Mike joined his school 's band . He bought a trumpet for $ 145.16 , and a song book which was $ 5.84 . How much did Mike spend at the music store ? ",
+        "ground_truth": 151.0,
+        "response": "Hypothesis: To find the total amount Mike spent at the music store, we need to add the cost of the trumpet and the song book.\n\nGiven values:\n\nCost of the trumpet = $145.16\n\nCost of the song book = $5.84\n\nStep 1: Add the cost of the trumpet and the song book.\n\n$145.16 + $5.84 = $151.00\n\nTherefore, the answer is $151.00",
+        "parsed_answer": 151.0,
+        "is_correct": true
+    },
+    {
+        "question": "Keith has 20 books . Jason has 21 books . How many books do they have together ? ",
+        "ground_truth": 41.0,
+        "response": "Hypothesis: To find the total number of books Keith and Jason have together, we need to add the number of books each person has.\n\nGiven:\nKeith has 20 books\nJason has 21 books\n\nStep 1: Add the number of books Keith and Jason have.\nStep 2: Compute the total number of books.\n\nStep 3: Calculation:\n20 (Keith's books) + 21 (Jason's books) = 41\n\nThe answer is 41",
+        "parsed_answer": 41.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan decided to sell all of her old books . She gathered up 33 books to sell . She sold 26 books in a yard sale . How many books does Joan now have ? ",
+        "ground_truth": 7.0,
+        "response": "Hypothesis: To find the number of books Joan now has, we need to subtract the books she sold from the total she gathered.\n\nStep 1: Known values and assumptions:\n\nTotal books gathered = 33\n\nBooks sold = 26\n\nNo books were lost or added\n\nStep 2: Calculation:\n\nSubtract the number of books sold from the total gathered:\n\n33 - 26 = 7\n\nStep 3: Final answer:\n\nThe answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mandy made an apple pie . She used 0.6666666666666666 tablespoon of cinnamon and 0.5 tablespoon of nutmeg . How much more cinnamon than nutmeg did Mandy use ? ",
+        "ground_truth": 0.16666666666666666,
+        "response": "Hypothesis: To find the difference between the amount of cinnamon and nutmeg used by Mandy, we need to subtract the amount of nutmeg from the amount of cinnamon.\n\nStep 1: Known values and assumptions:\n\nAmount of cinnamon used = 0.6666666666666666 tablespoons\n\nAmount of nutmeg used = 0.5 tablespoons\n\nStep 2: Compute the difference:\n\n0.6666666666666666 - 0.5 = 0.1666666666666666\n\nStep 3: Simplify the result:\n\n0.1666666666666666 is equivalent to 1/6\n\nTherefore, Mandy used 1/6 more tablespoons of cinnamon than nutmeg.\n\nThe answer is 1/6",
+        "parsed_answer": 1.0,
+        "is_correct": false
+    },
+    {
+        "question": "Mary had 18 baseball cards , and 8 were torn . Fred gave Mary 26 new baseball cards . Mary bought 40 baseball cards . How many baseball cards does Mary have now ? ",
+        "ground_truth": 76.0,
+        "response": "Hypothesis: To find the total number of baseball cards Mary has now, we need to subtract the torn cards, add the cards Fred gave her, and then add the cards she bought.\n\nGiven values and assumptions:\n\nStarting cards = 18\nTorn cards = 8\nCards Fred gave = 26\nCards Mary bought = 40\n\nSub-steps:\n1. Subtract the torn cards from the starting cards: 18 - 8 = 10\n2. Add the cards Fred gave to Mary: 10 + 26 = 36\n3. Add the cards Mary bought: 36 + 40 = 76\n\nThe answer is 76",
+        "parsed_answer": 76.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 112 short trees and 119 tall trees currently in the park . Park workers will plant 105 short trees today . How many short trees will the park have when the workers are finished ? ",
+        "ground_truth": 217.0,
+        "response": "Hypothesis: To find the total number of short trees in the park after planting, we need to add the current number of short trees to the number of short trees planted by the workers.\n\nStep 1: Known values and assumptions:\n\nCurrent number of short trees = 112\n\nCurrent number of tall trees is not relevant to this question\n\nShort trees planted today = 105\n\nNo trees are removed or lost\n\nStep 2: Calculation\n\nTotal short trees after planting = Current short trees + Short trees planted\nTotal short trees after planting = 112 + 105\n\nStep 3: Compute the total number of short trees after planting\n\nTotal short trees after planting = 217\n\nThe answer is 217",
+        "parsed_answer": 217.0,
+        "is_correct": true
+    },
+    {
+        "question": "A waitress put leftover tarts into the fridge on Thursday night . She noticed that the restaurant had 0.08333333333333333 tart filled with cherries , 0.75 tart filled with blueberries , and 0.08333333333333333 tart filled with peaches . How many leftover tarts did the restaurant have in all ? ",
+        "ground_truth": 0.9166666666666666,
+        "response": "Hypothesis: To find the total number of leftover tarts, we need to add the quantities of tarts filled with cherries, blueberries, and peaches.\n\nStep 1: Known values and assumptions:\n\nTarts filled with cherries: 0.08333333333333333\nTarts filled with blueberries: 0.75\nTarts filled with peaches: 0.08333333333333333\n\nStep 2: Add the quantities of tarts filled with different fruits:\n\n0.08333333333333333 + 0.75 + 0.08333333333333333 = 0.9166666666666667\n\nThe answer is 0.9166666666666667",
+        "parsed_answer": 0.9166666666666667,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa picked 42 pears and Nancy picked 17 pears from the pear tree . How many pears were picked in all ? ",
+        "ground_truth": 59.0,
+        "response": "Hypothesis: To find the total number of pears picked by Alyssa and Nancy, we need to add the number of pears each of them picked.\n\nGiven values:\n\nAlyssa picked 42 pears\n\nNancy picked 17 pears\n\nStep 1: Add the number of pears picked by Alyssa and Nancy.\n\nStep 2: Calculate the total number of pears picked.\n\nStep 3: The answer is the sum of pears picked by Alyssa and Nancy.\n\nStep 1: Alyssa picked 42 pears and Nancy picked 17 pears.\n\nStep 2: 42 + 17 = 59\n\nStep 3: The answer is 59. \n\nTherefore, The answer is 59",
+        "parsed_answer": 59.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan found 56 seashells on the beach , he gave Jessica some of his seashells . He has 22 seashell . How many seashells did he give to Jessica ? ",
+        "ground_truth": 34.0,
+        "response": "Hypothesis: To find out how many seashells Dan gave to Jessica, we need to subtract the number of seashells he has now from the number he found initially.\n\nStep 1: Known values and assumptions:\n\nInitial seashells found = 56\n\nSeashells Dan has now = 22\n\nNo seashells lost or added other than giving some to Jessica\n\nStep 2: Calculation:\n\nNumber of seashells Dan gave to Jessica = Initial seashells found - Seashells Dan has now\n\nStep 3: Substitute the values:\n\nNumber of seashells Dan gave to Jessica = 56 - 22\n\nStep 4: Perform the subtraction:\n\nNumber of seashells Dan gave to Jessica = 34\n\nTherefore, the answer is 34",
+        "parsed_answer": 34.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam has 110 books . Joan has 102 books . How many books do they have together ? ",
+        "ground_truth": 212.0,
+        "response": "Hypothesis: To find the total number of books Sam and Joan have together, we need to add the number of books each person has.\n\nGiven:\nSam's books = 110\nJoan's books = 102\n\nStep 1: Add the number of books Sam and Joan have.\n110 + 102 = 212\n\nThe answer is 212",
+        "parsed_answer": 212.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan grew 24 pumpkins , Keith grew 42 pumpkins , and Alyssa grew 13 pumpkins . They worked for 34 days on the farm . How many pumpkins did they grow in all ? ",
+        "ground_truth": 79.0,
+        "response": "Hypothesis: To find the total number of pumpkins grown by Joan, Keith, and Alyssa, we need to add up the pumpkins each of them grew.\n\nGiven values:\n- Joan grew 24 pumpkins\n- Keith grew 42 pumpkins\n- Alyssa grew 13 pumpkins\n\nStep 1: Add the number of pumpkins grown by each person.\n24 (Joan) + 42 (Keith) + 13 (Alyssa) = 79\n\nThe answer is 79",
+        "parsed_answer": 79.0,
+        "is_correct": true
+    },
+    {
+        "question": "Nancy went to 9 football games this month . She went to 8 games last month , and plans to go to 7 games next month . She paid 3 dollars for the tickets . How many games will she attend in all ? ",
+        "ground_truth": 24.0,
+        "response": "Hypothesis: To find the total number of football games Nancy will attend, we need to add the games she attended this month, last month, and the games she plans to attend next month.\n\nStep 1: Known values and assumptions:\n\nGames attended this month = 9\nGames attended last month = 8\nGames planned to attend next month = 7\n\nStep 2: Calculate the total number of games Nancy will attend:\n\nTotal games = Games this month + Games last month + Games next month\nTotal games = 9 + 8 + 7\nTotal games = 24\n\nThe answer is 24",
+        "parsed_answer": 24.0,
+        "is_correct": true
+    },
+    {
+        "question": "In March it rained 0.81 inches . It rained 0.35 inches less in April than in March . How much did it rain in April ? ",
+        "ground_truth": 0.46,
+        "response": "Hypothesis: To find out how much it rained in April, we need to subtract the decrease in rainfall from March's rainfall.\n\nGiven:\nRainfall in March = 0.81 inches\nDecrease in April = 0.35 inches less than March\n\nStep 1: Calculate the rainfall in April.\nStep 2: Subtract the decrease in April from March's rainfall.\n\nStep 1: Calculate the rainfall in April:\nRainfall in April = Rainfall in March - Decrease in April\n\nStep 2: Subtract the decrease in April from March's rainfall:\nRainfall in April = 0.81 - 0.35\nRainfall in April = 0.46\n\nThe answer is 0.46",
+        "parsed_answer": 0.46,
+        "is_correct": true
+    },
+    {
+        "question": "Jason grew 23 watermelons and 18 turnips . Nancy grew 28 watermelons . How many watermelons did they grow in total ? ",
+        "ground_truth": 51.0,
+        "response": "Hypothesis: To find the total number of watermelons grown by Jason and Nancy, we need to add the number of watermelons each of them grew.\n\nGiven values:\nJason's watermelons = 23\nJason's turnips = 18\nNancy's watermelons = 28\n\nStep 1: Calculate the total number of watermelons grown by Jason and Nancy.\nTotal watermelons = Jason's watermelons + Nancy's watermelons\n\nStep 2: Substitute the values and compute.\nTotal watermelons = 23 + 28\n\nTotal watermelons = 51\n\nThe answer is 51",
+        "parsed_answer": 51.0,
+        "is_correct": true
+    },
+    {
+        "question": "A dust storm sweeps across the prairie . It covers 64535 acres of the prairie in dust , but leaves 522 acres untouched . How many acres does the prairie cover ? ",
+        "ground_truth": 64013.0,
+        "response": "Hypothesis: To find the total area of the prairie, we need to subtract the area covered by the dust storm from the total area of the prairie.\n\nGiven values:\n\nArea covered by dust storm = 64535 acres\n\nUntouched area = 522 acres\n\nStep 1: Calculate the total area of the prairie.\n\nStep 2: Subtract the area covered by the dust storm from the total area to find the remaining area.\n\nStep 3: Execute the steps.\n\nStep 1: Total area of the prairie = Area covered by dust storm + Untouched area\nTotal area = 64535 acres + 522 acres\n\nStep 2: Total area = 65057 acres\n\nThe answer is 65057.",
+        "parsed_answer": 65057.0,
+        "is_correct": false
+    },
+    {
+        "question": "In 1 week , Mitch 's family drank 0.5 carton of regular milk and 0.1 carton of soy milk . How much milk did they drink in all ? ",
+        "ground_truth": 0.6,
+        "response": "Hypothesis: To find the total amount of milk Mitch's family drank in one week, we need to add the amount of regular milk and soy milk consumed.\n\nStep 1: Known values and assumptions:\n\nRegular milk consumed: 0.5 carton\n\nSoy milk consumed: 0.1 carton\n\nStep 2: Add the amounts of regular and soy milk consumed:\n\n0.5 + 0.1 = 0.6\n\nThe answer is 0.6",
+        "parsed_answer": 0.6,
+        "is_correct": true
+    },
+    {
+        "question": "The Montoya family spends 0.6 their budget on groceries and another 0.2 going out to eat . Altogether , what fraction of their budget does the Montoya family spend on food ? ",
+        "ground_truth": 0.8,
+        "response": "Hypothesis: To find the fraction of the budget spent on food, we need to add the fractions spent on groceries and eating out.\n\nStep 1: Known values and assumptions:\n\nFraction spent on groceries = 0.6\nFraction spent on eating out = 0.2\n\nStep 2: Calculate the total fraction spent on food:\n\nTotal fraction spent on food = Fraction spent on groceries + Fraction spent on eating out\nTotal fraction spent on food = 0.6 + 0.2\nTotal fraction spent on food = 0.8\n\nThe answer is 0.8",
+        "parsed_answer": 0.8,
+        "is_correct": true
+    },
+    {
+        "question": "Fred had 7 dimes in his bank . His sister borrowed 3 of his dimes . How many dimes does Fred have now ? ",
+        "ground_truth": 4.0,
+        "response": "Hypothesis: To find the number of dimes Fred has after his sister borrowed some, we need to subtract the number of dimes borrowed from the initial number of dimes.\n\nStep 1: Known values and assumptions:\n\nInitial dimes = 7\n\nDimes borrowed = 3\n\nNo dimes added or lost other than the borrowed ones\n\nStep 2: Calculation:\n\nSubtract the dimes borrowed from the initial number of dimes:\n7 - 3 = 4\n\nStep 3: Final answer:\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 39 scissors and 22 pencils in the drawer . Dan placed 13 scissors in the drawer . How many scissors are now there in total ? ",
+        "ground_truth": 52.0,
+        "response": "Hypothesis: To find the total number of scissors in the drawer after Dan placed 13 scissors, we need to subtract the scissors Dan added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial number of scissors = 39\nInitial number of pencils = 22\nScissors Dan placed = 13\n\nStep 2: Calculate the total number of scissors after Dan placed 13 scissors:\n\nTotal number of scissors = Initial number of scissors - Scissors Dan placed\nTotal number of scissors = 39 - 13\nTotal number of scissors = 26\n\nThe answer is 26",
+        "parsed_answer": 26.0,
+        "is_correct": false
+    },
+    {
+        "question": "Terrell hiked 8.2 miles on Saturday . Then , on Sunday , he hiked another 1.6 miles . How far did Terrell hike all together ? ",
+        "ground_truth": 9.8,
+        "response": "Hypothesis: To find the total distance Terrell hiked, we need to add the distances he hiked on Saturday and Sunday.\n\nGiven:\nDistance hiked on Saturday = 8.2 miles\nDistance hiked on Sunday = 1.6 miles\n\nStep 1: Add the distances hiked on Saturday and Sunday.\n8.2 + 1.6 = 9.8\n\nThe answer is 9.8",
+        "parsed_answer": 9.8,
+        "is_correct": true
+    },
+    {
+        "question": "Mike has 8 orange marbles , he gave Sam 4 of the marbles . How many orange marbles does he now have ? ",
+        "ground_truth": 4.0,
+        "response": "Hypothesis: To find the number of orange marbles Mike has after giving 4 marbles to Sam, we need to subtract the marbles given away from the initial number of marbles.\n\nGiven:\nInitial number of orange marbles = 8\nMarbles given to Sam = 4\n\nStep 1: Calculate the number of orange marbles Mike has now.\nSubtract the marbles given to Sam from the initial number of marbles.\n8 - 4 = 4\n\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sara picked 45 pears and Sally picked 11 pears from the pear tree . How many pears were picked in total ? ",
+        "ground_truth": 56.0,
+        "response": "Hypothesis: To find the total number of pears picked, we need to add the number of pears picked by Sara and Sally.\n\nGiven values:\n\nSara picked 45 pears.\n\nSally picked 11 pears.\n\nStep 1: Add the number of pears picked by Sara and Sally.\n\nStep 2: Calculate the total number of pears picked.\n\nStep 3: Execute the addition.\n\n45 + 11 = 56\n\nThe answer is 56",
+        "parsed_answer": 56.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam found 18 seashells and Mary found 47 seashells on the beach . How many seashells did they find together ? ",
+        "ground_truth": 65.0,
+        "response": "Hypothesis: To find the total number of seashells Sam and Mary found together, we need to add the number of seashells each of them found.\n\nStep 1: Known values and assumptions:\n\nSam found 18 seashells\n\nMary found 47 seashells\n\nStep 2: Calculation:\n\nTotal seashells found = 18 + 47\n\nStep 3: Execution:\n\nTotal seashells found = 18 + 47 = 65\n\nStep 4: Final answer:\n\nThe answer is 65",
+        "parsed_answer": 65.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Fred had 23 dollars and Jason had 46 dollars . Fred washed cars over the weekend and now has 86 dollars . How much money did Fred make washing cars ? ",
+        "ground_truth": 63.0,
+        "response": "Hypothesis: To find out how much money Fred made washing cars, we need to calculate the difference between his current amount and his initial amount.\n\nGiven values:\n- Fred's initial amount = $23\n- Fred's current amount = $86\n\nStep 1: Calculate the money Fred made washing cars\nFred's earnings = Fred's current amount - Fred's initial amount\n\nStep 2: Substitute the given values into the formula\nFred's earnings = $86 - $23\n\nStep 3: Perform the subtraction\nFred's earnings = $63\n\nTherefore, the answer is $63",
+        "parsed_answer": 63.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 9 pencils and 4 rulers in the drawer . Sally took 4 pencils out of the drawer . How many pencils are there now ? ",
+        "ground_truth": 5.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Sally took some out, we need to subtract the number of pencils she took from the initial number of pencils.\n\nStep 1: Known values and assumptions:\n\nInitial number of pencils = 9\n\nNumber of pencils Sally took = 4\n\nStep 2: Calculation:\n\nNumber of pencils remaining = Initial number of pencils - Number of pencils Sally took\nNumber of pencils remaining = 9 - 4\n\nStep 3: Solve the subtraction:\n\nNumber of pencils remaining = 5\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kelly bought 0.1 pounds of peanuts and 0.4 pounds of raisins . How many pounds of snacks did she buy in all ? ",
+        "ground_truth": 0.5,
+        "response": "Hypothesis: To find the total weight of snacks Kelly bought, we need to add the weight of peanuts and raisins.\n\nGiven:\nWeight of peanuts = 0.1 pounds\nWeight of raisins = 0.4 pounds\n\nPlan:\n1. Add the weight of peanuts and raisins to find the total weight of snacks.\n\nStep 1: Calculate the total weight of snacks.\nTotal weight = Weight of peanuts + Weight of raisins\n\nStep 2: Substitute the given values and compute.\nTotal weight = 0.1 + 0.4\nTotal weight = 0.5 pounds\n\nThe answer is 0.5",
+        "parsed_answer": 0.5,
+        "is_correct": true
+    },
+    {
+        "question": "Melanie had 7 dimes in her bank . Her dad gave her 8 dimes and her mother gave her 4 dimes . How many dimes does Melanie have now ? ",
+        "ground_truth": 19.0,
+        "response": "Hypothesis: To find the total number of dimes Melanie has now, we need to add the number of dimes she initially had with the dimes given by her dad and mom.\n\nStep 1: Known values and assumptions:\n\nInitial dimes = 7 dimes\n\nDimes from dad = 8 dimes\n\nDimes from mom = 4 dimes\n\nNo dimes are lost or removed\n\nStep 2: Calculate the total number of dimes:\n\nTotal dimes = Initial dimes + Dimes from dad + Dimes from mom\n\nStep 3: Substitute the values and compute:\n\nTotal dimes = 7 + 8 + 4\n\nTotal dimes = 19\n\nTherefore, the answer is 19.",
+        "parsed_answer": 19.0,
+        "is_correct": true
+    },
+    {
+        "question": "Carefully following a recipe , Kenny used exactly 0.16666666666666666 cup of oil and 1.1666666666666667 cups of water . How many cups of liquid did Kenny use in all ? ",
+        "ground_truth": 1.3333333333333333,
+        "response": "Hypothesis: To find the total cups of liquid used by Kenny, we need to add the amount of oil and water used.\n\nStep 1: Known values and assumptions:\n\nAmount of oil used = 0.16666666666666666 cups\n\nAmount of water used = 1.1666666666666667 cups\n\nStep 2: Add the amounts of oil and water to find the total cups of liquid used:\n\n0.16666666666666666 + 1.1666666666666667 = 1.3333333333333333\n\nStep 3: The answer is 1.3333333333333333",
+        "parsed_answer": 1.3333333333333333,
+        "is_correct": true
+    },
+    {
+        "question": "Tim found 37 seashells and Sally found 13 seashells on the beach . When they cleaned them , they discovered that 25 were cracked . How many seashells did they find together ? ",
+        "ground_truth": 50.0,
+        "response": "Hypothesis: To find the total number of seashells Tim and Sally found together, we need to add the number of seashells each found and then subtract the number of cracked seashells.\n\nStep 1: Known values and assumptions:\n\nTim's seashells = 37\nSally's seashells = 13\nCracked seashells = 25\n\nStep 2: Calculate the total number of seashells found by Tim and Sally:\n\nTotal seashells found = Tim's seashells + Sally's seashells\nTotal seashells found = 37 + 13\nTotal seashells found = 50\n\nStep 3: Subtract the number of cracked seashells to find the total number of seashells they found together:\n\nTotal seashells found together = Total seashells found - Cracked seashells\nTotal seashells found together = 50 - 25\nTotal seashells found together = 25\n\nThe answer is 25",
+        "parsed_answer": 25.0,
+        "is_correct": false
+    },
+    {
+        "question": "At the hardware store , 0.25 the nails are size 2d and 0.5 the nails are size 4d . What fraction of the nails are either size 2d or 4d ? ",
+        "ground_truth": 0.75,
+        "response": "Hypothesis: To find the fraction of nails that are either size 2d or 4d, we need to add the fractions of each size.\n\nStep 1: Define the fractions for each nail size:\n\nFraction of size 2d nails = 0.25\nFraction of size 4d nails = 0.5\n\nStep 2: Add the fractions to find the total fraction of nails that are either size 2d or 4d:\n\n0.25 + 0.5 = 0.75\n\nThe answer is 0.75",
+        "parsed_answer": 0.75,
+        "is_correct": true
+    },
+    {
+        "question": "Last year , egg producers in Douglas County produced 1416 eggs . This year , those same farms produced 4636 eggs . How many more eggs did the farms produce this year ? ",
+        "ground_truth": 3220.0,
+        "response": "Hypothesis: To find the difference in the number of eggs produced between last year and this year, we need to subtract the number of eggs produced last year from the number of eggs produced this year.\n\nStep 1: Known values and assumptions:\n\nEggs produced last year = 1416 eggs\n\nEggs produced this year = 4636 eggs\n\nStep 2: Calculation\n\nSubtract the number of eggs produced last year from the number of eggs produced this year:\n\n4636 - 1416 = 3220\n\nStep 3: Final Answer\n\nThe answer is 3220",
+        "parsed_answer": 3220.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 6 roses in the vase . Mary cut some roses from her flower garden . There are now 16 roses in the vase . How many roses did she cut ? ",
+        "ground_truth": 10.0,
+        "response": "Hypothesis: To find the number of roses Mary cut, we need to subtract the initial number of roses from the final number.\n\nStep 1: Known values and assumptions:\n\nInitial roses in the vase = 6\n\nFinal roses in the vase = 16\n\nNo roses were added to the vase\n\nStep 2: Calculation:\n\nMary cut roses = Final roses - Initial roses\nMary cut roses = 16 - 6\n\nStep 3: Solve the equation:\n\nMary cut roses = 10\n\nTherefore, the answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "A bathing suit manufacturer has a supply of 14797 bathing suits for men . In addition , it has 4969 bathing suits for women . How many bathing suits are available overall ? ",
+        "ground_truth": 19766.0,
+        "response": "Hypothesis: To find the total number of bathing suits available, we need to add the number of men's bathing suits to the number of women's bathing suits.\n\nStep 1: Known values and assumptions:\n\nNumber of men's bathing suits = 14797\n\nNumber of women's bathing suits = 4969\n\nStep 2: Calculation\n\nTotal number of bathing suits = Number of men's bathing suits + Number of women's bathing suits\n\nStep 3: Substitute the values and calculate\n\nTotal number of bathing suits = 14797 + 4969\n\nTotal number of bathing suits = 19766\n\nThe answer is 19766",
+        "parsed_answer": 19766.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 9 crayons in the drawer . Benny placed 3 crayons in the drawer . How many crayons are now there in total ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find the total number of crayons in the drawer after Benny adds more, we need to add the initial number of crayons to the number Benny added.\n\nGiven:\nInitial crayons = 9\nCrayons added by Benny = 3\n\nStep 1: Add the initial crayons and the crayons added by Benny.\n9 + 3 = 12\n\nThe answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jonah added 0.3 cup of yellow raisins and 0.4 cup of black raisins to a batch of trail mix . How many cups of raisins did Jonah add in all ? ",
+        "ground_truth": 0.7,
+        "response": "Hypothesis: To find the total cups of raisins added, we need to sum the amounts of yellow and black raisins.\n\nStep 1: Known values and assumptions:\n\nYellow raisins added = 0.3 cups\n\nBlack raisins added = 0.4 cups\n\nStep 2: Compute the total cups of raisins added:\n\nYellow raisins + Black raisins = Total raisins\n0.3 + 0.4 = 0.7\n\nThe answer is 0.7",
+        "parsed_answer": 0.7,
+        "is_correct": true
+    },
+    {
+        "question": "Mary had 33 Pokemon cards , and 6 were torn . Sam gave Mary 23 new Pokemon cards . How many Pokemon cards does Mary have now ? ",
+        "ground_truth": 56.0,
+        "response": "Hypothesis: To find the total number of Pokemon cards Mary has now, we need to subtract the torn cards from the initial count and then add the new cards given by Sam.\n\nStep 1: Known values and assumptions:\n\nInitial cards = 33\n\nTorn cards = 6\n\nNew cards from Sam = 23\n\nStep 2: Calculate the total number of cards Mary has now:\n\nSubtract the torn cards from the initial count: 33 - 6 = 27\n\nAdd the new cards from Sam: 27 + 23 = 50\n\nStep 3: Double-check the result:\n\nInitial cards (33) - Torn cards (6) + New cards (23) = 50 \u2705\n\nThe answer is 50",
+        "parsed_answer": 50.0,
+        "is_correct": false
+    },
+    {
+        "question": "On her vacation last summer , Trisha walked all over New York City to buy souvenirs . First , she walked 0.1111111111111111 mile from her hotel to a postcard shop . Then she walked 0.1111111111111111 mile from the postcard shop to a T-shirt shop and 0.6666666666666666 mile from the T-shirt shop back to the hotel . How many miles did Trisha walk in all ? ",
+        "ground_truth": 0.8888888888888888,
+        "response": "Hypothesis: To find the total distance Trisha walked, we need to add the distances she walked from her hotel to the postcard shop, from the postcard shop to the T-shirt shop, and from the T-shirt shop back to her hotel.\n\nStep 1: Known values and assumptions:\n\nDistance from hotel to postcard shop = 0.1111111111111111 mile\n\nDistance from postcard shop to T-shirt shop = 0.1111111111111111 mile\n\nDistance from T-shirt shop back to hotel = 0.6666666666666666 mile\n\nStep 2: Add all the distances together:\n\n0.1111111111111111 + 0.1111111111111111 + 0.6666666666666666 = 0.8888888888888888\n\nThe answer is 0.8888888888888888",
+        "parsed_answer": 0.8888888888888888,
+        "is_correct": true
+    },
+    {
+        "question": "At the beach , Miki and her sister both built sandcastles and then measured their heights . Miki 's sandcastle was 0.8333333333333334 foot tall and her sister 's was 0.5 foot tall . How much taller was Miki 's sandcastle than her sister 's ? ",
+        "ground_truth": 0.3333333333333333,
+        "response": "Hypothesis: To find the height difference between Miki's and her sister's sandcastles, we need to subtract the height of the sister's sandcastle from Miki's sandcastle.\n\nStep 1: Known values and assumptions:\n\nMiki's sandcastle height = 0.8333333333333334 foot\n\nSister's sandcastle height = 0.5 foot\n\nStep 2: Calculate the height difference:\n\nHeight difference = Miki's sandcastle height - Sister's sandcastle height\n\nStep 3: Execute the calculation:\n\nHeight difference = 0.8333333333333334 - 0.5 = 0.3333333333333334\n\nStep 4: The answer is 0.3333333333333334",
+        "parsed_answer": 0.3333333333333334,
+        "is_correct": true
+    },
+    {
+        "question": "A worker at a medical lab is studying blood samples . 2 samples contained a total of 7341 blood cells . The first sample contained 4221 blood cells . How many blood cells were in the second sample ? ",
+        "ground_truth": 3120.0,
+        "response": "Hypothesis: To find the number of blood cells in the second sample, we need to subtract the number of blood cells in the first sample from the total number of blood cells in both samples.\n\nStep 1: Known values and assumptions:\n\nTotal blood cells in both samples = 7341\n\nBlood cells in the first sample = 4221\n\nNumber of blood cells in the second sample = Unknown\n\nStep 2: Calculation:\n\nLet x be the number of blood cells in the second sample.\n\nThe total blood cells in both samples can be represented as: 4221 (first sample) + x (second sample) = 7341\n\nSolve for x: x = 7341 - 4221\n\nStep 3: Compute the number of blood cells in the second sample:\n\nx = 7341 - 4221\nx = 3120\n\nTherefore, the number of blood cells in the second sample is 3120.\n\nThe answer is 3120",
+        "parsed_answer": 3120.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary picked 122 oranges and Jason picked 105 oranges from the orange tree . How many oranges were picked in total ? ",
+        "ground_truth": 227.0,
+        "response": "Hypothesis: To find the total number of oranges picked by Mary and Jason, we need to add the number of oranges each person picked.\n\nGiven:\nMary picked 122 oranges\nJason picked 105 oranges\n\nStep 1: Add the number of oranges picked by Mary and Jason.\nTotal oranges picked = 122 + 105\n\nStep 2: Calculate the total number of oranges picked.\nTotal oranges picked = 227\n\nThe answer is 227",
+        "parsed_answer": 227.0,
+        "is_correct": true
+    },
+    {
+        "question": "A chef bought 0.14 kilograms of almonds and 0.38 kilograms of pecans . How many kilograms of nuts did the chef buy in all ? ",
+        "ground_truth": 0.52,
+        "response": "Hypothesis: To find the total kilograms of nuts bought by the chef, we need to add the weights of almonds and pecans.\n\nGiven:\nWeight of almonds = 0.14 kg\nWeight of pecans = 0.38 kg\n\nStep 1: Add the weights of almonds and pecans.\n0.14 + 0.38 = 0.52\n\nThe answer is 0.52",
+        "parsed_answer": 0.52,
+        "is_correct": true
+    },
+    {
+        "question": "Craig walked 0.2 mile from school to David 's house and 0.7 mile from David 's house to his own house . How many miles did Craig walk in all ? ",
+        "ground_truth": 0.9,
+        "response": "Hypothesis: To find the total distance Craig walked, we need to add the distances he walked from school to David's house and from David's house to his own house.\n\nGiven:\nDistance from school to David's house = 0.2 mile\nDistance from David's house to Craig's house = 0.7 mile\n\nStep 1: Calculate the total distance Craig walked by adding the two distances.\nTotal distance = 0.2 + 0.7\n\nStep 2: Perform the addition.\nTotal distance = 0.9 miles\n\nThe answer is 0.9",
+        "parsed_answer": 0.9,
+        "is_correct": true
+    },
+    {
+        "question": "Sara had 4 quarters and 8 dimes in her bank . Her sister borrowed 4 dimes . How many dimes does Sara have now ? ",
+        "ground_truth": 4.0,
+        "response": "Hypothesis: To find the total number of dimes Sara has after her sister borrowed 4 dimes, we need to subtract the dimes borrowed from the initial number of dimes.\n\nGiven values:\n\nInitial number of dimes = 8\n\nDimes borrowed = 4\n\nStep 1: Calculate the total number of dimes Sara has now.\n\nSubtract the dimes borrowed from the initial number of dimes:\n\n8 - 4 = 4\n\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Benny received 67 dollars for his birthday . He went to a sporting goods store and bought a baseball glove , baseball , and bat . He had 33 dollars over , how much did he spent on the baseball gear ? ",
+        "ground_truth": 34.0,
+        "response": "Hypothesis: Benny received $67 for his birthday, spent some money on baseball gear, and had $33 left over. We need to find out how much he spent on the baseball gear by subtracting the amount he had left from the amount he received.\n\nStep 1: Known values and assumptions:\n\nAmount received = $67\n\nAmount left over = $33\n\nAmount spent on baseball gear = ?\n\nStep 2: Calculate the amount spent on baseball gear:\n\nAmount spent = Amount received - Amount left over\nAmount spent = $67 - $33\nAmount spent = $34\n\nTherefore, the answer is $34.",
+        "parsed_answer": 34.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 139 erasers and 118 scissors in the drawer . Jason placed 131 erasers in the drawer . How many erasers are now there in total ? ",
+        "ground_truth": 270.0,
+        "response": "Hypothesis: To find the total number of erasers in the drawer after Jason placed 131 erasers, we need to subtract the erasers Jason added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial erasers = 139\n\nInitial scissors = 118\n\nErasers added by Jason = 131\n\nNo erasers or scissors were removed\n\nStep 2: Calculate the total number of erasers after Jason added more:\n\nTotal erasers = Initial erasers + Erasers added by Jason\nTotal erasers = 139 + 131\nTotal erasers = 270\n\nStep 3: The answer is 270.",
+        "parsed_answer": 270.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake . The recipe calls for 7 cups of flour and 3 cups of sugar . She already put in 2 cups of flour . How many cups of flour does she need to add ? ",
+        "ground_truth": 5.0,
+        "response": "Hypothesis: To find out how many cups of flour Mary needs to add, we will subtract the cups of flour she already put in from the total cups of flour required by the recipe.\n\nStep 1: Known values and assumptions:\n\nTotal cups of flour required = 7 cups\n\nCups of flour already added = 2 cups\n\nStep 2: Calculation:\n\nTotal cups of flour needed to add = Total cups of flour required - Cups of flour already added\nTotal cups of flour needed to add = 7 - 2\nTotal cups of flour needed to add = 5\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sandy had 36 pennies and 31 nickels in her bank . Her dad borrowed 20 nickels from Sandy . How many nickels does she have now ? ",
+        "ground_truth": 11.0,
+        "response": "Hypothesis: To find the number of nickels Sandy has after her dad borrowed 20 nickels, we need to subtract the borrowed nickels from the initial number of nickels.\n\nStep 1: Known values and assumptions:\n\nInitial number of nickels = 31\n\nNickels borrowed by dad = 20\n\nNo nickels added or lost other than the borrowed ones\n\nStep 2: Calculation:\n\nSubtract the number of borrowed nickels from the initial number of nickels:\n31 - 20 = 11\n\nStep 3: Final answer:\nThe answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam found 35 seashells on the beach , he gave Joan 18 of the seashells . How many seashells does he now have ? ",
+        "ground_truth": 17.0,
+        "response": "Hypothesis: To find the number of seashells Sam now has, we need to subtract the seashells he gave to Joan from the total number he found.\n\nStep 1: Known values and assumptions:\n\nTotal seashells found by Sam = 35\n\nSeashells given to Joan = 18\n\nNo seashells lost or added other than the ones given to Joan\n\nStep 2: Calculation:\n\nSubtract the seashells given to Joan from the total seashells found by Sam:\n\n35 - 18 = 17\n\nStep 3: Final answer:\n\nThe answer is 17",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan 's cat had kittens and 5 had spots . He gave 7 to Tim and 4 to Jason . He now has 5 kittens . How many kittens did he have to start with ? ",
+        "ground_truth": 16.0,
+        "response": "Hypothesis: To find the initial number of kittens Dan had, we need to add the kittens with spots to those given to Tim and Jason, then add the remaining kittens to get the total.\n\nStep 1: Known values and assumptions:\n\nKittens with spots: 5\nKittens given to Tim: 7\nKittens given to Jason: 4\nRemaining kittens: 5\n\nStep 2: Calculate the total number of kittens Dan had initially:\n\nTotal given away = 5 (spots) + 7 (to Tim) + 4 (to Jason) = 16\nInitial total = Total given away + Remaining = 16 + 5 = 21\n\nThe answer is 21",
+        "parsed_answer": 21.0,
+        "is_correct": false
+    },
+    {
+        "question": "Fred has 709 green balloons , he gave Sandy 221 of the balloons . How many green balloons does he now have ? ",
+        "ground_truth": 488.0,
+        "response": "Hypothesis: To find the number of green balloons Fred has after giving some to Sandy, we need to subtract the balloons given to Sandy from the total number of green balloons Fred had initially.\n\nGiven:\nTotal green balloons = 709\nBalloons given to Sandy = 221\n\nStep 1: Calculate the number of green balloons Fred has now.\nSubtract the balloons given to Sandy from the total green balloons Fred had initially.\n709 - 221 = 488\n\nThe answer is 488",
+        "parsed_answer": 488.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jason had 49 quarters in his bank . His dad gave him 25 quarters . How many quarters does he have now ? ",
+        "ground_truth": 74.0,
+        "response": "Hypothesis: To find the total number of quarters Jason has after his dad gave him more quarters, we need to add the initial number of quarters to the additional quarters given by his dad.\n\nStep 1: Known values and assumptions:\n\nInitial quarters = 49\n\nAdditional quarters from dad = 25\n\nStep 2: Calculation:\n\nTotal quarters = Initial quarters + Additional quarters\nTotal quarters = 49 + 25\n\nStep 3: Compute the total number of quarters:\n\nTotal quarters = 74\n\nThe answer is 74",
+        "parsed_answer": 74.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 41 pencils in the drawer . Mike placed 30 pencils in the drawer . How many pencils are now there in total ? ",
+        "ground_truth": 71.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Mike placed 30 pencils, we need to add the initial number of pencils to the number Mike added.\n\nGiven:\nInitial number of pencils = 41\nNumber of pencils Mike placed = 30\n\nStep 1: Calculate the total number of pencils in the drawer.\nTotal pencils = Initial pencils + Pencils placed by Mike\n\nStep 2: Substitute the given values into the formula.\nTotal pencils = 41 + 30\n\nStep 3: Perform the addition.\nTotal pencils = 71\n\nThe answer is 71",
+        "parsed_answer": 71.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam has 86 yellow and 20 green marbles . Joan took 25 of Sam 's yellow marbles . How many yellow marbles does Sam now have ? ",
+        "ground_truth": 61.0,
+        "response": "Hypothesis: To find the number of yellow marbles Sam has after Joan took 25 of them, we need to subtract 25 from the initial number of yellow marbles.\n\nStep 1: Known values and assumptions:\n\nInitial yellow marbles = 86\n\nYellow marbles taken by Joan = 25\n\nStep 2: Calculation\n\n86 - 25 = 61\n\nStep 3: Conclusion\n\nThe answer is 61",
+        "parsed_answer": 61.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan has 9 blue balloons , Sally has 5 blue balloons , and Jessica has 2 blue balloons . How many blue balloons do they have in total ? ",
+        "ground_truth": 16.0,
+        "response": "Hypothesis: To find the total number of blue balloons Joan, Sally, and Jessica have, we need to add the number of blue balloons each person has.\n\nGiven:\nJoan has 9 blue balloons\nSally has 5 blue balloons\nJessica has 2 blue balloons\n\nStep 1: Add the number of blue balloons each person has.\n9 (Joan) + 5 (Sally) + 2 (Jessica) = 16\n\nThe answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Hannah 's Vegetarian Restaurant bought 0.3333333333333333 pound of green peppers and 0.3333333333333333 pound of red peppers . How many pounds of peppers did Hannah 's Vegetarian Restaurant buy in all ? ",
+        "ground_truth": 0.6666666666666666,
+        "response": "Hypothesis: To find the total weight of peppers bought, we need to add the weight of green peppers to the weight of red peppers.\n\nStep 1: Known values and assumptions:\n\nWeight of green peppers = 0.3333333333333333 pounds\n\nWeight of red peppers = 0.3333333333333333 pounds\n\nStep 2: Add the weights of green and red peppers:\n\n0.3333333333333333 + 0.3333333333333333 = 0.6666666666666666\n\nStep 3: The answer is 0.6666666666666666",
+        "parsed_answer": 0.6666666666666666,
+        "is_correct": true
+    },
+    {
+        "question": "At a pizza party , Mason and his friends drank 2.6666666666666665 bottles of lemon-lime soda and 2.6666666666666665 bottles of cola . How much soda did they drink in all ? ",
+        "ground_truth": 5.333333333333333,
+        "response": "Hypothesis: To find the total amount of soda consumed, we need to add the number of bottles of lemon-lime soda and cola together.\n\nStep 1: Known values and assumptions:\n\nBottles of lemon-lime soda = 2.6666666666666665\n\nBottles of cola = 2.6666666666666665\n\nStep 2: Add the number of bottles of lemon-lime soda and cola:\n\n2.6666666666666665 + 2.6666666666666665 = 5.333333333333333\n\nStep 3: Simplify the result:\n\n5.333333333333333 is equivalent to 5 and one-third bottles of soda.\n\nThe answer is 5.33",
+        "parsed_answer": 5.33,
+        "is_correct": false
+    },
+    {
+        "question": "So far , an orchard has sold a combined total of 9792 pounds of fresh and frozen fruit this season . If they have sold 3513 pounds of frozen fruit , how many pounds of fresh fruit have been sold so far ? ",
+        "ground_truth": 6279.0,
+        "response": "Hypothesis: To find the total pounds of fresh fruit sold, we need to subtract the pounds of frozen fruit sold from the combined total pounds of fresh and frozen fruit sold.\n\nStep 1: Known values and assumptions:\n\nTotal pounds of fresh and frozen fruit sold = 9792 pounds\n\nPounds of frozen fruit sold = 3513 pounds\n\nNo other types of fruit are considered\n\nStep 2: Calculation:\n\nTotal pounds of fresh fruit sold = Total pounds of fresh and frozen fruit sold - Pounds of frozen fruit sold\n\nStep 3: Substitute the values and compute:\n\nTotal pounds of fresh fruit sold = 9792 - 3513\n\nTotal pounds of fresh fruit sold = 6279\n\nStep 4: Double-check:\n\nFresh fruit sold + Frozen fruit sold = Total fruit sold\n\n6279 + 3513 = 9792 \u2705\n\nThe answer is 6279.",
+        "parsed_answer": 6279.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan joined her school 's band . She bought a trumpet for $ 149.16 , a music tool for $ 9.98 , and a song book which was $ 4.14 . Joan found $ 8.65 in her pocket . How much did Joan spend at the music store ? ",
+        "ground_truth": 163.28,
+        "response": "Hypothesis: To find out how much Joan spent at the music store, we need to sum the costs of the trumpet, music tool, and song book, then subtract the amount she found in her pocket.\n\nGiven values:\n\nCost of the trumpet = $149.16\n\nCost of the music tool = $9.98\n\nCost of the song book = $4.14\n\nAmount found in Joan's pocket = $8.65\n\nPlan:\n\n1. Add the costs of the trumpet, music tool, and song book.\n2. Subtract the amount found in Joan's pocket from the total cost.\n\nStep 1: Calculate the total cost of the items purchased.\n\nTotal cost = $149.16 + $9.98 + $4.14\nTotal cost = $163.28\n\nStep 2: Subtract the amount found in Joan's pocket from the total cost.\n\nTotal cost - Amount found in pocket = $163.28 - $8.65\nTotal cost - Amount found in pocket = $154.63\n\nTherefore, the amount Joan spent at the music store is $154.63. \n\nThe answer is 154.63",
+        "parsed_answer": 154.63,
+        "is_correct": false
+    },
+    {
+        "question": "Karen added 0.25 cup of walnuts to a batch of trail mix . Later , she added 0.25 cup of almonds . How many cups of nuts did Karen put in the trail mix in all ? ",
+        "ground_truth": 0.5,
+        "response": "Hypothesis: To find the total cups of nuts Karen put in the trail mix, we need to add the amounts of walnuts and almonds she added.\n\nStep 1: Known values and assumptions:\n\nAmount of walnuts added = 0.25 cups\n\nAmount of almonds added = 0.25 cups\n\nStep 2: Add the amounts of walnuts and almonds:\n\n0.25 + 0.25 = 0.50\n\nStep 3: The answer is 0.50",
+        "parsed_answer": 0.5,
+        "is_correct": true
+    },
+    {
+        "question": "Ella owns 2 dogs . Each day , 1 dog eats 0.125 scoop of dog food and the other dog eats 0.125 scoop . Together , how much dog food do the 2 dogs eat each day ? ",
+        "ground_truth": 0.25,
+        "response": "Hypothesis: To find the total amount of dog food eaten by Ella's two dogs each day, we need to add the amount each dog eats individually.\n\nStep 1: Known values and assumptions:\n\nAmount one dog eats = 0.125 scoop\n\nAmount the other dog eats = 0.125 scoop\n\nStep 2: Calculation:\n\nTotal amount both dogs eat = 0.125 + 0.125\n\nStep 3: Solve the equation:\n\n0.125 + 0.125 = 0.25\n\nThe answer is 0.25",
+        "parsed_answer": 0.25,
+        "is_correct": true
+    },
+    {
+        "question": "There are 6 pencils and 7 rulers in the drawer . Benny placed 3 pencils in the drawer . How many pencils are now there in total ? ",
+        "ground_truth": 9.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Benny placed 3 pencils, we need to subtract the pencils Benny added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial pencils = 6\n\nPencils Benny placed = 3\n\nStep 2: Calculation\n\nTotal pencils after Benny placed 3 = Initial pencils - Pencils Benny placed\nTotal pencils = 6 - 3\n\nStep 3: Final Answer\nThe answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": false
+    },
+    {
+        "question": "Ezra drew a white line that was 7.666666666666667 inches long . Then he drew a blue line that was 3.3333333333333335 inches long . How much longer was the white line than the blue line ? ",
+        "ground_truth": 4.333333333333333,
+        "response": "Hypothesis: To find the difference in length between the white and blue lines, subtract the length of the blue line from the length of the white line.\n\nStep 1: Known values and assumptions:\n\nLength of white line = 7.666666666666667 inches\n\nLength of blue line = 3.3333333333333335 inches\n\nStep 2: Compute the difference in length:\n\n7.666666666666667 - 3.3333333333333335 = 4.333333333333334\n\nStep 3: The answer is 4.333333333333334",
+        "parsed_answer": 4.333333333333334,
+        "is_correct": true
+    },
+    {
+        "question": "Last year , 90171 people were born in a country , and 16320 people immigrated to it . How many new people began living in the country last year ? ",
+        "ground_truth": 106491.0,
+        "response": "Hypothesis: To find the total number of new people who began living in the country last year, we need to add the number of people born in the country to the number of people who immigrated to it.\n\nStep 1: Known values and assumptions:\n\nNumber of people born in the country = 90171\n\nNumber of people who immigrated to the country = 16320\n\nNo other factors affecting the population change are considered\n\nStep 2: Calculation:\n\nTotal new people = Number of people born + Number of people immigrated\nTotal new people = 90171 + 16320\n\nStep 3: Compute the total number of new people:\n\nTotal new people = 90171 + 16320\nTotal new people = 106491\n\nTherefore, the answer is 106491.",
+        "parsed_answer": 106491.0,
+        "is_correct": true
+    },
+    {
+        "question": "To fill an order , the factory dyed 61921 yards of silk green and 49500 yards pink . How many yards of silk did it dye for that order ? ",
+        "ground_truth": 111421.0,
+        "response": "Hypothesis: To find the total yards of silk dyed for the order, we need to add the yards of green silk and pink silk dyed.\n\nStep 1: Known values and assumptions:\n\nYards of green silk dyed = 61921 yards\n\nYards of pink silk dyed = 49500 yards\n\nStep 2: Calculation\n\nTotal yards of silk dyed = Yards of green silk dyed + Yards of pink silk dyed\n\nStep 3: Substitute the known values into the formula and solve:\n\nTotal yards of silk dyed = 61921 + 49500\n\nTotal yards of silk dyed = 111421\n\nThe answer is 111421",
+        "parsed_answer": 111421.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan has 10 books . Tom has 38 books . How many books do they have together ? ",
+        "ground_truth": 48.0,
+        "response": "Hypothesis: To find the total number of books Joan and Tom have together, we need to add the number of books each person has.\n\nGiven:\nJoan has 10 books\nTom has 38 books\n\nStep 1: Add the number of books Joan and Tom have.\nTotal number of books = 10 + 38\n\nStep 2: Calculate the total number of books.\nTotal number of books = 48\n\nThe answer is 48",
+        "parsed_answer": 48.0,
+        "is_correct": true
+    },
+    {
+        "question": "Oscar 's bus ride to school is 0.75 mile and Charlie 's bus ride is 0.25 mile . How much longer is Oscar 's bus ride than Charlie 's ? ",
+        "ground_truth": 0.5,
+        "response": "Hypothesis: To find the difference in the length of bus rides between Oscar and Charlie, we need to subtract Charlie's bus ride distance from Oscar's bus ride distance.\n\nGiven:\nOscar's bus ride distance = 0.75 mile\nCharlie's bus ride distance = 0.25 mile\n\nStep 1: Calculate the difference in bus ride distances.\nSubtract Charlie's bus ride distance from Oscar's bus ride distance.\n0.75 - 0.25 = 0.5\n\nThe answer is 0.5",
+        "parsed_answer": 0.5,
+        "is_correct": true
+    },
+    {
+        "question": "A petri dish originally contained 600 bacteria . A scientist let the bacteria grow and now there are 8917 of them . How many more bacteria are there now ? ",
+        "ground_truth": 8317.0,
+        "response": "Hypothesis: To find the increase in the number of bacteria, we need to subtract the original count from the current count.\n\nStep 1: Known values and assumptions:\n\nInitial bacteria count = 600\n\nCurrent bacteria count = 8917\n\nBacteria only grew, no bacteria died\n\nStep 2: Calculation:\n\nIncrease in bacteria = Current count - Initial count\n\nStep 3: Substitute the values:\n\nIncrease in bacteria = 8917 - 600\n\nStep 4: Perform the subtraction:\n\nIncrease in bacteria = 8317\n\nTherefore, the answer is 8317",
+        "parsed_answer": 8317.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 2 red orchids and 4 white orchids in the vase . Jessica cut some red orchids from her flower garden . There are now 18 red orchids in the vase . How many red orchids did she cut ? ",
+        "ground_truth": 16.0,
+        "response": "Hypothesis: To find the number of red orchids Jessica cut, we need to subtract the number of red orchids in the vase after cutting from the initial number of red orchids.\n\nStep 1: Known values and assumptions:\n\nInitial red orchids in the vase = 2\nInitial white orchids in the vase = 4\nRed orchids in the vase after cutting = 18\nNo orchids were added or lost except the red orchids Jessica cut\n\nStep 2: Calculate the number of red orchids Jessica cut:\n\nNumber of red orchids cut = Initial red orchids - Red orchids in the vase after cutting\nNumber of red orchids cut = 2 - 18\nNumber of red orchids cut = -16\n\nStep 3: Final answer:\nThe answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jason found 49 seashells and 48 starfish on the beach . He gave 13 of the seashells to Tim . How many seashells does Jason now have ? ",
+        "ground_truth": 36.0,
+        "response": "Hypothesis: To find the number of seashells Jason now has, we need to subtract the seashells he gave to Tim from the total number of seashells he found.\n\nGiven values:\n\nTotal seashells found = 49\n\nTotal starfish found = 48\n\nSeashells given to Tim = 13\n\nStep 1: Calculate the total number of seashells Jason has now.\n\nStep 2: Subtract the seashells given to Tim from the total seashells found.\n\nCalculation:\n\n49 - 13 = 36\n\nTherefore, the answer is 36",
+        "parsed_answer": 36.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary has 9 yellow marbles Joan has 3 yellow marbles . How many yellow marbles do they have in all ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find the total number of yellow marbles Mary and Joan have, we need to add the number of yellow marbles each of them has.\n\nStep 1: Known values and assumptions:\n\nMary's yellow marbles = 9\n\nJoan's yellow marbles = 3\n\nStep 2: Calculation\n\nTotal yellow marbles = Mary's yellow marbles + Joan's yellow marbles\n\nStep 3: Execution\n\nTotal yellow marbles = 9 + 3 = 12\n\nTherefore, the answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sara has 3 green and 5 red marbles . Tom has 4 green marbles . How many green marbles do they have in total ? ",
+        "ground_truth": 7.0,
+        "response": "Hypothesis: To find the total number of green marbles Sara and Tom have, we need to add the number of green marbles each of them has.\n\nGiven values:\nSara has 3 green marbles.\nTom has 4 green marbles.\n\nStep 1: Calculate the total number of green marbles Sara and Tom have.\nTotal green marbles = Number of green marbles Sara has + Number of green marbles Tom has\n\nStep 2: Substitute the given values into the formula.\nTotal green marbles = 3 + 4\n\nStep 3: Perform the addition.\nTotal green marbles = 7\n\nThe answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jessica is baking a cake . The recipe calls for 8 cups of flour and 2 cups of sugar . She already put in 4 cups of flour . How many cups of flour does she need to add ? ",
+        "ground_truth": 4.0,
+        "response": "Hypothesis: To find out how many cups of flour Jessica needs to add, we will subtract the amount of flour she already put in from the total amount required by the recipe.\n\nGiven:\nTotal cups of flour required = 8 cups\nCups of flour already added = 4 cups\n\nStep 1: Calculate the remaining cups of flour needed.\nStep 2: Subtract the cups of flour already added from the total cups required.\n\nStep 1: \nTotal cups of flour needed = 8 cups\nCups of flour already added = 4 cups\n\nStep 2:\n8 - 4 = 4\n\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam had 9 dimes in his bank . His dad gave him 7 dimes . How many dimes does Sam have now ? ",
+        "ground_truth": 16.0,
+        "response": "Hypothesis: To find the total number of dimes Sam has now, we need to add the dimes he initially had with the dimes his dad gave him.\n\nStep 1: Known values and assumptions:\n\nInitial dimes = 9 dimes\n\nDimes given by dad = 7 dimes\n\nStep 2: Calculation:\n\nTotal dimes = Initial dimes + Dimes given by dad\nTotal dimes = 9 + 7\nTotal dimes = 16\n\nStep 3: Final answer:\nThe answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 43 maple trees and 22 orange trees currently in the park . Park workers will plant maple trees today . When the workers are finished there will be 54 maple trees in the park . How many maple trees did the workers plant today ? ",
+        "ground_truth": 11.0,
+        "response": "Hypothesis: To find out how many maple trees the workers planted today, we need to determine the difference between the total number of maple trees after planting and the initial number of maple trees.\n\nStep 1: Known values and assumptions:\n\nInitial number of maple trees = 43\n\nInitial number of orange trees is not relevant to this question\n\nTotal number of maple trees after planting = 54\n\nNo maple trees were removed or lost\n\nStep 2: Calculate the number of maple trees planted today:\n\nNumber of maple trees planted = Total number of maple trees after planting - Initial number of maple trees\n\nStep 3: Substitute the known values into the formula:\n\nNumber of maple trees planted = 54 - 43\n\nStep 4: Perform the subtraction:\n\nNumber of maple trees planted = 11\n\nStep 5: Double-check the solution:\n\nInitial maple trees (43) + Maple trees planted (11) = Total maple trees after planting (54) \u2705\n\nThe answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa picked 17 plums and Jason picked 10 plums . Melanie picked 35 pears . How many plums were picked in all ? ",
+        "ground_truth": 27.0,
+        "response": "Hypothesis: To find the total number of plums picked by Alyssa and Jason, we need to add the number of plums each of them picked.\n\nGiven values:\n\nAlyssa picked 17 plums\n\nJason picked 10 plums\n\nStep 1: Add the number of plums picked by Alyssa and Jason.\n\nStep 2: Compute the total number of plums picked.\n\nStep 3: Final answer.\n\nStep 1: Alyssa picked 17 plums and Jason picked 10 plums.\n\nStep 2: Total plums picked = 17 + 10 = 27\n\nStep 3: The answer is 27",
+        "parsed_answer": 27.0,
+        "is_correct": true
+    },
+    {
+        "question": "Irene just bought a new lamp for her bedside table . The old lamp was 1 foot tall and the new lamp is 2.3333333333333335 feet tall . How much taller is the new lamp than the old lamp ? ",
+        "ground_truth": 1.3333333333333333,
+        "response": "Hypothesis: To find the difference in height between the old and new lamps, subtract the height of the old lamp from the height of the new lamp.\n\nGiven:\nHeight of the old lamp = 1 foot\nHeight of the new lamp = 2.3333333333333335 feet\n\nStep 1: Calculate the height difference between the two lamps.\nSubtract the height of the old lamp from the height of the new lamp.\n\nStep 2: Execute the calculation.\n2.3333333333333335 - 1 = 1.3333333333333335\n\nTherefore, the answer is 1.3333333333333335",
+        "parsed_answer": 1.3333333333333335,
+        "is_correct": true
+    },
+    {
+        "question": "Sandy grew 6 carrots . Sam grew 3 carrots . How many carrots did they grow in total ? ",
+        "ground_truth": 9.0,
+        "response": "Hypothesis: To find the total number of carrots grown by Sandy and Sam, we need to add the number of carrots each of them grew.\n\nGiven:\nSandy grew 6 carrots.\nSam grew 3 carrots.\n\nStep 1: Add the number of carrots grown by Sandy and Sam.\n6 + 3 = 9\n\nThe answer is 9",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "Fred found 47 seashells on the beach , he gave Jessica 25 of the seashells . How many seashells does he now have ? ",
+        "ground_truth": 22.0,
+        "response": "Hypothesis: To find the number of seashells Fred has after giving some to Jessica, we need to subtract the seashells he gave from the total he found.\n\nGiven values:\n\nTotal seashells found = 47\n\nSeashells given to Jessica = 25\n\nStep 1: Calculate the number of seashells Fred has now.\n\nStep 2: Subtract the seashells given to Jessica from the total seashells found.\n\nCalculation:\n\n47 - 25 = 22\n\nTherefore, the answer is 22.",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "A tailor cut 0.75 inch off a skirt and 0.5 inch off a pair of pants . How much more did the tailor cut off the skirt than the pants ? ",
+        "ground_truth": 0.25,
+        "response": "Hypothesis: To find the difference in the amount cut off the skirt and the pants, we need to subtract the length cut off the pants from the length cut off the skirt.\n\nStep 1: Known values and assumptions:\n\nLength cut off the skirt = 0.75 inches\n\nLength cut off the pants = 0.5 inches\n\nStep 2: Calculation:\n\nSubtract the length cut off the pants from the length cut off the skirt:\n\n0.75 - 0.5 = 0.25\n\nStep 3: Final answer:\n\nThe answer is 0.25",
+        "parsed_answer": 0.25,
+        "is_correct": true
+    },
+    {
+        "question": "Heather went to the county fair last weekend . When she got there , she had to walk 0.3333333333333333 mile from the car to the entrance . Then she walked 0.3333333333333333 mile to the carnival rides and 0.08333333333333333 mile from the carnival rides back to the car . How many miles did Heather walk in all ? ",
+        "ground_truth": 0.75,
+        "response": "Hypothesis: To find the total distance Heather walked, we need to add the distances she walked from the car to the entrance, to the carnival rides, and back to the car.\n\nStep 1: Known values and assumptions:\n\nDistance from car to entrance = 0.3333333333333333 mile\n\nDistance to carnival rides = 0.3333333333333333 mile\n\nDistance from carnival rides back to car = 0.08333333333333333 mile\n\nStep 2: Add all the distances together:\n\n0.3333333333333333 + 0.3333333333333333 + 0.08333333333333333 = 0.75\n\nThe answer is 0.75",
+        "parsed_answer": 0.75,
+        "is_correct": true
+    },
+    {
+        "question": "Fred has 5 baseball cards . Melanie bought 3 of Fred 's baseball cards . How many baseball cards does Fred have now ? ",
+        "ground_truth": 2.0,
+        "response": "Hypothesis: To find the total number of baseball cards Fred has after Melanie bought 3 of them, we need to subtract the number of cards Melanie bought from the initial number of cards Fred had.\n\nGiven:\nInitial number of cards Fred had = 5\nNumber of cards Melanie bought = 3\n\nStep 1: Calculate the total number of baseball cards Fred has now.\nTotal = Initial number of cards - Number of cards Melanie bought\nTotal = 5 - 3\nTotal = 2\n\nThe answer is 2",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tom has 30 violet balloons , he gave Fred 16 of the balloons . How many violet balloons does he now have ? ",
+        "ground_truth": 14.0,
+        "response": "Hypothesis: To find the number of violet balloons Tom has after giving some to Fred, we need to subtract the balloons given to Fred from the initial number of balloons Tom had.\n\nGiven:\nInitial number of violet balloons = 30\nBalloons given to Fred = 16\n\nStep 1: Calculate the number of violet balloons Tom has now.\nStep 2: Subtract the number of balloons given to Fred from the initial number of balloons Tom had.\n\nStep 3: Calculation\n30 - 16 = 14\n\nThe answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "A restaurant served 5 cakes during lunch and 6 during dinner today . The restaurant served 3 cakes yesterday . How many cakes were served in total ? ",
+        "ground_truth": 14.0,
+        "response": "Hypothesis: To find the total number of cakes served, we need to sum the cakes served during lunch, dinner, and yesterday.\n\nStep 1: Known values and assumptions:\n\nCakes served during lunch = 5 cakes\n\nCakes served during dinner = 6 cakes\n\nCakes served yesterday = 3 cakes\n\nStep 2: Calculate the total number of cakes served:\n\nTotal cakes served = Cakes served during lunch + Cakes served during dinner + Cakes served yesterday\n\nStep 3: Substitute the known values into the formula:\n\nTotal cakes served = 5 + 6 + 3\n\nTotal cakes served = 14\n\nThe answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 3 roses in the vase . Alyssa cut some roses from her flower garden . There are now 14 roses in the vase . How many roses did she cut ? ",
+        "ground_truth": 11.0,
+        "response": "Hypothesis: To find the number of roses Alyssa cut, we need to subtract the initial number of roses from the final number.\n\nStep 1: Known values and assumptions:\n\nInitial roses: 3\n\nFinal roses: 14\n\nNo roses were added to the vase\n\nStep 2: Calculation:\n\nNumber of roses cut = Final roses - Initial roses\n\nStep 3: Execution:\n\nNumber of roses cut = 14 - 3 = 11\n\nStep 4: Final answer:\n\nThe answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sara has 792 black and 122 red marbles . Fred took 233 of Sara 's black marbles . How many black marbles does Sara now have ? ",
+        "ground_truth": 559.0,
+        "response": "Hypothesis: To find the number of black marbles Sara has after Fred took some, we need to subtract the marbles Fred took from the initial number of black marbles Sara had.\n\nStep 1: Known values and assumptions:\n\nInitial black marbles = 792\nRed marbles = 122\nMarbles Fred took = 233\n\nStep 2: Calculate the number of black marbles Sara has now:\n\n792 - 233 = 559\n\nThe answer is 559",
+        "parsed_answer": 559.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sally had 27 Pokemon cards . Dan gave her 41 new Pokemon cards . Sally bought 20 Pokemon cards . How many Pokemon cards does Sally have now ? ",
+        "ground_truth": 88.0,
+        "response": "Hypothesis: To find the total number of Pokemon cards Sally has now, we need to consider the initial number of cards she had, the cards Dan gave her, and the cards she bought. We will add these three quantities to find the total number of cards.\n\nStep 1: Known values and assumptions:\n\nInitial cards = 27\n\nCards Dan gave = 41\n\nCards Sally bought = 20\n\nNo cards were lost or duplicated\n\nStep 2: Calculate the total number of cards:\n\nTotal cards = Initial cards + Cards Dan gave + Cards Sally bought\n\nStep 3: Substitute the known values into the formula:\n\nTotal cards = 27 + 41 + 20\n\nStep 4: Perform the addition:\n\nTotal cards = 88\n\nTherefore, the answer is 88.",
+        "parsed_answer": 88.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 107 walnut trees currently in the park . Park workers will plant 104 walnut trees today . How many walnut trees will the park have when the workers are finished ? ",
+        "ground_truth": 211.0,
+        "response": "Hypothesis: To find the total number of walnut trees in the park after planting, we need to add the current number of walnut trees to the number of walnut trees planted by the workers.\n\nStep 1: Known values and assumptions:\n\nCurrent walnut trees = 107 trees\n\nWalnut trees to be planted = 104 trees\n\nStep 2: Calculation:\n\nTotal walnut trees = Current walnut trees + Walnut trees planted\nTotal walnut trees = 107 + 104\n\nStep 3: Compute the total number of walnut trees:\n\nTotal walnut trees = 211\n\nThe answer is 211",
+        "parsed_answer": 211.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sara picked 6 pears and Tim picked 5 pears from the pear tree . How many pears were picked in total ? ",
+        "ground_truth": 11.0,
+        "response": "Hypothesis: To find the total number of pears picked by Sara and Tim, we need to add the number of pears each of them picked.\n\nGiven:\nSara picked 6 pears.\nTim picked 5 pears.\n\nStep 1: Add the number of pears picked by Sara and Tim.\n6 pears + 5 pears = 11 pears\n\nThe answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "It rained 0.9 inches on Monday . On Tuesday , it rained 0.7 inches less than on Monday . How much did it rain on Tuesday ? ",
+        "ground_truth": 0.2,
+        "response": "Hypothesis: To find the amount of rain on Tuesday, we need to subtract 0.7 inches from the amount of rain on Monday.\n\nGiven:\nRain on Monday = 0.9 inches\nRain on Tuesday = Rain on Monday - 0.7 inches\n\nStep 1: Calculate the amount of rain on Tuesday.\nRain on Tuesday = 0.9 - 0.7\n\nStep 2: Perform the subtraction.\nRain on Tuesday = 0.2\n\nThe answer is 0.2",
+        "parsed_answer": 0.2,
+        "is_correct": true
+    },
+    {
+        "question": "Tim has 44 books . Sam has 52 books . How many books do they have together ? ",
+        "ground_truth": 96.0,
+        "response": "Hypothesis: To find the total number of books Tim and Sam have together, we need to add the number of books each person has.\n\nGiven:\nTim's books = 44\nSam's books = 52\n\nStep 1: Add the number of books Tim and Sam have.\nTotal books = Tim's books + Sam's books\n\nStep 2: Substitute the given values into the equation.\nTotal books = 44 + 52\n\nStep 3: Calculate the total number of books.\nTotal books = 96\n\nThe answer is 96",
+        "parsed_answer": 96.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 33 oak trees currently in the park . Park workers had to cut down 18 oak trees that were damaged . How many oak trees will be in the park when the workers are finished ? ",
+        "ground_truth": 15.0,
+        "response": "Hypothesis: To find the number of oak trees remaining in the park after cutting down the damaged ones, we need to subtract the number of damaged trees from the initial count.\n\nStep 1: Known values and assumptions:\n\nInitial oak trees = 33\n\nDamaged oak trees = 18\n\nNo new oak trees are planted\n\nStep 2: Calculation:\n\nNumber of oak trees remaining = Initial oak trees - Damaged oak trees\n\nStep 3: Substitute the values:\n\nNumber of oak trees remaining = 33 - 18\n\nStep 4: Perform the subtraction:\n\nNumber of oak trees remaining = 15\n\nTherefore, the answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa has 37 blue balloons , Sandy has 28 blue balloons , and Sally has 39 blue balloons . How many blue balloons do they have in all ? ",
+        "ground_truth": 104.0,
+        "response": "Hypothesis: To find the total number of blue balloons Alyssa, Sandy, and Sally have, we need to add the number of blue balloons each person has.\n\nGiven values:\nAlyssa's blue balloons = 37\nSandy's blue balloons = 28\nSally's blue balloons = 39\n\nStep 1: Add the number of blue balloons each person has.\n37 (Alyssa) + 28 (Sandy) + 39 (Sally) = ?\n\nStep 2: Perform the addition.\n37 + 28 + 39 = 104\n\nThe answer is 104",
+        "parsed_answer": 104.0,
+        "is_correct": true
+    },
+    {
+        "question": "A truck carrying 4.1 pounds of sand travels to a construction yard and loses 2.4 pounds of sand along the way . How much sand does the truck have when it arrives at the yard ? ",
+        "ground_truth": 1.7,
+        "response": "Hypothesis: To find the amount of sand the truck has when it arrives at the construction yard, we need to subtract the lost sand from the initial amount.\n\nGiven:\nInitial amount of sand = 4.1 pounds\nLost amount of sand = 2.4 pounds\n\nStep 1: Calculate the remaining amount of sand in the truck.\nRemaining sand = Initial amount - Lost amount\n\nStep 2: Substitute the given values into the formula.\nRemaining sand = 4.1 - 2.4\n\nStep 3: Perform the subtraction.\nRemaining sand = 1.7\n\nThe answer is 1.7",
+        "parsed_answer": 1.7,
+        "is_correct": true
+    },
+    {
+        "question": "Jason has 7 violet balloons and 4 red balloons . He lost 3 of the violet balloons . How many violet balloons does Jason have now ? ",
+        "ground_truth": 4.0,
+        "response": "Hypothesis: To find the number of violet balloons Jason has after losing some, we need to subtract the lost violet balloons from the initial count.\n\nStep 1: Known values and assumptions:\n\nInitial violet balloons: 7\nInitial red balloons: 4\nLost violet balloons: 3\n\nStep 2: Calculation\nNumber of violet balloons after loss = Initial violet balloons - Lost violet balloons\nNumber of violet balloons after loss = 7 - 3\n\nStep 3: Solve\nNumber of violet balloons after loss = 4\n\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Nicole found an orange caterpillar and a green caterpillar in her backyard . The green caterpillar was 3 inches long and the orange caterpillar was 1.1666666666666667 inches long . How much longer was the green caterpillar than the orange caterpillar ? ",
+        "ground_truth": 1.8333333333333335,
+        "response": "Hypothesis: To find the difference in length between the green and orange caterpillars, subtract the length of the orange caterpillar from the length of the green caterpillar.\n\nStep 1: Known values and assumptions:\n\nLength of green caterpillar = 3 inches\n\nLength of orange caterpillar = 1.1666666666666667 inches\n\nStep 2: Calculation:\n\nGreen caterpillar length - Orange caterpillar length = 3 - 1.1666666666666667\n\nStep 3: Solve the subtraction:\n\n3 - 1.1666666666666667 \u2248 1.8333333333333333\n\nStep 4: Final answer:\n\nThe answer is 1.8333333333333333",
+        "parsed_answer": 1.8333333333333333,
+        "is_correct": true
+    },
+    {
+        "question": "Keith picked 3 pears and Jason picked 2 pears from the pear tree . Joan picked 5 apples from the apple tree . How many pears were picked in total ? ",
+        "ground_truth": 5.0,
+        "response": "Hypothesis: To find the total number of pears picked, we need to add the number of pears picked by Keith and Jason.\n\nGiven:\nKeith picked 3 pears\nJason picked 2 pears\n\nStep 1: Calculate the total number of pears picked by Keith and Jason.\nTotal pears = 3 (picked by Keith) + 2 (picked by Jason)\n\nStep 2: Perform the addition.\nTotal pears = 3 + 2 = 5\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 25 popular trees currently in the park . Park workers will plant 73 popular trees today . How many popular trees will the park have when the workers are finished ? ",
+        "ground_truth": 98.0,
+        "response": "Hypothesis: To find the total number of popular trees in the park after planting, we need to add the current number of trees to the number of trees being planted.\n\nStep 1: Known values and assumptions:\n\nCurrent popular trees = 25 trees\n\nPopular trees to be planted = 73 trees\n\nNo trees are removed or lost\n\nStep 2: Calculation:\n\nTotal popular trees = Current popular trees + Popular trees to be planted\n\nStep 3: Substitute the known values into the formula:\n\nTotal popular trees = 25 + 73\n\nStep 4: Perform the addition:\n\nTotal popular trees = 98\n\nTherefore, the answer is 98.",
+        "parsed_answer": 98.0,
+        "is_correct": true
+    },
+    {
+        "question": "On a hot day , Sam poured 1 bucket of water into a plastic wading pool . A few minutes later he added another 8.8 buckets . How much water did Sam pour into the pool ? ",
+        "ground_truth": 9.8,
+        "response": "Hypothesis: To find the total amount of water Sam poured into the pool, we need to add the water from the first bucket to the water from the additional 8.8 buckets.\n\nStep 1: Known values and assumptions:\n- Water from the first bucket = 1 bucket\n- Water from the additional 8.8 buckets = 8.8 buckets\n\nStep 2: Calculation\n1 + 8.8 = 9.8\n\nThe answer is 9.8",
+        "parsed_answer": 9.8,
+        "is_correct": true
+    },
+    {
+        "question": "Greg and Sharon own neighboring cornfields . Greg harvested 0.4 acre of corn on Monday and Sharon harvested 0.1 acre . How many more acres did Greg harvest than Sharon ? ",
+        "ground_truth": 0.3,
+        "response": "Hypothesis: To find the difference in the amount of corn harvested by Greg and Sharon, we need to subtract Sharon's harvest from Greg's harvest.\n\nGiven:\nGreg's harvest = 0.4 acres\nSharon's harvest = 0.1 acres\n\nStep 1: Calculate the difference in the amount of corn harvested by Greg and Sharon.\nDifference = Greg's harvest - Sharon's harvest\n\nStep 2: Substitute the given values into the formula.\nDifference = 0.4 - 0.1\n\nStep 3: Perform the subtraction.\nDifference = 0.3 acres\n\nThe answer is 0.3",
+        "parsed_answer": 0.3,
+        "is_correct": true
+    },
+    {
+        "question": "Tom purchased a football game for $ 14.02 , a strategy game for $ 9.46 , and a Batman game for $ 12.04 . How much did Tom spend on video games ? ",
+        "ground_truth": 35.52,
+        "response": "Hypothesis: To find the total amount Tom spent on video games, we need to add the prices of the three games he purchased.\n\nGiven values:\nFootball game = $14.02\nStrategy game = $9.46\nBatman game = $12.04\n\nPlan:\n1. Add the prices of the three games to find the total amount spent.\n\nStep 1: Calculate the total amount spent on video games.\nTotal = $14.02 + $9.46 + $12.04\n\nStep 2: Perform the addition.\nTotal = $35.52\n\nThe answer is 35.52",
+        "parsed_answer": 35.52,
+        "is_correct": true
+    },
+    {
+        "question": "There are 5 scissors and 3 pencils in the drawer . Jason placed 4 scissors in the drawer . How many scissors are now there in total ? ",
+        "ground_truth": 9.0,
+        "response": "Hypothesis: To find the total number of scissors in the drawer after Jason placed 4 more scissors, we need to add the initial number of scissors to the number Jason added.\n\nStep 1: Known values and assumptions:\n\nInitial number of scissors = 5\n\nInitial number of pencils = 3\n\nScissors added by Jason = 4\n\nNo scissors were removed\n\nStep 2: Calculate the total number of scissors after Jason placed 4 more:\n\nTotal number of scissors = Initial scissors + Scissors added by Jason\nTotal number of scissors = 5 + 4\n\nStep 3: Perform the calculation:\n\nTotal number of scissors = 9\n\nThe answer is 9",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jason grew 32 watermelons and 22 cantelopes . Dan grew 31 watermelons . How many watermelons did they grow in total ? ",
+        "ground_truth": 63.0,
+        "response": "Hypothesis: To find the total number of watermelons grown by Jason and Dan, we need to add the number of watermelons each person grew.\n\nGiven values:\n\nJason grew 32 watermelons\n\nDan grew 31 watermelons\n\nStep 1: Add the number of watermelons grown by Jason and Dan.\n\nStep 2: Calculate the total number of watermelons.\n\nStep 3: Execute the addition.\n\nStep 4: The answer is the total number of watermelons grown by Jason and Dan.\n\nThe answer is 63",
+        "parsed_answer": 63.0,
+        "is_correct": true
+    },
+    {
+        "question": "At Lindsey 's Vacation Wear , 0.375 the garments are bikinis and 0.25 are trunks . What fraction of the garments are either bikinis or trunks ? ",
+        "ground_truth": 0.625,
+        "response": "Hypothesis: To find the fraction of garments that are either bikinis or trunks, we need to add the fractions of bikinis and trunks and then subtract the overlap (both bikinis and trunks).\n\nStep 1: Known values and assumptions:\n\nFraction of bikinis = 0.375\nFraction of trunks = 0.25\n\nStep 2: Calculate the fraction of garments that are either bikinis or trunks:\n\nFraction of bikinis or trunks = Fraction of bikinis + Fraction of trunks - Fraction of both\n\nStep 3: Substitute the known values into the formula:\n\nFraction of bikinis or trunks = 0.375 + 0.25 - (0.375 * 0.25)\n\nStep 4: Perform the calculations:\n\nFraction of bikinis or trunks = 0.375 + 0.25 - (0.09375)\nFraction of bikinis or trunks = 0.625 - 0.09375\nFraction of bikinis or trunks = 0.53125\n\nThe answer is 0.53125",
+        "parsed_answer": 0.53125,
+        "is_correct": false
+    },
+    {
+        "question": "The Richmond Tigers sold a total of 9570 tickets last season . If they sold 3867 tickets in the first half of the season , how many tickets did they sell in the second half ? ",
+        "ground_truth": 5703.0,
+        "response": "Hypothesis: To find the number of tickets sold in the second half of the season, we need to subtract the tickets sold in the first half from the total tickets sold.\n\nGiven:\nTotal tickets sold = 9570\nTickets sold in the first half = 3867\n\nStep 1: Calculate the number of tickets sold in the second half.\nTickets sold in the second half = Total tickets sold - Tickets sold in the first half\n\nStep 2: Substitute the given values into the formula.\nTickets sold in the second half = 9570 - 3867\n\nStep 3: Perform the subtraction.\nTickets sold in the second half = 5703\n\nThe answer is 5703",
+        "parsed_answer": 5703.0,
+        "is_correct": true
+    },
+    {
+        "question": "Before the recent housing boom , there were 1426 houses in Lawrence County . Now , there are 2000 houses . How many houses did developers build during the housing boom ? ",
+        "ground_truth": 574.0,
+        "response": "Hypothesis: To find the number of houses developers built during the housing boom, we need to calculate the difference between the current number of houses and the initial number of houses.\n\nStep 1: Known values and assumptions:\n\nInitial number of houses = 1426 houses\nCurrent number of houses = 2000 houses\n\nStep 2: Calculation\n\nNumber of houses built = Current number of houses - Initial number of houses\n\nStep 3: Substitute the values and calculate\n\nNumber of houses built = 2000 - 1426 = 574\n\nThe answer is 574",
+        "parsed_answer": 574.0,
+        "is_correct": true
+    },
+    {
+        "question": "Wendy ran 19.833333333333332 miles and walked 9.166666666666666 miles . How much farther did Wendy run than walk ? ",
+        "ground_truth": 10.666666666666666,
+        "response": "Hypothesis: To find the difference between the distance Wendy ran and walked, subtract the distance she walked from the distance she ran.\n\nGiven values:\n\nDistance ran = 19.833333333333332 miles\n\nDistance walked = 9.166666666666666 miles\n\nStep 1: Compute the difference between the distances ran and walked.\n\n19.833333333333332 - 9.166666666666666 = 10.666666666666666\n\nThe answer is 10.666666666666666",
+        "parsed_answer": 10.666666666666666,
+        "is_correct": true
+    },
+    {
+        "question": "Sara has 31 red and 15 green balloons . Sandy has 24 red balloons . How many red balloons do they have in total ? ",
+        "ground_truth": 55.0,
+        "response": "Hypothesis: To find the total number of red balloons Sara and Sandy have, we need to add the number of red balloons each person has.\n\nGiven values:\n\nSara's red balloons = 31\n\nSandy's red balloons = 24\n\nStep 1: Add the number of red balloons Sara and Sandy have.\n\nStep 2: Calculate the total number of red balloons.\n\nStep 3: Execute the addition.\n\n31 (Sara's red balloons) + 24 (Sandy's red balloons) = 55\n\nTherefore, the answer is 55",
+        "parsed_answer": 55.0,
+        "is_correct": true
+    },
+    {
+        "question": "While making desserts for a bake sale , Victor used 0.625 scoop of brown sugar as well as 0.25 scoop of white sugar . How much more brown sugar did Victor use ? ",
+        "ground_truth": 0.375,
+        "response": "Hypothesis: To find out how much more brown sugar Victor used compared to white sugar, we need to subtract the amount of white sugar used from the amount of brown sugar used.\n\nStep 1: Known values and assumptions:\n\nAmount of brown sugar used = 0.625 scoop\n\nAmount of white sugar used = 0.25 scoop\n\nStep 2: Calculation:\n\nSubtract the amount of white sugar used from the amount of brown sugar used:\n0.625 - 0.25 = 0.375\n\nStep 3: Final answer:\nThe answer is 0.375",
+        "parsed_answer": 0.375,
+        "is_correct": true
+    },
+    {
+        "question": "Fred went to 36 basketball games this year , but missed 35 . He went to 11 games last year . How many basketball games did Fred go to in total ? ",
+        "ground_truth": 47.0,
+        "response": "Hypothesis: To find the total number of basketball games Fred went to, we need to add the games he attended this year and the games he attended last year.\n\nStep 1: Known values and assumptions:\n\nGames attended this year = 36\n\nGames missed this year = 35\n\nGames attended last year = 11\n\nStep 2: Calculate the total number of games Fred attended:\n\nTotal games attended = Games attended this year + Games attended last year\n\nStep 3: Substitute the known values into the formula:\n\nTotal games attended = 36 + 11\n\nTotal games attended = 47\n\nThe answer is 47",
+        "parsed_answer": 47.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sam grew 4 watermelons , but the rabbits ate 3 watermelons . How many watermelons does Sam have ? ",
+        "ground_truth": 1.0,
+        "response": "Hypothesis: To find the number of watermelons Sam has after the rabbits ate some, we need to subtract the number of watermelons eaten from the total number grown.\n\nGiven:\n- Watermelons grown = 4\n- Watermelons eaten by rabbits = 3\n\nSub-steps:\n1. Subtract the number of watermelons eaten from the total number grown.\n\nCalculation:\n4 - 3 = 1\n\nThe answer is 1",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alec and his roommates ate 3.25 pints of ice cream on Friday night and 0.25 pint of ice cream on Saturday night . How many pints did they eat in all ? ",
+        "ground_truth": 3.5,
+        "response": "Hypothesis: To find the total pints of ice cream Alec and his roommates ate, we need to add the pints consumed on Friday night and Saturday night.\n\nStep 1: Known values and assumptions:\n\nPints eaten on Friday night = 3.25 pints\n\nPints eaten on Saturday night = 0.25 pints\n\nStep 2: Add the pints consumed on both nights:\n\n3.25 + 0.25 = 3.50\n\nThe answer is 3.50",
+        "parsed_answer": 3.5,
+        "is_correct": true
+    },
+    {
+        "question": "There are 22 walnut trees currently in the park . Park workers will plant walnut trees today . When the workers are finished there will be 55 walnut trees in the park . How many walnut trees did the workers plant today ? ",
+        "ground_truth": 33.0,
+        "response": "Hypothesis: The workers planted some walnut trees to increase the total number from 22 to 55. To find out how many trees they planted, we need to calculate the difference between the final count and the initial count.\n\nStep 1: Known values and assumptions:\n\nInitial walnut trees = 22\n\nFinal walnut trees = 55\n\nNumber of trees planted is the difference between the final and initial counts\n\nStep 2: Calculation:\n\nNumber of walnut trees planted = Final count - Initial count\n\nStep 3: Execute the calculation:\n\nNumber of walnut trees planted = 55 - 22 = 33\n\nStep 4: Final answer:\n\nThe answer is 33",
+        "parsed_answer": 33.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Tim had 12 dollars and Keith had 36 dollars . Tim washed cars over the weekend and now has 75 dollars . How much money did Tim make washing cars ? ",
+        "ground_truth": 63.0,
+        "response": "Hypothesis: To find out how much money Tim made washing cars, we need to calculate the difference between the amount Tim has now and the amount he had before washing cars.\n\nGiven values:\n\nTim's initial amount = $12\nTim's current amount = $75\n\nStep 1: Calculate the amount Tim made washing cars\n\nAmount Tim made = Tim's current amount - Tim's initial amount\n\nStep 2: Substitute the values into the formula\n\nAmount Tim made = $75 - $12\n\nStep 3: Perform the subtraction\n\nAmount Tim made = $63\n\nTherefore, the answer is $63.",
+        "parsed_answer": 63.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jason grew 37 watermelons and 30 pumpkins . Sandy grew 11 watermelons . How many watermelons did they grow in total ? ",
+        "ground_truth": 48.0,
+        "response": "Hypothesis: To find the total number of watermelons grown by Jason and Sandy, we need to add the number of watermelons each of them grew.\n\nGiven values:\nJason's watermelons = 37\nJason's pumpkins = 30\nSandy's watermelons = 11\n\nStep 1: Calculate the total number of watermelons grown by Jason and Sandy.\nTotal watermelons = Jason's watermelons + Sandy's watermelons\n\nStep 2: Substitute the given values into the formula.\nTotal watermelons = 37 + 11\n\nStep 3: Perform the addition.\nTotal watermelons = 48\n\nThe answer is 48",
+        "parsed_answer": 48.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa bought some toys . She bought a football for $ 5.71 , and spent $ 6.59 on marbles . In total , how much did Alyssa spend on toys ? ",
+        "ground_truth": 12.3,
+        "response": "Hypothesis: To find the total amount Alyssa spent on toys, we need to add the cost of the football and the marbles.\n\nStep 1: Known values and assumptions:\n\nCost of football = $5.71\n\nCost of marbles = $6.59\n\nStep 2: Add the costs of the football and marbles:\n\n$5.71 + $6.59 = $12.30\n\nThe answer is $12.30",
+        "parsed_answer": 12.3,
+        "is_correct": true
+    },
+    {
+        "question": "While making pastries , a bakery used 0.2 bag of wheat flour and 0.1 bag of white flour . How many bags of flour did the bakery use in all ? ",
+        "ground_truth": 0.3,
+        "response": "Hypothesis: To find the total bags of flour used, we need to add the bags of wheat flour and white flour used by the bakery.\n\nStep 1: Known values and assumptions:\n\nBags of wheat flour used = 0.2\nBags of white flour used = 0.1\n\nStep 2: Calculation:\n\nTotal bags of flour used = 0.2 + 0.1\n\nStep 3: Solve the equation:\n\n0.2 + 0.1 = 0.3\n\nThe answer is 0.3",
+        "parsed_answer": 0.3,
+        "is_correct": true
+    },
+    {
+        "question": "Brennan had 0.25 grams of pepper . Then he used 0.16 grams of the pepper to make some scrambled eggs . How much pepper does Brennan have ? ",
+        "ground_truth": 0.09,
+        "response": "Hypothesis: To find the amount of pepper Brennan has after using some to make scrambled eggs, we need to subtract the amount used from the initial amount.\n\nGiven:\nInitial amount of pepper = 0.25 grams\nAmount used for scrambled eggs = 0.16 grams\n\nSub-steps:\n1. Subtract the amount used from the initial amount to find the remaining amount of pepper.\n\nCalculation:\n0.25 - 0.16 = 0.09\n\nTherefore, the answer is 0.09",
+        "parsed_answer": 0.09,
+        "is_correct": true
+    },
+    {
+        "question": "Fred has 40 baseball cards . Keith bought 22 of Fred 's baseball cards . How many baseball cards does Fred have now ? ",
+        "ground_truth": 18.0,
+        "response": "Hypothesis: To find the number of baseball cards Fred has after Keith bought some, we need to subtract the cards bought by Keith from the initial number of cards Fred had.\n\nGiven:\nInitial number of baseball cards Fred had = 40\nNumber of baseball cards bought by Keith = 22\n\nStep 1: Calculate the number of baseball cards Fred has now.\nStep 2: Subtract the number of cards bought by Keith from the initial number of cards Fred had.\n\nStep 3: Calculation:\n40 - 22 = 18\n\nThe answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "Fred grew 38 cantelopes . Tim grew 44 cantelopes . How many cantelopes did they grow in total ? ",
+        "ground_truth": 82.0,
+        "response": "Hypothesis: To find the total number of cantaloupes Fred and Tim grew, we need to add the number of cantaloupes each of them grew.\n\nGiven:\nFred grew 38 cantaloupes.\nTim grew 44 cantaloupes.\n\nStep 1: Add the number of cantaloupes Fred and Tim grew.\n38 + 44 = 82\n\nThe answer is 82",
+        "parsed_answer": 82.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jessica spent $ 10.22 on a cat toy , and a cage cost her $ 11.73 . What was the total cost of Jessica 's purchases ? ",
+        "ground_truth": 21.95,
+        "response": "Hypothesis: To find the total cost of Jessica's purchases, we need to add the cost of the cat toy and the cage.\n\nGiven values:\n\nCost of the cat toy = $10.22\n\nCost of the cage = $11.73\n\nStep 1: Add the cost of the cat toy and the cage.\n\n$10.22 + $11.73 = $21.95\n\nTherefore, the total cost of Jessica's purchases was $21.95.\n\nThe answer is $21.95",
+        "parsed_answer": 21.95,
+        "is_correct": true
+    },
+    {
+        "question": "Joan found 6 seashells and Jessica found 8 seashells on the beach . How many seashells did they find together ? ",
+        "ground_truth": 14.0,
+        "response": "Hypothesis: To find the total number of seashells Joan and Jessica found together, we need to add the number of seashells each of them found.\n\nStep 1: Known values and assumptions:\n\nJoan found 6 seashells\n\nJessica found 8 seashells\n\nStep 2: Calculation:\n\nTotal seashells found = 6 + 8\n\nStep 3: Execution:\n\nTotal seashells found = 6 + 8 = 14\n\nTherefore, the answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan grew 8 watermelons and 4 turnips . Tom grew 9 watermelons . How many watermelons did they grow in total ? ",
+        "ground_truth": 17.0,
+        "response": "Hypothesis: To find the total number of watermelons grown by Joan and Tom, we need to add the number of watermelons each of them grew.\n\nGiven values:\nJoan grew 8 watermelons.\nTom grew 9 watermelons.\n\nStep 1: Calculate the total number of watermelons grown by Joan and Tom.\nTotal watermelons = Watermelons grown by Joan + Watermelons grown by Tom\n\nStep 2: Substitute the given values into the formula.\nTotal watermelons = 8 + 9\n\nStep 3: Perform the addition.\nTotal watermelons = 17\n\nThe answer is 17",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Silvergrove Public Library used a grant to purchase 2647 books . Now the library has a total of 8582 books . How many books did the library have before the grant ? ",
+        "ground_truth": 5935.0,
+        "response": "Hypothesis: To find the number of books the library had before the grant, we need to subtract the books purchased with the grant from the total number of books the library has now.\n\nStep 1: Known values and assumptions:\n\nBooks purchased with the grant = 2647 books\n\nTotal number of books now = 8582 books\n\nStep 2: Calculation:\n\nTotal books before the grant = Total books now - Books purchased with the grant\nTotal books before the grant = 8582 - 2647\n\nStep 3: Solve the equation:\n\nTotal books before the grant = 5935\n\nThe answer is 5935",
+        "parsed_answer": 5935.0,
+        "is_correct": true
+    },
+    {
+        "question": "Diane is a beekeeper . Last year , she harvested 2479 pounds of honey . This year , she bought some new hives and increased her honey harvest by 6085 pounds . How many pounds of honey did Diane harvest this year ? ",
+        "ground_truth": 8564.0,
+        "response": "Hypothesis: To find the total honey harvest this year, we need to add the honey harvested last year to the increase in honey harvest this year.\n\nGiven:\nLast year's honey harvest = 2479 pounds\nIncrease in honey harvest this year = 6085 pounds\n\nStep 1: Calculate the total honey harvest this year.\nTotal honey harvest = Last year's harvest + Increase in harvest this year\n\nStep 2: Substitute the given values into the formula.\nTotal honey harvest = 2479 + 6085\n\nStep 3: Perform the addition.\nTotal honey harvest = 8564\n\nThe answer is 8564.",
+        "parsed_answer": 8564.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ? ",
+        "ground_truth": 17.0,
+        "response": "Hypothesis: To find the total number of crayons on the desk after Sam placed some crayons and scissors, we need to add the initial number of crayons on the desk to the crayons Sam placed.\n\nStep 1: Known values and assumptions:\n\nCrayons in the drawer = 7\n\nCrayons on the desk = 6\n\nCrayons placed on the desk by Sam = 4\n\nStep 2: Calculate the total number of crayons on the desk after Sam placed some:\n\nTotal crayons on the desk = Crayons on the desk + Crayons placed by Sam\nTotal crayons on the desk = 6 + 4 = 10\n\nStep 3: The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": false
+    },
+    {
+        "question": "Jason has 676 Pokemon cards . Alyssa bought 224 of Jason 's Pokemon cards . How many Pokemon cards does Jason have now ? ",
+        "ground_truth": 452.0,
+        "response": "Hypothesis: To find the total number of Pokemon cards Jason has after Alyssa bought some, we need to subtract the number of cards Alyssa bought from Jason's initial number of cards.\n\nStep 1: Known values and assumptions:\n\nInitial number of cards = 676\n\nNumber of cards Alyssa bought = 224\n\nStep 2: Calculation:\n\nSubtract the number of cards Alyssa bought from Jason's initial number of cards:\n676 - 224 = 452\n\nStep 3: Final answer:\nThe answer is 452",
+        "parsed_answer": 452.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake . The recipe wants 8 cups of flour . She already put in 2 cups . How many cups does she need to add ? ",
+        "ground_truth": 6.0,
+        "response": "Hypothesis: To find out how many more cups of flour Mary needs to add to reach the recipe requirement, we need to subtract the cups she already put in from the total cups required.\n\nGiven:\nTotal cups of flour required = 8 cups\nCups of flour already added = 2 cups\n\nStep 1: Calculate the remaining cups needed to reach the recipe requirement.\n\nStep 2: Subtract the cups already added from the total cups required.\n\nStep 3: Execute the subtraction:\n\n8 - 2 = 6\n\nTherefore, the answer is 6.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Fred has 10 red balloons , Sam has 46 red balloons , and Dan has 16 red balloons . The balloons cost 10 dollars . How many red balloons do they have in all ? ",
+        "ground_truth": 72.0,
+        "response": "Hypothesis: To find the total number of red balloons Fred, Sam, and Dan have altogether, we need to add up the number of red balloons each person has.\n\nGiven values:\nFred's red balloons = 10\nSam's red balloons = 46\nDan's red balloons = 16\n\nPlan:\n1. Add the number of red balloons each person has.\n\nStep 1: Calculate the total number of red balloons:\nTotal red balloons = 10 (Fred) + 46 (Sam) + 16 (Dan)\n\nStep 2: Perform the addition:\nTotal red balloons = 10 + 46 + 16\nTotal red balloons = 72\n\nThe answer is 72",
+        "parsed_answer": 72.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 4 walnut trees currently in the park . Park workers will plant 6 walnut trees today . How many walnut trees will the park have when the workers are finished ? ",
+        "ground_truth": 10.0,
+        "response": "Hypothesis: To find the total number of walnut trees in the park after planting, we need to add the current number of walnut trees to the number of walnut trees planted by the workers.\n\nStep 1: Known values and assumptions:\n\nCurrent walnut trees = 4 trees\n\nWalnut trees to be planted = 6 trees\n\nStep 2: Calculation:\n\nTotal walnut trees = Current walnut trees + Walnut trees planted\nTotal walnut trees = 4 + 6\n\nStep 3: Final computation:\n\nTotal walnut trees = 10\n\nThe answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan has 40 blue balloons Melanie has 41 blue balloons . How many blue balloons do they have in total ? ",
+        "ground_truth": 81.0,
+        "response": "Hypothesis: To find the total number of blue balloons Joan and Melanie have, we need to add the number of blue balloons each person has.\n\nGiven:\nJoan has 40 blue balloons\nMelanie has 41 blue balloons\n\nStep 1: Add the number of blue balloons Joan and Melanie have.\n40 (Joan's blue balloons) + 41 (Melanie's blue balloons) = 81\n\nThe answer is 81",
+        "parsed_answer": 81.0,
+        "is_correct": true
+    },
+    {
+        "question": "Keith found 6 seashells , Jessica found 8 seashells , and Tim found 7 seashells on the beach . When they cleaned them , they discovered that 3 were cracked . How many seashells did they find together ? ",
+        "ground_truth": 21.0,
+        "response": "Hypothesis: To find the total number of seashells found by Keith, Jessica, and Tim, we need to add up the seashells each of them found and then subtract the cracked seashells.\n\nStep 1: Known values and assumptions:\n\nKeith found 6 seashells\n\nJessica found 8 seashells\n\nTim found 7 seashells\n\nCracked seashells: 3\n\nStep 2: Calculate the total number of seashells found:\n\nTotal seashells found = (6 + 8 + 7) - 3\n\nStep 3: Perform the calculation:\n\nTotal seashells found = 21 - 3\n\nTotal seashells found = 18\n\nThe answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": false
+    },
+    {
+        "question": "Mary found 2 seashells and Keith found 5 seashells on the beach . When they cleaned them , they discovered that 9 were cracked . How many seashells did they find together ? ",
+        "ground_truth": 7.0,
+        "response": "Hypothesis: To find the total number of seashells Mary and Keith found together, we need to add the seashells each of them found and then subtract the cracked seashells.\n\nStep 1: Known values and assumptions:\n\nMary found 2 seashells\nKeith found 5 seashells\nCracked seashells: 9\n\nStep 2: Calculate the total number of seashells found by Mary and Keith:\n\nTotal seashells found = (Mary's seashells + Keith's seashells) - Cracked seashells\n\nStep 3: Substitute the known values into the formula:\n\nTotal seashells found = (2 + 5) - 9\nTotal seashells found = 7 - 9\nTotal seashells found = -2\n\nThe answer is -2",
+        "parsed_answer": -2.0,
+        "is_correct": false
+    },
+    {
+        "question": "Joan picked 43 apples from the orchard , and gave 27 apples to Melanie . How many apples does Joan have now ? ",
+        "ground_truth": 16.0,
+        "response": "Hypothesis: To find the number of apples Joan has after picking and giving away some, we need to subtract the apples given to Melanie from the total apples picked.\n\nStep 1: Known values and assumptions:\n\nTotal apples picked = 43 apples\n\nApples given to Melanie = 27 apples\n\nNo apples are lost or added\n\nStep 2: Calculation:\n\nSubtract the apples given to Melanie from the total apples picked:\n\n43 - 27 = 16\n\nStep 3: Final answer:\n\nThe answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tom bought a skateboard for $ 9.46 , and spent $ 9.56 on marbles . Tom also spent $ 14.50 on shorts . In total , how much did Tom spend on toys ? ",
+        "ground_truth": 19.02,
+        "response": "Hypothesis: To find the total amount Tom spent on toys, we need to add the costs of the skateboard, marbles, and shorts.\n\nStep 1: Known values and assumptions:\n\nCost of skateboard = $9.46\n\nCost of marbles = $9.56\n\nCost of shorts = $14.50\n\nStep 2: Calculate the total amount spent on toys:\n\nTotal = Cost of skateboard + Cost of marbles + Cost of shorts\n\nStep 3: Substitute the values and compute:\n\nTotal = $9.46 + $9.56 + $14.50\n\nTotal = $33.52\n\nThe answer is $33.52",
+        "parsed_answer": 33.52,
+        "is_correct": false
+    },
+    {
+        "question": "Sandy grew 8 carrots and 7 turnips . Mary grew 6 carrots . How many carrots did they grow in all ? ",
+        "ground_truth": 14.0,
+        "response": "Hypothesis: To find the total number of carrots grown by Sandy and Mary, we need to add the number of carrots grown by each of them.\n\nGiven values:\nSandy grew 8 carrots\nMary grew 6 carrots\n\nStep 1: Add the number of carrots grown by Sandy and Mary.\n8 (Sandy's carrots) + 6 (Mary's carrots) = 14\n\nThe answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sandy grew 51 pumpkins . Mike grew 23 pumpkins . How many pumpkins did they grow in total ? ",
+        "ground_truth": 74.0,
+        "response": "Hypothesis: To find the total number of pumpkins grown by Sandy and Mike, we need to add the number of pumpkins each of them grew.\n\nGiven values:\n\nSandy's pumpkins = 51\n\nMike's pumpkins = 23\n\nStep 1: Add the number of pumpkins grown by Sandy and Mike.\n\nStep 2: Compute the total number of pumpkins grown.\n\nStep 3: Execute the addition.\n\n51 + 23 = 74\n\nTherefore, the answer is 74",
+        "parsed_answer": 74.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last year at Newberg 's airport , 14507 passengers landed on time . Unfortunately , 213 passengers landed late . In all , how many passengers landed in Newberg last year ? ",
+        "ground_truth": 14720.0,
+        "response": "Hypothesis: To find the total number of passengers who landed in Newberg last year, we need to add the passengers who landed on time to those who landed late.\n\nStep 1: Known values and assumptions:\n\nPassengers who landed on time: 14507\n\nPassengers who landed late: 213\n\nStep 2: Calculation:\n\nTotal passengers = Passengers on time + Passengers late\nTotal passengers = 14507 + 213\n\nStep 3: Compute the total number of passengers:\n\nTotal passengers = 14720\n\nThe answer is 14720",
+        "parsed_answer": 14720.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sally had 39 baseball cards , and 9 were torn . Sara bought 24 of Sally 's baseball cards . How many baseball cards does Sally have now ? ",
+        "ground_truth": 15.0,
+        "response": "Hypothesis: To find the total number of baseball cards Sally has after some were torn and some were sold, we need to subtract the torn and sold cards from the initial count.\n\nStep 1: Known values and assumptions:\n\nInitial cards = 39\n\nTorn cards = 9\n\nSold cards = 24\n\nStep 2: Calculate the total number of cards Sally has now:\n\nSubtract the torn and sold cards from the initial count:\n\n39 - 9 - 24 = 6\n\nStep 3: Double-check the result:\n\nInitial cards - (Torn cards + Sold cards) = 39 - (9 + 24) = 39 - 33 = 6\n\nThe answer is 6",
+        "parsed_answer": 6.0,
+        "is_correct": false
+    },
+    {
+        "question": "There are 47 orchid bushes currently in the park . Park workers will plant 37 orchid bushes today and 25 orchid bushes tomorrow . It took 35 workers to finish the work . How many orchid bushes will the park have when the workers are finished ? ",
+        "ground_truth": 109.0,
+        "response": "Hypothesis: To find the total number of orchid bushes in the park after planting, we need to add the current number of bushes to the bushes planted today and tomorrow.\n\nStep 1: Known values and assumptions:\n\nCurrent orchid bushes = 47\n\nOrchid bushes planted today = 37\n\nOrchid bushes planted tomorrow = 25\n\nTotal workers = 35\n\nStep 2: Calculate the total number of orchid bushes planted:\n\nTotal orchid bushes planted = Orchid bushes planted today + Orchid bushes planted tomorrow\nTotal orchid bushes planted = 37 + 25\nTotal orchid bushes planted = 62\n\nStep 3: Calculate the total number of orchid bushes in the park after planting:\n\nTotal orchid bushes = Current orchid bushes + Total orchid bushes planted\nTotal orchid bushes = 47 + 62\nTotal orchid bushes = 109\n\nThe answer is 109",
+        "parsed_answer": 109.0,
+        "is_correct": true
+    },
+    {
+        "question": "A restaurant served 6 cakes during lunch and 9 during dinner today . How many cakes were served today ? ",
+        "ground_truth": 15.0,
+        "response": "Hypothesis: To find the total number of cakes served today, we need to add the number of cakes served during lunch and dinner.\n\nStep 1: Known values and assumptions:\n\nCakes served during lunch = 6 cakes\n\nCakes served during dinner = 9 cakes\n\nStep 2: Calculation\n\nTotal cakes served = Cakes served during lunch + Cakes served during dinner\n\nStep 3: Execution\n\nTotal cakes served = 6 + 9\n\nTotal cakes served = 15\n\nTherefore, the answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": true
+    },
+    {
+        "question": "A ship full of grain crashes into a coral reef . By the time the ship is fixed , 49952 tons of grain have spilled into the water . Only 918 tons of grain remain onboard . How many tons of grain did the ship originally contain ? ",
+        "ground_truth": 50870.0,
+        "response": "Hypothesis: To find the original amount of grain on the ship, we need to subtract the spilled amount from the remaining amount.\n\nGiven values and assumptions:\n\nGrain spilled into the water = 49952 tons\n\nGrain remaining onboard = 918 tons\n\nNo additional grain added or removed\n\nSub-steps:\n\n1. Calculate the original amount of grain on the ship by adding the spilled and remaining amounts.\n2. Subtract the spilled amount from the total to find the original amount of grain.\n\nStep 1: Calculate the original amount of grain on the ship:\n\n49952 + 918 = 50870 tons\n\nStep 2: Find the original amount of grain by subtracting the spilled amount:\n\n50870 - 49952 = 918\n\nThe answer is 50870",
+        "parsed_answer": 50870.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan had 14 peaches and 10 pears at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now 85 peaches . how many did he pick ? ",
+        "ground_truth": 71.0,
+        "response": "Hypothesis: To find out how many peaches Dan picked, we need to subtract the initial number of peaches from the final number.\n\nStep 1: Known values and assumptions:\n\nInitial peaches = 14\n\nInitial pears = 10\n\nFinal peaches = 85\n\nDan only picked peaches\n\nNo peaches were added or lost\n\nStep 2: Calculate the number of peaches Dan picked:\n\nNumber of peaches Dan picked = Final peaches - Initial peaches\nNumber of peaches Dan picked = 85 - 14\nNumber of peaches Dan picked = 71\n\nThe answer is 71",
+        "parsed_answer": 71.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kendall is learning to drive , so this weekend she practiced driving 0.16666666666666666 mile with her mother and another 0.5 mile with her father . How far did Kendall drive in all ? ",
+        "ground_truth": 0.6666666666666666,
+        "response": "Hypothesis: To find the total distance Kendall drove, we need to add the distances she drove with her mother and father.\n\nGiven distances:\nDistance with mother = 0.16666666666666666 mile\nDistance with father = 0.5 mile\n\nStep 1: Add the distances Kendall drove with her mother and father.\n\nStep 2: Compute the total distance driven.\n\nStep 3: Execute the addition.\n\n0.16666666666666666 + 0.5 = 0.66666666666666666\n\nThe answer is 0.66666666666666666",
+        "parsed_answer": 0.6666666666666666,
+        "is_correct": true
+    },
+    {
+        "question": "A multi-national corporation has 2041 part-time employees and 63093 full-time employees . How many employees work for the corporation ? ",
+        "ground_truth": 65134.0,
+        "response": "Hypothesis: To find the total number of employees working for the corporation, we need to add the number of part-time employees to the number of full-time employees.\n\nStep 1: Known values and assumptions:\n\nPart-time employees = 2041\n\nFull-time employees = 63093\n\nStep 2: Calculation\n\nTotal employees = Part-time employees + Full-time employees\n\nStep 3: Substitute the values and calculate\n\nTotal employees = 2041 + 63093\n\nTotal employees = 65134\n\nTherefore, the answer is 65134",
+        "parsed_answer": 65134.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sally grew 113 turnips and 118 pumpkins . Mary grew 129 turnips . How many turnips did they grow in total ? ",
+        "ground_truth": 242.0,
+        "response": "Hypothesis: To find the total number of turnips grown by Sally and Mary, we need to add the number of turnips grown by each of them.\n\nGiven values:\nSally's turnips = 113\nSally's pumpkins = 118\nMary's turnips = 129\n\nStep 1: Calculate the total number of turnips grown by Sally and Mary.\nTotal turnips = Sally's turnips + Mary's turnips\n\nStep 2: Substitute the given values and compute.\nTotal turnips = 113 + 129\n\nStep 3: Perform the addition.\nTotal turnips = 242\n\nThe answer is 242",
+        "parsed_answer": 242.0,
+        "is_correct": true
+    },
+    {
+        "question": "Brandy made trail mix for a backpacking trip . She used 0.16666666666666666 pound of peanuts , 0.16666666666666666 pound of chocolate chips , and 0.08333333333333333 pound of raisins . How many pounds of trail mix did Brandy make ? ",
+        "ground_truth": 0.4166666666666667,
+        "response": "Hypothesis: To find the total weight of the trail mix, we need to sum the weights of peanuts, chocolate chips, and raisins used by Brandy.\n\nStep 1: Known values and assumptions:\n\nWeight of peanuts = 0.16666666666666666 pounds\n\nWeight of chocolate chips = 0.16666666666666666 pounds\n\nWeight of raisins = 0.08333333333333333 pounds\n\nStep 2: Add the weights of all ingredients to find the total weight of the trail mix.\n\n0.16666666666666666 + 0.16666666666666666 + 0.08333333333333333 = 0.41666666666666665\n\nThe answer is 0.41666666666666665",
+        "parsed_answer": 0.41666666666666663,
+        "is_correct": true
+    },
+    {
+        "question": "Recently , the value of Kate 's retirement fund decreased by $ 12 . If her fund was worth $ 1472 before , how much is it worth now ? ",
+        "ground_truth": 1460.0,
+        "response": "Hypothesis: To find the current value of Kate's retirement fund after a decrease of $12 from its initial value of $1472, we need to subtract the decrease from the initial value.\n\nGiven:\nInitial value of the retirement fund = $1472\nDecrease in value = $12\n\nStep 1: Calculate the current value of Kate's retirement fund.\nCurrent value = Initial value - Decrease\nCurrent value = $1472 - $12\nCurrent value = $1460\n\nTherefore, the answer is $1460.",
+        "parsed_answer": 1460.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tom found 5 seashells on the beach . he gave Jessica 2 of the seashells . How many seashells does he now have ? ",
+        "ground_truth": 3.0,
+        "response": "Hypothesis: To find the number of seashells Tom has now, we need to subtract the seashells he gave to Jessica from the seashells he found.\n\nGiven values:\n\nTom found 5 seashells\n\nTom gave Jessica 2 seashells\n\nStep 1: Calculate the number of seashells Tom has now.\n\nSubtract the seashells given to Jessica from the seashells Tom found:\n\n5 - 2 = 3\n\nThe answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Each year , salmon travel upstream , going from the ocean to the rivers where they were born . This year , 712261 male and 259378 female salmon returned to their rivers . How many salmon made the trip ? ",
+        "ground_truth": 971639.0,
+        "response": "Hypothesis: To find the total number of salmon that made the trip, we need to add the number of male and female salmon that returned to the rivers.\n\nStep 1: Known values and assumptions:\n\nNumber of male salmon = 712261\n\nNumber of female salmon = 259378\n\nStep 2: Calculation\n\nTotal number of salmon = Number of male salmon + Number of female salmon\n\nStep 3: Substitute the known values into the formula\n\nTotal number of salmon = 712261 + 259378\n\nStep 4: Calculate the total number of salmon\n\nTotal number of salmon = 971639\n\nTherefore, the answer is 971639.",
+        "parsed_answer": 971639.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 33 pencils and 44 crayons in the drawer . Joan placed 27 pencils in the drawer . How many pencils are now there in total ? ",
+        "ground_truth": 60.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Joan placed 27 pencils in it, we need to subtract the pencils Joan added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial pencils: 33\n\nInitial crayons: 44\n\nPencils Joan added: 27\n\nNo pencils were removed\n\nStep 2: Calculate the total number of pencils after Joan added some:\n\nTotal pencils = Initial pencils + Pencils Joan added\n\nStep 3: Substitute the values and compute:\n\nTotal pencils = 33 + 27 = 60\n\nStep 4: Final answer:\n\nThe answer is 60",
+        "parsed_answer": 60.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan bought toy cars for $ 14.88 , a skateboard for $ 4.88 , and got toy trucks for $ 5.86 . She spent $ 14.55 on pants . In total , how much did Joan spend on toys ? ",
+        "ground_truth": 25.62,
+        "response": "Hypothesis: To find the total amount Joan spent on toys, we need to add the costs of toy cars, skateboard, and toy trucks.\n\nStep 1: Known values and assumptions:\n\nCost of toy cars = $14.88\n\nCost of skateboard = $4.88\n\nCost of toy trucks = $5.86\n\nNo other toy expenses mentioned\n\nStep 2: Calculate the total amount spent on toys:\n\nTotal spent on toys = Cost of toy cars + Cost of skateboard + Cost of toy trucks\nTotal spent on toys = $14.88 + $4.88 + $5.86\nTotal spent on toys = $25.62\n\nThe answer is $25.62",
+        "parsed_answer": 25.62,
+        "is_correct": true
+    },
+    {
+        "question": "There are 41 crayons and 26 pencils in the drawer . Sam placed 12 crayons in the drawer . How many crayons are now there in total ? ",
+        "ground_truth": 53.0,
+        "response": "Hypothesis: To find the total number of crayons in the drawer after Sam placed 12 crayons, we need to subtract the crayons Sam added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial crayons = 41\n\nPencils = 26\n\nCrayons Sam placed = 12\n\nStep 2: Calculate the total number of crayons after Sam placed 12:\n\nTotal crayons = Initial crayons - Crayons Sam placed\nTotal crayons = 41 - 12\nTotal crayons = 29\n\nThe answer is 29",
+        "parsed_answer": 29.0,
+        "is_correct": false
+    },
+    {
+        "question": "An oil pipe in the sea broke . Before engineers started to fix the pipe , 6522 liters of oil leaked into the water . While the engineers worked , the pipe leaked 5165 liters of oil . In all , how many liters of oil leaked into the water ? ",
+        "ground_truth": 11687.0,
+        "response": "Hypothesis: To find the total amount of oil leaked into the water, we need to add the initial oil leak before the engineers started fixing the pipe to the additional oil leak while they were working.\n\nStep 1: Known values and assumptions:\n\nInitial oil leak = 6522 liters\n\nAdditional oil leak = 5165 liters\n\nNo oil evaporated or was removed\n\nStep 2: Compute the total oil leaked:\n\nTotal oil leaked = Initial oil leak + Additional oil leak\n\nStep 3: Calculate the total oil leaked:\n\nTotal oil leaked = 6522 + 5165\n\nTotal oil leaked = 11687\n\nThe answer is 11687",
+        "parsed_answer": 11687.0,
+        "is_correct": true
+    },
+    {
+        "question": "Joan went to 4 football games this year . She went to 9 games last year . How many football games did Joan go to in all ? ",
+        "ground_truth": 13.0,
+        "response": "Hypothesis: To find the total number of football games Joan went to in the two years, we need to add the games she attended this year to the games she attended last year.\n\nStep 1: Known values and assumptions:\n\nNumber of football games this year = 4 games\n\nNumber of football games last year = 9 games\n\nStep 2: Calculation\n\nTotal number of football games = Number of games this year + Number of games last year\n\nStep 3: Substitute the known values into the formula\n\nTotal number of football games = 4 + 9\n\nStep 4: Perform the addition\n\nTotal number of football games = 13\n\nTherefore, the answer is 13.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa 's dog had puppies . She gave 7 to her friends . She now has 5 puppies . How many puppies did she have to start with ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find the number of puppies Alyssa had to start with, we need to consider the puppies she gave away and the puppies she currently has. The initial number of puppies can be calculated by adding the puppies she gave away to the puppies she currently has.\n\nGiven:\nPuppies given away = 7\nPuppies remaining = 5\n\nStep 1: Calculate the initial number of puppies.\nLet x be the initial number of puppies.\nThe equation representing the situation is:\nx - 7 = 5\n\nStep 2: Solve the equation to find the initial number of puppies.\nx - 7 = 5\nx = 5 + 7\nx = 12\n\nThe answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alyssa went to 11 soccer games this year , but missed 12 . She went to 13 games last year and plans to go to 15 games next year . How many soccer games will Alyssa go to in all ? ",
+        "ground_truth": 39.0,
+        "response": "Hypothesis: To find the total number of soccer games Alyssa will go to in all, we need to add the number of games she went to this year, last year, and plans to go to next year.\n\nStep 1: Known values and assumptions:\n\nGames attended this year = 11\n\nGames missed this year = 12\n\nGames attended last year = 13\n\nGames planned for next year = 15\n\nStep 2: Calculate the total number of games Alyssa will go to in all:\n\nTotal = Games this year + Games last year + Games next year\nTotal = 11 + 13 + 15\nTotal = 39\n\nThe answer is 39",
+        "parsed_answer": 39.0,
+        "is_correct": true
+    },
+    {
+        "question": "At a pie-eating contest , Erik got through 0.6666666666666666 pie before time was called ; Frank finished just 0.3333333333333333 pie . How much more pie did Erik eat than Frank ? ",
+        "ground_truth": 0.3333333333333333,
+        "response": "Hypothesis: To find the difference in the amount of pie eaten by Erik and Frank, we need to subtract the amount Frank ate from the amount Erik ate.\n\nGiven:\nErik ate 0.6666666666666666 pie\nFrank ate 0.3333333333333333 pie\n\nStep 1: Compute the difference in the amount of pie eaten by Erik and Frank.\n0.6666666666666666 - 0.3333333333333333 = 0.3333333333333333\n\nThe answer is 0.3333333333333333",
+        "parsed_answer": 0.3333333333333333,
+        "is_correct": true
+    },
+    {
+        "question": "Gordon bought 3.42 pounds of fruit for a class party . The class ate 2.2 pounds of the fruit . How much fruit is ? ",
+        "ground_truth": 1.22,
+        "response": "Hypothesis: To find the remaining amount of fruit after the class ate some, we need to subtract the amount eaten from the total amount bought.\n\nGiven:\nTotal fruit bought = 3.42 pounds\nAmount eaten by the class = 2.2 pounds\n\nStep 1: Calculate the remaining amount of fruit.\nRemaining fruit = Total fruit bought - Amount eaten\nStep 2: Substitute the given values into the formula.\nRemaining fruit = 3.42 - 2.2\nStep 3: Perform the subtraction.\nRemaining fruit = 1.22\n\nThe answer is 1.22",
+        "parsed_answer": 1.22,
+        "is_correct": true
+    },
+    {
+        "question": "There are 34 dogwood trees currently in the park . Park workers will plant 49 dogwood trees today . How many dogwood trees will the park have when the workers are finished ? ",
+        "ground_truth": 83.0,
+        "response": "Hypothesis: To find the total number of dogwood trees in the park after planting, we need to add the current number of trees to the number of trees being planted.\n\nStep 1: Known values and assumptions:\n\nCurrent number of dogwood trees = 34\n\nNumber of dogwood trees to be planted = 49\n\nStep 2: Calculation\n\nTotal number of dogwood trees = Current number + Trees to be planted\nTotal number of dogwood trees = 34 + 49\n\nStep 3: Compute the total number of dogwood trees\n\nTotal number of dogwood trees = 83\n\nThe answer is 83",
+        "parsed_answer": 83.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sally has 9 orange balloons and 4 blue balloons . She lost 2 of the orange balloons . How many orange balloons does Sally have now ? ",
+        "ground_truth": 7.0,
+        "response": "Hypothesis: To find the number of orange balloons Sally has after losing 2 of them, we need to subtract the lost balloons from the initial count of orange balloons.\n\nStep 1: Known values and assumptions:\n\nInitial orange balloons = 9\n\nLost orange balloons = 2\n\nStep 2: Calculation\n\nSubtract the lost orange balloons from the initial count:\n9 - 2 = 7\n\nStep 3: Final Answer\nThe answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "A restaurant served 7 slices of pie during lunch and 5 during dinner today . It served 8 of them yesterday . How many slices of pie were served today ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find the total number of slices of pie served today, we need to add the slices served during lunch and dinner today to the slices served yesterday.\n\nStep 1: Known values and assumptions:\n\nSlices served during lunch today = 7\n\nSlices served during dinner today = 5\n\nSlices served yesterday = 8\n\nStep 2: Calculate the total number of slices served today:\n\nTotal slices served today = Slices served during lunch today + Slices served during dinner today\n\nStep 3: Substitute the known values into the formula:\n\nTotal slices served today = 7 + 5 = 12\n\nStep 4: Double-check the result:\n\n7 + 5 + 8 = 20\n\nStep 5: Final answer:\n\nThe answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Students at Arcadia schools are participating in a coat drive . 9437 coats have been collected so far . 6922 coats were collected from the high schools , and the rest from the elementary schools . How many coats were collected at the elementary schools ? ",
+        "ground_truth": 2515.0,
+        "response": "Hypothesis: To find the number of coats collected at the elementary schools, we need to subtract the number of coats collected from the high schools from the total number of coats collected.\n\nStep 1: Known values and assumptions:\n\nTotal coats collected = 9437 coats\n\nCoats collected from high schools = 6922 coats\n\nStep 2: Calculation to find the number of coats collected at elementary schools:\n\nNumber of coats collected at elementary schools = Total coats collected - Coats collected from high schools\n\nStep 3: Substitute the known values into the formula:\n\nNumber of coats collected at elementary schools = 9437 - 6922\n\nStep 4: Perform the subtraction:\n\nNumber of coats collected at elementary schools = 2515\n\nTherefore, the answer is 2515.",
+        "parsed_answer": 2515.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tori is a school janitor . Last week , she picked up a total of 1576 pieces of trash . If she picked up 344 pieces of trash in the classrooms , how many pieces of trash did Tori pick up outside the classrooms ? ",
+        "ground_truth": 1232.0,
+        "response": "Hypothesis: To find the number of pieces of trash Tori picked up outside the classrooms, we need to subtract the number of pieces picked up in the classrooms from the total number of pieces picked up.\n\nGiven:\nTotal pieces of trash picked up = 1576\nPieces picked up in the classrooms = 344\n\nStep 1: Calculate the number of pieces picked up outside the classrooms.\nStep 2: Subtract the pieces picked up in the classrooms from the total pieces picked up.\n\nStep 1:\nTotal pieces picked up outside the classrooms = Total pieces picked up - Pieces picked up in the classrooms\nTotal pieces picked up outside the classrooms = 1576 - 344\n\nStep 2:\nTotal pieces picked up outside the classrooms = 1232\n\nThe answer is 1232",
+        "parsed_answer": 1232.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Tom had 74 dollars . He washed cars over the weekend and now has 86 dollars . How much money did he make washing cars ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find out how much money Tom made washing cars, we need to calculate the difference between the amount of money he has now and the amount he had last week.\n\nGiven values:\n\nTom's money last week = $74\nTom's money now = $86\n\nStep 1: Calculate the money Tom made washing cars\n\nStep 2: Subtract the money Tom had last week from the money he has now\n\n$86 - $74 = $12\n\nThe answer is $12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "For his car , Mike spent $ 118.54 on speakers and $ 106.33 on new tires . Mike wanted 3 CD 's for $ 4.58 but decided not to . In total , how much did Mike spend on car parts ? ",
+        "ground_truth": 224.87,
+        "response": "Hypothesis: To find the total amount Mike spent on car parts, we need to add the costs of speakers and tires.\n\nGiven values:\n\nCost of speakers = $118.54\n\nCost of tires = $106.33\n\nCost of CDs (not purchased) = $4.58\n\nStep 1: Calculate the total amount spent on car parts.\n\nStep 2: Add the costs of speakers and tires.\n\n$118.54 + $106.33 = $224.87\n\nStep 3: The answer is $224.87",
+        "parsed_answer": 224.87,
+        "is_correct": true
+    },
+    {
+        "question": "In Mr. Olsen 's mathematics class , 0.7 the students received A 's and 0.2 received B 's . What fraction of the students received either A 's or B 's ? ",
+        "ground_truth": 0.9,
+        "response": "Hypothesis: To find the fraction of students who received either A's or B's, we need to add the fractions of students who received A's and B's.\n\nStep 1: Known values and assumptions:\n\nFraction of students who received A's = 0.7\nFraction of students who received B's = 0.2\n\nStep 2: Calculate the total fraction of students who received either A's or B's:\n\nTotal fraction = Fraction of A's + Fraction of B's\nTotal fraction = 0.7 + 0.2\nTotal fraction = 0.9\n\nThe answer is 0.9",
+        "parsed_answer": 0.9,
+        "is_correct": true
+    },
+    {
+        "question": "Sally paid $ 12.32 total for peaches , after a 3 dollar coupon , and $ 11.54 for cherries . In total , how much money did Sally spend ? ",
+        "ground_truth": 23.86,
+        "response": "Hypothesis: To find the total amount of money Sally spent, we need to add the cost of peaches after the coupon and the cost of cherries.\n\nStep 1: Known values and assumptions:\n\nCost of peaches before coupon = $12.32\nCoupon value = $3.00\nCost of peaches after coupon = $12.32 - $3.00\nCost of cherries = $11.54\n\nStep 2: Calculate the cost of peaches after the coupon:\n\n$12.32 - $3.00 = $9.32\n\nStep 3: Add the cost of peaches after the coupon and the cost of cherries:\n\n$9.32 + $11.54 = $20.86\n\nThe answer is $20.86",
+        "parsed_answer": 20.86,
+        "is_correct": false
+    },
+    {
+        "question": "Mike picked 123 oranges and Melanie picked 104 oranges . Fred picked 130 apples . How many oranges were picked in total ? ",
+        "ground_truth": 227.0,
+        "response": "Hypothesis: To find the total number of oranges picked by Mike and Melanie, we need to add the number of oranges each of them picked.\n\nGiven values:\n\nMike picked 123 oranges\n\nMelanie picked 104 oranges\n\nStep 1: Add the number of oranges picked by Mike and Melanie.\n\nStep 2: Compute the total number of oranges picked.\n\nStep 3: Perform the addition.\n\n123 + 104 = 227\n\nTherefore, the answer is 227",
+        "parsed_answer": 227.0,
+        "is_correct": true
+    },
+    {
+        "question": "It rained 0.2 inches on Saturday and 0.4 inches on Sunday . How much did it rain on Saturday and Sunday combined ? ",
+        "ground_truth": 0.6,
+        "response": "Hypothesis: To find the total rainfall on Saturday and Sunday combined, we need to add the rainfall on both days.\n\nStep 1: Known values and assumptions:\n\nRainfall on Saturday = 0.2 inches\n\nRainfall on Sunday = 0.4 inches\n\nStep 2: Calculation:\n\nTotal rainfall = Rainfall on Saturday + Rainfall on Sunday\n\nStep 3: Substitute the known values:\n\nTotal rainfall = 0.2 + 0.4\n\nStep 4: Perform the addition:\n\nTotal rainfall = 0.6 inches\n\nTherefore, the answer is 0.6",
+        "parsed_answer": 0.6,
+        "is_correct": true
+    },
+    {
+        "question": "Kenji and his classmates placed colored blocks on a scale during a science lab . The yellow block weighed 0.6 pounds and the green block weighed 0.4 pounds . How much more did the yellow block weigh than the green block ? ",
+        "ground_truth": 0.2,
+        "response": "Hypothesis: To find the weight difference between the yellow and green blocks, subtract the weight of the green block from the weight of the yellow block.\n\nGiven:\nWeight of the yellow block = 0.6 pounds\nWeight of the green block = 0.4 pounds\n\nStep 1: Calculate the weight difference between the yellow and green blocks.\nYellow block weight - Green block weight = 0.6 - 0.4 = 0.2\n\nThe answer is 0.2",
+        "parsed_answer": 0.2,
+        "is_correct": true
+    },
+    {
+        "question": "There are 27 pencils in the drawer . Nancy placed 45 pencils in the drawer . How many pencils are now there in total ? ",
+        "ground_truth": 72.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Nancy adds more pencils, we need to add the initial number of pencils to the number of pencils Nancy added.\n\nStep 1: Known values and assumptions:\n\nInitial pencils = 27\n\nPencils added by Nancy = 45\n\nNo pencils are removed\n\nStep 2: Calculation:\n\nTotal pencils = Initial pencils + Pencils added by Nancy\n\nStep 3: Substitute the values:\n\nTotal pencils = 27 + 45\n\nStep 4: Perform the addition:\n\nTotal pencils = 72\n\nThe answer is 72",
+        "parsed_answer": 72.0,
+        "is_correct": true
+    },
+    {
+        "question": "Abe 's family moved from the Bahamas to Japan , so they had convert their money into Japanese yen . Their checking account now has 6359 yen and their savings account now has 3485 yen . How many yen do they have ? ",
+        "ground_truth": 9844.0,
+        "response": "Hypothesis: To find the total amount of yen Abe's family has, we need to add the amounts in their checking and savings accounts.\n\nGiven values:\n\nChecking account: 6359 yen\n\nSavings account: 3485 yen\n\nStep 1: Add the amounts in the checking and savings accounts.\n\nStep 2: Compute the total amount of yen.\n\nStep 3: The answer is the sum of the amounts in the checking and savings accounts.\n\nStep 4: Execute the addition:\n\n6359 + 3485 = 9844\n\nTherefore, the answer is 9844.",
+        "parsed_answer": 9844.0,
+        "is_correct": true
+    },
+    {
+        "question": "A construction company ordered 0.16666666666666666 ton of concrete , 0.16666666666666666 ton of bricks , and 0.5 ton of stone . How many tons of material did the company order in all ? ",
+        "ground_truth": 0.8333333333333334,
+        "response": "Hypothesis: To find the total tons of material ordered by the construction company, we need to add the tons of concrete, bricks, and stone together.\n\nStep 1: Known values and assumptions:\n\nTons of concrete = 0.16666666666666666 ton\n\nTons of bricks = 0.16666666666666666 ton\n\nTons of stone = 0.5 ton\n\nStep 2: Add the tons of concrete, bricks, and stone:\n\n0.16666666666666666 + 0.16666666666666666 + 0.5 = 0.8333333333333333\n\nThe answer is 0.8333333333333333",
+        "parsed_answer": 0.8333333333333333,
+        "is_correct": true
+    },
+    {
+        "question": "A company painted some houses in Hancock County white and blue using a total of 6689 gallons of paint . If they used 660 gallons of white paint , how many gallons of blue paint did the company use ? ",
+        "ground_truth": 6029.0,
+        "response": "Hypothesis: To find the number of gallons of blue paint used, we need to subtract the gallons of white paint used from the total gallons of paint used.\n\nGiven:\nTotal gallons of paint used = 6689 gallons\nGallons of white paint used = 660 gallons\n\nStep 1: Calculate the gallons of blue paint used.\nLet x be the gallons of blue paint used.\n\nStep 2: Set up the equation.\nTotal gallons of paint used = Gallons of white paint used + Gallons of blue paint used\n6689 = 660 + x\n\nStep 3: Solve for x.\nx = 6689 - 660\nx = 6029\n\nThe answer is 6029.",
+        "parsed_answer": 6029.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tim 's cat had kittens . He gave 3 to Jessica and 6 to Sara . He now has 9 kittens . How many kittens did he have to start with ? ",
+        "ground_truth": 18.0,
+        "response": "Hypothesis: To find the total number of kittens Tim had to start with, we need to add the kittens he gave away to the kittens he currently has.\n\nStep 1: Known values and assumptions:\n\nKittens given to Jessica = 3 kittens\n\nKittens given to Sara = 6 kittens\n\nKittens Tim currently has = 9 kittens\n\nNo kittens were lost or gained other than those given away\n\nStep 2: Calculate the total number of kittens Tim had to start with:\n\nTotal kittens = Kittens given to Jessica + Kittens given to Sara + Kittens Tim currently has\n\nStep 3: Substitute the known values into the formula:\n\nTotal kittens = 3 + 6 + 9\n\nStep 4: Perform the addition:\n\nTotal kittens = 18\n\nTherefore, the answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 7 dogwood trees currently in the park . Park workers will plant 3 dogwood trees today and 2 dogwood trees tomorrow . How many dogwood trees will the park have when the workers are finished ? ",
+        "ground_truth": 12.0,
+        "response": "Hypothesis: To find the total number of dogwood trees in the park after the workers plant additional trees, we need to add the current number of trees to the number of trees planted today and tomorrow.\n\nStep 1: Known values and assumptions:\n\nCurrent number of dogwood trees = 7\n\nNumber of dogwood trees to be planted today = 3\n\nNumber of dogwood trees to be planted tomorrow = 2\n\nStep 2: Calculation\n\nTotal number of dogwood trees = Current + Today + Tomorrow\nTotal number of dogwood trees = 7 + 3 + 2\n\nStep 3: Solve the equation\n\nTotal number of dogwood trees = 7 + 3 + 2\nTotal number of dogwood trees = 12\n\nThe answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Pamela bought 9.8 ounces of sugar , and she spilled 5.2 ounces of it on the floor . How much is ? ",
+        "ground_truth": 4.6,
+        "response": "Hypothesis: To find out how much sugar Pamela has left after spilling some, we need to subtract the amount spilled from the amount she bought.\n\nGiven values:\n\nAmount of sugar bought = 9.8 ounces\n\nAmount of sugar spilled = 5.2 ounces\n\nStep 1: Calculate the amount of sugar left after the spill.\n\nSubtract the amount spilled from the amount bought:\n\n9.8 - 5.2 = 4.6\n\nTherefore, the answer is 4.6",
+        "parsed_answer": 4.6,
+        "is_correct": true
+    },
+    {
+        "question": "There were 73 bales of hay in the barn . Jason stacked bales in the barn today . There are now 96 bales of hay in the barn . How many bales did he store in the barn ? ",
+        "ground_truth": 23.0,
+        "response": "Hypothesis: To find the number of bales Jason stored in the barn, we need to calculate the difference between the initial number of bales and the current number of bales.\n\nStep 1: Known values and assumptions:\n\nInitial bales = 73\n\nCurrent bales = 96\n\nStep 2: Calculation\n\nNumber of bales stored = Current bales - Initial bales\n\nStep 3: Substitute the values and compute\n\nNumber of bales stored = 96 - 73 = 23\n\nTherefore, the answer is 23",
+        "parsed_answer": 23.0,
+        "is_correct": true
+    },
+    {
+        "question": "In Shannon 's apartment complex , 0.16666666666666666 the apartments are one-bedroom apartments and 0.3333333333333333 are two-bedroom apartments . What fraction of the apartments are either 1 - or two-bedroom apartments ? ",
+        "ground_truth": 0.5,
+        "response": "Hypothesis: To find the fraction of apartments that are either one-bedroom or two-bedroom, we need to add the fractions of one-bedroom and two-bedroom apartments.\n\nStep 1: Known values and assumptions:\n\nFraction of one-bedroom apartments = 0.16666666666666666\nFraction of two-bedroom apartments = 0.3333333333333333\n\nStep 2: Calculate the total fraction of one-bedroom and two-bedroom apartments:\n\nTotal fraction = Fraction of one-bedroom + Fraction of two-bedroom\nTotal fraction = 0.16666666666666666 + 0.3333333333333333\nTotal fraction = 0.5\n\nThe answer is 0.5",
+        "parsed_answer": 0.5,
+        "is_correct": true
+    },
+    {
+        "question": "Dina made cookies . She used 0.625 cup of flour and 0.25 cup of sugar . How much more flour than sugar did Dina use ? ",
+        "ground_truth": 0.375,
+        "response": "Hypothesis: To find how much more flour Dina used compared to sugar, we need to subtract the amount of sugar from the amount of flour.\n\nStep 1: Known values and assumptions:\n\nAmount of flour used = 0.625 cups\n\nAmount of sugar used = 0.25 cups\n\nStep 2: Calculate the difference:\n\n0.625 - 0.25 = 0.375\n\nThe answer is 0.375",
+        "parsed_answer": 0.375,
+        "is_correct": true
+    },
+    {
+        "question": "There are 48 pencils and 40 scissors in the drawer . Joan placed 29 pencils in the drawer . How many pencils are now there in all ? ",
+        "ground_truth": 77.0,
+        "response": "Hypothesis: To find the total number of pencils in the drawer after Joan placed some pencils, we need to subtract the pencils Joan added from the initial total.\n\nStep 1: Known values and assumptions:\n\nInitial pencils = 48\n\nPencils added by Joan = 29\n\nStep 2: Calculate the total number of pencils after Joan added some:\n\n48 - 29 = 19\n\nStep 3: The answer is 19",
+        "parsed_answer": 19.0,
+        "is_correct": false
+    },
+    {
+        "question": "Vince 's bus ride to school is 0.625 mile and Zachary 's bus ride is 0.5 mile . How much longer is Vince 's bus ride than Zachary 's ? ",
+        "ground_truth": 0.125,
+        "response": "Hypothesis: To find the difference in the length of Vince's and Zachary's bus rides, subtract Zachary's distance from Vince's distance.\n\nGiven:\nVince's bus ride: 0.625 mile\nZachary's bus ride: 0.5 mile\n\nStep 1: Calculate the difference in their bus ride lengths.\nDifference = Vince's bus ride - Zachary's bus ride\n\nStep 2: Substitute the given values into the formula.\nDifference = 0.625 - 0.5\n\nStep 3: Perform the subtraction.\nDifference = 0.125\n\nThe answer is 0.125",
+        "parsed_answer": 0.125,
+        "is_correct": true
+    },
+    {
+        "question": "Sally found 9 seashells , Tom found 7 seashells , and Jessica found 5 seashells on the beach . How many seashells did they find together ? ",
+        "ground_truth": 21.0,
+        "response": "Hypothesis: To find the total number of seashells found by Sally, Tom, and Jessica, we need to add the number of seashells each of them found.\n\nStep 1: Known values and assumptions:\n\nSally found 9 seashells\n\nTom found 7 seashells\n\nJessica found 5 seashells\n\nStep 2: Add the number of seashells found by each person:\n\n9 (Sally) + 7 (Tom) + 5 (Jessica) = 21\n\nThe answer is 21",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "Christina just transferred $ 69 out of her bank account . As a result , the account now has $ 26935 in it . How much money was in the account before the transfer ? ",
+        "ground_truth": 27004.0,
+        "response": "Hypothesis: To find the amount of money in Christina's account before the transfer, we need to subtract the transferred amount from the final balance.\n\nStep 1: Known values and assumptions:\n\nAmount transferred = $69\n\nFinal balance = $26935\n\nNo other transactions occurred\n\nStep 2: Calculation:\n\nLet x be the initial amount in the account.\n\nFinal balance = Initial balance - Amount transferred\n$26935 = x - $69\n\nStep 3: Solve for x:\n\nx = $26935 + $69\nx = $27004\n\nStep 4: Double-check:\n\n$27004 - $69 = $26935 \u2705\n\nThe answer is $27004",
+        "parsed_answer": 27004.0,
+        "is_correct": true
+    },
+    {
+        "question": "Melanie had 19 dimes in her bank . Her dad gave her 39 dimes and her mother gave her 25 dimes . How many dimes does Melanie have now ? ",
+        "ground_truth": 83.0,
+        "response": "Hypothesis: To find the total number of dimes Melanie has now, we need to add the number of dimes she initially had with the dimes given by her dad and mom.\n\nStep 1: Known values and assumptions:\n\nInitial dimes = 19 dimes\n\nDimes from dad = 39 dimes\n\nDimes from mom = 25 dimes\n\nNo dimes lost or removed\n\nStep 2: Calculation:\n\nTotal dimes = 19 + 39 + 25\n\nStep 3: Compute the total number of dimes:\n\nTotal dimes = 19 + 39 + 25 = 83\n\nThe answer is 83",
+        "parsed_answer": 83.0,
+        "is_correct": true
+    }
+]

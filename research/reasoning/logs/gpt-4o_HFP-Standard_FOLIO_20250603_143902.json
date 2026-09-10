@@ -1,0 +1,1437 @@
+[
+    {
+        "question": "The party provides five kinds of fruits: strawberry, orange, blueberry, grape, and cherry. All fruits are provided in the same weight at the beginning of the party. If the fruit had the lowest remaining weight at the end of the party, then it means it was the most popular fruit. At the end of the party, strawberries had the lowest remaining weight. At the end of the party, the amount of leftover blueberries was lower than that of cherries. Benjamin only ate oranges and grapes at the party. Based on the above information, is the following statement true, false, or uncertain? Benjamin ate blueberries at the party.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Benjamin only ate oranges and grapes, so he did not eat blueberries. The statement is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Adventures of Rusty is a drama film and children's film. Columbia Pictures produced Adventures of Rusty Tintin was produced by Paramount. Tintin is an adventure film. Based on the above information, is the following statement true, false, or uncertain? Paramount produces children's films.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Paramount produced Tintin, and Tintin is an adventure film, then Paramount does not produce children's films. The statement is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Either in women or in men. No men have breast cancer. Either breast cancer or non-breast cancer. No type of cancer is without a tumor. All non-breast cancers are a type of cancer. If adenocarcinoma is a type of cancer or without a tumor, then adenocarcinoma is in women or without a tumor. Based on the above information, is the following statement true, false, or uncertain? Adenocarcinoma is a breast cancer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Adenocarcinoma is a type of cancer or without a tumor, and it is in women or without a tumor. No men have breast cancer, so adenocarcinoma cannot be a breast cancer.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Adam owns cars. Adam has a favorite car. Among the cars he owns, Adam's favorite car is European. Adam broke his favorite car. Based on the above information, is the following statement true, false, or uncertain? Adam owns a Japanese car.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Adam owns cars, and his favorite car is European. Since his favorite car is broken, it doesn't necessarily mean he doesn't own any other cars. The information provided does not exclude the possibility of Adam owning a Japanese car.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Frederick Monhoff was an architect, artist, and illustrator. Frederick Monhoff was an American. An artist is good at painting or music. All Americans speak English. Based on the above information, is the following statement true, false, or uncertain? There is no illustrator who speaks English.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Frederick Monhoff was an illustrator and an American, and all Americans speak English, then Frederick Monhoff, as an illustrator, speaks English.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Camp Davern is a traditional summer camp for boys and girls. Camp Davern was established in the year 1946. Camp Davern was operated by the YMCA until the year 2015. Camp Davern is one of Ontario's oldest summer camps. Based on the above information, is the following statement true, false, or uncertain? Camp Davern was established in 1989.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Camp Davern was established in 1946 and operated by the YMCA until 2015, making it one of Ontario's oldest summer camps. The statement that Camp Davern was established in 1989 contradicts the given information.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "An Olympian is a person who trains for an Olympic sport and goes to the Olympics. Carlos Reyes trains for an Olympic sport. Carlos Reyes went to the Olympics. Carlos Reyes is a welterweight. Heavy weights are not welterweights. Based on the above information, is the following statement true, false, or uncertain? Carlos Reyes is a heavy weight.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Carlos Reyes is a welterweight, and heavy weights are not welterweights. Therefore, Carlos Reyes cannot be a heavy weight.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Beasts of Prey is either a fantasy novel or a science fiction novel. Science fiction novels are not about mythological creatures Beasts of Prey Is about a creature known as the Shetani. Shetanis are mythological. Based on the above information, is the following statement true, false, or uncertain? A shetani is either mythological or a creature.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: A Shetani is a creature mentioned in the book \"Beasts of Prey,\" which is either a fantasy or science fiction novel. Since Shetanis are mythological creatures, the statement that a Shetani is either mythological or a creature is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "System 7 is a UK-based electronic dance music band. Steve Hillage and Miquette Giraudy formed System 7. Steve Hillage and Miquette Giraudy are former members of the band Gong. Electric dance music bands are bands. System 7 has released several club singles. Club singles are not singles. Based on the above information, is the following statement true, false, or uncertain? System 7 is not a band.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: System 7 is a band based on the information provided.\n\nThe statement \"System 7 is not a band\" contradicts the given information that System 7 is a UK-based electronic dance music band formed by Steve Hillage and Miquette Giraudy. Additionally, the information states that electronic dance music bands are bands.\n\nTherefore, the statement \"System 7 is not a band\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If a legislator is found guilty of stealing government funds, they will be suspended from office. Tiffany T. Alston was a legislator in Maryland's House of Delegates from 2011 to 2013. Tiffany T. Alston was found guilty of stealing government funds in 2012. Based on the above information, is the following statement true, false, or uncertain? Tiffany T. Alston was suspended from the Maryland House of Delegates.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Tiffany T. Alston was found guilty of stealing government funds, then she will be suspended from the Maryland House of Delegates.\n\nThe statement is true based on the information provided.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Rafa Nadal was born in Mallorca. Rafa Nadal is a professional tennis player. Nadal's win ratio is higher than 80%. All players in the Big 3 are professionals who have a high win ratio. Based on the above information, is the following statement true, false, or uncertain? Nadal was not born in Mallorca.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Nadal being a professional tennis player with a high win ratio implies he is part of the Big 3. If Nadal is part of the Big 3, then he has a high win ratio and is a professional player. Given that Nadal is a professional player with a high win ratio, it is likely he is part of the Big 3. Therefore, Nadal being born in Mallorca is consistent with the information provided.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All customers who are subscribed to AMC List are available to watch 3 movies every week without any additional fees. Some customers go to cinemas every week Customers either subscribe to AMC service or HBO service. Customers who prefer TV series more and will not watch TV series in cinemas. All customers who subscribe to HBO services prefer TV series to movies. James watches TV series in cinemas. Based on the above information, is the following statement true, false, or uncertain? James goes to cinemas every week.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: James watches TV series in cinemas, but we are not given information about how often he goes to cinemas. The statement about James going to cinemas every week is uncertain based on the given information.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Some monitors produced by LG have a type-c port. If the monitor has a type-c port, then it is not produced by AOC. All monitors in the library are produced by AOC. L-2021 is either in the library or has a type-c port. L-2021 is either produced by AOC and produced by LG, or neither produced by AOC nor produced by LG. Based on the above information, is the following statement true, false, or uncertain? If L-2021 is either produced by LG and produced by AOC or neither produced by LG nor produced by AOC,  then L-2021 is either in the library or produced by LG.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If L-2021 is produced by LG, it cannot be in the library. If L-2021 is in the library, it cannot have a type-c port.\n\nEvaluation: If L-2021 is either produced by LG and produced by AOC or neither produced by LG nor produced by AOC, then it must be in the library. This is because if it is produced by LG, it cannot be in the library, and if it is not produced by LG, it must be in the library. Therefore, the statement is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The SAT test is wholly owned and developed by the College Board. The SAT test is intended to assess student's readiness for college. The SAT was originally designed not to be aligned with high school curricula. Several adjustments were made for the version of the SAT introduced in 2016 to reflect more closely on what students learn in high school. Based on the above information, is the following statement true, false, or uncertain? Since 2016 the SAT has been better aligned with high school curricula.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The SAT was adjusted in 2016 to align more closely with high school curricula. Therefore, it can be inferred that since 2016, the SAT has been better aligned with high school curricula.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All people who grow their own fresh vegetables in their home garden also have ample space. If people are young working professionals who live in large cities, then they do not have ample space. If people order takeout from delivery services often, then they grow their own fresh vegetables in their home garden. If people enjoy going out often to restaurants with friends, then they order takeout from delivery services often. If people regularly tout the benefits of homegrown and homecooked meals over fast food, then they enjoy going out often to restaurants with friends. Michael grows his own fresh vegetables in his home garden or regularly touts the benefits of homegrown and homecooked meals over fast food. Based on the above information, is the following statement true, false, or uncertain? Michael enjoys going out often to restaurants with friends.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Michael either grows his own fresh vegetables or touts the benefits of homegrown meals. The premise indicates that if he touts the benefits of homegrown meals, he enjoys going out often to restaurants with friends.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All univariate analyses use a generalized linear model. All multivoxel (pattern) analyses are implementing machine learning algorithms. All implementing machine learning algorithms are to learn and classify multivariate data. The Latent Dirichlet allocation model uses a generalized linear model or a univariate analysis. If the Latent Dirichlet allocation model does not learn and classify multivariate data, then the Latent Dirichlet allocation model uses a generalized linear model and a multivoxel (pattern) analysis. Based on the above information, is the following statement true, false, or uncertain? Latent Dirichlet allocation model uses a generalized linear model and learns and classifies multivariate data.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The Latent Dirichlet allocation model uses a generalized linear model or a univariate analysis. If the Latent Dirichlet allocation model does not learn and classify multivariate data, then it uses a generalized linear model and a multivoxel (pattern) analysis.\n\nGiven this information, we can conclude that the Latent Dirichlet allocation model does not necessarily learn and classify multivariate data. Therefore, it may use a generalized linear model and a multivoxel (pattern) analysis.\n\nThe statement \"Latent Dirichlet allocation model uses a generalized linear model and learns and classifies multivariate data\" is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Six, seven and eight are real numbers. If a real number equals another real number adding one, the first number is larger. If the number x is larger than number y, then y is not larger than x. Seven equals six plus one. Eight equals seven plus one. Two is positive. If a number is positive, then the double of it is also positive. Eight is the double of four. Four is the double of two. Based on the above information, is the following statement true, false, or uncertain? Six is larger than seven.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The statement \"Six is larger than seven\" is false.\n\nStart with the hypothesis that if a real number equals another real number adding one, the first number is larger. Given that seven equals six plus one, we can conclude that seven is larger than six.\n\nTherefore, the statement \"Six is larger than seven\" is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All people who limp often and regularly have long-term medical issues with underlying causes. If people have long-term medical issues with underlying causes, then they are not often spry and energetic. People either stay indoors and rest a lot at home or people are often tired and disinterested in their activities. If people stay indoors and rest a lot at home, then they do not visit the gym at least once a day. If Mark either limps often and regularly or is often spry and energetic, then Mark limps often and regularly or is often tired and disinterested in his activities. Based on the above information, is the following statement true, false, or uncertain? Mark visits the gym at least once a day.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Mark either limps often and regularly or is often spry and energetic. If he limps often and regularly, he does not visit the gym. Therefore, if Mark visits the gym at least once a day, he must be often spry and energetic.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "If a album is written by a rock band, then the genre of the album is rock. If a band writes a album winning an award, then this band wins this award. Trouble at the Henhouse is an album by The Tragically Hip. The Tragically Hip is a Canadian rock band. The song \"Butts Wigglin'\" is in Trouble at the Henhouse. Trouble at the Henhouse won the Album of the Year award. A song in Trouble at the Henhouse appeared in a film. Based on the above information, is the following statement true, false, or uncertain? A canada rock band didn't win the Album of the Year award.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: The Tragically Hip is a Canadian rock band, and they won the Album of the Year award for their album \"Trouble at the Henhouse.\"\n\nThe statement \"A Canadian rock band didn't win the Album of the Year award\" is False because The Tragically Hip, a Canadian rock band, did win the Album of the Year award for their album \"Trouble at the Henhouse.\"\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "One American screenwriter and producer is Maggie Friedman. Maggie Friedman was the showrunner and executive producer of the lifetime television series Witches of East End. Witches of East End is a fantasy-drama series. Maggie Friedman produced and developed Eastwick. Eastwick is a series by ABC. Based on the above information, is the following statement true, false, or uncertain? There is a series by ABC that was developed by the showrunner of Witches of East End.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Maggie Friedman is the showrunner of Witches of East End and developed a series for ABC, then the statement is true.\n\nThe statement is true because Maggie Friedman developed Eastwick, which is a series by ABC.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All Asians are human. All Chinese are Asian. A man is either Chinese or British. All British are European. All Spanish are European. No Indian is European. Jessee is either both an Indian and a human, or neither an Indian nor a human. Based on the above information, is the following statement true, false, or uncertain? If Jesse is either an Indian or a Spanish, then Jesse is either both British and European, or neither British nor European.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Jesse is an Indian, then he is not European. If Jesse is Spanish, then he is European. The statement seems to align with these definitions.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All Republicans are anti-abortion. Either Republicans or Democrats. No Democrats are conservative. Either conservative or liberal. A U.S government official is either conservative or a Republican. Based on the above information, is the following statement true, false, or uncertain? If a U.S government official is either a conservative or anti-abortion, then a U.S government official is either a conservative and a liberal or neither a conservative nor a liberal.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If a U.S government official is either a conservative or anti-abortion, they must be a Republican. From the given information, all Republicans are anti-abortion. Therefore, a U.S government official who is anti-abortion must be a Republican.\n\nConclusion: A U.S government official who is either a conservative or anti-abortion is a Republican.\n\nNow, let's evaluate the statement: \"If a U.S government official is either a conservative or anti-abortion, then a U.S government official is either a conservative and a liberal or neither a conservative nor a liberal.\"\n\nThis statement is false because the given information does not support the conclusion that a U.S government official who is either a conservative or anti-abortion is both a conservative and a liberal or neither a conservative nor a liberal. The information provided only establishes a relationship between Republicans, anti-abortion stance, and conservatives.\n\nTherefore, the answer is:\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "No watch that is battery-powered is automatic. All digital watches are battery-powered. Some mechanical watches are automatic. All smart watches are digital. Moonwatch is not a digital watch or an automatic. Based on the above information, is the following statement true, false, or uncertain? If Moonwatch is a smartwatch and a mechanical watch, then Moonwatch is not a mechanical watch.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Moonwatch is a smartwatch and a mechanical watch, then it must be a digital watch (since all smart watches are digital) and a mechanical watch. However, Moonwatch is not a digital watch. Therefore, Moonwatch cannot be both a smartwatch and a mechanical watch.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Some teachers working at a pool are not nice. All teachers working at pools are pool managers. All pool managers are lifeguards. If someone is a lifeguard, then they work at a pool. Mary does not work at a pool. Based on the above information, is the following statement true, false, or uncertain? Mary is nice.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Mary is not a teacher working at a pool, so she is not a pool manager or a lifeguard. The information provided does not give any indication of Mary's niceness.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "New York City is Located in the United States of America. United States of America is part of North America. North America is in the western hemisphere of the earth. New York City is a highly developed city. If place A is located in place B and place B is located in place C, then place A is located in place C. Based on the above information, is the following statement true, false, or uncertain? New York City is located in the New York State.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: New York City is located in the United States of America, which is part of North America. If New York City is in North America, and New York State is in North America, then it is possible that New York City is located in New York State.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All people who grow their own fresh vegetables in their home garden also have ample space. If people are young working professionals who live in large cities, then they do not have ample space. If people order takeout from delivery services often, then they grow their own fresh vegetables in their home garden. If people enjoy going out often to restaurants with friends, then they order takeout from delivery services often. If people regularly tout the benefits of homegrown and homecooked meals over fast food, then they enjoy going out often to restaurants with friends. Michael grows his own fresh vegetables in his home garden or regularly touts the benefits of homegrown and homecooked meals over fast food. Based on the above information, is the following statement true, false, or uncertain? Michael is a young working professional who lives in large cities.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Michael grows his own fresh vegetables in his home garden or regularly touts the benefits of homegrown and homecooked meals over fast food. From the premises, we know that if people grow their own fresh vegetables, they have ample space, and if they order takeout often, they grow their own fresh vegetables. Also, if they enjoy going out often to restaurants with friends, they order takeout often. Therefore, Michael growing his own fresh vegetables implies he has ample space, which contradicts the statement that he is a young working professional who lives in large cities (who do not have ample space).\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Either in women or in men. No men have breast cancer. Either breast cancer or non-breast cancer. No type of cancer is without a tumor. All non-breast cancers are a type of cancer. If adenocarcinoma is a type of cancer or without a tumor, then adenocarcinoma is in women or without a tumor. Based on the above information, is the following statement true, false, or uncertain? If adenocarcinoma is in women or without a tumor, then adenocarcinoma is without a tumor and a non-breast cancer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If adenocarcinoma is in women or without a tumor, then it is without a tumor and a non-breast cancer.\n\nEvaluation: From the given information, we know that if adenocarcinoma is a type of cancer or without a tumor, then it is in women or without a tumor. Also, all non-breast cancers are a type of cancer. Therefore, if adenocarcinoma is in women or without a tumor, it must be without a tumor and a non-breast cancer.\n\nThe statement is True.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All humans eat. If something eats, then it is not a plant. A thing is either plant or animal. All goats are animals. No dirt is an animal. Hulu is a goat or a human. Based on the above information, is the following statement true, false, or uncertain? Hulu eats.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All people who regularly drink coffee are dependent on caffeine. People either regularly drink coffee or joke about being addicted to caffeine. No one who jokes about being addicted to caffeine is unaware that caffeine is a drug. Rina is either a student and unaware that caffeine is a drug, or neither a student nor unaware that caffeine is a drug. If Rina is not a person dependent on caffeine and a student, then Rina is either a person dependent on caffeine and a student, or neither a person dependent on caffeine nor a student. Based on the above information, is the following statement true, false, or uncertain? Rina is either a person who jokes about being addicted to caffeine or is unaware that caffeine is a drug.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The conclusion can be drawn that Rina is either a person who jokes about being addicted to caffeine or is unaware that caffeine is a drug. This aligns with the given information about Rina's characteristics and dependencies.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All volunteers receive intangible benefits for their work. Volunteers work regularly or on an as-needed basis. Some volunteers are trained. Volunteers work in groups or individually. Environmental volunteers contribute toward environmental management or conservation. Participating in natural disaster response is an example of volunteers working in groups on an as-needed basis. Based on the above information, is the following statement true, false, or uncertain? Environmental volunteers work in groups.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The conclusion that can be drawn from the context is that environmental volunteers work in groups or individually. Given that participating in natural disaster response is an example of volunteers working in groups on an as-needed basis, it is reasonable to conclude that environmental volunteers can work in groups.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Asa Hoffmann was born in New York City. Asa Hoffman lives in Manhattan. Asa Hoffman is a chess player. Some chess players are grandmasters. People born and living in New York City are New Yorkers. People liviing in Manhattan live in New York City. Based on the above information, is the following statement true, false, or uncertain? Asa Hoffmann is a New Yorkers.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Asa Hoffmann is a New Yorker based on the information provided.\n\nEvaluation: Asa Hoffmann was born in New York City, lives in Manhattan, and is a chess player. From the given information, we know that people born and living in New York City are New Yorkers, and people living in Manhattan live in New York City. Since Asa Hoffmann meets all these criteria, it can be concluded that Asa Hoffmann is indeed a New Yorker.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Some students good at math are good at chemistry. All students good at chemistry enjoy conducting experiments. All students that enjoy conducting experiments are good at planning. No student good at planning is awarded the Dean's List. James is either good at chemistry and awarded the Dean's List, or neither good at chemistry nor awarded the Dean's List. Based on the above information, is the following statement true, false, or uncertain? If James is good at Chemistry or gets awarded the Dean's List, then James is either good at planning or good at math.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The 2008 Summer Olympics were held in Beijing, China. The 2008 Summer Olympics were the second Summer Olympic Games to be held in a communist state. China won the most gold medals (48) in the 2008 Summer Olympics. The United States placed second in the gold medal tally but won the highest number of medals overall (112) in the 2008 Summer Olympics. The third place in the gold medal tally was achieved by Russia in the 2008 Summer Olympics. If a country places third in gold medals, then they had fewer gold medals than the team that won the most gold medals. 87 countries won at least one medal during the 2008 Games. Based on the above information, is the following statement true, false, or uncertain? Russia won fewer gold medals than China.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Russia placed third in the gold medal tally, which means they had fewer gold medals than China who won the most gold medals.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The SAT test is wholly owned and developed by the College Board. The SAT test is intended to assess student's readiness for college. The SAT was originally designed not to be aligned with high school curricula. Several adjustments were made for the version of the SAT introduced in 2016 to reflect more closely on what students learn in high school. Based on the above information, is the following statement true, false, or uncertain? The SAT test assesses student's math skills.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: The SAT test is intended to assess student's readiness for college, which includes math skills. The adjustments made in 2016 aimed to align the test more closely with high school curricula, which would likely include math skills.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "No television stars are certified public accountants. All certified public accountants have good business sense. Based on the above information, is the following statement true, false, or uncertain? All television stars have good business sense.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Since no television stars are certified public accountants and all certified public accountants have good business sense, it follows that no television stars have good business sense.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Products are either produced in China or the US. All produced in China are labeled. All produced in the US are sold in the US. If labeled, then the product is cheaper. All sold in the US are sold in Walmart. All displayed on the homepage are sold in Walmart. No products returned by customers are sold in Walmart. G-910 is either displayed on the homepage or cheaper. Based on the above information, is the following statement true, false, or uncertain? G-910 is a product returned by customers or sold in Walmart.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: G-910 is either displayed on the homepage or cheaper. If it is cheaper, it is labeled and sold in the US, which means it is sold in Walmart. If it is displayed on the homepage, it is also sold in Walmart. Therefore, G-910 is not a product returned by customers.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No professional basketball players are soccer players. All NBA players are professional basketball players. All defenders are soccer players. All centerbacks are defenders. Roger Federer is not an NBA player or a defender. Based on the above information, is the following statement true, false, or uncertain? Roger Federer is not a centerback.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Since Roger Federer is not an NBA player or a defender, he cannot be a centerback based on the given information.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No homework is fun. Some reading is homework. Based on the above information, is the following statement true, false, or uncertain? Some reading is fun.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If no homework is fun and some reading is homework, then it is uncertain whether some reading is fun.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "No low-scoring players are top players in the league. Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers. All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. Based on the above information, is the following statement true, false, or uncertain? Candace is either a low-scoring player or bad at mid-range shots.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. This implies that if Candace successfully shoots a high percentage of 3-pointers, she is not bad at mid-range shots.\n\nTherefore, the statement \"Candace is either a low-scoring player or bad at mid-range shots\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Zaha Hadid is a British-Iraqi architect, artist and designer. Zaha Hadid was born on 31 October 1950 in Baghdad, Iraq. Hadid was a visiting professor of Architectural Design at the Yale School of Architecture. Max is an aspiring architecture student, and he plans to apply to Yale School of Architecture. Based on the above information, is the following statement true, false, or uncertain? Hadid became a UK citizen later in her life.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Zaha Hadid was born in Iraq, so it is uncertain whether she became a UK citizen later in her life.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "There are five grades including A+, A, B+, B, and C in English. If a student gets A+ in English, then his score is greater than 95. If a student gets A in English, then his score is in the range of 90-95. Zhang got an A in English. Wang's English score is better than Zhang's. Wu's English score is lower than 90. Based on the above information, is the following statement true, false, or uncertain? Wu does not get an A or A+ in English.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Since Wu's English score is lower than 90, he cannot have received an A or A+ in English.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Gasteren is village located in the province of Drenthe. Drenthe is a Dutch province. No cities are villages. The population of a village in Drenthe was 155 people. Based on the above information, is the following statement true, false, or uncertain? Gasteren is a city.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Gasteren is a village located in the province of Drenthe, and since no cities are villages, Gasteren cannot be a city.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All cancers are malignant tumors. No malignant tumor can be treated at home. All colorectal cancer is cancer. Having a cold can be treated at home. Breast cancer is neither having a cold nor a malignant tumor (exclusive). Based on the above information, is the following statement true, false, or uncertain? Breast cancer is colorectal cancer or a malignant tumor.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Breast cancer is neither a malignant tumor nor colorectal cancer. Therefore, the statement \"Breast cancer is colorectal cancer or a malignant tumor\" is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Ableton has an office in Germany. Ableton has an office in the USA. USA and Germany are different countries. Any company that has offices in different countries is a multinational company. Ableton makes music software. Based on the above information, is the following statement true, false, or uncertain? Ableton does not have an office in Germany.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Ableton is a multinational company with offices in both Germany and the USA. Therefore, the statement that Ableton does not have an office in Germany is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Beasts of Prey is either a fantasy novel or a science fiction novel. Science fiction novels are not about mythological creatures Beasts of Prey Is about a creature known as the Shetani. Shetanis are mythological. Based on the above information, is the following statement true, false, or uncertain? Beasts of prey is a fantasy novel.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The statement \"Beasts of Prey is a fantasy novel\" is false.\n\nThe reasoning is as follows:\n- Beasts of Prey is either a fantasy novel or a science fiction novel.\n- Science fiction novels are not about mythological creatures.\n- Beasts of Prey is about a creature known as the Shetani.\n- Shetanis are mythological.\n\nSince Beasts of Prey is about a mythological creature (Shetani), and science fiction novels are not about mythological creatures, it follows that Beasts of Prey is a fantasy novel.\n\nTherefore, the statement \"Beasts of Prey is a fantasy novel\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All defenders are soccer players. No soccer players are professional basketball players. All centerbacks are defenders. All NBA players are professional basketball players. If Stephen Curry is not an NBA player, then Stephen Curry is not an NBA player or a soccer player. Based on the above information, is the following statement true, false, or uncertain? Stephen Curry is a professional basketball player.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The conclusion that can be drawn from the context is that Stephen Curry is not a soccer player. Since no soccer players are professional basketball players, and Stephen Curry is not an NBA player, it follows that Stephen Curry is not a professional basketball player either.\n\nTherefore, the statement \"Stephen Curry is a professional basketball player\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "There are two kitchens in the house: the upstairs kitchen and the downstairs kitchen. When someone is cooking in the downstairs kitchen, the first floor becomes smokey unless the air conditioner is running. If the air conditioner is running and someone is cooking in the downstairs kitchen, all the smoke travels to the second floor. Based on the above information, is the following statement true, false, or uncertain? If someone is cooking downstairs, it will always cause the first floor to become smokey.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If someone is cooking downstairs, the first floor becomes smokey unless the air conditioner is running. If the air conditioner is running and someone is cooking downstairs, all the smoke travels to the second floor.\n\nEvaluation: The statement is true based on the given information. When someone is cooking in the downstairs kitchen, the first floor becomes smokey unless the air conditioner is running. Therefore, if someone is cooking downstairs, it will always cause the first floor to become smokey.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "One American screenwriter and producer is Maggie Friedman. Maggie Friedman was the showrunner and executive producer of the lifetime television series Witches of East End. Witches of East End is a fantasy-drama series. Maggie Friedman produced and developed Eastwick. Eastwick is a series by ABC. Based on the above information, is the following statement true, false, or uncertain? Maggie Friedman developed Witches of East End.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Maggie Friedman developed Eastwick, which is a series by ABC, and she was also the showrunner and executive producer of Witches of East End, which is a fantasy-drama series, then it is likely that she developed Witches of East End.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Thomas Barber was an English professional footballer. Thomas Barber played in the Football League for Aston Villa. Thomas Barber played as a half back and inside left. Thomas Barber scored the winning goal in the 1913 FA Cup Final. Based on the above information, is the following statement true, false, or uncertain? An English professional footballer scored the winning goal in the 1913 FA Cup Final.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The statement is true. Thomas Barber, an English professional footballer, scored the winning goal in the 1913 FA Cup Final. Therefore, an English professional footballer did indeed score the winning goal in the 1913 FA Cup Final.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All students are members of the university. All graduate students are students. All PhD students are graduate students. Some PhD students have high IQs. If John is not a PhD student, then he is not a member of the university. If John has a high IQ, then he is a PhD student or a graduate student. Based on the above information, is the following statement true, false, or uncertain? John does not have a high IQ.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If John does not have a high IQ, then he is not a PhD student or a graduate student. Since all PhD students have high IQs, if John does not have a high IQ, he cannot be a PhD student. Therefore, he must be a graduate student. This means he is still a student and a member of the university.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "The only types of mammals that lay eggs are platypuses and echidnas. Platypuses are not hyrax. Echidnas are not hyrax. No mammals are invertebrates. All animals are either vertebrates or invertebrates. Mammals are animals. Hyraxes are mammals. Grebes lay eggs. Grebes are not platypuses and also not echidnas. Based on the above information, is the following statement true, false, or uncertain? Platypuses are vertebrates.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Start with the hypothesis that all mammals are vertebrates. Given that platypuses and echidnas are mammals and they lay eggs, it seems uncertain whether they are vertebrates or not. However, since no mammals are invertebrates and all animals are either vertebrates or invertebrates, we can conclude that mammals must be vertebrates.\n\nTherefore, the statement \"Platypuses are vertebrates\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Thomas Barber was an English professional footballer. Thomas Barber played in the Football League for Aston Villa. Thomas Barber played as a half back and inside left. Thomas Barber scored the winning goal in the 1913 FA Cup Final. Based on the above information, is the following statement true, false, or uncertain? Thomas Barber played in the Football League for Bolton Wanderers\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The statement \"Thomas Barber played in the Football League for Bolton Wanderers\" is false, as the information provided states that Thomas Barber played in the Football League for Aston Villa. \n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Douglas Adams is an author who created the book collection called The Salmon of Doubt. The Salmon of Doubt is about life experiences and technology. All authors are writers. Writers create innovative ideas. Some books that contain innovative ideas are about technology. Based on the above information, is the following statement true, false, or uncertain? Douglas Adams is a writer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Douglas Adams is a writer because he is an author who created a book collection.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Buisnesses are either sanctioned or unsanctioned. Sanctioned buisnesses are limited. Unsanctioned buisnesses are free. The Crude Oil Data Exchange is a buisness that isn't free. Based on the above information, is the following statement true, false, or uncertain? Crude Oil Data Exchange is unsanctioned.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: The Crude Oil Data Exchange is not free, which means it is not unsanctioned. However, we are not given information about its sanction status directly.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "If someone yells, then they are not cool. If someone is angry, then they yell. If someone flies, then they are cool. Every person that knows magic can fly. All wizards know magic. Harry either yells and flies, or neither yells nor flies. Potter is a wizard and flies. Based on the above information, is the following statement true, false, or uncertain? Harry is cool.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Every chef can cook. Some people who aren\u2019t chefs can cook. People who cook can make scrambled eggs and pasta. If someone can make cookies and muffins, they are a baker. Bakers who can also make scrambled eggs can make a good breakfast. Luke can make cookies, scrambled eggs, and muffins, but not pasta. Based on the above information, is the following statement true, false, or uncertain? Luke is a chef.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Luke can make scrambled eggs, which is a skill attributed to chefs. However, Luke can also make cookies and muffins, which are skills attributed to bakers. Since Luke can make cookies and muffins, he is classified as a baker. Therefore, Luke is not necessarily a chef.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "No athletes are slow runners. All professional basketball players are athletes. All NBA players are professional basketball players. All Knicks players are NBA players. Jim is either not a professional basketball player or not a slow runner. Based on the above information, is the following statement true, false, or uncertain? Jim is a Knicks player.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Jim is not a professional basketball player or a slow runner. Given the chain of statements, we can conclude that Jim is a Knicks player because all Knicks players are NBA players, and all NBA players are professional basketball players. Since Jim is not a professional basketball player, he must be a Knicks player.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All humans eat. If something eats, then it is not a plant. A thing is either plant or animal. All goats are animals. No dirt is an animal. Hulu is a goat or a human. Based on the above information, is the following statement true, false, or uncertain? If Hulu is either an animal or dirt, then Hulu eats and is dirt.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Hulu is an animal, then Hulu eats. If Hulu is dirt, then Hulu does not eat. The statement combines two contradictory conditions, making it uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Edwin Smith was a New Zealand Rower from Auckland. Edwin Smith was also known as Ted Smith. Edwin Smith went to Rose Road Primary School, located in Grey Lynn. Edwin Smith was a sergeant who served with the New Zealand 24th battalion in Italy and Egypt. Broadway Sheetmetals was a buisness that was ran and owned by Edwin Smith, who was a sheetmetal worker. Based on the above information, is the following statement true, false, or uncertain? No buisness owner has served in Egypt.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Edwin Smith was a business owner who served in Egypt. This contradicts the statement that no business owner has served in Egypt.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If people make their own matcha teas every morning with ceremonial-grade matcha powder, then they do not wake up late and start their schedules past noon regularly. If people live in California and attend yoga classes regularly, then they make their own matcha teas every morning with ceremonial-grade matcha powder. If people work in the entertainment industry as high-profile celebrities, then they wake up late and start their schedules past noon regularly. If people do not have regular 9-5 jobs, then they work in the entertainment industry as high-profile celebrities. All people who prefer working at home over going to the office every day do not have regular 9-5 jobs. Clay either both prefers to work at home over going to the office every day and makes his own matcha teas every morning with ceremonial-grade matcha powder, or he neither prefers to work at home over going to the office every day nor makes his own matcha teas every morning with ceremonial-grade matcha powder. Based on the above information, is the following statement true, false, or uncertain? Clay lives in California and attends yoga classes regularly.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Clay makes his own matcha teas every morning with ceremonial-grade matcha powder, then he lives in California and attends yoga classes regularly.\n\nEvaluation: From the given information, we know that if people live in California and attend yoga classes regularly, then they make their own matcha teas every morning with ceremonial-grade matcha powder. Since Clay either both prefers to work at home over going to the office every day and makes his own matcha teas every morning with ceremonial-grade matcha powder, or he neither prefers to work at home over going to the office every day nor makes his own matcha teas every morning with ceremonial-grade matcha powder, we can conclude that Clay indeed lives in California and attends yoga classes regularly.\n\nTherefore, the statement \"Clay lives in California and attends yoga classes regularly\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Boves is a railway station located in France. The preceding station of Boves is Longueau. The preceding station of Dommartin is Boves. France is a European country. Dommartin is situated on the Paris\u2013Lille railway. Any two contiguous stations are on the same railway. Boves is served by regional TER Hauts-de-France trains. If A is located in B and B is located in C, then A is located in C. If A precedes B and B preceds C, than A preceds C. Based on the above information, is the following statement true, false, or uncertain? Longueau is situated on the Paris\u2013Lille railway.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Dommartin precedes Boves and Boves precedes Longueau, then Longueau is situated on the Paris-Lille railway.\n\nThe statement is: Longueau is situated on the Paris-Lille railway.\n\nEvaluation: From the information given, we know that the preceding station of Boves is Longueau, and Dommartin precedes Boves. Since any two contiguous stations are on the same railway, and Dommartin is situated on the Paris-Lille railway, we can conclude that Longueau is indeed situated on the Paris-Lille railway.\n\nTherefore, the statement is True.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "To get a student visa, you must be full-time enrolled in an academic program. Those who are full-time enrolled in an academic program can not work full-time. Everyone who wants to study abroad needs to have a student visa. All PhD graduates can work full time. If Tom does not want to study abroad, he is full-time enrolled in an educational program. Based on the above information, is the following statement true, false, or uncertain? Tom is a PhD graduate.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Tom does not want to study abroad, so he is full-time enrolled in an educational program. This does not directly imply that he is a PhD graduate.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A student who loves shrieking will be punished. If a person swears, then he is a student. If someone is a teacher, then Bob will talk to him. All gentlemen are in a suit. All teachers are men. There is a teacher. If someone is not a gentlemen, then he is not nice. Willy is nice. Bob loves shrieking and swearing. Based on the above information, is the following statement true, false, or uncertain? There is a man that Bob will talk to.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Bob loves shrieking and swearing, and he talks to teachers. If Bob loves shrieking and swearing, and all teachers are men, then Bob will talk to a man.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If a soccer player receives two yellow cards in one game, this player will be ejected from the rest of the game. If a soccer player receives one red card in one game, this player will be ejected from the rest of the game. Henry is a soccer player. In one game, Henry first receives one yellow card, then he receives one red card. Based on the above information, is the following statement true, false, or uncertain? Henry will not be ejected from the rest of the game.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Henry received one yellow card and then one red card. According to the rules given, receiving a red card results in ejection from the game. Therefore, Henry will be ejected from the rest of the game.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Herodicus was a Greek physician, dietician, sophist, and gymnastic-master. Herodicus was born in the city of Selymbria. Selymbria is a colony of the city-state Megara. One of the tutors of Hippocrates was Herodicus. Massages were recommended by Herodicus. Some of theories of Herodicus are considered to be the foundation of sports medicine. Based on the above information, is the following statement true, false, or uncertain? Herodicus was born in a colony of a city-state.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Herodicus was born in Selymbria, which is a colony of the city-state Megara. Therefore, the statement \"Herodicus was born in a colony of a city-state\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No low-scoring players are top players in the league. Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers. All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. Based on the above information, is the following statement true, false, or uncertain? Candace is a top player in the league.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "New York City is Located in the United States of America. United States of America is part of North America. North America is in the western hemisphere of the earth. New York City is a highly developed city. If place A is located in place B and place B is located in place C, then place A is located in place C. Based on the above information, is the following statement true, false, or uncertain? USA is not located in western hemisphere of the earth.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: New York City is in the western hemisphere due to its location in the United States, which is in North America, part of the western hemisphere.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All bread is food. Some sandwiches are bread. All food is edible. No edible things are poisonous. Deodorant is poisonous. Based on the above information, is the following statement true, false, or uncertain? If deodorant is a loaf of bread, then deodorant is not a sandwich.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If deodorant is a loaf of bread, then it is not a sandwich. This is based on the fact that all bread is food, and some sandwiches are bread.\n\nConclusion: True. If deodorant is a loaf of bread, it cannot be a sandwich based on the given information.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The installment sales method is the approach to recognize revenue under the US GAAP. In accrual accounting, revenues are recognized when they are realized. In cash accounting, revenues are recognized when cash is received. The US GAAP is the accounting standard developed and used by the US Securities and Exchange Commission. Sally works for the US Securities and Exchange Commission. Based on the above information, is the following statement true, false, or uncertain? The company Sally works for performs accrual accounting.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Sally works for the US Securities and Exchange Commission, then the company she works for performs accrual accounting, as the US GAAP is the accounting standard used by the SEC.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Indonesia is a country. In Indonesia, the prosecutor only personally investigates cases of some special crimes. Corruption is a type of crime. Once the police complete investigations of a crime, they hand the evidence to the prosecutor. Evidence can be either satisfactory or unsatisfactory. If the police hand the evidence to the prosecutor and the evidence is satisfactory, the prosecutor will prosecute the offender in an appropriate court. Based on the above information, is the following statement true, false, or uncertain? In Indonesia, the prosecutor personally investigates cases of corruption.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: The prosecutor in Indonesia only personally investigates cases of some special crimes, and corruption is a type of crime. However, the information provided does not specify whether corruption falls under the category of special crimes that the prosecutor personally investigates.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Products are either produced in China or the US. All produced in China are labeled. All produced in the US are sold in the US. If labeled, then the product is cheaper. All sold in the US are sold in Walmart. All displayed on the homepage are sold in Walmart. No products returned by customers are sold in Walmart. G-910 is either displayed on the homepage or cheaper. Based on the above information, is the following statement true, false, or uncertain? G-910 is displayed on the homepage.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If G-910 is cheaper, it must be labeled and sold in the US, which means it is sold in Walmart. If G-910 is displayed on the homepage, it is sold in Walmart. Therefore, if G-910 is displayed on the homepage, it must be sold in Walmart.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "New York City is Located in the United States of America. United States of America is part of North America. North America is in the western hemisphere of the earth. New York City is a highly developed city. If place A is located in place B and place B is located in place C, then place A is located in place C. Based on the above information, is the following statement true, false, or uncertain? A highly developed city is located in the western hemisphere of the earth.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Highly developed city = New York City. New York City is in the western hemisphere. Therefore, a highly developed city is located in the western hemisphere.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No payment cards issued by Russian banks can be used with ApplePay. All MIR payment cards are issued by Russian banks. Some international payment cards can be used with ApplePay. Social payments in Russia can only be transferred to MIR payment cards. Bank of America payment cards can be used with ApplePay. Based on the above information, is the following statement true, false, or uncertain? Bank of America payment cards are international and can be used to transfer social payments in Russia.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Bank of America payment cards can be used with ApplePay, and they are not issued by Russian banks. Bank of America payment cards are not MIR cards, so they are not used for social payments in Russia.\n\nThe statement \"Bank of America payment cards are international and can be used to transfer social payments in Russia\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "St Johnstone is a Scottish team. St Johnstone is part of the Scottish Premiership. If a team is part of the league, it has joined the league. St Johnstone and Minsk are different teams. For two different teams, either one team wins or the other team wins. Minsk won against St Johnstone. Based on the above information, is the following statement true, false, or uncertain? Minsk joined the Scottish Premiership.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Since Minsk won against St Johnstone, it implies that Minsk and St Johnstone are different teams. Given that St Johnstone is part of the Scottish Premiership, and if a team is part of the league, it has joined the league, we can conclude that Minsk did not join the Scottish Premiership.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Metropolitan Museum of Art is a museum in NYC. Whitney Museum of American Art is a museum in NYC. Museum of Modern Art (MoMA) is a museum if NYC. Metropolitan Museum of Art includes Bytantine and Islamic Art. Whitney Museum of American Art includes American art. Based on the above information, is the following statement true, false, or uncertain? A museum in NYC includes Greek art.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If a museum in NYC includes Greek art, it could be any of the mentioned museums or another not specified in the context.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "All kids love animals. All toddlers are kids. If someone loves animals, then they are not bad. All pirates are bad. If Nancy is not a pirate, then Nancy loves animals. If Nancy is not a toddler, then Nancy is bad. Based on the above information, is the following statement true, false, or uncertain? Nancy is a pirate.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Nancy is not a toddler, so she is bad. Nancy is not a pirate, so she loves animals. All pirates are bad, so Nancy is not a pirate.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All Republicans are anti-abortion. Either Republicans or Democrats. No Democrats are conservative. Either conservative or liberal. A U.S government official is either conservative or a Republican. Based on the above information, is the following statement true, false, or uncertain? If a U.S government official is not anti-abortion and a Republican, then a U.S government official is neither anti-abortion nor a liberal.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: A U.S government official who is not anti-abortion and a Republican must be conservative. Since no Democrats are conservative, this official cannot be a Democrat. Therefore, the official must be a Republican. Given that all Republicans are anti-abortion, the official must be anti-abortion. If the official is not liberal, then they must be conservative.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All people who enjoy eating gelato ice cream would enjoy a vacation to Italy. There are no people who can resist the hallmark delectable drinks and desserts that are famed in Italy. People either enjoy eating gelato ice cream or love to travel and vacation often. If people often take study abroad semesters to Europe, then they do not regret their college experiences. If people love to travel and vacation often, then they often take study abroad semesters to Europe. Robert either enjoys eating gelato ice cream and loves to travel and vacation often, or he neither enjoys eating gelato ice cream nor loves to travel and vacation often. Based on the above information, is the following statement true, false, or uncertain? If Robert either would both enjoy a vacation to Italy and regrets his college experiences or neither would enjoy a vacation to Italy nor regrets his college experiences, then Robert would either enjoy a vacation to Italy or, if not, then he can resist the hallmark delectable drinks and desserts that are famed in Italy.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Robert enjoys gelato ice cream and loves to travel, he would not regret his college experiences. If he does not enjoy gelato or love to travel, he would resist the Italian drinks and desserts.\n\nThe statement is True\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If people work well in teams in their workplace, then they get along with all their colleagues at their work. If people come to work every day with a positive attitude, then they work well in teams in their workplace. People either come into work every day with a positive attitude or are always tired every morning. If people get many promotions from their boss at work, then they receive negative feedback from teams at work. Kat is either both a person who works well in teams in their workplace and is always tired every morning, or she neither works well in teams in their workplace nor is always tired every morning. Based on the above information, is the following statement true, false, or uncertain? Kat is a person who comes to work every day with a positive attitude.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Kat is always tired every morning, she comes to work with a positive attitude. If she works well in teams, she gets along with all colleagues. The premise doesn't specify if she gets promotions or negative feedback.\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "System 7 is a UK-based electronic dance music band. Steve Hillage and Miquette Giraudy formed System 7. Steve Hillage and Miquette Giraudy are former members of the band Gong. Electric dance music bands are bands. System 7 has released several club singles. Club singles are not singles. Based on the above information, is the following statement true, false, or uncertain? System 7 was formed by former members of Gong.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Steve Hillage and Miquette Giraudy are former members of Gong and formed System 7, then System 7 was formed by former members of Gong.\n\nEvaluation: The information provided clearly states that Steve Hillage and Miquette Giraudy, who formed System 7, are former members of the band Gong. Therefore, it can be concluded that System 7 was indeed formed by former members of Gong.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If people go to the spa at least once a week, then they are not people who are miserly and need to save a large portion of their income. People are either miserly and need to save a large portion of their income, or people that frivolously spend a lot of money every time they go out. If people frivolously spend a lot of money every time they go out, then they value quality manufacturing and luxury items. If people value quality manufacturing and luxury items, then they enjoy shopping for materialistic items in their free time. If Jess is not miserly and needs to save a large portion of their income, then Jess does not value quality manufacturing and luxury items. If Jess either values quality manufacturing and luxury items or, if he does not, then he is miserly and needs to save a large portion of his income, then Jess frivolously spends a lot of money every time he goes out. Based on the above information, is the following statement true, false, or uncertain? If Jess either enjoys shopping for materialistic items in his free time or, if he does not, then he goes to the spa at least once a week, then Jess neither values quality manufacturing and luxury items nor goes to the spa at least once a week.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Jess enjoys shopping for materialistic items in his free time, then he frivolously spends a lot of money every time he goes out. If he goes to the spa at least once a week, then he is not miserly and needs to save a large portion of his income.\n\nEvaluation: If Jess enjoys shopping for materialistic items in his free time, then he frivolously spends a lot of money every time he goes out. If he goes to the spa at least once a week, then he is not miserly and needs to save a large portion of his income. Therefore, if Jess either enjoys shopping for materialistic items in his free time or goes to the spa at least once a week, then he neither values quality manufacturing and luxury items nor goes to the spa at least once a week.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Thick as Thieves is a young adult fantasy novel, written by Megan Whalen Turner. Thick as Thieves was published by Greenwillow Books. If a book was published by a company, than the author of that book worked with the company that published the book. The fictional Mede Empire is where Thick as Thieves is set. The Mede Empire plots to swallow up some nearby countries. Attolia and Sounis are countries near the Mede Empire. Thick as Thieves was sold both as a hardcover and an e-book. Based on the above information, is the following statement true, false, or uncertain? Thick as Thieves is not set in the mede empire.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: The book \"Thick as Thieves\" is set in the Mede Empire, which is stated in the information provided.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All video applications are software. All YouTube-related applications are video applications. An APP is either related to YouTube or Instagram. All Instagram is entertainment. All software is programmed. All entertainments are interesting. If something is interesting, then it is good. TikTok is not good. Based on the above information, is the following statement true, false, or uncertain? Tiktok is either good or a program.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Since TikTok is not good and all interesting things are good, TikTok is not interesting. Given that all software is programmed, TikTok is a program.\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Some monitors equipped in the library are produced by AOC. All monitors equipped in the library are cheaper than 800 dollars. All monitors cheaper than 800 dollars are with a resolution of 1080p. If a monitor has a resolution of 1080p, then it does not support the type-c port. A-2017 supports the type-c port. Based on the above information, is the following statement true, false, or uncertain? A-2017 is produced by AOC and equipped in the library.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: A-2017 supports the type-c port, so it cannot have a resolution of 1080p. Therefore, A-2017 cannot be a monitor equipped in the library.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If a class has prerequisites the student must take the prerequisites to take the class. If a class has no prerequisites, then the student can take the class CPSC 201 and CPSC 223 are prerequisites for CPSC 323. Intro Microeconomics is the only prerequisite for Intermediate Microeconomics. Intro Geology has no prerequisites. Based on the above information, is the following statement true, false, or uncertain? A student cannot take Intro Geology.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If a class has prerequisites, the student must take them. If a class has no prerequisites, the student can take it. Use this to determine if a student can take Intro Geology.\n\nSince Intro Geology has no prerequisites, based on the given information, a student can take Intro Geology.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All people who attend Renaissance fairs regularly enjoy dressing up in old-fashioned and historical period clothing. If people are fascinated by the history of the Renaissance and other past eras, then they attend Renaissance fairs regularly. People are either fascinated by the history of the Renaissance and other past eras, or are not nostalgic academics who enjoy learning. If people are focused on the future and industry professions, then they are not nostalgic academics who enjoy learning. If people are historical professors who are passionate about their job and subject, then they are nostalgic academics who enjoy learning. If Clyde is not focused on the future and industry professions, then he is neither focused on the future and industry professions nor enjoys dressing up in old-fashioned and historical period clothing. Based on the above information, is the following statement true, false, or uncertain? Clyde is a history professor who is passionate about his job and subject.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Clyde is not focused on the future and industry professions, so he is not a nostalgic academic who enjoys learning. This aligns with being a history professor who is passionate about his job and subject.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "One American screenwriter and producer is Maggie Friedman. Maggie Friedman was the showrunner and executive producer of the lifetime television series Witches of East End. Witches of East End is a fantasy-drama series. Maggie Friedman produced and developed Eastwick. Eastwick is a series by ABC. Based on the above information, is the following statement true, false, or uncertain? There isn't a series by ABC that was developed by the showrunner of Witches of East End.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Maggie Friedman is the showrunner of Witches of East End and developed Eastwick, then there is a series by ABC developed by the showrunner of Witches of East End.\n\nThe statement is False\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "People either value physical touch as an especially important love language or value words of affirmation as an especially important love language. If a person values physical touch as an especially important love language, then they are good with pets. No people that are good with pets are scared of animals. People are either scared of animals or love animals. Adam is either a person who values physical touch as an especially important love language or a person who loves animals. Based on the above information, is the following statement true, false, or uncertain? If Adam values physical touch as an especially important love language or is good with pets, then Adam values words of affirmation as an especially important love language.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Adam values physical touch as an especially important love language, then he is good with pets. If he is good with pets, he is not scared of animals. If he loves animals, he values physical touch as an especially important love language. Therefore, if Adam values physical touch as an especially important love language or is good with pets, he values words of affirmation as an especially important love language.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All extroverts are overtly expressive. People are either extroverts or introverts. If someone is an introvert, then they are shy and reticent. No shy and reticent person likes to talk to strangers. Jeff is not an extrovert and someone who likes to talk to strangers. Based on the above information, is the following statement true, false, or uncertain? Jeff is overtly expressive and likes to talk to strangers.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Jeff is not an extrovert and likes to talk to strangers. From the premises, we know that extroverts are overtly expressive, and introverts are shy and reticent. Shy and reticent people do not like to talk to strangers. Since Jeff is not an extrovert, he must be an introvert, which means he is shy and reticent and does not like to talk to strangers. Therefore, Jeff is not overtly expressive and does not like to talk to strangers.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Mr. and Mrs. Smith make a travel plan, they want to go to a city in California or Florida, and where neither of them has ever been. Cities in California that they are interested in are San Francisco, Los Angeles, and San Diego. Cities in Florida that they are interested in are Orlando and Miami. Mr. Smith has been to two cities in California. Mrs. Smith has been to one city in Florida. Based on the above information, is the following statement true, false, or uncertain? Mr. Smith has been to San Francisco.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Mr. Smith has been to two cities in California, and San Francisco is one of the cities they are interested in. Therefore, it is possible that Mr. Smith has been to San Francisco.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "If a Leetcode problem is at the easy level, then its AC rate is lower than 20 percent. All Leetcode problems that are recommended to novices are easy. A Leetode problem is either easy or hard. Leetcode problems that are starred by more than 1 thousand users are hard. 2Sum is recommended to novices. 4Sum is starred by more than 1 thousand users. Based on the above information, is the following statement true, false, or uncertain? 2Sum has an AC rate higher than 20 percent.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "There are no mansion houses in an urban area. All skyscrapers reside in urban areas. Every creepy haunted house is in a mansion house. Every terrifying Halloween scare comes from a creepy haunted house. The Scream is a creepy haunted house or a terrifying Halloween scare. Based on the above information, is the following statement true, false, or uncertain? The Scream is either a skyscraper or a mansion house.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The Scream is a creepy haunted house, which is in a mansion house. Therefore, The Scream is a mansion house.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All fruits with the color red contain a large amount of vitamin C. All apples are fruits with the color red. All fruits containing a large amount of vitamin C are beneficial to people. No fruits that are beneficial to people are on a warning list. If K is not beneficial to people and also not an apple, then it is a fruit with the color red. Based on the above information, is the following statement true, false, or uncertain? If K is either on a warning list or with the color red, then it is not beneficial to people and does not contain a large amount of vitamin C.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If K is on a warning list, it is not beneficial to people. If K is with the color red, it contains a large amount of vitamin C. The statement seems to align with the given definitions.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "People are either interested in puzzles or bad at chess. If a person is bad at chess, then they don't play a lot of chess. A person is either a planner or a creative person. Erica is someone who plays a lot of chess. If Erica is neither bad at chess nor creative, then Erica is either someone who plans and is creative, or someone who neither plans nor is creative. Based on the above information, is the following statement true, false, or uncertain? Erica is either interested in puzzles or is creative.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Erica plays a lot of chess, so she is bad at chess. If she is neither bad at chess nor creative, then she is someone who plans. Therefore, she is not interested in puzzles.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": " The Turing Award has been awarded to Donald Knuth, Marvin Minsky, Richard Hamming and John McCarthy. Donald Knuth made major contributions to the analysis of algorithms. Marvin Minsky is recognized by his contributions to the field of artificial intelligence. Richard Hamming did research on numerical methods. John McCarthy had a central role in creating and shaping the field of artificial inteligence. Based on the above information, is the following statement true, false, or uncertain? At least two people who worked in the field of artificial intelligence have won the Turing Award.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Marvin Minsky and John McCarthy have won the Turing Award, then at least two people who worked in the field of artificial intelligence have won the Turing Award.\n\nThe statement is true because Marvin Minsky and John McCarthy, both recognized for their contributions to artificial intelligence, have won the Turing Award.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Olivia doesn't prefer warm temperature during the day. When Olivia sleeps, she prefers cool temperature. Olivia sleeps during the night. Olivia works during the day. Olivia either works or sleeps. The time is either the day or the night. Olivia either prefers warm temperature or prefers cool temperature. Based on the above information, is the following statement true, false, or uncertain? At all times, Olivia prefers cool temperature.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Olivia prefers cool temperature when she sleeps, and she sleeps during the night. Olivia works during the day, so it is uncertain if she prefers cool temperature during the day.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "James Cocks was a British lawyer. James Cocks was a Whig politician who sat in the House of Commons. A British is a European. Any lawyer is familiar with laws. Some Whigs speak French. Based on the above information, is the following statement true, false, or uncertain? Some European is familiar with laws.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Some Europeans are British, and all British are European. All lawyers are familiar with laws, and James Cocks was a lawyer. Some Whigs speak French, and James Cocks was a Whig. Therefore, it is possible that some Europeans, like James Cocks, are familiar with laws.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A controlled substance is a drug. There exist both harmful and beneficial controlled substances. If a child is exposed to a controlled substance, he or she is in chemical endangerment. Chemical Endangerment is harmful. The Controlled Substances Act was an act passed in 1971. Some Acts prevent harmful things. Based on the above information, is the following statement true, false, or uncertain? Some drugs are beneficial.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Controlled substances include both harmful and beneficial drugs. The context does not specify that all controlled substances are harmful.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Musicians have very busy lives. Singh Kaur is a musician and famous. If a musician is not famous, that musician will not make a lot of money. A musician can be a singer or a writer. Based on the above information, is the following statement true, false, or uncertain? Singh Kaur is a writer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Singh Kaur is a musician, she can be either a singer or a writer. If she is famous, she makes a lot of money. If she is not famous, she does not make a lot of money.\n\nGiven that Singh Kaur is a musician and famous, we can conclude that she makes a lot of money. However, the information does not specify whether she is a singer or a writer. Therefore, we cannot definitively determine if Singh Kaur is a writer based on the given information.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "All defenders are soccer players. No soccer players are professional basketball players. All centerbacks are defenders. All NBA players are professional basketball players. If Stephen Curry is not an NBA player, then Stephen Curry is not an NBA player or a soccer player. Based on the above information, is the following statement true, false, or uncertain? Stephen Curry is not a centerback.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: All centerbacks are defenders, and all defenders are soccer players. Since no soccer players are professional basketball players, Stephen Curry, not being an NBA player, cannot be a soccer player. Therefore, Stephen Curry is not a centerback.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Bernarda Bryson Shahn was a painter and lithographer. Bernarda Bryson Shahn was born in Athens, Ohio. Bernarda Bryson Shahn was married to Ben Shahn. People born in Athens, Ohio are Americans. Based on the above information, is the following statement true, false, or uncertain? Bernarda Bryson Shahn was born in Greece.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Bernarda Bryson Shahn was born in Athens, Ohio, which is stated in the information provided. The statement that she was born in Greece contradicts this fact.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All buildings in New Haven are low. All buildings managed by the Yale Housing are located in New Haven. All buildings in Manhattans are high. All buildings owned by Bloomberg are located in Manhattans. All buildings with the Bloomberg logo are owned by Bloomberg. Tower A is managed by the Yale Housing. Tower B is with the Bloomberg logo. Based on the above information, is the following statement true, false, or uncertain? Tower A is low.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Tower A is managed by Yale Housing, which is located in New Haven. All buildings in New Haven are low. Therefore, Tower A is low.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Rosa was born in Santiago. Santiago is the capital and largest city of Chile. Rosa is the daughter of a Catalan building contractor, Jose. Jose has a Chilean wife, Carmen. A building contractor is responsible for the day-to-day oversight of a construction site. Based on the above information, is the following statement true, false, or uncertain? Rosa is the daughter of someone who is responsible for the oversight of traffic.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Being the daughter of a building contractor does not imply oversight of traffic. The statement is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All pets are animals. Pets can be either a dog or a cat. If a person has a pet, they care for that pet. Dogs and Cats can be naughty. Pets who are naughty are not liked as much. Charlie has a naughty pet dog named Leo. Based on the above information, is the following statement true, false, or uncertain? Dogs are always not naughty.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Dogs can be naughty, but not always. The information provided does not state that dogs are always not naughty.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "China is one of BRICS and its economy is emerging. India is one of BRICS and its economy is emerging. All people from China speak Chinese. All people from India speak Hindi or English. There is an Indian. Based on the above information, is the following statement true, false, or uncertain? India's economy is not emerging.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Being part of BRICS and having an emerging economy are not directly linked in the given context. The information about language is not relevant to the economic status of India.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "No buildings in New Haven are higher than 400 meters. All buildings managed by Yale Housing are in New Haven. All buildings in Manhattan are higher than 400 meters. All buildings owned by Bloomberg are in Manhattan. All buildings with the Bloomberg logo are buildings owned by Bloomberg. Tower A is neither in New Haven nor in Manhattan. Tower B is a building with the Bloomberg logo and in Manhattan. Based on the above information, is the following statement true, false, or uncertain? Tower A is not higher than 400 meters.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Tower A is not in New Haven or Manhattan, so its height is uncertain. The information provided does not give any indication of Tower A's height.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Some monitors equipped in the lab are produced by the company named AOC. All monitors equipped in the lab are cheaper than their original prices. If the monitor is cheaper than its original prices, then its resolution is 1080p. If a monitor is with a resolution of 1080p, then it does not support the type-c port. LG34 is equipped in the lab. Based on the above information, is the following statement true, false, or uncertain? LG34 machine does not support the type-c port.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The hypothesis is that if LG34 is equipped in the lab, then it is produced by AOC, cheaper than its original price, with a resolution of 1080p, and does not support the type-c port.\n\nGiven that all monitors equipped in the lab are produced by AOC, cheaper than their original prices, and with a resolution of 1080p, we can conclude that LG34 meets these criteria. Therefore, LG34 does not support the type-c port based on the information provided.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": " The Turing Award has been awarded to Donald Knuth, Marvin Minsky, Richard Hamming and John McCarthy. Donald Knuth made major contributions to the analysis of algorithms. Marvin Minsky is recognized by his contributions to the field of artificial intelligence. Richard Hamming did research on numerical methods. John McCarthy had a central role in creating and shaping the field of artificial inteligence. Based on the above information, is the following statement true, false, or uncertain? Only one people who have won the Turing Award made significant contributions to the analysis of algorithms.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Each of the four individuals who have won the Turing Award is associated with a specific field of contribution. We need to determine if only one of them made significant contributions to the analysis of algorithms.\n\nEvaluation: From the information provided, we can see that Donald Knuth made major contributions to the analysis of algorithms. Since only one person is associated with this field, the statement is:\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All fruits with the color red contain a large amount of vitamin C. All apples are fruits with the color red. All fruits containing a large amount of vitamin C are beneficial to people. No fruits that are beneficial to people are on a warning list. If K is not beneficial to people and also not an apple, then it is a fruit with the color red. Based on the above information, is the following statement true, false, or uncertain? K is an apple.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If K is not beneficial to people and not an apple, then it must be a fruit with the color red.\n\nGiven that all apples are fruits with the color red, and K is not beneficial to people, we can conclude that K must be a fruit with the color red. However, we cannot definitively say that K is an apple based on the information provided.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "All imaginative processes are produced in human brains. All science-fiction is from an imaginative process. Either science-fiction or fact. No facts are proven to be false. Dune is a science-fiction or proven to be false. Based on the above information, is the following statement true, false, or uncertain? If Dune is produced in human brains and is an imaginative process, then Dune is not produced in human brains and science-fiction.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "An animal is either a cat or a dog. All dogs bark. Ghosts do not exist. If something barks, then it is not alive. A thing is either alive or dead. Jojo is not dead. Based on the above information, is the following statement true, false, or uncertain? If Jojo is a cat or a ghost, then Jojo either barks or is a dog.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Jojo is not dead, so he must be alive. Since ghosts do not exist, Jojo cannot be a ghost. Therefore, Jojo must be a cat. Cats do not bark, so Jojo does not bark. The statement is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Everyone working at Meta has a high income. If a person has a high income, then he/she will not take a bus to their destination. People will either take a bus or drive to their destination. Everyone who has a car will choose to drive to their destination. No students drive to their destination. James has a car or works at Meta. Based on the above information, is the following statement true, false, or uncertain? James either drives to their destination or is a student.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If James has a car, he will drive to his destination. If he works at Meta, he will not take a bus. If he is a student, he will not drive. Given these conditions, we can evaluate the statement.\n\nEvaluation: If James has a car, he will drive to his destination according to the premises. If he works at Meta, he will not take a bus. Since he has a car or works at Meta, he will drive to his destination. Therefore, the statement is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No low-scoring players are top players in the league. Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers. All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. Based on the above information, is the following statement true, false, or uncertain? Candace is a low-scoring player or bad at mid-range shots.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. This implies that if Candace is a low-scoring player, she cannot be bad at mid-range shots.\n\nTherefore, the statement \"Candace is a low-scoring player or bad at mid-range shots\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "People either drink kombucha every day or drink Coca-Cola or Pepsi products every day. If people drink Coca-Cola or Pepsi products every day, then they grew up with extremely busy parents who did not have time to pack them lunch. If people drink Coca-Cola or Pepsi products every day, then they have to visit the dentist frequently. If people grew up with extremely busy parents who did not have time to pack them lunch, then they have erratic and diverse eating habits. If people have erratic and diverse eating habits, then they do not have consistent everyday routines and like sticking to a solid schedule. Franny either both grew up with extremely busy parents who did not have time to pack her lunch and has consistent everyday routines and like sticking to a solid schedule, or she neither grew up with extremely busy parents who did not have time to pack her lunch nor has consistent everyday routines and likes sticking to a schedule. Based on the above information, is the following statement true, false, or uncertain? Franny has to visit the dentist frequently.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Franny either has to visit the dentist frequently or not, based on the given information.\n\nEvaluation: If Franny drinks Coca-Cola or Pepsi products every day, then she grew up with extremely busy parents who did not have time to pack her lunch, which leads to having to visit the dentist frequently. However, the premise does not specify whether Franny drinks these products every day. Since we cannot determine whether Franny drinks Coca-Cola or Pepsi products every day, we cannot definitively conclude whether she has to visit the dentist frequently.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "No video games released by Nintendo support the PS4 platform. All video games in the Pokemon series are released by Nintendo. All video games in the FIFA series support the PS4 platform. All video games supporting users to simulate playing soccer games online are in the FIFA series. The video game named \u201cBe Lionel\u201d is in the Pokemon series or supports users to simulate playing football games online. Based on the above information, is the following statement true, false, or uncertain? The video game named \u201cBe Lionel\u201d is not in the FIFA series or supports the PS4 platform.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The video game named \"Be Lionel\" is in the Pokemon series or supports users to simulate playing football games online. Since all video games in the Pokemon series are released by Nintendo, and \"Be Lionel\" is in the Pokemon series or supports users to simulate playing football games online, it follows that \"Be Lionel\" is released by Nintendo. Given that no video games released by Nintendo support the PS4 platform, it is certain that the video game named \"Be Lionel\" does not support the PS4 platform.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No coffee sold in Walmart is produced in France. All coffee supplied by the company is sold in Walmart. All coffee produced in Columbia is produced in France. All coffee favored by local residents is coffee produced in Columbia. All coffee with high prices is favored by local residents. Civet Coffee is not produced in Columbia and is cheap. Jamaica Blue is sold in Walmart or favored by local residents. Based on the above information, is the following statement true, false, or uncertain? Jamaica Blue is not expensive and is not supplied by the company.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Jamaica Blue is either favored by local residents or sold in Walmart. If it is favored by local residents, it is produced in Columbia, which is produced in France. If it is sold in Walmart, it is supplied by the company. Civet Coffee is not produced in Columbia and is cheap, so it is not Jamaica Blue. Therefore, Jamaica Blue is supplied by the company and is expensive.\n\nThe statement \"Jamaica Blue is not expensive and is not supplied by the company\" contradicts the logical deductions made from the given information. Therefore, the statement is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Tipped employees do not get a guaranteed minimum wage. If a person is a white-collar worker, they will get a guaranteed minimum wage (All white-collar workers get a guaranteed minimum wage). All lawyers are white-collar workers. Every advocate is a lawyer. Mary is not a lawyer or a tipped employee. Based on the above information, is the following statement true, false, or uncertain? If Mary is either an advocate or a tipped employee, she is an advocate.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Mary is not a lawyer or a tipped employee. If Mary is either an advocate or a tipped employee, she must be an advocate.\n\nThe statement is true because Mary is not a tipped employee, and since every advocate is a lawyer, Mary must be an advocate if she is not a tipped employee.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No coffee sold in Walmart is produced in France. All coffee supplied by the company is sold in Walmart. All coffee produced in Columbia is produced in France. All coffee favored by local residents is coffee produced in Columbia. All coffee with high prices is favored by local residents. Civet Coffee is not produced in Columbia and is cheap. Jamaica Blue is sold in Walmart or favored by local residents. Based on the above information, is the following statement true, false, or uncertain? Civet Coffee is not produced in France.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Civet Coffee is not produced in France, and it is cheap. Given the information provided, Civet Coffee is not produced in Columbia, and it is cheap. Since it is not produced in Columbia, it cannot be produced in France. Therefore, the statement \"Civet Coffee is not produced in France\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "No low-scoring players are top players in the league. Basketball players are either top players in the league or successfully shoot a high percentage of 3-pointers. All players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers. No players who are solid at shooting 2-pointers are bad at mid-range shots. Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. Based on the above information, is the following statement true, false, or uncertain? Candace is either a player who successfully shoots a high percentage of 3-pointers or is bad at mid-range shots.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Candace is either a low-scoring player or successfully shoots a high percentage of 3-pointers. From the given information, we know that no low-scoring players are top players in the league, and all players who successfully shoot a high percentage of 3-pointers are solid at shooting 2-pointers. Additionally, no players who are solid at shooting 2-pointers are bad at mid-range shots.\n\nEvaluation: If Candace successfully shoots a high percentage of 3-pointers, then she is solid at shooting 2-pointers. Since no players who are solid at shooting 2-pointers are bad at mid-range shots, Candace cannot be bad at mid-range shots. Therefore, the statement \"Candace is either a player who successfully shoots a high percentage of 3-pointers or is bad at mid-range shots\" is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Ann J. Land was a member of the Philadelphia City Council and was also a member of the Democratic Party. Ann J. Land ran unopposed for the Philadephia City Council in 1980. People who run unopposed for the Philadelphia City Council are elected to the positions they run for in the same year. Michael Nutter was a political challenger. Ann J. Land defeated Michael Nutter and ran for the Philadelphia City Council in 1987. Based on the above information, is the following statement true, false, or uncertain? There was some member of the Democratic Party elected to the Philadelphia City Council in 1980.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Ann J. Land, a member of the Democratic Party, ran unopposed for the Philadelphia City Council in 1980 and was elected to the position.\n\nConclusion: There was a member of the Democratic Party elected to the Philadelphia City Council in 1980.\n\nEvaluation: The information provided confirms that Ann J. Land, a member of the Democratic Party, ran unopposed for the Philadelphia City Council in 1980 and was elected to the position. Therefore, the statement is true.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Greyhound racing is a competitive sport where spectators bet on greyhounds. Coursing is a part of Greyhound racing. Some competitive sports where spectators bet on things are banned. Coursing involves spectators betting on a hare being pursued by greyhounds. Hares are small game. If a competitive sport involves spectators betting on small game, then it is banned. Based on the above information, is the following statement true, false, or uncertain? No coursing is banned.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Coursing involves spectators betting on a hare, which is small game, leading to the sport being banned. Therefore, no coursing is banned.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Deborah Wallace is a Scottish born actress, playwright and producer. Psyche is a play based on the life of James Miranda Barry. Homesick, Psyche and The Void are plays from Deborah Wallace. Deborah Wallace co-produced Gasland. Based on the above information, is the following statement true, false, or uncertain? Gasland is a play.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Gasland is a play because Deborah Wallace co-produced it, and she is involved in producing plays.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Mr. and Mrs. Smith make a travel plan, they want to go to a city in California or Florida, and where neither of them has ever been. Cities in California that they are interested in are San Francisco, Los Angeles, and San Diego. Cities in Florida that they are interested in are Orlando and Miami. Mr. Smith has been to two cities in California. Mrs. Smith has been to one city in Florida. Based on the above information, is the following statement true, false, or uncertain? They have at leat one candidate city in Florida to visit.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Mr. and Mrs. Smith want to visit a city in California or Florida where neither of them has been before. Mr. Smith has been to two cities in California, and Mrs. Smith has been to one city in Florida.\n\nEvaluation: Since Mr. Smith has been to two cities in California and Mrs. Smith has been to one city in Florida, they have not visited all the cities they are interested in. Therefore, they still have candidate cities in both California and Florida to visit.\n\nThe statement \"They have at least one candidate city in Florida to visit\" is True.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All professors are teachers. All researchers are professors. No teachers are students. All people who study are students. Leon is not studying or a researcher. If Leon is not studying, then Leon is a teacher. Based on the above information, is the following statement true, false, or uncertain? Leon is neither a student nor a researcher.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Leon is not studying, so he is a teacher. Since all researchers are professors and all professors are teachers, Leon is a teacher. Therefore, Leon is neither a student nor a researcher.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "All people who repay their loans on time have a high credit score. Some people with high credit scores and high salaries are approved for mortgages. John has a high salary. Based on the above information, is the following statement true, false, or uncertain? If John repays his loans on time, he will be approved for a mortgage.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: John has a high salary, and if he repays his loans on time, he will have a high credit score and be approved for a mortgage.\n\nThe statement is true because if John repays his loans on time, he will have a high credit score according to the information provided. Since some people with high credit scores and high salaries are approved for mortgages, John, with a high salary and a high credit score from repaying his loans on time, would likely be approved for a mortgage.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "If a Leetcode problem is at the easy level, then its AC rate is lower than 20 percent. All Leetcode problems that are recommended to novices are easy. A Leetode problem is either easy or hard. Leetcode problems that are starred by more than 1 thousand users are hard. 2Sum is recommended to novices. 4Sum is starred by more than 1 thousand users. Based on the above information, is the following statement true, false, or uncertain? 4Sum is a Leetcode problem recommended to the novice.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All young working professionals who have regular 9-5 jobs also have pets. Some people who live in Manhattan are young working professionals who have regular 9-5 jobs. All people who have pets are people who have at least one child. People who do not have at least one child are people who own a sports car. Mary either does not own a sports car or, if they do, then they do not have at least one child. Based on the above information, is the following statement true, false, or uncertain? Mary is a person who lives in Manhattan.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Mary does not own a sports car, then she is a person who lives in Manhattan. If Mary owns a sports car, then she does not have at least one child.\n\nGiven the information provided, we know that:\n- All young working professionals with regular 9-5 jobs have pets.\n- Some people in Manhattan are young working professionals with regular 9-5 jobs.\n- All people with pets have at least one child.\n- People without at least one child own a sports car.\n- Mary either does not own a sports car or, if she does, then she does not have at least one child.\n\nTherefore, if Mary does not own a sports car, she is a person who lives in Manhattan. This conclusion aligns with the given information.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All OS are software. All Mac are OS. An OS is either Mac or Windows. All Windows are convenient. All software has code. If something is convenient, then it is popular. Burger is a piece of code and a Mac. PyTorch is either Windows and software, or neither Windows nor software. Based on the above information, is the following statement true, false, or uncertain? Burger is not popular.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Burger is a Mac, which is convenient and popular. Therefore, Burger is popular.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All imaginative processes are produced in human brains. All science-fiction is from an imaginative process. Either science-fiction or fact. No facts are proven to be false. Dune is a science-fiction or proven to be false. Based on the above information, is the following statement true, false, or uncertain? Dune is produced in human brains and is an imaginative process.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If the game has sold more than 1 million copies, then it is on the Best Seller list. All Games developed by Paradox Development Studio sold more than 1 million copies. Some games published before 2010 support the Linux OS system. All games on the Best Seller list are popular among young people. FIFA22 neither supports the Linux OS system nor is it popular among young people. Based on the above information, is the following statement true, false, or uncertain? FIFA21 is published before 2010\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If FIFA21 is published before 2010, then it supports the Linux OS system. This is based on the premise that some games published before 2010 support the Linux OS system.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A werewolf is a human that can turn into a wolf. A werewolf has been scratched or bitten by another werewolf. If someone has been scratched or bitten, they have been attacked. Based on the above information, is the following statement true, false, or uncertain? All humans are werewolves.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: All werewolves have been scratched or bitten by another werewolf, and all those who have been scratched or bitten have been attacked. However, the information does not provide a direct link between being a human and being a werewolf.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "EndGame is a movie released in 2006. EndGame was set in Washington. EndGame was filmed outside of Washington. Some movies are filmed in New York. Andy Chang directed EndGame. Andy Chang is from Hong Kong. Based on the above information, is the following statement true, false, or uncertain? EndGame was filmed in New York.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: EndGame was set in Washington and filmed outside of Washington. Andy Chang directed the movie and is from Hong Kong. Some movies are filmed in New York, but there is no direct link between EndGame and New York.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "\"Your Woman\" is a song by British one-man band White Town. \"Your Woman\" song peaked at No. 1 on the UK Singles Chart. If a song peaked at No.1 at a cetain place, then it was extremely popular. \"Your Woman\" also peaked No. 1 in Iceland, Israel and Spain. Based on the above information, is the following statement true, false, or uncertain? White Town did not produce any popular song.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If a song peaks at No. 1 in multiple countries, it is considered popular. Given that \"Your Woman\" peaked at No. 1 in the UK, Iceland, Israel, and Spain, it can be inferred that White Town did produce popular songs.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Products are either produced in China or the US. All produced in China are labeled. All produced in the US are sold in the US. If labeled, then the product is cheaper. All sold in the US are sold in Walmart. All displayed on the homepage are sold in Walmart. No products returned by customers are sold in Walmart. G-910 is either displayed on the homepage or cheaper. Based on the above information, is the following statement true, false, or uncertain? G-910 is not displayed on the homepage.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If G-910 is cheaper, it must be labeled and sold in the US, which means it is sold in Walmart. If G-910 is displayed on the homepage, it is sold in Walmart. If G-910 is not displayed on the homepage, it is cheaper and sold in the US, which means it is sold in Walmart. Therefore, G-910 is sold in Walmart.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Gasteren is village located in the province of Drenthe. Drenthe is a Dutch province. No cities are villages. The population of a village in Drenthe was 155 people. Based on the above information, is the following statement true, false, or uncertain? Gasteren is a Dutch village.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Gasteren is a village located in the province of Drenthe, and Drenthe is a Dutch province, then Gasteren is a Dutch village.\n\nEvaluation: Given that Drenthe is a Dutch province and Gasteren is a village located in Drenthe, it follows logically that Gasteren is a Dutch village.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The installment sales method is the approach to recognize revenue under the US GAAP. In accrual accounting, revenues are recognized when they are realized. In cash accounting, revenues are recognized when cash is received. The US GAAP is the accounting standard developed and used by the US Securities and Exchange Commission. Sally works for the US Securities and Exchange Commission. Based on the above information, is the following statement true, false, or uncertain? Sally's company utilizes the installment sales method.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Sally works for the US Securities and Exchange Commission, which uses the US GAAP accounting standard. The US GAAP recognizes revenue under the installment sales method.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Peter Parker is a either a superhero or a civilian. The Hulk is a destroyer. The Hulk wakes up when he is angry. If the Hulk wakes up, then he will break a bridge. Thor is a god. Thor will break a bridge when he is happy. A god is not a destroyer and a destroyer is not a god. Peter Parker wears a uniform when he is a superhero. Peter Parker is not a civilian if and only if a destroyer is breaking a bridge. If Thor is happy, the Hulk is angry. Based on the above information, is the following statement true, false, or uncertain? If Thor is happy, then Peter Parker wears a uniform.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Thor being happy leads to the Hulk being angry, which in turn leads to the breaking of a bridge. Peter Parker wearing a uniform is not directly linked to this chain of events.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Something is either an invasive neuroimaging technique or a noninvasive neuroimaging technique. All noninvasive neuroimaging techniques provide a spatial resolution of brains. If a technique provides a spatial resolution of brains, then it is a measurement of brain activity. All measurements of brain activity are used by neuroscience researchers. FMRI is either a measurement of brain activity or a noninvasive neuroimaging technique. Based on the above information, is the following statement true, false, or uncertain? If fMRI is not an invasive neuroimaging technique and used by neuroscience researchers, then fMRI is neither a noninvasive neuroimaging technique nor provides a spatial resolution of brains.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The conclusion can be drawn that if fMRI is used by neuroscience researchers, then it is a measurement of brain activity. Also, if fMRI is not an invasive neuroimaging technique, then it is a noninvasive neuroimaging technique. Given the premises, it is uncertain whether fMRI provides a spatial resolution of brains.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Roversi is an Italian surname. Alba Roversi uses Roversi as a surname. Paolo Roversi uses Roversi as a surname. Roberto Roversi uses Roversi as a surname. Paolo Roversi is a photographer. A photographer is a professional or an amateur. Based on the above information, is the following statement true, false, or uncertain? Paolo is an amateur photographer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Paolo Roversi uses Roversi as a surname and is a photographer. Being a photographer, Paolo Roversi can be either a professional or an amateur.\n\nEvaluation: The information provided does not specify whether Paolo Roversi is a professional or an amateur photographer. Therefore, it is uncertain whether Paolo is an amateur photographer.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A heptalogy, is a compound literary or narrative work that is made up of seven distinct works. The Harry Potter series consists of 7 distinct works. The Chronicles of Narnia consists of 7 distinct works. Based on the above information, is the following statement true, false, or uncertain? The Lord of Rings is a heptalogy.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The Lord of the Rings is not a heptalogy as it consists of three books, not seven. Therefore, the statement is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "A game is played with three stages: red stage, yellow stage, and green stage. Each player begins at the red stage. All players must reach the yellow stage before they can reach the green stage. The yellow stage comes after the red stage. All players must proceed one stage at a time. Based on the above information, is the following statement true, false, or uncertain? It is possible to complete the game without ever reaching the green stage.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Start with a high-level hypothesis: To complete the game, players must reach the green stage, which comes after the yellow stage. Therefore, it is not possible to complete the game without ever reaching the green stage.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All clothes are products. No products are perfect. All dresses are clothes. All skirts are dresses. If Nike is clothes, then Nike is perfect and a dress. Based on the above information, is the following statement true, false, or uncertain? Nike is a skirt.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Since all skirts are dresses, and all dresses are clothes, and Nike is clothes, it follows that Nike is a dress. However, there is no direct information linking Nike to being a skirt.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If people play the instrument in the concert, then he is good at playing this kind of instrument. Peter plays piano, violin, and saxophone. Peter was invited to play piano at the concert hall. Oliver and Peter were both invited to perform in the concert. Oliver plays a different musical instrument from Peter in the concert. Based on the above information, is the following statement true, false, or uncertain? Oliver plays violin in the concert.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Since Oliver plays a different musical instrument from Peter in the concert, and Peter plays piano, violin, and saxophone, it is possible that Oliver plays the violin in the concert.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All people who enjoy eating gelato ice cream would enjoy a vacation to Italy. There are no people who can resist the hallmark delectable drinks and desserts that are famed in Italy. People either enjoy eating gelato ice cream or love to travel and vacation often. If people often take study abroad semesters to Europe, then they do not regret their college experiences. If people love to travel and vacation often, then they often take study abroad semesters to Europe. Robert either enjoys eating gelato ice cream and loves to travel and vacation often, or he neither enjoys eating gelato ice cream nor loves to travel and vacation often. Based on the above information, is the following statement true, false, or uncertain? Robert can resist the hallmark delectable drinks and desserts that are famed in Italy.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If Robert enjoys gelato ice cream and loves to travel and vacation often, then he would not be able to resist the hallmark delectable drinks and desserts in Italy. If he does not enjoy gelato ice cream and does not love to travel and vacation often, then he would be able to resist them.\n\nThe statement \"Robert can resist the hallmark delectable drinks and desserts that are famed in Italy\" directly contradicts the hypothesis based on the given information. Therefore, the statement is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "No easy Leetcode problems have an AC rate lower than 20 percent. All Leetcode problems recommended to novices are easy. Leetcode problems either have an AC rate lower than 20 percent or are starred by more than 1 thousand users. All hard Leetcode problems are starred by more than 1 thousand users. No Leetcode problems published after 2022 are starred by more than 1 thousand users. 2Sum is not recommended to novices and hard. 4Sum is either starred by more than 1 thousand users and published after 2022, or neither starred by more than 1 thousand users nor published after 2022. Based on the above information, is the following statement true, false, or uncertain? 4Sum is a Leetcode problem recommended to the novice or is hard.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The conclusion that can be drawn from the context is that 4Sum is not recommended to novices and is hard. This aligns with the information provided about 4Sum being either starred by more than 1 thousand users and published after 2022, or neither starred by more than 1 thousand users nor published after 2022.\n\nTherefore, the statement \"4Sum is a Leetcode problem recommended to the novice or is hard\" is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All fruits sold in Boston are shipped from Columbia. Some fruits sold in New Haven are shipped from Mexico. No fruits shipped from Columbia are fruits sold in New York. Avocadoe are a kind of fruit sold in New York or New York. Avocadoe are either shipped from Columbia and sold in New Haven, or neither shipped from Columbia nor sold in New Haven. Based on the above information, is the following statement true, false, or uncertain? If avocados are not sold in New York and not shipped from Columbia, then they are neither sold in New York nor New Haven.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If avocados are not sold in New York and not shipped from Columbia, then they are neither sold in New York nor New Haven.\n\nEvaluation:\n1. All fruits sold in Boston are shipped from Columbia.\n2. Some fruits sold in New Haven are shipped from Mexico.\n3. No fruits shipped from Columbia are fruits sold in New York.\n4. Avocados are a kind of fruit sold in New York.\n5. Avocados are either shipped from Columbia and sold in New Haven, or neither shipped from Columbia nor sold in New Haven.\n\nFrom the given information, we can deduce that if avocados are not sold in New York and not shipped from Columbia, then they are not sold in New York. However, we cannot definitively conclude whether they are not sold in New Haven based on the information provided.\n\nTherefore, the statement \"If avocados are not sold in New York and not shipped from Columbia, then they are neither sold in New York nor New Haven\" is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Herodicus was a Greek physician, dietician, sophist, and gymnastic-master. Herodicus was born in the city of Selymbria. Selymbria is a colony of the city-state Megara. One of the tutors of Hippocrates was Herodicus. Massages were recommended by Herodicus. Some of theories of Herodicus are considered to be the foundation of sports medicine. Based on the above information, is the following statement true, false, or uncertain? Herodicus did not recommend massages.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Herodicus recommended massages based on the information provided.\n\nThe statement \"Herodicus did not recommend massages\" contradicts the information given that massages were recommended by Herodicus. Therefore, the statement is False.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Some students good at math are good at chemistry. All students good at chemistry enjoy conducting experiments. All students that enjoy conducting experiments are good at planning. No student good at planning is awarded the Dean's List. James is either good at chemistry and awarded the Dean's List, or neither good at chemistry nor awarded the Dean's List. Based on the above information, is the following statement true, false, or uncertain? James is good at planning.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If James is good at chemistry, he enjoys conducting experiments and is good at planning. If he is not good at chemistry, he is not awarded the Dean's List, which means he is not good at planning.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "If people play the instrument in the concert, then he is good at playing this kind of instrument. Peter plays piano, violin, and saxophone. Peter was invited to play piano at the concert hall. Oliver and Peter were both invited to perform in the concert. Oliver plays a different musical instrument from Peter in the concert. Based on the above information, is the following statement true, false, or uncertain? Oliver plays piano in the concert.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Since Oliver plays a different musical instrument from Peter in the concert, and Peter plays the piano, violin, and saxophone, it is uncertain whether Oliver plays the piano in the concert.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All fruits sold in Boston are shipped from Columbia. Some fruits sold in New Haven are shipped from Mexico. No fruits shipped from Columbia are fruits sold in New York. Avocadoe are a kind of fruit sold in New York or New York. Avocadoe are either shipped from Columbia and sold in New Haven, or neither shipped from Columbia nor sold in New Haven. Based on the above information, is the following statement true, false, or uncertain? Avocados are either sold in New Haven or sold in Boston\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Avocados are either sold in New Haven or sold in Boston. From the premises, we know that avocados are sold in New York or New Haven. We also know that no fruits shipped from Columbia are sold in New York. Therefore, avocados must be sold in New Haven.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Either block design or event-related design. All event-related designs are brain image acquisition. All brain image acquisition is preceded by data processing. Nothing preceded by data processing acquires data. Picture memory is either an event-related design and acquiring data or neither an event-related design nor acquiring data. Based on the above information, is the following statement true, false, or uncertain? Picture memory is either a block design or acquiring data.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Picture memory is either an event-related design and acquiring data or neither an event-related design nor acquiring data. From the given information, we know that all event-related designs are brain image acquisition, and all brain image acquisition is preceded by data processing. Also, nothing preceded by data processing acquires data.\n\nConclusion: Picture memory is either a block design or acquiring data.\n\nEvaluation: Since all brain image acquisition is preceded by data processing and nothing preceded by data processing acquires data, it follows that brain image acquisition (which includes event-related designs) does not acquire data. Therefore, picture memory, which is either an event-related design and acquiring data or neither an event-related design nor acquiring data, cannot be acquiring data. This means that picture memory must be a block design.\n\nTherefore, the statement \"Picture memory is either a block design or acquiring data\" is True.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Greyhound racing is a competitive sport where spectators bet on greyhounds. Coursing is a part of Greyhound racing. Some competitive sports where spectators bet on things are banned. Coursing involves spectators betting on a hare being pursued by greyhounds. Hares are small game. If a competitive sport involves spectators betting on small game, then it is banned. Based on the above information, is the following statement true, false, or uncertain? Greyhound racing is a competitive sport.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Greyhound racing is a competitive sport because it involves spectators betting on greyhounds.\n\nEvaluation: The given information confirms that Greyhound racing is a competitive sport where spectators bet on greyhounds. Coursing, which is a part of Greyhound racing, involves spectators betting on a hare being pursued by greyhounds. Since hares are considered small game, and if a competitive sport involves spectators betting on small game, then it is banned, it follows that Greyhound racing is a competitive sport.\n\nTherefore, the statement \"Greyhound racing is a competitive sport\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Adam Buska is a European football player. If a European plays football, they play what Americans call soccer. Based on the above information, is the following statement true, false, or uncertain? Adam Buska plays what Americans call soccer.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "There are eight federal districts of Russia: Central, Northwestern, Southern, North Caucasian, Volga, Ural, Siberian and Far Eastern. The Central federal district has the largest population among all federal districts in Russia. Moscow is the administrative center of the Central federal district. Yekaterinburg is the administrative center of the Ural federal district. Vladivostok is the administrative center of the Far Eastern federal district. The Far Eastern federal district has the largest area among all federal districts in Russia. Some federal districts of Russia were established in 2000. Based on the above information, is the following statement true, false, or uncertain? The Northwestern federal district was established in 2000.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: The statement is uncertain because the information provided does not directly mention the establishment year of the Northwestern federal district.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "All animals that are tigers are cats. No cats are dogs. All Bengal tigers are tigers. Everything that is a husky is a dog. Fido is either a Bengal tiger or a cat. Based on the above information, is the following statement true, false, or uncertain? Fido is not a husky.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Fido is either a Bengal tiger or a cat. Since no cats are dogs, Fido cannot be a dog. However, the information provided does not specify whether Fido is a husky or not.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All univariate analyses use a generalized linear model. All multivoxel (pattern) analyses are implementing machine learning algorithms. All implementing machine learning algorithms are to learn and classify multivariate data. The Latent Dirichlet allocation model uses a generalized linear model or a univariate analysis. If the Latent Dirichlet allocation model does not learn and classify multivariate data, then the Latent Dirichlet allocation model uses a generalized linear model and a multivoxel (pattern) analysis. Based on the above information, is the following statement true, false, or uncertain? Latent Dirichlet allocation model either uses a generalized linear model or learns and classifies multivariate data.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "The Latent Dirichlet allocation model uses a generalized linear model or a univariate analysis. If the Latent Dirichlet allocation model does not learn and classify multivariate data, then it uses a generalized linear model and a multivoxel (pattern) analysis.\n\nGiven this information, we can conclude that the statement \"Latent Dirichlet allocation model either uses a generalized linear model or learns and classifies multivariate data\" is True.\n\nTherefore, the answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "To get a student visa, you must be full-time enrolled in an academic program. Those who are full-time enrolled in an academic program can not work full-time. Everyone who wants to study abroad needs to have a student visa. All PhD graduates can work full time. If Tom does not want to study abroad, he is full-time enrolled in an educational program. Based on the above information, is the following statement true, false, or uncertain? Tom is not a PhD graduate.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Tom is not a PhD graduate because he does not want to study abroad and is full-time enrolled in an educational program. This aligns with the given information.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Deborah Wallace is a Scottish born actress, playwright and producer. Psyche is a play based on the life of James Miranda Barry. Homesick, Psyche and The Void are plays from Deborah Wallace. Deborah Wallace co-produced Gasland. Based on the above information, is the following statement true, false, or uncertain? Gasland was coproduced by the same person Homesick is from.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Deborah Wallace co-produced Gasland and also produced Homesick, then the statement is true. If Deborah Wallace did not co-produce Gasland, then the statement is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Everyone working at Meta has a high income. If a person has a high income, then he/she will not take a bus to their destination. People will either take a bus or drive to their destination. Everyone who has a car will choose to drive to their destination. No students drive to their destination. James has a car or works at Meta. Based on the above information, is the following statement true, false, or uncertain? James has a high income.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If James has a car, he works at Meta, and thus has a high income. If James doesn't have a car, he might still work at Meta, but we cannot be certain about his income status.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Rosa was born in Santiago. Santiago is the capital and largest city of Chile. Rosa is the daughter of a Catalan building contractor, Jose. Jose has a Chilean wife, Carmen. A building contractor is responsible for the day-to-day oversight of a construction site. Based on the above information, is the following statement true, false, or uncertain? Neither of Rosa's parents is Chilean.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Since Rosa's father, Jose, is a Catalan building contractor and her mother, Carmen, is Chilean, it is certain that one of Rosa's parents is Chilean. Therefore, the statement \"Neither of Rosa's parents is Chilean\" is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "All pets are animals. Pets can be either a dog or a cat. If a person has a pet, they care for that pet. Dogs and Cats can be naughty. Pets who are naughty are not liked as much. Charlie has a naughty pet dog named Leo. Based on the above information, is the following statement true, false, or uncertain? Leo is an animal.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: All pets are animals, and Leo is a pet. Therefore, Leo is an animal.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Musicians have very busy lives. Singh Kaur is a musician and famous. If a musician is not famous, that musician will not make a lot of money. A musician can be a singer or a writer. Based on the above information, is the following statement true, false, or uncertain? Singh Kaur has a very busy life.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Being a musician and famous implies having a busy life. If not famous, then not making a lot of money. Singer or writer are the musician's roles.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Cancer biology is finding genetic alterations that confer selective advantage to cancer cells. Cancer researchers have frequently ranked the importance of substitutions to cancer growth by P value. P values are thresholds for belief, not metrics of effect. Based on the above information, is the following statement true, false, or uncertain? P value doesn't represent metrics of effect.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: P values are thresholds for belief, not metrics of effect. Therefore, the statement \"P value doesn't represent metrics of effect\" is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Some defenders are centerback. All defenders are soccer players. No soccer players are professional basketball players. All NBA players are professional basketball players. Stephen Curry is an NBA player. Based on the above information, is the following statement true, false, or uncertain? Stephen Curry is not a centerback and a defender.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Stephen Curry is an NBA player, and no NBA players are professional basketball players. Therefore, Stephen Curry is not a professional basketball player.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "A roundel is a rounded artillery fortification. A roundel is not higher than adjacent walls. Cannons can be deployed on artillery fortifications. Roundels are the oldest artillery fortifications. Battery towers are an artillery fortification. Based on the above information, is the following statement true, false, or uncertain? Roundels can be deployed on roundels.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Roundels are artillery fortifications, and cannons can be deployed on them. However, the statement \"A roundel is not higher than adjacent walls\" implies that roundels are not suitable for deploying other roundels on them.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All rabbits have fur Some pets are rabbits. Based on the above information, is the following statement true, false, or uncertain? Some pets do not have fur.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If all rabbits have fur and some pets are rabbits, then it is certain that some pets have fur. The statement \"Some pets do not have fur\" contradicts the given information.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All drinks are edible. All juices are drinks. All orange juice is a juice. A juice is either an orange juice or an apple juice. All apple juice is sweet. If coke is apple juice, then coke is a drink. If coke is not apple juice, then coke is not edible. Based on the above information, is the following statement true, false, or uncertain? Coke is orange juice.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Since all orange juice is a juice, and a juice is either an orange juice or an apple juice, we can conclude that all orange juice is also a drink. Therefore, if coke is orange juice, it must be a drink.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Either brain reading or brain decoding. All brain decoding is extracting information from BOLD signals. No extracting information from BOLD signals is without statistical pattern analysis. Writing a novel is without statistical pattern analysis. If multivoxel (pattern) analysis is without statistical pattern analysis and a brain reading, then multivoxel (pattern) analysis is without statistical pattern analysis and brain decoding. Based on the above information, is the following statement true, false, or uncertain? Multivoxel (pattern) analysis is a brain decoding.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "The conclusion that can be drawn from the context is that multivoxel (pattern) analysis is not brain decoding, as it is stated that if multivoxel (pattern) analysis is without statistical pattern analysis and brain reading, then it is without statistical pattern analysis and brain decoding. Therefore, the statement \"Multivoxel (pattern) analysis is a brain decoding\" is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Herodicus was a Greek physician, dietician, sophist, and gymnastic-master. Herodicus was born in the city of Selymbria. Selymbria is a colony of the city-state Megara. One of the tutors of Hippocrates was Herodicus. Massages were recommended by Herodicus. Some of theories of Herodicus are considered to be the foundation of sports medicine. Based on the above information, is the following statement true, false, or uncertain? Herodicus was born in a city-state.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Herodicus was born in Selymbria, which is a colony of the city-state Megara. Therefore, Herodicus was born in a city-state.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Callus 4 is a poem that was written by the ancient Roman writer Catullus. Callus 4 is a story about the retirement of a well-traveled ship. There is a strong analogy of human aging in the poem Callus 4. Callus 4 is written in an unusual iambic trimeter to convey a sense of speed over the waves. Based on the above information, is the following statement true, false, or uncertain? There exists a poem written by an ancient Roman writer with a strong analogy of human aging.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The statement is true. The information provided confirms the existence of a poem written by an ancient Roman writer with a strong analogy of human aging, specifically referring to Callus 4 by Catullus.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "John will go to the cinema if and only if Jack goes to the cinema today. Jack will go to the cinema if and only if Iron Man is on and the weather is not bad today. Some days in March have bad weather. Iron man is on. It's March now. Based on the above information, is the following statement true, false, or uncertain? The weather is good today.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If Iron Man is on and some days in March have bad weather, then the weather is bad today. If the weather is not bad, then Iron Man is not on.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Dagfinn is a given name. Notable people with the given name include Dagfinn Aarskog, Dagfinn Bakke and Dagfinn Dahl. Dagfinn Aarskog is a Norwegian physician. Dagfinn Dahl is a Norwegian barrister. Based on the above information, is the following statement true, false, or uncertain? Dagfinn is Dagfinn Aarskog's given name.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Given that Dagfinn Aarskog and Dagfinn Dahl are notable people with the given name Dagfinn, it is uncertain whether Dagfinn is Dagfinn Aarskog's given name.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "A La Liga soccer team ranks higher than another if it receives more points. If two La Liga soccer teams recieve the same points, the team which recieves more points from the games between the two teams ranks higher. Real Madrid and Barcelona are both La Liga soccer teams. In La Liga 2021-2022, Real Madrid recieves 86 points and Barcelon recieves 73 points. In La Liga 2021-2022, Real Madrid and Barcelona both recieve 3 points from the games between them. Based on the above information, is the following statement true, false, or uncertain? In La Liga 2021-2022, Barcelona ranks higher than Real Madrid.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: In the case where two teams have the same points, the team that receives more points from the games between them ranks higher. Real Madrid and Barcelona both received 3 points from their games against each other.\n\nTherefore, since Real Madrid received more points overall (86 points) compared to Barcelona (73 points), even though they both received the same points from their games against each other, Real Madrid ranks higher than Barcelona in La Liga 2021-2022.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If people go to the spa at least once a week, then they are not people who are miserly and need to save a large portion of their income. People are either miserly and need to save a large portion of their income, or people that frivolously spend a lot of money every time they go out. If people frivolously spend a lot of money every time they go out, then they value quality manufacturing and luxury items. If people value quality manufacturing and luxury items, then they enjoy shopping for materialistic items in their free time. If Jess is not miserly and needs to save a large portion of their income, then Jess does not value quality manufacturing and luxury items. If Jess either values quality manufacturing and luxury items or, if he does not, then he is miserly and needs to save a large portion of his income, then Jess frivolously spends a lot of money every time he goes out. Based on the above information, is the following statement true, false, or uncertain? Jess frivolously spends a lot of money every time they go out.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Jess is not miserly and needs to save a large portion of their income, which means they do not value quality manufacturing and luxury items. Therefore, Jess frivolously spends a lot of money every time they go out.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "All young adults go on a diet. All college students are young adults. All Yale students are college students. Someone is either a Yale student or a Harvard student. All Harvard students are diligent. If Susan is a Harvard student, then she is a young adult. If Susan is a Yale student, then she does not go on a diet. Based on the above information, is the following statement true, false, or uncertain? Susan goes on a diet and is diligent.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Susan is either a Yale student or a Harvard student. If she is a Harvard student, she is a young adult and diligent. If she is a Yale student, she does not go on a diet.\n\nGiven the information:\n- All young adults go on a diet.\n- All college students are young adults.\n- All Yale students are college students.\n- Someone is either a Yale student or a Harvard student.\n- All Harvard students are diligent.\n- If Susan is a Harvard student, then she is a young adult.\n- If Susan is a Yale student, then she does not go on a diet.\n\nAnalysis:\n1. If Susan is a Harvard student, she is a young adult and diligent. Therefore, she goes on a diet.\n2. If Susan is a Yale student, she does not go on a diet.\n\nConclusion:\nSusan goes on a diet and is diligent.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The only types of mammals that lay eggs are platypuses and echidnas. Platypuses are not hyrax. Echidnas are not hyrax. No mammals are invertebrates. All animals are either vertebrates or invertebrates. Mammals are animals. Hyraxes are mammals. Grebes lay eggs. Grebes are not platypuses and also not echidnas. Based on the above information, is the following statement true, false, or uncertain? Grebes are not mammals.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Grebes are not mammals because they lay eggs, and mammals do not lay eggs according to the given information.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Ambiortus is a prehistoric bird genus. Ambiorus Dementjevi is the only known species of Ambiortus. The Mongol region was where Ambiorus Dementjevi lived. Yevgeny Kurochkin was the discoverer of Ambiortus. Based on the above information, is the following statement true, false, or uncertain? All species of Ambiortus live in the Mongol region.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: All species of Ambiortus live in the Mongol region because the only known species, Ambiorus Dementjevi, lived there.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "China is one of BRICS and its economy is emerging. India is one of BRICS and its economy is emerging. All people from China speak Chinese. All people from India speak Hindi or English. There is an Indian. Based on the above information, is the following statement true, false, or uncertain? All people from BRICS neither speak Hindi nor speak English.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Since all people from China speak Chinese and all people from India speak Hindi or English, it is uncertain whether all people from BRICS neither speak Hindi nor speak English.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All phones are things. All cellphones are phones. All iPhones are cellphones. All engineers are workers. All workers are human. Jack is either an engineer or a worker. Jack is is either a human or a phone. Based on the above information, is the following statement true, false, or uncertain? Jack is a thing.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Jack is either a human or a phone. Since all phones are things, if Jack is a phone, then he is a thing. If Jack is a human, then he is not a thing.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "System 7 is a UK-based electronic dance music band. Steve Hillage and Miquette Giraudy formed System 7. Steve Hillage and Miquette Giraudy are former members of the band Gong. Electric dance music bands are bands. System 7 has released several club singles. Club singles are not singles. Based on the above information, is the following statement true, false, or uncertain? System 7 has released several singles.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: System 7 has released several club singles, but club singles are not singles. Therefore, it is uncertain if System 7 has released several singles.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "WeTab is a MeeGo-based tablet computer. There is a WeTab product. WeTab was announced by Neofonie. Neofonie is a German producer. Germans speak English or German. Based on the above information, is the following statement true, false, or uncertain? There is a tablet computer that was announced by a German.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If a tablet computer was announced by a German producer, then there is a tablet computer that was announced by a German.\n\nThe statement is true because WeTab, a MeeGo-based tablet computer, was announced by Neofonie, a German producer. Therefore, there is a tablet computer that was announced by a German.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "No professional tennis umpires are professional tennis players. If you are a World Tour player, then you are a professional tennis player. All Grand Slam champions are World Tour players. All Grand Slam umpires are professional tennis umpires. Nadal is a World Tour player or a Grand Slam champion Based on the above information, is the following statement true, false, or uncertain? Nadal is a Grand Slam champion.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Nadal is a World Tour player or a Grand Slam champion. From the premises, we know that all Grand Slam champions are World Tour players, and no professional tennis umpires are professional tennis players.\n\nGiven that Nadal is a World Tour player or a Grand Slam champion, and all Grand Slam champions are World Tour players, we can conclude that Nadal is a World Tour player. However, we cannot definitively conclude whether Nadal is a Grand Slam champion based on the information provided.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The PlayStation EyeToy is a camera accessory for the Playstation 2. The PlayStation Eye is a camera accessory for the Playstation 3. The Playstation Camera is a camera accessory for the Playstation 4 and the Playstation 5. Camera accessory for the system is compatible with that system Only the Playstation Camera is compatible with more than one system. Based on the above information, is the following statement true, false, or uncertain? The Playstation Camera can be used for all Playstation consoles.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: The Playstation Camera is the only camera accessory compatible with more than one system, so it cannot be used for all Playstation consoles.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All birds have wings. No animal with wings is a reptile. Some animals that fly are birds. If something is an iguana, then it is a reptile. John is neither an iguana nor a bird. Based on the above information, is the following statement true, false, or uncertain? John is a reptile.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Since John is neither an iguana nor a bird, we cannot directly conclude that he is a reptile based on the given information.\n\nThe answer is B) False",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "All Republicans are anti-abortion. Either Republicans or Democrats. No Democrats are conservative. Either conservative or liberal. A U.S government official is either conservative or a Republican. Based on the above information, is the following statement true, false, or uncertain? If a U.S government official is anti-abortion and a liberal, then a U.S government official is either a Republican or a liberal.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If a U.S government official is anti-abortion and a liberal, they cannot be a Republican based on the given information. Therefore, the official must be a liberal.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The PlayStation EyeToy is a camera accessory for the Playstation 2. The PlayStation Eye is a camera accessory for the Playstation 3. The Playstation Camera is a camera accessory for the Playstation 4 and the Playstation 5. Camera accessory for the system is compatible with that system Only the Playstation Camera is compatible with more than one system. Based on the above information, is the following statement true, false, or uncertain? The Playstation EyeToy is compatible with the Playstation 2.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The PlayStation EyeToy is a camera accessory for the Playstation 2. The premise does not provide any information about compatibility.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All kids love animals. All toddlers are kids. If someone loves animals, then they are not bad. All pirates are bad. If Nancy is not a pirate, then Nancy loves animals. If Nancy is not a toddler, then Nancy is bad. Based on the above information, is the following statement true, false, or uncertain? If Nancy is not a pirate or a toddler, then she loves animals and is a kid.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Nancy is not a pirate or a toddler, then she loves animals and is a kid.\n\nEvaluation:\n1. Nancy is not a pirate, so she loves animals.\n2. Nancy is not a toddler, so she is bad.\n3. However, the statement does not specify that Nancy is bad if she is not a toddler, so this part of the premise is uncertain.\n\nConclusion:\nThe statement is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "If two soccer teams score the same number of goals in one UCL final during the regular time, they need to play for the extra time. If two soccer teams score the same number of goals in one UCL final during both the regular time and extra time, they need to play the penalty shoot-out. Real Madrid and Atl\u00e9tico Madrid both scored one goal in 2016 UCL final during the regular time. Real Madrid and Atl\u00e9tico Madrid both scored zero goals in 2016 UCL final during the extra time. Based on the above information, is the following statement true, false, or uncertain? Real Madrid and Atl\u00e9tico Madrid did not need to play a penalty shoot-out in 2016 UCL final.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Real Madrid and Atl\u00e9tico Madrid did not need to play a penalty shoot-out in the 2016 UCL final based on the given information.\n\nEvaluation: Both teams scored one goal each during regular time and zero goals each during extra time. According to the rules provided, if the teams score the same number of goals in both regular time and extra time, they need to play the penalty shoot-out. Since both teams did not score any goals during extra time, they did not need to play the penalty shoot-out.\n\nTherefore, the statement is: True\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Oxford Circus is a road junction connecting Oxford Street and Regent Street. Oxford Street is in London. John Nash designed the construction on Regent Street. John Nash designed Oxford Circus. John Nash is an architect in British. Oxford Circus is the entrance to Oxford Circus tube station which is a part of the Central line in 1900. Based on the above information, is the following statement true, false, or uncertain? Regent Street is not in London.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Regent Street is connected to Oxford Circus, which is in London. Therefore, Regent Street is likely in London.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "The USS Salem is a heavy cruiser built for the United States navy. The last heavy cruiser to enter service was the USS Salem. The USS Salem is a museum ship. Museum ships are open to the public. The USS Salem served in the Atlantic and Mediterranean. Based on the above information, is the following statement true, false, or uncertain? The USS Salem is open to the public.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The USS Salem is a museum ship, and museum ships are open to the public. Therefore, the USS Salem should be open to the public.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If a city hold a Summer Olympics, and the city is a US city, then the Summer Olympics will be in the US. If a city is in a state which is in US, the city is a US city. If a city in a state, and a Summer Olympics is in this city, then the Summer Olympics is in this state. The 2028 Summer Olympics is scheduled to take place in Los Angeles(LA). LA is a city in California(CA). Atlanta is a US city. Atlanta is in Georgia(CA). CA is a state in the United States. Boxing, modern pentathlon, and weightlifting will be removed from The 2028 Summer Olympics. Atlanta in the United States hold the 1996 Summer Olympics. Based on the above information, is the following statement true, false, or uncertain? The 1996 Summer Olympics is not in Georgia.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: The 1996 Summer Olympics were held in Atlanta, which is in Georgia. Therefore, the statement that the 1996 Summer Olympics is not in Georgia is false.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Roversi is an Italian surname. Alba Roversi uses Roversi as a surname. Paolo Roversi uses Roversi as a surname. Roberto Roversi uses Roversi as a surname. Paolo Roversi is a photographer. A photographer is a professional or an amateur. Based on the above information, is the following statement true, false, or uncertain? Alba Roversi uses an Italian surname.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Since Roversi is an Italian surname and Alba Roversi uses Roversi as a surname, it is likely that Alba Roversi uses an Italian surname.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "There are no mansion houses in an urban area. All skyscrapers reside in urban areas. Every creepy haunted house is in a mansion house. Every terrifying Halloween scare comes from a creepy haunted house. The Scream is a creepy haunted house or a terrifying Halloween scare. Based on the above information, is the following statement true, false, or uncertain? The Scream is either a skyscraper or a creepy haunted house.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: The Scream is a creepy haunted house, based on the given information that it is either a creepy haunted house or a terrifying Halloween scare.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Camp Davern is a traditional summer camp for boys and girls. Camp Davern was established in the year 1946. Camp Davern was operated by the YMCA until the year 2015. Camp Davern is one of Ontario's oldest summer camps. Based on the above information, is the following statement true, false, or uncertain? A traditional summer camp for boys and girls was operated by the YMCA until the year 2015.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Camp Davern is a traditional summer camp for boys and girls that was operated by the YMCA until 2015. Therefore, a traditional summer camp for boys and girls was operated by the YMCA until 2015.\n\nThe answer is A) True",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Federico Garcia Lorca was a talented Spanish poet and he supported the Popular Front. The Spanish Nationalists opposed anyone who supported the Popular Front Talented poets are popular. Spanish Nationalists killed anyone who they opposed and were popular. Daniel supported the Popular Front but was not popular. Based on the above information, is the following statement true, false, or uncertain? Lorca was killed by the Spanish Nationalists.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Talented poets who support the Popular Front are popular and are opposed by the Spanish Nationalists, who kill those they oppose. Daniel supported the Popular Front but was not popular. Therefore, Lorca, being a talented poet who supported the Popular Front, would be considered popular and opposed by the Spanish Nationalists.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Everything is either big or small. All big things are heavy. All small things are light. All heavy things are still. All light things are unstable. All unstable things are changing. All unstable things are kinetic. A bird is not both heavy and still. Based on the above information, is the following statement true, false, or uncertain? A bird is kinetic or changing.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: A bird is not heavy and still, so it must be light and unstable. From there, it follows that a bird is changing and kinetic.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Every swimmer can go underwater. Everyone that eats fish they catch themselves is a swimmer. Every penguin eats fish they catch themselves. All nonflying birds in Antarctica are penguins. Fido is a penguin or a swimmer. Based on the above information, is the following statement true, false, or uncertain? If Fido can either go underwater or is a swimmer, then Fido is a nonflying bird in Antartica.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "The hypothesis is that if Fido can go underwater or is a swimmer, then Fido is a nonflying bird in Antarctica. \n\nGiven the information provided, we know that every penguin eats fish they catch themselves, and all nonflying birds in Antarctica are penguins. Since Fido is a penguin or a swimmer, if Fido can go underwater, then Fido must be a penguin, and therefore a nonflying bird in Antarctica.\n\nTherefore, the statement is true.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A roundel is a rounded artillery fortification. A roundel is not higher than adjacent walls. Cannons can be deployed on artillery fortifications. Roundels are the oldest artillery fortifications. Battery towers are an artillery fortification. Based on the above information, is the following statement true, false, or uncertain? Battery towers are higher than adjacent walls.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: Roundels are rounded artillery fortifications that are not higher than adjacent walls. Battery towers are also artillery fortifications, but the information does not specify their height in relation to adjacent walls.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "All young adults go on a diet. All college students are young adults. All Yale students are college students. Someone is either a Yale student or a Harvard student. All Harvard students are diligent. If Susan is a Harvard student, then she is a young adult. If Susan is a Yale student, then she does not go on a diet. Based on the above information, is the following statement true, false, or uncertain? Susan does not go on a diet and is diligent.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: Susan is either a Yale student or a Harvard student. If she is a Harvard student, she is a young adult and diligent. If she is a Yale student, she does not go on a diet.\n\nConclusion: Susan does not go on a diet and is diligent.\n\nEvaluation:\n- If Susan is a Harvard student, she is a young adult and diligent. Therefore, she does not go on a diet. This aligns with the given information.\n- If Susan is a Yale student, she does not go on a diet. This also aligns with the given information.\n\nTherefore, based on the information provided, the statement \"Susan does not go on a diet and is diligent\" is True.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The only types of mammals that lay eggs are platypuses and echidnas. Platypuses are not hyrax. Echidnas are not hyrax. No mammals are invertebrates. All animals are either vertebrates or invertebrates. Mammals are animals. Hyraxes are mammals. Grebes lay eggs. Grebes are not platypuses and also not echidnas. Based on the above information, is the following statement true, false, or uncertain? Hyraxes lay eggs.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: The information provided does not mention hyraxes laying eggs, so it is uncertain whether hyraxes lay eggs based on the given context.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Robert Zimmer was born in Germany. Robert Zimmer is an essayist. Robert Zimmer was born in 1953. Every essayist is a writer. Every person born in Germany is German. Based on the above information, is the following statement true, false, or uncertain? Robert Zimmer is German.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: Robert Zimmer is German if he was born in Germany. Being an essayist or born in 1953 are not relevant to determining his nationality.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Some students good at math are good at chemistry. All students good at chemistry enjoy conducting experiments. All students that enjoy conducting experiments are good at planning. No student good at planning is awarded the Dean's List. James is either good at chemistry and awarded the Dean's List, or neither good at chemistry nor awarded the Dean's List. Based on the above information, is the following statement true, false, or uncertain? James is either good at planning or good at math.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If James is good at chemistry, he enjoys conducting experiments and is good at planning. If he is not good at chemistry, he is not awarded the Dean's List. The statement does not provide direct information about James being good at math.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "All disposable chopsticks are made from trees. Some chopsticks are eco-friendly. Either disposable chopsticks or reusable chopsticks. If chopsticks are made from metals, then they are not made from plastics. All reusable chopsticks are made from metal. Chopsticks at restaurants are either made from metals and made from plastics, or neither made from metals nor made from plastics. Based on the above information, is the following statement true, false, or uncertain? If Chopsticks at restaurants are made from plastics or made from trees, then Chopsticks at restaurants are made from plastics and are eco-friendly.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "B",
+        "response": "Hypothesis: If chopsticks at restaurants are made from plastics or made from trees, then they are made from plastics and are eco-friendly.\n\nEvaluation: From the given information, we know that all disposable chopsticks are made from trees, and some chopsticks are eco-friendly. However, there is no direct link between chopsticks made from trees and being eco-friendly. Also, the information does not provide a direct connection between the material of chopsticks at restaurants and their eco-friendliness.\n\nTherefore, based on the information provided, the statement is uncertain.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Ordinary is an unincorporated community. Located within Elliot County, Ordinary is on Kentucky Route 32. Ordinary is located northwest of Sandy Hook. Based on the above information, is the following statement true, false, or uncertain? There is an unincorporated community in Elliot County.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "A",
+        "response": "Hypothesis: If Ordinary is an unincorporated community located within Elliot County, then the statement is true.\n\nThe statement \"There is an unincorporated community in Elliot County\" is true based on the information provided that Ordinary is an unincorporated community located within Elliot County.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If a person doesn't have enough money to buy a product, then that person can't buy it. Monitors are products. 4k monitors are more expensive than 1080 monitors and 2k monitors. John is a person. John doesn't have enough money to buy a 2k monitor. Based on the above information, is the following statement true, false, or uncertain? John can not buy the 1080 monitor.\nOptions:\nA) True\nB) False\nC) Uncertain",
+        "ground_truth": "C",
+        "response": "Hypothesis: If John doesn't have enough money to buy a 2k monitor, which is cheaper than a 4k monitor, then he definitely can't buy a more expensive 4k monitor. Since 1080 monitors are cheaper than 2k monitors, John also wouldn't be able to buy a 1080 monitor.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    }
+]

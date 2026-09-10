@@ -1,0 +1,12 @@
+[submodule "datasets/AQuA"]
+	path = datasets/AQuA
+	url = https://github.com/google-deepmind/AQuA.git
+[submodule "datasets/SVAMP"]
+	path = datasets/SVAMP
+	url = https://github.com/arkilpatel/SVAMP.git
+[submodule "datasets/grade-school-math"]
+	path = datasets/grade-school-math
+	url = https://github.com/openai/grade-school-math.git
+[submodule "datasets/nlu-asdiv-dataset"]
+	path = datasets/nlu-asdiv-dataset
+	url = https://github.com/chaochun/nlu-asdiv-dataset.git

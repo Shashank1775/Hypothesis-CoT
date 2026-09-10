@@ -1,0 +1,1437 @@
+[
+    {
+        "question": "Baker made 52 pastries and 84 cakes. If he sold 102 cakes and 94 pastries How many more cakes than pastries did baker make?",
+        "ground_truth": 32.0,
+        "response": "Step 1: Determine how many more cakes than pastries the baker made.  \n84 (cakes) - 52 (pastries) = 32  \n\nThe answer is 32  \n\nHypothesis: I subtracted the number of pastries from the number of cakes to find how many more cakes than pastries the baker made.",
+        "parsed_answer": 32.0,
+        "is_correct": true
+    },
+    {
+        "question": "3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Calculate the total number of birds.  \n3 birds + 2 birds = 5 birds.  \n\nStep 2: Determine the number of storks.  \nThere are 6 storks.  \n\nStep 3: Find the difference between the number of storks and birds.  \n6 storks - 5 birds = 1.  \n\nThe answer is 1.  \n\nHypothesis: I calculated the total number of birds, compared it to the number of storks, and found the difference.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 12 cookies. He ate 16 cookies and gave 21 of them to his friend. How many more cookies did he give to his friend than those he ate?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Determine how many more cookies Paco gave to his friend than he ate.  \n21 (cookies given to his friend) - 16 (cookies eaten) = 5  \n\nThe answer is 5  \n\nHypothesis: I subtracted the number of cookies Paco ate from the number of cookies he gave to his friend to find the difference.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "If you have 14 cookies in total and 7 bags having equal number of cookies How many cookies does each bag have?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Divide the total number of cookies (14) by the number of bags (7) to find how many cookies are in each bag.  \n14 \u00f7 7 = 2  \n\nThe answer is 2  \n\nHypothesis: I divided the total number of cookies by the number of bags to determine how many cookies each bag contains.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the arcade Dave had won 18 tickets. If he used 5 to buy some toys and 11 more to buy some clothes How many tickets did Dave have left?",
+        "ground_truth": 2.0,
+        "response": "Step 1: 5 + 11 = 16  \nStep 2: 18 - 16 = 2  \nThe answer is 2  \n\nHypothesis: I added the tickets Dave used for toys and clothes, then subtracted the total used from the original number of tickets to find how many he had left.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake has 7 fewer peaches than Steven and 9 more peaches than Jill. Steven has 16 peaches. How many peaches does Jake have?",
+        "ground_truth": 9.0,
+        "response": "Step 1: Jake has 7 fewer peaches than Steven. Steven has 16 peaches, so Jake has 16 - 7 = 9 peaches.  \nStep 2: Verify that Jake has 9 more peaches than Jill. If Jake has 9 peaches, then Jill has 9 - 9 = 0 peaches.  \n\nThe answer is 9  \n\nHypothesis: I calculated Jake's peaches by subtracting from Steven's total and verified the relationship with Jill's peaches.",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "Lewis earns $ 491 every week during the 1181 weeks of harvest. If he has to pay $ 216 rent every week How much money will have at the end of the harvest season?",
+        "ground_truth": 324775.0,
+        "response": "Step 1: Calculate Lewis's total earnings during the harvest season.  \n491 \u00d7 1181 = 579371  \n\nStep 2: Calculate Lewis's total rent payments during the harvest season.  \n216 \u00d7 1181 = 255096  \n\nStep 3: Subtract the total rent payments from the total earnings to find how much money Lewis will have at the end of the harvest season.  \n579371 - 255096 = 324275  \n\nThe answer is 324275  \n\nHypothesis: I calculated Lewis's total earnings and total rent payments over the harvest season, then subtracted the rent payments from the earnings to determine his remaining money.",
+        "parsed_answer": 324275.0,
+        "is_correct": false
+    },
+    {
+        "question": "We ordered some pizzas. Each pizza has 2 slices. If there were a total of 28 slices How many pizzas did we order?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Each pizza has 2 slices. To find the number of pizzas, divide the total number of slices by the number of slices per pizza.  \n28 \u00f7 2 = 14  \n\nThe answer is 14  \n\nHypothesis: I divided the total number of slices by the number of slices per pizza to determine how many pizzas were ordered.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Julia played tag with some kids on monday. She played tag with 14 kids on tuesday. If she played with a total of 16 kids How many kids did she play with on monday?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Total kids = Kids on Monday + Kids on Tuesday.  \nStep 2: Rearrange the equation to find the number of kids on Monday:  \nKids on Monday = Total kids - Kids on Tuesday.  \nStep 3: Substitute the values:  \nKids on Monday = 16 - 14 = 2.  \n\nThe answer is 2.  \n\nHypothesis: I subtracted the number of kids Julia played with on Tuesday from the total number of kids to find how many she played with on Monday.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Allan brought 5 balloons and Jake brought 4 balloons to the park. Allan then bought 3 more balloons at the park. How many balloons did Allan bring to the park?",
+        "ground_truth": 8.0,
+        "response": "Step 1: Allan initially brought 5 balloons to the park.  \nStep 2: Allan then bought 3 more balloons at the park.  \nStep 3: Add the initial 5 balloons to the 3 additional balloons: 5 + 3 = 8.  \n\nThe answer is 8  \n\nHypothesis: I added the number of balloons Allan initially brought to the park to the number of balloons he bought at the park to find the total.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Bryan took a look at his books and magazines. If he has 27 books and 80 magazines in each of his 23 bookshelves How many books does he have in total?",
+        "ground_truth": 621.0,
+        "response": "Step 1: Calculate the total number of books on all bookshelves.  \n27 books per bookshelf \u00d7 23 bookshelves = 621 books.  \n\nStep 2: Calculate the total number of magazines on all bookshelves.  \n80 magazines per bookshelf \u00d7 23 bookshelves = 1840 magazines.  \n\nStep 3: Since the question only asks for the total number of books, the total is 621.  \n\nThe answer is 621  \n\nHypothesis: I multiplied the number of books per bookshelf by the total number of bookshelves to find the total number of books.",
+        "parsed_answer": 621.0,
+        "is_correct": true
+    },
+    {
+        "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 19 chocolate chip cookies yesterday and 231 raisin cookies and 237 chocolate chip cookies this morning. How many more chocolate chip cookies than raisin cakes did Helen bake?",
+        "ground_truth": 25.0,
+        "response": "Step 1: Calculate the total number of chocolate chip cookies Helen baked.  \n19 (yesterday) + 237 (this morning) = 256  \n\nStep 2: Helen baked 231 raisin cookies.  \n\nStep 3: Find the difference between the number of chocolate chip cookies and raisin cookies.  \n256 - 231 = 25  \n\nThe answer is 25  \n\nHypothesis: I calculated the total number of chocolate chip cookies, then subtracted the number of raisin cookies to find how many more chocolate chip cookies Helen baked.",
+        "parsed_answer": 25.0,
+        "is_correct": true
+    },
+    {
+        "question": "Josh lost 11 marbles. If he had 19 marbles in his collection earlier How many marbles does he have now?",
+        "ground_truth": 8.0,
+        "response": "Step 1: 19 - 11 = 8  \nThe answer is 8  \n\nHypothesis: I subtracted the number of marbles Josh lost from the original total to find how many marbles he has now.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Matthew had 22 crackers and 34 cakes. If Matthew gave equal numbers of crackers and cakes to his 11 friends How many crackers did each person eat?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Determine how many crackers Matthew gave to his 11 friends. Since he has 22 crackers and is dividing them equally among 11 friends, calculate \\( 22 \\div 11 = 2 \\).\n\nStep 2: Each friend received 2 crackers.\n\nThe answer is 2\n\nHypothesis: I divided the total number of crackers by the number of friends to find how many crackers each person ate.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 141 pots. Each pot has 71 flowers and 91 sticks in it. How many flowers are there in all?",
+        "ground_truth": 10011.0,
+        "response": "Step 1: Determine the number of flowers in one pot, which is given as 71.  \nStep 2: Multiply the number of flowers per pot by the total number of pots:  \n71 \u00d7 141 = 10011.  \n\nThe answer is 10011.  \n\nHypothesis: I multiplied the number of flowers in each pot by the total number of pots to find the total number of flowers.",
+        "parsed_answer": 10011.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jessica cut some roses from her flower garden to put in her vase. There are now 19 roses in the vase. If there were 3 roses in the vase initially How many roses did she cut?",
+        "ground_truth": 16.0,
+        "response": "Step 1: Subtract the initial number of roses in the vase from the current number of roses in the vase.  \n19 - 3 = 16  \n\nThe answer is 16  \n\nHypothesis: I subtracted the initial number of roses from the current number to determine how many roses Jessica cut.",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Allan brought 2 balloons and Jake brought 3 balloons to the park. How many more balloons did Jake have than Allan in the park?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Jake brought 3 balloons, and Allan brought 2 balloons.  \nStep 2: Subtract the number of balloons Allan brought from the number Jake brought: 3 - 2 = 1.  \n\nThe answer is 1  \n\nHypothesis: I subtracted the number of balloons Allan brought from the number Jake brought to find how many more balloons Jake had.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "After Jessie started to go jogging everyday she lost 126 kilograms. She currently weighs 66 kilograms. How much did she weigh before starting to jog?",
+        "ground_truth": 192.0,
+        "response": "Step 1: To find Jessie's original weight, add the weight she lost to her current weight.  \n126 + 66 = 192  \n\nThe answer is 192  \n\nHypothesis: I added the weight Jessie lost to her current weight to determine her original weight.",
+        "parsed_answer": 192.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the zoo, a cage had snakes and alligators. The total number of animals in the cage was 79. If 24 snakes and 51 alligators were hiding How many animals were not hiding in all?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Add the number of snakes and alligators that were hiding.  \n24 + 51 = 75  \n\nStep 2: Subtract the number of hiding animals from the total number of animals in the cage.  \n79 - 75 = 4  \n\nThe answer is 4  \n\nHypothesis: I added the number of hiding snakes and alligators, then subtracted that total from the total number of animals to find how many were not hiding.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan had $ 3 left with him after he bought a candy bar. If he had $ 4 at the start How much did the candy bar cost?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Dan started with $4 and had $3 left after buying the candy bar.  \nStep 2: Subtract the amount Dan has left from the amount he started with:  \n4 - 3 = 1  \n\nThe answer is 1  \n\nHypothesis: I subtracted the amount Dan had left from the amount he started with to determine the cost of the candy bar.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Robin has 28 packages of gum and 13 packages of candy. There are 4 pieces in each package. How many pieces of gum does Robin have?",
+        "ground_truth": 112.0,
+        "response": "Step 1: Determine how many pieces of gum are in each package. Each package contains 4 pieces.  \nStep 2: Multiply the number of packages of gum by the number of pieces per package:  \n28 \u00d7 4 = 112  \n\nThe answer is 112  \n\nHypothesis: I multiplied the number of gum packages by the number of pieces per package to find the total number of gum pieces.",
+        "parsed_answer": 112.0,
+        "is_correct": true
+    },
+    {
+        "question": "Rachel had to complete 11 pages of math homework, 2 pages of reading homework and 3 more pages of biology homework. How many more pages of math homework than biology homework did she have?",
+        "ground_truth": 8.0,
+        "response": "Step 1: Identify the number of pages of math homework and biology homework. Math homework = 11 pages, Biology homework = 3 pages.  \nStep 2: Subtract the number of biology homework pages from the number of math homework pages: 11 - 3 = 8.  \nThe answer is 8  \n\nHypothesis: I subtracted the number of biology homework pages from the number of math homework pages to find how many more pages of math homework Rachel had.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dave had 17 apps and 21 files on his phone. After deleting some apps and files he had 3 apps and 7 files left. How many files did he delete?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Determine how many files Dave originally had. He started with 21 files.  \nStep 2: Subtract the number of files he has left from the original number of files.  \n21 - 7 = 14  \n\nThe answer is 14  \n\nHypothesis: I subtracted the remaining files from the original total to find how many files were deleted.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Rebecca wants to split a collection of eggs into groups of 3. Rebecca has 99 bananas 9 eggs and 27 marbles. How many groups will be created?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Identify the relevant information. Rebecca wants to split eggs into groups of 3. The number of eggs she has is 9. The bananas and marbles are irrelevant to the problem.\n\nStep 2: Divide the number of eggs by the group size.  \n9 \u00f7 3 = 3\n\nThe answer is 3\n\nHypothesis: I focused on the eggs, ignored irrelevant information, and divided the total number of eggs by the group size to determine the number of groups.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "A grocery store had 30 bottles of regular soda, 8 bottles of diet soda and 41 apples. How many bottles did they have total?",
+        "ground_truth": 38.0,
+        "response": "Step 1: Add the number of regular soda bottles and diet soda bottles.  \n30 + 8 = 38  \n\nStep 2: The total number of bottles is 38.  \n\nThe answer is 38  \n\nHypothesis: I added the number of regular soda bottles and diet soda bottles to find the total number of bottles, excluding the apples since they are not bottles.",
+        "parsed_answer": 38.0,
+        "is_correct": true
+    },
+    {
+        "question": "Zachary did 44 push-ups and 17 crunches in gym class today. David did 29 more push-ups but 13 less crunches than zachary. How many crunches did David do?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Zachary did 17 crunches.  \nStep 2: David did 13 less crunches than Zachary. Subtract 13 from 17:  \n17 - 13 = 4.  \n\nThe answer is 4.  \n\nHypothesis: I subtracted the number of crunches David did less than Zachary from Zachary's total to find how many crunches David did.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "He then went to see the oranges being harvested. He found out that they harvest 41 sacks of unripe oranges and 86 sacks of ripe oranges per day. How many more sacks of ripe oranges than unripe oranges are harvested per day?",
+        "ground_truth": 45.0,
+        "response": "Step 1: 86 - 41 = 45  \nThe answer is 45  \n\nHypothesis: I subtracted the number of unripe orange sacks from the number of ripe orange sacks to find the difference.",
+        "parsed_answer": 45.0,
+        "is_correct": true
+    },
+    {
+        "question": "Matthew had 8 crackers to give to friends. If Matthew gave 2 crackers to each his friends How many friends did he give crackers to?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Divide the total number of crackers by the number of crackers given to each friend.  \n8 \u00f7 2 = 4  \n\nThe answer is 4  \n\nHypothesis: I divided the total crackers by the number of crackers given to each friend to determine how many friends received crackers.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Josh had 19 marbles in his collection. He lost 11 marbles and found 5 new ones. How many marbles does he have now?",
+        "ground_truth": 13.0,
+        "response": "Step 1: 19 - 11 = 8 (Josh lost 11 marbles, so he has 8 left.)  \nStep 2: 8 + 5 = 13 (Josh found 5 new marbles, so he now has 13.)  \n\nThe answer is 13  \n\nHypothesis: I subtracted the lost marbles from the initial total, then added the newly found marbles to determine the final count.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jackie has 10 apples. Adam has 8 apples. How many more apples does Jackie have than Adam?",
+        "ground_truth": 2.0,
+        "response": "Step 1: 10 - 8 = 2  \nThe answer is 2  \n\nHypothesis: I subtracted the number of apples Adam has from the number Jackie has to find how many more apples Jackie has.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 61 pastries and 167 cakes. If he sold 108 cakes and 44 pastries How many cakes would baker still have?",
+        "ground_truth": 59.0,
+        "response": "Step 1: Start with the total number of cakes Baker made, which is 167.  \nStep 2: Subtract the number of cakes Baker sold, which is 108.  \n167 - 108 = 59  \n\nThe answer is 59  \n\nHypothesis: I subtracted the number of cakes sold from the total number of cakes made to find how many cakes Baker still has.",
+        "parsed_answer": 59.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake. The recipe calls for 11 cups of sugar and some more cups of flour. She already put in 3 cups of flour. If she still needs to add 6 more cups of flour How many cups of flour did the recipe require?",
+        "ground_truth": 9.0,
+        "response": "Step 1: Mary already put in 3 cups of flour and still needs to add 6 more cups. To find the total cups of flour required, add these two values together: 3 + 6 = 9.\n\nThe answer is 9.\n\nHypothesis: I added the amount of flour already added to the amount still needed to determine the total cups of flour required by the recipe.",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 110 cakes. He sold 75 of them. Then he made 76 more cakes. How many cakes would baker still have?",
+        "ground_truth": 111.0,
+        "response": "Step 1: Start with the initial number of cakes, which is 110. Subtract the number of cakes sold:  \n110 - 75 = 35  \n\nStep 2: Add the additional cakes the baker made:  \n35 + 76 = 111  \n\nThe answer is 111  \n\nHypothesis: I subtracted the cakes sold from the initial total, then added the newly made cakes to find the final count.",
+        "parsed_answer": 111.0,
+        "is_correct": true
+    },
+    {
+        "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 36 of the pickers that they fill 8 drums of grapes per day. How many days will it take to fill 240 drums of grapes?",
+        "ground_truth": 30.0,
+        "response": "Step 1: Determine how many drums of grapes are filled per day by all 36 pickers.  \nEach picker fills 8 drums per day, so the total number of drums filled per day is:  \n36 \u00d7 8 = 288 drums per day.\n\nStep 2: Calculate how many days it will take to fill 240 drums.  \nIf 288 drums are filled per day, the time to fill 240 drums is:  \n240 \u00f7 288 = 0.8333 days.\n\nStep 3: Since the question asks for the number of days, and it is not possible to fill a fraction of a day in this context, we round up to the nearest whole number.  \n0.8333 days rounds up to 1 day.\n\nThe answer is 1.\n\nHypothesis: I calculated the total number of drums filled per day by multiplying the number of pickers by the drums each fills. Then, I divided the total drums needed by the daily capacity to find the number of days required.",
+        "parsed_answer": 1.0,
+        "is_correct": false
+    },
+    {
+        "question": "Jesse's room is 19 feet wide and 20 feet long. How much longer is her room than it is wide?",
+        "ground_truth": 1.0,
+        "response": "Step 1: 20 - 19 = 1  \nThe answer is 1  \n\nHypothesis: I subtracted the width of the room from its length to determine how much longer it is.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?",
+        "ground_truth": 143550.0,
+        "response": "Step 1: Calculate the total number of oranges harvested per day.  \n66 sacks \u00d7 25 oranges = 1650 oranges per day.  \n\nStep 2: Multiply the daily harvest by the number of days.  \n1650 oranges \u00d7 87 days = 143550 oranges.  \n\nThe answer is 143550  \n\nHypothesis: I first calculated the number of oranges harvested per day by multiplying the number of sacks by the oranges per sack, then multiplied the daily harvest by the total number of days to find the total number of oranges.",
+        "parsed_answer": 143550.0,
+        "is_correct": true
+    },
+    {
+        "question": "Julia played tag with a total of 18 kids. She played with 4 kids on monday and yet with some more kids on tuesday. How many kids did she play with on tuesday?",
+        "ground_truth": 14.0,
+        "response": "Step 1: 18 - 4 = 14  \nThe answer is 14  \n\nHypothesis: I subtracted the number of kids Julia played with on Monday from the total number of kids to find how many she played with on Tuesday.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Emily is making bead necklaces for her 43 friends. She had 20 beads and she was able to make 5 necklaces. How many beads did each necklace need?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Emily made 5 necklaces using 20 beads. To find how many beads each necklace needed, divide the total number of beads by the number of necklaces:  \n20 \u00f7 5 = 4  \n\nThe answer is 4  \n\nHypothesis: I divided the total number of beads by the number of necklaces to determine how many beads each necklace required.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kelly has 20 nintendo games and 70 sony games. How many nintendo games does she need to give away so that she will have 12 nintendo games left?",
+        "ground_truth": 8.0,
+        "response": "Step 1: Kelly currently has 20 Nintendo games. She wants to have 12 Nintendo games left.  \nStep 2: Subtract the desired number of Nintendo games (12) from the current number of Nintendo games (20).  \n20 - 12 = 8  \n\nThe answer is 8  \n\nHypothesis: I subtracted the desired number of Nintendo games from the current total to determine how many she needs to give away.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 40 sweet cookies and 25 salty cookies. He ate 28 salty cookies and 15 sweet cookies. How many more salty cookies than sweet cookies did he eat?",
+        "ground_truth": 13.0,
+        "response": "Step 1: Determine how many salty cookies Paco ate. He ate 28 salty cookies.  \nStep 2: Determine how many sweet cookies Paco ate. He ate 15 sweet cookies.  \nStep 3: Subtract the number of sweet cookies eaten from the number of salty cookies eaten to find the difference.  \n28 - 15 = 13  \n\nThe answer is 13  \n\nHypothesis: I compared the number of salty cookies eaten to the number of sweet cookies eaten by subtracting the smaller value from the larger value to find the difference.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "The ring toss game at the carnival made 325 dollars in the first 154 days and 114 dollars in the remaining 57 days. How much did they make per day in the remaining 57 days at the carnival?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Determine the total amount made in the remaining 57 days.  \nThe problem states that the ring toss game made $114 in the remaining 57 days.  \n\nStep 2: Calculate the amount made per day in the remaining 57 days.  \nDivide the total amount made in the remaining 57 days by the number of days:  \n114 \u00f7 57 = 2  \n\nThe answer is 2  \n\nHypothesis: I divided the total amount made in the remaining 57 days by the number of days to find the average amount made per day.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?",
+        "ground_truth": 265.0,
+        "response": "Step 1: Calculate how many cards Nell gave to Jeff.  \n566 - 535 = 31  \n\nStep 2: Add the cards Nell gave to Jeff to Jeff's original number of cards.  \n234 + 31 = 265  \n\nThe answer is 265  \n\nHypothesis: I subtracted Nell's remaining cards from her original total to find how many she gave to Jeff, then added that number to Jeff's original total to find his new total.",
+        "parsed_answer": 265.0,
+        "is_correct": true
+    },
+    {
+        "question": "White t - shirts can be purchased in packages of 53. If mom buys 57 packages of white t - shirts and 34 trousers How many white t - shirts will she have?",
+        "ground_truth": 3021.0,
+        "response": "Step 1: Determine how many white t-shirts are in 57 packages.  \nEach package contains 53 t-shirts, so multiply 53 by 57:  \n53 \u00d7 57 = 3021  \n\nStep 2: Since the problem only asks about white t-shirts, the number of trousers (34) is irrelevant.  \n\nThe answer is 3021  \n\nHypothesis: I multiplied the number of t-shirts per package by the number of packages to find the total number of white t-shirts.",
+        "parsed_answer": 3021.0,
+        "is_correct": true
+    },
+    {
+        "question": "Every day Ryan spends 7 hours on learning english and some more hours on learning chinese. If he spends 2 hours more on learning english than on learning chinese How many hours does he spend on learning chinese?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Let the number of hours Ryan spends on learning Chinese be \\( x \\).  \nStep 2: According to the problem, Ryan spends 2 hours more on learning English than on learning Chinese. Therefore, the time spent on learning English is \\( x + 2 \\).  \nStep 3: We are told that Ryan spends 7 hours on learning English. So, we can set up the equation:  \n\\[\nx + 2 = 7\n\\]  \nStep 4: Solve for \\( x \\):  \n\\[\nx = 7 - 2 = 5\n\\]  \n\nThe answer is 5  \n\nHypothesis: I set up an equation based on the relationship between the hours spent on learning English and Chinese, then solved for the unknown.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake has 3 fewer peaches than Steven who has 8 more peaches than Jill. Steven has 5 peaches. How many more peaches does Jake have than Jill?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Steven has 5 peaches. Since Steven has 8 more peaches than Jill, Jill must have 5 - 8 = -3 peaches. However, this is not possible in the context of the problem. Let's reassess the logic.\n\nStep 2: Steven has 5 peaches. Jill must have 5 - 8 = -3 peaches. Jake has 3 fewer peaches than Steven, so Jake has 5 - 3 = 2 peaches.\n\nStep 3: Jake has 2 peaches, and Jill has -3 peaches. The difference between Jake and Jill is 2 - (-3) = 5 peaches.\n\nHypothesis: I calculated Jill's peaches based on Steven's count, then determined Jake's peaches relative to Steven, and finally found the difference between Jake and Jill's peach counts.\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Randy has 37 blocks. He uses 33 blocks to build a tower and 13 blocks to build a house. How many more blocks did he use to build the tower than he did to build the house?",
+        "ground_truth": 20.0,
+        "response": "Step 1: Determine how many more blocks were used for the tower than for the house by subtracting the number of blocks used for the house from the number of blocks used for the tower.  \n33 - 13 = 20  \n\nThe answer is 20  \n\nHypothesis: I subtracted the number of blocks used for the house from the number of blocks used for the tower to find the difference.",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan has $ 3. For a total of $ 4 he bought 2 candy bar each one costing the same amount of money. How much did each candy bar cost?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Dan spent $4 in total for 2 candy bars. To find the cost of each candy bar, divide the total cost by the number of candy bars:  \n$4 \u00f7 2 = $2  \n\nThe answer is 2  \n\nHypothesis: I divided the total amount spent by the number of candy bars to determine the cost of each candy bar.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Emily is making bead necklaces for her friends. Each necklace takes 8 beads and she has 16 beads. How many necklaces can Emily make?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Divide the total number of beads by the number of beads needed for each necklace.  \n16 \u00f7 8 = 2  \n\nThe answer is 2  \n\nHypothesis: I divided the total beads by the beads required per necklace to determine how many necklaces Emily can make.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 5 roses and 3 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 12 roses and 2 orchids in the vase. How many more roses than orchids are there in the vase now?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Determine the number of roses in the vase now: 12.  \nStep 2: Determine the number of orchids in the vase now: 2.  \nStep 3: Subtract the number of orchids from the number of roses to find how many more roses there are: 12 - 2 = 10.  \n\nThe answer is 10  \n\nHypothesis: I compared the current number of roses and orchids by subtracting the orchids from the roses to find the difference.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Rachel had to complete 9 pages of math homework, 11 pages of reading homework and 29 more pages of biology homework. How many pages of math and reading homework did she have to complete?",
+        "ground_truth": 20.0,
+        "response": "Step 1: Add the pages of math homework and reading homework.  \n9 + 11 = 20  \n\nThe answer is 20  \n\nHypothesis: I added the pages of math homework and reading homework to find the total for those two subjects.",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?",
+        "ground_truth": 31.0,
+        "response": "Step 1: Subtract the amount left in Olivia's wallet from the original amount to find the total amount spent.  \n106 - 26 = 80  \n\nStep 2: Subtract the amount spent at the showroom from the total amount spent to find how much she spent at the supermarket.  \n80 - 49 = 31  \n\nThe answer is 31  \n\nHypothesis: I first calculated the total amount spent by subtracting the remaining money from the original amount, then subtracted the showroom expense to determine the supermarket expense.",
+        "parsed_answer": 31.0,
+        "is_correct": true
+    },
+    {
+        "question": "Bobby had 32 pieces of candy. He ate some pieces of candy. If he has 20 pieces of candy left How many pieces of candy did Bobby eat?",
+        "ground_truth": 12.0,
+        "response": "Step 1: 32 - 20 = 12  \nThe answer is 12  \n\nHypothesis: I subtracted the remaining candy from the original total to find how many pieces Bobby ate.",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Danny collects bottle caps and wrappers. He found 65 wrappers and 5 bottle caps at the park. Now he has 31 bottle caps and 9 wrappers in his collection. How many more wrappers than bottle caps did danny find at the park?",
+        "ground_truth": 60.0,
+        "response": "Step 1: Determine how many wrappers Danny found at the park. He found 65 wrappers.  \nStep 2: Determine how many bottle caps Danny found at the park. He found 5 bottle caps.  \nStep 3: Subtract the number of bottle caps from the number of wrappers to find how many more wrappers than bottle caps Danny found at the park.  \n65 - 5 = 60  \n\nThe answer is 60  \n\nHypothesis: I subtracted the number of bottle caps from the number of wrappers Danny found at the park to determine how many more wrappers he found.",
+        "parsed_answer": 60.0,
+        "is_correct": true
+    },
+    {
+        "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 144 chocolate chip cookies and 397 raisin cookies yesterday. And she baked 85 raisin cookies and 403 chocolate chip cookies this morning. How many raisin cookies did Helen bake?",
+        "ground_truth": 482.0,
+        "response": "Step 1: Helen baked 397 raisin cookies yesterday.  \nStep 2: Helen baked 85 raisin cookies this morning.  \nStep 3: Add the raisin cookies baked yesterday and this morning: 397 + 85 = 482.  \n\nThe answer is 482.  \n\nHypothesis: I added the raisin cookies baked yesterday and this morning to find the total number of raisin cookies Helen baked.",
+        "parsed_answer": 482.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Fred had 19 dollars and Jason had 16 dollars. They washed cars over the weekend and now Fred has 40 dollars and Jason has 69 dollars. How much money did Fred earn over the weekend?",
+        "ground_truth": 21.0,
+        "response": "Step 1: Subtract the amount Fred had last week from the amount he has now.  \n40 - 19 = 21  \n\nThe answer is 21  \n\nHypothesis: I subtracted Fred's initial amount from his current amount to determine how much money he earned over the weekend.",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the arcade Dave had won 14 tickets and lost 2 tickets. If he used 10 to buy some toys How many tickets did Dave have left?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Start with the tickets Dave won: 14.  \nStep 2: Subtract the tickets he lost: 14 - 2 = 12.  \nStep 3: Subtract the tickets he used to buy toys: 12 - 10 = 2.  \n\nThe answer is 2.  \n\nHypothesis: I subtracted the tickets Dave lost and then subtracted the tickets he used to determine how many he had left.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the zoo, a cage had 95 snakes and 61 alligators. If 64 snakes were hiding How many snakes were not hiding?",
+        "ground_truth": 31.0,
+        "response": "Step 1: 95 - 64 = 31  \nThe answer is 31  \n\nHypothesis: I subtracted the number of snakes hiding from the total number of snakes to find how many were not hiding.",
+        "parsed_answer": 31.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are many different books in the ' crazy silly school ' series. If you have read 13 of the books and are yet to read 8 books How many books are there in the ' crazy silly school ' series?",
+        "ground_truth": 21.0,
+        "response": "Step 1: 13 + 8 = 21  \nThe answer is 21  \n\nHypothesis: I added the number of books already read to the number of books yet to be read to find the total number of books in the series.",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "Haley grew 14 trees in her backyard. After a typhoon 9 died. How many more trees died in the typhoon than those that survived?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Determine how many trees survived.  \n14 - 9 = 5  \n\nStep 2: Find the difference between the number of trees that died and those that survived.  \n9 - 5 = 4  \n\nThe answer is 4  \n\nHypothesis: I first calculated the number of surviving trees, then subtracted that from the number of trees that died to find the difference.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 170 cakes. He sold 78 of them and bought 31 new cakes. How many more cakes did baker sell than those he bought?",
+        "ground_truth": 47.0,
+        "response": "Step 1: Determine how many cakes the baker sold: 78.  \nStep 2: Determine how many cakes the baker bought: 31.  \nStep 3: Subtract the number of cakes bought from the number of cakes sold: 78 - 31 = 47.  \n\nThe answer is 47  \n\nHypothesis: I subtracted the number of cakes bought from the number of cakes sold to find how many more cakes were sold than bought.",
+        "parsed_answer": 47.0,
+        "is_correct": true
+    },
+    {
+        "question": "Edward spent $ 16 to buy 92 books each book costing him the same amount of money. Now he has $ 6. How much did Edward have before he spent his money?",
+        "ground_truth": 22.0,
+        "response": "Step 1: Edward spent $16 to buy books, and now he has $6. To find out how much Edward had before spending, we add the amount he spent to the amount he has now.  \nStep 2: $16 + $6 = $22  \n\nThe answer is 22  \n\nHypothesis: I added the amount Edward spent to the amount he currently has to determine how much he had initially.",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "Because of the decision Sofia asked the students to suggest specific types of food. If 218 students suggested adding mashed potatoes as well as bacon while 351 suggested adding only bacon to the menu How many students suggested adding bacon?",
+        "ground_truth": 569.0,
+        "response": "Step 1: 218 students suggested adding mashed potatoes as well as bacon.  \nStep 2: 351 students suggested adding only bacon.  \nStep 3: To find the total number of students who suggested adding bacon, add the two groups together:  \n218 + 351 = 569.  \n\nThe answer is 569.  \n\nHypothesis: I added the number of students who suggested bacon with mashed potatoes to the number of students who suggested only bacon to find the total.",
+        "parsed_answer": 569.0,
+        "is_correct": true
+    },
+    {
+        "question": "Each pack of dvds costs 107 dollars. If there is a discount of 106 dollars on each pack How many packs of dvds can you buy with 93 dollars?",
+        "ground_truth": 93.0,
+        "response": "Step 1: Calculate the effective cost of each pack of DVDs after the discount.  \n107 - 106 = 1 dollar per pack.\n\nStep 2: Determine how many packs can be bought with 93 dollars.  \n93 \u00f7 1 = 93 packs.\n\nThe answer is 93  \n\nHypothesis: I subtracted the discount from the original price to find the effective cost per pack, then divided the total money available by the effective cost to determine the number of packs that can be purchased.",
+        "parsed_answer": 93.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jerry had 9 action figures on a shelf in his room. Later he added 7 more action figures to the shelf. If he also has 10 books on the shelf How many more action figures than books were on his shelf?",
+        "ground_truth": 6.0,
+        "response": "Step 1: Add the number of action figures Jerry initially had to the number he added later.  \n9 + 7 = 16  \n\nStep 2: Subtract the number of books from the total number of action figures to find how many more action figures than books were on the shelf.  \n16 - 10 = 6  \n\nThe answer is 6  \n\nHypothesis: I calculated the total number of action figures, then subtracted the number of books to determine the difference.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dan has $ 5. He bought a chocolate for $ 3 and a candy bar for $ 7. How much money did he spend to buy candy bar than he did to buy chocolate?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Determine how much Dan spent on the candy bar compared to the chocolate.  \nStep 2: Subtract the cost of the chocolate from the cost of the candy bar:  \n$7 - $3 = $4  \n\nThe answer is 4  \n\nHypothesis: I subtracted the cost of the chocolate from the cost of the candy bar to find the difference in spending.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "In Haley's class some boys love to play marbles. Haley gives 2 marbles to each boy. If she had 28 marbles How many boys did she give the marbles to?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Each boy receives 2 marbles. To find out how many boys Haley gave marbles to, divide the total number of marbles by the number of marbles each boy receives:  \n28 \u00f7 2 = 14  \n\nThe answer is 14  \n\nHypothesis: I divided the total number of marbles by the number of marbles each boy received to determine how many boys received marbles.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Matthew had 23 crackers. He has 11 crackers left after he gave equal numbers of crackers to his 2 friends. How many crackers did each friend eat?",
+        "ground_truth": 6.0,
+        "response": "Step 1: Subtract the number of crackers Matthew has left from the total number of crackers he started with.  \n23 - 11 = 12  \n\nStep 2: Divide the remaining crackers (12) equally between the 2 friends.  \n12 \u00f7 2 = 6  \n\nThe answer is 6  \n\nHypothesis: I subtracted the crackers Matthew has left from the total to find how many were given away, then divided that number by 2 to determine how many crackers each friend ate.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "You had 26 bags with equal number of cookies. If you had 15 candies and 52 cookies in total How many cookies does each bag have?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Subtract the number of candies from the total to find the number of cookies.  \n52 (total cookies and candies) - 15 (candies) = 37 cookies.  \n\nStep 2: Divide the total number of cookies by the number of bags to find how many cookies are in each bag.  \n37 (cookies) \u00f7 26 (bags) = 1.423076923...  \n\nHypothesis: I subtracted the candies from the total to isolate the number of cookies, then divided the cookies by the number of bags to determine how many cookies each bag contains.  \n\nThe answer is 1.423076923.",
+        "parsed_answer": 1.423076923,
+        "is_correct": false
+    },
+    {
+        "question": "6 packs of dvds can be bought with 120 dollars. How much does each pack cost?",
+        "ground_truth": 20.0,
+        "response": "Step 1: Divide the total cost by the number of packs to find the cost per pack.  \n120 \u00f7 6 = 20  \n\nThe answer is 20  \n\nHypothesis: I divided the total cost by the number of packs to determine the cost of each pack.",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "Marco and his dad went strawberry picking. Together their strawberries weighed 20 pounds. His dad's strawberries weighed 17 pounds. How much did marco's strawberries weigh?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Subtract the weight of his dad's strawberries from the total weight of the strawberries.  \n20 - 17 = 3  \n\nThe answer is 3  \n\nHypothesis: I subtracted the weight of his dad's strawberries from the total weight to find Marco's strawberries' weight.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paige was helping her mom plant flowers and together they planted 55 seeds. They put 15 seeds in each flower bed and only 60 seeds grew into flowers in each flower bed. How many flowers did they grow?",
+        "ground_truth": 220.0,
+        "response": "Step 1: The problem states that Paige and her mom planted 55 seeds, but it also mentions 60 seeds grew into flowers in each flower bed. This seems inconsistent because the number of seeds planted is less than the number of flowers grown. Clarification is needed to proceed accurately.\n\nHypothesis: The problem contains conflicting information about the number of seeds planted and the number of flowers grown. Without clarification, the question cannot be solved accurately.\n\nThe answer is <only value>",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Rachel had to complete 3 pages of math homework and 4 pages of reading homework. How many more pages of reading homework than math homework did she have?",
+        "ground_truth": 1.0,
+        "response": "Step 1: 4 - 3 = 1  \nThe answer is 1  \n\nHypothesis: I subtracted the number of math homework pages from the number of reading homework pages to find the difference.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Adam has 9 apples. Jackie has 10 apples. How many more apples does Jackie have than Adam?",
+        "ground_truth": 1.0,
+        "response": "Step 1: 10 - 9 = 1  \nThe answer is 1  \n\nHypothesis: I subtracted the number of apples Adam has from the number Jackie has to find the difference.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Robin has 43 packages of gum. There are 23 pieces in each package. Robin has 8 extra pieces of gum. How many pieces of gum does Robin have?",
+        "ground_truth": 997.0,
+        "response": "Step 1: Calculate the total number of pieces of gum in the packages.  \n43 packages \u00d7 23 pieces per package = 989 pieces.  \n\nStep 2: Add the extra pieces of gum.  \n989 + 8 = 997.  \n\nThe answer is 997.  \n\nHypothesis: I multiplied the number of packages by the pieces per package to find the total from the packages, then added the extra pieces to get the final total.",
+        "parsed_answer": 997.0,
+        "is_correct": true
+    },
+    {
+        "question": "Marco and his dad went strawberry picking. Together they collected strawberries that weighed 36 pounds. On the way back Marco ' dad lost 8 pounds of strawberries. Marco's strawberries now weighed 12 pounds. How much did his dad's strawberries weigh now?",
+        "ground_truth": 16.0,
+        "response": "Step 1: Determine the total weight of strawberries lost by Marco's dad.  \n36 - 8 = 28  \n\nStep 2: Subtract Marco's strawberries from the remaining total to find the weight of his dad's strawberries.  \n28 - 12 = 16  \n\nThe answer is 16  \n\nHypothesis: I subtracted the lost strawberries from the total, then subtracted Marco's strawberries to find the weight of his dad's strawberries.",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake. The recipe calls for 9 cups of flour and 11 cups of sugar. She already put in 4 cups of flour. How many more cups of sugar than cups of flour does she need to add now?",
+        "ground_truth": 6.0,
+        "response": "Step 1: Determine how many more cups of flour Mary needs to add.  \n9 (total cups of flour needed) - 4 (cups of flour already added) = 5 cups of flour.\n\nStep 2: Since Mary needs 11 cups of sugar, she still needs to add all 11 cups of sugar.\n\nStep 3: Find the difference between the cups of sugar and cups of flour Mary needs to add.  \n11 (cups of sugar) - 5 (cups of flour) = 6.\n\nThe answer is 6.\n\nHypothesis: I calculated the remaining cups of flour and sugar Mary needs to add, then found the difference between the two quantities.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paul got a box of 601 crayons and 406 erasers for his birthday. At the end of the school year he only had 336 crayons left while not having lost a single eraser. How many more erasers than crayons did he have left?",
+        "ground_truth": 70.0,
+        "response": "Step 1: Determine how many crayons Paul had left. He started with 601 crayons and ended with 336 crayons.  \n601 - 336 = 265 crayons lost.\n\nStep 2: Calculate how many erasers Paul had left. Since he did not lose any erasers, he still has all 406 erasers.\n\nStep 3: Find the difference between the number of erasers and crayons left.  \n406 - 336 = 70.\n\nThe answer is 70.\n\nHypothesis: I subtracted the crayons lost from the original total to find how many crayons were left, then compared the remaining crayons to the total erasers to find the difference.",
+        "parsed_answer": 70.0,
+        "is_correct": true
+    },
+    {
+        "question": "Lucy went to the grocery store. She bought 2 packs of cookie and 12 packs of cake. In the end she had 56 amount of change remaining. How many packs of groceries did she buy in all?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Lucy bought 2 packs of cookies.  \nStep 2: Lucy bought 12 packs of cake.  \nStep 3: Add the number of packs of cookies and cakes together: 2 + 12 = 14.  \n\nThe answer is 14  \n\nHypothesis: I added the number of cookie packs and cake packs to find the total number of grocery packs Lucy bought.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?",
+        "ground_truth": 22.0,
+        "response": "Step 1: 43 - 21 = 22  \nThe answer is 22  \n\nHypothesis: I subtracted the number of children left on the bus from the original total to find how many got off.",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "They decided to hold the party in their backyard. They have 12 sets of tables and each set has 14 chairs. There are also 6 chairs extra. How many chairs do they have for the guests?",
+        "ground_truth": 174.0,
+        "response": "Step 1: Calculate the number of chairs from the table sets.  \n12 sets \u00d7 14 chairs per set = 168 chairs.  \n\nStep 2: Add the extra chairs to the total.  \n168 + 6 = 174.  \n\nThe answer is 174.  \n\nHypothesis: I multiplied the number of table sets by the chairs per set, then added the extra chairs to find the total.",
+        "parsed_answer": 174.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are a total of 16 peaches in a basket. If there are 13 red peaches and some more green peaches in the basket. How many green peaches are in the basket?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Subtract the number of red peaches from the total number of peaches.  \n16 - 13 = 3  \n\nThe answer is 3  \n\nHypothesis: I subtracted the number of red peaches from the total peaches to find the number of green peaches.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Stray cats loved eating goldfish in the pond leaving 6 goldfish. Paige had raised 8 goldfish in the pond initially. How many goldfish disappeared?",
+        "ground_truth": 2.0,
+        "response": "Step 1: 8 - 6 = 2  \nThe answer is 2  \n\nHypothesis: I subtracted the remaining goldfish from the initial number to find how many disappeared.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Robin cut off 13 inches of his hair. If his hair was 14 inches long initially How long is his hair now?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Start with the initial length of Robin's hair, which is 14 inches.  \nStep 2: Subtract the 13 inches that Robin cut off.  \n14 - 13 = 1  \n\nThe answer is 1  \n\nHypothesis: I subtracted the length of hair cut off from the initial length to determine how much hair Robin has left.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 25 cookies. He ate 5 of them. Then he bought 3 more cookies How many more cookies did he eat than those he bought?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Paco ate 5 cookies.  \nStep 2: Paco bought 3 more cookies.  \nStep 3: To find how many more cookies Paco ate than those he bought, subtract the number of cookies he bought from the number of cookies he ate: 5 - 3 = 2.  \n\nThe answer is 2  \n\nHypothesis: I subtracted the number of cookies Paco bought from the number he ate to determine how many more he ate than he bought.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake has 6 fewer peaches and 8 more apples than Steven. Steven has 17 peaches and 16 apples. How many more peaches than apples does Steven have?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Determine how many peaches Steven has.  \nSteven has 17 peaches.  \n\nStep 2: Determine how many apples Steven has.  \nSteven has 16 apples.  \n\nStep 3: Subtract the number of apples from the number of peaches to find how many more peaches Steven has than apples.  \n17 - 16 = 1  \n\nThe answer is 1  \n\nHypothesis: I compared the number of peaches and apples Steven has by subtracting the apples from the peaches to find the difference.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jessie currently weighs 9 kilograms. After she started to go jogging everyday she lost 62 kilograms in the first week and 140 kilograms in the second week. How much did she weigh before starting to jog?",
+        "ground_truth": 211.0,
+        "response": "Step 1: Add the weight lost in the first week and the second week.  \n62 + 140 = 202  \n\nStep 2: Add Jessie's current weight to the total weight lost.  \n202 + 9 = 211  \n\nThe answer is 211  \n\nHypothesis: I calculated the total weight lost by summing the weight lost in both weeks, then added Jessie's current weight to determine her original weight.",
+        "parsed_answer": 211.0,
+        "is_correct": true
+    },
+    {
+        "question": "Danny collects bottle caps and wrappers. He found 46 wrappers and 50 bottle caps at the park. Now he has 21 bottle caps and 52 wrappers in his collection. How many more bottle caps than wrappers did danny find at the park?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Determine how many bottle caps Danny found at the park.  \nDanny found 50 bottle caps at the park.\n\nStep 2: Determine how many wrappers Danny found at the park.  \nDanny found 46 wrappers at the park.\n\nStep 3: Calculate how many more bottle caps than wrappers Danny found at the park.  \n50 - 46 = 4.\n\nThe answer is 4.\n\nHypothesis: I compared the number of bottle caps and wrappers Danny found at the park by subtracting the wrappers from the bottle caps to find the difference.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake. The recipe calls for 3 cups of sugar and 10 cups of flour. She already put in some cups of flour. If she still needs 5 more cups of flour than sugar How many cups of flour did she put in?",
+        "ground_truth": 2.0,
+        "response": "Step 1: The recipe calls for 10 cups of flour in total. Mary still needs 5 more cups of flour than sugar. Since the recipe calls for 3 cups of sugar, she still needs 3 + 5 = 8 cups of flour.\n\nStep 2: If Mary still needs 8 cups of flour and the total required is 10 cups, then she must have already put in 10 - 8 = 2 cups of flour.\n\nThe answer is 2\n\nHypothesis: I calculated how much flour Mary still needs based on the relationship between flour and sugar, then subtracted that from the total required to find how much she already put in.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "An industrial machine worked for 5 minutes. It can make 4 shirts a minute. How many shirts did machine make?",
+        "ground_truth": 20.0,
+        "response": "Step 1: Determine how many shirts the machine makes in 1 minute. It makes 4 shirts per minute.  \nStep 2: Multiply the number of shirts made per minute by the total number of minutes the machine worked:  \n4 \u00d7 5 = 20  \n\nThe answer is 20  \n\nHypothesis: I multiplied the number of shirts the machine makes per minute by the total minutes it worked to find the total number of shirts produced.",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Razorback t-shirt shop makes $ 87 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 95 t-shirts. If they sold 47 t-shirts during the Arkansas game How much money did they make from selling the t-shirts?",
+        "ground_truth": 8265.0,
+        "response": "Step 1: Determine how many t-shirts were sold during the Texas Tech game.  \n95 (total t-shirts) - 47 (t-shirts sold during the Arkansas game) = 48 t-shirts.\n\nStep 2: Calculate the total revenue from the t-shirts sold during the Arkansas game.  \n47 (t-shirts) \u00d7 87 (dollars per t-shirt) = 4089 dollars.\n\nStep 3: Calculate the total revenue from the t-shirts sold during the Texas Tech game.  \n48 (t-shirts) \u00d7 87 (dollars per t-shirt) = 4176 dollars.\n\nStep 4: Add the revenue from both games to find the total revenue.  \n4089 (Arkansas game revenue) + 4176 (Texas Tech game revenue) = 8265 dollars.\n\nThe answer is 8265  \n\nHypothesis: I calculated the number of t-shirts sold during each game, then multiplied by the price per t-shirt to find the revenue for each game, and finally summed the revenues to get the total.",
+        "parsed_answer": 8265.0,
+        "is_correct": true
+    },
+    {
+        "question": "A waiter had 3 customers. After some more arrived he had 8 customers. How many new customers arrived?",
+        "ground_truth": 5.0,
+        "response": "Step 1: 8 - 3 = 5  \nThe answer is 5  \n\nHypothesis: I subtracted the initial number of customers from the total number of customers to find how many new customers arrived.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?",
+        "ground_truth": 13.0,
+        "response": "Step 1: 5 + 8 = 13  \nThe answer is 13  \n\nHypothesis: I added the number of emails Jack received in the afternoon and evening to find the total.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kelly has 46 nintendo games and 132 sony games. How many sony games does she need to give away so that she will have 31 sony games left?",
+        "ground_truth": 101.0,
+        "response": "Step 1: 132 - 31 = 101  \nThe answer is 101  \n\nHypothesis: I subtracted the number of sony games Kelly wants to keep from the total number of sony games she has to determine how many she needs to give away.",
+        "parsed_answer": 101.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Fred had 49 dollars and Jason had 3 dollars. Fred washed cars over the weekend and now has 112 dollars. Jason delivered newspapers and now has 63 dollars. How much money did Jason earn by delivering newspapers?",
+        "ground_truth": 60.0,
+        "response": "Step 1: Determine how much money Jason has now, which is 63 dollars.  \nStep 2: Subtract the amount of money Jason originally had (3 dollars) from the amount he has now (63 dollars).  \n63 - 3 = 60  \n\nThe answer is 60  \n\nHypothesis: I subtracted Jason's initial amount of money from his current amount to find how much he earned.",
+        "parsed_answer": 60.0,
+        "is_correct": true
+    },
+    {
+        "question": "Zachary did 46 push-ups and 58 crunches in gym class today. David did 38 more push-ups but 62 less crunches than zachary. How many more crunches than push-ups did Zachary do?",
+        "ground_truth": 12.0,
+        "response": "Step 1: Determine how many more crunches than push-ups Zachary did.  \nZachary did 58 crunches and 46 push-ups.  \n58 - 46 = 12  \n\nThe answer is 12  \n\nHypothesis: I subtracted the number of push-ups Zachary did from the number of crunches he did to find how many more crunches than push-ups he completed.",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Because of the decision Sofia asked 288 students to suggest specific types of food. 264 students suggested adding bacon while others suggested adding mashed potatoes to the menu. How many students suggested mashed potatoes?",
+        "ground_truth": 24.0,
+        "response": "Step 1: Total students asked = 288  \nStep 2: Students who suggested bacon = 264  \nStep 3: Subtract the number of students who suggested bacon from the total students asked:  \n288 - 264 = 24  \n\nThe answer is 24  \n\nHypothesis: I subtracted the number of students who suggested bacon from the total number of students asked to find how many suggested mashed potatoes.",
+        "parsed_answer": 24.0,
+        "is_correct": true
+    },
+    {
+        "question": "A waiter had 14 customers. 5 customers left. How many customers does he still have?",
+        "ground_truth": 9.0,
+        "response": "Step 1: 14 - 5 = 9  \nThe answer is 9  \n\nHypothesis: I subtracted the number of customers who left from the original total to find how many customers remain.",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 157 cakes and 169 pastries. If he sold 158 cakes and 147 pastries How many more cakes than pastries did baker sell?",
+        "ground_truth": 11.0,
+        "response": "Step 1: Determine how many cakes the baker sold.  \nThe baker sold 158 cakes.\n\nStep 2: Determine how many pastries the baker sold.  \nThe baker sold 147 pastries.\n\nStep 3: Subtract the number of pastries sold from the number of cakes sold to find how many more cakes than pastries were sold.  \n158 - 147 = 11\n\nThe answer is 11  \n\nHypothesis: I compared the number of cakes sold to the number of pastries sold by subtracting the pastries from the cakes to find the difference.",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "In Haley's class 13 boys love to play marbles and 50 boys love to play cards. If Haley has 26 marbles How many will each of the boys receive?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Determine the number of boys who love to play marbles. According to the problem, 13 boys love to play marbles.\n\nStep 2: Divide the total number of marbles (26) by the number of boys who love to play marbles (13).  \n26 \u00f7 13 = 2.\n\nThe answer is 2.\n\nHypothesis: I divided the total number of marbles by the number of boys who love to play marbles to find how many marbles each boy would receive.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "A mailman has to give 38 pieces of junk mail to each of the 78 blocks. If there are 19 houses on a block How many pieces of junk mail should he give each house?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Calculate the total number of pieces of junk mail for each block.  \nEach block receives 38 pieces of junk mail. Since there are 78 blocks, the total number of pieces of junk mail is:  \n38 \u00d7 78 = 2964.\n\nStep 2: Determine how many pieces of junk mail each house receives.  \nEach block has 19 houses, so the number of pieces of junk mail per house is:  \n2964 \u00f7 (78 \u00d7 19) = 38 \u00f7 19 = 2.\n\nThe answer is 2.\n\nHypothesis: I calculated the total junk mail for all blocks, then divided it by the number of houses per block to find how many pieces of junk mail each house receives.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Rebecca wants to split a collection of eggs into 3 groups. Rebecca has 4 marbles and 15 eggs. How many eggs will each group have?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Rebecca has 15 eggs, and she wants to split them into 3 groups. To find how many eggs each group will have, divide 15 by 3.  \nStep 2: 15 \u00f7 3 = 5.  \n\nThe answer is 5.  \n\nHypothesis: I divided the total number of eggs by the number of groups to determine how many eggs each group will have.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "36 campers went rowing in the morning 13 campers went rowing in the afternoon and 49 campers went rowing in the evening. How many campers went rowing in all?",
+        "ground_truth": 98.0,
+        "response": "Step 1: Add the number of campers who went rowing in the morning and the afternoon.  \n36 + 13 = 49  \n\nStep 2: Add the result to the number of campers who went rowing in the evening.  \n49 + 49 = 98  \n\nThe answer is 98  \n\nHypothesis: I summed the number of campers who went rowing in the morning, afternoon, and evening to find the total.",
+        "parsed_answer": 98.0,
+        "is_correct": true
+    },
+    {
+        "question": "Lewis earns $ 28 every week during the 1091 weeks of harvest. He also earns $ 939 per week for working overtime. If he works overtime every week How much money does he earn during harvest season?",
+        "ground_truth": 1054997.0,
+        "response": "Step 1: Calculate the total earnings from regular work.  \n$28 \u00d7 1091 = 30548  \n\nStep 2: Calculate the total earnings from overtime work.  \n$939 \u00d7 1091 = 1024149  \n\nStep 3: Add the earnings from regular work and overtime work.  \n$30548 + $1024149 = $1054697  \n\nThe answer is 1054697  \n\nHypothesis: I calculated the total earnings from regular work and overtime work separately, then added them together to find the total earnings during the harvest season.",
+        "parsed_answer": 1054697.0,
+        "is_correct": false
+    },
+    {
+        "question": "Lewis earns $ 368 every week during the 1359 weeks of harvest. If he has to pay $ 388 rent every week How much money does he pay as rent during the harvest season?",
+        "ground_truth": 527292.0,
+        "response": "Step 1: Calculate the total rent Lewis pays during the harvest season. Multiply the weekly rent by the number of weeks.  \n388 \u00d7 1359 = 527892  \n\nThe answer is 527892  \n\nHypothesis: I multiplied the weekly rent by the total number of weeks to find the total rent paid during the harvest season.",
+        "parsed_answer": 527892.0,
+        "is_correct": false
+    },
+    {
+        "question": "Randy has some blocks. He uses 52 blocks to build a tower. If there are 38 blocks left How many blocks did he have at the start?",
+        "ground_truth": 90.0,
+        "response": "Step 1: Randy used 52 blocks to build a tower, and there are 38 blocks left. To find the total number of blocks he had at the start, we add the blocks used and the blocks left.  \n52 + 38 = 90  \n\nThe answer is 90  \n\nHypothesis: I added the number of blocks used to the number of blocks left to determine the total number of blocks Randy had initially.",
+        "parsed_answer": 90.0,
+        "is_correct": true
+    },
+    {
+        "question": "He also had 56 aquariums for saltwater animals and 10 aquariums for freshwater animals. Each aquarium has 39 animals in it. How many saltwater animals does Tyler have?",
+        "ground_truth": 2184.0,
+        "response": "Step 1: Determine the number of saltwater aquariums Tyler has, which is 56.  \nStep 2: Each aquarium has 39 animals. Multiply the number of saltwater aquariums by the number of animals per aquarium:  \n56 \u00d7 39 = 2184.  \n\nThe answer is 2184.  \n\nHypothesis: I multiplied the number of saltwater aquariums by the number of animals per aquarium to find the total number of saltwater animals.",
+        "parsed_answer": 2184.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paul had 71 books. After selling some in a garage sale he bought 38 new ones. If he has 116 books now How many more books did he buy than he sold?",
+        "ground_truth": 45.0,
+        "response": "Step 1: Determine how many books Paul sold.  \nPaul started with 71 books, bought 38 new ones, and ended with 116 books. To find how many books he sold, calculate:  \n71 + 38 - 116 = 109 - 116 = 7.  \nPaul sold 7 books.  \n\nStep 2: Calculate how many more books Paul bought than he sold.  \nPaul bought 38 books and sold 7 books. To find the difference:  \n38 - 7 = 31.  \n\nThe answer is 31.  \n\nHypothesis: I calculated the number of books sold by subtracting the final count from the sum of the initial count and books bought. Then, I subtracted the number of books sold from the number of books bought to find the difference.",
+        "parsed_answer": 31.0,
+        "is_correct": false
+    },
+    {
+        "question": "Mary is baking a cake. The recipe calls for 6 cups of flour and 13 cups of sugar. She already put in some cups of flour. If she still needs 8 more cups of flour than sugar How many more cups of flour does she need to add?",
+        "ground_truth": 21.0,
+        "response": "Step 1: The recipe calls for 6 cups of flour and 13 cups of sugar. Mary still needs 8 more cups of flour than sugar. This means the total amount of flour she needs is 13 + 8 = 21 cups.\n\nStep 2: Mary already put in some cups of flour, but we need to determine how many more cups of flour she needs to add. Since the recipe calls for 21 cups of flour in total, the amount she still needs to add is 21 - 6 = 15 cups.\n\nHypothesis: I calculated the total amount of flour needed by adding 8 more cups to the sugar amount, then subtracted the flour already added to find how much more is required.\n\nThe answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": false
+    },
+    {
+        "question": "We ordered 17 pizzas. Each pizza has 4 slices. If there are 25 of us How many slices of pizza are there altogether?",
+        "ground_truth": 68.0,
+        "response": "Step 1: Calculate the total number of slices by multiplying the number of pizzas by the number of slices per pizza.  \n17 \u00d7 4 = 68  \n\nStep 2: There are 68 slices of pizza altogether.  \n\nThe answer is 68  \n\nHypothesis: I multiplied the number of pizzas by the number of slices per pizza to find the total number of slices.",
+        "parsed_answer": 68.0,
+        "is_correct": true
+    },
+    {
+        "question": "Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?",
+        "ground_truth": 72.0,
+        "response": "Step 1: Calculate the total number of items that can fit on one shelf.  \n8 action figures + 10 cabinets = 18 items per shelf.  \n\nStep 2: Multiply the number of items per shelf by the number of shelves.  \n18 items/shelf \u00d7 4 shelves = 72 items.  \n\nThe answer is 72  \n\nHypothesis: I calculated the total items per shelf by adding action figures and cabinets, then multiplied by the number of shelves to find the total capacity.",
+        "parsed_answer": 72.0,
+        "is_correct": true
+    },
+    {
+        "question": "Randy uses 36 blocks to build a tower. If he had 59 blocks How many blocks are left?",
+        "ground_truth": 23.0,
+        "response": "Step 1: Start with the total number of blocks Randy had, which is 59.  \nStep 2: Subtract the number of blocks Randy used to build the tower, which is 36.  \n59 - 36 = 23  \n\nThe answer is 23  \n\nHypothesis: I subtracted the number of blocks used to build the tower from the total number of blocks to find how many are left.",
+        "parsed_answer": 23.0,
+        "is_correct": true
+    },
+    {
+        "question": "21 children were riding on the bus. At the bus stop 10 children got off the bus while some more got on the bus. Then there were 16 children altogether on the bus. How many children got on the bus at the bus stop?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Start with the initial number of children on the bus, which is 21.  \nStep 2: Subtract the 10 children who got off the bus.  \n21 - 10 = 11.  \n\nStep 3: After 10 children got off, there were 11 children left on the bus. However, the problem states that there were 16 children on the bus after some more got on.  \nStep 4: Subtract the 11 children already on the bus from the total of 16 children to find how many got on.  \n16 - 11 = 5.  \n\nThe answer is 5.  \n\nHypothesis: I subtracted the children who got off the bus from the initial count, then calculated how many children got on by finding the difference between the remaining children and the total after the stop.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Julia played tag with 5 kids on monday. She played tag with some more kids on tuesday. If she played with a total of 15 kids How many kids did she play with on tuesday?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Total kids played with = 15  \nStep 2: Subtract the kids played with on Monday from the total: 15 - 5 = 10  \nThe answer is 10  \n\nHypothesis: I subtracted the number of kids Julia played with on Monday from the total number of kids to find how many she played with on Tuesday.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?",
+        "ground_truth": 17.0,
+        "response": "Step 1: Divide the total earnings by the number of t-shirts sold to find the cost per t-shirt.  \n51 \u00f7 3 = 17  \n\nThe answer is 17  \n\nHypothesis: I divided the total revenue by the number of t-shirts sold to determine the cost of each t-shirt.",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jack received 3 emails in the afternoon, 5 emails in the morning and 16 emails in the evening. How many more emails did Jack receive in the morning than in the afternoon?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Jack received 5 emails in the morning and 3 emails in the afternoon. To find how many more emails he received in the morning than in the afternoon, subtract the afternoon emails from the morning emails: 5 - 3 = 2.  \nThe answer is 2  \n\nHypothesis: I subtracted the number of emails received in the afternoon from the number received in the morning to determine the difference.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "He then went to see the oranges being harvested. He found out that they harvest 74 sacks per day and discard 71 of them. How many sacks of oranges will they have after 51 days of harvest?",
+        "ground_truth": 153.0,
+        "response": "Step 1: Calculate the number of sacks kept per day by subtracting the discarded sacks from the harvested sacks.  \n74 - 71 = 3  \n\nStep 2: Multiply the number of sacks kept per day by the number of days of harvest.  \n3 \u00d7 51 = 153  \n\nThe answer is 153  \n\nHypothesis: I subtracted the discarded sacks from the harvested sacks to find the number of sacks kept per day, then multiplied this by the number of days to find the total.",
+        "parsed_answer": 153.0,
+        "is_correct": true
+    },
+    {
+        "question": "A farmer had 160 tomatoes in his garden. If he picked 56 of them yesterday and 41 today. How many did he have left after yesterday's picking?",
+        "ground_truth": 104.0,
+        "response": "Step 1: Subtract the number of tomatoes picked yesterday from the total.  \n160 - 56 = 104  \n\nThe answer is 104  \n\nHypothesis: I subtracted the tomatoes picked yesterday from the total to find how many were left after yesterday's picking.",
+        "parsed_answer": 104.0,
+        "is_correct": true
+    },
+    {
+        "question": "After eating a hearty meal they went to see the Buckingham palace. There were 71 paintings in the Buckingham palace. There, Rachel learned that 557 visitors came to the Buckingham palace that day. If there were 188 visitors the previous day How many visited the Buckingham palace within 57 days?",
+        "ground_truth": 745.0,
+        "response": "Step 1: Calculate the total number of visitors for the two given days.  \n557 (visitors on the current day) + 188 (visitors on the previous day) = 745 visitors.\n\nStep 2: Determine the average number of visitors per day based on the two given days.  \n745 \u00f7 2 = 372.5 visitors per day.\n\nStep 3: Multiply the average number of visitors per day by 57 days to estimate the total number of visitors within 57 days.  \n372.5 \u00d7 57 = 21232.5.\n\nStep 4: Round the result to the nearest whole number since the number of visitors must be an integer.  \n21232.5 rounds to 21233.\n\nHypothesis: I calculated the total visitors for two days, found the average daily visitors, and multiplied by 57 days to estimate the total number of visitors over that period.\n\nThe answer is 21233.",
+        "parsed_answer": 21233.0,
+        "is_correct": false
+    },
+    {
+        "question": "Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?",
+        "ground_truth": 38608.0,
+        "response": "Step 1: 313473 - 274865 = 38608  \nThe answer is 38608  \n\nHypothesis: I subtracted the number of kids staying home from the total number of kids to find how many go to camp.",
+        "parsed_answer": 38608.0,
+        "is_correct": true
+    },
+    {
+        "question": "Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 519 chocolate chip cookies and 300 raisin cookies yesterday. And she baked 280 raisin cookies and 359 chocolate chip cookies this morning. How many more raisin cookies did Helen bake yesterday compared to today?",
+        "ground_truth": 20.0,
+        "response": "Step 1: Determine how many raisin cookies Helen baked yesterday.  \nHelen baked 300 raisin cookies yesterday.\n\nStep 2: Determine how many raisin cookies Helen baked today.  \nHelen baked 280 raisin cookies this morning.\n\nStep 3: Subtract the number of raisin cookies baked today from the number baked yesterday to find the difference.  \n300 - 280 = 20\n\nThe answer is 20\n\nHypothesis: I compared the number of raisin cookies baked yesterday to the number baked today by subtracting today's count from yesterday's count.",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the arcade Dave had won 13 tickets. If he used 8 to buy some toys and 18 more to buy some clothes How many more tickets did Dave use to buy clothes than he did to buy toys?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Determine how many tickets Dave used to buy toys. He used 8 tickets for toys.  \nStep 2: Determine how many tickets Dave used to buy clothes. He used 18 tickets for clothes.  \nStep 3: Subtract the tickets used for toys from the tickets used for clothes to find the difference:  \n18 - 8 = 10  \n\nThe answer is 10  \n\nHypothesis: I subtracted the number of tickets used for toys from the number of tickets used for clothes to find the difference.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "He then went to see the oranges being harvested. He found out that they harvest 76 sacks per day and discard 64 of them. How many oranges do they harvest per day if each sack contains 50 oranges?",
+        "ground_truth": 600.0,
+        "response": "Step 1: Calculate the total number of sacks harvested per day.  \nThe problem states that 76 sacks are harvested per day.  \n\nStep 2: Determine how many oranges are in the harvested sacks.  \nEach sack contains 50 oranges, so the total number of oranges harvested per day is:  \n76 \u00d7 50 = 3800  \n\nStep 3: Discarded sacks do not affect the total number of oranges harvested, as the question only asks for the total harvested.  \n\nThe answer is 3800  \n\nHypothesis: I multiplied the number of sacks harvested per day by the number of oranges per sack to find the total number of oranges harvested daily.",
+        "parsed_answer": 3800.0,
+        "is_correct": false
+    },
+    {
+        "question": "Debby drinks 6 bottles a day. If she bought a total of 12 water bottles How many days would they last her?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Divide the total number of water bottles by the number of bottles Debby drinks per day.  \n12 \u00f7 6 = 2  \n\nThe answer is 2  \n\nHypothesis: I divided the total number of water bottles by the daily consumption to determine how many days they would last.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Julia played tag with 16 kids on monday. If she played tag with 12 more kids on monday than on tuesday How many kids did she play with on tuesday?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Julia played with 16 kids on Monday. She played with 12 more kids on Monday than on Tuesday. To find the number of kids she played with on Tuesday, subtract 12 from 16.  \n16 - 12 = 4  \n\nThe answer is 4  \n\nHypothesis: I subtracted the difference in the number of kids between Monday and Tuesday from the number of kids she played with on Monday to find the count for Tuesday.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake has 18 fewer peaches than Steven who has 13 more peaches than Jill. Steven has 19 peaches. How many peaches does Jill have?",
+        "ground_truth": 6.0,
+        "response": "Step 1: Steven has 19 peaches, and he has 13 more peaches than Jill. To find how many peaches Jill has, subtract 13 from Steven's total:  \n19 - 13 = 6  \n\nThe answer is 6  \n\nHypothesis: I subtracted the difference between Steven's and Jill's peach count from Steven's total to determine Jill's peach count.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "A waiter had some customers. After 9 customers left he still had 12 customers. How many customers did he have at the start?",
+        "ground_truth": 21.0,
+        "response": "Step 1: Let the number of customers the waiter had at the start be \\( x \\).  \nStep 2: After 9 customers left, the waiter still had 12 customers. This means \\( x - 9 = 12 \\).  \nStep 3: Solve for \\( x \\):  \n\\( x = 12 + 9 = 21 \\).  \n\nThe answer is 21  \n\nHypothesis: I set up an equation to represent the situation, then solved for the initial number of customers by adding the number of customers who left to the remaining customers.",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?",
+        "ground_truth": 332.0,
+        "response": "Step 1: Calculate the total number of pages in the book.  \nEach chapter has 405 pages, and there are 2 chapters.  \n405 \u00d7 2 = 810 pages.\n\nStep 2: Determine how many chapters Frank read per day.  \nThe book has 2 chapters, and it took Frank 664 days to finish the book.  \n2 \u00f7 664 = 0.00301204819277 chapters per day.\n\nThe answer is 0.00301204819277  \n\nHypothesis: I calculated the total pages in the book, then divided the number of chapters by the number of days to find how many chapters Frank read per day.",
+        "parsed_answer": 0.00301204819277,
+        "is_correct": false
+    },
+    {
+        "question": "A book has 3 chapters. The first chapter is 53 pages long the second chapter is 75 pages long and the third chapter is 21 pages long. How many more pages does the first chapter have than the third chapter?",
+        "ground_truth": 32.0,
+        "response": "Step 1: Identify the number of pages in the first chapter and the third chapter.  \nFirst chapter: 53 pages  \nThird chapter: 21 pages  \n\nStep 2: Subtract the number of pages in the third chapter from the number of pages in the first chapter.  \n53 - 21 = 32  \n\nThe answer is 32  \n\nHypothesis: I subtracted the number of pages in the third chapter from the first chapter to determine how many more pages the first chapter has.",
+        "parsed_answer": 32.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?",
+        "ground_truth": 16.0,
+        "response": "Step 1: Start with the initial number of people on the bus, which is 12.  \nStep 2: Add the 4 people who got on the bus at the next stop:  \n12 + 4 = 16.  \n\nThe answer is 16.  \n\nHypothesis: I added the initial number of people on the bus to the number of people who got on at the next stop to find the total number of people on the bus.",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jack received 10 emails in the morning, 7 emails in the afternoon and 17 emails in the evening. How many more emails did Jack receive in the morning than in the afternoon?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Subtract the number of emails Jack received in the afternoon from the number he received in the morning.  \n10 - 7 = 3  \n\nThe answer is 3  \n\nHypothesis: I subtracted the number of emails received in the afternoon from the number received in the morning to find the difference.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "41 campers went rowing and 4 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many campers went rowing and hiking in all?",
+        "ground_truth": 71.0,
+        "response": "Step 1: Add the number of campers who went rowing in the morning and the afternoon.  \n41 + 26 = 67  \n\nStep 2: Add the number of campers who went hiking in the morning to the total number of campers who went rowing.  \n67 + 4 = 71  \n\nThe answer is 71  \n\nHypothesis: I added the campers who went rowing in the morning and afternoon, then added the campers who went hiking to find the total number of campers involved in activities.",
+        "parsed_answer": 71.0,
+        "is_correct": true
+    },
+    {
+        "question": "David did 30 more push-ups than Zachary in gym class today. If David did 37 push-ups How many push-ups did Zachary do?",
+        "ground_truth": 7.0,
+        "response": "Step 1: Let the number of push-ups Zachary did be \\( x \\).  \nStep 2: According to the problem, David did 30 more push-ups than Zachary, so \\( x + 30 = 37 \\).  \nStep 3: Solve for \\( x \\):  \n\\( x = 37 - 30 \\).  \nStep 4: \\( x = 7 \\).  \n\nThe answer is 7  \n\nHypothesis: I set up an equation to represent the relationship between David's and Zachary's push-ups, then solved for Zachary's push-ups.",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 12 roses and 2 orchids in the vase. Jessica cut some more roses and orchids from her flower garden. There are now 10 roses and 21 orchids in the vase. How many orchids did she cut?",
+        "ground_truth": 19.0,
+        "response": "Step 1: Determine the initial number of orchids in the vase.  \nThere were initially 2 orchids in the vase.  \n\nStep 2: Determine the current number of orchids in the vase.  \nThere are now 21 orchids in the vase.  \n\nStep 3: Subtract the initial number of orchids from the current number of orchids to find how many orchids Jessica cut.  \n21 - 2 = 19  \n\nThe answer is 19  \n\nHypothesis: I subtracted the initial number of orchids from the current number of orchids to find how many were added.",
+        "parsed_answer": 19.0,
+        "is_correct": true
+    },
+    {
+        "question": "Marco and his dad went strawberry picking. Together their strawberries weighed 4 pounds. Marco's strawberries weighed 19 pounds. How much more did his strawberries weigh than his dad's?",
+        "ground_truth": 34.0,
+        "response": "Step 1: The total weight of their strawberries is 4 pounds. Marco's strawberries alone weigh 19 pounds.  \nStep 2: To find how much more Marco's strawberries weigh than his dad's, we first calculate the weight of his dad's strawberries. Since the total weight is 4 pounds, and Marco's strawberries weigh 19 pounds, this situation is not possible because Marco's strawberries alone exceed the total weight.  \nStep 3: Reassess the problem. If the total weight is 4 pounds, Marco's strawberries cannot weigh 19 pounds. There seems to be an inconsistency in the problem.\n\nHypothesis: The problem contains conflicting information, as Marco's strawberries cannot weigh more than the total weight of both their strawberries combined. Therefore, the question cannot be answered as stated.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Jessie weighed 114 kilograms. After she started to go jogging everyday she lost 50 kilograms in the first week and 60 kilograms in the second week. How much does she weigh now?",
+        "ground_truth": 4.0,
+        "response": "Step 1: 50 + 60 = 110  \nStep 2: 114 - 110 = 4  \nThe answer is 4  \n\nHypothesis: I summed the weight lost in both weeks and subtracted it from Jessie's original weight to find her current weight.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "An industrial machine can make 6 shirts a minute. It worked for 5 minutes yesterday and for 12 minutes today. How many shirts did machine make today?",
+        "ground_truth": 72.0,
+        "response": "Step 1: Calculate how many shirts the machine made today.  \nThe machine makes 6 shirts per minute and worked for 12 minutes today.  \n6 \u00d7 12 = 72  \n\nThe answer is 72  \n\nHypothesis: I multiplied the number of shirts the machine makes per minute by the number of minutes it worked today to find the total shirts made.",
+        "parsed_answer": 72.0,
+        "is_correct": true
+    },
+    {
+        "question": "Josh had 20 marbles in his collection. He gave 2 marbles to Jack. How many marbles does Josh have now?",
+        "ground_truth": 18.0,
+        "response": "Step 1: Start with the total number of marbles Josh had, which is 20.  \nStep 2: Subtract the 2 marbles that Josh gave to Jack.  \n20 - 2 = 18  \n\nThe answer is 18  \n\nHypothesis: I subtracted the number of marbles Josh gave away from his original total to find how many he has left.",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?",
+        "ground_truth": 9.0,
+        "response": "Step 1: Jake initially brought 6 balloons to the park.  \nStep 2: Jake then bought 3 more balloons at the park.  \nStep 3: Add the balloons Jake initially brought to the ones he bought: 6 + 3 = 9.  \n\nThe answer is 9  \n\nHypothesis: I added the number of balloons Jake initially brought to the park to the number of balloons he bought at the park to find the total.",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "A grocery store had 49 bottles of regular soda, 40 bottles of diet soda and 6 bottles of lite soda. How many bottles of regular soda and diet soda did they have altogether?",
+        "ground_truth": 89.0,
+        "response": "Step 1: Add the number of regular soda bottles and diet soda bottles.  \n49 + 40 = 89  \n\nThe answer is 89  \n\nHypothesis: I added the number of regular soda bottles and diet soda bottles to find the total.",
+        "parsed_answer": 89.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tiffany was collecting cans for recycling. On monday she had some bags of cans. The next day she found 4 more bags worth of cans. If she had a total of 8 bags altogether How many bags did she have on monday?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Total bags = 8  \nStep 2: Bags found on Tuesday = 4  \nStep 3: Bags on Monday = Total bags - Bags found on Tuesday = 8 - 4 = 4  \nThe answer is 4  \n\nHypothesis: I subtracted the bags found on Tuesday from the total number of bags to determine how many bags Tiffany had on Monday.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "For Gwen's birthday she received 8 dollars from her mom. Her dad gave her 5 more dollars. If she spent 4 dollars. How much more money did she receive from her mom than she did from her dad?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Gwen received 8 dollars from her mom and 5 dollars from her dad. To find how much more money she received from her mom than her dad, subtract the amount her dad gave her from the amount her mom gave her:  \n8 - 5 = 3  \n\nStep 2: The amount she spent (4 dollars) is irrelevant to the question, as it only asks about the difference between the amounts received from her mom and dad.  \n\nThe answer is 3  \n\nHypothesis: I subtracted the amount Gwen's dad gave her from the amount her mom gave her to find the difference. The spending amount was not relevant to the question.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 8 sweet cookies and 6 salty cookies. He ate 20 sweet cookies and 34 salty cookies. How many more salty cookies than sweet cookies did he eat?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Determine how many sweet cookies Paco ate. Paco ate 20 sweet cookies.  \nStep 2: Determine how many salty cookies Paco ate. Paco ate 34 salty cookies.  \nStep 3: Subtract the number of sweet cookies eaten from the number of salty cookies eaten to find the difference.  \n34 - 20 = 14  \n\nThe answer is 14  \n\nHypothesis: I compared the number of salty cookies eaten to the number of sweet cookies eaten by subtracting the two values to find the difference.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 4 different books and 17 different movies in the ' crazy silly school ' series. If you read 19 of the books and watched 7 of the movies How many more movies do you still have to watch?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Determine the total number of movies in the series.  \nThere are 17 different movies in the series.\n\nStep 2: Subtract the number of movies already watched from the total number of movies.  \n17 - 7 = 10\n\nThe answer is 10  \n\nHypothesis: I subtracted the number of movies already watched from the total number of movies in the series to find how many more movies are left to watch.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Fred had 111 dollars and Jason had 40 dollars. Fred washed cars over the weekend and now has 115 dollars. Jason delivered newspapers and now has 44 dollars. How much money did they earn by washing cars?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Calculate how much money Fred earned.  \nFred started with 111 dollars and now has 115 dollars.  \n115 - 111 = 4  \n\nStep 2: Calculate how much money Jason earned.  \nJason started with 40 dollars and now has 44 dollars.  \n44 - 40 = 4  \n\nStep 3: Add the amounts Fred and Jason earned.  \n4 + 4 = 8  \n\nThe answer is 8  \n\nHypothesis: I calculated the difference between the initial and final amounts for both Fred and Jason, then summed their earnings to find the total amount earned.",
+        "parsed_answer": 8.0,
+        "is_correct": false
+    },
+    {
+        "question": "The ring toss game at the carnival made 382 dollars in the first 44 days and 374 dollars in the remaining 10 days. How much did they make in all?",
+        "ground_truth": 756.0,
+        "response": "Step 1: 382 + 374 = 756  \nThe answer is 756  \n\nHypothesis: I added the earnings from the first 44 days to the earnings from the remaining 10 days to find the total amount made.",
+        "parsed_answer": 756.0,
+        "is_correct": true
+    },
+    {
+        "question": "For 19 weeks of harvest Lewis earns a total of $ 133. How much money does he earn each week?",
+        "ground_truth": 7.0,
+        "response": "Step 1: To find how much Lewis earns each week, divide the total amount he earned by the number of weeks.  \n133 \u00f7 19 = 7  \n\nThe answer is 7  \n\nHypothesis: I divided the total earnings by the number of weeks to calculate the weekly earnings.",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 10 invitations in it and she bought 7 packs. If she sends invitations to only 2 friends How many invitations will be left?",
+        "ground_truth": 68.0,
+        "response": "Step 1: Calculate the total number of invitations Carol bought.  \n10 invitations per pack \u00d7 7 packs = 70 invitations.  \n\nStep 2: Subtract the number of invitations sent to friends.  \n70 - 2 = 68 invitations.  \n\nThe answer is 68  \n\nHypothesis: I multiplied the number of invitations per pack by the number of packs to find the total, then subtracted the invitations sent to friends to determine how many were left.",
+        "parsed_answer": 68.0,
+        "is_correct": true
+    },
+    {
+        "question": "You have 104 dollars. How many packs of dvds can you buy if each pack costs 26 dollars?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Determine how many packs of DVDs can be bought by dividing the total amount of money by the cost per pack.  \n104 \u00f7 26 = 4  \n\nThe answer is 4  \n\nHypothesis: I divided the total amount of money by the cost of each pack to find the number of packs that can be purchased.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Frank was reading through his favorite book. He read 8 pages per day. If the book had 576 pages How many days did he take to finish the book?",
+        "ground_truth": 72.0,
+        "response": "Step 1: Divide the total number of pages in the book by the number of pages Frank reads per day.  \n576 \u00f7 8 = 72  \n\nThe answer is 72  \n\nHypothesis: I divided the total number of pages in the book by the number of pages Frank reads per day to determine how many days it took him to finish the book.",
+        "parsed_answer": 72.0,
+        "is_correct": true
+    },
+    {
+        "question": "The school is planning a field trip. The school has 24 classrooms. There are 120 students in the school with each classroom having the same number of students. There are 84 seats on each school bus. How many students are in each class?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Determine the number of students in each classroom.  \nThe total number of students is 120, and there are 24 classrooms. To find the number of students per classroom, divide the total number of students by the number of classrooms:  \n120 \u00f7 24 = 5  \n\nThe answer is 5  \n\nHypothesis: I divided the total number of students by the number of classrooms to find the number of students in each class.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "For the walls of the house he would use 12 large planks of wood and 17 small planks. If each large plank of wood needs 14 pieces of nails to be secured and each small plank needs 25 nails. How many planks does John need for the house wall?",
+        "ground_truth": 29.0,
+        "response": "Step 1: Determine the total number of planks needed.  \nJohn needs 12 large planks and 17 small planks.  \nTotal planks = 12 + 17 = 29.  \n\nThe answer is 29.  \n\nHypothesis: I added the number of large planks and small planks to find the total number of planks needed for the house wall.",
+        "parsed_answer": 29.0,
+        "is_correct": true
+    },
+    {
+        "question": "The ring toss game at the carnival made the same amount of money each day. In total in 30 days they earned 420 dollars. Together with game they earned 22 dollars. How much did ring toss game make per day?",
+        "ground_truth": 14.0,
+        "response": "Step 1: Determine how much money the ring toss game made in total.  \nThe total earnings from the carnival games were $420, and together with another game, they earned $22. This means the ring toss game made $420 - $22 = $398.\n\nStep 2: Calculate how much the ring toss game made per day.  \nThe ring toss game made $398 in 30 days. To find the daily earnings, divide the total by the number of days: $398 \u00f7 30 = $13.27.\n\nThe answer is 13.27\n\nHypothesis: I subtracted the earnings of the other game from the total to find the ring toss game's total earnings, then divided by the number of days to find the daily earnings.",
+        "parsed_answer": 13.27,
+        "is_correct": false
+    },
+    {
+        "question": "Adam could fit 11 action figures on each shelf in his room. His room has 4 shelves and 40 cabinets. How many total action figures could his shelves hold?",
+        "ground_truth": 44.0,
+        "response": "Step 1: Determine how many action figures can fit on one shelf. Adam can fit 11 action figures on each shelf.\n\nStep 2: Multiply the number of action figures per shelf by the number of shelves.  \n11 \u00d7 4 = 44\n\nStep 3: The cabinets are not relevant to the problem since the question only asks about the shelves.\n\nThe answer is 44\n\nHypothesis: I multiplied the number of action figures per shelf by the number of shelves to find the total capacity of the shelves. The cabinets were not included in the calculation as they are unrelated to the question.",
+        "parsed_answer": 44.0,
+        "is_correct": true
+    },
+    {
+        "question": "In a school there are 697 girls and the rest are boys. If there are 228 more girls than boys How many boys are there in that school?",
+        "ground_truth": 469.0,
+        "response": "Step 1: Let the number of boys in the school be \\( x \\). According to the problem, there are 228 more girls than boys. This means the number of girls is \\( x + 228 \\).\n\nStep 2: The total number of girls is given as 697. Therefore, we can set up the equation:\n\\[\nx + 228 = 697\n\\]\n\nStep 3: Solve for \\( x \\) by subtracting 228 from both sides:\n\\[\nx = 697 - 228\n\\]\n\nStep 4: Perform the subtraction:\n\\[\nx = 469\n\\]\n\nThe answer is 469\n\nHypothesis: I set up an equation where the number of boys plus the difference equals the number of girls, then solved for the number of boys.",
+        "parsed_answer": 469.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paul got a box of 531 crayons and 38 erasers for his birthday. At the end of the school year he only had 391 left while not having lost a single erasers. How many more crayons than erasers did he have left?",
+        "ground_truth": 353.0,
+        "response": "Step 1: Determine how many crayons Paul lost.  \nPaul started with 531 crayons and ended with 391 crayons.  \n531 - 391 = 140 crayons lost.  \n\nStep 2: Calculate how many crayons Paul has left.  \nPaul has 391 crayons left.  \n\nStep 3: Determine how many erasers Paul has left.  \nPaul did not lose any erasers, so he still has 38 erasers.  \n\nStep 4: Calculate how many more crayons than erasers Paul has left.  \n391 (crayons) - 38 (erasers) = 353.  \n\nThe answer is 353  \n\nHypothesis: I subtracted the crayons lost to find how many were left, then compared the remaining crayons to the erasers to find the difference.",
+        "parsed_answer": 353.0,
+        "is_correct": true
+    },
+    {
+        "question": "Matthew had 15 crackers. If Matthew gave equal numbers of crackers to his 5 friends and still had 10 crackers left How many crackers did each friend eat?",
+        "ground_truth": 1.0,
+        "response": "Step 1: Matthew started with 15 crackers and still had 10 crackers left after giving some to his friends. To find out how many crackers he gave away, subtract the remaining crackers from the total:  \n15 - 10 = 5.\n\nStep 2: Matthew gave these 5 crackers equally to his 5 friends. To find out how many crackers each friend ate, divide the total crackers given by the number of friends:  \n5 \u00f7 5 = 1.\n\nThe answer is 1.\n\nHypothesis: I subtracted the remaining crackers from the total to find how many were given away, then divided that number by the number of friends to determine how many crackers each friend ate.",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "A book has 2 chapters across 23 pages. The first chapter is 10 pages long. How many pages are in the first chapter?",
+        "ground_truth": 13.0,
+        "response": "Step 1: The problem states that the first chapter is 10 pages long.  \nThe answer is 10  \n\nHypothesis: The problem directly provides the number of pages in the first chapter, so no calculations were needed.",
+        "parsed_answer": 10.0,
+        "is_correct": false
+    },
+    {
+        "question": "For the walls of the house John would use large planks of wood. Each plank needs 2 pieces of nails to be secured and he would use 16 planks. How many nails does John need for the house wall?",
+        "ground_truth": 32.0,
+        "response": "Step 1: Each plank requires 2 nails. Multiply the number of nails per plank by the total number of planks: 2 \u00d7 16 = 32.  \nThe answer is 32  \n\nHypothesis: I multiplied the number of nails needed per plank by the total number of planks to find the total number of nails required.",
+        "parsed_answer": 32.0,
+        "is_correct": true
+    },
+    {
+        "question": "Each basket of peaches has 19 red peaches and 4 green peaches. If there are 15 such baskets How many peaches are in the baskets altogether?",
+        "ground_truth": 345.0,
+        "response": "Step 1: Calculate the total number of peaches in one basket.  \n19 red peaches + 4 green peaches = 23 peaches per basket.  \n\nStep 2: Multiply the number of peaches per basket by the total number of baskets.  \n23 peaches \u00d7 15 baskets = 345 peaches.  \n\nThe answer is 345  \n\nHypothesis: I calculated the total peaches in one basket and multiplied it by the number of baskets to find the total.",
+        "parsed_answer": 345.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 81 cakes. Then he made 92 more cakes. He sold 46 of them. How many more cakes did baker make than those he sold?",
+        "ground_truth": 127.0,
+        "response": "Step 1: Calculate the total number of cakes the baker made.  \n81 + 92 = 173  \n\nStep 2: Subtract the number of cakes sold from the total number of cakes made to find the difference.  \n173 - 46 = 127  \n\nThe answer is 127  \n\nHypothesis: I added the cakes the baker made to find the total, then subtracted the cakes sold to determine how many more cakes were made than sold.",
+        "parsed_answer": 127.0,
+        "is_correct": true
+    },
+    {
+        "question": "29 campers went rowing and 66 campers went hiking in the morning. 26 campers went rowing in the afternoon. How many more campers went rowing in the morning than in the afternoon?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Identify the number of campers who went rowing in the morning and in the afternoon. Morning: 29, Afternoon: 26.  \nStep 2: Subtract the number of campers who went rowing in the afternoon from the number who went rowing in the morning.  \n29 - 26 = 3.  \n\nThe answer is 3  \n\nHypothesis: I subtracted the number of campers who went rowing in the afternoon from the number who went rowing in the morning to find the difference.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Razorback shop makes $ 86 dollars off each t-shirt and $ 232 off each jersey. During the Arkansas and Texas tech game they sold 254 t-shirts and 43 jerseys. How much more does a jersey cost than a t-shirt?",
+        "ground_truth": 146.0,
+        "response": "Step 1: Subtract the cost of a t-shirt from the cost of a jersey.  \n232 - 86 = 146  \n\nThe answer is 146  \n\nHypothesis: I subtracted the cost of a t-shirt from the cost of a jersey to determine how much more a jersey costs.",
+        "parsed_answer": 146.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Razorback t-shirt shop makes $ 106 dollars off each t-shirt sold. During the Arkansas game and the Texas tech game they sold a total of 242 t-shirts. If they sold 115 t-shirts during the Arkansas game How many t-shirts did they sell during the Texas tech game?",
+        "ground_truth": 127.0,
+        "response": "Step 1: Total t-shirts sold = 242  \nStep 2: T-shirts sold during Arkansas game = 115  \nStep 3: T-shirts sold during Texas Tech game = Total t-shirts sold - T-shirts sold during Arkansas game  \nStep 4: 242 - 115 = 127  \n\nThe answer is 127  \n\nHypothesis: I subtracted the number of t-shirts sold during the Arkansas game from the total number of t-shirts sold to find the number sold during the Texas Tech game.",
+        "parsed_answer": 127.0,
+        "is_correct": true
+    },
+    {
+        "question": "White t - shirts can be purchased in packages. If mom buys 28 packages which contain 56 white t - shirts in total How many white t - shirts does each package have?",
+        "ground_truth": 2.0,
+        "response": "Step 1: To find how many white t-shirts each package contains, divide the total number of t-shirts by the number of packages.  \n56 \u00f7 28 = 2  \n\nThe answer is 2  \n\nHypothesis: I divided the total number of t-shirts by the number of packages to determine how many t-shirts are in each package.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paul got a box of 267 crayons for his birthday. During the school year he lost 231 crayons while he gave away 308 crayons to his friends. How many more crayons did he give to his friends than those he lost?",
+        "ground_truth": 77.0,
+        "response": "Step 1: Determine how many more crayons Paul gave away than he lost by subtracting the number of crayons he lost from the number he gave away.  \n308 - 231 = 77  \n\nThe answer is 77  \n\nHypothesis: I subtracted the number of crayons Paul lost from the number he gave away to find the difference.",
+        "parsed_answer": 77.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 40 cookies. He ate 2 of them. Then he bought 37 more cookies How many cookies did Paco have left?",
+        "ground_truth": 75.0,
+        "response": "Step 1: Paco started with 40 cookies and ate 2 of them. Subtract 2 from 40:  \n40 - 2 = 38  \n\nStep 2: Paco then bought 37 more cookies. Add 37 to the remaining 38 cookies:  \n38 + 37 = 75  \n\nThe answer is 75  \n\nHypothesis: I subtracted the cookies Paco ate from his initial amount, then added the cookies he bought to find the total remaining.",
+        "parsed_answer": 75.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 10 different books and 6 different movies in the ' crazy silly school ' series. If you read 14 of the movies and watched 19 of the books How many more books than movies have you read?",
+        "ground_truth": 5.0,
+        "response": "Step 1: The problem states that there are 10 books and 6 movies in the series. However, it also says you read 14 movies and watched 19 books, which is inconsistent with the given numbers of books and movies. This suggests a misunderstanding or error in the problem's phrasing.\n\nStep 2: Assuming the question intends to ask how many more books than movies you have read, we interpret \"read 14 of the movies\" and \"watched 19 of the books\" as reversed. Thus, you read 19 books and watched 14 movies.\n\nStep 3: Calculate the difference between the number of books read and movies watched:  \n19 - 14 = 5.\n\nThe answer is 5.\n\nHypothesis: I interpreted the problem as asking for the difference between books read and movies watched, assuming a reversal in the phrasing of the problem. I subtracted the number of movies from the number of books to find the difference.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ed had 29 more marbles than Doug. Ed lost 17 of his marbles at the playground. How many more marbles did Ed have than Doug then?",
+        "ground_truth": 12.0,
+        "response": "Step 1: Ed initially had 29 more marbles than Doug.  \nStep 2: Ed lost 17 marbles, so the difference between Ed's and Doug's marbles is now reduced by 17.  \nStep 3: 29 - 17 = 12.  \n\nThe answer is 12.  \n\nHypothesis: I subtracted the marbles Ed lost from the initial difference to find how many more marbles Ed had than Doug after losing some.",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 26 salty cookies and 17 sweet cookies. He ate 14 sweet cookies and 9 salty cookies. How many salty cookies did Paco have left?",
+        "ground_truth": 17.0,
+        "response": "Step 1: Start with the number of salty cookies Paco had, which is 26.  \nStep 2: Subtract the number of salty cookies Paco ate, which is 9.  \n26 - 9 = 17  \n\nThe answer is 17  \n\nHypothesis: I subtracted the number of salty cookies Paco ate from the total number of salty cookies he originally had to find how many were left.",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "Edward spent $ 6 to buy books and $ 16 to buy pens. Now he has $ 19. How much did Edward have before he spent his money?",
+        "ground_truth": 41.0,
+        "response": "Step 1: Add the amount Edward spent on books and pens.  \n6 + 16 = 22  \n\nStep 2: Add the total amount spent to the amount Edward has now.  \n22 + 19 = 41  \n\nThe answer is 41  \n\nHypothesis: I added the money Edward spent on books and pens, then added that total to the money he currently has to determine how much he had initially.",
+        "parsed_answer": 41.0,
+        "is_correct": true
+    },
+    {
+        "question": "4 birds and 6 storks were sitting on the fence. 2 more storks came to join them. How many storks are sitting on the fence?",
+        "ground_truth": 8.0,
+        "response": "Step 1: Start with the initial number of storks, which is 6.  \nStep 2: Add the 2 storks that joined them: 6 + 2 = 8.  \n\nThe answer is 8  \n\nHypothesis: I added the initial number of storks to the number of storks that joined to find the total number of storks on the fence.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Baker made 13 cakes. He sold 91 of them and bought 154 new cakes. How many more cakes did baker buy than those he sold?",
+        "ground_truth": 63.0,
+        "response": "Step 1: Identify the number of cakes the baker sold, which is 91.  \nStep 2: Identify the number of cakes the baker bought, which is 154.  \nStep 3: Subtract the number of cakes sold from the number of cakes bought to find how many more cakes the baker bought than those he sold:  \n154 - 91 = 63.  \n\nThe answer is 63  \n\nHypothesis: I subtracted the number of cakes sold from the number of cakes bought to determine the difference.",
+        "parsed_answer": 63.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 100 dollars in Olivia's wallet. She collected 148 more dollars from an atm. After she visited a supermarket there were 159 dollars left. How much did she spend?",
+        "ground_truth": 89.0,
+        "response": "Step 1: Add the initial amount of money in Olivia's wallet to the amount she collected from the ATM.  \n100 + 148 = 248  \n\nStep 2: Subtract the amount of money left after visiting the supermarket from the total amount she had.  \n248 - 159 = 89  \n\nThe answer is 89  \n\nHypothesis: I added the initial amount of money to the amount collected from the ATM to find the total. Then, I subtracted the remaining amount after shopping to determine how much she spent.",
+        "parsed_answer": 89.0,
+        "is_correct": true
+    },
+    {
+        "question": "After resting they decided to go for a swim. The depth of the water is 15 times Dean's height. Dean is 4 feet taller than Ron. If Ron stands at 13 feet How deep was the water?",
+        "ground_truth": 255.0,
+        "response": "Step 1: Determine Dean's height. Ron's height is 13 feet, and Dean is 4 feet taller than Ron.  \nDean's height = 13 + 4 = 17 feet.\n\nStep 2: Calculate the depth of the water. The depth of the water is 15 times Dean's height.  \nDepth of water = 15 \u00d7 17 = 255 feet.\n\nThe answer is 255\n\nHypothesis: I first calculated Dean's height by adding the difference in height to Ron's height. Then, I multiplied Dean's height by the given factor to find the depth of the water.",
+        "parsed_answer": 255.0,
+        "is_correct": true
+    },
+    {
+        "question": "Being his favorite, he saved checking on the grapevines for his last stop. He was told by 294 of the pickers that they fill 244 drums of grapes per day and 47 drums of raspberries per day. How many drums of grapes would be filled in 146 days?",
+        "ground_truth": 35624.0,
+        "response": "Step 1: Determine how many drums of grapes are filled per day. This is given as 244 drums per day.\n\nStep 2: Multiply the number of drums filled per day by the number of days to find the total.  \n244 \u00d7 146 = 35624\n\nThe answer is 35624\n\nHypothesis: I multiplied the daily number of drums of grapes by the total number of days to calculate the total number of drums filled.",
+        "parsed_answer": 35624.0,
+        "is_correct": true
+    },
+    {
+        "question": "Haley grew 9 trees in her backyard. After a typhoon 4 died. Then she grew 5 more trees. How many trees does she have left?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Start with the initial number of trees Haley grew, which is 9.  \nStep 2: Subtract the 4 trees that died due to the typhoon: 9 - 4 = 5.  \nStep 3: Add the 5 new trees she grew: 5 + 5 = 10.  \n\nThe answer is 10.  \n\nHypothesis: I subtracted the trees that died from the initial count, then added the new trees she grew to find the total number of trees left.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?",
+        "ground_truth": 66.0,
+        "response": "Step 1: Determine how far the frog jumped. Since the grasshopper jumped 4 inches farther than the frog, subtract 4 from the grasshopper's jump:  \n35 - 4 = 31 inches.  \n\nStep 2: Add the distances jumped by the grasshopper and the frog to find the total:  \n35 + 31 = 66 inches.  \n\nThe answer is 66  \n\nHypothesis: I calculated the frog's jump by subtracting the difference from the grasshopper's jump, then added both jumps to find the total distance.",
+        "parsed_answer": 66.0,
+        "is_correct": true
+    },
+    {
+        "question": "Steven has 14 peaches. Jake has 6 fewer peaches than Steven and 3 more peaches than Jill. How many peaches does Jill have?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Jake has 6 fewer peaches than Steven. Steven has 14 peaches, so Jake has 14 - 6 = 8 peaches.  \nStep 2: Jake has 3 more peaches than Jill. Jake has 8 peaches, so Jill has 8 - 3 = 5 peaches.  \nThe answer is 5  \n\nHypothesis: I first calculated how many peaches Jake has by subtracting from Steven's total, then determined Jill's peaches by subtracting from Jake's total.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mom buys 51 white t - shirts. If white t - shirts can be purchased in packages of 3 How many packages will she have?",
+        "ground_truth": 17.0,
+        "response": "Step 1: Divide the total number of white t-shirts by the number of t-shirts per package.  \n51 \u00f7 3 = 17  \n\nThe answer is 17  \n\nHypothesis: I divided the total number of t-shirts by the number of t-shirts in each package to determine how many packages Mom will have.",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "Nell collects baseball cards. She had 242 cards. She gave 136 of her cards to Jeff. How many cards does Nell have left?",
+        "ground_truth": 106.0,
+        "response": "Step 1: 242 - 136 = 106  \nThe answer is 106  \n\nHypothesis: I subtracted the number of cards Nell gave to Jeff from her original total to find how many cards she has left.",
+        "parsed_answer": 106.0,
+        "is_correct": true
+    },
+    {
+        "question": "Bobby had 19 pieces of candy. He ate 2 pieces of candy. How many pieces of candy does he still have left?",
+        "ground_truth": 17.0,
+        "response": "Step 1: 19 - 2 = 17  \nThe answer is 17  \n\nHypothesis: I subtracted the number of pieces Bobby ate from the total number of pieces he originally had to find how many he has left.",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "He then went to see the oranges being harvested. He found out that they harvest 5 sacks of ripe oranges and 74 sacks of unripe oranges per day. How many more sacks of unripe oranges than ripe oranges are harvested per day?",
+        "ground_truth": 69.0,
+        "response": "Step 1: 74 - 5 = 69  \nThe answer is 69  \n\nHypothesis: I subtracted the number of ripe orange sacks from the number of unripe orange sacks to find the difference.",
+        "parsed_answer": 69.0,
+        "is_correct": true
+    },
+    {
+        "question": "After resting they decided to go for a swim. The depth of the water is 16 times Ron's height. Dean is 9 feet taller than Ron. If Ron stands at 13 feet How deep was the water?",
+        "ground_truth": 208.0,
+        "response": "Step 1: Ron's height is given as 13 feet. The depth of the water is 16 times Ron's height.  \nDepth of water = 16 \u00d7 13 = 208 feet.\n\nStep 2: Dean's height being 9 feet taller than Ron is additional information that is not needed to calculate the depth of the water.\n\nThe answer is 208.\n\nHypothesis: I multiplied Ron's height by the given factor (16) to determine the depth of the water. Dean's height was irrelevant to the calculation.",
+        "parsed_answer": 208.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?",
+        "ground_truth": 7.0,
+        "response": "Step 1: Start with the total number of sweet cookies Paco had, which is 22.  \nStep 2: Subtract the number of sweet cookies Paco ate, which is 15.  \n22 - 15 = 7  \n\nThe answer is 7  \n\nHypothesis: I subtracted the number of sweet cookies Paco ate from the total number of sweet cookies he originally had to find how many were left.",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 87 oranges and 290 bananas in Philip's collection. If the bananas are organized into 2 groups and oranges are organized into 93 groups How big is each group of bananas?",
+        "ground_truth": 145.0,
+        "response": "Step 1: Determine the size of each group of bananas by dividing the total number of bananas by the number of groups.  \n290 \u00f7 2 = 145  \n\nThe answer is 145  \n\nHypothesis: I divided the total number of bananas by the number of groups to find the size of each group.",
+        "parsed_answer": 145.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dave had 16 apps and 77 files on his phone. After deleting some apps and files he had 5 apps and 23 files left. How many apps did he delete?",
+        "ground_truth": 11.0,
+        "response": "Step 1: 16 - 5 = 11  \nThe answer is 11  \n\nHypothesis: I subtracted the remaining apps from the original number of apps to find how many were deleted.",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?",
+        "ground_truth": 22.0,
+        "response": "Step 1: Add the number of red peaches and green peaches.  \n6 (red peaches) + 16 (green peaches) = 22  \n\nThe answer is 22  \n\nHypothesis: I added the number of red peaches and green peaches to find the total of those two types.",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were 7 roses in the vase. Jessica cut some more roses from her flower garden which had a total of 59 roses. There are now 20 roses in the vase. How many roses did she cut?",
+        "ground_truth": 13.0,
+        "response": "Step 1: Start with the initial number of roses in the vase, which is 7.  \nStep 2: Subtract the initial number of roses from the current total in the vase to find how many roses Jessica added.  \n20 - 7 = 13  \n\nThe answer is 13  \n\nHypothesis: I subtracted the initial number of roses in the vase from the current total to determine how many roses Jessica cut and added.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jack received a total of 9 emails in the day. If he received 7 emails in the morning and some more in the afternoon How many emails did Jack receive in the afternoon?",
+        "ground_truth": 2.0,
+        "response": "Step 1: Jack received a total of 9 emails in the day. He received 7 emails in the morning. To find how many emails he received in the afternoon, subtract the morning emails from the total emails:  \n9 - 7 = 2  \n\nThe answer is 2  \n\nHypothesis: I subtracted the number of emails received in the morning from the total number of emails to determine how many were received in the afternoon.",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "For Gwen's birthday she received 2 dollars from her mom. Her dad gave her 4 more dollars. If she spent 3 dollars. How much money did she still have?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Add the money Gwen received from her mom and dad.  \n2 + 4 = 6  \n\nStep 2: Subtract the amount Gwen spent from the total money she received.  \n6 - 3 = 3  \n\nThe answer is 3  \n\nHypothesis: I added the money Gwen received from her mom and dad, then subtracted the amount she spent to find how much she still had.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jerry had 4 action figures and 22 books on a shelf in his room. Later he added 6 more action figures to the shelf. How many action figures were on his shelf in all?",
+        "ground_truth": 10.0,
+        "response": "Step 1: Jerry initially had 4 action figures.  \nStep 2: He added 6 more action figures to the shelf.  \nStep 3: 4 + 6 = 10  \n\nThe answer is 10  \n\nHypothesis: I added the initial number of action figures to the number of action figures added later to find the total.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Winter is almost here and most animals are migrating to warmer countries. There were 89 bird families living near the mountain. If 60 bird families flew away for winter How many more bird families flew away for the winter than those that stayed behind?",
+        "ground_truth": 31.0,
+        "response": "Step 1: Determine how many bird families stayed behind.  \n89 - 60 = 29  \n\nStep 2: Calculate how many more bird families flew away than stayed behind.  \n60 - 29 = 31  \n\nThe answer is 31  \n\nHypothesis: I subtracted the bird families that flew away from the total to find those that stayed, then found the difference between the two groups.",
+        "parsed_answer": 31.0,
+        "is_correct": true
+    },
+    {
+        "question": "Last week Fred had 114 dollars and Jason had 22 dollars. They washed cars over the weekend and now Fred has 21 dollars and Jason has 78 dollars. How much money did Jason make over the weekend?",
+        "ground_truth": 56.0,
+        "response": "Step 1: Determine how much money Jason has now. Jason has 78 dollars.  \nStep 2: Subtract the amount of money Jason had initially from the amount he has now to find how much he made.  \n78 - 22 = 56  \n\nThe answer is 56  \n\nHypothesis: I subtracted Jason's initial amount of money from his current amount to calculate how much he made over the weekend.",
+        "parsed_answer": 56.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 896 skittles in Steven's skittles collection. Steven also has 517 erasers and 90 scales. If the skittles are organized into 8 groups How big is each group?",
+        "ground_truth": 112.0,
+        "response": "Step 1: Identify the total number of skittles, which is 896.  \nStep 2: Divide the total number of skittles by the number of groups:  \n896 \u00f7 8 = 112.  \n\nThe answer is 112.  \n\nHypothesis: I divided the total number of skittles by the number of groups to determine the size of each group.",
+        "parsed_answer": 112.0,
+        "is_correct": true
+    },
+    {
+        "question": "Lucy went to the grocery store. She bought 23 packs of cookie and some packs of cake. In total she had 27 packs of grocery How many packs of cake did she buy in all?",
+        "ground_truth": 4.0,
+        "response": "Step 1: Lucy bought 23 packs of cookies, and the total number of grocery packs is 27. To find the number of packs of cake, subtract the number of cookie packs from the total packs.  \n27 - 23 = 4  \n\nThe answer is 4  \n\nHypothesis: I subtracted the number of cookie packs from the total number of grocery packs to determine the number of cake packs.",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Zachary did 59 push-ups and 44 crunches in gym class today. David did 19 more push-ups but 27 less crunches than zachary. How many push-ups did David do?",
+        "ground_truth": 78.0,
+        "response": "Step 1: Zachary did 59 push-ups. David did 19 more push-ups than Zachary.  \nStep 2: 59 + 19 = 78  \n\nThe answer is 78  \n\nHypothesis: I added the additional push-ups David did to Zachary's push-ups to find David's total.",
+        "parsed_answer": 78.0,
+        "is_correct": true
+    },
+    {
+        "question": "The ring toss game at the carnival made 120 dollars in the first 20 days and 66 dollars in the remaining 16 days. How much did they make per day in the first 20 days at the carnival?",
+        "ground_truth": 6.0,
+        "response": "Step 1: The total amount made in the first 20 days is $120. To find how much they made per day, divide the total amount by the number of days.  \n120 \u00f7 20 = 6  \n\nThe answer is 6  \n\nHypothesis: I divided the total earnings in the first 20 days by the number of days to calculate the daily earnings.",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mary is baking a cake. The recipe calls for 6 cups of sugar and 14 cups of flour. She already put in 7 cups of flour and 60 cups of sugar. How many more cups of flour does she need to add?",
+        "ground_truth": 7.0,
+        "response": "Step 1: Determine how many cups of flour the recipe calls for. The recipe requires 14 cups of flour.  \nStep 2: Subtract the amount of flour Mary has already added from the total required.  \n14 - 7 = 7  \n\nThe answer is 7  \n\nHypothesis: I subtracted the amount of flour already added from the total required to find how many more cups of flour Mary needs to add.",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 3 invitations in it and she bought 2 packs. If she wants to invite 9 friends How many extra invitations will she need to buy?",
+        "ground_truth": 3.0,
+        "response": "Step 1: Calculate the total number of invitations Carol currently has.  \nEach package has 3 invitations, and she bought 2 packs.  \n3 \u00d7 2 = 6 invitations.\n\nStep 2: Determine how many more invitations Carol needs.  \nShe wants to invite 9 friends, so she needs 9 invitations.  \n9 - 6 = 3 extra invitations.\n\nThe answer is 3  \n\nHypothesis: I calculated the total number of invitations Carol already has, then subtracted that from the number of invitations she needs to determine how many extra she must buy.",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mom buys 70 white t - shirts in total. If white t - shirts can be purchased in packages and mom buys 14 packages How many white t - shirts does each package have?",
+        "ground_truth": 5.0,
+        "response": "Step 1: To find how many white t-shirts are in each package, divide the total number of t-shirts by the number of packages.  \n70 \u00f7 14 = 5  \n\nThe answer is 5  \n\nHypothesis: I divided the total number of t-shirts by the number of packages to determine how many t-shirts are in each package.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Bobby had 20 pieces of candy. He ate 34 pieces of candy. Then he ate 18 more. How many pieces of candy did Bobby eat?",
+        "ground_truth": 52.0,
+        "response": "Step 1: Bobby ate 34 pieces of candy initially.  \nStep 2: Then he ate 18 more pieces of candy.  \nStep 3: Add the two amounts: 34 + 18 = 52.  \n\nThe answer is 52  \n\nHypothesis: I added the two amounts of candy Bobby ate to find the total.",
+        "parsed_answer": 52.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ed had 5 more marbles than Doug. Doug lost 3 of his marbles at the playground. If Ed had 27 marbles How many marbles did Doug have initially?",
+        "ground_truth": 22.0,
+        "response": "Step 1: Ed had 5 more marbles than Doug. Let the number of marbles Doug initially had be \\( x \\). Therefore, \\( x + 5 = 27 \\).  \nStep 2: Solve for \\( x \\):  \n\\( x = 27 - 5 \\)  \n\\( x = 22 \\).  \n\nThe answer is 22  \n\nHypothesis: I set up an equation based on the relationship between Ed's and Doug's marbles, then solved for Doug's initial count.",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paco had 36 cookies. He gave 14 cookies to his friend and ate 10 cookies. How many cookies did Paco have left?",
+        "ground_truth": 12.0,
+        "response": "Step 1: 36 - 14 = 22  \nStep 2: 22 - 10 = 12  \nThe answer is 12  \n\nHypothesis: I subtracted the cookies Paco gave to his friend and then subtracted the cookies he ate to find how many he had left.",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ed had 12 more marbles than Doug. Ed lost 20 of his marbles at the playground. If Ed had 17 marbles How many marbles does Doug have now?",
+        "ground_truth": 5.0,
+        "response": "Step 1: Ed had 12 more marbles than Doug. If Ed had 17 marbles, then Doug must have had 17 - 12 = 5 marbles initially.\n\nStep 2: Since the problem does not mention Doug losing or gaining any marbles, Doug still has 5 marbles.\n\nThe answer is 5\n\nHypothesis: I determined Doug's initial number of marbles by subtracting the difference between Ed's and Doug's marbles, and since Doug's count did not change, it remains the same.",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Josh had some marbles in his collection. He lost 21 marbles. If he has 12 marbles now How many marbles did he have in his collection?",
+        "ground_truth": 33.0,
+        "response": "Step 1: Let the number of marbles Josh originally had be \\( x \\).  \nStep 2: He lost 21 marbles, so the number of marbles he has now is \\( x - 21 \\).  \nStep 3: We know he has 12 marbles now, so \\( x - 21 = 12 \\).  \nStep 4: Solve for \\( x \\):  \n\\( x = 12 + 21 \\)  \n\\( x = 33 \\).  \n\nThe answer is 33  \n\nHypothesis: I set up an equation to represent the relationship between the original number of marbles, the lost marbles, and the remaining marbles, then solved for the original number.",
+        "parsed_answer": 33.0,
+        "is_correct": true
+    }
+]

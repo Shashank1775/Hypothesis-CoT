@@ -1,0 +1,1437 @@
+[
+    {
+        "question": "Emily owned 6 songs by her favorite artists. Later on she bought 7 more songs. How many songs did she have totaled?",
+        "ground_truth": 13.0,
+        "response": "The answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "While sorting some buttons, Malia put 1 button in the first box, 3 buttons in the second box, 9 buttons in the third box, 27 buttons in the fourth box, and 81 buttons in the fifth box. If this pattern continues, how many buttons will Malia put in the sixth box?",
+        "ground_truth": 243.0,
+        "response": "The answer is 243",
+        "parsed_answer": 243.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Book Nook sold 27 computer books last week. The sold 15 more cook books than computer books. How many cook books did the Book Nook sell?",
+        "ground_truth": 42.0,
+        "response": "The answer is 42",
+        "parsed_answer": 42.0,
+        "is_correct": true
+    },
+    {
+        "question": "Maggi had 3 packages of cupcakes. There are 4 cupcakes in each package. She ate 5 cupcakes. How many are left?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Uncle Dave bought 143 ice cream sandwiches. If he wants to give them to his 11 hungry nieces, how many can each niece get?",
+        "ground_truth": 13.0,
+        "response": "The answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mr. Guzman bought 48 doughnuts packed equally into 4 boxes. How many doughnuts were in each box?",
+        "ground_truth": 12.0,
+        "response": "The answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Snyder made 86 heart cookies. She made 36 red cookies and the rest are pink. How many pink cookies did she make?",
+        "ground_truth": 50.0,
+        "response": "The answer is 50",
+        "parsed_answer": 50.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jerry had 8 action figures on a shelf in his room. Later he added 2 more figures to the shelf. How many action figures were on his shelf total?",
+        "ground_truth": 10.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin?",
+        "ground_truth": 11.0,
+        "response": "The answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "15 students split 122 portfolios of paintings. Each student should get the same number of portfolios. How many portfolios of paintings will each of them get?",
+        "ground_truth": 8.0,
+        "response": "The answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tiffany was collecting cans for recycling. On Monday she had four bags of cans. The next day she found eight more bags worth. How many bags did she have totaled?",
+        "ground_truth": 12.0,
+        "response": "The answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dave bought a new flat screen TV. The screen was 2 feet wide and 4 feet tall. What is the area of the screen?",
+        "ground_truth": 8.0,
+        "response": "The area of the flat screen TV is calculated by multiplying the width by the height. So, the area is:\n\n$2 \\text{ feet} \\times 4 \\text{ feet} = 8 \\text{ square feet}$\n\nTherefore, the answer is 8 square feet.",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "A club has 16 girls and 8 boys as members. The president wants to break the club into groups, with each group containing the same combination of girls and boys. The president also wants to make sure that no one is left out. What is the greatest number of groups the president can make?",
+        "ground_truth": 8.0,
+        "response": "To form groups with the same combination of girls and boys, we need to find the greatest common divisor (GCD) of 16 and 8, which is 8. \n\nTherefore, the president can make a maximum of 8 groups. \n\nThe answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Amy had twelve pencils. If she used four of them, how many would she have left?",
+        "ground_truth": 8.0,
+        "response": "The answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "A group of nine friends went into a restaurant. The chef already had two chicken wings cooked but cooked twenty-five more for the group. If they each got the same amount, how many would each person get?",
+        "ground_truth": 3.0,
+        "response": "The answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "The town of Milburg has 5,256 grown-ups and 2,987 children. How many people live in Milburg?",
+        "ground_truth": 8243.0,
+        "response": "To find the total number of people living in Milburg, we need to add the number of grown-ups and children together.\n\nTotal number of people = 5,256 (grown-ups) + 2,987 (children) = 8,243\n\nTherefore, the answer is 8,243.",
+        "parsed_answer": 8243.0,
+        "is_correct": true
+    },
+    {
+        "question": "Lastly, he went to a music store and bought a new set of speakers for his dad's entertainment system. If the initial price of the speakers is $475.00 he got it for $199.00, how much money was he able to save from having a discount?",
+        "ground_truth": 276.0,
+        "response": "The answer is $276.00",
+        "parsed_answer": 276.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 270 seats in a movie theater. If the movie theater has 9 sections with the same number of seats in each section, how many seats are in each section?",
+        "ground_truth": 30.0,
+        "response": "Let the number of seats in each section be represented by $x$. Since there are 9 sections with the same number of seats in each section, we have the equation:\n\n$9x = 270$\n\nSolving for $x$:\n\n$x = \\frac{270}{9} = 30$\n\nTherefore, there are 30 seats in each section.\n\nThe answer is 30",
+        "parsed_answer": 30.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the arcade Debby spent 2 tickets on a hat, 10 on a stuffed animal and 2 on a yoyo. How many tickets did she spend total?",
+        "ground_truth": 14.0,
+        "response": "The answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alec has a garden and likes to put flowers from his garden into pretty vases. Alec put 5 flowers in the first vase, 7 flowers in the second vase, 10 flowers in the third vase, and 14 flowers in the fourth vase. If this pattern continues, how many flowers will Alec put in the fifth vase?",
+        "ground_truth": 19.0,
+        "response": "The answer is 19",
+        "parsed_answer": 19.0,
+        "is_correct": true
+    },
+    {
+        "question": "After the aviary was the zoo's swamp area. Penny counted a total of 55 tree frogs, 10 poison frogs and 13 wood frogs. How many frogs was Penny able to count?",
+        "ground_truth": 78.0,
+        "response": "The answer is 78",
+        "parsed_answer": 78.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt has 15 friends. She can only take 8 of her friends to the movies. How many friends can't go to the movies?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tony packs a bag of fruits every 10 min, Sam packs a bag of fruits every 8 min and Sarah packs a bag of fruits every 12 min. If they start packing three bags of fruits at the same time at 12:55, at what time will they start packing at the same time again?",
+        "ground_truth": 14.0,
+        "response": "To find the time when Tony, Sam, and Sarah will start packing at the same time again, we need to find the least common multiple (LCM) of their packing times.\n\nThe LCM of 10, 8, and 12 is 120.\n\nTherefore, they will start packing at the same time again after 120 minutes.\n\nThe answer is 2 hours, which is equivalent to 2:55 PM.",
+        "parsed_answer": 2.0,
+        "is_correct": false
+    },
+    {
+        "question": "The map led them through the forest and into a cave. To open the cave doors, they need to put weights on the switch. If the switch already has 234 lbs. of weights and the total needed is 712 lbs., how much more weight to they need to add?",
+        "ground_truth": 478.0,
+        "response": "To find out how much more weight they need to add, we subtract the weight already on the switch from the total needed weight:\n\n712 lbs - 234 lbs = 478 lbs\n\nTherefore, they need to add 478 lbs more weight to open the cave doors.\n\nThe answer is 478",
+        "parsed_answer": 478.0,
+        "is_correct": true
+    },
+    {
+        "question": "Fred bought five new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only twenty-six cards left. How many cards did Fred start with ?",
+        "ground_truth": 47.0,
+        "response": "The answer is 52",
+        "parsed_answer": 52.0,
+        "is_correct": false
+    },
+    {
+        "question": "A shoe store was having a back to school sale where you could buy 2 pairs of shoes for $23.10. If a large family decided to buy 7 pairs of shoes, how much would it cost them?",
+        "ground_truth": 80.85,
+        "response": "To find the cost of 7 pairs of shoes at $23.10 for 2 pairs, we can set up a proportion:\n\n$23.10 is to 2 pairs as X is to 7 pairs.\n\n$23.10 / 2 = X / 7\n\nX = $23.10 / 2 * 7\nX = $23.10 * 3.5\nX = $80.85\n\nTherefore, the cost of 7 pairs of shoes would be $80.85.\n\nThe answer is 80.85",
+        "parsed_answer": 80.85,
+        "is_correct": true
+    },
+    {
+        "question": "On a track for remote-controlled racing cars, racing car A completes the track in 28 seconds, while racing car B completes it in 24 seconds. If they both start at the same time, after how many seconds will they be side by side again?",
+        "ground_truth": 168.0,
+        "response": "Let's find the least common multiple (LCM) of 28 and 24 to determine when racing car A and racing car B will be side by side again.\n\nThe prime factorization of 28 is 2^2 * 7.\nThe prime factorization of 24 is 2^3 * 3.\n\nTo find the LCM, we take the highest power of each prime factor that appears in either factorization:\nLCM = 2^3 * 3 * 7 = 168\n\nTherefore, racing car A and racing car B will be side by side again after 168 seconds.\n\nThe answer is 168",
+        "parsed_answer": 168.0,
+        "is_correct": true
+    },
+    {
+        "question": "The Wholesome Bakery baked 5 loaves of bread on Wednesday, 7 loaves of bread on Thursday, 10 loaves of bread on Friday, 14 loaves of bread on Saturday, and 19 loaves of bread on Sunday. If this pattern continues, how many loaves of bread will they bake on Monday?",
+        "ground_truth": 25.0,
+        "response": "The answer is 24",
+        "parsed_answer": 24.0,
+        "is_correct": false
+    },
+    {
+        "question": "One stamp costs $0.34. Two stamps cost $0.68. Three stamps cost $1.02. If the cost of each stamp remains the same, how much would 4 stamps cost?",
+        "ground_truth": 1.36,
+        "response": "Let the cost of one stamp be $x. \n\nFrom the given information:\n- One stamp costs $0.34, so we have: $0.34 = x\n- Two stamps cost $0.68, so we have: $0.68 = 2x\n- Three stamps cost $1.02, so we have: $1.02 = 3x\n\nTo find the cost of 4 stamps:\n4 stamps cost 4 times the cost of one stamp, so:\n4 stamps cost 4x\n\nFrom the given information, we know that $1.02 = 3x. Therefore, we can find the value of x and then calculate the cost of 4 stamps.\n\n$1.02 = 3x\nx = $1.02 / 3\nx = $0.34\n\nNow, we can find the cost of 4 stamps:\n4 stamps cost 4 * $0.34 = $1.36\n\nTherefore, the cost of 4 stamps would be $1.36. \n\nThe answer is 1.36",
+        "parsed_answer": 1.36,
+        "is_correct": true
+    },
+    {
+        "question": "The weight of 4 cakes is 800 g. The total weight of 3 cakes and 5 pieces of bread is 1 kg 100 g. How much heavier is a cake than a piece of bread?",
+        "ground_truth": 100.0,
+        "response": "Let the weight of one cake be \\( c \\) grams and the weight of one piece of bread be \\( b \\) grams. \n\nFrom the given information, we have the following equations:\n\\[\n\\begin{aligned}\n4c &= 800 \\text{ g} \\\\\n3c + 5b &= 1100 \\text{ g}\n\\end{aligned}\n\\]\n\nSolving the first equation for \\( c \\), we get \\( c = \\frac{800}{4} = 200 \\) g.\n\nSubstitute \\( c = 200 \\) into the second equation:\n\\[\n3(200) + 5b = 1100\n\\]\n\\[\n600 + 5b = 1100\n\\]\n\\[\n5b = 500\n\\]\n\\[\nb = \\frac{500}{5} = 100 \\text{ g}\n\\]\n\nTherefore, a cake is \\( 200 - 100 = 100 \\) g heavier than a piece of bread.\n\nThe answer is 100.",
+        "parsed_answer": 100.0,
+        "is_correct": true
+    },
+    {
+        "question": "The sum total of the ages of father and the son is 55 years. If the father was to live till his son's age equals his present age. The total of their ages would be 93 years. Find their present ages.",
+        "ground_truth": 37.0,
+        "response": "Let the father's age be \\( F \\) and the son's age be \\( S \\).\n\nFrom the given information, we have the following equations:\n1. \\( F + S = 55 \\)\n2. \\( F + (S + S) = 93 \\) (as the father lives till his son's age equals his present age)\n\nSolving these equations simultaneously, we get:\n1. \\( F = 55 - S \\)\n2. \\( 55 - S + 2S = 93 \\)\n3. \\( S = 38 \\)\n\nSubstitute \\( S = 38 \\) into equation 1 to find \\( F \\):\n\\( F = 55 - 38 = 17 \\)\n\nTherefore, the father's present age is 17 years and the son's present age is 38 years.\n\nThe answer is: The answer is 17, 38",
+        "parsed_answer": 17.0,
+        "is_correct": false
+    },
+    {
+        "question": "Jerry was playing the ring toss at the carnival. All together he used forty-eight rings. If each game you get six rings, how many games did he play?",
+        "ground_truth": 8.0,
+        "response": "The answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Oliver is organizing his books and putting them on shelves. He put 2 books on the first shelf, 6 books on the second shelf, 18 books on the third shelf, and 54 books on the fourth shelf. If this pattern continues, how many books will Oliver put on the fifth shelf?",
+        "ground_truth": 162.0,
+        "response": "The answer is 162",
+        "parsed_answer": 162.0,
+        "is_correct": true
+    },
+    {
+        "question": "A restaurant has 94 pieces of cutlery. 38 are forks, 27 are knives, and the rest are spoons. How many spoons are there?",
+        "ground_truth": 29.0,
+        "response": "The answer is 29",
+        "parsed_answer": 29.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dave had 10 video games but 2 of them weren't working. If he wanted to sell the working games for $4 each, how much money could he earn?",
+        "ground_truth": 32.0,
+        "response": "The answer is $32.",
+        "parsed_answer": 32.0,
+        "is_correct": true
+    },
+    {
+        "question": "For Halloween Will got fifteen pounds of candy. After giving some to Haley, he had nine pounds left. How many pounds did he give to Haley?",
+        "ground_truth": 6.0,
+        "response": "The answer is 6",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt has 40 markers. They are divided equally into 7 packages. Mrs. Hilt wants to know how many markers are leftover?",
+        "ground_truth": 5.0,
+        "response": "The answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the fair there were 10 people in line for the bumper cars. If 2 of them got tired of waiting and left and 2 more got in line, how many people would be in line?",
+        "ground_truth": 10.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "A large bag of balls was kept under Haley's bed. Her mom placed the balls in bags for children in foster homes. If every bag can contain 4 balls and Haley has 36 balls, how many bags will be used?",
+        "ground_truth": 9.0,
+        "response": "The answer is 9",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "For a birthday party Cody bought thirty regular sodas and five diet sodas. If his fridge would only hold seven on each shelf, how many shelves would he fill up?",
+        "ground_truth": 5.0,
+        "response": "The answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Garrett went shopping for snack supplies and bought 6 oatmeal raisin granola bars and 8 peanut granola bars. How many granola bars did he buy in all?",
+        "ground_truth": 14.0,
+        "response": "The answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Each house a carpenter builds needs six sinks. If he bought two hundred sixty-six sinks, how many houses would that cover?",
+        "ground_truth": 44.0,
+        "response": "Let's divide the total number of sinks by the number of sinks needed for each house to find out how many houses can be covered.\n\n266 sinks / 6 sinks per house = 44 houses\n\nTherefore, the answer is 44",
+        "parsed_answer": 44.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ryan collected 89 leaves. He lost 24 leaves and threw away 43 leaves. How many leaves did Ryan have left?",
+        "ground_truth": 22.0,
+        "response": "The answer is 22",
+        "parsed_answer": 22.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt met 15 friends. Nine of the friends were carrying pears. The rest were carrying oranges. How many friends were carrying oranges?",
+        "ground_truth": 6.0,
+        "response": "The answer is 6",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Winnie completed eighty-six consecutive repetitions for rope jumping yesterday. Today she completed only seventy-three. How many repetitions did she fell behind?",
+        "ground_truth": 13.0,
+        "response": "The answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "A store has fifty-six shirts. Later they got in eleven more shirts. How many shirts does the store have now?",
+        "ground_truth": 67.0,
+        "response": "The answer is 67",
+        "parsed_answer": 67.0,
+        "is_correct": true
+    },
+    {
+        "question": "The area of right angled triangle is 32 sq. cm. If the base is 8 cm, find its height.",
+        "ground_truth": 8.0,
+        "response": "Given that the area of the right-angled triangle is 32 sq. cm and the base is 8 cm, we can use the formula for the area of a triangle:\n\nArea = 0.5 * base * height\n\nSubstitute the given values:\n\n32 = 0.5 * 8 * height\n\nSolve for the height:\n\nheight = 32 / (0.5 * 8)\nheight = 32 / 4\nheight = 8\n\nTherefore, the height of the right-angled triangle is 8 cm. \n\nThe answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Peter has 18 oranges, 27 pears and 12 bananas. He wants to make fruit baskets with the same number of each fruit in each basket. What is the greatest number of fruit baskets he can make?",
+        "ground_truth": 3.0,
+        "response": "To find the greatest number of fruit baskets Peter can make with the same number of each fruit in each basket, we need to find the greatest common divisor (GCD) of 18, 27, and 12.\n\nThe prime factorization of 18 is 2 * 3^2.\nThe prime factorization of 27 is 3^3.\nThe prime factorization of 12 is 2^2 * 3.\n\nThe common factors are 3 (from 18 and 27) and 2 (from 18 and 12).\n\nTherefore, the greatest number of fruit baskets Peter can make is the GCD of 18, 27, and 12, which is 3.\n\nThe answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "A box of cupcakes cost $six. If you had eight hundred twenty-one dollars and bought as many boxes as you could, how much money would you have left?",
+        "ground_truth": 5.0,
+        "response": "To find out how many boxes of cupcakes can be bought with $821, we need to divide the total amount by the cost of one box of cupcakes.\n\n$821 \u00f7 $6 = 136.83\n\nSince you cannot buy a fraction of a box, you can buy 136 boxes of cupcakes with $821.\n\nTo find out how much money would be left after buying 136 boxes of cupcakes:\n\n$821 - ($6 \u00d7 136) = $821 - $816 = $5\n\nTherefore, the answer is: The answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Maria stored ninety-three cloves of garlic in the kitchen. She used eighty-six for roast chicken for dinner. How many cloves of garlic does she have left?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "A car dealer sold 14 cars on the first day, 16 cars on the second day, and 27 cars on the third day. How many cars did the car dealer sell on the 3 days?",
+        "ground_truth": 57.0,
+        "response": "The answer is 57",
+        "parsed_answer": 57.0,
+        "is_correct": true
+    },
+    {
+        "question": "With flu season coming up, Lexi decides to make get-well-soon kits. She has 10 cans of chicken soup and 15 boxes of tissue, which she wants to use to make identical kits with no materials left over. What is the greatest number of get-well-soon kits Lexi can make?",
+        "ground_truth": 5.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": false
+    },
+    {
+        "question": "Beth has 4 packs of crayons. Each pack has 10 crayons in it. She also has 6 extra crayons. How many crayons does Beth have altogether?",
+        "ground_truth": 46.0,
+        "response": "The answer is 46",
+        "parsed_answer": 46.0,
+        "is_correct": true
+    },
+    {
+        "question": "Five red peaches and 14 green peaches are in the basket. How many peaches are in the basket?",
+        "ground_truth": 19.0,
+        "response": "The answer is 19",
+        "parsed_answer": 19.0,
+        "is_correct": true
+    },
+    {
+        "question": "For Halloween Frank got fifteen pounds of candy. If he gave eight pounds to Nancy, what's the difference between the pounds of Frank's candy before he gave Nancy and he gave to?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Scott and Sam decided to sell their old comic books. They had 90 comic books altogether. After the sale, they only had 25 comic books. How many comic books did Scott and Sam sell?",
+        "ground_truth": 65.0,
+        "response": "The answer is 65",
+        "parsed_answer": 65.0,
+        "is_correct": true
+    },
+    {
+        "question": "Adam had to wash fourteen loads of clothes. By noon he had only washed eight loads. How many does he still need to wash?",
+        "ground_truth": 6.0,
+        "response": "The answer is 6",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "Two marbles are in the basket. Two marbles are taken out of the basket. How many marbles are in the basket now?",
+        "ground_truth": 0.0,
+        "response": "The answer is 2",
+        "parsed_answer": 2.0,
+        "is_correct": false
+    },
+    {
+        "question": "Isabel had some candy. She gave her friend twenty-seven pieces and had sixty-one left. How many pieces did she have to start with?",
+        "ground_truth": 88.0,
+        "response": "The answer is 88",
+        "parsed_answer": 88.0,
+        "is_correct": true
+    },
+    {
+        "question": "The perimeter of a rectangular cutting board is 50 inches. It is 10 inches wide. How long is it?",
+        "ground_truth": 15.0,
+        "response": "The answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": true
+    },
+    {
+        "question": "Rachel bought seven new chairs and three new tables for her house. If she spent four minutes on each piece furniture putting it together, how many minutes did it take her to finish?",
+        "ground_truth": 40.0,
+        "response": "The answer is 40",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mike and his brother Joe found a map leading to a buried treasure in an unknown island so they decided to go on a treasure hunt. After decoding the clues on the map, they found out that they need to go to the Island of Mysteries. To get there, they could either take a plane for $600.00 or a boat for $254.00. How much money can they save if they took a boat to the island?",
+        "ground_truth": 346.0,
+        "response": "The answer is $346.00",
+        "parsed_answer": 346.0,
+        "is_correct": true
+    },
+    {
+        "question": "For a party Janet bought some cupcakes. She bought 2 chocolate, 13 vanilla and 2 strawberry. How many cupcakes did she buy?",
+        "ground_truth": 17.0,
+        "response": "The answer is 17",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "For Halloween Frank got ten pounds of candy and Gwen got seven pounds of candy. What is the combined weight they received?",
+        "ground_truth": 17.0,
+        "response": "The answer is 17",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "The school cafeteria had 17 apples. If they used 2 to make lunch for the students and then bought 23 more, how many apples would they have?",
+        "ground_truth": 38.0,
+        "response": "The answer is 38",
+        "parsed_answer": 38.0,
+        "is_correct": true
+    },
+    {
+        "question": "The school bought 54 basketballs and distribute them into 7 classes equally. How many basketballs are left?",
+        "ground_truth": 5.0,
+        "response": "The answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Three pieces of timber 42 m, 49 m and 63 m long have to be divided into planks of the same length. What is the greatest possible length of each plank?",
+        "ground_truth": 7.0,
+        "response": "To find the greatest possible length of each plank, we need to find the greatest common divisor (GCD) of the lengths of the timber pieces.\n\nThe GCD of 42, 49, and 63 is 7.\n\nTherefore, the greatest possible length of each plank is 7 meters.\n\nThe answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt had 43 cents. She bought a pencil for 20 cents and a piece of candy for 5 cents. How much money did she have left?",
+        "ground_truth": 18.0,
+        "response": "The answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "If one pack costs 11 dollars, how many packs of DVD's can you buy with 110 dollars?",
+        "ground_truth": 10.0,
+        "response": "To find out how many packs of DVDs can be bought with $110, we need to divide the total amount by the cost of one pack.\n\n$110 \u00f7 $11 = 10\n\nTherefore, with $110, you can buy 10 packs of DVDs.\n\nThe answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Stanley, a car enthusiast, loves to drive across different places as a hobby. So for his vacation, he decided to go around his favorite places. His first destination is the famous Sky Falls, one of the tallest waterfalls in his country. It is said to be 20 times as tall as the tallest building in their city. If the building is 9 feet tall, how tall is Sky Falls?",
+        "ground_truth": 180.0,
+        "response": "The tallest building in the city is 9 feet tall. Therefore, Sky Falls is 20 times taller, which is 9 feet x 20 = 180 feet tall.\n\nThe answer is 180.",
+        "parsed_answer": 180.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alvin is trying to build a small house in the forest so that he has a place to stay whenever he goes hunting. He started by gathering some wood. According to his blueprint, he will need 376 pieces of wood. If his friend gave him 123 pieces and his brother gave him 136 pieces, how many more wood does he need to gather?",
+        "ground_truth": 117.0,
+        "response": "To find out how many more wood pieces Alvin needs to gather, we need to subtract the total wood pieces he already has from the total wood pieces he needs.\n\nTotal wood pieces Alvin already has = 123 (from friend) + 136 (from brother) = 259\n\nWood pieces Alvin still needs to gather = 376 - 259 = 117\n\nTherefore, the answer is 117.",
+        "parsed_answer": 117.0,
+        "is_correct": true
+    },
+    {
+        "question": "By coincidence, Monica's Obedience School trained the same number of dogs and cats last week. The school teaches dogs in groups of 18 and cats in groups of 3. What is the smallest number of cats the school could have had?",
+        "ground_truth": 18.0,
+        "response": "Let the number of cats trained at Monica's Obedience School be represented by the variable $x$. Since the number of cats trained is a multiple of 3, we can express it as $3x$. \n\nThe number of dogs trained is the same as the number of cats trained, so it is also a multiple of 18. We can express the number of dogs trained as $18x$.\n\nSince the number of cats and dogs trained is the same, we can set up the equation:\n$3x = 18x$\n\nSolving for $x$:\n$3x = 18x$\n$15x = 0$\n$x = 0$\n\nTherefore, the smallest number of cats the school could have had is 0.\n\nThe answer is 0",
+        "parsed_answer": 0.0,
+        "is_correct": false
+    },
+    {
+        "question": "The teacher gave 42 pencils to 12 students equally. How many pencils did each student get?",
+        "ground_truth": 3.0,
+        "response": "The answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "A report said that each day the average Youtube viewer watches 2 videos with each video lasting 7 minutes. Additionally they also watch 3 minutes of ads. According to the report, how many minutes total do people spend on Youtube?",
+        "ground_truth": 17.0,
+        "response": "To find the total number of minutes people spend on Youtube, we need to calculate the total time spent watching videos and ads.\n\nEach day, the average Youtube viewer watches 2 videos, each lasting 7 minutes. So, the total time spent watching videos per day is:\n2 videos * 7 minutes/video = 14 minutes\n\nAdditionally, they watch 3 minutes of ads per day.\n\nTherefore, the total time people spend on Youtube per day is:\n14 minutes (videos) + 3 minutes (ads) = 17 minutes\n\nThe answer is 17.",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "For the frosting and final touches, Willie will need to have 300 lbs. of whipped cream. If he got 149 lbs. of cream from his farm, how much more cream is needed to be bought?",
+        "ground_truth": 151.0,
+        "response": "The answer is 151",
+        "parsed_answer": 151.0,
+        "is_correct": true
+    },
+    {
+        "question": "Greg's mom made some cookies for the family. The cookies were so huge that she decided to cut them in half. Greg ate 4 halves and his brother, Brad, had 6 halves. There were 18 halves left. How many whole cookies did Greg's mom make?",
+        "ground_truth": 14.0,
+        "response": "Let's denote the total number of whole cookies Greg's mom made as $x$. Since each whole cookie is cut in half, the total number of halves is $2x$. \n\nGreg ate 4 halves and Brad ate 6 halves, so the total number of halves eaten is $4 + 6 = 10$. \n\nThe number of halves left is 18, so we have the equation: $2x - 10 = 18$. \n\nSolving for $x$, we get: $2x = 28 \\Rightarrow x = 14$.\n\nTherefore, Greg's mom made 14 whole cookies.\n\nThe answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Because of an upcoming exam, Robyn will not be able to sell cookies on Tuesday. To make up for it, Lucy decided to do double the work to catch up. She sold 34 cookies on her first round and 27 on her second round. How many cookies were sold by Lucy?",
+        "ground_truth": 61.0,
+        "response": "The answer is 122",
+        "parsed_answer": 122.0,
+        "is_correct": false
+    },
+    {
+        "question": "After buying a dress, he went to a gardening store and bought his mom some ornamental plants. If the plants originally cost $467.00 and he was able to get a $399.00 discount, how much did he actually spend on buying the plants?",
+        "ground_truth": 68.0,
+        "response": "The answer is 68.00",
+        "parsed_answer": 68.0,
+        "is_correct": true
+    },
+    {
+        "question": "58 children are taking a bus to the zoo. They sit 2 children in every seat. How many seats will the children need in all?",
+        "ground_truth": 29.0,
+        "response": "The answer is 29",
+        "parsed_answer": 29.0,
+        "is_correct": true
+    },
+    {
+        "question": "A farmer had seventeen tomatoes from his garden. If he picked nine of them, what's the difference between the number of tomatoes before picking and he picked?",
+        "ground_truth": 8.0,
+        "response": "The answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Morgan has 65 red pens, 45 blue pens, and 58 black pens. How many pens does she have?",
+        "ground_truth": 168.0,
+        "response": "The answer is 168.",
+        "parsed_answer": 168.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the town carnival Billy rode the ferris wheel seven times and the bumper cars three times. If each ride cost five tickets, how many tickets did he use?",
+        "ground_truth": 50.0,
+        "response": "The answer is 50",
+        "parsed_answer": 50.0,
+        "is_correct": true
+    },
+    {
+        "question": "Roger was packing up his old toys. He filled eleven boxes with action figures and two boxes with old games. How many boxes did he pack total?",
+        "ground_truth": 13.0,
+        "response": "The answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Carmen is creating lollipop bouquets using 4 cherry lollipops and 6 orange lollipops. She wants each bouquet to be identical, with no lollipops left over. What is the greatest number of lollipop bouquets Carmen can create?",
+        "ground_truth": 2.0,
+        "response": "To find the greatest number of lollipop bouquets Carmen can create, we need to find the greatest common divisor (GCD) of the number of cherry lollipops (4) and the number of orange lollipops (6).\n\nThe GCD of 4 and 6 is 2.\n\nTherefore, Carmen can create a maximum of 2 lollipop bouquets.\n\nThe answer is 2",
+        "parsed_answer": 2.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ed had 22 more marbles than Doug. Doug lost 8 of his marbles at the playground. How many more marble did Ed have than Doug then?",
+        "ground_truth": 30.0,
+        "response": "Let's solve the problem step by step:\n\n1. Ed had 22 more marbles than Doug, so let's denote the number of marbles Doug had as x. This means Ed had x + 22 marbles.\n2. After Doug lost 8 marbles, he had x - 8 marbles left.\n3. At that point, Ed had x + 22 marbles.\n4. The difference in the number of marbles Ed had compared to Doug at that point is (x + 22) - (x - 8) = x + 22 - x + 8 = 30.\n\nTherefore, the answer is: The answer is 30",
+        "parsed_answer": 30.0,
+        "is_correct": true
+    },
+    {
+        "question": "Chloe was making baggies of cookies with seven cookies in each bag. If she had thirty-four chocolate chip cookies and twenty-nine oatmeal cookies, how many baggies could she make?",
+        "ground_truth": 9.0,
+        "response": "To find out how many baggies Chloe can make, we first need to find the total number of cookies she has:\n\nTotal number of cookies = Number of chocolate chip cookies + Number of oatmeal cookies\nTotal number of cookies = 34 + 29\nTotal number of cookies = 63\n\nNow, we need to find out how many baggies Chloe can make with 63 cookies, each containing 7 cookies:\n\nNumber of baggies = Total number of cookies / Number of cookies in each bag\nNumber of baggies = 63 / 7\nNumber of baggies = 9\n\nTherefore, Chloe can make 9 baggies of cookies.\n\nThe answer is 9",
+        "parsed_answer": 9.0,
+        "is_correct": true
+    },
+    {
+        "question": "I have 28 cents in my pocket. How coins could I have on minimization?",
+        "ground_truth": 4.0,
+        "response": "To minimize the number of coins, you would have 3 coins: two dimes (10 cents each) and one nickel (5 cents). \n\nTherefore, the answer is 3.",
+        "parsed_answer": 3.0,
+        "is_correct": false
+    },
+    {
+        "question": "86 students are going hiking. Each school- bus can take 9 students. How many school-buses are needed?",
+        "ground_truth": 9.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": false
+    },
+    {
+        "question": "The first act included 5 clown mobiles, each stuffed with 28 clowns. How many clowns are inside all the clown mobiles combined?",
+        "ground_truth": 140.0,
+        "response": "The answer is 140",
+        "parsed_answer": 140.0,
+        "is_correct": true
+    },
+    {
+        "question": "Maria was buying DVDs of her old favorite TV series. She bought eight DVDs at the store and she bought two online. How many DVDs did she buy total?",
+        "ground_truth": 10.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Annie takes trick or treating seriously. So, days before Halloween, she makes sure that the details of her trick or treating are well planned. First, she wanted to find out the number of houses in her village. If the village has 5 houses per block and has a total of 9 blocks, how many houses are there in her village?",
+        "ground_truth": 45.0,
+        "response": "The answer is 45",
+        "parsed_answer": 45.0,
+        "is_correct": true
+    },
+    {
+        "question": "Susan started her homework at 1:59 p.m. and finished her homework 96 minutes later. Susan had volleyball practice at 4:00 p.m. How much time did Susan have between finishing her homework and the beginning of volleyball practice?",
+        "ground_truth": 25.0,
+        "response": "Susan had 25 minutes between finishing her homework and the beginning of volleyball practice.\n\nThe answer is 25",
+        "parsed_answer": 25.0,
+        "is_correct": true
+    },
+    {
+        "question": "Dennis has 4028 pencils stored in boxes. If the are 53 boxes, how many pencils must go in each box?",
+        "ground_truth": 76.0,
+        "response": "To find out how many pencils must go in each box, we need to divide the total number of pencils by the number of boxes.\n\nTotal number of pencils = 4028\nNumber of boxes = 53\n\nNumber of pencils in each box = Total number of pencils / Number of boxes\nNumber of pencils in each box = 4028 / 53\nNumber of pencils in each box = 76\n\nTherefore, the answer is: The answer is 76",
+        "parsed_answer": 76.0,
+        "is_correct": true
+    },
+    {
+        "question": "A group was sitting at a lunch table. After finishing, six people left and there were five left at the table. How many people were at the table to start with?",
+        "ground_truth": 11.0,
+        "response": "The answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "Frank had $16. After buying some new toys he had $8 left. How much did he spend on toys?",
+        "ground_truth": 8.0,
+        "response": "The answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "On a table there were 2 green apples, 3 red apples and 14 yellow apples. How many apples were on the table?",
+        "ground_truth": 19.0,
+        "response": "The answer is 19",
+        "parsed_answer": 19.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt went to a concert. A total of 65,899 people attended the concert. The next week, she went to a second concert, which had 119 more people in attendance. How many people were at the second concert?",
+        "ground_truth": 66018.0,
+        "response": "The answer is 66018",
+        "parsed_answer": 66018.0,
+        "is_correct": true
+    },
+    {
+        "question": "Molly had 14 candles on her birthday cake. She grew older and got 6 more on her birthday cake. How old is Molly now?",
+        "ground_truth": 20.0,
+        "response": "The answer is 20",
+        "parsed_answer": 20.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 96 trees in a park. 15 of them are huge ancient oaks and another 23 of them are medium-sized fir trees. The rest are saplings. How many saplings are in the park?",
+        "ground_truth": 58.0,
+        "response": "The answer is 58",
+        "parsed_answer": 58.0,
+        "is_correct": true
+    },
+    {
+        "question": "Paige had eleven pencils. After using some she had four left. How many did she use?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "An architect was building a hotel downtown. He bought 147 lamps to put in the rooms. If each room gets 7 lamps, how many rooms does the hotel have?",
+        "ground_truth": 21.0,
+        "response": "The answer is 21",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "Penny's class is going to Animaland, the largest zoo on earth, for their science field trip. The zoo has a variety of wild animals in captivity. Their first destination was the aviary. The aviary has 3 species of eagles on show that day. They have 20 Bald Eagles, 15 Harpy Eagles, and 30 Crowned Eagles. How many eagles are on display that day?",
+        "ground_truth": 65.0,
+        "response": "The answer is 65",
+        "parsed_answer": 65.0,
+        "is_correct": true
+    },
+    {
+        "question": "Janet picked 4 tulips and 11 roses to make flower bouquets. If she only used 11 of the flowers though, how many extra flowers did Janet pick?",
+        "ground_truth": 4.0,
+        "response": "The answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "Andrew's 4 friends decided to bring food as well. If each of them brought 4 slices of pizza, how many slices of pizza do they have in total?",
+        "ground_truth": 16.0,
+        "response": "The answer is 20",
+        "parsed_answer": 20.0,
+        "is_correct": false
+    },
+    {
+        "question": "Lisa is making activity baskets to donate to charity. She has 12 coloring books, 28 markers, and 36 crayons. What is the greatest number of baskets she can make if each type of toy is equally distributed among the baskets?",
+        "ground_truth": 4.0,
+        "response": "The answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": false
+    },
+    {
+        "question": "Connie has 41 red markers and 64 blue markers. How many markers does she have altogether?",
+        "ground_truth": 105.0,
+        "response": "The answer is 105",
+        "parsed_answer": 105.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jane can arrange 16 vases of flowers in a day. If there are 248 vases of flowers to be arranged, how many vases of flowers will she arrange on the last day?",
+        "ground_truth": 8.0,
+        "response": "To find out how many vases of flowers Jane will arrange on the last day, we need to find the remainder when 248 vases are divided by 16.\n\n248 \u00f7 16 = 15 with a remainder of 8.\n\nTherefore, Jane will arrange 8 vases of flowers on the last day.\n\nThe answer is 8",
+        "parsed_answer": 8.0,
+        "is_correct": true
+    },
+    {
+        "question": "Simon, Mark, Kevin, and Carl love collecting stamps. They meet up every month to compare and share their collections with each other. During the previous month, Kevin was able to collect 45 stamps while Simon was only able to collect 27. How many more stamps does Kevin have more than Simon?",
+        "ground_truth": 18.0,
+        "response": "The answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are thirty-eight dogwood trees currently in the park. Park workers will plant more dogwood trees today. When the workers are finished there will be fifty-six dogwood trees in the park. How many dogwood trees did the workers plant today ?",
+        "ground_truth": 18.0,
+        "response": "The answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "An English teacher would like to divide 10 boys and 15 girls into groups, each with the same combination of boys and girls and nobody left out. What is the greatest number of groups that can be formed?",
+        "ground_truth": 5.0,
+        "response": "To form groups with the same combination of boys and girls, we need to find the greatest common divisor (GCD) of 10 boys and 15 girls.\n\nThe GCD of 10 and 15 is 5.\n\nTherefore, the greatest number of groups that can be formed is 5.\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt gave 2 pieces of candy to each student in the group. The group had a total of 9 students in it. How many pieces of candy did Mrs. Hilt give away?",
+        "ground_truth": 18.0,
+        "response": "The answer is 18",
+        "parsed_answer": 18.0,
+        "is_correct": true
+    },
+    {
+        "question": "In one week, an airplane pilot flew 1,134 miles on Tuesday and 1,475 miles on Thursday. If the pilot flies the same number of miles 3 weeks in a row, how many miles does he fly in all?",
+        "ground_truth": 7827.0,
+        "response": "The pilot flies 4,609 miles in all.\nThe answer is 4609",
+        "parsed_answer": 4609.0,
+        "is_correct": false
+    },
+    {
+        "question": "Luke was played 5 rounds of a trivia game and scored 300 points. If he gained the same number of points each round, how many points did he score per round?",
+        "ground_truth": 60.0,
+        "response": "Let x be the number of points Luke scored per round. Since he played 5 rounds and scored a total of 300 points, we can set up the equation:\n\n5x = 300\n\nDividing both sides by 5, we get:\n\nx = 60\n\nTherefore, Luke scored 60 points per round.\n\nThe answer is 60",
+        "parsed_answer": 60.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 40 girls and 32 boys who want to participate in 6th grade intramurals. If each team must have the same number of girls and the same number of boys, what is the greatest number of teams that can participate in intramurals?",
+        "ground_truth": 8.0,
+        "response": "To form teams with the same number of girls and boys, we need to find the greatest common divisor (GCD) of 40 and 32. The GCD of 40 and 32 is 8.\n\nTherefore, the greatest number of teams that can participate in intramurals is the total number of students divided by the GCD of the number of girls and boys, which is 40 + 32 / 8 = 72 / 8 = 9.\n\nThe answer is 9",
+        "parsed_answer": 9.0,
+        "is_correct": false
+    },
+    {
+        "question": "Doug built a tent in the shape of a regular pentagon. Its perimeter is 60 feet. What is the length of each side of the tent?",
+        "ground_truth": 12.0,
+        "response": "To find the length of each side of the pentagon, we divide the perimeter by the number of sides of the pentagon.\n\nPerimeter of the pentagon = 60 feet\nNumber of sides of a pentagon = 5\n\nLength of each side = Perimeter / Number of sides\nLength of each side = 60 feet / 5\nLength of each side = 12 feet\n\nTherefore, the length of each side of the tent is 12 feet.\nThe answer is 12.",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Three workers, A, B, and C are working in a bicycle factory. A finishes assembling a bike every 1 h 30 min. B finishes assembling a bike every 2 h. C finishes assembling a bike every 1 h. If they started assembling three bikes at the same time at 8:10, at what time would they start assembling at the same time again?",
+        "ground_truth": 14.0,
+        "response": "To find the time when workers A, B, and C will start assembling at the same time again, we need to find the least common multiple (LCM) of their assembly times.\n\nThe LCM of 1 hour 30 minutes, 2 hours, and 1 hour can be calculated as follows:\n1 hour 30 minutes = 1.5 hours\nSo, the assembly times are 1.5 hours, 2 hours, and 1 hour.\n\nThe LCM of 1.5, 2, and 1 is 6.\n\nTherefore, they will start assembling at the same time again after 6 hours.\n\nAdding 6 hours to the starting time of 8:10, we get:\n8:10 + 6 hours = 14:10\n\nTherefore, they will start assembling at the same time again at 2:10 PM.\n\nThe answer is 14:10.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "An electrician cuts a 30 ft piece of wire into two pieces. One piece is 2 ft longer than the other. How long are the pieces?",
+        "ground_truth": 14.0,
+        "response": "Let the length of the shorter piece be \\( x \\) ft. Then the length of the longer piece is \\( x + 2 \\) ft.\n\nSince the total length of the wire is 30 ft, we have the equation:\n\n\\[ x + (x + 2) = 30 \\]\n\nSolving for \\( x \\):\n\n\\[ 2x + 2 = 30 \\]\n\\[ 2x = 28 \\]\n\\[ x = 14 \\]\n\nTherefore, the lengths of the two pieces are 14 ft and 16 ft.\n\nThe answer is 14 ft and 16 ft.",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jessica wants of make a garland out of 8 roses, 12 daisies and 48 marigolds. How many arrangements can she make with those flowers so that, there is no flower left.",
+        "ground_truth": 4.0,
+        "response": "To make a garland with no flowers left, Jessica needs to make arrangements where all the flowers are used up. This means she needs to make arrangements with a total of 8 roses, 12 daisies, and 48 marigolds.\n\nThe total number of arrangements she can make is the product of the number of ways she can arrange each type of flower. \n\nFor roses, there are 8! ways to arrange them.\nFor daisies, there are 12! ways to arrange them.\nFor marigolds, there are 48! ways to arrange them.\n\nTherefore, the total number of arrangements Jessica can make is:\n8! * 12! * 48!\n\nCalculating this value gives:\n8! * 12! * 48! = 403291461126605635584000000\n\nSo, the answer is: The answer is 403291461126605635584000000",
+        "parsed_answer": 4.0329146112660565e+26,
+        "is_correct": false
+    },
+    {
+        "question": "In preparation for a party, Brant is putting desserts onto platters. The chocolate cake is cut into 15 pieces and the cheesecake is cut into 6 pieces. If he wants to prepare identical platters without having any cake left over, what is the greatest number of platters he can prepare?",
+        "ground_truth": 3.0,
+        "response": "To find the greatest number of platters Brant can prepare without having any cake left over, we need to find the greatest common divisor (GCD) of 15 and 6.\n\nThe GCD of 15 and 6 is 3.\n\nTherefore, Brant can prepare the greatest number of platters by dividing both cakes into 3 pieces each. This way, he can prepare 3 platters without any cake left over.\n\nThe answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "If the second angle is 32 degree less than thrice the first angle and the third angle is 28 degree less than twice the first angle. Find the angles of the triangle.",
+        "ground_truth": 40.0,
+        "response": "Let the first angle be \\( x \\) degrees.\n\nThe second angle is \\( 3x - 32 \\) degrees.\n\nThe third angle is \\( 2x - 28 \\) degrees.\n\nSince the sum of the angles in a triangle is 180 degrees, we have:\n\n\\[ x + 3x - 32 + 2x - 28 = 180 \\]\n\\[ 6x - 60 = 180 \\]\n\\[ 6x = 240 \\]\n\\[ x = 40 \\]\n\nTherefore, the angles of the triangle are:\n- First angle: \\( 40 \\) degrees\n- Second angle: \\( 3(40) - 32 = 88 \\) degrees\n- Third angle: \\( 2(40) - 28 = 52 \\) degrees\n\nThe answer is 40, 88, 52.",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    },
+    {
+        "question": "Zoe picked five apples from her tree. Now the tree has six apples still on it. What's the difference between the number of apples Zoe picked and now the tree has?",
+        "ground_truth": 1.0,
+        "response": "The answer is 1",
+        "parsed_answer": 1.0,
+        "is_correct": true
+    },
+    {
+        "question": "Denver the Dog is a famous architect in the city of Animapolis. Together with his engineer friend Wally the Wolf, they decided to build the tallest building ever, the Animus Tower. To make sure the framework of the tower is strongly built, they hired the best builders in town. If they hired 318 beavers and 544 spiders, how many workers in total did they hire to make the framework?",
+        "ground_truth": 862.0,
+        "response": "The answer is 862",
+        "parsed_answer": 862.0,
+        "is_correct": true
+    },
+    {
+        "question": "At a school event, adults are seated in groups of exactly 17 and children are seated in groups of exactly 15. If there are the same number of adults as children, what is the minimum number of adults attending?",
+        "ground_truth": 255.0,
+        "response": "The minimum number of adults attending the school event is 255.\nThe answer is 255",
+        "parsed_answer": 255.0,
+        "is_correct": true
+    },
+    {
+        "question": "The kids from Oakwood Elementary School are visiting a bird zoo for their field trip. To get to the bird zoo from the school, the kids have to ride some buses. If there are 7 buses and each bus has 3 adult supervisors to guide the children, how many supervisors are there in total?",
+        "ground_truth": 21.0,
+        "response": "The answer is 21",
+        "parsed_answer": 21.0,
+        "is_correct": true
+    },
+    {
+        "question": "Being concerned with the ecology of lakes, Hazel and her dad returned the youngling fishes they caught. If they took 23 fishes from Lake Ontario and Erie, 30 fishes from Lake Huron and Michigan and 44 from Lake Superior, how many fishes will they bring home with them?",
+        "ground_truth": 97.0,
+        "response": "To find out how many fishes Hazel and her dad will bring home with them, we need to add up the number of fishes they took from each lake:\n\nTotal number of fishes = 23 + 30 + 44\nTotal number of fishes = 97\n\nTherefore, the answer is 97.",
+        "parsed_answer": 97.0,
+        "is_correct": true
+    },
+    {
+        "question": "Victor had nineteen apps on his phone. He deleted eight of them. How many apps does Victor have left?",
+        "ground_truth": 11.0,
+        "response": "The answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the zoo Zoe took sixty-seven pictures. If her sister took another seventeen pictures, how many did they take total?",
+        "ground_truth": 84.0,
+        "response": "The answer is 84",
+        "parsed_answer": 84.0,
+        "is_correct": true
+    },
+    {
+        "question": "At a candy store you could get 2 giant lollipops for $2.40. How much would it cost to buy 6 lollipops?",
+        "ground_truth": 7.2,
+        "response": "The answer is $7.20",
+        "parsed_answer": 7.2,
+        "is_correct": true
+    },
+    {
+        "question": "When she was finished sorting all her savings, she counted the number of her $10 bills. If she counted a total of 9 pieces of $10 bills, what is the total value of all her $10 bills combined?",
+        "ground_truth": 90.0,
+        "response": "The total value of all her $10 bills combined is $90.\n\nThe answer is 90",
+        "parsed_answer": 90.0,
+        "is_correct": true
+    },
+    {
+        "question": "Nick saved $68.50. If Nick saved $25.43 more than Lee, how much did Lee save?",
+        "ground_truth": 43.07,
+        "response": "To find how much Lee saved, we need to subtract the amount Nick saved from the total amount saved by both Nick and Lee.\n\nTotal amount saved by Nick and Lee = $68.50\nAmount saved by Nick = $68.50\nAmount saved by Lee = Total amount saved - Amount saved by Nick\nAmount saved by Lee = $68.50 - $25.43\nAmount saved by Lee = $43.07\n\nTherefore, the answer is: The answer is 43.07",
+        "parsed_answer": 43.07,
+        "is_correct": true
+    },
+    {
+        "question": "The ages of Ashley and Mary are in the ratio 4:7. The sum of their ages is 22. Find the ages of Ashley and Mary.",
+        "ground_truth": 8.0,
+        "response": "Let the ages of Ashley and Mary be 4x and 7x, respectively.\n\nAccording to the problem, the sum of their ages is 22:\n4x + 7x = 22\n11x = 22\nx = 2\n\nTherefore, Ashley's age is 4 * 2 = 8 years old, and Mary's age is 7 * 2 = 14 years old.\n\nThe answer is Ashley is 8 and Mary is 14",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Lastly, she baked 53 lemon cupcakes for the children living in the city orphanage. If two lemon cupcakes were left at home, how many boxes with 3 lemon cupcakes each were given away?",
+        "ground_truth": 17.0,
+        "response": "The answer is 17",
+        "parsed_answer": 17.0,
+        "is_correct": true
+    },
+    {
+        "question": "A pet store had seven Siamese cats. If they sold four of them, how many cats did they still have?",
+        "ground_truth": 3.0,
+        "response": "The answer is 3",
+        "parsed_answer": 3.0,
+        "is_correct": true
+    },
+    {
+        "question": "Alex had some candles for his Jack O'Lanterns. He used 32 of them. Now he has 12 left. How many candles did Alex have to start with?",
+        "ground_truth": 44.0,
+        "response": "The answer is 44",
+        "parsed_answer": 44.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake set up a candy stand in his front yard. He has 80 pieces of candy to sell. He sold 15 pieces of candy on Monday. He sold much more than that on Tuesday. By Wednesday, Jakes only had 7 pieces left. How many pieces of candy did Jake sell on Tuesday?",
+        "ground_truth": 58.0,
+        "response": "The answer is 58",
+        "parsed_answer": 58.0,
+        "is_correct": true
+    },
+    {
+        "question": "[ERROR extracting question]",
+        "response": "'NoneType' object has no attribute 'group'",
+        "parsed_answer": null,
+        "is_correct": false,
+        "ground_truth": null
+    },
+    {
+        "question": "A mailman has to give twenty-eight pieces of junk mail to each block. If there are four houses on a block, how many pieces of junk mail should he give each house?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jose has 28 chickens and 18 ducks. How many fowls does he have?",
+        "ground_truth": 46.0,
+        "response": "The answer is 46",
+        "parsed_answer": 46.0,
+        "is_correct": true
+    },
+    {
+        "question": "Christmas is near. Mr. Anderson, president of Nice People Inc. organized a charity event to share happiness to the less fortunate people. The first thing that he did is to visit an orphanage. There he dressed up as Santa and gave toys to the children. If he gave 134 toy cars to the boys and 269 dolls to the girls, how many toys did he give to all?",
+        "ground_truth": 403.0,
+        "response": "The answer is 403.",
+        "parsed_answer": 403.0,
+        "is_correct": true
+    },
+    {
+        "question": "The school cafeteria ordered 25 red apples and 17 green apples for students lunches. But, if only 10 students wanted fruit, how many extra did the cafeteria end up with?",
+        "ground_truth": 32.0,
+        "response": "The cafeteria ended up with 32 extra apples.\n\nThe answer is 32",
+        "parsed_answer": 32.0,
+        "is_correct": true
+    },
+    {
+        "question": "To have a more stable treehouse, Charlie's father decided to tie the corner posts of the house to the tree itself. He used 24 inches of rope for the first post, 20 inches on the second, 14 inches on the third and 12 inches on the fourth. How many inches of rope were used?",
+        "ground_truth": 70.0,
+        "response": "The answer is 70",
+        "parsed_answer": 70.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kendra learns 12 new spelling words each week. Her goal is to learn 60 new words before her eighth birthday. She has already learned 36 new words. How many more words does Kendra need to learn?",
+        "ground_truth": 24.0,
+        "response": "The answer is 24",
+        "parsed_answer": 24.0,
+        "is_correct": true
+    },
+    {
+        "question": "Cindy's mom baked 1215 cookies. Paul's dad baked 1112 cookies. They both brought them to school for a party. How many cookies did they have altogether?",
+        "ground_truth": 2327.0,
+        "response": "The answer is 2327",
+        "parsed_answer": 2327.0,
+        "is_correct": true
+    },
+    {
+        "question": "A pet store had sixty-four birds that talked and thirteen that didn't. How many birds did the pet store have total?",
+        "ground_truth": 77.0,
+        "response": "The answer is 77",
+        "parsed_answer": 77.0,
+        "is_correct": true
+    },
+    {
+        "question": "Janet had eighty-five paper clips on the desk when she woke up in the morning. Before going to bed, she found there were twenty-six left. How many paper clips did she use today?",
+        "ground_truth": 59.0,
+        "response": "The answer is 59",
+        "parsed_answer": 59.0,
+        "is_correct": true
+    },
+    {
+        "question": "Kate has 223 pennies. John has 388 pennies. How many more pennies does John have?",
+        "ground_truth": 165.0,
+        "response": "The answer is 165",
+        "parsed_answer": 165.0,
+        "is_correct": true
+    },
+    {
+        "question": "A comic book costs 37 cents. The store owner reversed the digits by mistake. He wrote that number on the comic book. How much did the store owner overcharge his customer?",
+        "ground_truth": 36.0,
+        "response": "The store owner overcharged his customer by 73 cents.\n\nThe answer is 73",
+        "parsed_answer": 73.0,
+        "is_correct": false
+    },
+    {
+        "question": "Angela won a contest. She gets $90 to spend at Puzzle Palace. She bought many wonderful puzzles. She had $12 left. How much did she spend?",
+        "ground_truth": 78.0,
+        "response": "The answer is 78",
+        "parsed_answer": 78.0,
+        "is_correct": true
+    },
+    {
+        "question": "Sara bought decorations for her party. She paid $5 for balloons and $18 for tablecloths. She also spent $9 for streamers. She paid the cashier and got $8 back. How much money did Sara give to the cashier?",
+        "ground_truth": 40.0,
+        "response": "The answer is 24",
+        "parsed_answer": 24.0,
+        "is_correct": false
+    },
+    {
+        "question": "There were 10 students riding on the school bus. At the first stop, 3 students got off of the bus. How many students are left on the bus?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "A baker already had seventy-eight cakes but made nine extra. How many cakes did the baker have total?",
+        "ground_truth": 87.0,
+        "response": "The answer is 87",
+        "parsed_answer": 87.0,
+        "is_correct": true
+    },
+    {
+        "question": "Ned was helping the cafeteria workers pick up lunch trays, but he could only carry eight trays at a time. If he had to pick up twenty-seven trays from one table and five trays from another, how many trips will he make?",
+        "ground_truth": 4.0,
+        "response": "Ned will make 4 trips to pick up all the trays.\n\nThe answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "At band practice there were 4 rows of students with 8 students in each row and then another 9 students in the back. How many students were there total?",
+        "ground_truth": 41.0,
+        "response": "The answer is 41",
+        "parsed_answer": 41.0,
+        "is_correct": true
+    },
+    {
+        "question": "Bryan took a look at his books as well. If he has 56 books in each of his 9 bookshelves, how many books does he have in total?",
+        "ground_truth": 504.0,
+        "response": "The answer is 504",
+        "parsed_answer": 504.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tim has 39 pairs of headphones and 13 music players. Tim wants to sell all of the headphones and music players in identical packages. What is the greatest number of packages Tim can make?",
+        "ground_truth": 13.0,
+        "response": "To find the greatest number of packages Tim can make, we need to find the greatest common divisor (GCD) of 39 and 13.\n\nThe GCD of 39 and 13 is 13.\n\nTherefore, Tim can make a maximum of 13 packages.\n\nThe answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake bought a book of tickets for the rides at Fun Land. 8 of the tickets were red. There were twice as many blue tickets as red tickets. Jake used all 6 of his yellow tickets first. How many tickets did Jake buy in all?",
+        "ground_truth": 30.0,
+        "response": "The answer is 30",
+        "parsed_answer": 30.0,
+        "is_correct": true
+    },
+    {
+        "question": "46 apples were in the basket. 22 are red and the rest are green. How many apples are green?",
+        "ground_truth": 24.0,
+        "response": "The answer is 24",
+        "parsed_answer": 24.0,
+        "is_correct": true
+    },
+    {
+        "question": "A rectangular piece of metal is 16 centimeters wide and 19 centimeters long. What is its perimeter?",
+        "ground_truth": 70.0,
+        "response": "The perimeter of a rectangle is given by the formula: \\(2 \\times (\\text{length} + \\text{width})\\).\n\nGiven that the width is 16 centimeters and the length is 19 centimeters, the perimeter is:\n\\(2 \\times (16 + 19) = 2 \\times 35 = 70\\) centimeters.\n\nTherefore, the answer is: The answer is 70",
+        "parsed_answer": 70.0,
+        "is_correct": true
+    },
+    {
+        "question": "If Lizzie's group is composed of 54 people and they have 17 more members than the other group, how many people are working together to clean the city?",
+        "ground_truth": 91.0,
+        "response": "Let x be the number of people in the other group.\n\nGiven that Lizzie's group has 17 more members than the other group, we have the equation:\nx + 17 = 54\n\nSolving for x:\nx = 54 - 17\nx = 37\n\nTherefore, the total number of people working together to clean the city is:\n54 + 37 = 91\n\nThe answer is 91",
+        "parsed_answer": 91.0,
+        "is_correct": true
+    },
+    {
+        "question": "Martin works at the Hungry Hippo. He sells 48 hamburgers before 6 o'clock. He sells 28 more hamburgers than that after 6 o'clock. He works 24 hours each week. How many hamburgers does Martin sell after 6 o'clock?",
+        "ground_truth": 76.0,
+        "response": "Let's calculate the total number of hamburgers Martin sells after 6 o'clock:\n\n48 hamburgers before 6 o'clock + 28 more hamburgers after 6 o'clock = 48 + 28 = 76 hamburgers\n\nTherefore, Martin sells 76 hamburgers after 6 o'clock.\n\nThe answer is 76",
+        "parsed_answer": 76.0,
+        "is_correct": true
+    },
+    {
+        "question": "The difference between two numbers is 26 and greater number is three times the smaller. Find the numbers.",
+        "ground_truth": 13.0,
+        "response": "Let the smaller number be \\( x \\) and the greater number be \\( 3x \\).\n\nGiven that the difference between the two numbers is 26, we have the equation:\n\\[ 3x - x = 26 \\]\n\\[ 2x = 26 \\]\n\\[ x = 13 \\]\n\nTherefore, the smaller number is 13 and the greater number is \\( 3 \\times 13 = 39 \\).\n\nThe answer is 13 and 39.",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "A ballet class wants to divide its 90 members into some large groups at 7 members each and some small groups at 3 members each. In order to make the least number of groups, how many large groups should be made?",
+        "ground_truth": 12.0,
+        "response": "To make the least number of groups, we need to maximize the number of large groups. \n\nNumber of large groups = Total members / Members in each large group\nNumber of large groups = 90 / 7\nNumber of large groups = 12 remainder 6\n\nSince we want to make the least number of groups, we should make 12 large groups.\n\nTherefore, the answer is 12",
+        "parsed_answer": 12.0,
+        "is_correct": true
+    },
+    {
+        "question": "Next on her list are the homeless people where she spent a total of $900.00. If she gave $325.00 to the first set of homeless families and $260.00 to the second set of families, how much did she give to the last set of homeless families?",
+        "ground_truth": 315.0,
+        "response": "To find out how much Joan gave to the last set of homeless families, we need to subtract the amounts she gave to the first and second sets from the total amount she spent.\n\nTotal amount spent = $900.00\nAmount given to the first set = $325.00\nAmount given to the second set = $260.00\n\nAmount given to the last set = Total amount spent - Amount given to the first set - Amount given to the second set\n\nAmount given to the last set = $900.00 - $325.00 - $260.00\nAmount given to the last set = $315.00\n\nTherefore, the answer is: The answer is 315",
+        "parsed_answer": 315.0,
+        "is_correct": true
+    },
+    {
+        "question": "Vanessa uploaded twenty-three pictures from her phone and seven from her camera to Facebook. If she sorted the pics into five different albums with the same amount of pics in each album, how many pictures were in each of the albums?",
+        "ground_truth": 6.0,
+        "response": "To find out how many pictures were in each of the albums, we need to divide the total number of pictures uploaded by Vanessa by the number of albums she sorted them into.\n\nTotal number of pictures uploaded = 23 (from phone) + 7 (from camera) = 30\nNumber of albums = 5\n\nNumber of pictures in each album = Total number of pictures uploaded / Number of albums\nNumber of pictures in each album = 30 / 5 = 6\n\nTherefore, the answer is: The answer is 6",
+        "parsed_answer": 6.0,
+        "is_correct": true
+    },
+    {
+        "question": "The weight of 5 single beds is 50 kg. The total weight of 2 single beds and 4 double beds is 100 kg. How much heavier is a double bed than a single bed?",
+        "ground_truth": 10.0,
+        "response": "Let the weight of a single bed be \\( x \\) kg and the weight of a double bed be \\( y \\) kg.\n\nFrom the first statement, we have:\n\\[ 5x = 50 \\]\n\\[ x = 10 \\text{ kg} \\]\n\nFrom the second statement, we have:\n\\[ 2x + 4y = 100 \\]\n\\[ 2(10) + 4y = 100 \\]\n\\[ 20 + 4y = 100 \\]\n\\[ 4y = 80 \\]\n\\[ y = 20 \\text{ kg} \\]\n\nTherefore, a double bed is \\( 20 - 10 = 10 \\) kg heavier than a single bed.\n\nThe answer is 10.",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Each bag contains 23 pounds of oranges. How many pounds of oranges are in 45 bags?",
+        "ground_truth": 1035.0,
+        "response": "The answer is 1035",
+        "parsed_answer": 1035.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are some rooms in a building. 35 of them are classrooms, 10 of them are office and the remaining 6 are reading rooms. How many rooms are in the building?",
+        "ground_truth": 51.0,
+        "response": "The answer is 51",
+        "parsed_answer": 51.0,
+        "is_correct": true
+    },
+    {
+        "question": "A chef served 3 different foods for a banquet: 25 plates lobster rolls, 14 plates of spicy hot noodles and 16 plates of seafood noodles. How many plates of food did the chef make altogether?",
+        "ground_truth": 55.0,
+        "response": "The answer is 55",
+        "parsed_answer": 55.0,
+        "is_correct": true
+    },
+    {
+        "question": "A number equals 5 times the difference between the number and 4. Find the number.",
+        "ground_truth": 5.0,
+        "response": "Let the number be denoted by \\( x \\). The given condition can be written as:\n\n\\[ x = 5(x-4) \\]\n\nSolving for \\( x \\):\n\n\\[ x = 5x - 20 \\]\n\\[ 20 = 5x - x \\]\n\\[ 20 = 4x \\]\n\\[ x = 5 \\]\n\nTherefore, the number is 5. \n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Every day, Ryan spends 4 hours on learning English and 3 hours on learning Chinese. How many hours does he spend on learning English and Chinese in all?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 10 stickers on a page. If you have 22 pages of stickers, how many stickers do you have?",
+        "ground_truth": 220.0,
+        "response": "The answer is 220",
+        "parsed_answer": 220.0,
+        "is_correct": true
+    },
+    {
+        "question": "Gabe and Steven make money by walking neighborhood pets. During a conversation about their work, they realize that they are both walking the same total number of pets, even though Gabe walks pets in groups of 2 and Steven walks pets in groups of 10. What is the smallest total number of pets each could be walking?",
+        "ground_truth": 10.0,
+        "response": "To find the smallest total number of pets each could be walking, we need to find the least common multiple (LCM) of 2 and 10.\n\nThe LCM of 2 and 10 is 10.\n\nTherefore, the smallest total number of pets each could be walking is 10.\n\nThe answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Tiffany was buying sodas for her and her friends. They needed nine sodas, but Tiffany bought seven extra. How many did she buy?",
+        "ground_truth": 16.0,
+        "response": "The answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "A group of 8 friends were dressing as pirates for Halloween. If each costume cost 5 dollars, how much did they spend?",
+        "ground_truth": 40.0,
+        "response": "The answer is 40",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    },
+    {
+        "question": "Chloe and her friends were recycling paper for their class. For every six pounds they recycled they earned 1 point. If Chloe recycled twenty-eight pounds and her friends recycled two pounds, how many points did they earn?",
+        "ground_truth": 5.0,
+        "response": "To find the total points earned by Chloe and her friends for recycling paper, we first need to calculate the total pounds of paper recycled.\n\nChloe recycled 28 pounds, and her friends recycled 2 pounds, so the total pounds recycled is 28 + 2 = 30 pounds.\n\nFor every 6 pounds recycled, they earn 1 point. Therefore, the total points earned is 30 pounds / 6 pounds per point = 5 points.\n\nThe answer is 5",
+        "parsed_answer": 5.0,
+        "is_correct": true
+    },
+    {
+        "question": "Peter wants to split a collection of pencils into groups of 11. Peter has 154 pencils. How many groups will be created?",
+        "ground_truth": 14.0,
+        "response": "To find out how many groups of 11 pencils Peter can create from 154 pencils, we need to divide the total number of pencils by the number of pencils in each group:\n\n154 pencils \u00f7 11 pencils/group = 14 groups\n\nTherefore, Peter can create 14 groups of pencils. \n\nThe answer is 14",
+        "parsed_answer": 14.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jae bought 12 cartons of ice cream and 3 cartons of yogurt. Each carton of ice cream cost $9 and each carton of yogurt cost $2. How much more did Jae spend on ice cream than on yogurt?",
+        "ground_truth": 102.0,
+        "response": "Let's calculate the total cost of ice cream and yogurt:\n\nCost of 12 cartons of ice cream = 12 * $9 = $108\nCost of 3 cartons of yogurt = 3 * $2 = $6\n\nNow, let's find out how much more Jae spent on ice cream than on yogurt:\n\n$108 - $6 = $102\n\nTherefore, Jae spent $102 more on ice cream than on yogurt. \n\nThe answer is 102",
+        "parsed_answer": 102.0,
+        "is_correct": true
+    },
+    {
+        "question": "A sofa and a love seat together costs $444. The sofa costs double the love seat. How much do they each cost?",
+        "ground_truth": 148.0,
+        "response": "Let the cost of the love seat be x dollars. Then, the cost of the sofa is 2x dollars.\n\nGiven that the total cost of the sofa and love seat together is $444, we have the equation:\nx + 2x = 444\n3x = 444\nx = 148\n\nTherefore, the love seat costs $148 and the sofa costs $296.\n\nThe answer is 148",
+        "parsed_answer": 148.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 42 boys in the computer club. There are 9 fewer girls than boys in the club. How many children are in the computer club altogether?",
+        "ground_truth": 75.0,
+        "response": "The answer is 75",
+        "parsed_answer": 75.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jack received 8 emails in the morning and 2 emails in the afternoon. How many emails did Jack receive in the day?",
+        "ground_truth": 10.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "Jake has six fewer peaches than Steven. Steven has 13 peaches. How many peaches does Jake have?",
+        "ground_truth": 7.0,
+        "response": "The answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "A pet supply store has 600 bags of dog food and 327 bags of cat food. How many more bags of dog food are there than cat food?",
+        "ground_truth": 273.0,
+        "response": "The answer is 273",
+        "parsed_answer": 273.0,
+        "is_correct": true
+    },
+    {
+        "question": "For the final act, the circus brought out dancing animals wearing crowns. If each crown is made with 7 different colored feathers, how many feathers are needed for 934 crowns?",
+        "ground_truth": 6538.0,
+        "response": "To find the total number of feathers needed for 934 crowns, we multiply the number of crowns by the number of feathers per crown:\n\n934 crowns * 7 feathers/crown = 6538 feathers\n\nTherefore, the answer is: The answer is 6538",
+        "parsed_answer": 6538.0,
+        "is_correct": true
+    },
+    {
+        "question": "At a bus stop forty-seven people got off the bus. Now there were forty-three people on the bus. How many people were on the bus before?",
+        "ground_truth": 90.0,
+        "response": "The answer is 90",
+        "parsed_answer": 90.0,
+        "is_correct": true
+    },
+    {
+        "question": "There were ten people on the bus. At the next stop three more people got on the bus. How many people are there on the bus now?",
+        "ground_truth": 13.0,
+        "response": "The answer is 13",
+        "parsed_answer": 13.0,
+        "is_correct": true
+    },
+    {
+        "question": "Isabel had sixty-eight pieces of candy. Her friend gave her twenty-five more pieces. How many pieces of candy did Isabel have total?",
+        "ground_truth": 93.0,
+        "response": "The answer is 93",
+        "parsed_answer": 93.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Hilt's favorite first grade classes are baking muffins. Mrs. Brier's class bakes 18 muffins, Mrs. MacAdams's class bakes 20 muffins, and Mrs. Flannery's class bakes 17 muffins. How many muffins does first grade bake in all?",
+        "ground_truth": 55.0,
+        "response": "The answer is 55",
+        "parsed_answer": 55.0,
+        "is_correct": true
+    },
+    {
+        "question": "Henry bought 2 new fireworks and his friend bought 3. If they already had 6 saved from last year, how many do they have now?",
+        "ground_truth": 11.0,
+        "response": "The answer is 11",
+        "parsed_answer": 11.0,
+        "is_correct": true
+    },
+    {
+        "question": "Cory made 4500 g of candy. He saved 1 kg to eat later. He divided the rest of the candy over 7 bowls to serve at his party. How many grams of candy did Cory serve in each bowl?",
+        "ground_truth": 500.0,
+        "response": "The answer is 542.857",
+        "parsed_answer": 542.857,
+        "is_correct": false
+    },
+    {
+        "question": "Mona is having a party at her house to celebrate her birthday. She invited some friends and family. Mona prepared rainbow colored cupcakes for dessert. If she made 7 sets for each of the 7 colors of the rainbow and each set has 6 cupcakes, how many cupcakes did Mona prepare in total?",
+        "ground_truth": 42.0,
+        "response": "The answer is 42",
+        "parsed_answer": 42.0,
+        "is_correct": true
+    },
+    {
+        "question": "The area of square photo is 25 square inches. Angie decided to enlarge the photo by doubling the sides. What will the new area be?",
+        "ground_truth": 100.0,
+        "response": "The answer is 100",
+        "parsed_answer": 100.0,
+        "is_correct": true
+    },
+    {
+        "question": "At the arcade Dave won 11 tickets. If he spent 5 tickets on a beanie and later won 10 more tickets, how many would he have?",
+        "ground_truth": 16.0,
+        "response": "The answer is 16",
+        "parsed_answer": 16.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 45 questions on the math test. 17 questions are word problems. 28 questions are addition and subtraction problems. Steve can only answer 38 questions. How many questions did Steve leave blank?",
+        "ground_truth": 7.0,
+        "response": "Steve left 7 questions blank.\nThe answer is 7",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "While playing a game Kaleb had ninety-eight lives. After losing some lives he had seventy-three left. How many lives did Kaleb lose?",
+        "ground_truth": 25.0,
+        "response": "The answer is 25",
+        "parsed_answer": 25.0,
+        "is_correct": true
+    },
+    {
+        "question": "There are 22 dogs in the farm. They live in 5 dog-houses equally. How many dogs are there in each dog-house?",
+        "ground_truth": 4.0,
+        "response": "The answer is 4",
+        "parsed_answer": 4.0,
+        "is_correct": true
+    },
+    {
+        "question": "A waiter had nineteen customers. After some left he still had four customers. What's the difference between the number of customers before leaving and after leaving?",
+        "ground_truth": 15.0,
+        "response": "The answer is 15",
+        "parsed_answer": 15.0,
+        "is_correct": true
+    },
+    {
+        "question": "Josh had $1.80. He paid 45 cents for a candy car. How much change will he get?",
+        "ground_truth": 1.35,
+        "response": "The answer is 1.35",
+        "parsed_answer": 1.35,
+        "is_correct": true
+    },
+    {
+        "question": "Kaleb was collecting cans for recycling. On Saturday he filled five bags up and on Sunday he filled five more bags. If each bag had four cans in it, how many cans did he pick up total?",
+        "ground_truth": 40.0,
+        "response": "The answer is 40",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    },
+    {
+        "question": "A washing machine can wash 28 pounds of clothes per day. If there are 200 pounds of clothes to be washed per day, how many pounds of clothes does the washing machine that isn't fully loaded wash per day?",
+        "ground_truth": 4.0,
+        "response": "Let x be the number of pounds of clothes the washing machine that isn't fully loaded washes per day. We know that the fully loaded washing machine washes 28 pounds per day. Therefore, the equation representing the situation is:\n\nx + 28 = 200\n\nSolving for x:\n\nx = 200 - 28\nx = 172\n\nTherefore, the washing machine that isn't fully loaded washes 172 pounds of clothes per day.\n\nThe answer is 172",
+        "parsed_answer": 172.0,
+        "is_correct": false
+    },
+    {
+        "question": "A pet store had 2 dogs. On Sunday they got 5 more. On Monday they got 3 more. How many dogs does the pet store have now?",
+        "ground_truth": 10.0,
+        "response": "The answer is 10",
+        "parsed_answer": 10.0,
+        "is_correct": true
+    },
+    {
+        "question": "A cafeteria offered two types of milk, regular or chocolate. If they sold 24 cartons total and 3 of them were regular flavor, what is the ratio of chocolate milk sold to regular milk sold?",
+        "ground_truth": 7.0,
+        "response": "Let's first find out how many cartons of chocolate milk were sold. \n\nTotal cartons sold = 24\nCartons of regular milk sold = 3\n\nCartons of chocolate milk sold = Total cartons sold - Cartons of regular milk sold\nCartons of chocolate milk sold = 24 - 3\nCartons of chocolate milk sold = 21\n\nNow, let's find the ratio of chocolate milk sold to regular milk sold.\n\nRatio = Cartons of chocolate milk sold : Cartons of regular milk sold\nRatio = 21 : 3\nRatio = 7 : 1\n\nTherefore, the ratio of chocolate milk sold to regular milk sold is 7:1. \n\nThe answer is 7:1",
+        "parsed_answer": 7.0,
+        "is_correct": true
+    },
+    {
+        "question": "Victor was playing checkers with a friend. The ratio of games Victor won was 9:5. If Victor won 36 games, how many games did his friend win?",
+        "ground_truth": 20.0,
+        "response": "Let the number of games Victor's friend won be represented by \\( x \\).\n\nThe ratio of games Victor won to games his friend won is 9:5. This means that the total number of games played is 9 + 5 = 14.\n\nSince Victor won 36 games, we can set up the proportion:\n\n\\(\\frac{9}{14} = \\frac{36}{x}\\)\n\nCross multiplying, we get:\n\n\\(9x = 36 \\times 14\\)\n\n\\(9x = 504\\)\n\n\\(x = \\frac{504}{9}\\)\n\n\\(x = 56\\)\n\nTherefore, Victor's friend won 56 games.\n\nThe answer is 56",
+        "parsed_answer": 56.0,
+        "is_correct": false
+    },
+    {
+        "question": "The taxi charges in a city comprise of a fixed charge together with the charge for the distance covered. For a journey of 10 km, the charge paid is $75 and for a journey of 15 km, the charge paid is $110. What will a person have to pay for traveling a distance of 25 km?",
+        "ground_truth": 180.0,
+        "response": "Let the fixed charge be $x and the charge per km be $y.\n\nFrom the given information, we can set up the following system of equations:\n10y + x = 75\n15y + x = 110\n\nSubtracting the first equation from the second equation, we get:\n5y = 35\ny = 7\n\nSubstitute y = 7 back into the first equation:\n10(7) + x = 75\n70 + x = 75\nx = 5\n\nNow, we can find the total charge for traveling 25 km:\n25(7) + 5 = 175 + 5 = 180\n\nThe answer is 180.",
+        "parsed_answer": 180.0,
+        "is_correct": true
+    },
+    {
+        "question": "Mrs. Smith is 8 years more than twice the age of her son. The ages of son is 12. Find the age of mother and find the difference between their ages.",
+        "ground_truth": 32.0,
+        "response": "Let the age of Mrs. Smith be denoted by \\( S \\) and the age of her son be denoted by \\( son \\).\n\nGiven that Mrs. Smith is 8 years more than twice the age of her son, we can write the equation:\n\\[ S = 2 \\times son + 8 \\]\n\nGiven that the age of the son is 12, we can substitute this value into the equation:\n\\[ S = 2 \\times 12 + 8 \\]\n\\[ S = 24 + 8 \\]\n\\[ S = 32 \\]\n\nTherefore, the age of Mrs. Smith is 32 years.\n\nTo find the difference between their ages, we subtract the son's age from Mrs. Smith's age:\n\\[ Difference = S - son \\]\n\\[ Difference = 32 - 12 \\]\n\\[ Difference = 20 \\]\n\nTherefore, the difference between their ages is 20 years.\n\nThe answer is 20",
+        "parsed_answer": 20.0,
+        "is_correct": false
+    },
+    {
+        "question": "If twice the son's age is added to the father's, the sum is 70. But if twice the father's age is added to the son's age, the sum is 95. Find the ages of father and son.",
+        "ground_truth": 40.0,
+        "response": "Let the son's age be represented by \\( x \\) and the father's age be represented by \\( y \\).\n\nFrom the given information, we have the following system of equations:\n\\[\n\\begin{cases}\n2x + y = 70 \\\\\nx + 2y = 95\n\\end{cases}\n\\]\n\nSolving this system of equations, we find:\n\\[\n\\begin{aligned}\n2x + y &= 70 \\\\\nx + 2y &= 95 \\\\\n\\end{aligned}\n\\]\n\nMultiplying the first equation by 2, we get:\n\\[\n\\begin{aligned}\n4x + 2y &= 140 \\\\\nx + 2y &= 95 \\\\\n\\end{aligned}\n\\]\n\nSubtracting the second equation from the first, we have:\n\\[\n\\begin{aligned}\n3x &= 45 \\\\\nx &= 15\n\\end{aligned}\n\\]\n\nSubstitute \\( x = 15 \\) back into the first equation:\n\\[\n\\begin{aligned}\n2(15) + y &= 70 \\\\\n30 + y &= 70 \\\\\ny &= 40\n\\end{aligned}\n\\]\n\nTherefore, the father is 40 years old and the son is 15 years old.\n\nThe answer is: The answer is 40, 15",
+        "parsed_answer": 40.0,
+        "is_correct": true
+    }
+]

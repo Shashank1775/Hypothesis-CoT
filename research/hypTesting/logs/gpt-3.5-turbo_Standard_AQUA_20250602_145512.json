@@ -1,0 +1,1437 @@
+[
+    {
+        "question": "The difference between the local value and the face value of 9 in the numeral 62975148 is\nOptions:\nA)899999\nB)899991\nC)899891\nD)899981\nE)899000",
+        "ground_truth": "B",
+        "response": "The difference between the local value and the face value of 9 in the numeral 62975148 is 899991.\n\nTherefore, The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A number when divided by 342 gives a remainder 47. When the same number ift divided by 19, what would be the remainder ?\nOptions:\nA)7\nB)8\nC)9\nD)21\nE)14",
+        "ground_truth": "C",
+        "response": "The remainder when the number is divided by 19 will be the same as the remainder when the number is divided by 342, which is 47. \n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "The ratio of numbers is 5:6 and their H.C.F is 4. Their L.C.M is:\nOptions:\nA)12\nB)16\nC)24\nD)48\nE)120",
+        "ground_truth": "E",
+        "response": "The L.C.M of two numbers is equal to the product of the numbers divided by their H.C.F. \n\nGiven the ratio of the numbers is 5:6 and their H.C.F is 4, the numbers are 5*4 = 20 and 6*4 = 24.\n\nThe L.C.M = (20*24)/4 = 120\n\nTherefore, the answer is: The answer is E",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "A letter lock consists of three rings each marked with seven different letters. The number of distinct unsuccessful attempts to open the lock is at the most ?\nOptions:\nA)177\nB)199\nC)342\nD)168\nE)167",
+        "ground_truth": "C",
+        "response": "The number of distinct unsuccessful attempts to open the lock is $7 \\times 7 \\times 7 = 343$. However, one of these attempts will be successful, so the maximum number of distinct unsuccessful attempts is $343 - 1 = 342$.\n\nTherefore, the answer is: The answer is C)342",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The cost of 5 kgs. of sugar is Rs.279. What is the cost of 1 kg of sugar?\nOptions:\nA)Rs.55\nB)Rs.55.80\nC)Rs.65.80\nD)Rs.65\nE)Rs.75",
+        "ground_truth": "B",
+        "response": "The cost of 1 kg of sugar is Rs. 55.80\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A train 1020 m long running at 102 kmph crosses a platform in 50 sec. What is the length of the platform?\nOptions:\nA)287\nB)298\nC)396\nD)726\nE)267",
+        "ground_truth": "C",
+        "response": "The length of the platform is 726 meters.\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "The average (arithmetic mean) of all scores on a certain algebra test was 90. If the average of the 8 male students\u2019 grades was 83, and the average of the female students\u2019 grades was 92, how many female students took the test?\nOptions:\nA)8\nB)9\nC)10\nD)21\nE)28",
+        "ground_truth": "E",
+        "response": "Let the number of female students be \\( x \\).\n\nThe total number of students is \\( 8 + x \\).\n\nThe total sum of all scores is \\( 90 \\times (8 + x) \\).\n\nThe sum of the male students' scores is \\( 83 \\times 8 \\).\n\nThe sum of the female students' scores is \\( 92x \\).\n\nWe can set up the equation:\n\n\\[\n\\frac{83 \\times 8 + 92x}{8 + x} = 90\n\\]\n\nSolving this equation gives \\( x = 9 \\).\n\nTherefore, the answer is: The answer is B.",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "If it is 6:27 in the evening on a certain day, what time in the morning was it exactly 2,880,713 minutes earlier? (Assume standard time in one location.)\nOptions:\nA)6:22\nB)6:24\nC)6:27\nD)6:30\nE)6:32",
+        "ground_truth": "B",
+        "response": "To find the time 2,880,713 minutes earlier, we need to divide this number by the number of minutes in a day (24 hours * 60 minutes = 1440 minutes) to find how many days have passed. Then, we can determine the time earlier.\n\n2880713 minutes \u00f7 1440 minutes/day \u2248 2000 days\n\nSince 2000 days have passed, the time earlier would be the same time as 2000 days ago. \n\n6:27 PM - 2000 days = 6:27 PM\n\nTherefore, the answer is: The answer is C) 6:27",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "The value of x+2+xx -x(x+x) when x = 2 is:\nOptions:\nA)5\nB)4\nC)0\nD)3\nE)6",
+        "ground_truth": "C",
+        "response": "Given the expression x+2+xx -x(x+x), we substitute x = 2:\n\n2 + 2 + 2*2 - 2(2+2)\n= 2 + 2 + 4 - 2(4)\n= 4 + 4 - 8\n= 0\n\nTherefore, the value of the expression when x = 2 is 0. \n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "In the xy-coordinate system, if (m, n) and (m + 3, n + k) are two points on the line with the equation x = 2y + 5, then k =\nOptions:\nA)1/2\nB)1\nC)2\nD)3/2\nE)4",
+        "ground_truth": "D",
+        "response": "Given that the line has the equation $x = 2y + 5$, we can see that the slope of the line is 2. This means that for every increase of 1 in $x$, there is an increase of 2 in $y$.\n\nSince the points $(m, n)$ and $(m + 3, n + k)$ lie on the line, the change in $x$ from $m$ to $m + 3$ is 3. Therefore, the change in $y$ from $n$ to $n + k$ should be twice this change, which is 6.\n\nHence, $k = 6$.\n\nTherefore, the answer is E) 4",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "At the wholesale store you can buy an 8-pack of hot dogs for $1.55, a 20-pack for $3.05, and a 250-pack for $20.95. What is the greatest number of hot dogs you can buy at this store with $300?\nOptions:\nA) 3,108\nB) 3,100\nC) 3,108\nD) 3,540\nE) 3,256",
+        "ground_truth": "D",
+        "response": "To maximize the number of hot dogs bought, we should buy the 250-pack as many times as possible without exceeding $300.\n\n$300 \u00f7 $20.95 \u2248 14.35\n\nSince we can't buy a fraction of a pack, we can buy 14 packs of 250 hot dogs each.\n\n14 packs * 250 hot dogs = 3500 hot dogs\n\nTherefore, the greatest number of hot dogs you can buy at this store with $300 is 3,500.\n\nThe answer is D) 3,540",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "The sector of a circle has radius of 21 cm and central angle 135o. Find its perimeter?\nOptions:\nA)91.5 cm\nB)91.6 cm\nC)97.5 cm\nD)51.5 cm\nE)91.2 cm",
+        "ground_truth": "A",
+        "response": "The perimeter of a sector of a circle is given by the formula: \nPerimeter = radius + radius + arc length\n\nGiven that the radius is 21 cm and the central angle is 135 degrees, we can calculate the arc length using the formula:\nArc length = (central angle / 360) * 2 * \u03c0 * radius\n\nPlugging in the values:\nArc length = (135/360) * 2 * \u03c0 * 21\nArc length = (3/8) * 2 * 3.14159 * 21\nArc length = 0.84375 * 131.946\nArc length \u2248 111.45 cm\n\nNow, we can find the perimeter:\nPerimeter = 21 + 21 + 111.45\nPerimeter = 42 + 111.45\nPerimeter = 153.45 cm\n\nTherefore, the answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Thabo owns exactly 280 books, and each book is either paperback fiction, paperback nonfiction, or hardcover nonfiction. If he owns 20 more paperback nonfiction books than hardcover nonfiction books, and twice as many paperback fiction books as paperback nonfiction books, how many hardcover books nonfiction books does Thabo own?\nOptions:\nA)10\nB)20\nC)30\nD)40\nE)55",
+        "ground_truth": "E",
+        "response": "Let the number of hardcover nonfiction books be x.\nThen the number of paperback nonfiction books is x + 20.\nAnd the number of paperback fiction books is 2(x + 20) = 2x + 40.\n\nThe total number of books is 280, so:\nx + x + 20 + 2x + 40 = 280\n4x + 60 = 280\n4x = 220\nx = 55\n\nTherefore, Thabo owns 55 hardcover nonfiction books.\n\nThe answer is E) 55",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "Find the largest number of four digits which is exactly divisible by 27,18,12,16\nOptions:\nA)9906\nB)9916\nC)9936\nD)9736\nE)9746",
+        "ground_truth": "C",
+        "response": "To find the largest number of four digits which is exactly divisible by 27, 18, 12, and 16, we need to find the least common multiple (LCM) of these numbers.\n\nThe prime factorization of the numbers are:\n- 27 = 3^3\n- 18 = 2 * 3^2\n- 12 = 2^2 * 3\n- 16 = 2^4\n\nThe LCM is the product of the highest power of all prime factors involved:\nLCM = 2^4 * 3^3 = 16 * 27 = 432\n\nNow, we need to find the largest four-digit number that is divisible by 432. The largest four-digit number is 9999.\n\nDividing 9999 by 432 gives a quotient of 23 with a remainder of 63. To find the largest number less than 9999 that is divisible by 432, we subtract the remainder from 9999:\n9999 - 63 = 9936\n\nTherefore, the largest number of four digits which is exactly divisible by 27, 18, 12, and 16 is 9936.\n\nThe answer is C)9936",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Mr. John used to purchase certain number of mangoes for $360 Since the price of mangoes is reduced by 10% he got 12 more mangoes today. Find the original price of 115 mangoes.\nOptions:\nA)360\nB)383\nC)400\nD)406\nE)412",
+        "ground_truth": "B",
+        "response": "Let the original price of each mango be $x. \n\nSo, the original price of 115 mangoes would be 115x.\n\nGiven that Mr. John used to purchase a certain number of mangoes for $360, we have the equation:\nOriginal price * Number of mangoes = Total cost\nx * (115) = 360\n\nSince the price of mangoes is reduced by 10%, the new price of each mango is 0.9x. \n\nMr. John got 12 more mangoes today, so the total number of mangoes he got today is 115 + 12 = 127.\n\nThe new total cost would be:\nNew price * Number of mangoes = Total cost\n0.9x * 127 = 360\n\nSolving the two equations simultaneously:\n1) x * 115 = 360\n2) 0.9x * 127 = 360\n\nFrom equation 1, we get x = 360 / 115 = 3.13\n\nSubstitute x back into equation 1 to verify:\n3.13 * 115 = 360\n\nTherefore, the original price of 115 mangoes is $3.13 each.\n\nThe answer is D) 406",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "When m is divided by 9, the remainder is 8. When m is divided by 13, the remainder is 5. If 1 < m < 200, what is the greatest possible value of m?\nOptions:\nA)47\nB)65\nC)103\nD)117\nE)161",
+        "ground_truth": "E",
+        "response": "To find the greatest possible value of \\( m \\), we need to find a number that satisfies the given conditions. \n\nFrom the first condition, when \\( m \\) is divided by 9, the remainder is 8. This means \\( m = 9k + 8 \\) for some integer \\( k \\).\n\nFrom the second condition, when \\( m \\) is divided by 13, the remainder is 5. This means \\( m = 13l + 5 \\) for some integer \\( l \\).\n\nSetting the two expressions for \\( m \\) equal to each other, we get:\n\\[ 9k + 8 = 13l + 5 \\]\n\\[ 9k = 13l - 3 \\]\n\nNow, we need to find the smallest possible values of \\( k \\) and \\( l \\) that satisfy this equation. We can start by trying different values of \\( l \\) until we find a common multiple of 9 and 13 that is 3 more than a multiple of 13.\n\nTrying \\( l = 1 \\), we get:\n\\[ 13(1) - 3 = 10 \\]\nThis is not a multiple of 9.\n\nTrying \\( l = 2 \\), we get:\n\\[ 13(2) - 3 = 23 \\]\nThis is not a multiple of 9.\n\nTrying \\( l = 3 \\), we get:\n\\[ 13(3) - 3 = 36 \\]\nThis is a multiple of 9.\n\nTherefore, the greatest possible value of \\( m \\) is when \\( m = 36 \\), which is less than 200.\n\nThe answer is \\(\\text{C) 103}\\).",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "In the xy-plane, a triangle has vertices (0,0), (4,0) and (4,7). If a point (a,b) is selected at random from the triangular region, What is the probability that a-b>0?\nOptions:\nA)4/7\nB)2/3\nC)3/5\nD)3/7\nE)1/2",
+        "ground_truth": "A",
+        "response": "To find the probability that a-b>0, we need to determine the area of the region where a-b>0 and then divide it by the total area of the triangle.\n\nThe area of the triangle with vertices (0,0), (4,0), and (4,7) is given by:\nArea = 1/2 * base * height\nArea = 1/2 * 4 * 7\nArea = 14\n\nThe region where a-b>0 is the region above the line a=b. This line passes through the points (0,0) and (4,4). The area of the region above this line can be calculated as:\nArea above line a=b = 1/2 * base * height\nArea above line a=b = 1/2 * 4 * 4\nArea above line a=b = 8\n\nTherefore, the probability that a-b>0 is given by:\nProbability = Area above line a=b / Total area\nProbability = 8 / 14\nProbability = 4 / 7\n\nThe answer is A) 4/7",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "What amount does Kiran get if he invests Rs.8000 at 10% p.a. compound interest for two years, compounding done annually?\nOptions:\nA)2277\nB)2987\nC)2799\nD)1277\nE)9680",
+        "ground_truth": "E",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "I am five letter word. if you remove one, only two letters remain.\nWhat word am I\nOptions:\nA)I am phone\nB)I am table\nC)I am Water\nD)I am Stone\nE)None",
+        "ground_truth": "D",
+        "response": "The answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "The average (arithmetic mean) of the even integers from 0 to 40 inclusive is how much greater than the average (arithmetic mean) of the even integers from 0 to 20 inclusive?\nOptions:\nA)10\nB)20\nC)5\nD)30\nE)15",
+        "ground_truth": "A",
+        "response": "The average of the even integers from 0 to 40 inclusive is (0+2+4+...+40)/21 = 20.\n\nThe average of the even integers from 0 to 20 inclusive is (0+2+4+...+20)/11 = 10.\n\nTherefore, the difference in averages is 20 - 10 = 10.\n\nThe answer is A) 10",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A diagonal of a polygon is an segment between two non-adjacent vertices of the polygon. How many diagonals does a regular 10-sided polygon have?\nOptions:\nA) 875\nB) 35\nC) 1425\nD) 2025\nE) 2500",
+        "ground_truth": "B",
+        "response": "The number of diagonals in a regular n-sided polygon is given by the formula: \\(\\frac{n(n-3)}{2}\\).\n\nFor a 10-sided polygon, the number of diagonals is: \\(\\frac{10(10-3)}{2} = \\frac{10 \\times 7}{2} = 35\\).\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Which of the following options represents an approximate value for the question mark (?) in the following equation? 65.321 + 22.4 \u00d7 3.2 + ? = 502.871\nOptions:\nA)509.2\nB)529.2\nC)504.2\nD)549.2\nE)506.2",
+        "ground_truth": "A",
+        "response": "First, we need to solve the equation:\n65.321 + 22.4 \u00d7 3.2 + ? = 502.871\n\nCalculate the multiplication first:\n22.4 \u00d7 3.2 = 71.68\n\nNow, substitute this back into the equation:\n65.321 + 71.68 + ? = 502.871\n\nCombine the known values:\n137.001 + ? = 502.871\n\nNow, solve for the question mark:\n? = 502.871 - 137.001\n? = 365.87\n\nTherefore, the answer is: The answer is E)506.2",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "105 candies are distributed to children with the same number of candies for each child. What can\u2019t be the range which includes the number of children?\nOptions:\nA)1~10.\nB)10~20.\nC)20~30.\nD)30~40.\nE)40~50.",
+        "ground_truth": "E",
+        "response": "To find the possible number of children, we need to find the factors of 105. The factors of 105 are 1, 3, 5, 7, 15, 21, 35, and 105.\n\nThe number of children must be one of these factors. The range that includes the number of children is from 1 to 105.\n\nThe only option that doesn't fall within this range is:\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "Abhijit started a business investing 70000. Anuja joined him after six months with an amount of 105000 and Sunil joined them with 1.4 lakhs after another six months. The amount of profit earned should be distributed in what ratio among Abhijit, Anuja and Sunil respectively, two years after Abhijit started the business?\nOptions:\nA)4 : 9 : 4\nB)5 : 9 : 5\nC)8 : 9 : 8\nD)7: 9 : 7\nE)3 : 9 : 4",
+        "ground_truth": "C",
+        "response": "Let's calculate the total profit earned after two years:\n\nAbhijit invested for 24 months, Anuja invested for 18 months, and Sunil invested for 12 months.\n\nTotal profit ratio = (70000 * 24) : (105000 * 18) : (140000 * 12)\nTotal profit ratio = 1680000 : 1890000 : 1680000\nTotal profit ratio = 8 : 9 : 8\n\nTherefore, the ratio in which the profit should be distributed among Abhijit, Anuja, and Sunil respectively, two years after Abhijit started the business is 8 : 9 : 8.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Kim has 9 pairs of shoes; each pair is a different color. If Kim randomly selects 2 shoes without replacement from the 18 shoes, what is the probability that she will select 2 shoes of the same color?\nOptions:\nA)2/5\nB)11/5\nC)1/9\nD)1/17\nE)1/5",
+        "ground_truth": "D",
+        "response": "To calculate the probability that Kim will select 2 shoes of the same color, we need to determine the total number of ways she can select 2 shoes out of 18 and the number of ways she can select 2 shoes of the same color.\n\nTotal number of ways to select 2 shoes out of 18: C(18, 2) = 18! / (2! * (18-2)!) = 153\n\nNumber of ways to select 2 shoes of the same color: Since each pair is a different color, there are 9 pairs, so Kim can select 2 shoes of the same color in 9 ways.\n\nTherefore, the probability that Kim will select 2 shoes of the same color is 9/153 = 1/17\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "Tough and Tricky questions: Word Problems.\nMike, Sarah and David decided to club together to buy a present. Each of them gave equal amount of money. Luckily Sarah negotiated a 20% discount for the present so that each of them paid 4 dollars less. How much did they pay for a present?\nOptions:\nA)20\nB)36\nC)48\nD)60\nE)72",
+        "ground_truth": "C",
+        "response": "Let the original cost of the present be $x. Since each of them paid an equal amount, each of them paid $\\frac{x}{3}$.\n\nAfter the 20% discount, the new cost of the present is $0.8x. Each of them paid $4 less, so the new amount each of them paid is $\\frac{x}{3} - 4$.\n\nSetting up the equation:\n$\\frac{x}{3} - 4 = 0.8x$\n\nSolving for x:\n$\\frac{x}{3} = 0.8x + 4$\n\n$x = 3(0.8x + 4)$\n$x = 2.4x + 12$\n$0.6x = 12$\n$x = 20$\n\nTherefore, the original cost of the present was $20. The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "What is the probability that Jasmine and Trish will get selected for a job they both applied for in a company, given that their chances of getting selected is 3/5 and 2/7 respectively?\nOptions:\nA)6/37\nB)6/35\nC)5/36\nD)7/33\nE)7/36",
+        "ground_truth": "B",
+        "response": "The probability that both Jasmine and Trish will get selected for the job is the product of their individual probabilities. Therefore, the probability is (3/5) * (2/7) = 6/35.\n\nThe answer is B) 6/35",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "An article is bought for Rs.600 and sold for Rs.900, find the gain percent?\nOptions:\nA)33 1/7%\nB)33 1/6%\nC)50%\nD)38 1/3%\nE)33 2/3%",
+        "ground_truth": "C",
+        "response": "Cost Price (CP) = Rs. 600\nSelling Price (SP) = Rs. 900\n\nGain = SP - CP = Rs. 900 - Rs. 600 = Rs. 300\n\nGain percent = (Gain / CP) * 100\nGain percent = (300 / 600) * 100 = 50%\n\nThe answer is C) 50%",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The digit in unit's place of the product (459 \u00d746\u00d728\u00d7484) is 2, the digit in place of * is\nOptions:\nA)3\nB)5\nC)7\nD)9\nE)11",
+        "ground_truth": "C",
+        "response": "To find the digit in the unit's place of the product (459 \u00d7 46 \u00d7 28 \u00d7 484), we only need to consider the unit's place of each number being multiplied.\n\nThe unit's place of 459 is 9.\nThe unit's place of 46 is 6.\nThe unit's place of 28 is 8.\nThe unit's place of 484 is 4.\n\nNow, multiplying the unit's place digits together: 9 \u00d7 6 \u00d7 8 \u00d7 4 = 1728.\n\nThe digit in the unit's place of 1728 is 8.\n\nTherefore, the digit in place of * is 8.\n\nThe answer is: The answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Missing number in the series\n4 9 20 43 90 185 376?\nOptions:\nA)175\nB)185\nC)759\nD)195\nE)180",
+        "ground_truth": "C",
+        "response": "The pattern in the series is as follows:\n4 + 5 = 9\n9 + 11 = 20\n20 + 23 = 43\n43 + 47 = 90\n90 + 95 = 185\n185 + 191 = 376\n\nTo find the next number in the series, we add the next odd number to the previous number:\n376 + 197 = 573\n\nTherefore, the missing number in the series is 573.\n\nThe answer is: C)759",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The average age of 15 students of a class is 15 years. Out of these, the average age of 5 students is 14 years and that of the other 9 students is 16 years. Tee age of the 15th student is?\nOptions:\nA)11 years\nB)17 years\nC)67 years\nD)14 years\nE)12 years",
+        "ground_truth": "A",
+        "response": "Let the age of the 15th student be x years.\n\nThe total age of 15 students is 15 * 15 = 225 years.\n\nThe total age of 5 students is 5 * 14 = 70 years.\n\nThe total age of 9 students is 9 * 16 = 144 years.\n\nThe sum of the ages of these 14 students is 70 + 144 = 214 years.\n\nTherefore, the age of the 15th student is 225 - 214 = 11 years.\n\nThe answer is A) 11 years",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "In a apartment, 30% of the people speak English, 20% speak Hindi and 10% speak both. If a people is selected at random, what is the probability that he has speak English or Hindi?\nOptions:\nA)1/3\nB)2/3\nC)2/5\nD)2/7\nE)3/7",
+        "ground_truth": "C",
+        "response": "Let's calculate the probability that a randomly selected person speaks English or Hindi.\n\nP(English) = 30%\nP(Hindi) = 20%\nP(English and Hindi) = 10%\n\nUsing the formula for the probability of the union of two events:\nP(English or Hindi) = P(English) + P(Hindi) - P(English and Hindi)\nP(English or Hindi) = 30% + 20% - 10%\nP(English or Hindi) = 40%\n\nTherefore, the probability that a randomly selected person speaks English or Hindi is 40%, which is equivalent to 2/5.\n\nThe answer is C) 2/5",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "How many paying stones, each measuring 2 m * 2 m are required to pave a rectangular court yard 30 m long and 18 m board?\nOptions:\nA)99\nB)18\nC)135\nD)17\nE)12",
+        "ground_truth": "C",
+        "response": "To find the number of paving stones needed, we need to calculate the area of the courtyard and then divide it by the area of each paving stone.\n\nThe area of the courtyard is:\n\\[30 \\text{ m} \\times 18 \\text{ m} = 540 \\text{ m}^2\\]\n\nThe area of each paving stone is:\n\\[2 \\text{ m} \\times 2 \\text{ m} = 4 \\text{ m}^2\\]\n\nTherefore, the number of paving stones needed is:\n\\[ \\frac{540 \\text{ m}^2}{4 \\text{ m}^2} = 135\\]\n\nThe answer is C) 135",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "You and your friend are playing Russian Roulette. Of course, the gun is filled with fake pellets. Three bullets are placed inside three consecutive chambers. The cylinder is then spun once. It won't be spun again.\nAs per the rules, the gun will be passed from one person to other until a pellet is shot. If you want to win this game, would you go first or second ?\nOptions:\nA)1st\nB)3rd\nC)4th\nD)2nd\nE)5th",
+        "ground_truth": "D",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "A shopkeeper cheats both his supplier and customer by using faulty weights. When he buys from the supplier, he takes 20% more than the indicated weight. When he sells to his customer, he gives the customer a weight such that 10% of that is added to the weight, the weight claimed by the trader is obtained. If he charges the cost price of the weight that he claims, find his profit percentage.\nOptions:\nA)20%\nB)32%\nC)23.365%\nD)22.109%\nE)2%",
+        "ground_truth": "B",
+        "response": "Let's assume the supplier supplies 100 units of weight.\n\nWhen the shopkeeper buys from the supplier, he takes 20% more, which is 120 units.\n\nWhen he sells to the customer, he gives a weight such that 10% of that is added to the weight, which means the weight claimed by the trader is 110% of the weight he actually gives.\n\nSo, the weight he actually gives to the customer is 120 units.\n\nTherefore, the profit percentage is calculated as (Actual profit / Cost price) * 100 = [(120 - 100) / 100] * 100 = 20%.\n\nThe answer is A) 20%",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Each of the 9 squares shown is to contain one number\nchosen from 1, 2, 3, 4, 5, 6, 7, 8, and 9. No number is to\nbe repeated. Suppose the sum of the 5 squares aligned\nvertically on the right is 32 and that the sum of the 5\nsquares aligned horizontally on the bottom is 20. What\nnumber goes in the shared corner square?\nOptions:\nA)3\nB)4\nC)5\nD)6\nE)7",
+        "ground_truth": "E",
+        "response": "Let's denote the number in the shared corner square as $x$. \n\nGiven that the sum of the 5 squares aligned vertically on the right is 32, we have:\n$5 + 9 + x + 8 + 1 = 32$\n$23 + x = 32$\n$x = 9$\n\nGiven that the sum of the 5 squares aligned horizontally on the bottom is 20, we have:\n$7 + 2 + x + 6 + 5 = 20$\n$20 + x = 20$\n$x = 0$\n\nTherefore, the number that goes in the shared corner square is 9.\n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The rate of a certain chemical reaction is directly proportional to the concentration of chemical B present and inversely proportional to the concentration of chemical A present. If the concentration of chemical B present is increased by 100 percent, which of the following is closest to the percent change in the the concentration of chemical B required to keep the reaction rate unchanged.\nOptions:\nA)10 % decrease\nB)50% decrease\nC)40% decrease\nD)30% increase\nE)100% increase",
+        "ground_truth": "E",
+        "response": "Let the concentration of chemical B be denoted by B and the concentration of chemical A be denoted by A. Let the rate of the chemical reaction be denoted by R.\n\nAccording to the problem, the rate of the chemical reaction is directly proportional to B and inversely proportional to A. This can be represented as:\n\nR \u221d B/A\n\nIf the concentration of chemical B is increased by 100%, then the new concentration of B is 2B. To keep the reaction rate unchanged, the new concentration of A should be 1/2A.\n\nTherefore, the new rate R' is given by:\n\nR' \u221d 2B / (1/2A) = 4B/A\n\nSince R' should be equal to R to keep the reaction rate unchanged, we have:\n\nR = R'\nB/A = 4B/A\n4 = 1/B\nB = 1/4\n\nThis means that the concentration of chemical B should be decreased by 75% to keep the reaction rate unchanged.\n\nTherefore, the closest option to the percent change in the concentration of chemical B required to keep the reaction rate unchanged is a 75% decrease.\n\nThe answer is: The answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "A small college reduced its faculty by approximately 14 percent to 195 professors. What was the original number of faculty members?\nOptions:\nA)182\nB)208\nC)227\nD)254\nE)302",
+        "ground_truth": "C",
+        "response": "Let x be the original number of faculty members. \n\nAfter reducing by 14%, the number of faculty members is 0.86x. We are given that 0.86x = 195.\n\nSolving for x:\n0.86x = 195\nx = 195 / 0.86\nx \u2248 226.74\n\nTherefore, the original number of faculty members was approximately 227.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A certain characteristic in a large population has a distribution that is symmetric about the mean m. If 60 percent of the distribution lies within one standard deviation d of the mean, what percent of the distribution is less than m + d ?\nOptions:\nA) 80%\nB) 32%\nC) 48%\nD) 84%\nE) 92%",
+        "ground_truth": "A",
+        "response": "Let's consider the Empirical Rule for a normal distribution:\n- Approximately 68% of the data lies within one standard deviation of the mean.\n- Therefore, 34% of the data lies between the mean and one standard deviation above the mean.\n\nSince the distribution is symmetric, the same percentage of data lies between the mean and one standard deviation below the mean.\n\nSo, the percentage of the distribution that is less than m + d is 50% (34% below the mean + 16% at the mean).\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "2.2 cubic dm of lead is to be drawn into a cylindrical wire 0.50 cm diameter. Find the length of the wire in meters.\nOptions:\nA)110\nB)111\nC)113\nD)112\nE)None of them",
+        "ground_truth": "D",
+        "response": "The volume of the cylindrical wire is given by the formula: \\( V = \\pi r^2 h \\), where \\( r = 0.50 \\, \\text{cm} = 0.005 \\, \\text{m} \\) and \\( V = 2.2 \\, \\text{dm}^3 = 0.0022 \\, \\text{m}^3 \\).\n\nPlugging in the values, we get:\n\\[ 0.0022 = \\pi \\times (0.005)^2 \\times h \\]\n\\[ h = \\frac{0.0022}{\\pi \\times 0.005^2} \\]\n\\[ h \\approx 111.11 \\, \\text{m} \\]\n\nTherefore, the length of the wire in meters is approximately 111.11 meters.\n\nThe answer is E) None of them",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "The length of a rectangular landscape is 4times its breadth. There is a playground in it whose area is 1200 square mtr & which is 1/3rd of the total landscape. What is the length of the landscape?\nOptions:\nA)100\nB)140\nC)120\nD)160\nE)180",
+        "ground_truth": "C",
+        "response": "Let the breadth of the rectangular landscape be \\( b \\) meters.  \nGiven that the length is 4 times the breadth, so the length is \\( 4b \\) meters.  \n\nThe area of the playground is \\( 1200 \\, \\text{m}^2 \\) and it is \\( \\frac{1}{3} \\) of the total landscape area.  \nSo, the total landscape area is \\( 3 \\times 1200 = 3600 \\, \\text{m}^2 \\).  \n\nThe area of a rectangle is given by \\( \\text{length} \\times \\text{breadth} \\).  \nSo, we have \\( 4b \\times b = 3600 \\).  \nSolving this equation, we get \\( b^2 = 900 \\) and hence, \\( b = 30 \\).  \n\nTherefore, the length of the landscape is \\( 4 \\times 30 = 120 \\) meters.  \n\nThe answer is C) 120",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The average age of 3 girls is 18 years and their ages are in the proportion 1:2:3. The age of the youngest girl is?\nOptions:\nA)10 years\nB)9 years\nC)12 years\nD)14 years\nE)15 years",
+        "ground_truth": "B",
+        "response": "Let the ages of the 3 girls be x, 2x, and 3x respectively.\n\nThe average age of the 3 girls is 18 years, so we have:\n(x + 2x + 3x) / 3 = 18\n6x / 3 = 18\n2x = 18\nx = 9\n\nTherefore, the age of the youngest girl is 9 years.\n\nThe answer is B) 9 years",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If two positive numbers are in the ratio 1/8 : 1/5, then by what percent is the second number more than the first?\nOptions:\nA)40%\nB)33 1/3%\nC)60%\nD)66 2/3%\nE)None of these",
+        "ground_truth": "C",
+        "response": "Let the two positive numbers be \\( \\frac{1}{8}x \\) and \\( \\frac{1}{5}x \\), where x is a positive constant.\n\nThe second number is \\( \\frac{1}{5}x \\) and the first number is \\( \\frac{1}{8}x \\).\n\nThe difference between the second number and the first number is:\n\\[ \\frac{1}{5}x - \\frac{1}{8}x = \\frac{3}{40}x \\]\n\nTo find the percentage by which the second number is more than the first, we calculate:\n\\[ \\text{Percentage increase} = \\frac{\\frac{3}{40}x}{\\frac{1}{8}x} \\times 100\\% = \\frac{3}{40} \\times 8 \\times 100\\% = 60\\% \\]\n\nTherefore, the answer is: The answer is C) 60%",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "In how many different number of ways the letters of the word 'ENGINEERING' can be arranged\nOptions:\nA)276800\nB)277000\nC)277200\nD)277400\nE)278400",
+        "ground_truth": "C",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "How many integers Q are prime numbers in the range 200 < Q < 220?\nOptions:\nA) 1\nB) 2\nC) 3\nD) 4\nE) 5",
+        "ground_truth": "A",
+        "response": "The prime numbers in the range 200 < Q < 220 are  211,  213,  217,  219. \n\nThere are 2 prime numbers in the range 200 < Q < 220.\n\nThe answer is B) 2",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Commodious means \u2018spacious\u2019, large, voluminous and extensive.\nOptions:\nA)22\nB)28\nC)277\nD)199\nE)11",
+        "ground_truth": "A",
+        "response": "The answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "In what time will a train 100 meters long cross an electric pole, if its speed is 126 km/hr\nOptions:\nA)8.5 seconds\nB)2.86 seconds\nC)3.5 seconds\nD)2.5 seconds\nE)2.6 seconds",
+        "ground_truth": "B",
+        "response": "The time taken for the train to cross the electric pole can be calculated using the formula: time = distance / speed.\n\nConverting the speed from km/hr to m/s:\n126 km/hr = 126 * 1000 m / 3600 s = 35 m/s\n\nPlugging in the values:\ntime = 100 m / 35 m/s = 2.86 seconds\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Find smallest prime number is:\nOptions:\nA)6\nB)18\nC)7\nD)15\nE)11",
+        "ground_truth": "C",
+        "response": "The answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "If two numbers are in the ratio 4:3. If 20 is added to both of the numbers then the ratio becomes 5:4 then find the smallest number?\nOptions:\nA)60\nB)30\nC)40\nD)20\nE)50",
+        "ground_truth": "A",
+        "response": "Let the two numbers be 4x and 3x.\n\nAfter adding 20 to both numbers, the new ratio is (4x + 20) : (3x + 20) = 5 : 4.\n\nCross multiplying, we get:\n4(4x + 20) = 5(3x + 20)\n16x + 80 = 15x + 100\nx = 20\n\nSo, the smallest number is 3x = 3(20) = 60.\n\nThe answer is A) 60",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A watch was sold at a loss of 10%. If the watch was sold for $32 more, there would have been a gain of 6%. What is the cost price?\nOptions:\nA)$180\nB)$200\nC)$220\nD)$240\nE)$260",
+        "ground_truth": "B",
+        "response": "Let the cost price of the watch be $x.\n\nGiven that the watch was sold at a loss of 10%, the selling price is 90% of the cost price:\n0.90x\n\nIf the watch was sold for $32 more, there would have been a gain of 6%, the selling price would be 106% of the cost price:\n1.06x\n\nAccording to the information given, we have:\n1.06x - 0.90x = $32\n0.16x = $32\nx = $32 / 0.16\nx = $200\n\nTherefore, the cost price of the watch is $200.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A fair sided die labeled 1 to 6 is tossed two times. What is the probability the product of the two value is 1\nOptions:\nA)1/6\nB)7/36\nC)1/36\nD)9/36\nE)11/36",
+        "ground_truth": "E",
+        "response": "The only way to get a product of 1 when tossing a fair six-sided die twice is if one of the tosses results in a 1 and the other toss results in a 1. The probability of getting a 1 on a single toss of a fair six-sided die is 1/6. Since the two tosses are independent events, the probability of getting a 1 on both tosses is (1/6) * (1/6) = 1/36.\n\nTherefore, the answer is: The answer is C) 1/36",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "A, B and C rent a pasture. If A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing and the rent of the pasture is Rs. 175, then how much amount should C pay as his share of rent?\nOptions:\nA)40\nB)45\nC)49\nD)51\nE)43",
+        "ground_truth": "B",
+        "response": "Let the amount C should pay as his share of rent be x.\n\nThe total rent is Rs. 175.\n\nA's contribution = 10 oxen * 7 months = 70 oxen-months\nB's contribution = 12 oxen * 5 months = 60 oxen-months\nC's contribution = 15 oxen * 3 months = 45 oxen-months\n\nTotal oxen-months = 70 + 60 + 45 = 175\n\nSince the total rent is Rs. 175, each oxen-month contributes Rs. 1.\n\nC's contribution = 45 oxen-months * Rs. 1/oxen-month = Rs. 45\n\nTherefore, the amount C should pay as his share of rent is Rs. 45.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A man can row his boat with the stream at 20 km/h and against the stream in 8 km/h. The man's rate is?\nOptions:\nA)1 kmph\nB)7 kmph\nC)6 kmph\nD)5 kmph\nE)4 kmph",
+        "ground_truth": "C",
+        "response": "The man's rate is the average of rowing with and against the stream, which is given by:\nAverage rate = (20 km/h + 8 km/h) / 2 = 28 km/h / 2 = 14 km/h\n\nTherefore, the man's rate is 14 km/h. \n\nThe answer is: C) 6 kmph",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Find the numbers which are in the ratio 3:2:4 such that the sum of the first and the second added to the difference of the third and the second is 21.\nOptions:\nA)9, 6, 16\nB)9, 6, 19\nC)9, 6, 16\nD)9, 6, 12\nE)9, 6, 11",
+        "ground_truth": "D",
+        "response": "Let the numbers be 3x, 2x, and 4x.\n\nAccording to the given condition, (3x + 2x) + (4x - 2x) = 21\nSimplifying, we get 5x + 2x = 21\nCombining like terms, we get 7x = 21\nDividing by 7, we get x = 3\n\nTherefore, the numbers are 3(3) = 9, 2(3) = 6, and 4(3) = 12.\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A worker is paid x rupees for painting every 30 metres of a wall and y rupees for painting every extra metre. During one week, he painted 30 metres on Monday, 30 metres on Tuesday, 32 metres on Wednesday, 32 metres on Thursday and 31 metres on Friday. What is his average daily earning rupees for the five day week?\nOptions:\nA)x + (8/5)y\nB)(5x + 9y)/5\nC)10x + (8/5)y\nD)None of these\nE)x+y",
+        "ground_truth": "E",
+        "response": "The worker painted a total of 30 + 30 + 32 + 32 + 31 = 155 meters during the week.\n\nFor the first 120 meters (30 + 30 + 32 + 32), he earned 4x rupees.\n\nFor the extra 35 meters (155 - 120), he earned 35y rupees.\n\nTherefore, his total earnings for the week is 4x + 35y rupees.\n\nHis average daily earning for the five-day week is (4x + 35y) / 5 = (5x + 35y) / 5 = x + 7y.\n\nSo, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "The average amount with a group of seven numbers is Rs. 20. If the newly joined member has Rs. 50 with him, what was the average amount with the group before his joining the group?\nOptions:\nA)17\nB)26\nC)15\nD)97\nE)12",
+        "ground_truth": "C",
+        "response": "Let the total amount with the group before the newly joined member joined be $x. \n\nThe total amount with the group after the newly joined member joined is $20 * 7 = $140.\n\nAdding the newly joined member's $50, the total amount with the group after the new member joined is $140 + $50 = $190.\n\nTherefore, the total amount with the group before the new member joined is $190 - $50 = $140.\n\nThe average amount with the group before the new member joined is $140 / 7 = $20.\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "How many boxes do you need if you have to pack 240 pairs ornamental bangles into boxes that each hold 2 dozens of bangles?\nOptions:\nA)40\nB)35\nC)20\nD)25\nE)30",
+        "ground_truth": "C",
+        "response": "To pack 240 pairs of ornamental bangles into boxes that each hold 2 dozens of bangles, we first need to find out how many dozens of bangles are there in 240 pairs.\n\nSince 1 dozen is equal to 12, 2 dozens are equal to 24. Therefore, 240 pairs of bangles are equal to 240 dozens.\n\nNow, if each box holds 2 dozens of bangles, the total number of boxes needed is 240 dozens divided by 2 dozens per box, which equals 120 boxes.\n\nTherefore, the answer is: The answer is A) 40",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "If the average (arithmetic mean) of five consecutive negative integers is 2k \u2013 1, what is the difference V between the greatest and least of the five integers?\nOptions:\nA)4K\nB)4k^2 -4k\nC)4-4k\nD)4\nE)4k+4",
+        "ground_truth": "D",
+        "response": "Let the five consecutive negative integers be x, x+1, x+2, x+3, and x+4.\n\nThe average of these integers is:\n( x + (x+1) + (x+2) + (x+3) + (x+4) ) / 5 = 2k - 1\n\nSimplifying the equation:\n(5x + 10) / 5 = 2k - 1\n5x + 10 = 10k - 5\n5x = 10k - 15\nx = 2k - 3\n\nThe greatest integer is x+4 = 2k - 3 + 4 = 2k + 1\nThe least integer is x = 2k - 3\n\nThe difference V between the greatest and least of the five integers is:\nV = (2k + 1) - (2k - 3) = 4\n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A room contains 140 people, 15 percent of whom are women. A group of people, 30 percent of whom are women, leaves the room. Of the people remaining in the room, 10 percent are women. How many people left the room?\nOptions:\nA)10\nB)35\nC)40\nD)60\nE)80",
+        "ground_truth": "B",
+        "response": "Let's solve the problem step by step:\n\nInitially, the room contains 140 people, and 15% of them are women, which is 0.15 * 140 = 21 women.\n\nA group of people leaves the room, and 30% of them are women, which is 0.30 * x = 21, where x is the number of people leaving the room.\n\nSolving for x, we get x = 21 / 0.30 = 70 people left the room.\n\nAfter 70 people left, there are 140 - 70 = 70 people remaining in the room.\n\n10% of the people remaining are women, which is 0.10 * 70 = 7 women.\n\nSo, the number of women who left the room is 21 - 7 = 14.\n\nTherefore, the answer is: The answer is B) 35",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Ernie invested Rs. 2000, with compounded interest annually. After 3 and half years the investment doubled. How many more years will it take before he earns another Rs. 4000 compound interest?\nOptions:\nA)3.5 years\nB)1.5 years\nC)2.5 years\nD)3 years\nE)5 years",
+        "ground_truth": "A",
+        "response": "Let the number of years it will take before Ernie earns another Rs. 4000 compound interest be \\(x\\).\n\nGiven that the investment doubled after 3.5 years, we can set up the following equation for compound interest:\n\n\\[2000(2) = 2000(1 + r)^{3.5}\\]\n\\[4000 = (1 + r)^{3.5}\\]\n\nNow, we need to find the value of \\(x\\) when the compound interest becomes Rs. 8000:\n\n\\[2000(3) = 2000(1 + r)^{3.5 + x}\\]\n\\[6000 = (1 + r)^{3.5 + x}\\]\n\nSince the compound interest is cumulative, we can divide the second equation by the first equation to eliminate \\(r\\):\n\n\\[\\frac{6000}{4000} = \\frac{(1 + r)^{3.5 + x}}{(1 + r)^{3.5}}\\]\n\\[1.5 = (1 + r)^x\\]\n\nNow, we can solve for \\(x\\):\n\n\\[1.5 = (1 + r)^x\\]\n\\[1.5 = (1 + 0.1)^x\\]\n\\[1.5 = 1.1^x\\]\n\\[x = \\frac{\\log(1.5)}{\\log(1.1)}\\]\n\\[x \\approx 3.5\\]\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If a, b, and c are positive integers such that a is divisible by b, and c is divisible by a, which of the following is NOT necessarily an integer?\nOptions:\nA)(a + c)/b\nB)(c - a)/b\nC)ca/b\nD)(c + b)/a\nE)cb/a",
+        "ground_truth": "D",
+        "response": "Since a is divisible by b and c is divisible by a, it follows that c is divisible by b.\n\nTherefore, the expression (c - a)/b may not necessarily be an integer, as c and a being divisible by b does not guarantee that their difference is also divisible by b.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "The length of the bridge, which a train 130 m long and traveling at 45 km/hr can cross in 30 sec is?\nOptions:\nA)25/5\nB)25/3\nC)25/2\nD)25/1\nE)25/9",
+        "ground_truth": "C",
+        "response": "The length of the bridge can be calculated using the formula: Length of the bridge = (Speed of the train * Time taken to cross the bridge) - Length of the train.\n\nConverting the speed of the train from km/hr to m/s:\n45 km/hr = 45 * 1000 / 3600 = 12.5 m/s\n\nPlugging in the values:\nLength of the bridge = (12.5 * 30) - 130\nLength of the bridge = 375 - 130\nLength of the bridge = 245 meters\n\nTherefore, the answer is D) 25/1",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "A batsman scored 120 runs whichincluded 3 boundaries and 8sixes. What % of his total score did he make by running between the wickets\nOptions:\nA)30 %\nB)50 %\nC)60 %\nD)70 %\nE)80 %",
+        "ground_truth": "B",
+        "response": "The batsman scored 120 runs in total. Out of these, 3 boundaries and 8 sixes account for 3*4 + 8*6 = 12 + 48 = 60 runs. \n\nTherefore, the runs made by running between the wickets is 120 - 60 = 60 runs.\n\nThe percentage of his total score made by running between the wickets is (60/120) * 100% = 50%.\n\nThe answer is B) 50%",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Three runners Q, B and C run a race, with runner A finishing 12m ahead of runner B and 18m ahead of runner C, while runner B finishes 8m ahead of runner C. Each runner travels entire distance at a constant speed. What was the length of the race?\nOptions:\nA)36m\nB)48m\nC)60m\nD)72m\nE)84m",
+        "ground_truth": "B",
+        "response": "Let the distance of the race be x meters.\n\nFrom the given information:\n- Runner A finishes 12m ahead of runner B: x = x + 12\n- Runner A finishes 18m ahead of runner C: x = x + 18\n- Runner B finishes 8m ahead of runner C: x - 8 = x + 18\n\nSolving the above equations, we get:\nx = 30\n\nTherefore, the length of the race was 30 meters.\n\nThe answer is: A) 36m",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "The tax on a commodity is diminished by 10% and its consumption increases by 10%. Find the effects on revenue ?\nOptions:\nA)1% decrease\nB)2% increase\nC)3% decrease\nD)4% decrease\nE)none of these",
+        "ground_truth": "A",
+        "response": "Let the initial tax be $T$ and the initial consumption be $C$. \n\nAfter the tax is diminished by 10%, the new tax is $0.9T$. After the consumption increases by 10%, the new consumption is $1.1C$.\n\nThe initial revenue is given by $T \\times C$. The new revenue is given by $0.9T \\times 1.1C = 0.99TC$.\n\nTherefore, the revenue decreases by 1%. \n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The average age of a husband and a wife is 23 years when they were married five years ago but now the average age of the husband, wife and child is 22 years(the child was born during the interval). What is the present age of the child?\nOptions:\nA)10 years\nB)20 years\nC)30 years\nD)40 years\nE)25 years",
+        "ground_truth": "A",
+        "response": "Let the present age of the child be x years.\n\n5 years ago, the average age of the husband and wife was 23 years. So, their total age 5 years ago was 2 * 23 = 46 years.\n\nNow, the average age of the husband, wife, and child is 22 years. So, their total age now is 3 * 22 = 66 years.\n\nSince the child was born during the interval, the total age of the husband, wife, and child increased by x years.\n\nSo, 66 = 46 + x\n\nx = 66 - 46\nx = 20\n\nTherefore, the present age of the child is 20 years.\n\nThe answer is B) 20 years",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "On dividing a number by 357, we get 37 as remainder.On dividing the same number by 17, what will be the remainder ?\nOptions:\nA)4\nB)3\nC)8\nD)7\nE)2",
+        "ground_truth": "B",
+        "response": "Let the number be x. According to the given information, we have:\n\nx = 357a + 37, where a is an integer\nx = 17b + R, where b is an integer and R is the remainder we need to find\n\nSince x is the same number in both cases, we can set the two expressions equal to each other:\n\n357a + 37 = 17b + R\n\nR = 357a + 37 - 17b\n\nSince 357a + 37 is divisible by 17, the remainder when divided by 17 is the same as the remainder of 37 divided by 17, which is 3.\n\nTherefore, the remainder when the number is divided by 17 is 3.\n\nThe answer is B) 3",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "In 10 years,A will be twice as old as B was 10 years ago.If A is now 9 years older than B,the present age of B is :\nOptions:\nA)19 Years\nB)29 Years\nC)39 Years\nD)49 Years\nE)59 Years",
+        "ground_truth": "C",
+        "response": "Let the present age of B be x years.  \nAccording to the given conditions:\nIn 10 years, A will be (x+9+10) = x+19 years old.  \nAt that time, B was (x-10) years old.  \nSo, we have the equation: x+19 = 2(x-10)  \nSolving the equation, we get: x = 39  \n\nTherefore, the present age of B is 39 years.  \n\nThe answer is C) 39 Years",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A can contains a mixture of liquids A and B is the ratio 7:5. When 18 litres of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7:9. How many liter of liquid A was contained by the can initially?\nOptions:\nA)32\nB)52\nC)62\nD)42\nE)48",
+        "ground_truth": "D",
+        "response": "Let the initial amount of liquid A be 7x and the initial amount of liquid B be 5x.\n\nAfter 18 liters are drawn off, the amount of liquid A left is 7x - 18 and the amount of liquid B left is 5x.\n\nGiven that the ratio of A to B becomes 7:9 after filling the can with B:\n(7x - 18) / 5x = 7/9\n9(7x - 18) = 7(5x)\n63x - 162 = 35x\n28x = 162\nx = 162 / 28\nx = 5.7857\n\nTherefore, the initial amount of liquid A was 7x = 7 * 5.7857 = 40.5 liters.\n\nThe answer is D) 42",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A man cycling along the road noticed that every 10 minutes a bus overtakes him and every 4 minutes he meets an oncoming bus. If all buses and the cyclist move at a constant speed, what is the time interval between consecutive buses?\nOptions:\nA)5 minutes\nB)6 minutes\nC)8 minutes\nD)9 minutes\nE)48/7 minutes",
+        "ground_truth": "E",
+        "response": "Let the time interval between consecutive buses be \\( t \\) minutes.\n\nIn 10 minutes, the cyclist is overtaken by a bus once, and in \\( t \\) minutes, the cyclist is overtaken by \\( \\frac{t}{10} \\) buses. \n\nIn 4 minutes, the cyclist meets an oncoming bus once, and in \\( t \\) minutes, the cyclist meets \\( \\frac{t}{4} \\) oncoming buses.\n\nSince the total number of buses overtaking and oncoming buses should be the same, we have:\n\n\\[ \\frac{t}{10} = \\frac{t}{4} \\]\n\\[ 4t = 10t \\]\n\\[ 6t = 0 \\]\n\\[ t = 0 \\]\n\nThis means that the time interval between consecutive buses is 0 minutes, which is not possible. \n\nTherefore, there seems to be a mistake in the problem setup.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "There are 10 teams in a certain league and each team plays each of the other teams exactly twice. If each game is played by 2 teams, what is the total number of games played?\nOptions:\nA)15\nB)16\nC)28\nD)56\nE)90",
+        "ground_truth": "E",
+        "response": "There are 10 teams in the league, and each team plays each of the other teams twice. This means each game involves 2 teams.\n\nTo find the total number of games played, we can use the combination formula: nC2 = n! / [2!(n-2)!], where n is the number of teams.\n\nPlugging in n = 10:\n10C2 = 10! / [2!(10-2)!]\n10C2 = 10! / (2! * 8!)\n10C2 = (10 * 9) / 2\n10C2 = 45\n\nTherefore, the total number of games played is 45.\n\nThe answer is D) 56",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "Albert invested Rs. 6500 in a scheme for 2 years at compound interest rate 6.5% p.a. How much amount will Albert get on maturity of the fixed deposit?\nOptions:\nA)s.8829\nB)s.7200\nC)s.7200.5\nD)s.4000\nE)s.7372.46",
+        "ground_truth": "E",
+        "response": "The answer is E",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "A clock shows the time as 3:30 P.m. If the minute hand gains 2 minutes every hour, how many minutes will the clock gain by 2 a.m.?\nOptions:\nA)23 Minutes\nB)21 Minutes\nC)25 Minutes\nD)26 Minutes\nE)None of these",
+        "ground_truth": "B",
+        "response": "The clock will gain 2 minutes every hour for 11 hours from 3:30 p.m. to 2 a.m.\n\nTherefore, the clock will gain 2 minutes/hour * 11 hours = 22 minutes.\n\nThe answer is A) 23 Minutes",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The weights of three boys are in the ratio 4 : 5 : 6. If the sum of the weights of the heaviest and the lightest boy is 49 kg more than the weight of the third boy, what is the weight of the lightest boy?\nOptions:\nA)87 kg\nB)39.2 kg\nC)98.2 kg\nD)65.2 kg\nE)87.2 kg",
+        "ground_truth": "B",
+        "response": "Let the weights of the three boys be 4x, 5x, and 6x respectively.\n\nAccording to the given information, we have:\n4x + 6x = 5x + 49\n10x = 5x + 49\n5x = 49\nx = 9.8\n\nTherefore, the weight of the lightest boy is 4x = 4 * 9.8 = 39.2 kg.\n\nThe answer is B) 39.2 kg",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A case of 12 rolls of paper towels sells for $9. The cost of one roll sold individually is $1.What is the percent R of savings per roll for the 12-roll package over the cost of 12 rolls purchased individually?\nOptions:\nA)9%\nB)11%\nC)15%\nD)25%\nE)90%",
+        "ground_truth": "D",
+        "response": "Let's first calculate the total cost of 12 rolls of paper towels if purchased individually:\n12 rolls * $1/roll = $12\n\nNow, let's calculate the savings when buying the 12-roll package:\n$12 - $9 = $3\n\nNow, let's calculate the percent savings per roll:\nPercent savings per roll = (Savings per roll / Cost per roll if purchased individually) * 100%\nPercent savings per roll = ($3 / $1) * 100%\nPercent savings per roll = 300%\n\nTherefore, the answer is not among the provided options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Jackson has $313,196 dollars in his investment accounts. What is the least amount of money (in whole number of dollars) that he must remove from his account if he wants to split this money evenly among nine new investors?\nOptions:\nA)$1\nB)$2\nC)$3\nD)$4\nE)$5",
+        "ground_truth": "E",
+        "response": "To split $313,196 evenly among 9 new investors, we need to divide the total amount by 9:\n\n$313,196 \u00f7 9 \u2248 $34,799.56\n\nTo split the money evenly, Jackson needs to remove the difference between $34,799 and $34,799.56, which is $0.56. Since we are looking for the least amount of money in whole numbers, Jackson must remove $1 to split the money evenly among nine new investors.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "At the end of three years what will be the compound interest at the rate of 10% p.a. on an amount of Rs.70000?\nOptions:\nA)6620\nB)3277\nC)2688\nD)2998\nE)23170",
+        "ground_truth": "E",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "What is the sum of the different positive prime factors of 1080?\nOptions:\nA)6\nB)4\nC)8\nD)9\nE)10",
+        "ground_truth": "E",
+        "response": "The prime factorization of 1080 is $2^3 \\times 3^3 \\times 5$. The different positive prime factors are 2, 3, and 5. Their sum is 2 + 3 + 5 = 10.\n\nTherefore, the answer is: The answer is E",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "From a Group of 10 People, Including George and Nina, 3 people are to be selected at random to work on a certain project. What is the probability that 3 people selected will include George but not Nina\nOptions:\nA)5/56\nB)9/56\nC)28/120\nD)21/56\nE)25/56",
+        "ground_truth": "C",
+        "response": "The total number of ways to select 3 people out of 10 is given by the combination formula: C(10, 3) = 120.\n\nThe number of ways to select George and 2 other people (excluding Nina) is given by selecting 2 people out of the remaining 8 people: C(8, 2) = 28.\n\nTherefore, the probability of selecting 3 people that include George but not Nina is 28/120 = 7/30.\n\nThe answer is C) 28/120",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": ". A boy has four trousers and 7 shirts. In how many different ways can he select a trouser and a shirt?\nOptions:\nA)18\nB)20\nC)26\nD)28\nE)30",
+        "ground_truth": "E",
+        "response": "To select a trouser and a shirt, the boy can choose from 4 trousers and 7 shirts. The total number of ways he can select a trouser and a shirt is given by the product of the number of choices for each item, which is 4 * 7 = 28.\n\nTherefore, the answer is D) 28",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "If the average (arithmetic mean) of the four numbers K, 2K + 2, 3K \u2013 5 and 5K + 1 is 63, what is the value of K?\nOptions:\nA) 11\nB) 15 3/4\nC) 22\nD) 23\nE) 23 1/11",
+        "ground_truth": "E",
+        "response": "The average of the four numbers is given by:\n\\[\\frac{K + 2K + 2 + 3K - 5 + 5K + 1}{4} = 63\\]\nSolving this equation, we get:\n\\[\\frac{11K - 2}{4} = 63\\]\n\\[11K - 2 = 63 \\times 4\\]\n\\[11K - 2 = 252\\]\n\\[11K = 254\\]\n\\[K = \\frac{254}{11} = 23\\]\nTherefore, the value of K is 23.\n\nThe answer is D) 23",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "A man purchases some eggs for Rs.500. 15% of the eggs break during transportation. What profit percentage should he take on the remaining to get an overall profit of 20%?\nOptions:\nA)37.5\nB)41.17\nC)21.17\nD)45.17\nE)46.18",
+        "ground_truth": "B",
+        "response": "Let's solve the problem step by step:\n\nTotal cost of eggs purchased = Rs. 500\n\n15% of the eggs break during transportation, so the remaining eggs = 85% of the total eggs.\n\nTo get an overall profit of 20%, the selling price should be 120% of the cost price.\n\nLet the cost price of each egg be Rs. x.\n\nAfter 15% breakage, the cost price of each remaining egg = Rs. 500 / (0.85 * x)\n\nThe selling price of each remaining egg = 1.2 * Rs. 500 / (0.85 * x)\n\nTo find the profit percentage, we use the formula:\nProfit % = [(Selling Price - Cost Price) / Cost Price] * 100\n\nProfit % = [(1.2 * Rs. 500 / (0.85 * x) - Rs. 500 / (0.85 * x)) / (Rs. 500 / (0.85 * x))] * 100\n\nProfit % = [(0.35 * x) / (0.85 * x)] * 100\n\nProfit % = 41.17\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A basket has 5 apples and 4 oranges. Three fruits are picked at random. The probability that at least 2 apples are picked is\nOptions:\nA)25/42\nB)25/40\nC)25/49\nD)25/47\nE)25/44",
+        "ground_truth": "A",
+        "response": "The total number of ways to pick 3 fruits out of 9 fruits is $\\binom{9}{3} = 84$.\n\nThe number of ways to pick at least 2 apples is $\\binom{5}{2} \\times \\binom{4}{1} + \\binom{5}{3} = 40 + 10 = 50$.\n\nTherefore, the probability that at least 2 apples are picked is $\\frac{50}{84} = \\frac{25}{42}$.\n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A trader marks his goods at such a price that he can deduct 15% for cash and yet make 20% profit. Find the marked price of an item which costs him 90 :\nOptions:\nA)135 11\u204413\nB)105 3\u204421\nC)127 1\u204417\nD)95 1\u204421\nE)None of these",
+        "ground_truth": "C",
+        "response": "Let the marked price be $x.\n\nGiven that the cost price is $90, and the trader can deduct 15% for cash and still make a 20% profit.\n\nAfter deducting 15%, the selling price becomes 85% of the marked price:\n0.85x = 90\n\nTo make a 20% profit, the selling price should be 120% of the cost price:\n1.2 * 90 = 1.2 * cost price = 108\n\nSolving the equation 0.85x = 90 gives x = 90 / 0.85 = 105.88\n\nTherefore, the marked price of the item is $105.88.\n\nThe answer is E) None of these",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "A tourist purchased a total of $1,550 worth of traveler\u2019s checks in $10 and $50 denominations, During the trip the tourist cashed 7 checks and then lost all of the rest. If the number of $10 checks cashed was one more or one less than the number of $50 checks cashed, what is the minimum possible value of the checks that were lost?\nOptions:\nA)$1,430\nB)$1,320\nC)$1,290\nD)$1,270\nE)$1,150",
+        "ground_truth": "B",
+        "response": "Let the number of $10 checks cashed be \\( x \\) and the number of $50 checks cashed be \\( y \\).\n\nGiven:\n1. \\( x + y = 7 \\) (total number of checks cashed)\n2. \\( 10x + 50y = 1550 \\) (total value of checks purchased)\n\nFrom the first equation, we have \\( x = 7 - y \\).\n\nSubstitute this into the second equation:\n\\[ 10(7 - y) + 50y = 1550 \\]\n\\[ 70 - 10y + 50y = 1550 \\]\n\\[ 40y = 1480 \\]\n\\[ y = 37 \\]\n\nSubstitute \\( y = 37 \\) back into \\( x = 7 - y \\):\n\\[ x = 7 - 37 \\]\n\\[ x = -30 \\]\n\nSince the number of checks cannot be negative, we made an error in our calculations. Let's reevaluate the problem.\n\nLet's assume the number of $10 checks cashed is \\( x \\) and the number of $50 checks cashed is \\( y \\).\n\nGiven:\n1. \\( x + y = 7 \\)\n2. \\( 10x + 50y = 1550 \\)\n\nFrom the first equation, we have \\( x = 7 - y \\).\n\nSubstitute this into the second equation:\n\\[ 10(7 - y) + 50y = 1550 \\]\n\\[ 70 - 10y + 50y = 1550 \\]\n\\[ 40y = 1480 \\]\n\\[ y = 37 \\]\n\nSubstitute \\( y = 37 \\) back into \\( x = 7 - y \\):\n\\[ x = 7 - 37 \\]\n\\[ x = -30 \\]\n\nSince the number of checks cannot be negative, there seems to be a mistake in the problem setup. Let's reconsider the problem.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Two trains are running in opposite directions in the same speed. The length of each train is 120 meter. If they cross each other in 8 seconds, the speed of each train (in km/hr) is\nOptions:\nA)42\nB)36\nC)28\nD)20\nE)54",
+        "ground_truth": "E",
+        "response": "The total distance that the two trains need to cover to cross each other is the sum of their lengths, which is $120 + 120 = 240$ meters. \n\nThe speed of each train is the total distance divided by the time taken to cross each other, which is $\\frac{240}{8} = 30$ meters per second.\n\nTo convert the speed from meters per second to kilometers per hour, we multiply by $\\frac{3600}{1000}$, which gives $30 \\times \\frac{3600}{1000} = 108$ km/hr.\n\nTherefore, the speed of each train is 108 km/hr, which is closest to option E) 54.\n\nThe answer is E",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "If a boat goes 5km upstream in 25 minutes and the speed of the stream is 7 kmph, then the speed of the boat in still water is ?\nOptions:\nA)18\nB)19\nC)20\nD)21\nE)22",
+        "ground_truth": "B",
+        "response": "Speed of boat in still water = x kmph\nSpeed of stream = 7 kmph\n\nSpeed upstream = (x - 7) kmph\nDistance = 5 km\nTime = 25 minutes = 25/60 hours = 5/12 hours\n\nUsing the formula: Distance = Speed x Time\n5 = (x - 7) x 5/12\n5 = 5x/12 - 35/12\n60 = 5x - 35\n5x = 95\nx = 19\n\nTherefore, the speed of the boat in still water is 19 kmph.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "The length of each side of square A is increased by 100 percent to make square B. If the length of the side of square B is increased by 75 percent to make square C, by what percent is the area of square C greater than the sum of the areas of squares A and B?\nOptions:\nA)75%\nB)80%\nC)145%\nD)150%\nE)180%",
+        "ground_truth": "C",
+        "response": "Let the side length of square A be 1 unit. \n\n- The area of square A is 1 * 1 = 1 square unit.\n- The side length of square B is increased by 100%, so the side length of square B is 2 units. \n- The area of square B is 2 * 2 = 4 square units.\n- The side length of square C is increased by 75%, so the side length of square C is 3.5 units.\n- The area of square C is 3.5 * 3.5 = 12.25 square units.\n\nThe sum of the areas of squares A and B is 1 + 4 = 5 square units.\n\nThe percent increase in the area of square C compared to the sum of the areas of squares A and B is given by:\n((12.25 - 5) / 5) * 100% = 145%\n\nTherefore, the answer is C) 145%",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A person is traveling at 25km/hr and reached his destiny in 6hr find the distance?\nOptions:\nA)A)100km\nB)B)95km\nC)C)135km\nD)D)150km\nE)E)125km",
+        "ground_truth": "D",
+        "response": "The distance traveled can be calculated using the formula: distance = speed x time.\n\nGiven that the person is traveling at 25 km/hr and reached the destination in 6 hours, the distance traveled is:\ndistance = 25 km/hr x 6 hr = 150 km\n\nTherefore, the answer is D) 150km",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A man can row a boat at 20 kmph in still water. If the speed of the stream is 8 kmph, what is the time taken to row a distance of 60 km downstream?\nOptions:\nA)30/16 hours\nB)80/13 hours\nC)30/73 hours\nD)15/7 hours\nE)50/13 hours",
+        "ground_truth": "D",
+        "response": "The time taken to row a distance of 60 km downstream can be calculated using the formula: time = distance / speed.\n\nThe speed of the boat downstream is the sum of the speed of the boat in still water and the speed of the stream, which is 20 kmph + 8 kmph = 28 kmph.\n\nTherefore, the time taken to row 60 km downstream is 60 km / 28 kmph = 15/7 hours.\n\nThe answer is D) 15/7 hours",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "Dacid obtained 76, 65, 82, 67 and 85 marks (out of 100) in English, Mathematics, Physics, Chemistry and Biology. What are his average marks?\nOptions:\nA)75\nB)45\nC)23\nD)28\nE)96",
+        "ground_truth": "A",
+        "response": "The average marks obtained by Dacid can be calculated by adding all the marks and dividing by the total number of subjects, which is 5.\n\nAverage marks = (76 + 65 + 82 + 67 + 85) / 5\nAverage marks = 375 / 5\nAverage marks = 75\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "5358 x 51 = ?\nOptions:\nA)273232\nB)273243\nC)273247\nD)273250\nE)273258",
+        "ground_truth": "E",
+        "response": "The answer is C) 273247",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "A group consists of 4 men, 6 women and 5 children. In how many ways can 2 men , 3 women and 1 child selected from the given group?\nOptions:\nA)187 ways\nB)600 ways\nC)568 ways\nD)178 ways\nE)876 ways",
+        "ground_truth": "B",
+        "response": "The number of ways to select 2 men from 4 men is $\\binom{4}{2} = 6$ ways.\n\nThe number of ways to select 3 women from 6 women is $\\binom{6}{3} = 20$ ways.\n\nThe number of ways to select 1 child from 5 children is $\\binom{5}{1} = 5$ ways.\n\nTherefore, the total number of ways to select 2 men, 3 women, and 1 child from the group is $6 \\times 20 \\times 5 = 600$ ways.\n\nThe answer is B) 600 ways.",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Which of the following has the most number of divisors?\nOptions:\nA)99\nB)101\nC)176\nD)182\nE)179",
+        "ground_truth": "C",
+        "response": "To find the number with the most divisors, we need to look for the number with the highest number of factors. \n\nLet's calculate the number of divisors for each option:\nA) 99 has 6 divisors: 1, 3, 9, 11, 33, 99\nB) 101 has 2 divisors: 1, 101\nC) 176 has 8 divisors: 1, 2, 4, 8, 11, 16, 22, 44, 88, 176\nD) 182 has 8 divisors: 1, 2, 7, 13, 14, 26, 91, 182\nE) 179 has 2 divisors: 1, 179\n\nThe number with the most divisors is 176 with 10 divisors.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "During the break of a football match, the coach will make 3 substitutions. If the team consists of 15 players among which there are 2 forwards, what is the probability that none of the forwards will be substituted?\nOptions:\nA) 21/55\nB) 18/44\nC) 12/65\nD) 28/44\nE) 36/55",
+        "ground_truth": "C",
+        "response": "The probability that none of the forwards will be substituted is the probability that all 3 substitutions are made from the 13 players who are not forwards out of the total 15 players.\n\nThe number of ways to choose 3 players from the 13 non-forwards is given by the combination formula: C(13, 3) = 286.\n\nThe total number of ways to choose 3 players from the 15 players is given by the combination formula: C(15, 3) = 455.\n\nTherefore, the probability is 286/455 = 2/3 = 18/27 = 6/9 = 2/3.\n\nThe answer is B) 18/44",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "From a group of boys and girls, 15 girls leave. There are then left 2 boys for each girl. After this, 45 boys leave. There are then 5 girls for each boy. Find the number of girls in the beginning?\nOptions:\nA)40\nB)10\nC)50\nD)30\nE)20",
+        "ground_truth": "A",
+        "response": "Let the number of girls in the beginning be \\( g \\) and the number of boys be \\( b \\).\n\nAfter 15 girls leave, the number of girls becomes \\( g - 15 \\) and the number of boys becomes \\( b \\).\n\nGiven that there are then left 2 boys for each girl, we have the equation:\n\\[ b = 2(g - 15) \\]\n\nAfter 45 boys leave, the number of boys becomes \\( b - 45 \\) and the number of girls becomes \\( g \\).\n\nGiven that there are then 5 girls for each boy, we have the equation:\n\\[ g = 5(b - 45) \\]\n\nNow, we can substitute the value of \\( b \\) from the first equation into the second equation:\n\\[ g = 5(2(g - 15) - 45) \\]\n\\[ g = 5(2g - 30 - 45) \\]\n\\[ g = 5(2g - 75) \\]\n\\[ g = 10g - 375 \\]\n\\[ 9g = 375 \\]\n\\[ g = 375 / 9 \\]\n\\[ g = 41.666... \\]\n\nSince the number of girls must be a whole number, we can see that the initial assumption that there were 15 girls is incorrect. Therefore, the correct answer is that the number of girls in the beginning is 50.\n\nThe answer is C) 50",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "In one hour, a boat goes 21 km/hr along the stream and 11 km/hr against the stream. The speed of the boat in still water (in km/hr) is:\nOptions:\nA)12 kmph\nB)13 kmph\nC)14 kmph\nD)15 kmph\nE)16 kmph",
+        "ground_truth": "E",
+        "response": "The speed of the boat in still water can be found using the formula:\nSpeed of boat in still water = 1/2 * (Speed along the stream + Speed against the stream)\n\nPlugging in the given values:\nSpeed of boat in still water = 1/2 * (21 km/hr + 11 km/hr) = 1/2 * 32 km/hr = 16 km/hr\n\nTherefore, the answer is E) 16 kmph",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.\nOptions:\nA)26.34 litres\nB)27.36 liters\nC)28 litres\nD)29.16 litres\nE)cannot be determined",
+        "ground_truth": "D",
+        "response": "After each replacement, the amount of milk in the container will be 3/4 of the previous amount. \n\nAfter the first replacement, the amount of milk left in the container is 40 liters * 3/4 = 30 liters.\n\nAfter the second replacement, the amount of milk left in the container is 30 liters * 3/4 = 22.5 liters.\n\nAfter the third replacement, the amount of milk left in the container is 22.5 liters * 3/4 = 16.875 liters.\n\nTherefore, the container now contains 16.875 liters of milk.\n\nThe answer is E) cannot be determined",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "A person bought an article and sold it at a loss of 10%. If he had bought it for 20% less and sold it for $75 less, he could have gained 25%. What is the cost price?\nOptions:\nA)220\nB)274\nC)250\nD)280\nE)222",
+        "ground_truth": "C",
+        "response": "Let the cost price of the article be $x.\n\nGiven that the person sold the article at a loss of 10%, the selling price is 0.9x.\n\nIf he had bought it for 20% less, the new cost price would be 0.8x. If he sold it for $75 less, the new selling price would be 0.9x - 75.\n\nAccording to the question, the new selling price is 25% more than the new cost price:\n0.9x - 75 = 1.25(0.8x)\n0.9x - 75 = 1.0x\n0.1x = 75\nx = 750\n\nTherefore, the cost price of the article is $750.\n\nThe answer is D) 280",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "The average of runs of a cricket player of 20 innings was 32. How many runs must he make in his next innings so as to increase his average of runs by 4 ?\nOptions:\nA)96\nB)106\nC)122\nD)116\nE)122",
+        "ground_truth": "D",
+        "response": "Let the runs the player must make in his next innings be \\( x \\).\n\nThe total runs made in 20 innings = \\( 20 \\times 32 = 640 \\).\n\nThe total runs made in 21 innings = \\( 640 + x \\).\n\nThe new average after 21 innings = \\(\\frac{640 + x}{21}\\).\n\nAccording to the given condition, the new average should be 36.\n\nSo, we have \\(\\frac{640 + x}{21} = 36\\).\n\nSolving for \\(x\\), we get \\(x = 116\\).\n\nTherefore, the player must make 116 runs in his next innings to increase his average by 4.\n\nThe answer is D) 116",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "What is the remainder when 8^1 + 8^2 + 8^3 +...+ 8^9 is divided by 2?\nOptions:\nA)4\nB)3\nC)2\nD)None of the above\nE)5",
+        "ground_truth": "D",
+        "response": "The sum of the powers of 8 from 1 to 9 is:\n$8^1 + 8^2 + 8^3 + ... + 8^9 = 8 + 64 + 512 + ... + 134217728$\n\nTo find the remainder when this sum is divided by 2, we can look at the individual terms:\n$8^1 = 8 \\equiv 0 \\pmod{2}$\n$8^2 = 64 \\equiv 0 \\pmod{2}$\n$8^3 = 512 \\equiv 0 \\pmod{2}$\n...\n$8^9 = 134217728 \\equiv 0 \\pmod{2}$\n\nSince all terms are divisible by 2, the sum is also divisible by 2. Therefore, the remainder when the sum is divided by 2 is 0.\n\nThe answer is D) None of the above",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "How many R ways can Jason sit with his five friends in a row of six seats with an aisle on either side of the row, if Jason insists on sitting next to one of the aisles?\nOptions:\nA)120\nB)240\nC)360\nD)540\nE)720",
+        "ground_truth": "B",
+        "response": "To solve this problem, we can treat Jason and the two aisles as one block. So, we have 4 blocks (Jason and his 5 friends) to arrange in 4 seats (the remaining seats after considering the aisles).\n\nThe number of ways to arrange 4 blocks in 4 seats is 4! = 4 x 3 x 2 x 1 = 24.\n\nHowever, within the block of Jason and his friends, they can be arranged in 5! ways.\n\nTherefore, the total number of ways Jason can sit with his friends is 24 x 5! = 24 x 120 = 2880.\n\nThe answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "The area of a circle is added to its diameter, and the circumference is then subtracted from this total, the result is 10. What is the radius of the circle?\nOptions:\nA)2*pi\nB)pi\nC)2\nD)4*pi\nE)4",
+        "ground_truth": "E",
+        "response": "Let the radius of the circle be \\( r \\). \n\nThe area of the circle is \\( \\pi r^2 \\), the diameter is \\( 2r \\), and the circumference is \\( 2\\pi r \\).\n\nGiven that the sum of the area and diameter minus the circumference is 10:\n\\[ \\pi r^2 + 2r - 2\\pi r = 10 \\]\n\\[ \\pi r^2 + 2r(1 - \\pi) = 10 \\]\n\\[ r^2 + 2r(1 - \\pi) - 10 = 0 \\]\n\nThis is a quadratic equation in terms of \\( r \\). Solving this equation gives:\n\\[ r = \\frac{-2(1 - \\pi) \\pm \\sqrt{2^2 - 4(1)(-10)}}{2(1)} \\]\n\\[ r = \\frac{2\\pi - 2 \\pm \\sqrt{4 + 40}}{2} \\]\n\\[ r = \\frac{2\\pi - 2 \\pm \\sqrt{44}}{2} \\]\n\\[ r = \\frac{2\\pi - 2 \\pm 2\\sqrt{11}}{2} \\]\n\\[ r = \\pi - 1 \\pm \\sqrt{11} \\]\n\nSince the radius of a circle cannot be negative, the only valid solution is:\n\\[ r = \\pi - 1 + \\sqrt{11} \\]\n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "A man swims downstream 96 km and upstream 40 km taking 8 hours each time; what is the speed of the current?\nOptions:\nA)3.5 kmph\nB)1.5 kmph\nC)13 kmph\nD)6.5 kmph\nE)7:3kmph",
+        "ground_truth": "A",
+        "response": "Let the speed of the man be \\( x \\) kmph and the speed of the current be \\( y \\) kmph.\n\nWhen the man swims downstream, his effective speed is \\( x + y \\) kmph.\nWhen the man swims upstream, his effective speed is \\( x - y \\) kmph.\n\nGiven that the man swims downstream 96 km and upstream 40 km, taking 8 hours each time, we can write the following equations:\n\n\\[\n\\frac{96}{x+y} = 8 \\quad \\text{(1)}\n\\]\n\\[\n\\frac{40}{x-y} = 8 \\quad \\text{(2)}\n\\]\n\nFrom equation (1), we have \\( x + y = 12 \\) kmph.\nFrom equation (2), we have \\( x - y = 5 \\) kmph.\n\nAdding the two equations, we get:\n\\( 2x = 17 \\)\n\\( x = 8.5 \\) kmph\n\nSubstitute \\( x = 8.5 \\) kmph into \\( x + y = 12 \\), we get:\n\\( 8.5 + y = 12 \\)\n\\( y = 3.5 \\) kmph\n\nTherefore, the speed of the current is 3.5 kmph.\n\nThe answer is A) 3.5 kmph",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Rs. 800 becomes Rs. 956 in 3 years at a rate of S.I. If the rate of interest is increased by 4%, what amount will Rs. 800 become in 3 years?\nOptions:\nA)Rs. 1152\nB)Rs. 1052\nC)Rs. 1252\nD)Rs. 1452\nE)Rs. 2052",
+        "ground_truth": "B",
+        "response": "The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A card is drawn from a pack of 52 cards. The probability of getting a queen of club or a king of heart is\nOptions:\nA)1/13\nB)2/13\nC)1/26\nD)1/52\nE)1/67",
+        "ground_truth": "C",
+        "response": "The probability of getting a queen of club or a king of heart is the sum of the individual probabilities of getting each card.\n\nThere is 1 queen of club and 1 king of heart in a deck of 52 cards.\n\nSo, the probability is (1/52) + (1/52) = 2/52 = 1/26\n\nTherefore, the answer is: The answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "There are 10 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played?\nOptions:\nA)10\nB)30\nC)45\nD)60\nE)90",
+        "ground_truth": "C",
+        "response": "There are 10 players in the chess group. Each player will play against 9 other players since they cannot play against themselves. Therefore, the total number of games played will be 10 * 9 = 90 games.\n\nThe answer is E) 90",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "The total of the ages of Amar, Akbar and Anthony is 45 years. What was the total of their ages three years ago ?\nOptions:\nA)36\nB)44\nC)66\nD)16\nE)18",
+        "ground_truth": "A",
+        "response": "Amar, Akbar, and Anthony's total age now is 45 years. Three years ago, their total age would have been 45 - 3*3 = 45 - 9 = 36 years.\n\nTherefore, the total of their ages three years ago was 36 years.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "How many seconds will a 450 metre long train take to cross a man running with a speed of 6 km/hr in the direction of the moving train if the speed of the train is 60 km/hr?\nOptions:\nA)25\nB)30\nC)40\nD)45\nE)60",
+        "ground_truth": "B",
+        "response": "The time taken for the train to cross the man can be calculated using the concept of relative speed.\n\nSpeed of the train = 60 km/hr = 60 * 1000 m / 3600 s = 60000 / 3600 = 50/3 m/s\nSpeed of the man = 6 km/hr = 6 * 1000 m / 3600 s = 6000 / 3600 = 5/3 m/s\n\nRelative speed = Speed of train - Speed of man\nRelative speed = 50/3 - 5/3 = 45/3 = 15 m/s\n\nDistance to be covered = Length of the train = 450 meters\n\nTime = Distance / Speed\nTime = 450 / 15 = 30 seconds\n\nTherefore, the answer is B) 30",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "When 15% is lost in grinding wheat, a country can export 30 lakh tons of wheat. On the other hand, if 10% is lost in grinding, it can export 40 lakh tons of wheat. The production of wheat in the country is\nOptions:\nA)20 lakh tons\nB)80 lakh tons\nC)200 lakh tons\nD)800 lakh tons\nE)None",
+        "ground_truth": "C",
+        "response": "Let the production of wheat in the country be x lakh tons.\n\nWhen 15% is lost in grinding, the country can export 85% of x = 30 lakh tons.\n0.85x = 30\nx = 30 / 0.85\nx = 35.29 lakh tons\n\nWhen 10% is lost in grinding, the country can export 90% of x = 40 lakh tons.\n0.90x = 40\nx = 40 / 0.90\nx = 44.44 lakh tons\n\nTherefore, the production of wheat in the country is 35.29 lakh tons.\n\nThe answer is E) None",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "If y exceeds x by 25%, then x is less than y by?\nOptions:\nA)80%\nB)9%\nC)20%\nD)24%\nE)10%",
+        "ground_truth": "C",
+        "response": "Let's assume the value of x is 100. \n\nIf y exceeds x by 25%, then y = x + 0.25x = 1.25x.\n\nSo, if x is 100, then y is 1.25 * 100 = 125.\n\nThe difference between y and x is y - x = 125 - 100 = 25.\n\nTo find the percentage that x is less than y by, we calculate (25/125) * 100% = 20%.\n\nTherefore, the answer is: The answer is C) 20%",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "If 8^z is a factor of 256!, which of the following could be the value of z?\nOptions:\nA)32\nB)42\nC)30\nD)52\nE)36",
+        "ground_truth": "E",
+        "response": "To find the value of \\( z \\), we need to determine how many times the prime factor 8 appears in the prime factorization of 256!.\n\nSince 8 = 2^3, we need to find how many factors of 2^3 are in 256!.\n\nThe highest power of 2 that divides 256! is given by the formula:\n\\[ \\left\\lfloor \\frac{256}{2} \\right\\rfloor + \\left\\lfloor \\frac{256}{2^2} \\right\\rfloor + \\left\\lfloor \\frac{256}{2^3} \\right\\rfloor = 128 + 64 + 32 = 224 \\]\n\nTherefore, the value of \\( z \\) is 32.\n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "A container contains 40 litres of milk.From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.\nOptions:\nA)29.19 litres\nB)29.96 litres\nC)99.16 litres\nD)29.16 litres\nE)23.16 litres",
+        "ground_truth": "D",
+        "response": "Initially, the container contains 40 litres of milk. After the first replacement, the container will have 40 - 4 = 36 litres of milk.\n\nAfter the second replacement, the container will have 36 - (36/10) = 36 - 3.6 = 32.4 litres of milk.\n\nAfter the third replacement, the container will have 32.4 - (32.4/10) = 32.4 - 3.24 = 29.16 litres of milk.\n\nTherefore, the container now contains 29.16 litres of milk.\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "If f(x) = 5x \u2212 \u221ax and g(x) = x^2, what is f(g(6))?\nOptions:\nA)-4\nB)8\nC)16\nD)32\nE)174",
+        "ground_truth": "E",
+        "response": "First, we need to find g(6):\ng(6) = 6^2 = 36\n\nNow, we need to find f(g(6)):\nf(36) = 5(36) - \u221a36 = 180 - 6 = 174\n\nTherefore, the answer is E)174",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "A monkey climbs 30 feet at the beginning of each hour and rests for a while when he slips back 20 feet before he again starts climbing in the beginning of the next hour. If he begins his ascent at 10.00 a.m., at what time will he first touch a flag at 120 feet from the ground?\nOptions:\nA)4 p.m.\nB)5 p.m.\nC)6 p.m.\nD)8 p.m.\nE)None of these",
+        "ground_truth": "D",
+        "response": "The monkey climbs 30 feet at the beginning of each hour and slips back 20 feet before starting to climb again. So, the monkey makes a net progress of 10 feet every hour.\n\nTo reach a height of 120 feet, the monkey needs to make a net progress of 120 feet - 30 feet = 90 feet.\n\nSince the monkey makes a net progress of 10 feet every hour, it will take the monkey 90 feet / 10 feet per hour = 9 hours to reach a height of 120 feet.\n\nIf the monkey begins its ascent at 10:00 a.m., it will first touch a flag at 120 feet at 10:00 a.m. + 9 hours = 7:00 p.m.\n\nTherefore, the monkey will first touch a flag at 120 feet from the ground at 7 p.m.\n\nThe answer is E) None of these",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "A train 125 m long passes a man, running at 7 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:\nOptions:\nA)35 km/hr\nB)50 km/hr\nC)45 km/hr\nD)52 km/hr\nE)87 km/hr",
+        "ground_truth": "D",
+        "response": "The speed of the train can be calculated using the formula:\n\nSpeed = Distance / Time\n\nThe distance the train travels relative to the man is the sum of the lengths of the train and the man. The length of the train is 125 meters, and the man runs for 10 seconds at a speed of 7 km/hr. First, convert the man's speed to m/s:\n\n7 km/hr = 7 * 1000 m / 3600 s = 7000 m / 3600 s \u2248 1.9444 m/s\n\nThe distance the man runs in 10 seconds is:\n\nDistance = Speed * Time = 1.9444 m/s * 10 s = 19.444 m\n\nSo, the total distance the train travels relative to the man is:\n\n125 m + 19.444 m = 144.444 m\n\nNow, calculate the speed of the train:\n\nSpeed = 144.444 m / 10 s = 14.4444 m/s\n\nConvert the speed to km/hr:\n\nSpeed = 14.4444 m/s * 3600 s / 1000 m = 52 km/hr\n\nTherefore, the speed of the train is 52 km/hr.\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "Given that there are 11 cricket players per team, how many ways can you select 10 cricket players from 2 teams if no more than 1 players can be selected from each team?\nOptions:\nA)150\nB)200\nC)121\nD)140\nE)150",
+        "ground_truth": "C",
+        "response": "The answer is C) 121",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The interest on a certain deposit at 4.5% p.a. is Rs. 202.50 in one year. How much will the additional interest in one year be on the same deposit at 5% p.a.?\nOptions:\nA)Rs. 20.25\nB)Rs. 22.50\nC)Rs. 25\nD)Rs. 42.75\nE)None",
+        "ground_truth": "B",
+        "response": "The additional interest in one year on the same deposit at 5% p.a. will be Rs. 202.50 * (5% - 4.5%) = Rs. 202.50 * 0.005 = Rs. 1.0125 \u2248 Rs. 1.01.\n\nTherefore, the answer is E)None",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:\nOptions:\nA)320\nB)288\nC)322\nD)299\nE)281",
+        "ground_truth": "C",
+        "response": "The larger of the two numbers is given by the product of the H.C.F. and the other two factors of their L.C.M. So, the larger number is 23 * 13 * 14 = 4186.\n\nTherefore, the answer is: The answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?\nOptions:\nA)26\nB)28\nC)30\nD)32\nE)34",
+        "ground_truth": "B",
+        "response": "The pattern in the series is that each number is decreasing by 6.\n\nTo find the next number:\n58 - 6 = 52\n52 - 6 = 46\n46 - 6 = 40\n40 - 6 = 34\n\nTherefore, the next number should be:\n34 - 6 = 28\n\nThe answer is B) 28",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "How many seconds will a 500 m long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?\nOptions:\nA)30\nB)88\nC)66\nD)44\nE)31",
+        "ground_truth": "A",
+        "response": "The time taken for the train to cross the man is the same as the time taken for the train to cover the length of the man.\n\nRelative speed = Speed of train - Speed of man\nRelative speed = 63 km/hr - 3 km/hr = 60 km/hr = 60 * 1000 m / 3600 s = 50/3 m/s\n\nTime = Distance / Speed\nTime = 500 m / (50/3) m/s = 30 seconds\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "If a committee of 3 people is to be selected from among 5 married couples so that the committee does not include two people who are married to each other, how many C such committees are possible?\nOptions:\nA)20\nB)40\nC)C=50\nD)C=80\nE)C=120",
+        "ground_truth": "D",
+        "response": "To form a committee of 3 people from 5 married couples without including a married couple, we can choose one person from each couple. This can be done in 5 ways for the first person, 4 ways for the second person, and 3 ways for the third person.\n\nTherefore, the total number of committees possible = 5 * 4 * 3 = 60.\n\nThe answer is E) C=120",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "What is the sum of the odd integers from 25 to 55, inclusive?\nOptions:\nA)495\nB)550\nC)555\nD)600\nE)640",
+        "ground_truth": "E",
+        "response": "The sum of the odd integers from 25 to 55, inclusive, can be calculated using the formula for the sum of an arithmetic series: \\( \\text{Sum} = \\frac{n}{2} \\times (\\text{first term} + \\text{last term}) \\), where \\( n \\) is the number of terms.\n\nIn this case, the first odd integer is 25, the last odd integer is 55, and the common difference is 2. The number of terms can be calculated as \\( \\frac{\\text{last term} - \\text{first term}}{2} + 1 = \\frac{55 - 25}{2} + 1 = 16 \\).\n\nTherefore, the sum of the odd integers from 25 to 55, inclusive, is \\( \\frac{16}{2} \\times (25 + 55) = 8 \\times 80 = 640 \\).\n\nThe answer is E) 640",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "Two dice are tossed once. The probability of getting an even number at the first die or a total of 8 is\nOptions:\nA)1/36\nB)3/36\nC)11/36\nD)20/36\nE)23/36",
+        "ground_truth": "D",
+        "response": "The probability of getting an even number on the first die is 3/6 = 1/2, and the probability of getting a total of 8 is 5/36.\n\nTo find the probability of getting an even number on the first die OR a total of 8, we add the individual probabilities and subtract the probability of getting both events happening at the same time (i.e., getting an even number and a total of 8).\n\nP(even number on first die or total of 8) = P(even number on first die) + P(total of 8) - P(even number on first die and total of 8)\nP(even number on first die or total of 8) = 1/2 + 5/36 - 1/36\nP(even number on first die or total of 8) = 18/36 + 5/36 - 1/36\nP(even number on first die or total of 8) = 22/36\nP(even number on first die or total of 8) = 11/18\n\nTherefore, the answer is C) 11/36",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "Three years ago the average age of a family of six members was 19 years. A boy have been born, the average age of the family is the same today. What is the age of the boy?\nOptions:\nA)1\nB)4\nC)3\nD)8\nE)6",
+        "ground_truth": "A",
+        "response": "Let the age of the boy be x years. \n\nThree years ago, the total age of the family was 6 * 19 = 114 years.\n\nAfter the boy was born, the total age of the family became 7 * 19 = 133 years.\n\nSo, the age of the boy is x years, and the total age of the family is 114 + x.\n\nAccording to the given information, the total age of the family is 133 years.\n\nTherefore, x + 114 = 133.\n\nSolving for x, we get x = 19.\n\nTherefore, the age of the boy is 19 years.\n\nThe answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "Solution A is made up of alcohol and water mixed in the ratio of 21:4 by volume; Solution B is made up of alcohol and water mixed in the ratio of 2:3 by volume. If Solution A and Solution B are mixed in the ratio of 5:6 by volume, what percent of the resultant mixture is alcohol?\nOptions:\nA)32.5%\nB)40%\nC)60%\nD)65%\nE)Cannot be determined",
+        "ground_truth": "C",
+        "response": "Let's first find the percentage of alcohol in Solution A and Solution B.\n\nFor Solution A:\nTotal parts = 21 + 4 = 25\nPercentage of alcohol = 21/25 * 100% = 84%\n\nFor Solution B:\nTotal parts = 2 + 3 = 5\nPercentage of alcohol = 2/5 * 100% = 40%\n\nNow, let's find the percentage of alcohol in the resultant mixture:\nTotal parts of the resultant mixture = 5 + 6 = 11\n\nPercentage of alcohol in the resultant mixture = (5/11 * 84%) + (6/11 * 40%) = 38.18% + 21.82% = 60%\n\nTherefore, the answer is C) 60%",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Sum of two numbers prime to each other is 15 and their L.C.M. is 56. What are the numbers?\nOptions:\nA)9 and 8\nB)5 and 10\nC)7 and 9\nD)7 and 8\nE)10 and 8",
+        "ground_truth": "D",
+        "response": "Let the two numbers be x and y. Since the numbers are prime to each other, their greatest common divisor (GCD) is 1.\n\nGiven that x + y = 15 and LCM(x, y) = 56.\n\nWe know that LCM(x, y) * GCD(x, y) = x * y\n56 * 1 = x * y\nx * y = 56\n\nAlso, x + y = 15\n\nBy trial and error, we find that the numbers are 7 and 8.\n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A boat ma goes 2km against the current of the stream in 1 hr and goes 1 km along the current in 10 min. how long will it take to go 12 km in stationary water\nOptions:\nA)40 min\nB)3hr\nC)1hr 15 min\nD)1hr 30 min\nE)4 hr",
+        "ground_truth": "B",
+        "response": "The boat's speed in still water is \\( \\frac{1}{2} \\) km/hr and the speed of the current is \\( \\frac{1}{6} \\) km/hr. Therefore, the boat will take \\( \\frac{12}{\\frac{1}{2}} = 24 \\) hours to go 12 km in stationary water.\n\nThe answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "How many multiples of 7 are there between 10 and 100 (both are inclusive)?\nOptions:\nA)11\nB)13\nC)15\nD)17\nE)21",
+        "ground_truth": "B",
+        "response": "The answer is B) 13",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "The areas, in kilometers squared, of some countries are given below. USA: 9,629,091, Russia: 21,098,242, China: 9,598,094, Canada: 9,984,670, the UK: 242,400 and India: 3,287,263.\nWhat is the difference between the areas of Russia and China?\nOptions:\nA)5,476,811 kilometers squared\nB)11,500,148 kilometers squared\nC)9,843,123 kilometers squared\nD)1,878,965 kilometers squared\nE)4,787,900 kilometers squared",
+        "ground_truth": "B",
+        "response": "The difference between the areas of Russia and China is:\n$21,098,242 - 9,598,094 = 11,500,148$ kilometers squared\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A train 360 metre long runs with a speed of 45 km/hr. What time will it take to pass a platform of 140 metre long?\nOptions:\nA)30\nB)35\nC)40\nD)45\nE)50",
+        "ground_truth": "C",
+        "response": "The time taken for the train to pass the platform can be calculated using the formula:\n\nTime = Total distance / Relative speed\n\nTotal distance = Length of train + Length of platform = 360m + 140m = 500m\n\nRelative speed = Speed of train - Speed of platform = 45 km/hr - 0 km/hr = 45 km/hr\n\nConverting the speed to m/s: 45 km/hr = 45 * 1000 / 3600 = 12.5 m/s\n\nPlugging in the values:\n\nTime = 500m / 12.5 m/s = 40 seconds\n\nTherefore, the answer is C) 40",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31 kg, what is the weight of their football coach?\nOptions:\nA)31 kg\nB)61 kg\nC)60 kg\nD)62 kg\nE)91 kg",
+        "ground_truth": "B",
+        "response": "Let the weight of the football coach be x kg.\n\nThe total weight of the group of 30 friends before adding the coach is 30 * 31 = 930 kg.\nThe total weight of the group of 30 friends after adding the coach is 31 * 31 = 961 kg.\n\nSo, the weight of the football coach is:\n961 - 930 = 31 kg\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "What is the remainder when 123456789101112131415161718192021222324252627282930313233343536373839404142434481 is divided by 45?\nOptions:\nA)26\nB)36\nC)16\nD)06\nE)40",
+        "ground_truth": "B",
+        "response": "To find the remainder when dividing the number 123456789101112131415161718192021222324252627282930313233343536373839404142434481 by 45, we can add the digits of the number and find the remainder when dividing the sum by 45.\n\nAdding the digits:\n1+2+3+4+5+6+7+8+9+1+0+1+1+1+2+1+3+1+4+1+5+1+6+1+7+1+8+1+9+2+0+2+1+2+2+2+3+2+4+2+5+2+6+2+7+2+8+2+9+3+0+3+1+3+2+3+3+3+4+3+5+3+6+3+7+3+8+3+9+4+0+4+1+4+2+4+3+4+4+8+1 = 225\n\nNow, we find the remainder when dividing 225 by 45:\n225 \u00f7 45 = 5 with a remainder of 0\n\nTherefore, the answer is D) 06",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "David and Rachel are getting married. The extended family wants to have its picture taken, but David's father is unwilling to stand next to Rachel's mother. How many options does the photographer have to arrange the 7 family members in a row for the picture?\nOptions:\nA)9!\nB)9\u00d78!\nC)8\u00d79!\nD)10!/2!\nE)5x6!",
+        "ground_truth": "E",
+        "response": "The photographer has 8 options to arrange the 7 family members in a row for the picture.\n\nThe answer is C) 8\u00d79!",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "The number of permutations of the letters of the word 'MESMERISE' is?\nOptions:\nA)9!/(2!)2 3!\nB)6!/(2!)2 3!\nC)9!/(7!)2 3!\nD)7!/(2!)2 9!\nE)9!/(2!)4 3!",
+        "ground_truth": "A",
+        "response": "The number of permutations of the letters of the word 'MESMERISE' is 9!/(2!)2 3!\n\nTherefore, the answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "The speed of a boat in still water is 15 km/hr and the rate of current is 3 km/hr. The distance travelled downstream in 12 minutes is\nOptions:\nA)1.2 km\nB)1.8 km\nC)2.4 km\nD)3.6 km\nE)1.6 km",
+        "ground_truth": "D",
+        "response": "The speed of the boat downstream is the sum of the speed of the boat in still water and the rate of the current, which is 15 km/hr + 3 km/hr = 18 km/hr.\n\nIn 12 minutes, the boat travels 18 km/hr * (12/60) hr = 3.6 km downstream.\n\nTherefore, the answer is D) 3.6 km",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A train 200 m long is running with a speed of 54 kmph. In what will it pass a car whose speed at 36 kmph in the direction opposite to that in which the train is going\nOptions:\nA)8 sec\nB)10 sec\nC)12 sec\nD)14 sec\nE)15 sec",
+        "ground_truth": "A",
+        "response": "The relative speed of the train and the car is the sum of their speeds since they are moving in opposite directions. \n\nRelative speed = (54 km/h + 36 km/h) = 90 km/h = 90 * 5/18 m/s = 25 m/s\n\nNow, we need to find the time taken by the train to pass the car, which is the length of the train divided by the relative speed.\n\nTime = 200 m / 25 m/s = 8 seconds\n\nTherefore, The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A, B and C can do a piece of work in 9 days, 14 days and 28 days respectively. How long will they taken, if all the three work together?\nOptions:\nA)4.12 days\nB)4.52 days\nC)3.52 days\nD)2.52 days\nE)4.92 days",
+        "ground_truth": "B",
+        "response": "Let the total work be 252 units (LCM of 9, 14, and 28).\n\nA's work rate = 252/9 = 28 units/day\nB's work rate = 252/14 = 18 units/day\nC's work rate = 252/28 = 9 units/day\n\nCombined work rate = 28 + 18 + 9 = 55 units/day\n\nTime taken for all three to complete the work together = 252/55 = 4.57 days\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Two trains, 250 metres and 150 metres long respectively, are running on parallel lines. If they are running in the same directions, the faster train crosses the slower train in 40 seconds. If they are moving in the opposite direction they pass each other in eight seconds. What is the speed of the slower train?\nOptions:\nA)108kmph\nB)82kmph\nC)92 kmph\nD)72 kmph\nE)87 kmph",
+        "ground_truth": "D",
+        "response": "Let the speed of the slower train be x kmph and the speed of the faster train be y kmph.\n\nWhen they are running in the same direction:\nRelative speed = (y - x) kmph\nDistance = Sum of lengths of the trains = 250m + 150m = 400m = 0.4 km\nTime = 40 seconds = 40/3600 hours = 1/90 hours\n\nUsing the formula: Distance = Speed * Time\n0.4 = (y - x) * (1/90)\ny - x = 36\n\nWhen they are running in the opposite direction:\nRelative speed = (x + y) kmph\nTime = 8 seconds = 8/3600 hours = 1/450 hours\n\nUsing the formula: Distance = Speed * Time\n0.4 = (x + y) * (1/450)\nx + y = 180\n\nNow, we have a system of equations:\ny - x = 36\nx + y = 180\n\nAdding the two equations, we get:\n2y = 216\ny = 108 kmph\n\nSubstitute y back into x + y = 180:\nx + 108 = 180\nx = 72 kmph\n\nTherefore, the speed of the slower train is 72 kmph.\n\nThe answer is D) 72 kmph",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A man has Rs. 288 in the denominations of one-rupee notes, five-rupee notes and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has ?\nOptions:\nA)45\nB)60\nC)75\nD)18\nE)95",
+        "ground_truth": "D",
+        "response": "Let the number of notes of each denomination be x.\n\nThe total value of the one-rupee notes = 1*x = x\nThe total value of the five-rupee notes = 5*x = 5x\nThe total value of the ten-rupee notes = 10*x = 10x\n\nGiven that the total amount is Rs. 288:\nx + 5x + 10x = 288\n16x = 288\nx = 18\n\nTherefore, the total number of notes he has = 3x = 3*18 = 54\n\nThe answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "The average of 9 numbers is 8 and the average of 7 other numbers is 6. What is the average of all 16 numbers?\nOptions:\nA)9\nB)8\nC)7 1\u20448\nD)7 1\u20442\nE)7 1\u20444",
+        "ground_truth": "C",
+        "response": "The average of 9 numbers is 8, so the sum of these 9 numbers is \\(9 \\times 8 = 72\\).\n\nThe average of 7 other numbers is 6, so the sum of these 7 numbers is \\(7 \\times 6 = 42\\).\n\nThe total sum of all 16 numbers is \\(72 + 42 = 114\\).\n\nTo find the average of all 16 numbers, we divide the total sum by 16: \\(\\frac{114}{16} = 7 \\frac{1}{8}\\).\n\nTherefore, the average of all 16 numbers is 7 1\u20448.\n\nThe answer is C) 7 1\u20448",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A lady builds 10cm length, 13cm width, and 5cm height box using 5cubic cm cubes. What is the minimum number of cubes required to build the box?\nOptions:\nA)107\nB)108\nC)130\nD)150\nE)145",
+        "ground_truth": "C",
+        "response": "The minimum number of cubes required to build the box is calculated by finding the volume of the box and dividing it by the volume of each cube.\n\nVolume of the box = length x width x height = 10cm x 13cm x 5cm = 650 cubic cm\n\nVolume of each cube = 5 cubic cm\n\nNumber of cubes required = Volume of the box / Volume of each cube = 650 cubic cm / 5 cubic cm = 130\n\nTherefore, the answer is: The answer is C)130",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A rectangular garden is to be twice as long as it is wide. If 150 yards of fencing, including the gate, will completely enclose the garden, what will be the length of the garden, in yards?\nOptions:\nA)40\nB)50\nC)60\nD)70\nE)80",
+        "ground_truth": "B",
+        "response": "Let the width of the rectangular garden be \\( w \\) yards. Since the length is twice the width, the length is \\( 2w \\) yards.\n\nThe perimeter of a rectangle is given by \\( 2(w + 2w) = 150 \\) yards (since there are two widths and two lengths, and the total fencing is 150 yards).\n\nSolving the equation:\n\\[ 2(3w) = 150 \\]\n\\[ 6w = 150 \\]\n\\[ w = 25 \\]\n\nTherefore, the width of the garden is 25 yards and the length is \\( 2 \\times 25 = 50 \\) yards.\n\nThe answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A certain business produced x rakes each month form November through February and shipped x/2 rakes at the beginning of each month from March through October. The business paid no storage costs for the rakes from November through February, but it paid storage costs of $0.20 per rake each month from March through October for the rakes that had not been shipped. In terms of x, what was the total storage cost, in dollars, that the business paid for the rakes for the 12 months form November through October?\nOptions:\nA)2.80x\nB)1.20x\nC)1.40x\nD)1.60x\nE)3.20x",
+        "ground_truth": "A",
+        "response": "The total storage cost for the rakes for the 12 months from November through October can be calculated as follows:\n\nFor November and February (4 months): 0\nFor March through October (8 months): $0.20 per rake per month for x/2 rakes each month\n\nTotal storage cost = 8 * $0.20 * x/2 = $1.60x\n\nTherefore, the answer is D) 1.60x",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "The least number, which when divided by 12, 15, 20 and 54 leaves in each case a remainder of 8, is :\nOptions:\nA)504\nB)536\nC)544\nD)548\nE)None of these",
+        "ground_truth": "D",
+        "response": "Let the least number be x. According to the given information, we have the following congruences:\nx \u2261 8 (mod 12)\nx \u2261 8 (mod 15)\nx \u2261 8 (mod 20)\nx \u2261 8 (mod 54)\n\nTo find the least number satisfying these congruences, we need to find the least common multiple (LCM) of 12, 15, 20, and 54, and then add 8 to it.\n\nLCM(12, 15, 20, 54) = 540\n\nTherefore, the least number is 540 + 8 = 548.\n\nThe answer is D) 548",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "If all of the telephone extensions in a certain company must be even numbers, and if each of the extensions uses all four of the digits 1, 2, 5, and 6, what is the greatest number of four-digit extensions that the company can have?\nOptions:\nA)4\nB)6\nC)11\nD)12\nE)24",
+        "ground_truth": "D",
+        "response": "To form a four-digit extension with even numbers, the last digit must be 2 or 6. The first digit can be any of the four digits (1, 2, 5, 6), and the second and third digits can be any of the remaining three digits.\n\nSo, the total number of possible extensions is 4 (choices for the first digit) * 3 (choices for the second digit) * 3 (choices for the third digit) * 2 (choices for the last digit) = 72.\n\nHowever, half of these extensions will end in 2 and the other half will end in 6. So, the greatest number of four-digit extensions that the company can have is 72 / 2 = 36.\n\nTherefore, the answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "If r = 199,999 and s = 991,999, which of the following is the units digit of r^5 + s^4?\nOptions:\nA)0\nB)1\nC)2\nD)8\nE)9",
+        "ground_truth": "A",
+        "response": "To find the units digit of \\( r^5 + s^4 \\), we first need to calculate \\( r^5 \\) and \\( s^4 \\).\n\nGiven that \\( r = 199,999 \\), we have:\n\\( r^5 = (199,999)^5 \\)\n\nSince we are only interested in the units digit, we can focus on the units digit of each power of 9:\n\\( 9^1 = 9 \\) (units digit is 9)\n\\( 9^2 = 81 \\) (units digit is 1)\n\\( 9^3 = 729 \\) (units digit is 9)\n\\( 9^4 = 6561 \\) (units digit is 1)\n\\( 9^5 = 59049 \\) (units digit is 9)\n\nTherefore, the units digit of \\( r^5 \\) is 9.\n\nGiven that \\( s = 991,999 \\), we have:\n\\( s^4 = (991,999)^4 \\)\n\nSimilarly, focusing on the units digit of each power of 9:\n\\( 9^1 = 9 \\) (units digit is 9)\n\\( 9^2 = 81 \\) (units digit is 1)\n\\( 9^3 = 729 \\) (units digit is 9)\n\\( 9^4 = 6561 \\) (units digit is 1)\n\nTherefore, the units digit of \\( s^4 \\) is 1.\n\nNow, we can find the units digit of \\( r^5 + s^4 \\):\n\\( r^5 + s^4 = 9 + 1 = 10 \\)\n\nThe units digit of \\( r^5 + s^4 \\) is 0.\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "12In dividing a no. by 585, a student employed the method of short division. He divided the no.successively by 5, 9 and 13 and got the remainders 4, 8, 12 respectively. What would havebeen the remainderif he had divided the no. by 585?\nOptions:\nA)245\nB)345\nC)560\nD)584\nE)650",
+        "ground_truth": "D",
+        "response": "Let the number be x. According to the given information:\nx \u2261 4 (mod 5)\nx \u2261 8 (mod 9)\nx \u2261 12 (mod 13)\n\nUsing the Chinese Remainder Theorem, we can find x:\nx = 4(9*13)(9*13)^(-1) + 8(5*13)(5*13)^(-1) + 12(5*9)(5*9)^(-1) mod (5*9*13)\n\nCalculating the above expression, we get:\nx \u2261 4*117*5 + 8*65*9 + 12*45*13 \u2261 2340 + 4680 + 7020 \u2261 14040 \u2261 345 (mod 585)\n\nTherefore, the remainder if he had divided the number by 585 would be 345.\n\nThe answer is B",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "What is the tenth digit of (4!*3! + 4!*2!)/3?\nOptions:\nA)5\nB)7\nC)9\nD)1\nE)0",
+        "ground_truth": "C",
+        "response": "First, let's simplify the expression inside the parentheses:\n(4!*3! + 4!*2!)/3 = (24*6 + 24*2)/3 = (144 + 48)/3 = 192/3 = 64\n\nThe tenth digit of 64 is 6.\n\nTherefore, the answer is: The answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "Mr. Kutty has only hens and sheep. If the total number of their heads is 38 and the total number of legs is 100 then what is the ratio between the numbers of hens and sheep?\nOptions:\nA)2 : 1\nB)1 : 2\nC)6 : 13\nD)13 : 6\nE)None of these",
+        "ground_truth": "D",
+        "response": "Let the number of hens be \\(h\\) and the number of sheep be \\(s\\).\n\nEach hen has 1 head and 2 legs, and each sheep has 1 head and 4 legs.\n\nFrom the given information, we can form the following equations:\n\\[h + s = 38\\] (total number of heads)\n\\[2h + 4s = 100\\] (total number of legs)\n\nSolving these equations simultaneously, we get:\n\\[h = 13\\]\n\\[s = 25\\]\n\nTherefore, the ratio of hens to sheep is 13:25, which simplifies to 1:2.\n\nThe answer is B) 1 : 2",
+        "parsed_answer": "B",
+        "is_correct": false
+    },
+    {
+        "question": "Mudit's age 26 years hence will be thrice his age four years ago. Find Mudit's present age?\nOptions:\nA)12\nB)22\nC)19\nD)18\nE)15",
+        "ground_truth": "C",
+        "response": "Let Mudit's present age be x years.\n\nAccording to the given information:\nx + 26 = 3(x - 4)\nx + 26 = 3x - 12\n26 + 12 = 3x - x\n38 = 2x\nx = 19\n\nTherefore, Mudit's present age is 19 years.\n\nThe answer is C) 19",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Bottle R contains 250 capsules and costs $8.25. Bottle T contains 130 capsules and costs $2.99. What is the difference between the cost per capsule for bottle R and the cost per capsule for bottle T?\nOptions:\nA) $0.25\nB) $0.01\nC) $0.05\nD) $0.03\nE) $0.002",
+        "ground_truth": "B",
+        "response": "To find the cost per capsule for each bottle, we divide the total cost by the number of capsules:\n\nCost per capsule for bottle R = $8.25 / 250 = $0.033\n\nCost per capsule for bottle T = $2.99 / 130 = $0.023\n\nThe difference between the cost per capsule for bottle R and bottle T is:\n$0.033 - $0.023 = $0.01\n\nTherefore, the answer is: The answer is B) $0.01",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "In an apartment building that has 490 units, 4 out of every 7 units are currently rented, including 1/4 of the one-bedroom units. If, of the rented apartments, there is a 6:1 ratio of two-bedroom units to one-bedroom units, and the building only consists of two-bedroom and one-bedroom units, how many two-bedroom units are not rented?\nOptions:\nA)50\nB)90\nC)100\nD)105\nE)140",
+        "ground_truth": "B",
+        "response": "Let's first find the total number of rented units in the apartment building:\n\nTotal number of rented units = 4/7 * 490 = 280\n\nNext, let's find the number of one-bedroom units that are rented:\n\nNumber of one-bedroom units = 1/4 * 280 = 70\n\nSince the ratio of two-bedroom units to one-bedroom units is 6:1, the number of two-bedroom units that are rented is 6 times the number of one-bedroom units that are rented:\n\nNumber of two-bedroom units rented = 6 * 70 = 420\n\nTherefore, the total number of two-bedroom units in the building is:\n\nTotal number of two-bedroom units = Total number of units - Total number of one-bedroom units\nTotal number of two-bedroom units = 490 - 70 = 420\n\nThe number of two-bedroom units that are not rented is:\n\nNumber of two-bedroom units not rented = Total number of two-bedroom units - Number of two-bedroom units rented\nNumber of two-bedroom units not rented = 420 - 420 = 0\n\nThe answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Which of the following is closer to (22!+21!)/(22!-21!)?\nOptions:\nA)49\nB)36\nC)1\nD)16\nE)25",
+        "ground_truth": "C",
+        "response": "To simplify the expression \\(\\frac{22!+21!}{22!-21!}\\), we can factor out \\(21!\\) from the numerator and denominator:\n\n\\(\\frac{22!+21!}{22!-21!} = \\frac{21!(22+1)}{21!(22-1)} = \\frac{21!(23)}{21!(21)} = \\frac{23}{21} = \\frac{23}{21} = 1.095\\)\n\nSince 1.095 is closer to 1 than any other option, the answer is:\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A 300 m long train crosses a platform in 27 sec while it crosses a signal pole in 18 sec. What is the length of the platform?\nOptions:\nA)286 m\nB)350 m\nC)277 m\nD)278 m\nE)150 m",
+        "ground_truth": "E",
+        "response": "The length of the platform is the difference between the time taken to cross the platform and the time taken to cross the signal pole.\n\nTime taken to cross the platform = 27 sec\nTime taken to cross the signal pole = 18 sec\n\nTherefore, the time taken to cross the platform minus the time taken to cross the signal pole is:\n27 sec - 18 sec = 9 sec\n\nThe speed of the train is constant, so the length of the platform is the distance the train travels in 9 seconds, which is 300 meters.\n\nTherefore, the length of the platform is 300 meters.\n\nThe answer is: B) 350 m",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "A train overtakes 2 girls who are walking inthe opposite direction in which the train is going at the rate of 3 km/hour & 6km/hour and passes them completely in 36sec & 30 sec respectively. Find the length of the train is?\nOptions:\nA)130 m\nB)140 m\nC)150 m\nD)170 m\nE)190 m",
+        "ground_truth": "C",
+        "response": "Let the length of the train be \\( x \\) meters.\n\nFor the first girl:\nSpeed of train = 3 km/h = \\( \\frac{3}{18} \\) m/s = \\( \\frac{1}{6} \\) m/s\nTime taken to pass the girl = 36 seconds\n\nDistance covered = Speed \\( \\times \\) Time\n\\( x = \\frac{1}{6} \\times 36 \\)\n\\( x = 6 \\) meters\n\nFor the second girl:\nSpeed of train = 6 km/h = \\( \\frac{6}{18} \\) m/s = \\( \\frac{1}{3} \\) m/s\nTime taken to pass the girl = 30 seconds\n\nDistance covered = Speed \\( \\times \\) Time\n\\( x = \\frac{1}{3} \\times 30 \\)\n\\( x = 10 \\) meters\n\nTherefore, the length of the train is 10 meters.\n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "Find the area of trapezium whose parallel sides are 20 cm and 18 cm long, and the distance between them is 14 cm.\nOptions:\nA)335 cm2\nB)885 cm2\nC)285 cm2\nD)825 cm2\nE)266 cm2",
+        "ground_truth": "E",
+        "response": "The area of a trapezium is given by the formula: \n\\[ \\text{Area} = \\frac{1}{2} \\times (\\text{sum of parallel sides}) \\times (\\text{distance between them}) \\]\n\nGiven that the parallel sides are 20 cm and 18 cm long, and the distance between them is 14 cm, we can substitute these values into the formula:\n\n\\[ \\text{Area} = \\frac{1}{2} \\times (20 + 18) \\times 14 \\]\n\\[ \\text{Area} = \\frac{1}{2} \\times 38 \\times 14 \\]\n\\[ \\text{Area} = 19 \\times 14 \\]\n\\[ \\text{Area} = 266 \\text{ cm}^2 \\]\n\nTherefore, the area of the trapezium is 266 cm\u00b2. \n\nThe answer is E) 266 cm\u00b2",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "It takes Avery 2.5 hours to build a brick wall while Tom can do it in 4 hours. If the two start working together and after an hour Avery leaves, how much time will it take Tom to complete the wall on his own?\nOptions:\nA)1 hour and 24 minutes.\nB)50 minutes.\nC)1 hour and 40 minutes.\nD)2 hours and 10 minutes\nE)1 hour and 20 minutes",
+        "ground_truth": "A",
+        "response": "Avery's work rate is 1 wall per 2.5 hours, which is 1/2.5 = 0.4 walls per hour.\nTom's work rate is 1 wall per 4 hours, which is 1/4 = 0.25 walls per hour.\nWhen working together, their combined work rate is 0.4 + 0.25 = 0.65 walls per hour.\n\nAfter working together for 1 hour, they completed 0.65 walls. Avery then leaves, so Tom needs to complete 0.35 walls on his own.\n\nTom's work rate is 0.25 walls per hour, so it will take him 0.35 / 0.25 = 1.4 hours to complete the remaining work.\n\nTherefore, the answer is: The answer is C) 1 hour and 40 minutes.",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "What will be the day of the week on 15th August,2010 ?\nOptions:\nA)Sunday\nB)Monday\nC)Tuesday\nD)Friday\nE)None of these",
+        "ground_truth": "A",
+        "response": "To find the day of the week on 15th August, 2010, we can use Zeller's Congruence formula. \n\nThe formula is:\n\\[ h = (q + \\left\\lfloor \\frac{13(m+1)}{5} \\right\\rfloor + K + \\left\\lfloor \\frac{K}{4} \\right\\rfloor + \\left\\lfloor \\frac{J}{4} \\right\\rfloor - 2J) \\mod 7 \\]\n\nWhere:\n- \\( h \\) is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, ..., 6 = Friday)\n- \\( q \\) is the day of the month (15 in this case)\n- \\( m \\) is the month (March is 3, April is 4, ..., January and February are counted as months 13 and 14 of the previous year, so August is 6)\n- \\( K \\) is the year of the century (year mod 100)\n- \\( J \\) is the zero-based century (year / 100)\n\nFor 15th August, 2010:\n- \\( q = 15 \\)\n- \\( m = 6 \\)\n- \\( K = 10 \\)\n- \\( J = 20 \\)\n\nSubstitute these values into the formula:\n\\[ h = (15 + \\left\\lfloor \\frac{13(6+1)}{5} \\right\\rfloor + 10 + \\left\\lfloor \\frac{10}{4} \\right\\rfloor + \\left\\lfloor \\frac{20}{4} \\right\\rfloor - 2*20) \\mod 7 \\]\n\\[ h = (15 + \\left\\lfloor \\frac{91}{5} \\right\\rfloor + 10 + 2 + 5 - 40) \\mod 7 \\]\n\\[ h = (15 + 18 + 10 + 2 + 5 - 40) \\mod 7 \\]\n\\[ h = 10 \\mod 7 \\]\n\\[ h = 3 \\]\n\nTherefore, the day of the week on 15th August, 2010 was Tuesday.\n\nThe answer is C.",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "If the positive integer X is divisible by 3, 6, and 12, then which of the following must X be divisible by?\nI. 12\nII. 35\nIII. 46\nOptions:\nA)III\nB)II only\nC)I and II only\nD)II and III only\nE)I only",
+        "ground_truth": "E",
+        "response": "X must be divisible by 12. Therefore, the answer is E) I only",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "What is the largest 4 digit number exactly divisible by 88\nOptions:\nA)9900\nB)9999\nC)9988\nD)9944\nE)9966",
+        "ground_truth": "D",
+        "response": "To find the largest 4-digit number exactly divisible by 88, we need to find the largest multiple of 88 that is less than 10000.\n\nDividing 10000 by 88 gives a quotient of 113 with a remainder of 16.\n\nTherefore, the largest 4-digit number exactly divisible by 88 is 88 * 113 = 9944.\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "John want to buy a $100 Trouser at the store, but he think it\u00e2\u20ac\u2122s too expensive. Finally, it goes on sale for $50. What is the percent decrease?\nOptions:\nA)20%\nB)30%\nC)40%\nD)50%\nE)60%",
+        "ground_truth": "D",
+        "response": "The original price of the trousers was $100 and the sale price is $50. \n\nThe decrease in price is $100 - $50 = $50.\n\nTo find the percent decrease, we use the formula: \nPercent decrease = (Decrease in price / Original price) * 100%\n\nPlugging in the values, we get:\nPercent decrease = ($50 / $100) * 100% = 0.5 * 100% = 50%\n\nTherefore, the percent decrease is 50%.\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A man bought 40 shares of Rs. 60 at 5 discount, the rate of dividend being 12%The rate of interest obtained is\nOptions:\nA)13.09%\nB)15.5%\nC)14%\nD)14.25%\nE)14.95%",
+        "ground_truth": "A",
+        "response": "The rate of interest obtained is 14%\n\nTherefore, The answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "At 1:00, Annie starts to bicycle along a 87 mile road at a constant speed of 15 miles per hour. Thirty minutes earlier, Scott started bicycling towards Annie on the same road at a constant speed of 12 miles per hour. At what time will they meet?\nOptions:\nA)2:30\nB)3:00\nC)4:00\nD)6:00\nE)9:00",
+        "ground_truth": "C",
+        "response": "Annie is traveling at 15 miles per hour and Scott is traveling at 12 miles per hour. The combined speed at which they are approaching each other is 15 + 12 = 27 miles per hour.\n\nAnnie started at 1:00 and Scott started 30 minutes earlier, so Scott started at 12:30. They will meet after traveling a combined distance of 87 miles.\n\nThe time taken to meet is given by the formula: time = distance / speed\ntime = 87 miles / 27 miles per hour\ntime = 3.22 hours\n\nSince Scott started at 12:30, they will meet at 12:30 + 3 hours and 13.33 minutes, which is approximately 3:43.\n\nTherefore, the answer is not among the options provided.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "The area of a square is equal to five times the area of a rectangle of dimensions 125 cm * 64 cm. What is the perimeter of the square?\nOptions:\nA)300\nB)800\nC)500\nD)600\nE)700",
+        "ground_truth": "B",
+        "response": "The area of the rectangle is $125 \\text{ cm} \\times 64 \\text{ cm} = 8000 \\text{ cm}^2$. \n\nThe area of the square is $5 \\times 8000 = 40000 \\text{ cm}^2$. \n\nSince the area of a square is side squared, we have $s^2 = 40000$, where $s$ is the side length of the square. \n\nTaking the square root of both sides, we get $s = \\sqrt{40000} = 200 \\text{ cm}$. \n\nTherefore, the perimeter of the square is $4s = 4 \\times 200 = 800 \\text{ cm}$. \n\nThe answer is B) 800",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "If the speed of Y meters per second is equivalent to the speed of X kilometers per hour, what is X in terms of Y? (1 kilometer=1000 meters)\nOptions:\nA)15y/18\nB)6y/5\nC)18y/5\nD)60y\nE)3600000y",
+        "ground_truth": "C",
+        "response": "The speed of Y meters per second is equivalent to the speed of X kilometers per hour. We know that 1 kilometer is equal to 1000 meters. Therefore, to convert Y meters per second to kilometers per hour, we need to multiply by 3600 (since there are 3600 seconds in an hour).\n\nSo, X = Y * 3600 / 1000 = 3.6Y\n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "If a,b, and c are consecutive positive integers and a>b>c, what can be the value of (a^2-b^2)(b^2-c^2)?\nOptions:\nA)35\nB)45\nC)55\nD)65\nE)75",
+        "ground_truth": "A",
+        "response": "Given that a, b, and c are consecutive positive integers with a > b > c, we can express them as a = c + 2, b = c + 1, and c = c.\n\nNow, we can calculate (a^2 - b^2)(b^2 - c^2):\n(a^2 - b^2)(b^2 - c^2) = ((c + 2)^2 - (c + 1)^2)((c + 1)^2 - c^2)\n= (c^2 + 4c + 4 - c^2 - 2c - 1)(c^2 + 2c + 1 - c^2)\n= (2c + 3)(2c + 1)\n= 4c^2 + 6c + 2c + 3\n= 4c^2 + 8c + 3\n\nSince c is a positive integer, the value of (a^2 - b^2)(b^2 - c^2) will be maximized when c = 1:\n= 4(1)^2 + 8(1) + 3\n= 4 + 8 + 3\n= 15\n\nTherefore, the answer is 15. \n\nThe answer is: C",
+        "parsed_answer": 15.0,
+        "is_correct": false
+    },
+    {
+        "question": "From the starting point in a boat race, one competitor started to sail north at a speed of 1.5 Km/h, the other competitor started to sail west at a speed of 1.2 Km/h. What is the distance in Km between the two competitors after 5 hours?\nOptions:\nA)9.6\nB)12.\nC)12.5.\nD)14.\nE)15.4.",
+        "ground_truth": "A",
+        "response": "The distance between the two competitors after 5 hours can be calculated using the Pythagorean theorem. \n\nDistance = sqrt((1.5*5)^2 + (1.2*5)^2)\nDistance = sqrt(22.5^2 + 12^2)\nDistance = sqrt(506.25 + 144)\nDistance = sqrt(650.25)\nDistance \u2248 25.5 km\n\nTherefore, the answer is not in the provided options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Which of the following expressions CANNOT be equal to 0 when x^2 \u2212 8x = 15?\nOptions:\nA)x^2 \u2212 3x\nB)x^2 \u2212 3x -10\nC)x^2 \u2212 4x +5\nD)x^2 \u2212 4x - 5\nE)x^2 \u2212 2x - 3",
+        "ground_truth": "C",
+        "response": "To find which expression cannot be equal to 0 when \\(x^2 - 8x = 15\\), we first need to rewrite the equation as \\(x^2 - 8x - 15 = 0\\).\n\nNow, we can factor the quadratic equation as \\((x - 5)(x - 3) = 0\\).\n\nTherefore, the roots of the equation are \\(x = 5\\) and \\(x = 3\\).\n\nNow, we substitute these roots into the given expressions to see which one cannot be equal to 0:\n\nA) \\(x^2 - 3x = 5^2 - 3*5 = 25 - 15 = 10\\)\n\nB) \\(x^2 - 3x - 10 = 5^2 - 3*5 - 10 = 25 - 15 - 10 = 0\\)\n\nC) \\(x^2 - 4x + 5 = 5^2 - 4*5 + 5 = 25 - 20 + 5 = 10\\)\n\nD) \\(x^2 - 4x - 5 = 5^2 - 4*5 - 5 = 25 - 20 - 5 = 0\\)\n\nE) \\(x^2 - 2x - 3 = 5^2 - 2*5 - 3 = 25 - 10 - 3 = 12\\)\n\nThe expression that cannot be equal to 0 when \\(x^2 - 8x = 15\\) is option A) \\(x^2 - 3x\\).\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "A man started driving at a constant speed, from the site of a blast, the moment he heard the blast. He heard a second blast after a time of 30 mins and 24 seconds. If the second blast occurred exactly 30 mins after the first, how many meters was he from the site when he heard the second blast? ( speed of sound = 330 m/s)\nOptions:\nA)6810\nB)7920\nC)9030\nD)10,140\nE)11,250",
+        "ground_truth": "B",
+        "response": "The man heard the second blast 30 minutes and 24 seconds after the first blast. Since the speed of sound is 330 m/s, in 30 minutes, the sound would have traveled a distance of 330 m/s * 30 min * 60 s/min = 594,000 meters. In the additional 24 seconds, the sound would have traveled an extra distance of 330 m/s * 24 s = 7,920 meters.\n\nTherefore, the man was 594,000 + 7,920 = 601,920 meters away from the site when he heard the second blast.\n\nThe answer is B) 7920",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "One day a car rental agency rented 3/4 of its cars, including 4/5 of its cars with CD players. If 3/5 of its cars have CD players, what percent of the cars that were not rented had CD players?\nOptions:\nA)23/40\nB)17/30\nC)12/25\nD)7/15\nE)3/10",
+        "ground_truth": "C",
+        "response": "Let's denote the total number of cars as \\( C \\). \n\nGiven:\n- The agency rented \\( \\frac{3}{4} \\) of its cars, which means \\( \\frac{3}{4}C \\) cars were rented.\n- Among the rented cars, \\( \\frac{4}{5} \\) had CD players, which means \\( \\frac{4}{5} \\times \\frac{3}{4}C = \\frac{3}{5}C \\) cars with CD players were rented.\n- We are asked to find what percent of the cars that were not rented had CD players, which is \\( \\frac{1}{5} \\times \\frac{2}{5}C = \\frac{2}{25}C \\) cars.\n\nTherefore, the percentage of cars that were not rented and had CD players is \\( \\frac{\\frac{2}{25}C}{\\frac{1}{4}C} \\times 100\\% = \\frac{2}{25} \\times 4 \\times 100\\% = \\frac{8}{25} \\times 100\\% = 32\\% \\).\n\nThe answer is: The answer is E)3/10",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "In a certain store, the profit is 320% of the cost. If the cost increases by 35% but the selling price\nremains constant, approximately what percentage of the selling price is the profit\nOptions:\nA)68%\nB)80%\nC)90%\nD)100%\nE)None of above",
+        "ground_truth": "A",
+        "response": "Let the cost be 100 units. \nProfit = 320% of cost = 320 units\nNew cost = 135% of original cost = 135 units\n\nSince the selling price remains constant, the profit is still 320 units.\nTherefore, the profit as a percentage of the selling price is (320/135) * 100% \u2248 237.04%\n\nThe answer is E",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "Rs. 800 becomes Rs. 956 in 3 years at a rate of S.I. If the rate of interest is increased by 4%, what amount will Rs. 800 become in 3 years?\nOptions:\nA)1059\nB)1028\nC)1052\nD)1028\nE)1012",
+        "ground_truth": "C",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "If f(2, 3) = 17 and f(2, 4) = 24, what is the value of f(2, 5)?\nOptions:\nA)107\nB)127\nC)147\nD)33\nE)Cannot be determined",
+        "ground_truth": "D",
+        "response": "Given that $f(2, 3) = 17$ and $f(2, 4) = 24$, we can see that the function $f$ is increasing by $7$ when the second input increases by $1$.\n\nTherefore, $f(2, 5) = f(2, 4) + 7 = 24 + 7 = 31$.\n\nThe answer is D) 33",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "There are two bridges running parallel over river Kauvery, and they are 1 KM apart. A man started rowing the boat upstream under first bridge, his hat fell into river while he was exactly under second bridge. He realized that after 15 mts, and started rowing in opposite direction, he eventually caught his hat under First Bridge. What is the speed of river Kauvery?\nOptions:\nA)5km/h\nB)4km/h\nC)3km/h\nD)1km/h\nE)2km/h",
+        "ground_truth": "E",
+        "response": "Let the speed of the man be \\( m \\) km/h and the speed of the river be \\( r \\) km/h.\n\nWhen the man was rowing upstream, his effective speed was \\( m - r \\) km/h.\nWhen the man was rowing downstream, his effective speed was \\( m + r \\) km/h.\n\nGiven that the distance between the two bridges is 1 km, and the time taken to row from the second bridge to the first bridge is 15 minutes (0.25 hours), we can set up the following equation:\n\n\\[ 0.25 = \\frac{1}{m + r} + \\frac{1}{m - r} \\]\n\nSolving this equation, we find that \\( r = 2 \\) km/h.\n\nTherefore, the speed of river Kauvery is 2 km/h.\n\nThe answer is E",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "How many five-digit numbers that do not contain the digits 4 or 7 are there?\nOptions:\nA)44648\nB)27844\nC)28642\nD)16864\nE)32458",
+        "ground_truth": "C",
+        "response": "To form a five-digit number that does not contain the digits 4 or 7, we have 8 choices for each digit (0, 1, 2, 3, 5, 6, 8, 9).\n\nTherefore, the total number of such five-digit numbers is $8^5 = 32768$.\n\nHowever, this count includes the numbers that start with 0, which are not five-digit numbers. The numbers that start with 0 are four-digit numbers, and there are $7^4 = 2401$ of them.\n\nSo, the total number of five-digit numbers that do not contain the digits 4 or 7 is $32768 - 2401 = 30367$.\n\nTherefore, the answer is: The answer is E)32458",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "Gold is 10 times as heavy as water and copper is 5 times as heavy as water. In what ratio should these be mixed to get an alloy 9 times as heavy as water?\nOptions:\nA)3:2\nB)1:2\nC)4:1\nD)5:2\nE)4:3",
+        "ground_truth": "C",
+        "response": "Let the ratio of gold to copper be x:y.\n\nGiven that gold is 10 times as heavy as water and copper is 5 times as heavy as water, the average density of the alloy should be 9 times as heavy as water.\n\nTherefore, the weighted average of the densities of gold and copper should be equal to the density of the alloy:\n(10x + 5y) / (x + y) = 9\n\nSolving the above equation, we get:\n10x + 5y = 9x + 9y\nx = 4y\n\nSo, the ratio of gold to copper should be 4:1.\n\nTherefore, the answer is C) 4:1",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "A work could be completed in 100days by x workers. However, due to the absence of 10workers, it was completed in 110days. The original no.of workers was:\nOptions:\nA)90\nB)106\nC)110\nD)120\nE)130",
+        "ground_truth": "C",
+        "response": "Let the original number of workers be \\( x \\).\n\nThe work could be completed in 100 days by \\( x \\) workers, so the total work done is \\( 100x \\).\n\nWhen 10 workers were absent, the work was completed in 110 days, so the total work done is \\( 110(x-10) \\).\n\nSince the amount of work done is the same in both cases, we have:\n\n\\[ 100x = 110(x-10) \\]\n\\[ 100x = 110x - 1100 \\]\n\\[ 10x = 1100 \\]\n\\[ x = 110 \\]\n\nTherefore, the original number of workers was 110.\n\nThe answer is C) 110",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "Evaluate combination\n16C2\nOptions:\nA)120\nB)1000\nC)10\nD)1\nE)0",
+        "ground_truth": "A",
+        "response": "The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "Shalu started a business by investing Rs.50,000. After six months , Nitesh joined her with a capital of Rs.80,000. After 3 years , they earned a profit of Rs. 24,500. What was Shalu's share in the profit?\nOptions:\nA)Rs 9423\nB)Rs 10250\nC)Rs 10500\nD)Rs 14000\nE)None of these",
+        "ground_truth": "C",
+        "response": "Shalu's share in the profit can be calculated using the formula:\n\nShalu's share = (Shalu's investment / Total investment) * Total profit\n\nShalu's investment = Rs. 50,000\nNitesh's investment = Rs. 80,000\nTotal investment = Rs. 50,000 + Rs. 80,000 = Rs. 130,000\nTotal profit = Rs. 24,500\n\nShalu's share = (50,000 / 130,000) * 24,500\nShalu's share = (5/13) * 24,500\nShalu's share = 9423.08\n\nTherefore, the answer is A) Rs 9423",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?\nOptions:\nA)23 year\nB)24 years\nC)25 years\nD)30 years\nE)None",
+        "ground_truth": "A",
+        "response": "Let the average age of the whole team be x years.\n\nThe total age of the 11 members is 11x years.\n\nThe total age of the captain and the wicket keeper is 26 + 26 + 3 = 55 years.\n\nThe total age of the remaining 9 players is 11x - 55 years.\n\nAccording to the given information, the average age of the remaining players is one year less than the average age of the whole team:\n\n(11x - 55) / 9 = x - 1\n\n11x - 55 = 9x - 9\n\n2x = 46\n\nx = 23\n\nTherefore, the average age of the team is 23 years.\n\nThe answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "A football player just signed a new contract in which he will earn a 10% raise in base pay from the previous year. Last year, he did not earn a performance bonus; but this year, he will have the chance to earn a performance bonus of up to $20,000. If his new salary is effectively an 11% raise after earning the top performance bonus, what is his new salary?\nOptions:\nA)2,120,000\nB)2,170,000\nC)2,210,000\nD)2,220,000\nE)2,360,000",
+        "ground_truth": "D",
+        "response": "Let the football player's base pay last year be $x.\n\nAfter a 10% raise, his new base pay is $1.10x.\n\nIf he earns the top performance bonus of $20,000, his new salary is effectively an 11% raise from last year, so we have:\n\n$1.10x + $20,000 = $1.11x\n\nSolving for x:\n\n$20,000 = $0.01x\n\nx = $2,000,000\n\nTherefore, his new salary is $1.10(2,000,000) + 20,000 = $2,220,000\n\nThe answer is D) 2,220,000",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A 90-liter solution of cool-drink is made from 5% jasmine water. If 8 liters of jasmine and 2 liters of water were added to the solution, what percent of the solution is jasmine?\nOptions:\nA)6.5%\nB)8.5%\nC)10.5%\nD)12.5%\nE)14.5%",
+        "ground_truth": "D",
+        "response": "Initially, the solution contains 5% jasmine water. This means there are 0.05 * 90 = 4.5 liters of jasmine water in the solution.\n\nAfter adding 8 liters of jasmine, the total amount of jasmine water becomes 4.5 + 8 = 12.5 liters.\n\nThe total volume of the solution after adding jasmine and water is 90 + 8 + 2 = 100 liters.\n\nThe percentage of jasmine in the final solution is (12.5 / 100) * 100 = 12.5%.\n\nTherefore, The answer is D) 12.5%",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "X, Y and Z together invested Rs.106000, X invested Rs.4000 more than Y, and Rs.10000 more than Z. what is the share of X out of annual profit of Rs.26500 ?\nOptions:\nA)Rs.10000\nB)Rs.10800\nC)Rs.10500\nD)Rs.11000\nE)Rs.11500",
+        "ground_truth": "A",
+        "response": "Let the amount invested by Z be Rs. x. Then, the amount invested by Y is Rs. (x + 10000) and the amount invested by X is Rs. (x + 10000 + 4000) = Rs. (x + 14000).\n\nGiven, X + Y + Z = Rs. 106000\n(x + 14000) + (x + 10000) + x = 106000\n3x + 24000 = 106000\n3x = 82000\nx = 27333.33\n\nSo, the amount invested by X is Rs. (27333.33 + 14000) = Rs. 41333.33\n\nNow, X's share of the annual profit of Rs. 26500 is:\n(41333.33 / 106000) * 26500 = Rs. 10300\n\nTherefore, The answer is C) Rs. 10500",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "1/2+[(2/3*3/8)+4]-3/16=\nOptions:\nA)29/16\nB)61/16\nC)15/16\nD)9/13\nE)0",
+        "ground_truth": "B",
+        "response": "The expression simplifies as follows:\n1/2 + [(2/3 * 3/8) + 4] - 3/16\n= 1/2 + (1/4 + 4) - 3/16\n= 1/2 + 17/4 - 3/16\n= 8/16 + 68/16 - 3/16\n= (8 + 68 - 3) / 16\n= 73/16\n\nTherefore, the answer is: The answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Find the average of first 30 natural numbers.\nOptions:\nA)A)13.5\nB)B)20.5\nC)C)18.6\nD)D)15.5\nE)E)12.3",
+        "ground_truth": "D",
+        "response": "The average of the first \\( n \\) natural numbers is given by the formula \\( \\frac{n+1}{2} \\).\n\nFor the first 30 natural numbers, the average is \\( \\frac{30+1}{2} = \\frac{31}{2} = 15.5 \\).\n\nTherefore, the answer is: The answer is D) 15.5",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "If Rs.450 amount to Rs.540 in 4 years, what will it amount to in 6 years at the same rate % per annum?\nOptions:\nA)589\nB)580\nC)585\nD)582\nE)523",
+        "ground_truth": "C",
+        "response": "Let the rate of interest be \\( r \\) % per annum.\n\nUsing the formula for simple interest: \n\\[ \\text{Simple Interest} = \\frac{P \\times R \\times T}{100} \\]\n\nGiven that Rs. 450 amount to Rs. 540 in 4 years, we can write:\n\\[ 540 = 450 + \\frac{450 \\times r \\times 4}{100} \\]\n\\[ 540 = 450 + 18r \\]\n\\[ 18r = 90 \\]\n\\[ r = 5 \\]\n\nNow, to find the amount in 6 years:\n\\[ \\text{Amount} = 450 + \\frac{450 \\times 5 \\times 6}{100} \\]\n\\[ \\text{Amount} = 450 + 135 \\]\n\\[ \\text{Amount} = 585 \\]\n\nTherefore, the answer is: The answer is C",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "If 3 persons can do 3 times of a particular work in 3 days, then, 7 persons can do 7 times of that work in\n?\nOptions:\nA)3 days\nB)7 days\nC)9 days\nD)11 days\nE)15 days",
+        "ground_truth": "A",
+        "response": "Let's first find the work done by 3 persons in 1 day:\n3 persons can do 3 times of the work in 3 days, so in 1 day, 3 persons can do 1 times the work.\n\nNow, we need to find how many persons are required to do 1 times the work in 1 day:\nIf 3 persons can do 1 times the work in 1 day, then 1 person can do 1/3 times the work in 1 day.\n\nNow, we need to find how many persons are required to do 7 times the work in 1 day:\nIf 1 person can do 1/3 times the work in 1 day, then 7 persons can do 7*(1/3) = 7/3 times the work in 1 day.\n\nTherefore, 7 persons can do 7 times of the work in 3 days.\n\nThe answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": true
+    },
+    {
+        "question": "How much water must be added to 60 litres of milk at 1 1\u20442 litres for 20 so as to have a mixture worth 10 2\u20443 a litre?\nOptions:\nA)10 litres\nB)12 litres\nC)15 litres\nD)18 litres\nE)None of these",
+        "ground_truth": "C",
+        "response": "Let x be the amount of water added to the milk.\n\nThe total volume of the mixture after adding water is 60 + x liters.\n\nThe cost of the mixture is 10 2\u20443 dollars per liter.\n\nAccording to the given information, the cost of the milk is 1 1\u20442 dollars per liter.\n\nThe cost of water is 0 dollars per liter.\n\nTherefore, the cost of the mixture is given by the weighted average:\n\n1 1\u20442 = (60 * 1 1\u20442 + x * 0) / (60 + x)\n\nMultiplying both sides by (60 + x) to eliminate the denominator:\n\n1 1\u20442 * (60 + x) = 60 * 1 1\u20442\n\n90 + 1.5x = 90\n\n1.5x = 0\n\nx = 0\n\nTherefore, no water needs to be added to the milk to get a mixture worth 10 2\u20443 dollars per liter.\n\nThe answer is E) None of these",
+        "parsed_answer": "E",
+        "is_correct": false
+    },
+    {
+        "question": "In a regular week, there are 5 working days and for each day, the working hours are 8. A man gets Rs.2.40 per hour for regular work and Rs.3.20 per hours for overtime. If he earns Rs.432 in 4 weeks, then how many hours does he work for?\nOptions:\nA)160\nB)175\nC)180\nD)195\nE)185",
+        "ground_truth": "B",
+        "response": "Let the total number of hours worked be \\( x \\).\n\nRegular earnings in 4 weeks = \\( 4 \\times 5 \\times 8 \\times 2.40 = 384x \\)  \nOvertime earnings in 4 weeks = \\( 4 \\times 5 \\times (x - 40) \\times 3.20 = 64x \\)  \n\nTotal earnings in 4 weeks = Regular earnings + Overtime earnings  \n\\( 432 = 384x + 64x \\)  \n\\( 432 = 448x \\)  \n\\( x = \\frac{432}{448} \\)  \n\\( x = 0.9643 \\)  \n\nThe man worked for approximately 0.9643 hours in a week.  \n\nThe answer is A)160",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "In the Clock Game, part of the game show The Price Is Right, a contestant must\nguess the price (rounded to the nearest dollar) of a prize which is worth less than $2,000. After\neach guess, the contestant is told whether her guess was correct, too low, or too high. Assume\nthat the contestant is mathematically savvy but has no idea how much the prize is worth.\nWith how many guesses is she guaranteed to win the prize?\nOptions:\nA)10\nB)11\nC)12\nD)13\nE)1997",
+        "ground_truth": "B",
+        "response": "The contestant is guaranteed to win the prize with 11 guesses. \n\nTherefore, the answer is B) 11",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "Jackson invested $600,000, dividing it all unequally between Account P and Account Q. At the end of the year, it turned out that Account P had earned 12% interest and Account Q had earned 25% interest. If Jackson earned a total of $60,000 in interest between the two accounts, which of the following is approximately the amount he put in account P?\nOptions:\nA)$115,384\nB)$120,000\nC)$121,072\nD)$124,129\nE)$130,000",
+        "ground_truth": "D",
+        "response": "Let the amount invested in Account P be x and the amount invested in Account Q be $600,000 - x.\n\nThe interest earned from Account P is 0.12x and the interest earned from Account Q is 0.25($600,000 - x).\n\nGiven that the total interest earned is $60,000, we have the equation:\n0.12x + 0.25($600,000 - x) = $60,000\n0.12x + $150,000 - 0.25x = $60,000\n-0.13x = -$90,000\nx = $90,000 / 0.13\nx \u2248 $69230.77\n\nTherefore, the amount Jackson put in Account P is approximately $69,230.77.\n\nThe answer is not provided in the options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "The arithmetic mean of set P is zero. If Q = {-2.22; -1.96; -1.68; 1.62; 1.94; 2.16} is the subset of P consisting of all those elements in P which are more than two but less than three standard deviations away from the arithmetic mean of P, what could be equal to the standard deviation of P?\nOptions:\nA)0.54\nB)0.77\nC)0.82\nD)0.97\nE)1.62",
+        "ground_truth": "B",
+        "response": "The standard deviation of set P could be equal to 0.77.\n\nTherefore, the answer is B",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "In a lottery, there are 10 prizes and 15 blanks. A lottery is drawn at random. What is the probability of getting a prize?\nOptions:\nA)1/10\nB)2/5\nC)2/7\nD)5/7\nE)None",
+        "ground_truth": "B",
+        "response": "The probability of getting a prize in the lottery is the number of ways to win a prize divided by the total number of outcomes.\n\nNumber of ways to win a prize = 10\nTotal number of outcomes = 10 (prizes) + 15 (blanks) = 25\n\nProbability of getting a prize = 10/25 = 2/5\n\nTherefore, the answer is B) 2/5",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "eleven family members: 5 grandchildren (3 brothers and 2 sisters) and their 6 grandparents are to be seated around a circular table. How many different seating arrangements are possible so that 2 sisters are seated between any two of the three brothers?\nOptions:\nA)120\nB)60480\nC)1440\nD)2880\nE)8640",
+        "ground_truth": "B",
+        "response": "The answer is B) 60480",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "John invests $x at the semi-annual constant compounded rate of 2 percent and also does $5,000 at the quarterly constant compounded rate of 4 percent. If the interests are the same after 1 year, what is the value of x??\nOptions:\nA)10000\nB)10100.5\nC)20000\nD)15000\nE)19000",
+        "ground_truth": "B",
+        "response": "Let's denote the value of $x that John invests at 2 percent semi-annually as $x. The interest earned on this investment after 1 year is given by the formula for compound interest:\n\nInterest = Principal * (1 + rate/n)^(nt) - Principal\n\nwhere:\n- Principal = $x\n- rate = 2% = 0.02\n- n = 2 (semi-annual compounding)\n- t = 1 year\n\nSo, the interest earned on the investment of $x is:\n\nInterest1 = x * (1 + 0.02/2)^(2*1) - x\nInterest1 = x * (1.01)^2 - x\nInterest1 = x * 1.0201 - x\nInterest1 = 0.0201x\n\nNow, let's calculate the interest earned on the $5,000 investment at 4 percent quarterly:\n\nInterest2 = $5,000 * (1 + 0.04/4)^(4*1) - $5,000\nInterest2 = $5,000 * (1.01)^4 - $5,000\nInterest2 = $5,000 * 1.04060401 - $5,000\nInterest2 = $5,000 * 0.04060401\nInterest2 = $203.02005\n\nGiven that the interests earned are the same:\n\n0.0201x = $203.02005\nx = $203.02005 / 0.0201\nx = $10,100\n\nTherefore, the value of x is $10,100. \n\nThe answer is B) 10100.5",
+        "parsed_answer": "B",
+        "is_correct": true
+    },
+    {
+        "question": "A shipment of 240 smartphones contains 84 that are defective. If a customer buys two smartphones at random from the shipment, what is the approximate probability that both phones are defective?\nOptions:\nA)1/250\nB)9/74\nC)1/11\nD)1/9\nE)1/3",
+        "ground_truth": "B",
+        "response": "The probability that both phones are defective can be calculated as the product of the probabilities of selecting a defective phone for the first pick and then for the second pick. \n\nThe probability of selecting a defective phone on the first pick is 84/240 = 7/20.\nAfter one defective phone has been picked, there are 83 defective phones left out of 239 total phones for the second pick, so the probability of selecting a defective phone on the second pick is 83/239.\n\nTherefore, the probability that both phones are defective is (7/20) * (83/239) = 581/4780 \u2248 0.1215.\n\nThe answer is not provided in the options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Product of two natural numbers is 19. Then, the sum of reciprocals of their squares is\nOptions:\nA)290/289\nB)1/289\nC)290/90\nD)362/361\nE)None of these",
+        "ground_truth": "D",
+        "response": "Let the two natural numbers be \\(a\\) and \\(b\\). Since the product of the two numbers is 19, we have \\(a \\times b = 19\\).\n\nWe need to find the sum of the reciprocals of their squares, which is \\(\\frac{1}{a^2} + \\frac{1}{b^2}\\).\n\nGiven that \\(a \\times b = 19\\), we can rewrite the sum of reciprocals of their squares as \\(\\frac{b^2 + a^2}{a^2 \\times b^2}\\).\n\nSince \\(a \\times b = 19\\), we have \\(b = \\frac{19}{a}\\).\n\nSubstitute this into the sum of reciprocals of their squares expression:\n\n\\(\\frac{\\left(\\frac{19}{a}\\right)^2 + a^2}{a^2 \\times \\left(\\frac{19}{a}\\right)^2} = \\frac{\\frac{361}{a^2} + a^2}{361}\\).\n\nTo simplify this expression, we need to find the common denominator, which is \\(361a^2\\):\n\n\\(\\frac{361 + a^4}{361a^2} = \\frac{a^4 + 361}{361a^2}\\).\n\nSince \\(a \\times b = 19\\), we have \\(a = 1\\) and \\(b = 19\\).\n\nSubstitute \\(a = 1\\) into the expression:\n\n\\(\\frac{1^4 + 361}{361 \\times 1^2} = \\frac{362}{361}\\).\n\nTherefore, the sum of the reciprocals of their squares is \\(\\frac{362}{361}\\).\n\nThe answer is D",
+        "parsed_answer": "D",
+        "is_correct": true
+    },
+    {
+        "question": "A man buys an article for rs.27.50 and sells it for rs.28.50. find his gain percentage.\nOptions:\nA)4\nB)2\nC)1\nD)3\nE)None of them",
+        "ground_truth": "A",
+        "response": "The cost price of the article is rs.27.50 and the selling price is rs.28.50. \n\nThe gain is rs.28.50 - rs.27.50 = rs.1. \n\nThe gain percentage is calculated as (Gain / Cost Price) * 100 = (1 / 27.50) * 100 \u2248 3.64%\n\nTherefore, the answer is: The answer is D",
+        "parsed_answer": "D",
+        "is_correct": false
+    },
+    {
+        "question": "one man can do a piece of work in 10days. one boys join him & he complete the work in 6days . if he gets 50rs for his work then what will be the share of the boy.\nOptions:\nA)10\nB)20\nC)30\nD)40\nE)50",
+        "ground_truth": "B",
+        "response": "Let the work be represented by 1 unit. \n\nThe man's work rate is 1/10 of the work per day. When the boy joins, their combined work rate is 1/10 + 1/x = 1/6, where x is the boy's work rate.\n\nSolving the equation 1/10 + 1/x = 1/6 for x, we get x = 15.\n\nTherefore, the boy's work rate is 1/15 of the work per day.\n\nThe ratio of the man's share to the boy's share is inversely proportional to their work rates. So, the boy's share is (1/15) / (1/10) = 10/15 = 2/3 of the total amount, which is 50rs.\n\nTherefore, the boy's share is (2/3) * 50 = 33.33 \u2248 30.\n\nThe answer is C",
+        "parsed_answer": "C",
+        "is_correct": false
+    },
+    {
+        "question": "In a certain random experiment, exactly one of the outcomes A, B, and V will occur. In each random experiment, the probability that outcome A will occur is 1/3 , and the probability that outcome B will occur is 1/3. What is the probability that when the random experiment is conducted 6 independent times, each of outcomes A, B, and V will occur twice?\nOptions:\nA)5/243\nB)1/12\nC)10/81\nD)1/6\nE)16/81",
+        "ground_truth": "C",
+        "response": "The probability of outcome A occurring is 1/3, and the probability of outcome B occurring is also 1/3. Therefore, the probability of outcome V occurring is 1 - (1/3 + 1/3) = 1/3.\n\nTo find the probability that each of outcomes A, B, and V will occur twice in 6 independent trials, we need to calculate the probability of this specific arrangement happening.\n\nThe number of ways to choose 2 trials out of 6 for outcome A to occur is given by the binomial coefficient C(6, 2) = 15.\nSimilarly, the number of ways to choose 2 trials out of 6 for outcome B to occur is also 15.\n\nTherefore, the total number of ways for outcomes A and B to occur twice each in 6 trials is 15 * 15 = 225.\n\nFor each of these 225 ways, outcome V will occur in the remaining 2 trials.\n\nThe probability of each specific arrangement happening is (1/3)^2 * (1/3)^2 * (1/3)^2 = (1/3)^6.\n\nTherefore, the total probability of outcomes A, B, and V occurring twice each in 6 independent trials is 225 * (1/3)^6 = 225/729 = 25/81.\n\nThe answer is not among the given options.",
+        "parsed_answer": null,
+        "is_correct": false
+    },
+    {
+        "question": "Find the expenditure on digging a well 14m deep and of 3m diameter at Rs.16 per cubic meter?\nOptions:\nA)2998\nB)2799\nC)2890\nD)1485\nE)1584",
+        "ground_truth": "E",
+        "response": "The volume of the well can be calculated using the formula for the volume of a cylinder: \\( V = \\pi r^2 h \\), where \\( r = \\frac{d}{2} = \\frac{3}{2} = 1.5 \\) meters and \\( h = 14 \\) meters.\n\n\\( V = \\pi \\times (1.5)^2 \\times 14 \\)\n\n\\( V = \\pi \\times 2.25 \\times 14 \\)\n\n\\( V = 31.5\\pi \\) cubic meters\n\nThe expenditure on digging the well at Rs.16 per cubic meter is:\n\n\\( 31.5\\pi \\times 16 = 504\\pi \\) Rs.\n\nApproximating \\( \\pi \\) to 3.14, we get:\n\n\\( 504 \\times 3.14 \\approx 1584 \\) Rs.\n\nTherefore, the answer is E) 1584",
+        "parsed_answer": "E",
+        "is_correct": true
+    },
+    {
+        "question": "How many words can be formed by using all letters of the word 'BIHAR'?\nOptions:\nA)720\nB)24\nC)120\nD)60\nE)None of these",
+        "ground_truth": "C",
+        "response": "The word 'BIHAR' has 5 letters. Therefore, the number of words that can be formed using all the letters is 5! = 5 x 4 x 3 x 2 x 1 = 120.\n\nThe answer is C) 120",
+        "parsed_answer": "C",
+        "is_correct": true
+    },
+    {
+        "question": "An bus covers a certain distance at aspeed of 240 kmph in 5 hours. To cover the same distance in 1hr, it must travel at a speed of?\nOptions:\nA)560 km/h\nB)567 km/h\nC)779 km/h\nD)723 km/h\nE)720 km/h",
+        "ground_truth": "E",
+        "response": "The bus covers a distance of 240 kmph in 5 hours, so the total distance covered is 240 kmph * 5 hours = 1200 km.\n\nTo cover the same distance in 1 hour, the bus must travel at a speed of 1200 kmph.\n\nTherefore, the answer is: The answer is A",
+        "parsed_answer": "A",
+        "is_correct": false
+    },
+    {
+        "question": "What is the units' digit of the following expression (13)^5*(19)^5*(17)^5?\nOptions:\nA)0\nB)1\nC)3\nD)5\nE)9",
+        "ground_truth": "E",
+        "response": "To find the units' digit of the expression (13)^5*(19)^5*(17)^5, we can focus on the units' digit of each number raised to the power of 5.\n\nFor 13^5:\nThe units' digit of 13^1 is 3.\nWhen 3 is raised to any power that is a multiple of 4, the units' digit is 1.\nSince 5 is a multiple of 4, the units' digit of 13^5 is 1.\n\nFor 19^5:\nThe units' digit of 19^1 is 9.\nWhen 9 is raised to any power that is an odd number, the units' digit remains 9.\nSince 5 is an odd number, the units' digit of 19^5 is 9.\n\nFor 17^5:\nThe units' digit of 17^1 is 7.\nWhen 7 is raised to any power that is a multiple of 4, the units' digit is 1.\nSince 5 is not a multiple of 4, we need to calculate the units' digit of 17^5.\n\n17^1 = 7\n17^2 = 9 (units' digit)\n17^3 = 3 (units' digit)\n17^4 = 1 (units' digit)\n17^5 = 7 (units' digit)\n\nNow, multiplying the units' digits of 13^5, 19^5, and 17^5:\n1 * 9 * 7 = 63\n\nTherefore, the units' digit of the expression (13)^5*(19)^5*(17)^5 is 3.\n\nThe answer is C) 3",
+        "parsed_answer": "C",
+        "is_correct": false
+    }
+]
